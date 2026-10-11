@@ -71,6 +71,7 @@ public class ContentLoader{
         SectorPresets.load();
         SerpuloTechTree.load();
         ErekirTechTree.load();
+        WatchCampaign.load();
     }
 
     /** Creates mod content, if applicable. */

@@ -1129,7 +1129,10 @@ public class HudFragment{
                 return builder;
             }
 
-            if(state.rules.winWave > 1 && state.rules.winWave >= state.wave){
+            if(WatchCampaign.level() >= 0){
+                int goal = WatchCampaign.stages[WatchCampaign.level()].waves();
+                builder.append(wavefc.get(Mathf.clamp(state.wave - 1, 1, goal), goal));
+            }else if(state.rules.winWave > 1 && state.rules.winWave >= state.wave){
                 builder.append(wavefc.get(state.wave, state.rules.winWave));
             }else{
                 builder.append(wavef.get(state.wave));

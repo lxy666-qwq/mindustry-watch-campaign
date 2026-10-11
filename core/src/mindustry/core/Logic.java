@@ -317,6 +317,7 @@ public class Logic implements ApplicationListener{
     }
 
     public void runWave(){
+        WatchCampaignEvents.beforeWave();
         spawner.spawnEnemies();
         state.wave++;
         state.wavetime = state.rules.waveSpacing * (state.isCampaign() ? state.getPlanet().campaignRules.difficulty.waveTimeMultiplier : 1f);

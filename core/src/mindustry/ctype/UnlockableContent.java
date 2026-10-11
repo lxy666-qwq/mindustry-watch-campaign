@@ -274,7 +274,7 @@ public abstract class UnlockableContent extends MappableContent{
     public boolean unlockedHost(){
         return net != null && net.client() ?
             alwaysUnlocked || state.rules.researched.contains(this) :
-            unlocked || alwaysUnlocked;
+            unlocked || alwaysUnlocked || WatchCampaign.available(this);
     }
 
     /** @return whether this content is unlocked, or the player is in a custom (non-campaign) game. */
@@ -285,7 +285,7 @@ public abstract class UnlockableContent extends MappableContent{
     public boolean unlocked(){
         return net != null && net.client() ?
             alwaysUnlocked || unlocked || state.rules.researched.contains(this) :
-            unlocked || alwaysUnlocked;
+            unlocked || alwaysUnlocked || WatchCampaign.available(this);
     }
 
     /** Locks this content again. */

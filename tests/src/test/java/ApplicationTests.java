@@ -895,7 +895,9 @@ public class ApplicationTests{
                 assertFalse(state.rules.allowEditRules, "Sector " + sector.name + " must not have rule editing enabled.");
                 assertFalse(state.rules.allowEditWorldProcessors, "Sector " + sector.name + " must not have world processor editing enabled.");
                 assertEquals(Team.sharded, state.rules.defaultTeam, "Sector " + sector.name + " must have the Sharded player team.");
-                assertEquals(Vars.state.getPlanet() == Planets.serpulo ? Team.crux : Team.malis, state.rules.waveTeam, "Sector " + sector.name + " must have the correct enemy team.");
+                var planetRules = new Rules();
+                sector.planet.ruleSetter.get(planetRules);
+                assertEquals(planetRules.waveTeam, state.rules.waveTeam, "Sector " + sector.name + " must have its planet's enemy team.");
 
                 Seq<TimerObjective> timers = state.rules.objectives.all.select(m -> m instanceof TimerObjective && !m.hidden && ((TimerObjective)m).text != null &&
                 !((TimerObjective)m).text.isEmpty() && !((TimerObjective)m).text.contains("@")).as();
