@@ -1,0 +1,12 @@
+setrate 1000
+set i 0
+getflag sr7 "s1d"
+jump 5 equal sr7 1
+end
+query circle building @crux 190 265 27 10
+sensor size @queries @size
+read bd @queries i
+setprop @team bd 0
+op add i i 1
+jump 7 lessThan i size
+stop

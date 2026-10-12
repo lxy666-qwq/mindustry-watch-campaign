@@ -1,0 +1,3 @@
+getflag expandMap "expandMap"
+jump 0 equal expandMap 0
+setrule mapArea 10 0 0 @mapw @maph

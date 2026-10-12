@@ -1,0 +1,14 @@
+sensor x foundation1 @x
+sensor y foundation1 @y
+sensor dead foundation1 @dead
+fetch coreCount enemycores @crux 0 @conveyor
+jump 2 notEqual dead true
+wait 5
+jump 12 equal enemycores 0
+explosion @crux x y 8 200 true true true true
+spawn @arkyid x y 90 @crux arkyid
+setprop @shield arkyid 5000
+status false fast arkyid 88005553535
+stop
+effect cross x y 2 %ffaaff 
+stop

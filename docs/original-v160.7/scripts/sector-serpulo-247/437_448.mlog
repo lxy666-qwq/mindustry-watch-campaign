@@ -1,0 +1,16 @@
+getlink c0 0
+getlink c1 1
+setrate 10
+set t 0
+fetch build l @crux t @illuminator
+jump 3 equal l null
+sensor d0 c0 @dead
+sensor d1 c1 @dead
+jump 12 notEqual d1 1
+jump 12 notEqual d0 1
+setprop @health l 0
+setprop @totalPower l 0
+op add t t 1
+jump 4 always l null
+setblock block @air 0 0 @derelict 0
+control color block1 0 0 0 0

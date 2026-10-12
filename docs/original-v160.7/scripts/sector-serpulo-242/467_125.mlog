@@ -1,0 +1,4 @@
+ubind @toxopid
+ulocate building core true @copper outx outy found building
+ucontrol move outx outy 0 0 0
+ucontrol target outx outy 1 0 0

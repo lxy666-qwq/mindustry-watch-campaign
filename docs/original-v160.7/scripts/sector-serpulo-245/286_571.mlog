@@ -1,0 +1,60 @@
+setrate 1
+radar player player player distance @this 1 player
+sensor sy player @cameraY
+sensor sx player @cameraX
+set timeS @second
+jump 9 equal was3 1
+op rand timeY 1400 b
+op add wEnd timeY 350
+set was3 1
+set wave @waveNumber
+jump 12 equal was4 1
+jump 49 greaterThan timeS wEnd
+jump 14 equal was 1
+jump 38 equal wave 2
+jump 25 lessThan sy 200
+weatherset @suspend-particles 1
+jump 31 greaterThan sy 350
+weatherset @sporestorm 1
+weatherset @rain 1
+weatherset @fog 1
+weatherset @sandstorm 0
+jump 23 lessThan sx 310
+weatherset @snowing 1
+weatherset @snowing 0
+end
+weatherset @sandstorm 1
+weatherset @snowing 0
+weatherset @rain 0
+weatherset @sporestorm 0
+weatherset @fog 0
+end
+weatherset @snowing 1
+weatherset @fog 1
+weatherset @sporestorm 1
+jump 36 greaterThan sy 500
+weatherset @rain 0
+weatherset @sandstorm 0
+end
+weatherset @snowing 1
+weatherset @sporestorm 1
+weatherset @fog 1
+weatherset @suspend-particles 1
+weatherset @rain 0
+weatherset @sandstorm 0
+wait 1
+op add sec sec 1
+jump 38 lessThan sec 5
+set was 1
+end
+weatherset @snowing 0
+weatherset @sporestorm 0
+weatherset @rain 0
+weatherset @fog 0
+weatherset @suspend-particles 0
+weatherset @sandstorm 0
+op rand wRad 275 b
+op add wRod wRad 30
+set was4 1
+wait wRod
+end

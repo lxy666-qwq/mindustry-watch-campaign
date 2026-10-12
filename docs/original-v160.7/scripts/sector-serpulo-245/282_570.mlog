@@ -1,0 +1,29 @@
+setrate 1
+op rand act1 1500 b
+op add act1 act1 250
+set timeS @second
+jump 10 greaterThan timeS act1
+control enabled processor1 0 0 0 0
+control enabled processor2 0 0 0 0
+set storm 0
+write storm processor3 "storm"
+jump 3 always x false
+control enabled processor1 1 0 0 0
+control enabled processor2 1 0 0 0
+set storm 1
+write storm processor3 "storm"
+jump 17 equal timeOff 0
+jump 23 greaterThan timeS timeOff
+jump 22 equal was 1
+wait 0.5
+set was 1
+op rand rand 150 b
+op add timeEnd 200 rand
+op add timeOff timeEnd timeS
+jump 3 always x false
+control enabled processor1 0 0 0 0
+control enabled processor2 0 0 0 0
+set storm 0
+write storm processor3 "storm"
+wait 0.001
+stop

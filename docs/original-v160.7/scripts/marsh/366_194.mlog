@@ -1,0 +1,4 @@
+getflag expand "setupComplete"
+jump 3 equal expand true
+end
+setrule mapArea 10 0 0 @mapw @maph

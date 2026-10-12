@@ -1,0 +1,68 @@
+getflag e1 "e1"
+sensor team factory1 @team
+op notEqual team team 2
+op or enable team e1
+control enabled factory1 enable 0 0 0
+sensor team factory2 @team
+op notEqual team team 2
+op or enable team e1
+control enabled factory2 enable 0 0 0
+sensor team factory3 @team
+op notEqual team team 2
+op or enable team e1
+control enabled factory3 enable 0 0 0
+getflag e2 "e2"
+sensor team factory4 @team
+op notEqual team team 2
+op or enable team e2
+control enabled factory4 e2 0 0 0
+sensor team factory5 @team
+op notEqual team team 2
+op or enable team e2
+control enabled factory5 e2 0 0 0
+sensor team factory6 @team
+op notEqual team team 2
+op or enable team e2
+control enabled factory6 e2 0 0 0
+sensor team factory7 @team
+op notEqual team team 2
+op or enable team e2
+control enabled factory7 e2 0 0 0
+sensor team factory8 @team
+op notEqual team team 2
+op or enable team e2
+control enabled factory8 e2 0 0 0
+sensor team factory9 @team
+op notEqual team team 2
+op or enable team e2
+control enabled factory9 e2 0 0 0
+getflag e3 "e3"
+sensor team factory10 @team
+op notEqual team team 2
+op or enable team e3
+control enabled factory10 e3 0 0 0
+sensor team factory11 @team
+op notEqual team team 2
+op or enable team e3
+control enabled factory11 e3 0 0 0
+sensor team factory12 @team
+op notEqual team team 2
+op or enable team e3
+control enabled factory12 e3 0 0 0
+sensor team factory13 @team
+op notEqual team team 2
+op or enable team e3
+control enabled factory13 e3 0 0 0
+sensor team factory14 @team
+op notEqual team team 2
+op or enable team e3
+control enabled factory14 e3 0 0 0
+sensor team factory15 @team
+op notEqual team team 2
+op or enable team e3
+control enabled factory15 e3 0 0 0
+getflag e4 "e4"
+sensor team factory16 @team
+op notEqual team team 2
+op or enable team e4
+control enabled factory16 e4 0 0 0

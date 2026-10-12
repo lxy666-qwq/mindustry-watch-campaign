@@ -1,0 +1,16 @@
+fetch core cr @crux A @conveyor
+op add A A 1
+jump 4 equal cr null
+op add R R 1
+jump 0 lessThan A 8
+set A 0
+set X 481
+set Y 121
+jump 15 greaterThan R 0
+setblock block @shale-wall X Y @derelict 0
+op sub X X 1
+jump 9 greaterThan X 460
+op add Y Y 1
+set X 481
+jump 9 always x false
+set R 0

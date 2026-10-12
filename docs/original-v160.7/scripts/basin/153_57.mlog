@@ -1,0 +1,10 @@
+getflag result "nuke1"
+jump 0 notEqual result true
+set offset @minute
+op sub realtime @minute offset
+op div weight realtime 35
+op add weight weight 0.85
+setrule rtsMinWeight weight @malis 0 100 100
+op div weight weight 2
+setrule unitBuildSpeed weight @malis 0 100 100
+jump 3 always x false

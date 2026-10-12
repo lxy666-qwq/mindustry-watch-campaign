@@ -1,0 +1,7 @@
+fetch unitCount result @crux 0 @oct
+jump 0 lessThan result 60
+wait 50
+ubind @oct
+setprop @payloadType @unit @toxopide
+ucontrol flag 22 0 0 0 0
+ucontrol unbind 0 0 0 0 0

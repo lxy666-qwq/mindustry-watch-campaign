@@ -1,0 +1,20 @@
+getflag start "start"
+jump 0 notEqual start true
+spawn @quasar 148 131 180 @crux result
+spawn @quasar 148 131 180 @crux result
+spawn @quasar 148 131 180 @crux result
+spawn @quasar 148 131 180 @crux result
+spawn @quasar 148 131 180 @crux result
+spawn @quasar 148 131 180 @crux result
+spawn @quasar 148 131 180 @crux result
+spawn @quasar 148 131 180 @crux result
+spawn @quasar 148 131 180 @crux result
+spawn @quasar 148 131 180 @crux result
+spawn @quasar 148 131 180 @crux result
+spawn @quasar 148 131 180 @crux result
+spawn @quasar 148 131 180 @crux result
+spawn @quasar 148 131 180 @crux result
+spawn @quasar 148 131 180 @crux result
+spawn @quasar 148 131 180 @crux result
+spawn @quasar 148 131 180 @crux result
+stop

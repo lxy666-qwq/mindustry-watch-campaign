@@ -1,0 +1,24 @@
+setrate 1
+set wave @waveNumber
+jump 5 equal wass 1
+op rand rando 10 b
+op add rWave rando 10
+set wass 1
+jump 3 equal storm 1
+jump 1 lessThan wave rWave
+set timeS @second
+control enabled processor1 1 0 0 0
+control enabled processor2 1 0 0 0
+jump 14 equal timeOff 0
+jump 20 greaterThan timeS timeOff
+jump 8 equal was 1
+wait 0.5
+set was 1
+op rand rand 150 b
+op add timeEnd 200 rand
+op add timeOff timeEnd timeS
+jump 8 always x false
+control enabled processor1 0 0 0 0
+control enabled processor2 0 0 0 0
+wait 0.001
+stop

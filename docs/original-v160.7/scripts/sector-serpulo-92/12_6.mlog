@@ -1,0 +1,19 @@
+setrate 20
+fetch build c1 @crux 0 @core-nucleus
+jump 6 notEqual c1 null
+fetch build c1 @core-@crux 0 @core-foundation
+jump 6 notEqual c1 null
+fetch build c1 @core-@crux 0 @core-shard
+setprop @copper c1 5000
+setprop @lead c1 5000
+setprop @metaglass c1 5000
+setprop @graphite c1 5000
+setprop @titanium c1 5000
+setprop @thorium c1 5000
+setprop @silicon c1 5000
+setprop @plastanium c1 5000
+setprop @phase-fabric c1 5000
+setprop @surge-alloy c1 5000
+setprop @pyratite c1 5000
+jump 1 always x false
+sensor result block1 @core-nucleus

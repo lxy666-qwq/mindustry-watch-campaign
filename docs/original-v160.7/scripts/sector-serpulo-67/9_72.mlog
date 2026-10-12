@@ -1,0 +1,22 @@
+set i 0
+getflag sr2 "b2d"
+jump 4 equal sr2 1
+end
+playsound false @sfx-wave 2 1 0 @thisx @thisy true
+spawn @antumbra 360 450 270 @crux a1
+spawn @oct 370 450 270 @crux o1
+spawn @oct 390 450 270 @crux o2
+spawn @antumbra 400 450 270 @crux a2
+setprop @pyratite a1 180
+setprop @pyratite a2 180
+setprop @shield a1 2000
+setprop @shield a2 2000
+setprop @shield o1 1500
+setprop @shield o2 1500
+spawn @quad 380 450 270 @crux q
+setprop @pyratite q 140
+setprop @shield q 1000
+setprop @speed q 10
+op add i i 1
+jump 15 lessThan i 7
+stop

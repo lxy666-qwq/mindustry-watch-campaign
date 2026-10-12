@@ -1,0 +1,14 @@
+setrate 5
+ubind @oct
+sensor flag @unit @flag
+jump 5 equal flag 1
+end
+sensor payload @unit @blast-compound
+jump 12 notEqual payload 0
+sensor x nucleus2 @x
+sensor y nucleus2 @y
+ucontrol move x y 0 0 0
+ucontrol itemTake nucleus2 @blast-compound 260 0 0
+end
+ulocate building core true @copper outx outy found building
+ucontrol move outx outy 0 0 0

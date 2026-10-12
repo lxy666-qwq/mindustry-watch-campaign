@@ -1,0 +1,8 @@
+fetch build d @sharded i @duo
+sensor amount d @ammo
+op add i i 1
+fetch buildCount totalDuos @sharded 0 @duo
+op mod i i totalDuos
+jump 0 equal amount 0
+setflag "duoAmmo" true
+stop

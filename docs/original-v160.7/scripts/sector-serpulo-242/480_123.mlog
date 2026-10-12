@@ -1,0 +1,9 @@
+setrate 5
+ubind @zenith
+sensor flag @unit @flag
+jump 1 notEqual flag 0
+sensor fl @unit @firstItem
+jump 1 notEqual fl 0
+op rand rs 2 b
+select Itm greaterThan rs 1 @surge-alloy @blast-compound
+setprop Itm @unit 100

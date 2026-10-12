@@ -1,0 +1,34 @@
+getflag start "start"
+jump 0 notEqual start true
+getlink c0 0
+getlink c1 1
+getlink c2 2
+sensor d0 c0 @dead
+sensor d1 c1 @dead
+sensor d2 c2 @dead
+set un 0
+fetch unitCount ut @sharded 0 @reign
+op add un un ut
+fetch unitCount ut @sharded 0 @corvus
+op add un un ut
+fetch unitCount ut @sharded 0 @toxopid
+op add un un ut
+fetch unitCount ut @sharded 0 @eclipse
+op add un un ut
+fetch unitCount ut @sharded 0 @oct
+op add un un ut
+fetch unitCount ut @sharded 0 @omura
+op add un un ut
+fetch unitCount ut @sharded 0 @navanax
+op add un un ut
+jump 32 equal d2 1
+jump 28 equal d1 1
+jump 28 equal d0 1
+jump 28 greaterThan un 0
+jump 5 always d0 false
+setflag "nuc1" true
+sensor d2 c2 @dead
+jump 32 equal d2 1
+jump 29 always d0 false
+setflag "nuc2" true
+stop

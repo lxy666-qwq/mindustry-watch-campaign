@@ -1,0 +1,3 @@
+getflag units "setupFinished"
+control enabled fabricator1 units 0 0 0
+control enabled fabricator2 units 0 0 0

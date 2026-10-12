@@ -1,0 +1,14 @@
+jump 1 always th 200
+setprop @sand nucleus1 6500
+setprop @pyratite nucleus1 6500
+setprop @spore-pod nucleus1 6500
+setprop @blast-compound nucleus1 6500
+setprop @coal nucleus1 6500
+setprop @metaglass nucleus1 6500
+setprop @titanium nucleus1 6500
+setprop @thorium nucleus1 6500
+setprop @graphite nucleus1 6500
+setprop @plastanium nucleus1 6500
+setprop @surge-alloy nucleus1 6500
+setprop @phase-fabric nucleus1 6500
+setprop @silicon nucleus1 6500

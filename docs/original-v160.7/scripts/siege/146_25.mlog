@@ -1,0 +1,3 @@
+getflag def "def"
+jump 0 notEqual def true
+setrule mapArea 10 0 0 @mapw @maph

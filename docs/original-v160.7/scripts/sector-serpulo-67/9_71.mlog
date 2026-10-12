@@ -1,0 +1,7 @@
+getflag htc "htp"
+set i 0
+getlink f i
+op add i i 1
+control enabled f htc 0 0 0
+jump 2 lessThan i @links
+end

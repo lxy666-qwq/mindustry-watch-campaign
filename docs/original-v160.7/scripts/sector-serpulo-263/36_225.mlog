@@ -1,0 +1,14 @@
+spawn @quasar 103 115 175 @sharded u0
+setprop @titanium u0 50
+spawn @quasar 101 113 100 @sharded u0
+setprop @titanium u0 50
+getblock building c0 99 77
+getblock building c1 103 77
+getblock building c2 98 82
+setprop @graphite c0 1000
+setprop @silicon c0 1000
+setprop @plastanium c1 1000
+setprop @metaglass c1 1000
+setprop @surge-alloy c2 300
+setprop @phase-fabric c2 300
+stop

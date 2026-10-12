@@ -1,0 +1,2 @@
+getflag units1 "units1"
+control enabled fabricator1 units1 0 0 0

@@ -1,0 +1,87 @@
+fetch coreCount links @crux 0 @conveyor
+setrate 1
+jump 10 equal was 4
+jump 9 equal was 3
+jump 8 equal was 2
+jump 7 equal was 1
+jump 12 equal links 5
+jump 12 equal links 4
+jump 12 equal links 3
+jump 12 equal links 2
+jump 24 equal links 1
+end
+playsound false @sfx-chargeVela 5 1 2 @thisx @thisy true
+wait 1
+setrate 2
+playsound false @sfx-unitCreateBig 5 1 2 @thisx @thisy true
+spawn @oct 247 525 180 @crux uSpawn true
+effect crossExplosion 247 525 5 %800000 
+setprop @armor uSpawn 2
+set links @links
+setprop @speed uSpawn 10
+setprop @shield uSpawn 20000
+op add was was 1
+end
+cutscene pan 247 525 0.06 0
+setrate 2
+wait 1
+effect trail 247 525 27.5 %810000b0 
+playsound true @sfx-chargeVela 7 1 0 247 525 true
+spawn @oct 247 525 0 @crux LcoreSpawn true
+wait 1.2
+effect trail 247 525 27.5 %810000b0 
+playsound true @sfx-chargeVela 7 1 0 247 525 true
+spawn @oct 247 525 0 @crux LcoreSpawn2 true
+wait 1.2
+effect trail 247 525 27.5 %810000b0 
+playsound true @sfx-chargeVela 7 1 0 247 525 true
+spawn @oct 247 525 0 @crux LcoreSpawn3 true
+status false boss LcoreSpawn 10
+status false boss LcoreSpawn2 10
+status false boss LcoreSpawn3 10
+setprop @speed LcoreSpawn 15
+setprop @speed LcoreSpawn2 15
+setprop @speed LcoreSpawn3 15
+setprop @armor LcoreSpawn 30
+setprop @armor LcoreSpawn2 30
+setprop @armor LcoreSpawn 30
+setprop @shield LcoreSpawn 15000
+setprop @shield LcoreSpawn2 15000
+setprop @shield LcoreSpawn3 15000
+wait 3.6
+cutscene stop -100 525 0.06 0
+jump 58 equal was2 1
+ubind LcoreSpawn3
+ulocate building core false @copper cx cy found core
+set was2 1
+wait 0.2
+ucontrol unbind 0 0 0 0 0
+setrate 20
+set x cx
+set y cy
+set rot 0
+set r 40
+setrate 3
+set i 0
+op cos sin rot b
+op sin cos rot b
+op mul sin sin r
+op mul cos cos r
+op add lx x sin
+op add ly y cos
+jump 83 equal i 2
+jump 78 equal i 1
+ubind LcoreSpawn
+ucontrol move lx ly 0 0 0
+op add rot rot 120
+op add i i 1
+jump 65 always x false
+ubind LcoreSpawn2
+ucontrol move lx ly 0 0 0
+op add rot rot 120
+op add i i 1
+jump 65 always x false
+ubind LcoreSpawn3
+ucontrol move lx ly 0 0 0
+op sub rot rot 239.1
+jump 64 always x false

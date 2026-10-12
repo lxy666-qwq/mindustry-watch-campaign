@@ -1,0 +1,6 @@
+getflag t "T1"
+getlink re a
+control enabled re t 0 0 0
+op add a a 1
+jump 0 lessThanEq a 44
+set a 0

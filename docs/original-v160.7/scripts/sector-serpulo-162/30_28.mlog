@@ -1,0 +1,7 @@
+control enabled door1 0 0 0 0
+wait 480
+control enabled door1 1 0 0 0
+wait 120
+control enabled door1 0 0 0 0
+wait 120
+jump 2 always x false

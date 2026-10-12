@@ -1,0 +1,24 @@
+setrate 1
+getflag escalation5 "T5"
+jump 5 equal was 1
+jump 18 equal cutscene 2
+jump 18 equal cutscene 1
+jump 12 equal escalation5 true
+control enabled door1 0 0 0 0
+control enabled door2 0 0 0 0
+control enabled door3 0 0 0 0
+control enabled door4 0 0 0 0
+control enabled door5 0 0 0 0
+end
+control enabled door1 1 0 0 0
+control enabled door2 1 0 0 0
+control enabled door3 1 0 0 0
+control enabled door4 1 0 0 0
+control enabled door5 1 0 0 0
+stop
+cutscene zoom 0.125 100 0.06 0
+cutscene pan 247 525 0.03 0
+wait 6
+cutscene stop 247 525 0.02 0
+set was 1
+end

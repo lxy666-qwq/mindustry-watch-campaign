@@ -1,0 +1,7 @@
+setrate 1
+wait 95
+control enabled door1 0 0 0 0
+control enabled door2 1 0 0 0
+wait 95
+control enabled door1 1 0 0 0
+control enabled door2 0 0 0 0

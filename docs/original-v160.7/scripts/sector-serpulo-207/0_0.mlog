@@ -1,0 +1,29 @@
+getflag e "a1"
+control enabled factory1 e 0 0 0
+control enabled factory2 e 0 0 0
+control enabled factory3 e 0 0 0
+control enabled factory16 e 0 0 0
+control enabled factory17 e 0 0 0
+control enabled factory18 e 0 0 0
+control enabled factory19 e 0 0 0
+control enabled factory20 e 0 0 0
+control enabled factory21 e 0 0 0
+control enabled factory22 e 0 0 0
+control enabled factory23 e 0 0 0
+control enabled factory24 e 0 0 0
+getflag e "g1"
+control enabled factory4 e 0 0 0
+control enabled factory5 e 0 0 0
+control enabled factory6 e 0 0 0
+control enabled factory7 e 0 0 0
+control enabled factory9 e 0 0 0
+control enabled factory10 e 0 0 0
+control enabled factory11 e 0 0 0
+control enabled factory12 e 0 0 0
+getflag e "t2"
+control enabled factory8 e 0 0 0
+control enabled factory13 e 0 0 0
+getflag e "a2"
+control enabled factory14 e 0 0 0
+getflag e "g2"
+control enabled factory15 e 0 0 0

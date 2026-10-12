@@ -1,0 +1,12 @@
+setrate 2
+ubind @quasar
+sensor flag @unit @flag
+jump 1 notEqual flag false
+ucontrol within 225 120 2 r 0
+jump 10 equal r false
+ucontrol flag 123 0 0 0 0
+ucontrol boost 0 0 0 0 0
+ucontrol unbind 0 0 0 0 0
+end
+ucontrol boost 1 0 0 0 0
+ucontrol move 225 120 3 r 0

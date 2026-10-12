@@ -1,0 +1,11 @@
+wait 120
+op add c1 c1 1
+op mod c c1 x2
+fetch build x @crux c @power-source
+fetch buildCount x2 @crux 0 @power-source
+sensor x4 x @x
+sensor y x @y
+setblock block @thorium-wall x4 y @crux 0
+op add c6 c6 1
+jump 1 lessThan c6 150
+stop

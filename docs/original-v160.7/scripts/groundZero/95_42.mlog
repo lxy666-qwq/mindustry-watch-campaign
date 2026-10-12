@@ -1,0 +1,5 @@
+getflag waves "allowWaves"
+jump 0 equal waves false
+setflag "allowWaves" false
+setrule waveSending true 0 0 100 100
+setrule waveTimer true 0 0 100 100

@@ -1,0 +1,33 @@
+setrate 1
+fetch coreCount cores @crux 0 @conveyor
+wait 1
+jump 5 equal cores 1
+end
+wait 300
+playsound false @sfx-chargeVela 7 1 0 247 525 true
+spawn @reign 247 525 0 @crux unit1 true
+wait 0.4
+op add Sunit1 Sunit1 1
+setprop @shield unit1 7500
+setprop @speed unit1 3
+playsound false @sfx-blockPlace1 7 1 0 247 525 true
+jump 7 notEqual Sunit1 10
+wait 1.5
+playsound false @sfx-chargeVela 7 1 0 247 525 true
+spawn @toxopid 247 525 0 @crux unit2 true
+setprop @speed unit2 4.5
+setprop @shield unit2 7500
+playsound false @sfx-blockPlace2 7 1 0 247 525 true
+wait 0.4
+op add Sunit2 Sunit2 1
+jump 16 notEqual Sunit2 10
+wait 1.5
+playsound false @sfx-chargeVela 7 1 0 247 525 true
+spawn @corvus 247 525 0 @crux unit3 true
+setprop @speed unit3 5
+setprop @shield unit3 7500
+playsound false @sfx-blockPlace3 7 1 0 247 525 true
+wait 0.4
+op add Sunit3 Sunit3 1
+jump 25 notEqual Sunit3 10
+stop

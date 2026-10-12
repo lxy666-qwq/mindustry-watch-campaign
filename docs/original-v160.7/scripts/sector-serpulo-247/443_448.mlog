@@ -1,0 +1,20 @@
+wait 1
+setblock block @container 80 228 @sharded 0
+setblock block @container 83 228 @sharded 0
+setblock block @container 86 228 @sharded 0
+setblock block @container 89 228 @sharded 0
+wait 0.1
+getlink a0 0
+getlink a1 1
+getlink a2 2
+getlink a3 3
+setprop @silicon a0 300
+setprop @copper a0 300
+setprop @silicon a1 300
+setprop @copper a1 300
+setprop @silicon a2 300
+setprop @graphite a2 300
+setprop @silicon a3 300
+setprop @graphite a3 300
+stop
+sensor result block1 @copper

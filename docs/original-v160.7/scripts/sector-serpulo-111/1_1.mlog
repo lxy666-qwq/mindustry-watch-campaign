@@ -1,0 +1,61 @@
+setrate 20
+spawn @oct 155 499 90 @crux o1
+spawn @oct 155 499 90 @crux o3
+spawn @oct 155 499 90 @crux o5
+setprop @speed o1 40
+setprop @speed o2 40
+setprop @speed o3 40
+setprop @speed o4 40
+setprop @speed o5 40
+setprop @speed o6 40
+set rot 0
+set r 40
+set x 155
+set y 499
+set i 0
+op cos sin rot b
+op sin cos rot b
+op mul sin sin r
+op mul cos cos r
+op add lx x sin
+op add ly y cos
+jump 56 equal i 5
+jump 50 equal i 4
+jump 44 equal i 3
+jump 38 equal i 2
+jump 32 equal i 1
+ubind o1
+setprop @blast-compound @unit 999
+ucontrol move lx ly 0 0 0
+op add rot rot 60
+op add i i 1
+jump 15 always i 1
+ubind o2
+setprop @blast-compound @unit 999
+ucontrol move lx ly 0 0 0
+op add rot rot 60
+op add i i 1
+jump 15 always i 1
+ubind o3
+setprop @blast-compound @unit 999
+ucontrol move lx ly 0 0 0
+op add rot rot 60
+op add i i 1
+jump 15 always i 1
+ubind o4
+setprop @blast-compound @unit 999
+ucontrol move lx ly 0 0 0
+op add rot rot 60
+op add i i 1
+jump 15 always i 1
+ubind o5
+setprop @blast-compound @unit 999
+ucontrol move lx ly 0 0 0
+op add rot rot 60
+op add i i 1
+jump 15 always i 1
+ubind o6
+setprop @blast-compound @unit 999
+ucontrol move lx ly 0 0 0
+op sub rot rot 299.1
+jump 14 always x false

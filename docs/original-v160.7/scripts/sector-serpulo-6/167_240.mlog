@@ -1,0 +1,101 @@
+setrate 100
+getlink c0 0
+getlink c1 1
+getlink c2 2
+getlink c3 3
+sensor d0 c0 @dead
+sensor d1 c1 @dead
+sensor d2 c2 @dead
+sensor d3 c3 @dead
+op equal d0 d0 1
+op equal d1 d1 1
+op equal d2 d2 1
+op equal d3 d3 1
+set d 0
+op add d d d0
+op add d d d1
+op add d d d2
+op add d d d3
+jump 5 lessThanEq d 1
+setrate 400
+wait 3
+wait 6
+playsound false @sfx-waveSpawn 1 1 0 @thisx @thisy true
+spawn @zenith 105 400 270 @crux u1
+spawn @zenith 210 400 270 @crux u2
+spawn @zenith 315 400 270 @crux u3
+spawn @zenith 105 340 270 @crux u4
+spawn @zenith 210 340 270 @crux u5
+spawn @zenith 315 340 270 @crux u6
+setprop @blast-compound u1 80
+setprop @blast-compound u2 80
+setprop @blast-compound u3 80
+setprop @blast-compound u4 80
+setprop @blast-compound u5 80
+setprop @blast-compound u6 80
+setprop @shield u1 3300
+setprop @shield u2 3300
+setprop @shield u3 3300
+setprop @shield u4 3300
+setprop @shield u5 3300
+setprop @shield u6 3300
+setprop @speed u1 4.5
+setprop @speed u2 4.5
+setprop @speed u3 4.5
+setprop @speed u4 4.5
+setprop @speed u5 4.5
+setprop @speed u6 4.5
+setprop @armor u1 8
+setprop @armor u2 8
+setprop @armor u3 8
+setprop @armor u4 8
+setprop @armor u5 8
+setprop @armor u6 8
+status false overdrive u1 10
+status false overdrive u2 10
+status false overdrive u3 10
+status false overdrive u4 10
+status false overdrive u5 10
+status false overdrive u6 10
+status false overclock u1 1000000
+status false overclock u2 1000000
+status false overclock u3 1000000
+status false overclock u4 1000000
+status false overclock u5 1000000
+status false overclock u6 1000000
+status false boss u1 1000000
+status false boss u2 1000000
+status false boss u3 1000000
+status false boss u4 1000000
+status false boss u5 1000000
+status false boss u6 1000000
+set t 0
+op add t t 0.5
+ubind u1
+ucontrol move 105 220 0 0 0
+ubind u2
+ucontrol move 210 220 0 0 0
+ubind u3
+ucontrol move 305 220 0 0 0
+ubind u4
+ucontrol move 105 160 0 0 0
+ubind u5
+ucontrol move 210 160 0 0 0
+ubind u6
+ucontrol move 305 160 0 0 0
+wait 0.5
+jump 74 lessThan t 30
+ubind u1
+ucontrol unbind 305 180 0 0 0
+ubind u2
+ucontrol unbind 305 180 0 0 0
+ubind u3
+ucontrol unbind 305 180 0 0 0
+ubind u4
+ucontrol unbind 305 180 0 0 0
+ubind u5
+ucontrol unbind 305 180 0 0 0
+ubind u6
+ucontrol unbind 305 180 0 0 0
+stop
+sensor result block1 @zenith

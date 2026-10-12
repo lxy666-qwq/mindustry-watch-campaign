@@ -1,0 +1,8 @@
+fetch buildCount gens @sharded 0 @combustion-generator
+set i 0
+fetch build gen @sharded i @combustion-generator
+sensor eff gen @efficiency
+jump 7 lessThanEq eff 0
+setflag "power" true
+end
+jump 2 lessThan x gens

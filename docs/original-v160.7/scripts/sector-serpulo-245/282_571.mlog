@@ -1,0 +1,48 @@
+setrate 1
+fetch coreCount links @crux 0 @conveyor
+jump 4 equal links 1
+end
+wait 4.35
+effect trail 247 525 27.5 %810000b0 
+playsound true @sfx-chargeVela 7 1 0 247 525 true
+spawn @oct 247 525 0 @crux LcoreSpawn4 true
+wait 1.2
+effect trail 247 525 27.5 %810000b0 
+playsound true @sfx-chargeVela 7 1 0 247 525 true
+spawn @oct 247 525 0 @crux LcoreSpawn5 true
+status false boss LcoreSpawn4 10
+status false boss LcoreSpawn5 10
+setprop @speed LcoreSpawn4 15
+setprop @speed LcoreSpawn5 15
+setprop @armor LcoreSpawn4 60
+setprop @armor LcoreSpawn5 60
+setprop @shield LcoreSpawn4 20000
+setprop @shield LcoreSpawn5 20000
+jump 26 equal was2 1
+ubind LcoreSpawn4
+ulocate building core false @copper cx cy found core
+set was2 1
+ucontrol unbind 0 0 0 0 0
+wait 0.2
+setrate 20
+set x cx
+set y cy
+set rot 0
+set r 12.5
+set i 0
+op sin sin rot b
+op cos cos rot b
+op mul sin sin r
+op mul cos cos r
+op add lx x sin
+op add ly y cos
+jump 44 equal i 1
+ubind LcoreSpawn4
+ucontrol move lx ly 0 0 0
+op sub rot rot 180
+set i 1
+jump 32 always x false
+ubind LcoreSpawn5
+ucontrol move lx ly 0 0 0
+op add rot rot 180.5
+jump 31 always x false

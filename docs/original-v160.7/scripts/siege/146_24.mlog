@@ -1,0 +1,10 @@
+getflag u1 "u1"
+getflag u2 "u2"
+getflag u3 "u3"
+control enabled refabricator1 u1 0 0 0
+control enabled refabricator2 u1 0 0 0
+control enabled refabricator3 u2 0 0 0
+control enabled refabricator4 u2 0 0 0
+control enabled refabricator5 u2 0 0 0
+control enabled refabricator6 u2 0 0 0
+control enabled refabricator7 u3 0 0 0

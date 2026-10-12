@@ -1,0 +1,6 @@
+getflag escalation "t4"
+fetch buildCount count @crux 0 @exponential-reconstructor
+op add i i 1
+op mod i i count
+fetch build build @crux i @exponential-reconstructor
+control enabled build escalation 0 0 0

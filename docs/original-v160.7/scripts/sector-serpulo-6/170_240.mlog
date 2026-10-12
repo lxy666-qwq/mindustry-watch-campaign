@@ -1,0 +1,13 @@
+getblock building b0 215 110
+getlink b1 1
+getlink b2 2
+getlink b3 3
+setprop @thorium b0 988
+setprop @metaglass b0 205
+setprop @team b0 @1
+setprop @lead b1 271
+setprop @silicon b2 57
+setprop @lead b2 25
+setprop @silicon b3 56
+setprop @coal b3 15
+stop

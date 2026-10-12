@@ -1,0 +1,51 @@
+getlink c 0
+sensor d c @dead
+jump 1 notEqual d true
+wait 3
+playsound false @sfx-wave 2 1 0 @thisx @thisy true
+spawn @zenith 80 500 270 @crux u1
+spawn @zenith 100 500 270 @crux u2
+spawn @zenith 120 500 270 @crux u3
+spawn @zenith 140 500 270 @crux u4
+spawn @zenith 160 500 270 @crux u5
+spawn @zenith 180 500 270 @crux u6
+spawn @zenith 200 500 270 @crux u7
+spawn @zenith 220 500 270 @crux u8
+setprop @blast-compound u1 80
+setprop @blast-compound u2 80
+setprop @blast-compound u3 80
+setprop @blast-compound u4 80
+setprop @blast-compound u5 80
+setprop @blast-compound u6 80
+setprop @blast-compound u7 80
+setprop @blast-compound u8 80
+setprop @shield u1 200
+setprop @shield u2 200
+setprop @shield u3 200
+setprop @shield u4 200
+setprop @shield u5 200
+setprop @shield u6 200
+setprop @shield u7 200
+setprop @shield u8 200
+set t 0
+op add t t 1
+ubind u1
+ucontrol move 126 311 0 0 0
+ubind u2
+ucontrol move 126 311 0 0 0
+ubind u3
+ucontrol move 126 311 0 0 0
+ubind u4
+ucontrol move 126 311 0 0 0
+ubind u5
+ucontrol move 126 311 0 0 0
+ubind u6
+ucontrol move 126 311 0 0 0
+ubind u7
+ucontrol move 126 311 0 0 0
+ubind u8
+ucontrol move 126 311 0 0 0
+wait 1
+jump 30 lessThan t 10
+stop
+sensor result block1 @zenith

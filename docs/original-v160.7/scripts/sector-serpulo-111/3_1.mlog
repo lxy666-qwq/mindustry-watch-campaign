@@ -1,0 +1,78 @@
+setrate 20
+spawn @oct 343 300 90 @crux o1
+spawn @oct 343 300 90 @crux o2
+spawn @oct 343 300 90 @crux o3
+spawn @oct 343 300 90 @crux o4
+spawn @oct 343 300 90 @crux o5
+spawn @oct 343 300 90 @crux o6
+setprop @speed o1 40
+setprop @speed o2 40
+setprop @speed o3 40
+setprop @speed o4 40
+setprop @speed o5 40
+setprop @speed o6 40
+set rot 0
+set r 40
+set x 343
+set y 300
+set offset_time 0
+set i 0
+op cos sin rot b
+op sin cos rot b
+op mul sin sin r
+op mul cos cos r
+op sin offset offset_time b
+op div offset offset 5
+op add offset offset 1
+op mul sin sin offset
+op add lx x sin
+op mul cos cos offset
+op add ly y cos
+jump 70 equal i 5
+jump 63 equal i 4
+jump 56 equal i 3
+jump 49 equal i 2
+jump 42 equal i 1
+ubind o1
+setprop @blast-compound @unit 999
+status false boss @unit 10
+ucontrol move lx ly 0 0 0
+op add rot rot 60
+op add i i 1
+jump 19 always i 1
+ubind o2
+setprop @blast-compound @unit 999
+status false boss @unit 10
+ucontrol move lx ly 0 0 0
+op add rot rot 60
+op add i i 1
+jump 19 always i 1
+ubind o3
+setprop @blast-compound @unit 999
+status false boss @unit 10
+ucontrol move lx ly 0 0 0
+op add rot rot 60
+op add i i 1
+jump 19 always i 1
+ubind o4
+setprop @blast-compound @unit 999
+status false boss @unit 10
+ucontrol move lx ly 0 0 0
+op add rot rot 60
+op add i i 1
+jump 19 always i 1
+ubind o5
+setprop @blast-compound @unit 999
+status false boss @unit 10
+ucontrol move lx ly 0 0 0
+op add rot rot 60
+op add i i 1
+jump 19 always i 1
+ubind o6
+setprop @blast-compound @unit 999
+status false boss @unit 10
+ucontrol move lx ly 0 0 0
+op add rot rot 60
+op add rot rot 0.6
+op add offset_time offset_time 5
+jump 18 always x false

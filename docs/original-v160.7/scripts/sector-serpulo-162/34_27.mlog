@@ -1,0 +1,2 @@
+getflag result "t5"
+control enabled reconstructor1 result 0 0 0

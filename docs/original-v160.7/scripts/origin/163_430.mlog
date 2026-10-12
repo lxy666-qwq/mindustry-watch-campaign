@@ -1,0 +1,3 @@
+getflag u2 "u2"
+control enabled refabricator1 u2 0 0 0
+control enabled refabricator2 u2 0 0 0

@@ -1,0 +1,4 @@
+getflag flag "flag2"
+control enabled factory1 flag 0 0 0
+control enabled factory2 flag 0 0 0
+control enabled factory3 flag 0 0 0

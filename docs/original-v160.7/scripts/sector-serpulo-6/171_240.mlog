@@ -1,0 +1,105 @@
+setrate 100
+getlink c0 0
+getlink c1 1
+getlink c2 2
+getlink c3 3
+sensor d0 c0 @dead
+sensor d1 c1 @dead
+sensor d2 c2 @dead
+sensor d3 c3 @dead
+op equal d0 d0 1
+op equal d1 d1 1
+op equal d2 d2 1
+op equal d3 d3 1
+set d 0
+op add d d d0
+op add d d d1
+op add d d d2
+op add d d d3
+jump 5 lessThanEq d 2
+setrate 400
+wait 3
+wait 6
+playsound false @sfx-waveSpawn 1 1 0 @thisx @thisy true
+spawn @mega 140 240 270 @crux u1
+spawn @mega 210 270 270 @crux u2
+spawn @mega 280 240 270 @crux u3
+spawn @spiroct 140 240 270 @crux u4
+spawn @spiroct 210 270 270 @crux u5
+spawn @spiroct 280 240 270 @crux u6
+setprop @blast-compound u1 80
+setprop @blast-compound u2 80
+setprop @blast-compound u3 80
+setprop @blast-compound u4 80
+setprop @blast-compound u5 80
+setprop @blast-compound u6 80
+setprop @shield u1 2000
+setprop @shield u2 2000
+setprop @shield u3 2000
+setprop @shield u4 2000
+setprop @shield u5 2000
+setprop @shield u6 2000
+setprop @armor u1 8
+setprop @armor u2 8
+setprop @armor u3 8
+setprop @armor u4 8
+setprop @armor u5 8
+setprop @armor u6 8
+status false fast u1 10000
+status false fast u2 10000
+status false fast u3 10000
+status false unmoving u4 100
+status false unmoving u5 100
+status false unmoving u6 100
+status false overdrive u4 10
+status false overdrive u5 10
+status false overdrive u6 10
+status false overclock u6 10000000000
+status false overclock u5 10000000000
+status false overclock u4 10000000000
+status false spore-slowed u6 10000000000
+status false spore-slowed u5 10000000000
+status false spore-slowed u4 10000000000
+set t 0
+op add t t 0.1
+ubind u1
+ucontrol payTake 1 240 0 0 0
+ubind u2
+ucontrol payTake 1 240 0 0 0
+ubind u3
+ucontrol payTake 1 240 0 0 0
+wait 0.1
+jump 65 lessThan t 2
+set t 0
+op add t t 0.5
+ubind u1
+ucontrol move 205 140 0 0 0
+ubind u2
+ucontrol move 210 120 0 0 0
+ubind u3
+ucontrol move 215 140 0 0 0
+wait 0.5
+jump 75 lessThan t 5
+op add t t 0.2
+ubind u1
+ucontrol payDrop 305 180 0 0 0
+ubind u2
+ucontrol payDrop 305 180 0 0 0
+ubind u3
+ucontrol payDrop 305 180 0 0 0
+wait 0.2
+status true unmoving u4 10
+status true unmoving u5 10
+status true unmoving u6 10
+status false boss u4 10
+status false boss u5 10
+status false boss u6 10
+jump 84 lessThan t 2
+ubind u1
+ucontrol unbind 305 180 0 0 0
+ubind u2
+ucontrol unbind 305 180 0 0 0
+ubind u3
+ucontrol unbind 305 180 0 0 0
+stop
+sensor result block1 @spiroct

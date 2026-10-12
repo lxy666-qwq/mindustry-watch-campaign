@@ -1,0 +1,5 @@
+getflag result "t4"
+control enabled reconstructor1 result 0 0 0
+control enabled reconstructor2 result 0 0 0
+control enabled reconstructor3 result 0 0 0
+control enabled reconstructor4 result 0 0 0

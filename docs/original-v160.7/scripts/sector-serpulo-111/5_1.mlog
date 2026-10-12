@@ -1,0 +1,8 @@
+control enabled factory2 0 0 0 0
+control enabled reconstructor1 0 0 0 0
+control enabled factory3 0 0 0 0
+wait 2400
+control enabled factory2 1 0 0 0
+control enabled reconstructor1 1 0 0 0
+control enabled factory3 1 0 0 0
+stop

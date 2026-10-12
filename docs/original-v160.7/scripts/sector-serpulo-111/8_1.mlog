@@ -1,0 +1,82 @@
+set x 154
+set y 498
+set check 0
+setrate 1000
+set seq 1
+op add seq seq 1100
+makemarker shape seq x y true
+setmarker shape seq 350 1 0
+setmarker drawLayer seq 130.0 1 0
+op add seq seq 1
+jump 6 lessThan seq 1150
+set n 1
+op rand deltax 2 b
+op rand deltay 1.999 b
+op sub deltax deltax 1
+op div deltax deltax 5
+op sub deltay deltay 1
+op div deltay deltay 5
+set r 20
+set t 0.5
+set xs x
+set ys y
+packcolor col 0.60 0.60 0.62 t
+set counter 0
+op sub deltan n 1
+op mul repeat deltan 5
+jump 35 equal check 1
+jump 35 equal n 1
+op add r r 0.1
+op sub t t 0.001333333
+packcolor col 0.50 0.50 0.52 t
+op add xs xs deltax
+op add ys ys deltay
+op add counter counter 1
+jump 28 lessThan counter repeat
+op mul sort n 6
+op add d1 sort 1
+write r cell1 d1
+op add d2 sort 2
+write t cell1 d2
+op add d3 sort 3
+write xs cell1 d3
+op add d4 sort 4
+write ys cell1 d4
+op add d5 sort 5
+write deltax cell1 d5
+op add d6 sort 6
+write deltay cell1 d6
+op add seq n 1100
+op mul sort n 6
+op add d1 sort 1
+op add d2 sort 2
+op add d3 sort 3
+op add d4 sort 4
+op add d5 sort 5
+op add d6 sort 6
+read r cell1 d1
+read t cell1 d2
+read xs cell1 d3
+read ys cell1 d4
+read deltax cell1 d5
+read deltay cell1 d6
+jump 12 equal r 0
+op add r r 0.3
+op sub t t 0.005
+packcolor col 0.60 0.60 0.62 t
+op add xs xs deltax
+op add ys ys deltay
+setmarker radius seq r 0 0
+setmarker color seq col 0 0
+setmarker pos seq xs ys 0
+write r cell1 d1
+write t cell1 d2
+write xs cell1 d3
+write ys cell1 d4
+jump 77 equal check 0
+jump 12 greaterThan r 49.9
+op add n n 1
+jump 48 lessThan n 50
+set n 1
+set check 1
+jump 48 always x false

@@ -1,0 +1,147 @@
+getflag go "attack"
+jump 0 equal go false
+wait 1
+setrule waves false 0 0 100 100
+cutscene pan 263 135 0.06 0
+cutscene zoom 0.1 135 0.06 0
+localeprint "atolls.noairunit"
+message announce 6 @wait
+setrule unitCap 4 0 0 100 100
+setblock block @air 210 306 @derelict 0
+setblock block @air 215 306 @derelict 0
+setblock block @air 220 306 @derelict 0
+setblock block @air 225 306 @derelict 0
+wait 0.02
+spawn @fortress 210 306 270 @sharded l1
+spawn @fortress 215 306 270 @sharded l2
+spawn @minke 220 306 270 @sharded n1
+spawn @minke 225 306 270 @sharded n2
+spawn @mega 110 400 270 @sharded m1
+spawn @mega 115 400 270 @sharded m2
+spawn @mega 120 400 270 @sharded m3
+spawn @mega 125 400 270 @sharded m4
+ubind m1
+ucontrol stop 0 0 0 0 0
+ubind m2
+ucontrol stop 0 0 0 0 0
+ubind m3
+ucontrol stop 0 0 0 0 0
+ubind m4
+ucontrol stop 0 0 0 0 0
+wait 0.2
+setrule unitCap 0 0 0 100 100
+localeprint "atolls.2strategies"
+message announce 4 @wait
+cutscene pan 221 110 0.05 0
+wait 1
+cutscene pan 183 104 0.01 0
+localeprint "atolls.attack1"
+message announce 4.5 @wait
+wait 4.5
+cutscene pan 294 77 0.05 0
+wait 1
+cutscene pan 251 70 0.01 0
+localeprint "atolls.attack2"
+message announce 4.5 @wait
+wait 4.5
+cutscene pan 216 296 15 0
+cutscene zoom 1 306 15 0
+wait 0.02
+cutscene pan 216 306 0.02 0
+localeprint "atolls.carry1"
+message toast 4.5 @wait
+ubind m1
+ucontrol move 210 306 0 0 0
+ubind m2
+ucontrol move 215 306 0 0 0
+ubind m3
+ucontrol move 220 306 0 0 0
+ubind m4
+ucontrol move 225 306 0 0 0
+localeprint "atolls.carry2"
+message toast 6 @wait
+wait 6
+ubind m1
+ucontrol payTake 1 306 0 0 0
+wait 0.1
+ubind m2
+ucontrol payTake 1 306 0 0 0
+wait 0.1
+ubind m3
+ucontrol payTake 1 306 0 0 0
+wait 0.1
+ubind m4
+ucontrol payTake 1 306 0 0 0
+cutscene zoom 0.5 306 15 0
+localeprint "atolls.carry3"
+message toast 5 @wait
+wait 5
+ubind m1
+ucontrol move 143 153 0 0 0
+ubind m2
+ucontrol move 143 155 0 0 0
+ubind m3
+ucontrol move 143 157 0 0 0
+ubind m4
+ucontrol move 143 159 0 0 0
+cutscene zoom 0.4 306 15 0
+cutscene pan 180 231.25 0.0042 0
+wait 1.5
+localeprint "atolls.carry4"
+message toast 14 @wait
+cutscene pan 162 194 0.0046 0
+wait 1.5
+cutscene pan 144 156.5 0.0051 0
+wait 6
+ubind m1
+ucontrol move 160 107 0 0 0
+ubind m2
+ucontrol move 160 101 0 0 0
+ubind m3
+ucontrol move 154 107 0 0 0
+ubind m4
+ucontrol move 154 101 0 0 0
+cutscene zoom 0.3 306 15 0
+cutscene pan 157 104 0.01 0
+wait 6
+localeprint "atolls.carry5"
+message toast 6 @wait
+setrule unitCap 6 0 0 100 100
+ubind m1
+ucontrol payDrop 0 0 0 0 0
+wait 0.2
+ubind m2
+ucontrol payDrop 0 0 0 0 0
+wait 0.2
+ubind m3
+ucontrol payDrop 0 0 0 0 0
+wait 0.2
+ubind m4
+ucontrol payDrop 0 0 0 0 0
+setrule unitCap 0 0 0 100 100
+wait 2
+ubind m1
+ucontrol move 0 0 0 0 0
+ubind m2
+ucontrol move 0 0 0 0 0
+ubind m3
+ucontrol move 0 0 0 0 0
+ubind m4
+ucontrol move 0 0 0 0 0
+wait 3
+setprop @health m1 0
+setprop @health m2 0
+setprop @health m3 0
+setprop @health m4 0
+localeprint "atolls.carry6"
+message toast 6 @wait
+cutscene pan 145 314 0.06 0
+cutscene zoom 0.25 314 0.06 0
+wait 2.5
+cutscene pan 178 109 0.06 0
+wait 2.5
+localeprint "atolls.carry7"
+message announce 5 @wait
+cutscene stop 100 100 0.06 0
+setrule waves true 0 0 100 100
+stop

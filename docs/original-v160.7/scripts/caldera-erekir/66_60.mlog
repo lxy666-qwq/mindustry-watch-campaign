@@ -1,0 +1,6 @@
+end
+spawn @elude 101 85 0 @sharded result
+spawn @elude 101 85 0 @sharded result
+spawn @elude 101 85 0 @sharded result
+jump 5 always x false
+jump 4 always x false

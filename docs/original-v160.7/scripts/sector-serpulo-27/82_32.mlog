@@ -1,0 +1,76 @@
+setrate 20
+spawn @oct 300 300 90 @crux o1
+spawn @oct 300 300 90 @crux o2
+spawn @oct 300 300 90 @crux o3
+spawn @oct 300 300 90 @crux o4
+spawn @oct 300 300 90 @crux o5
+spawn @oct 300 300 90 @crux o6
+setprop @speed o1 99
+setprop @speed o2 99
+setprop @speed o3 99
+setprop @speed o4 99
+setprop @speed o5 99
+setprop @speed o6 99
+setprop @armor o1 60
+setprop @armor o2 60
+setprop @armor o3 60
+setprop @armor o4 60
+setprop @armor o5 60
+setprop @armor o6 60
+setprop @shield o1 40000
+setprop @shield o2 40000
+setprop @shield o3 40000
+setprop @shield o4 40000
+setprop @shield o5 40000
+setprop @shield o6 40000
+status false shielded o1 99999999
+status false shielded o2 99999999
+status false shielded o3 99999999
+status false shielded o4 99999999
+status false shielded o5 99999999
+status false shielded o6 99999999
+set rot 0
+set r 210
+set x 299.5
+set y 299.5
+set i 0
+op cos sin rot b
+op sin cos rot b
+op mul sin sin r
+op mul cos cos r
+op add lx x sin
+op add ly y cos
+jump 72 equal i 5
+jump 67 equal i 4
+jump 62 equal i 3
+jump 57 equal i 2
+jump 52 equal i 1
+ubind o1
+ucontrol move lx ly 0 0 0
+op sub rot rot 60
+op add i i 1
+jump 36 always i 1
+ubind o2
+ucontrol move lx ly 0 0 0
+op sub rot rot 60
+op add i i 1
+jump 36 always i 1
+ubind o3
+ucontrol move lx ly 0 0 0
+op sub rot rot 60
+op add i i 1
+jump 36 always i 1
+ubind o4
+ucontrol move lx ly 0 0 0
+op sub rot rot 60
+op add i i 1
+jump 36 always i 1
+ubind o5
+ucontrol move lx ly 0 0 0
+op sub rot rot 60
+op add i i 1
+jump 36 always i 1
+ubind o6
+ucontrol move lx ly 0 0 0
+op add rot rot 299.8
+jump 35 always x false

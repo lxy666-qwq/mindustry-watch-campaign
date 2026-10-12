@@ -1,0 +1,2 @@
+op greaterThanEq isenabled @minute 3
+control enabled furnace1 isenabled 0 0 0

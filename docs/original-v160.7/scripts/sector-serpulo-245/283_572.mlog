@@ -1,0 +1,56 @@
+setrate 1
+ubind @mono
+jump 1 equal @unit 0
+sensor flag @unit @flag
+jump 6 equal flag 0
+jump 1 notEqual flag 1
+jump 11 equal @unit utag
+jump 10 equal utag 0
+sensor hp utag @health
+jump 18 greaterThan hp 0
+set utag @unit
+set count counter
+jump 14 lessThan count 40
+set attackMod true
+jump 16 greaterThan count 3
+set attackMod false
+set counter 0
+set jumpcounter 0
+op add counter counter 1
+op add jumpcounter jumpcounter 2
+op mod jumpcounter jumpcounter 12
+sensor flag @unit @flag
+jump 32 equal flag 1
+jump 32 equal attackMod true
+op mod mining counter 2
+jump 28 equal mining 0
+ulocate ore core true @copper outx outy found building
+jump 29 always found 0
+ulocate ore core true @lead outx outy found building
+ucontrol approach outx outy 5 0 0
+ucontrol mine outx outy 0 0 0
+end
+sensor first @unit @firstItem
+jump 42 equal first @blast-compound
+ulocate building core false @copper cx cy found core
+ucontrol move cx cy 0 0 0
+jump 39 equal first 0
+ucontrol itemDrop @air 999 999 0 0
+end
+ucontrol itemTake core @blast-compound 999 0 0
+ucontrol flag 1 cy 0 0 0
+end
+op add @counter @counter jumpcounter
+ulocate building turret true @copper cx cy found 0
+jump 54 notEqual found 0
+ulocate building factory true @copper cx cy found 0
+jump 54 notEqual found 0
+ulocate building reactor true @copper cx cy found 0
+jump 54 notEqual found 0
+ulocate building generator true @copper cx cy found 0
+jump 54 notEqual found 0
+ulocate building drill true @copper cx cy found 0
+jump 54 notEqual found 0
+ulocate building core true @copper cx cy found 0
+ucontrol move cx cy 0 0 0
+end

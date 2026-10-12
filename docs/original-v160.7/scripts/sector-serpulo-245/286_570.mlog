@@ -1,0 +1,74 @@
+setrate 1
+fetch coreCount coreS @crux 0 @conveyor
+jump 29 equal coreS 0
+setprop @cryofluid container1 999
+setprop @thorium conveyor1 999
+setprop @thorium reactor1 999
+setprop @thorium reactor2 999
+setprop @cryofluid reactor1 999
+setprop @cryofluid reactor2 999
+setprop @thorium container2 999
+setprop @totalPower battery1 999999
+setprop @totalPower battery2 999999
+setprop @water projector1 999999
+setprop @phase-fabric projector1 999999
+setprop @phase-fabric projector2 999999
+setprop @phase-fabric projector3 999999
+setprop @cryofluid tank1 999999
+setprop @cryofluid tank2 999999
+setprop @cryofluid container2 999999
+setprop @cryofluid container3 999999
+setprop @cryofluid container4 999999
+setprop @cryofluid container5 999999
+setprop @cryofluid container7 999999
+setprop @cryofluid reconstructor1 999999
+setprop @cryofluid reconstructor2 999999
+setprop @cryofluid reconstructor3 999999
+setprop @surge-alloy conveyor2 999999
+jump 31 equal wass 0
+end
+set stop 1
+stop
+op rand t1 850 b
+op rand t2 725 b
+op rand t3 630 b
+op rand t4 220 b
+op idiv tr1 t1 1
+op idiv tr2 t2 1
+op idiv tr3 t3 1
+jump 47 equal was 2
+jump 55 equal was 3
+setprop @silicon vault1 tr1
+setprop @plastanium vault1 tr2
+setprop @metaglass vault1 tr3
+setprop @sand vault1 tr4
+setprop @coal vault1 tr4
+set was 2
+end
+setprop @titanium vault2 tr1
+setprop @graphite vault2 tr2
+setprop @lead vault2 tr2
+setprop @phase-fabric vault2 tr3
+setprop @thorium vault2 tr4
+setprop @coal vault2 tr3
+set was 3
+end
+setprop @copper vault3 tr1
+setprop @pyratite vault3 tr2
+setprop @metaglass vault3 tr2
+setprop @surge-alloy vault3 tr3
+op rand t4 220 b
+setprop @thorium vault3 t4
+op rand t4 150 b
+setprop @spore-pod vault3 t4
+op rand t4 220 b
+setprop @silicon container6 t4
+op rand t4 220 b
+setprop @thorium container6 t4
+op rand t4 220 b
+setprop @titanium container6 t4
+op rand t4 220 b
+setprop @pyratite container6 t4
+set wass 1
+end
+stop

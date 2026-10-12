@@ -1,0 +1,10 @@
+fetch coreCount Co @crux 0 @conveyor
+wait 10
+fetch coreCount Ca @crux 0 @conveyor
+op add Ca Ca 1
+select Waw equal Ca Co 1 0
+jump 9 equal Waw 0
+op add Wn @waveNumber 1
+setrule wave Wn @sharded 0 100 100
+setrule currentWaveTime 0 0 0 100 100
+end

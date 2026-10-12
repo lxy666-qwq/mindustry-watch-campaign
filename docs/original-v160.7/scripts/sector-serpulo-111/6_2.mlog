@@ -1,0 +1,10 @@
+control enabled factory2 0 0 0 0
+control enabled factory3 0 0 0 0
+control enabled factory4 0 0 0 0
+control enabled factory5 0 0 0 0
+wait 1500
+control enabled factory2 1 0 0 0
+control enabled factory3 1 0 0 0
+control enabled factory4 1 0 0 0
+control enabled factory5 1 0 0 0
+stop

@@ -1,0 +1,17 @@
+setrate 1
+wait 130
+control enabled door1 0 0 0 0
+control enabled door2 1 0 0 0
+control enabled door3 0 0 0 0
+wait 150
+control enabled door1 1 0 0 0
+control enabled door2 0 0 0 0
+control enabled door3 1 0 0 0
+wait 175
+control enabled door1 0 0 0 0
+control enabled door2 1 0 0 0
+control enabled door3 1 0 0 0
+wait 190
+control enabled door1 1 0 0 0
+control enabled door2 1 0 0 0
+control enabled door3 0 0 0 0

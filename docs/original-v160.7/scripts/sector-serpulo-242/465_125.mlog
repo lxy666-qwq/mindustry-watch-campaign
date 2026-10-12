@@ -1,0 +1,8 @@
+sensor mhp @unit @maxHealth
+op mul Aaa mhp 0.66
+ubind @quad
+sensor hp @unit @health
+jump 2 greaterThan hp Aaa
+sensor pl @unit @payloadCount
+jump 2 equal pl 0
+ucontrol payDrop 0 0 0 0 0

@@ -1,0 +1,21 @@
+set min @minute
+jump 20 greaterThanEq min 20
+getflag fabr "fabr"
+set enable fabr
+fetch buildCount afc @crux 0 @air-factory
+fetch buildCount gfc @crux 0 @ground-factory
+fetch buildCount nfc @crux 0 @naval-factory
+fetch build build @crux af @air-factory
+control enabled build enable 0 0 0
+fetch build build @crux gf @ground-factory
+control enabled build enable 0 0 0
+fetch build build @crux nf @naval-factory
+control enabled build enable 0 0 0
+op add af af 1
+op mod af af afc
+op add gf gf 1
+op mod gf gf gfc
+op add nf nf 1
+op mod nf nf nfc
+end
+stop

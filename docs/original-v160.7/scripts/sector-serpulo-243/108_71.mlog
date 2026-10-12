@@ -1,0 +1,33 @@
+ubind @omura
+sensor x @unit @x
+sensor y @unit @y
+ulocate building turret true @copper outx outy found building
+jump 21 equal found 0
+op sub dx x outx
+op sub dy y outy
+op pow dx dx 2
+op pow dy dy 2
+op add t dx dy
+op sqrt sqt t b
+jump 21 greaterThan sqt 66
+op sub xdiff x outx
+op sub ydiff y outy
+op div xfrac xdiff 15
+op div yfrac ydiff 15
+op add xt xfrac outx
+op add yt yfrac outy
+ucontrol stop outx outy 1 0 0
+ucontrol target xt yt 1 0 0
+end
+ulocate building core true @copper xc yc found building
+op sub dxx x xc
+op sub dyy x yc
+op pow dxx dxx 2
+op pow dyy dyy 2
+op add tt dyy dxx
+op sqrt sqtt tt dxx
+jump 32 greaterThan sqtt 66
+ucontrol stop xc yc 1 0 0
+ucontrol target xc yc 1 0 0
+end
+ucontrol pathfind xc yc 0 0 0

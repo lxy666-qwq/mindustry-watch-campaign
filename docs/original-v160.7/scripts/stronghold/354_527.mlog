@@ -1,0 +1,2 @@
+getflag units4 "units4"
+control enabled refabricator1 units4 0 0 0

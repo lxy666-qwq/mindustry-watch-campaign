@@ -1,0 +1,22 @@
+setrate 1
+set wave @waveNumber
+jump 7 greaterThanEq wave 2
+set time @second
+jump 7 greaterThanEq time 3300
+end
+wait 230
+ubind @toxopid
+jump 7 equal @unit 0
+set been 0
+sensor dead @unit @dead
+jump 6 equal dead 1
+sensor x @unit @x
+sensor y @unit @y
+effect lightBlock x y 3 %8700007d 
+wait 0.25
+effect lightBlock x y 1.2 %8700007d 
+jump 21 equal been 1
+setprop @speed @unit 10
+setprop @shield @unit 7000
+set been 1
+jump 10 equal been 1

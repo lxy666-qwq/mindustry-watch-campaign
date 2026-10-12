@@ -1,0 +1,16 @@
+getflag nuke1 "nuke1"
+jump 0 notEqual nuke1 true
+cutscene pan 338 378 0.08 0
+wait 0.5
+spawn @scathe-missile 430 400 194.2 @sharded mis false
+setprop @speed mis 40
+sensor misX mis @x
+sensor misD mis @dead
+jump 10 equal misD true
+jump 6 greaterThan misX 338
+explosion @malis 338 377 52 5000 true true true true
+effect crossExplosion 338 377 416 %c75903e4 
+effect explosion 338 377 14 %c75943c4 
+wait 3
+cutscene stop 100 100 0.06 0
+setflag "nuke1" false

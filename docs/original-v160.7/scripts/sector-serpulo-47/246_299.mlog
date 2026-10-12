@@ -1,0 +1,4 @@
+wait 180
+setblock block @air 237 340 @derelict 0
+setblock block @air 288 251 @derelict 0
+stop

@@ -1,0 +1,6 @@
+getblock block result 356 306
+jump 0 notEqual result @air
+wait 180
+explosion @malis 480 250 10 10000 true true true
+spawnwave 480 250 false
+stop

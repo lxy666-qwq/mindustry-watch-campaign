@@ -1,0 +1,12 @@
+spawn @oct 240 125 90 @crux result
+spawn @oct 240 145 90 @crux result
+spawn @oct 240 165 90 @crux result
+spawn @oct 240 185 90 @crux result
+spawn @oct 240 205 90 @crux result
+spawn @oct 240 225 90 @crux result
+spawn @oct 240 245 90 @crux result
+spawn @oct 240 265 90 @crux result
+spawn @oct 240 325 90 @crux result
+spawn @oct 240 285 90 @crux result
+spawn @oct 240 305 90 @crux result
+stop

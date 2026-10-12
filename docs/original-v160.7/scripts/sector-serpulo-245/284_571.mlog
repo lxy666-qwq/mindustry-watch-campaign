@@ -1,0 +1,13 @@
+setrate 1
+radar player player player distance @this 1 player
+fetch coreCount cores @crux 0 @conveyor
+wait 0.1
+jump 11 equal cores 0
+sensor team player @team
+jump 1 equal team @sharded
+jump 1 equal team 0
+setprop @team player @sharded
+playsound false @sfx-chargeVela 4 1 0 @thisx @thisy true
+end
+set game 0
+stop

@@ -1,0 +1,10 @@
+getflag mineOver "mineOver"
+jump 0 equal mineOver false
+setflag "mineOver" false
+setrule mapArea 10 0 0 256 256
+getflag end "spawnOver"
+jump 4 equal end false
+cutscene pan 135 230 0.03 0
+wait 11
+cutscene stop 100 100 0.06 0
+stop

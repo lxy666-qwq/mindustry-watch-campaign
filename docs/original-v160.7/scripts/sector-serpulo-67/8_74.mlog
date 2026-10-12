@@ -1,0 +1,12 @@
+setrate 1000
+set i 0
+getflag sr5 "b2d"
+jump 5 equal sr5 1
+end
+query circle building @crux 316 376 12 10
+sensor size @queries @size
+read bd @queries i
+setprop @team bd 0
+op add i i 1
+jump 7 lessThan i size
+stop

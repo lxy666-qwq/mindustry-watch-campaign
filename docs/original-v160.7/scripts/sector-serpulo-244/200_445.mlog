@@ -1,0 +1,6 @@
+wait 1
+spawn @poly 96 439 90 @sharded result
+spawn @poly 104 439 90 @sharded result
+spawn @poly 96 447 90 @sharded result
+spawn @poly 104 447 90 @sharded result
+stop

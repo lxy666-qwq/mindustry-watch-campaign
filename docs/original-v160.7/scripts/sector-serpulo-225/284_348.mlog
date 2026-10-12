@@ -1,0 +1,18 @@
+sensor x nucleus1 @x
+sensor y nucleus1 @y
+sensor dead nucleus1 @dead
+fetch coreCount enemycores @crux 0 @conveyor
+jump 2 notEqual dead true
+wait 5
+jump 16 equal enemycores 0
+explosion @crux x y 8 200 true true true true
+spawn @toxopid x y 270 @crux toxopid
+status false fast toxopid 359
+setprop @shield toxopid 18000
+spawn @eclipse x y 270 @crux eclipse
+status false fast eclipse 359
+setprop @armor eclipse 50
+setprop @shield eclipse 6000
+stop
+effect cross x y 2 %ffaaff 
+stop

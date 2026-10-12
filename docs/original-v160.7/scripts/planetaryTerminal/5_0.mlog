@@ -1,0 +1,9 @@
+getflag escalation "t3"
+fetch buildCount count @crux 0 @multiplicative-reconstructor
+op add i i 1
+op mod i i count
+fetch build build @crux i @multiplicative-reconstructor
+jump 0 equal build reconstructor1
+jump 0 equal build reconstructor2
+jump 0 equal build reconstructor3
+control enabled build escalation 0 0 0

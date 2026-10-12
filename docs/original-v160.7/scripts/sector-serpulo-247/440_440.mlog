@@ -1,0 +1,55 @@
+ucontrol payTake u2 293 0 0 0
+setrate 100
+getlink c0 0
+getlink c1 1
+getlink c2 2
+getlink c3 3
+sensor d0 c0 @dead
+sensor d1 c1 @dead
+sensor d2 c2 @dead
+sensor d3 c3 @dead
+op equal d0 d0 1
+op equal d1 d1 1
+op equal d2 d2 1
+op equal d3 d3 1
+set d 0
+op add d d d0
+op add d d d1
+op add d d d2
+op add d d d3
+jump 6 lessThanEq d 2
+wait 6
+playsound false @sfx-wave 1 1 0 @thisx @thisy true
+spawn @oct 404 247 180 @crux u1
+setprop @shield u1 8000
+setprop @speed u1 10
+spawn @corvus 404 247 180 @crux u2
+setprop @shield u2 8000
+spawn @corvus 404 247 180 @crux u3
+setprop @shield u3 8000
+status false overclock u2 1000000
+status false overclock u3 1000000
+status false unmoving u2 20
+status false unmoving u3 20
+ubind u1
+ucontrol payTake 1 293 0 0 0
+sensor u23 u1 @payloadCount
+jump 34 lessThan u23 2
+set t0 0
+ubind u1
+ucontrol move 251 293 0 0 0
+wait 1
+op add t t 1
+jump 38 lessThanEq t 15
+ubind u1
+ubind u1
+ucontrol payDrop 251 293 0 0 0
+sensor u23 u1 @payloadCount
+jump 45 greaterThan u23 0
+ucontrol unbind 251 293 0 0 0
+status true unmoving u2 20
+status true unmoving u3 20
+status false slow u2 20000000000
+status false slow u3 20000000000
+stop
+sensor result block1 @corvus

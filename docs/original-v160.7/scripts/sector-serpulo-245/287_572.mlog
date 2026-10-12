@@ -1,0 +1,25 @@
+setrate 1
+ubind @oct
+sensor cont @unit @controller
+jump 5 equal cont @this
+jump 1 notEqual cont @unit
+ulocate building core false @copper cx cy found core
+sensor fi @unit @firstItem
+sensor dead @unit @dead
+jump 1 equal dead 1
+jump 13 equal fi 0
+jump 22 equal fi @surge-alloy
+jump 22 equal fi @blast-compound
+ucontrol itemDrop @air 999 0 0 0
+ucontrol move cx cy 0 0 0
+op rand item 2.5 2
+op idiv item item 1
+jump 18 equal item 1
+jump 20 equal item 2
+ucontrol itemTake core @surge-alloy 999 0 0
+jump 21 always x false
+ucontrol itemTake core @blast-compound 999 0 0
+jump 2 always x false
+ulocate building core true @copper ecx ecy found Ecore
+ucontrol move ecx ecy 0 0 0
+jump 2 always x false

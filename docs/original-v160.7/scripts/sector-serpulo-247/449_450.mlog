@@ -1,0 +1,39 @@
+setrate 400
+op add sy sy 1
+read x cell1 sy
+read y cell2 sy
+read hp cell3 sy
+read dp cell4 sy
+read r cell5 sy
+read ax cell6 sy
+read ay cell7 sy
+jump 11 equal hp 0
+jump 13 always un null
+set sy 0
+jump 2 always un null
+jump 15 always dp 0
+jump 38 always x false
+jump 18 notEqual hp 0
+ucontrol unbind x y 0 0 0
+jump 38 always x false
+set t -1
+op add t t 1
+fetch unit un @crux t @oct
+sensor uc un @controller
+jump 25 equal uc un
+jump 25 equal uc @this
+jump 19 always uc un
+ubind un
+op sub x2 ax x
+op sub y2 ay y
+op angle r x2 y2
+op cos x2 r r
+op sin y2 r r
+op mul x2 x2 8
+op mul y2 y2 8
+op add x2 x2 x
+op add y2 y2 y
+ucontrol move x2 y2 0 0 0
+write 1 cell4 sy
+set result @unit
+end

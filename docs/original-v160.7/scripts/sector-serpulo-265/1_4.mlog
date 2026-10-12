@@ -1,0 +1,4 @@
+wait 1550
+control enabled processor1 0 0 0 0
+control enabled reconstructor2 1 0 0 0
+setrate 10

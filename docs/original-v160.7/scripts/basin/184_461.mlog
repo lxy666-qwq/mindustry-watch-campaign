@@ -1,0 +1,4 @@
+getflag nuked "nuke1"
+jump 0 notEqual nuked true
+setrule mapArea 10 0 0 @mapw @maph
+stop

@@ -1,0 +1,5 @@
+setrule waves 0 0 0 100 100
+getflag flag "att1"
+jump 1 notEqual flag true
+setrule waves 1 0 0 100 100
+stop

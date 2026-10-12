@@ -1,0 +1,12 @@
+spawn @flare 500 200 90 @crux result
+spawn @flare 500 200 90 @crux result
+spawn @flare 500 200 90 @crux result
+spawn @flare 500 201 90 @crux result
+setrate 100
+ubind @flare
+sensor fl @unit @flag
+jump 5 equal fl 15
+jump 5 equal fl 16
+jump 5 equal fl 17
+setprop @surge-alloy @unit 100
+jump 5 always x false

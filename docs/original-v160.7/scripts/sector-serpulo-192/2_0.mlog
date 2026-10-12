@@ -1,0 +1,7 @@
+op greaterThan condition @waveNumber 10
+op add i i 1
+op mod i i @links
+getlink build i
+sensor team build @team
+jump 0 notEqual team 2
+control enabled build condition 0 0 0

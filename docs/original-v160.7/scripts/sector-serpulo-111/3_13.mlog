@@ -1,0 +1,8 @@
+wait 1
+read oct processor1 "o4"
+wait 4440
+ubind oct
+setprop @speed @unit 6
+ulocate building core true @copper outx outy found building
+ucontrol move outx outy 0 0 0
+jump 5 always x false

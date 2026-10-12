@@ -1,0 +1,16 @@
+setrate 1
+op add i i 1
+op add i2 i2 1
+set timeS @second
+jump 15 greaterThanEq timeS 350
+setrate 4
+fetch build battery @crux i @battery
+setprop @totalPower battery 999999
+fetch build battery2 @crux i2 @battery-large
+setprop @totalPower battery2 999999
+jump 1 notEqual battery null
+set i 0
+jump 1 notEqual battery2 null
+set i2 0
+end
+stop

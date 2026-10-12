@@ -1,0 +1,33 @@
+set counter 0
+sensor result foundation1 @dead
+jump 1 notEqual result 1
+wait 2
+spawn @eclipse 202 238 270 @crux a1
+setprop @shield a1 6500
+status false slow a1 99999
+spawn @antumbra 156 215 270 @crux a2
+status false slow a2 99999
+setprop @shield a2 3000
+spawn @antumbra 248 215 270 @crux a3
+status false slow a3 99999
+setprop @shield a3 3000
+spawn @antumbra 117 269 270 @crux a4
+status false slow a4 99999
+setprop @shield a4 3500
+spawn @antumbra 287 269 270 @crux a5
+status false slow a5 99999
+setprop @shield a5 3500
+ubind a1
+ucontrol move 202 138 0 0 0
+ubind a2
+ucontrol move 156 115 0 0 0
+ubind a3
+ucontrol move 248 115 0 0 0
+ubind a4
+ucontrol move 117 169 0 0 0
+ubind a5
+ucontrol move 287 169 0 0 0
+op add counter counter 1
+wait 6
+jump 19 lessThan counter 9
+stop

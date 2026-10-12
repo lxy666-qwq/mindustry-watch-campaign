@@ -1,0 +1,9 @@
+setrate 1
+getflag enb "esc4"
+sensor thisTeam @this @team
+op add link link 1
+op mod link link @links
+getlink build link
+sensor team build @team
+jump 2 notEqual team thisTeam
+control enabled build enb 0 0 0

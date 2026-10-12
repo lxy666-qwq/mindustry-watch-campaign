@@ -1,0 +1,5 @@
+getflag result "nukeannounce"
+jump 0 notEqual result true
+setflag "nukeannounce" false
+print "@announce.nuclearstrike"
+message announce 7 @wait

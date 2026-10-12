@@ -1,0 +1,6 @@
+getflag flag2 "f2"
+getflag flag3 "f3"
+control enabled factory1 flag2 0 0 0
+control enabled factory2 flag2 0 0 0
+control enabled factory3 flag2 0 0 0
+control enabled reconstructor1 flag3 0 0 0

@@ -1,0 +1,9 @@
+op add targettime @minute 6
+op greaterThanEq ison @minute targettime
+control enabled fabricator6 ison 0 0 0
+control enabled fabricator7 ison 0 0 0
+control enabled fabricator8 ison 0 0 0
+control enabled fabricator9 ison 0 0 0
+control enabled fabricator10 ison 0 0 0
+control enabled fabricator11 ison 0 0 0
+jump 1 always ison 1

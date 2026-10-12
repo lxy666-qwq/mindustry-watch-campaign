@@ -1,0 +1,43 @@
+getlink c 0
+sensor d c @dead
+jump 1 notEqual d true
+wait 3
+playsound false @sfx-wave 2 1 0 @thisx @thisy true
+spawn @antumbra 500 330 150 @crux u1
+spawn @eclipse 490 270 150 @crux u2
+spawn @eclipse 480 210 150 @crux u3
+spawn @antumbra 470 150 150 @crux u4
+setprop @blast-compound u1 130
+setprop @blast-compound u2 130
+setprop @blast-compound u3 130
+setprop @blast-compound u4 130
+setprop @shield u1 12000
+setprop @shield u2 10000
+setprop @shield u3 10000
+setprop @shield u4 12000
+setprop @speed u1 10
+setprop @speed u2 10
+setprop @speed u3 10
+setprop @speed u4 10
+set t 0
+op add t t 1
+ubind u1
+ucontrol move 200 500 0 0 0
+ubind u2
+ucontrol move 190 440 0 0 0
+ubind u3
+ucontrol move 180 380 0 0 0
+ubind u4
+ucontrol move 170 320 0 0 0
+wait 1
+jump 22 lessThan t 35
+ubind u1
+ucontrol unbind 170 320 0 0 0
+ubind u2
+ucontrol unbind 170 320 0 0 0
+ubind u3
+ucontrol unbind 170 320 0 0 0
+ubind u4
+ucontrol unbind 170 320 0 0 0
+stop
+sensor result block1 @eclipse

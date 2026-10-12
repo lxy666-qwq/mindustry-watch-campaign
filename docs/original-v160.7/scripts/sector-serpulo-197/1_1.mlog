@@ -1,0 +1,13 @@
+getflag u1 "u1"
+getflag u2 "u2"
+getflag u3 "u3"
+control enabled factory1 u1 0 0 0
+control enabled factory2 u1 0 0 0
+control enabled factory3 u1 0 0 0
+control enabled factory4 u1 0 0 0
+control enabled factory5 u1 0 0 0
+control enabled factory6 u1 0 0 0
+control enabled factory7 u1 0 0 0
+control enabled factory8 u1 0 0 0
+control enabled reconstructor1 u2 0 0 0
+control enabled reconstructor2 u3 0 0 0

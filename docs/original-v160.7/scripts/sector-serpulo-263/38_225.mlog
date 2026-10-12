@@ -1,0 +1,11 @@
+setrate 20
+setflag "dc2" 0
+fetch coreCount c @crux 0 @conveyor
+jump 2 greaterThan c 1
+setflag "dc2" 1
+spawn @oct 450 450 225 @crux oct true
+setprop @shield oct 10000
+setprop @speed oct 10
+status false shielded oct 100000
+wait 60
+jump 5 always ofin false

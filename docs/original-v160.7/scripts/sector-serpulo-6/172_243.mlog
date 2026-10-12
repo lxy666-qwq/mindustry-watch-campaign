@@ -1,0 +1,15 @@
+setrate 400
+set num @links
+set t -1
+op add t t 1
+getlink f t
+control enabled f 0 0 0 0
+jump 3 lessThan t num
+getflag flag "att3"
+jump 6 notEqual flag true
+set t -1
+op add t t 1
+getlink f t
+control enabled f 1 0 0 0
+jump 10 lessThan t num
+stop

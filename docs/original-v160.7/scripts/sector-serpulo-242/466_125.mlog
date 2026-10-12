@@ -1,0 +1,15 @@
+sensor mhp @unit @maxHealth
+op mul Aaa mhp 0.66
+ubind @oct
+sensor pl @unit @payloadCount
+jump 2 equal pl 0
+sensor FL @unit @flag
+jump 9 equal Fl 22
+jump 2 notEqual Fl null
+ucontrol flag 22 outy 0 0 0
+ulocate building core true @copper outx outy found building
+ucontrol move outx outy 0 0 0
+sensor hp @unit @health
+jump 2 greaterThan hp Aaa
+ucontrol stop outx outy 0 0 0
+ucontrol payDrop 0 0 0 0 0

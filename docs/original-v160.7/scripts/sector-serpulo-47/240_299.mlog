@@ -1,0 +1,7 @@
+op add c2 c2 1
+op mod c c2 @links
+getlink t c
+getflag y "scepter"
+sensor tea t @team
+jump 0 equal tea @sharded
+control enabled t y 0 0 0

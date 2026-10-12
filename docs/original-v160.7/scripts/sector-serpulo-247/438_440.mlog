@@ -1,0 +1,36 @@
+setrate 100
+getlink c0 0
+getlink c1 1
+getlink c2 2
+getlink c3 3
+sensor d0 c0 @dead
+sensor d1 c1 @dead
+sensor d2 c2 @dead
+sensor d3 c3 @dead
+op equal d0 d0 1
+op equal d1 d1 1
+op equal d2 d2 1
+op equal d3 d3 1
+set d 0
+op add d d d0
+op add d d d1
+op add d d d2
+op add d d d3
+jump 5 lessThanEq d 1
+wait 6
+spawn @omura 450 255 180 @crux u1
+setprop @shield u1 8000
+status false overdrive u1 10
+spawn @oct 500 255 180 @crux u2
+setprop @shield u2 12000
+setprop @speed u2 12
+playsound false @sfx-wave 1 1 0 @thisx @thisy true
+wait 60
+spawn @oct 500 255 180 @crux u3
+setprop @shield u3 12000
+setprop @speed u3 12
+playsound false @sfx-wave 1 1 0 @thisx @thisy true
+wait 60
+jump 20 always x false
+stop
+sensor result block1 @omura

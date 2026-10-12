@@ -1,0 +1,41 @@
+set i 0
+wait 5
+getlink building i
+sensor team building @team
+jump 1 strictEqual team 2
+op add i i 1
+jump 1 lessThan i @links
+set image.width 17
+set image.height 24
+set orin.x 411
+set orin.y 139
+set replaceing.x 487
+set replaceing.y 132
+cutscene pan 419 128 0.03 0
+cutscene zoom 0.5 pan.y 0.06 0
+wait 5
+setrate 1000
+op sub orin.x orin.x 1
+op sub replaceing.x replaceing.x 1
+op add orin.y orin.y 1
+op add replaceing.y replaceing.y 1
+op sub x.delta replaceing.x orin.x
+op add x.end orin.x image.width
+op sub y.delta replaceing.y orin.y
+op sub y.end orin.y image.height
+set y.point orin.y
+set x.point orin.x
+effect lightBlock x.point y.point 1 %dadf5f37 
+getblock floor floor.cache x.point y.point
+getblock floor floor x.replaceing y.replaceing
+setblock floor floor x.point y.point @derelict 0
+setblock floor floor.cache x.replaceing y.replaceing @derelict 0
+op add x.point x.point 1
+op add x.replaceing x.point x.delta
+jump 31 lessThanEq x.point x.end
+op sub y.point y.point 1
+op add y.replaceing y.point y.delta
+jump 30 greaterThanEq y.point y.end
+wait 3
+cutscene stop 100 100 0.06 0
+stop

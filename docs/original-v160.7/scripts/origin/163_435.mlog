@@ -1,0 +1,10 @@
+fetch coreCount result @malis 0 @conveyor
+jump 0 notEqual result 1
+wait 180
+explosion @malis 480 250 10 10000 true true true
+set t @minute
+setrule wave 2 0 0 100 100
+spawnwave 480 250 true
+op sub elapsed @minute t
+jump 7 lessThan elapsed 1
+jump 4 always x false

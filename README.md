@@ -43,6 +43,8 @@ Windows 本地完整环境位于 `D:\软件工程`：
 
 详细规则见 [关卡说明](docs/CAMPAIGN.md)，改动记录见 [CHANGELOG.md](CHANGELOG.md)，验证范围见 [v0.2.0 验证记录](docs/verification-v0.2.0.md)。
 
+原版设置见 [v160.7详细关卡总览](docs/ORIGINAL_CAMPAIGN.md)，含95个预设地图的逐关参数、敌人编组、解锁前置与世界处理器脚本。原版程序保留在v0.1.0归档；这份资料使用归档原版读取。
+
 ## 从源码构建
 
 依赖：JDK 17、Gradle 9.3.1；Windows 本地环境已放在 `D:\软件工程\工具`。匹配的 Arc 位于源码目录的同级 `../Arc`，其固定版本来自 v160.7 的依赖配置。

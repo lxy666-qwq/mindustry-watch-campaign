@@ -1,0 +1,16 @@
+set P1X 245
+set P1Y 120
+ubind @oct
+sensor Fl @unit @flag
+jump 2 notEqual Fl 2
+sensor X @unit @x
+sensor Y @unit @y
+ucontrol move P1X P1Y 0 0 0
+op sub Xs X P1X
+op mul Xs Xs Xs
+op sub Ys Y P1Y
+op mul Ys Ys Ys
+op add xy Xs Ys
+op sqrt len xy Ys
+jump 2 greaterThan len 5
+ucontrol flag 3 0 0 0 0

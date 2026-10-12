@@ -1,0 +1,7 @@
+getflag flag "E1"
+op add link link 1
+op mod link link @links
+getlink build link
+sensor team build @team
+jump 0 notEqual team 2
+control enabled build flag 0 0 0

@@ -1,0 +1,11 @@
+getflag 3t "t3"
+getflag 4t "t4"
+op add c1 c1 1
+op mod c2 c1 expoc
+op mod c3 c1 multc
+fetch buildCount expoc @crux 0 @exponential-reconstructor
+fetch build expo @crux c2 @exponential-reconstructor
+fetch buildCount multc @crux 0 @multiplicative-reconstructor
+fetch build mult @crux c3 @multiplicative-reconstructor
+control enabled expo 4t 0 0 0
+control enabled mult 3t 0 0 0

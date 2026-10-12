@@ -1,0 +1,13 @@
+getflag result "t1"
+control enabled factory1 result 0 0 0
+control enabled factory2 result 0 0 0
+control enabled factory3 result 0 0 0
+control enabled factory4 result 0 0 0
+control enabled factory5 result 0 0 0
+control enabled factory6 result 0 0 0
+control enabled factory7 result 0 0 0
+control enabled factory8 result 0 0 0
+control enabled factory9 result 0 0 0
+control enabled factory10 result 0 0 0
+control enabled factory11 result 0 0 0
+control enabled factory12 result 0 0 0

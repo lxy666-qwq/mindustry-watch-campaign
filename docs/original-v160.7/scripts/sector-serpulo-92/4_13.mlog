@@ -1,0 +1,61 @@
+wait 0.01
+setrate 500
+set id1 1001
+set id2 1002
+set x 337
+set y 383
+set d1 320000
+set d2 20000
+set d3 110
+set tm 15
+set r 55
+set rt 1.5
+op mul r2 r 8
+op div r3 r 3
+setmarker remove id1 0 0 0
+setmarker remove id2 0 0 0
+getflag nuc "nuc1"
+jump 16 notEqual nuc true
+makemarker shape id1 x y true
+makemarker shape id2 x y true
+getflag nucf "nucf1"
+setmarker shape id1 412 1 1
+setmarker shape id2 412 0 1
+setmarker radius id1 r2 1 1
+setmarker radius id2 r2 1 1
+setmarker color id1 %ff79272c %ff7f7f8c 0
+setmarker color id2 %ff5541 %ff7f7f8c 0
+effect wave x y r2 %c72d03e4 
+effect warn x y r2 %c72d03e4 
+wait 1
+effect wave x y r2 %c72d03e4 
+wait 1
+jump 20 notEqual nucf true
+set t 0
+set t2 50
+set r4 r2
+op div r4 r4 1.2
+setmarker remove id2 0 0 0
+setmarker radius id2 r4 1 1
+setmarker radius id1 r4 1 1
+op add t t 1
+wait 0.01
+jump 36 lessThan t t2
+setmarker remove id1 0 0 0
+setmarker remove id2 0 0 0
+wait 0.5
+effect crossExplosion x y r2 %c75903e4 
+effect smokeCloud x y 39 %c74cb844 
+effect breakProp x y r3 %c74cb844 
+effect breakProp x y r3 %c74cb844 
+effect explosion x y r3 %c75943c4 
+explosion @malis x y r3 d1 flase flase true flase
+explosion @malis x y r d2 ture flase flase flase
+set t 0
+op pow rtc 2 t
+op div rc r rtc
+explosion @malis x y rc d3 ture true true flase
+op add t t 1
+jump 54 lessThan t tm
+wait 3
+stop

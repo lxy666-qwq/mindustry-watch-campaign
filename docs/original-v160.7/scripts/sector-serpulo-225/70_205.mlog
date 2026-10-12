@@ -1,0 +1,13 @@
+sensor x foundation2 @x
+sensor y foundation2 @y
+sensor dead foundation2 @dead
+fetch coreCount enemycores @crux 0 @conveyor
+jump 2 notEqual dead true
+wait 5
+jump 11 equal enemycores 0
+explosion @crux x y 8 200 true true true true
+spawn @toxopid x y 90 @crux toxopid
+status false fast toxopid 202474
+stop
+effect cross x y 2 %ffaaff 
+stop

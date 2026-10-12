@@ -1,0 +1,3 @@
+getflag result "u1"
+control enabled factory1 result 0 0 0
+control enabled factory2 result 0 0 0

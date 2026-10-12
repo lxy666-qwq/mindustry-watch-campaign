@@ -1,0 +1,19 @@
+set t 0
+getlink b t
+jump 8 equal b null
+sensor team b @team
+jump 6 notEqual team 2
+control enabled b 0 0 0 0
+op add t t 1
+jump 1 always team @crux
+getflag f "att5"
+jump 8 notEqual f 1
+set t 0
+getlink b t
+jump 18 equal b null
+sensor team b @team
+jump 16 notEqual team 2
+control enabled b 1 0 0 0
+op add t t 1
+jump 11 always b null
+stop

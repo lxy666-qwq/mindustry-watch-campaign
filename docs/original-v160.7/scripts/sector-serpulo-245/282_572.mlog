@@ -1,0 +1,341 @@
+setrate 5
+set time @second
+set wave @waveNumber
+op div C 1 255
+op mul R C 242
+op mul G C 85
+op mul B C 85
+packcolor Color1 R G B 1.0
+jump 122 lessThan wave 2
+jump 119 equal was 1
+jump 13 equal wizer 1
+set cutscene 1
+jump 14 always x false
+set cutscene 0
+write cutscene processor1 "cutscene"
+setrate 15
+weatherset @snowing 1
+weatherset @sporestorm 1
+weatherset @fog 1
+weatherset @suspend-particles 1
+weatherset @sandstorm 0
+weatherset @rain 0
+makemarker quad 2 240.5 524.5 0
+setmarker minimap 2 1 248 525
+setmarker world 2 0 248 525
+setmarker color 2 Color1 248 525
+setmarker posi 2 0 240.5 524.5
+setmarker posi 2 1 246.5 524.5
+setmarker posi 2 2 246.5 519.5
+setmarker posi 2 3 245.5 519.5
+makemarker quad 3 241.5 523.5 0
+setmarker posi 3 0 241.5 523.5
+setmarker posi 3 1 246 523.5
+setmarker posi 3 2 246.5 523
+setmarker posi 3 3 246.5 518.5
+setmarker minimap 3 1 248 525
+setmarker world 3 0 248 525
+setmarker color 3 Color1 248 525
+makemarker quad 4 247.5 524.5 0
+setmarker posi 4 0 247.5 524.5
+setmarker posi 4 1 252.5 524.5
+setmarker posi 4 2 247.5 518.5
+setmarker posi 4 3 247.5 518.5
+setmarker color 4 Color1 248 525
+setmarker world 4 0 248 525
+setmarker minimap 4 1 248 525
+makemarker quad 5 253.5 524.5 0
+setmarker posi 5 0 253.5 524.5
+setmarker posi 5 1 249 524.5
+setmarker posi 5 2 248.5 524
+setmarker posi 5 3 248.5 519.5
+setmarker minimap 5 1 248 525
+setmarker world 5 0 248 525
+setmarker color 5 Color1 248 525
+makemarker quad 6 253.5 525.5 0
+setmarker posi 6 0 253.5 525.5
+setmarker posi 6 1 247.5 525.5
+setmarker posi 6 2 248.5 530.5
+setmarker posi 6 3 248.5 530.5
+setmarker color 6 Color1 248 525
+setmarker world 6 0 248 525
+setmarker minimap 6 1 248 525
+makemarker quad 7 247.5 531.5 0
+setmarker posi 7 0 247.5 531.5
+setmarker posi 7 1 247.5 525.5
+setmarker posi 7 2 252.5 525.5
+setmarker posi 7 3 252.5 525.5
+setmarker minimap 7 1 248 525
+setmarker world 7 0 248 525
+setmarker color 7 Color1 248 525
+makemarker quad 8 246.5 531.5 0
+setmarker posi 8 0 246.5 531.5
+setmarker posi 8 1 246.5 525.5
+setmarker posi 8 2 241.5 525.5
+setmarker posi 8 3 241.5 525.5
+setmarker color 8 Color1 248 525
+setmarker world 8 0 248 525
+setmarker minimap 8 1 248 525
+makemarker quad 9 240.5 525.5 0
+setmarker posi 9 0 240.5 525.5
+setmarker posi 9 1 246.5 525.5
+setmarker posi 9 2 245.5 526
+setmarker posi 9 3 245.5 530.5
+setmarker minimap 9 1 248 525
+setmarker world 9 0 248 525
+setmarker color 9 Color1 248 525
+makemarker quad 10 240.5 522.5 0
+setmarker posi 10 0 240.5 523.5
+setmarker posi 10 1 240.5 521.5
+setmarker posi 10 2 246.5 515.5
+setmarker posi 10 3 246.5 517.5
+setmarker color 10 Color1 248 525
+setmarker world 10 0 248 525
+setmarker minimap 10 1 248 525
+makemarker quad 11 247.5 515.5 0
+setmarker posi 11 0 247.5 515.5
+setmarker posi 11 1 247.5 517.5
+setmarker posi 11 3 253.5 521.5
+setmarker posi 11 2 253.5 523.5
+setmarker minimap 11 1 248 525
+setmarker world 11 0 248 525
+setmarker color 11 Color1 248 525
+makemarker quad 12 246.5 515.5 0
+setmarker posi 12 0 244.5 515.5
+setmarker posi 12 1 244.5 516.5
+setmarker posi 12 3 242.5 517.5
+setmarker posi 12 2 242.5 518.5
+setmarker world 12 0 248 525
+setmarker color 12 Color1 248 525
+setmarker minimap 12 1 248 525
+makemarker quad 13 249.5 531.5 0
+setmarker posi 13 0 249.5 531.5
+setmarker posi 13 1 249.5 530.5
+setmarker posi 13 3 251.5 529.5
+setmarker posi 13 2 251.5 528.5
+setmarker minimap 13 1 248 525
+setmarker color 13 Color1 248 525
+setmarker world 13 0 248 525
+set was 1
+set been 12
+set time 9999
+set AnimationTime 0.085
+jump 124 greaterThanEq been 1
+set AnimationTime 0.55
+set Size 0.98
+setrate 10
+wait AnimationTime
+jump 129 greaterThanEq time 1
+end
+jump 132 greaterThanEq been 2
+set AnimationTime 0.5
+set been 1
+effect lightBlock 242 526 Size Color1 
+effect lightBlock 242 524 Size Color1 
+effect lightBlock 242.5 526.5 Size Color1 
+effect lightBlock 242.5 523.5 Size Color1 
+effect lightBlock 242 524 Size Color1 
+effect lightBlock 242 526 Size Color1 
+wait AnimationTime
+jump 141 greaterThanEq time 550
+end
+jump 144 greaterThanEq been 3
+set AnimationTime 0.45
+set been 2
+effect lightBlock 243 527 Size Color1 
+effect lightBlock 243 526 Size Color1 
+effect lightBlock 243 524 Size Color1 
+effect lightBlock 243 523 Size Color1 
+effect lightBlock 243 523 Size Color1 
+effect lightBlock 243.5 527.5 Size Color1 
+effect lightBlock 243.5 522.5 Size Color1 
+jump 153 lessThan been 12
+effect lightBlock 243 515.5 Size Color1 
+wait AnimationTime
+jump 156 greaterThanEq time 825
+end
+jump 159 greaterThanEq been 4
+set AnimationTime 0.40
+set been 3
+effect lightBlock 244 528 Size Color1 
+effect lightBlock 244 527 Size Color1 
+effect lightBlock 244 526 Size Color1 
+effect lightBlock 244 524 Size Color1 
+effect lightBlock 244 523 Size Color1 
+effect lightBlock 244 522 Size Color1 
+effect lightBlock 244.5 521.5 Size Color1 
+effect lightBlock 244.5 528.5 Size Color1 
+jump 177 lessThan been 12
+effect lightBlock 246 516 Size Color1 
+effect lightBlock 248 516 Size Color1 
+effect lightBlock 248.5 516.5 Size Color1 
+effect lightBlock 245.5 516.5 Size Color1 
+effect lightBlock 248.5 517.5 Size Color1 
+effect lightBlock 248.5 517.5 Size Color1 
+effect lightBlock 245.5 517.5 Size Color1 
+effect lightBlock 243 516 Size Color1 
+effect lightBlock 242 516 Size Color1 
+wait AnimationTime
+jump 180 greaterThanEq time 1100
+end
+jump 183 greaterThanEq been 5
+set AnimationTime 0.35
+set been 4
+effect lightBlock 245 529 Size Color1 
+effect lightBlock 245 528 Size Color1 
+effect lightBlock 245 527 Size Color1 
+effect lightBlock 245 526 Size Color1 
+effect lightBlock 245 524 Size Color1 
+effect lightBlock 245 523 Size Color1 
+effect lightBlock 245 522 Size Color1 
+effect lightBlock 245 521 Size Color1 
+effect lightBlock 245.5 520.5 Size Color1 
+effect lightBlock 245.5 529.5 Size Color1 
+jump 204 lessThan been 12
+effect lightBlock 245 517 Size Color1 
+effect lightBlock 246 517 Size Color1 
+effect lightBlock 248 517 Size Color1 
+effect lightBlock 249 517 Size Color1 
+effect lightBlock 249.5 517.5 Size Color1 
+effect lightBlock 244.5 517.5 Size Color1 
+effect lightBlock 249.5 518.5 Size Color1 
+effect lightBlock 249.5 518.5 Size Color1 
+effect lightBlock 244.5 518.5 Size Color1 
+effect lightBlock 242 516.5 Size Color1 
+wait AnimationTime
+jump 207 greaterThanEq time 1375
+end
+jump 210 greaterThanEq been 6
+set AnimationTime 0.30
+set been 5
+effect lightBlock 246 530 Size Color1 
+effect lightBlock 246 529 Size Color1 
+effect lightBlock 246 528 Size Color1 
+effect lightBlock 246 527 Size Color1 
+effect lightBlock 246 523 Size Color1 
+effect lightBlock 246 522 Size Color1 
+effect lightBlock 246 521 Size Color1 
+effect lightBlock 246 520 Size Color1 
+jump 227 lessThan been 12
+effect lightBlock 250 518 Size Color1 
+effect lightBlock 249 518 Size Color1 
+effect lightBlock 245 518 Size Color1 
+effect lightBlock 244 518 Size Color1 
+effect lightBlock 243.5 518.5 Size Color1 
+effect lightBlock 250.5 518.5 Size Color1 
+effect lightBlock 244.5 518.5 Size Color1 
+effect lightBlock 244.5 517.5 Size Color1 
+wait AnimationTime
+jump 230 greaterThanEq time 1650
+end
+jump 233 greaterThanEq been 7
+set AnimationTime 0.25
+set been 6
+jump 242 lessThan been 12
+effect lightBlock 244 519 Size Color1 
+effect lightBlock 243 519 Size Color1 
+effect lightBlock 250 519 Size Color1 
+effect lightBlock 519 Size %ff9f3c Color1 
+effect lightBlock 251.5 519.5 Size Color1 
+effect lightBlock 250.5 519.5 Size Color1 
+effect lightBlock 243.5 519.5 Size Color1 
+effect lightBlock 242.5 519.5 Size Color1 
+wait AnimationTime
+jump 245 greaterThanEq time 1925
+end
+jump 248 greaterThanEq been 8
+set AnimationTime 0.22
+set been 7
+effect lightBlock 248 530 Size Color1 
+effect lightBlock 248 529 Size Color1 
+effect lightBlock 248 528 Size Color1 
+effect lightBlock 248 527 Size Color1 
+effect lightBlock 248 523 Size Color1 
+effect lightBlock 248 522 Size Color1 
+effect lightBlock 248 521 Size Color1 
+effect lightBlock 248 520 Size Color1 
+effect lightBlock 248.5 520.5 Size Color1 
+effect lightBlock 248.5 529.5 Size Color1 
+jump 267 lessThan been 12
+effect lightBlock 251 520 Size Color1 
+effect lightBlock 252 520 Size Color1 
+effect lightBlock 243 520 Size Color1 
+effect lightBlock 242 520 Size Color1 
+effect lightBlock 242.5 520.5 Size Color1 
+effect lightBlock 241.5 520.5 Size Color1 
+effect lightBlock 252.5 520.5 Size Color1 
+effect lightBlock 251.5 520.5 Size Color1 
+wait AnimationTime
+jump 270 greaterThanEq time 2200
+end
+jump 273 greaterThanEq been 9
+set AnimationTime 0.20
+set been 8
+effect lightBlock 249 529 Size Color1 
+effect lightBlock 249 528 Size Color1 
+effect lightBlock 249 527 Size Color1 
+effect lightBlock 249 526 Size Color1 
+effect lightBlock 249 524 Size Color1 
+effect lightBlock 249 523 Size Color1 
+effect lightBlock 249 522 Size Color1 
+effect lightBlock 249 521 Size Color1 
+effect lightBlock 249.5 521.5 Size Color1 
+effect lightBlock 249.5 528.5 Size Color1 
+jump 288 lessThan been 12
+effect lightBlock 252 521 Size Color1 
+effect lightBlock 242 521 Size Color1 
+effect lightBlock 252.5 521.5 Size Color1 
+effect lightBlock 241.5 521.5 Size Color1 
+wait AnimationTime
+jump 291 greaterThanEq time 2475
+end
+jump 294 greaterThanEq been 10
+set AnimationTime 0.19
+set been 9
+effect lightBlock 250 528 Size Color1 
+effect lightBlock 250 527 Size Color1 
+effect lightBlock 250 526 Size Color1 
+effect lightBlock 250 524 Size Color1 
+effect lightBlock 250 523 Size Color1 
+effect lightBlock 250 522 Size Color1 
+effect lightBlock 250.5 522.5 Size Color1 
+effect lightBlock 250.5 527.5 Size Color1 
+jump 304 lessThan been 12
+effect lightBlock 252 529.5 Size Color1 
+wait AnimationTime
+jump 307 greaterThanEq time 2750
+end
+jump 310 greaterThanEq been 11
+set AnimationTime 0.1
+set been 10
+effect lightBlock 251 527 Size Color1 
+effect lightBlock 251 526 Size Color1 
+effect lightBlock 251 524 Size Color1 
+effect lightBlock 251 523 Size Color1 
+effect lightBlock 251.5 523.5 Size Color1 
+effect lightBlock 251.5 526.5 Size Color1 
+jump 320 lessThan been 12
+effect lightBlock 251 530 Size Color1 
+effect lightBlock 251 530.5 Size Color1 
+effect lightBlock 252 530 Size Color1 
+wait AnimationTime
+jump 323 greaterThanEq time 3025
+end
+jump 326 greaterThanEq been 12
+set AnimationTime 0.1
+set been 11
+effect lightBlock 252 526 Size Color1 
+effect lightBlock 252 524 Size Color1 
+wait AnimationTime
+jump 331 greaterThanEq time 3300
+end
+set AnimationTime 0.01
+set been 12
+jump 335 equal cutscene 1
+set wizer 1
+jump 340 equal was 1
+set cutscene 2
+write cutscene processor1 "cutscene"
+set was 1
+jump 118 always x false
+wait AnimationTime

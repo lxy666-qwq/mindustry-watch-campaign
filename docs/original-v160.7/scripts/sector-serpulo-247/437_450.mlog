@@ -1,0 +1,12 @@
+stop
+getlink c0 0
+getlink c1 1
+setrate 1000
+set t 0
+fetch build l @crux t @illuminator
+jump 10 equal l null
+control color l c024007f 0 0 0
+op add t t 1
+jump 5 always l null
+stop
+setblock block @air 0 0 @derelict 0

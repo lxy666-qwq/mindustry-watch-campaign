@@ -1,0 +1,6 @@
+sensor result nucleus1 @team
+jump 0 notEqual result 2
+setprop @pyratite nucleus1 99999
+setprop @metaglass nucleus1 99999
+setprop @titanium nucleus1 99999
+setprop @graphite nucleus1 99999

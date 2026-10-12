@@ -1,0 +1,4 @@
+control enabled door2 0 0 0 0
+jump 0 lessThan @tick 90000
+control enabled door2 1 0 0 0
+stop

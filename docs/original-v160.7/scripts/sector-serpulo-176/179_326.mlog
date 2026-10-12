@@ -1,0 +1,16 @@
+setblock block @power-source 186 371 @crux 0
+wait 15
+setblock block @air 186 371 @crux 0
+setprop @silicon nucleus1 9999
+setprop @surge-alloy nucleus1 999
+setprop @copper nucleus1 19999
+setprop @lead nucleus1 19999
+setprop @blast-compound nucleus1 999
+setprop @thorium nucleus1 2999
+setprop @plastanium nucleus1 2999
+setprop @phase-fabric nucleus1 2999
+setprop @graphite nucleus1 2999
+setprop @metaglass nucleus1 2999
+setprop @titanium nucleus1 4999
+setprop @pyratite nucleus1 499
+stop

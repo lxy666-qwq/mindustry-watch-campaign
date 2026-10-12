@@ -1,0 +1,8 @@
+fetch build d @sharded i @scatter
+fetch buildCount scatters @sharded 0 @scatter
+op add i i 1
+op mod i i scatters
+sensor amount d @ammo
+jump 0 equal amount 0
+setflag "scatterAmmo" true
+stop

@@ -1,0 +1,9 @@
+set iteration 0
+getflag t3 "t3"
+set block @multiplicative-reconstructor
+fetch buildCount count @crux i block
+fetch build constructor @crux trueiteration block
+op add iteration iteration 1
+op mod trueiteration iteration count
+control enabled constructor t3 0 0 0
+jump 1 always t3 false

@@ -1,0 +1,25 @@
+wait 0.5
+getlink c 0
+sensor d c @dead
+jump 2 notEqual d true
+playsound false @sfx-wave 1 1 0 @thisx @thisy true
+set t 0
+op add t t 1
+spawn @sei 340 450 230 @crux u1
+setprop @blast-compound u1 130
+setprop @shield u1 12000
+setprop @speed u1 7
+spawn @navanax 350 440 230 @crux u2
+setprop @blast-compound u2 130
+setprop @shield u2 12000
+setprop @speed u2 7
+spawn @sei 360 430 230 @crux u3
+setprop @blast-compound u3 130
+setprop @shield u3 12000
+setprop @speed u3 7
+status false overdrive u1 10
+status false overdrive u2 10
+status false overdrive u3 10
+jump 6 lessThan t 2
+stop
+sensor result block1 @navanax

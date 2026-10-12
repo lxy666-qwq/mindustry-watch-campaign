@@ -1,0 +1,6 @@
+getflag u1 "u1"
+control enabled fabricator1 u1 0 0 0
+control enabled fabricator2 u1 0 0 0
+control enabled fabricator3 u1 0 0 0
+control enabled fabricator4 u1 0 0 0
+control enabled fabricator5 u1 0 0 0

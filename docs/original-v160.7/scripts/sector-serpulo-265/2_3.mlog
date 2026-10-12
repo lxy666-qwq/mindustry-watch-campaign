@@ -1,0 +1,4 @@
+wait 0
+control enabled reconstructor1 0 0 0 0
+control enabled reconstructor2 0 0 0 0
+control enabled reconstructor3 0 0 0 0

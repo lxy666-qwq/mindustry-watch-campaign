@@ -1,0 +1,3 @@
+getflag flag "flag3"
+control enabled reconstructor1 flag 0 0 0
+control enabled conveyor1 flag 0 0 0

@@ -1,0 +1,2 @@
+op greaterThanEq fabOn @minute 5
+control enabled fabricator1 fabOn 0 0 0

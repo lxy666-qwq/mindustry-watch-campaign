@@ -1,0 +1,15 @@
+set i 0
+getlink factory i
+op add i i 1
+control enabled factory 0 0 0 0
+jump 1 lessThanEq i @links
+getflag flag "start"
+jump 5 notEqual flag true
+set i 0
+getlink factory i
+op add i i 1
+control enabled factory 1 0 0 0
+jump 8 lessThanEq i @links
+setrule wave 1 0 0 100 100
+setrule waveSending 1 0 0 100 100
+stop

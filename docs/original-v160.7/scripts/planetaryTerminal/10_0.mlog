@@ -1,0 +1,6 @@
+fetch coreCount count @crux 0 @conveyor
+jump 0 greaterThan count 1
+op add endtime @minute 10
+jump 3 lessThan @minute endtime
+setflag "t4" true
+stop

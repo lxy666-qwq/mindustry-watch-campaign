@@ -1,0 +1,30 @@
+setrate 5
+ubind @mega
+uradar enemy any any distance 0 1 res
+jump 27 notEqual res null
+sensor Yu @unit @y
+sensor Xu @unit @x
+ulocate building turret true @copper XX YY f RT
+sensor rang RT @range
+op sub Xxx Xu XX
+op sub Yyy Yu YY
+op len len Xxx Yyy
+op add F F 1
+jump 14 greaterThan len rang
+op add S S 1
+jump 6 lessThan F 100
+set F 0
+jump 27 greaterThan S 0.1
+set S 0
+ulocate damaged core true @copper X Y found building
+jump 27 equal found 0
+sensor I1 building @health
+sensor I2 building @maxHealth
+jump 18 equal I1 I2
+ucontrol approach X Y 21 0 0
+ucontrol target X Y 2 0 0
+set S 0
+jump 1 always x false
+ucontrol approach 162 178 8 0 0
+set S 0
+jump 1 always x false

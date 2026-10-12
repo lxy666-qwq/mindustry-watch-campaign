@@ -1,0 +1,17 @@
+getflag u1 "u1"
+getflag u2 "u2"
+getflag u3 "u3"
+getflag u4 "u4"
+sensor t1 refabricator1 @team
+sensor t2 refabricator2 @team
+sensor t3 refabricator3 @team
+sensor t4 assembler1 @team
+jump 10 notEqual t1 3
+control enabled refabricator1 u1 0 0 0
+jump 12 notEqual t2 3
+control enabled refabricator2 u2 0 0 0
+jump 14 notEqual t3 3
+control enabled refabricator3 u3 0 0 0
+jump 16 notEqual t4 3
+control enabled assembler1 u4 0 0 0
+end

@@ -1,0 +1,14 @@
+getflag start "start"
+getlink acc 0
+setprop @copper acc 10000
+setprop @lead acc 10000
+setprop @silicon acc 7000
+setprop @thorium acc 5000
+setprop @phase-fabric acc 2000
+setprop @surge-alloy acc 2000
+setprop @plastanium acc 2000
+setprop @titanium acc 2000
+setprop @graphite acc 2000
+setprop @metaglass acc 2000
+jump 0 notEqual start 1
+stop

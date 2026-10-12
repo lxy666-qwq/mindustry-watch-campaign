@@ -1,0 +1,19 @@
+setrate 1
+getflag escalation2 "T2"
+jump 11 equal escalation2 true
+control enabled door1 0 0 0 0
+control enabled door2 0 0 0 0
+control enabled door3 0 0 0 0
+control enabled door4 0 0 0 0
+control enabled door5 0 0 0 0
+control enabled door6 0 0 0 0
+control enabled door7 0 0 0 0
+jump 1 always x false
+control enabled door2 1 0 0 0
+control enabled door1 1 0 0 0
+control enabled door3 1 0 0 0
+control enabled door4 1 0 0 0
+control enabled door5 1 0 0 0
+control enabled door6 1 0 0 0
+control enabled door7 1 0 0 0
+stop

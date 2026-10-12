@@ -1,0 +1,15 @@
+getflag f "att1"
+jump 0 equal f flase
+fetch unitCount Numono @crux 0 @mono
+op lessThanEq ena Numono 72
+getlink f0 0
+getlink f1 1
+sensor t0 f0 @team
+sensor t1 f1 @team
+op equal enb0 t0 2
+op equal enb1 t1 2
+op mul en0 ena enb0
+op mul en1 ena enb1
+control enabled f0 en0 0 0 0
+control enabled f1 en1 0 0 0
+jump 2 always x false

@@ -1,0 +1,115 @@
+setrate 1000
+set xa 240
+set ya 240
+set rot 0
+set r 50
+set s 30
+set dt 0.1
+spawn @oct xa ya 90 @crux o1 true
+spawn @oct xa ya 90 @crux o2 true
+spawn @oct xa ya 90 @crux o3 true
+spawn @oct xa ya 90 @crux o4 true
+spawn @oct xa ya 90 @crux o5 true
+spawn @oct xa ya 90 @crux o6 true
+setprop @speed o1 s
+setprop @speed o2 s
+setprop @speed o3 s
+setprop @speed o4 s
+setprop @speed o5 s
+setprop @speed o6 s
+setprop @armor o1 40
+setprop @armor o2 40
+setprop @armor o3 40
+setprop @armor o4 40
+setprop @armor o5 40
+setprop @armor o6 40
+setprop @blast-compound o1 1000
+setprop @blast-compound o2 1000
+setprop @blast-compound o3 1000
+setprop @blast-compound o4 1000
+setprop @blast-compound o5 1000
+setprop @blast-compound o6 1000
+setprop @shield o1 40000
+setprop @shield o2 40000
+setprop @shield o3 40000
+setprop @shield o4 40000
+setprop @shield o5 40000
+setprop @shield o6 40000
+set x xa
+set y ya
+op mul drot dt s
+op div drot drot 2
+op div drot drot r
+op asin drot drot r
+op mul drot drot -2
+set i 0
+op cos sin rot b
+op sin cos rot b
+op mul sin sin r
+op mul cos cos r
+op add lx x sin
+op add ly y cos
+jump 91 equal i 5
+jump 84 equal i 4
+jump 77 equal i 3
+jump 70 equal i 2
+jump 63 equal i 1
+ubind o1
+status false overclock unit 10000
+status false shielded unit 10000
+ucontrol move lx ly 0 0 0
+op add rot rot 60
+op add i i 1
+jump 45 always i 1
+ubind o2
+status false overclock unit 10000
+status false shielded unit 10000
+ucontrol move lx ly 0 0 0
+op add rot rot 60
+op add i i 1
+jump 45 always i 1
+ubind o3
+status false overclock unit 10000
+status false shielded unit 10000
+ucontrol move lx ly 0 0 0
+op add rot rot 60
+op add i i 1
+jump 45 always i 1
+ubind o4
+status false overclock unit 10000
+status false shielded unit 10000
+ucontrol move lx ly 0 0 0
+op add rot rot 60
+op add i i 1
+jump 45 always i 1
+ubind o5
+status false overclock unit 10000
+status false shielded unit 10000
+ucontrol move lx ly 0 0 0
+op add rot rot 60
+op add i i 1
+jump 45 always i 1
+ubind o6
+status false overclock unit 10000
+status false shielded unit 10000
+ucontrol move lx ly 0 0 0
+op add rot rot 60
+op add rot rot drot
+wait dt
+getblock building b1 xa ya
+sensor ds1 b1 @dead
+jump 102 equal ds1 1
+jump 44 always x false
+ubind o1
+ubind o2
+ubind o3
+ubind o4
+ubind o5
+ubind o6
+stop
+ucontrol unbind 0 0 0 0 0
+ucontrol unbind 0 0 0 0 0
+ucontrol unbind 0 0 0 0 0
+ucontrol unbind 0 0 0 0 0
+ucontrol unbind 0 0 0 0 0
+ucontrol unbind 0 0 0 0 0

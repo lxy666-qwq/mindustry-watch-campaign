@@ -1,0 +1,34 @@
+control enabled factory1 0 0 0 0
+control enabled factory2 0 0 0 0
+control enabled factory3 0 0 0 0
+control enabled factory4 0 0 0 0
+control enabled factory5 0 0 0 0
+control enabled factory6 0 0 0 0
+control enabled factory7 0 0 0 0
+control enabled conveyor1 0 0 0 0
+control enabled reconstructor1 0 0 0 0
+control enabled reconstructor2 0 0 0 0
+wait 900
+setrate 1
+control enabled factory1 1 0 0 0
+control enabled factory2 1 0 0 0
+wait 30
+control enabled factory3 1 0 0 0
+control enabled factory4 1 0 0 0
+control enabled factory5 1 0 0 0
+wait 40
+control enabled factory6 1 0 0 0
+control enabled factory7 1 0 0 0
+wait 40
+control enabled reconstructor1 1 0 0 0
+control enabled reconstructor2 1 0 0 0
+wait 40
+control enabled conveyor1 1 0 0 0
+fetch unitCount result @crux 0 @conveyor
+getlink r h
+op lessThan res result 90
+control enabled r res 0 0 0
+op add h h 1
+jump 26 lessThanEq h @links
+set h 0
+jump 26 always h @links

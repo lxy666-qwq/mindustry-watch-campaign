@@ -1,0 +1,55 @@
+wait 1.5
+spawn @mega 80 228 60 @sharded u1
+spawn @mega 83 228 60 @sharded u2
+spawn @mega 86 228 60 @sharded u3
+spawn @mega 89 228 60 @sharded u4
+setprop @plastanium u1 100
+setprop @plastanium u2 100
+setprop @plastanium u3 100
+setprop @plastanium u4 100
+set t 0
+op add t t 1
+ubind u1
+ucontrol payTake 0 294 0 0 0
+ubind u2
+ucontrol payTake 0 294 0 0 0
+ubind u3
+ucontrol payTake 0 294 0 0 0
+ubind u4
+ucontrol payTake 0 294 0 0 0
+wait 0.25
+jump 10 lessThan t 2
+set t 0
+op add t t 0.5
+ubind u1
+ucontrol move 132 294 0 0 0
+ubind u2
+ucontrol move 135 294 0 0 0
+ubind u3
+ucontrol move 138 294 0 0 0
+ubind u4
+ucontrol move 141 294 0 0 0
+wait 0.5
+jump 22 lessThan t 5.5
+set t 0
+op add t t 1
+ubind u1
+ucontrol payDrop 170 320 0 0 0
+ubind u2
+ucontrol payDrop 170 320 0 0 0
+ubind u3
+ucontrol payDrop 170 320 0 0 0
+ubind u4
+ucontrol payDrop 170 320 0 0 0
+wait 0.2
+jump 34 lessThan t 5
+ubind u1
+ucontrol unbind 170 320 0 0 0
+ubind u2
+ucontrol unbind 170 320 0 0 0
+ubind u3
+ucontrol unbind 170 320 0 0 0
+ubind u4
+ucontrol unbind 170 320 0 0 0
+stop
+sensor result block1 @container

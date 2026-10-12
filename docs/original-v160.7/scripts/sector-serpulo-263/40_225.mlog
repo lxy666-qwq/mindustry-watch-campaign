@@ -1,0 +1,27 @@
+setrate 20
+setflag "dc1" 0
+fetch coreCount c @crux 0 @conveyor
+jump 2 greaterThan c 2
+setflag "dc1" 1
+spawn @antumbra 50 450 270 @crux a1 true
+spawn @antumbra 50 450 270 @crux a3 true
+spawn @antumbra 450 50 180 @crux a2 true
+spawn @antumbra 450 50 180 @crux a4 true
+setprop @shield a1 9000
+setprop @shield a3 9000
+setprop @shield a2 9000
+setprop @shield a4 9000
+setprop @armor a1 15
+setprop @armor a3 15
+setprop @armor a2 15
+setprop @armor a4 15
+setprop @surge-alloy a1 150
+setprop @surge-alloy a3 150
+setprop @surge-alloy a2 150
+setprop @surge-alloy a4 150
+status false overdrive a1 100000
+status false overdrive a3 100000
+status false overdrive a2 100000
+status false overdrive a4 100000
+wait 45
+jump 5 always ofin false

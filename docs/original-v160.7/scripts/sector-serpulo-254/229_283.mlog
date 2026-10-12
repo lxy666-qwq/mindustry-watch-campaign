@@ -1,0 +1,39 @@
+fetch core co @sharded 0 @conveyor
+sensor surgn co @silicon
+set snn surgn
+sensor surg co @surge-alloy
+set sn surg
+sensor th co @phase-fabric
+set thn th
+sensor thk co @thorium
+set thnn thk
+jump 30 greaterThan @second 950
+set thnn thk
+sensor thk co @thorium
+op sub dthh thk thnn
+jump 27 greaterThan dthh 540
+set thn th
+sensor th co @phase-fabric
+op sub dth th thn
+jump 27 greaterThan dth 300
+set sn surg
+sensor surg co @surge-alloy
+op sub dsurg surg sn
+jump 27 greaterThan dsurg 300
+set snn surgn
+sensor surgn co @silicon
+op sub dsurgn surgn snn
+jump 27 greaterThan dsurgn 1800
+jump 31 always th 200
+spawn @crawler 292 280 90 @crux result
+setrule waveSpacing 50 0 0 100 100
+set klop 7164
+stop
+wait 5
+setprop @surge-alloy nucleus1 123
+setprop @blast-compound nucleus1 123
+setprop @phase-fabric nucleus1 123
+setprop @thorium nucleus1 1234
+setprop @titanium nucleus1 1234
+setprop @silicon nucleus1 1234
+jump 9 always th 200

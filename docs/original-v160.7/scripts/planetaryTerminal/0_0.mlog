@@ -1,0 +1,7 @@
+getflag escalation "ground"
+jump 0 notEqual escalation true
+fetch buildCount count @crux 0 @ground-factory
+op add i i 1
+op mod i i count
+fetch build build @crux i @ground-factory
+control enabled build 1 0 0 0

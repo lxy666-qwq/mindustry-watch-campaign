@@ -1,0 +1,12 @@
+set i 0
+getlink b i
+op add i i 1
+control enabled b false 0 0 0
+jump 1 lessThan i @links
+wait 150
+set i 0
+getlink b i
+op add i i 1
+control enabled b true 0 0 0
+jump 7 lessThan i @links
+stop

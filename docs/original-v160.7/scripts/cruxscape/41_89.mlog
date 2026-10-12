@@ -1,0 +1,48 @@
+set counter 0
+sensor result nucleus1 @dead
+jump 1 notEqual result 1
+wait 2
+spawn @antumbra 40 350 270 @crux b1
+setprop @shield b1 25000
+status false slow b1 99999
+spawn @antumbra 140 350 270 @crux b2
+setprop @shield b2 25000
+status false slow b2 99999
+spawn @antumbra 240 350 270 @crux b3
+setprop @shield b3 25000
+status false slow b3 99999
+spawn @antumbra 340 350 270 @crux b4
+setprop @shield b4 25000
+status false slow b4 99999
+spawn @antumbra 40 250 270 @crux b5
+setprop @shield b5 25000
+status false slow b5 99999
+spawn @antumbra 140 250 270 @crux b6
+setprop @shield b6 25000
+status false slow b6 99999
+spawn @antumbra 240 250 270 @crux b7
+setprop @shield b7 25000
+status false slow b7 99999
+spawn @antumbra 340 250 270 @crux b8
+setprop @shield b8 25000
+status false slow b8 99999
+ubind b1
+ucontrol move 40 200 0 0 0
+ubind b2
+ucontrol move 140 200 0 0 0
+ubind b3
+ucontrol move 240 200 0 0 0
+ubind b4
+ucontrol move 340 200 0 0 0
+ubind b5
+ucontrol move 40 100 0 0 0
+ubind b6
+ucontrol move 140 100 0 0 0
+ubind b7
+ucontrol move 240 100 0 0 0
+ubind b8
+ucontrol move 340 100 0 0 0
+op add counter counter 1
+wait 6
+jump 28 lessThan counter 10
+stop

@@ -1,0 +1,5 @@
+control enabled reconstructor1 0 0 0 0
+getflag result "www"
+jump 1 equal result 0
+control enabled reconstructor1 1 0 0 0
+end

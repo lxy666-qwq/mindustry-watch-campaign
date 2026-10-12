@@ -1,0 +1,7 @@
+setrate 16
+ubind @oct
+sensor pa @unit @payloadCount
+jump 1 notEqual pa 0
+sensor fl @unit @flag
+jump 1 notEqual fl null
+ucontrol flag 2 0 0 0 0

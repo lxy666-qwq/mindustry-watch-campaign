@@ -1,0 +1,2 @@
+getflag air "beginAirProduction"
+control enabled refabricator1 air 0 0 0

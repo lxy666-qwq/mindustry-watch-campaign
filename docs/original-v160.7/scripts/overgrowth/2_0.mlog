@@ -1,0 +1,6 @@
+fetch buildCount count @crux 0 @naval-factory
+op add i i 1
+op mod i i count
+fetch build build @crux i @naval-factory
+op greaterThanEq var @waveNumber 7
+control enabled build var 0 0 0

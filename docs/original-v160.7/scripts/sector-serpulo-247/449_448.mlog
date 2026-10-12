@@ -1,0 +1,34 @@
+setrate 1000
+op add sy sy 1
+fetch unit un @crux sy @omura
+jump 5 equal un null
+jump 7 always un null
+set sy 0
+jump 2 always un null
+sensor st un @shooting
+sensor hp un @health
+jump 11 equal st 1
+jump 12 always st 1
+status false unmoving un 3
+sensor hp un @health
+sensor x un @x
+sensor y un @y
+sensor dead un @dead
+sensor r un @rotation
+sensor ax un @shootX
+sensor ay un @shootY
+jump 27 equal dead 1
+write x cell1 sy
+write y cell2 sy
+write hp cell3 sy
+write r cell5 sy
+write ax cell6 sy
+write ay cell7 sy
+jump 33 always dead 1
+write 0 cell1 sy
+write 0 cell2 sy
+write 0 cell3 sy
+write 0 cell5 sy
+write 0 cell6 sy
+write 0 cell7 sy
+end

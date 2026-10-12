@@ -1,0 +1,15 @@
+set counter 0
+sensor result foundation1 @dead
+jump 1 notEqual result 1
+sensor result2 nucleus1 @dead
+jump 3 notEqual result2 1
+sensor result3 nucleus2 @dead
+jump 1 notEqual result3 1
+wait 2
+spawn @oct 202 420 270 @crux z1
+setprop @shield z1 10000
+setprop @speed z1 10
+status false fast z1 99999
+status false shielded z1 99999
+wait 40
+jump 8 always x false

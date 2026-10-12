@@ -1,0 +1,11 @@
+getlink l id
+jump 9 lessThan id @links
+set id 0
+jump 5 equal q 0
+stop
+set q 1
+getlink l 0
+getflag productionStart "productionStart"
+jump 7 equal productionStart 0
+op add id id 1
+control enabled l q 0 0 0

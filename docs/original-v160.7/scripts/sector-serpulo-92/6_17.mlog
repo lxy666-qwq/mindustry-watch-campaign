@@ -1,0 +1,13 @@
+getflag nucw1 "nucw1"
+getflag nucw2 "nucw2"
+jump 10 equal nucw2 true
+jump 5 equal nucw1 true
+jump 0 always nucw1 false
+setrule wave 30 0 0 100 100
+setrule currentWaveTime 0 0 0 100 100
+getflag nucw2 "nucw2"
+jump 10 equal nucw2 true
+jump 7 always nucw1 false
+setrule wave 70 0 0 100 100
+setrule currentWaveTime 0 0 0 100 100
+stop

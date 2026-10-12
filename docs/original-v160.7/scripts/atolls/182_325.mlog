@@ -1,0 +1,13 @@
+getflag go "move"
+jump 0 equal go false
+wait 0.5
+cutscene zoom 0.25 105 0.05 0
+cutscene pan 145 314 0.05 0
+wait 3
+cutscene zoom 0.3 105 0.05 0
+cutscene pan 172 105 0.03 0
+wait 6
+cutscene pan 250 71 0.05 0
+wait 3
+cutscene stop 100 100 0.06 0
+stop

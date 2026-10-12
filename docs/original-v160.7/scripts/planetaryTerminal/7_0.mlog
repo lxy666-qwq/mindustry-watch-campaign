@@ -1,0 +1,6 @@
+getflag escalation "overdrive"
+fetch buildCount count @crux 0 @overdrive-dome
+op add i i 1
+op mod i i count
+fetch build build @crux i @overdrive-dome
+control enabled build escalation 0 0 0

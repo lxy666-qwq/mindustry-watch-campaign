@@ -1,0 +1,27 @@
+setrate 20
+fetch build c1 @crux 0 @core-nucleus
+set t 8000
+jump 9 notEqual c1 null
+set t 5000
+fetch build c1 @core-@crux 0 @core-foundation
+jump 9 notEqual c1 null
+fetch build c1 @core-@crux 0 @core-shard
+set t 3000
+setprop @copper c1 t
+setprop @lead c1 t
+setprop @metaglass c1 t
+setprop @graphite c1 t
+setprop @sand c1 t
+setprop @coal c1 t
+setprop @titanium c1 t
+setprop @thorium c1 t
+setprop @scrap c1 t
+setprop @silicon c1 t
+setprop @plastanium c1 t
+setprop @phase-fabric c1 t
+setprop @surge-alloy c1 t
+setprop @spore-pod c1 t
+setprop @blast-compound c1 t
+setprop @pyratite c1 t
+jump 1 always x false
+sensor result block1 @core-nucleus

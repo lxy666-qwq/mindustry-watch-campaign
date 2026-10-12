@@ -1,0 +1,15 @@
+setrate 400
+set count @links
+set t -1
+op add t t 1
+getlink cons t
+control enabled cons 0 0 0 0
+jump 3 lessThan t count
+getflag flag "f1"
+jump 6 notEqual flag true
+set t -1
+op add t t 1
+getlink cons t
+control enabled cons 1 0 0 0
+jump 10 lessThan t count
+stop

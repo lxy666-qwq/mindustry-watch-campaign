@@ -1,0 +1,43 @@
+setrate 2
+set TimeM @minute
+jump 14 equal WAS 1
+jump 6 greaterThan TimeM 10
+set Atime 0.35
+jump 16 always x false
+jump 9 greaterThan TimeM 15
+set Atime 0.3
+jump 16 always x false
+jump 12 greaterThan TimeM 20
+set Atime 0.25
+jump 16 always x false
+jump 14 greaterThan TimeM 50
+jump 16 always x false
+set Atime 0.145
+set WAS 1
+set x 247
+set y1 509
+set y2 507
+set y3 505
+set 2y 525
+set 2x1 231
+set 2x2 229
+set 2x3 227
+setblock floor @metal-tiles-10 x y1 @derelict 0
+setblock floor @metal-tiles-10 2x1 2y @derelict 0
+setblock floor @metal-tiles-10 2x2 2y @derelict 0
+setblock floor @metal-tiles-10 x y2 @derelict 0
+wait Atime
+setblock floor @metal-tiles-10 2x3 2y @derelict 0
+setblock floor @metal-tiles-6 2x1 2y @derelict 0
+setblock floor @metal-tiles-10 x y3 @derelict 0
+setblock floor @metal-tiles-6 x y1 @derelict 0
+wait Atime
+setblock floor @metal-tiles-10 2x1 2y @derelict 0
+setblock floor @metal-tiles-6 2x2 2y @derelict 0
+setblock floor @metal-tiles-10 x y1 @derelict 0
+setblock floor @metal-tiles-6 x y2 @derelict 0
+wait Atime
+setblock floor @metal-tiles-10 2x2 2y @derelict 0
+setblock floor @metal-tiles-6 2x3 2y @derelict 0
+setblock floor @metal-tiles-10 x y2 @derelict 0
+setblock floor @metal-tiles-6 x y3 @derelict 0

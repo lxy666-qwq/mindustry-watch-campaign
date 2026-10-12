@@ -1,0 +1,7 @@
+getflag e1 "e1"
+getflag e2 "e2"
+control enabled reconstructor1 e1 0 0 0
+control enabled reconstructor2 e1 0 0 0
+control enabled reconstructor3 e1 0 0 0
+control enabled reconstructor4 e1 0 0 0
+control enabled reconstructor5 e2 0 0 0
