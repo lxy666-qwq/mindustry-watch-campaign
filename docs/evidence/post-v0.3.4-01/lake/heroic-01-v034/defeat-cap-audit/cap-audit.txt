@@ -1,0 +1,11 @@
+nativeDefaultTeam=sharded
+cores=0
+unitCap=0
+savedUnitCount=11
+loadedUnitCount=6
+eludeUseUnitCap=true
+missingSavedUnit=unit.1177.identity:elude:1
+missingSavedUnit=unit.2511.identity:elude:1
+missingSavedUnit=unit.1129.identity:elude:1
+missingSavedUnit=unit.1470.identity:elude:1
+missingSavedUnit=unit.1084.identity:elude:1

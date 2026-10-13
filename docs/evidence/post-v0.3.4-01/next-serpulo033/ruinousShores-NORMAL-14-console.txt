@@ -1,0 +1,24 @@
+profileScope=shared-progression gateVerified=true starsBefore=0 mainStarsBefore=12
+Native shores start core=204,170 inventory=ItemModule{copper:100}
+planned copper output 218,171 pathLength=12 bridgeEndpoints=0
+planned copper output 218,173 pathLength=2 bridgeEndpoints=0
+planned copper output 219,175 pathLength=3 bridgeEndpoints=0
+planned lead output 195,188 pathLength=23 bridgeEndpoints=0
+planned lead output 189,185 pathLength=6 bridgeEndpoints=0
+planned coal output 231,181 pathLength=35 bridgeEndpoints=0
+planned coal output 230,184 pathLength=2 bridgeEndpoints=0
+planned coal output 231,187 pathLength=5 bridgeEndpoints=0
+planned coal output 233,186 pathLength=1 bridgeEndpoints=0
+planned coal output 233,182 pathLength=1 bridgeEndpoints=0
+planned coal output 233,188 pathLength=5 bridgeEndpoints=0
+planned coal output 233,190 pathLength=2 bridgeEndpoints=0
+planned coal output 165,185 pathLength=50 bridgeEndpoints=0
+planned graphite output 208,168 pathLength=2 bridgeEndpoints=0
+planned sand output 204,167 pathLength=1 bridgeEndpoints=0
+planned silicon output 200,168 pathLength=1 bridgeEndpoints=0
+planned metaglass output 200,163 pathLength=19 bridgeEndpoints=0
+native steam=204,158 adjacent water pump=204,157
+native steam=202,158 adjacent water pump=203,157
+Exception in thread "main" java.lang.IllegalStateException: Melter must actually be adjacent to separator
+	at RuinousShoresTrial033.planDefence(RuinousShoresTrial033.java:272)
+	at RuinousShoresTrial033.main(RuinousShoresTrial033.java:154)

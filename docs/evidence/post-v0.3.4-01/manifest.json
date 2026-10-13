@@ -1,0 +1,4364 @@
+{
+  "baseRelease": "0.3.4",
+  "releaseFrozenFullScoreModes": 32,
+  "fullScoreModes": 34,
+  "totalModes": 168,
+  "freezePoint": "Lake H05/T02 readback complete; Ruins01-31, TideH31-42, Biomass14-19; later cases separate",
+  "files": [
+    {
+      "path": "lake/heroic-01-v034/actions.txt",
+      "rawBytes": 2826,
+      "publicBytes": 2927
+    },
+    {
+      "path": "lake/heroic-01-v034/army.csv",
+      "rawBytes": 10362,
+      "publicBytes": 10567
+    },
+    {
+      "path": "lake/heroic-01-v034/checkpoint-900-loaded-world.json",
+      "rawBytes": 90140,
+      "publicBytes": 90140
+    },
+    {
+      "path": "lake/heroic-01-v034/checkpoint-900-tags.json",
+      "rawBytes": 21432,
+      "publicBytes": 21432
+    },
+    {
+      "path": "lake/heroic-01-v034/checkpoint-900-world.json",
+      "rawBytes": 90140,
+      "publicBytes": 90140
+    },
+    {
+      "path": "lake/heroic-01-v034/checkpoint-900.msav",
+      "rawBytes": 15690,
+      "publicBytes": 15690
+    },
+    {
+      "path": "lake/heroic-01-v034/checkpoints.txt",
+      "rawBytes": 109,
+      "publicBytes": 110
+    },
+    {
+      "path": "lake/heroic-01-v034/combat.csv",
+      "rawBytes": 1157,
+      "publicBytes": 1196
+    },
+    {
+      "path": "lake/heroic-01-v034/console.txt",
+      "rawBytes": 3715,
+      "publicBytes": 3715
+    },
+    {
+      "path": "lake/heroic-01-v034/core-health.csv",
+      "rawBytes": 818,
+      "publicBytes": 856
+    },
+    {
+      "path": "lake/heroic-01-v034/defeat-cap-audit/cap-audit.txt",
+      "rawBytes": 321,
+      "publicBytes": 332
+    },
+    {
+      "path": "lake/heroic-01-v034/defeat-cap-audit/console.txt",
+      "rawBytes": 332,
+      "publicBytes": 332
+    },
+    {
+      "path": "lake/heroic-01-v034/defeat-cap-audit/driver-source.java",
+      "rawBytes": 4083,
+      "publicBytes": 4068
+    },
+    {
+      "path": "lake/heroic-01-v034/defeat-cap-audit/loaded-watch-version.txt",
+      "rawBytes": 7,
+      "publicBytes": 7
+    },
+    {
+      "path": "lake/heroic-01-v034/defeat-cap-audit/loaded-world.json",
+      "rawBytes": 83729,
+      "publicBytes": 83729
+    },
+    {
+      "path": "lake/heroic-01-v034/defeat-cap-audit/state-audit-source.java",
+      "rawBytes": 3341,
+      "publicBytes": 3341
+    },
+    {
+      "path": "lake/heroic-01-v034/diagnostics.txt",
+      "rawBytes": 30277,
+      "publicBytes": 30559
+    },
+    {
+      "path": "lake/heroic-01-v034/driver-source.java",
+      "rawBytes": 41877,
+      "publicBytes": 41852
+    },
+    {
+      "path": "lake/heroic-01-v034/end.msav",
+      "rawBytes": 15608,
+      "publicBytes": 15608
+    },
+    {
+      "path": "lake/heroic-01-v034/enemy-map.txt",
+      "rawBytes": 3702,
+      "publicBytes": 3958
+    },
+    {
+      "path": "lake/heroic-01-v034/final-tags.json",
+      "rawBytes": 21186,
+      "publicBytes": 21186
+    },
+    {
+      "path": "lake/heroic-01-v034/final-world.json",
+      "rawBytes": 84940,
+      "publicBytes": 84940
+    },
+    {
+      "path": "lake/heroic-01-v034/fresh-readback/console.txt",
+      "rawBytes": 250,
+      "publicBytes": 250
+    },
+    {
+      "path": "lake/heroic-01-v034/fresh-readback/driver-source.java",
+      "rawBytes": 5187,
+      "publicBytes": 5172
+    },
+    {
+      "path": "lake/heroic-01-v034/fresh-readback/loaded-watch-version.txt",
+      "rawBytes": 7,
+      "publicBytes": 7
+    },
+    {
+      "path": "lake/heroic-01-v034/fresh-readback/state-audit-source.java",
+      "rawBytes": 3341,
+      "publicBytes": 3341
+    },
+    {
+      "path": "lake/heroic-01-v034/inherited-aegis.txt",
+      "rawBytes": 56,
+      "publicBytes": 61
+    },
+    {
+      "path": "lake/heroic-01-v034/inherited-onset.txt",
+      "rawBytes": 29,
+      "publicBytes": 32
+    },
+    {
+      "path": "lake/heroic-01-v034/loaded-watch-version.txt",
+      "rawBytes": 7,
+      "publicBytes": 7
+    },
+    {
+      "path": "lake/heroic-01-v034/map.txt",
+      "rawBytes": 7579,
+      "publicBytes": 7750
+    },
+    {
+      "path": "lake/heroic-01-v034/mission-description.txt",
+      "rawBytes": 231,
+      "publicBytes": 232
+    },
+    {
+      "path": "lake/heroic-01-v034/mission-limits.txt",
+      "rawBytes": 110,
+      "publicBytes": 113
+    },
+    {
+      "path": "lake/heroic-01-v034/native-repairs.csv",
+      "rawBytes": 105459,
+      "publicBytes": 107532
+    },
+    {
+      "path": "lake/heroic-01-v034/objectives.json",
+      "rawBytes": 127,
+      "publicBytes": 127
+    },
+    {
+      "path": "lake/heroic-01-v034/player-losses.csv",
+      "rawBytes": 950,
+      "publicBytes": 979
+    },
+    {
+      "path": "lake/heroic-01-v034/processor-132-215.mlog",
+      "rawBytes": 68,
+      "publicBytes": 70
+    },
+    {
+      "path": "lake/heroic-01-v034/QA_REPORT.md",
+      "rawBytes": 1679,
+      "publicBytes": 1679
+    },
+    {
+      "path": "lake/heroic-01-v034/result.txt",
+      "rawBytes": 531,
+      "publicBytes": 553
+    },
+    {
+      "path": "lake/heroic-01-v034/rules-before-save.json",
+      "rawBytes": 26756,
+      "publicBytes": 26756
+    },
+    {
+      "path": "lake/heroic-01-v034/runtime.txt",
+      "rawBytes": 247,
+      "publicBytes": 242
+    },
+    {
+      "path": "lake/heroic-01-v034/save-status.txt",
+      "rawBytes": 64,
+      "publicBytes": 65
+    },
+    {
+      "path": "lake/heroic-01-v034/scores-before.txt",
+      "rawBytes": 100,
+      "publicBytes": 99
+    },
+    {
+      "path": "lake/heroic-01-v034/state-audit-source.java",
+      "rawBytes": 3341,
+      "publicBytes": 3341
+    },
+    {
+      "path": "lake/heroic-01-v034/task-status.csv",
+      "rawBytes": 3803,
+      "publicBytes": 3842
+    },
+    {
+      "path": "lake/heroic-01-v034/terrain.txt",
+      "rawBytes": 543,
+      "publicBytes": 569
+    },
+    {
+      "path": "lake/heroic-01-v034/trial.csv",
+      "rawBytes": 2217,
+      "publicBytes": 2257
+    },
+    {
+      "path": "lake/heroic-02-v034/actions.txt",
+      "rawBytes": 2826,
+      "publicBytes": 2927
+    },
+    {
+      "path": "lake/heroic-02-v034/army.csv",
+      "rawBytes": 9868,
+      "publicBytes": 10069
+    },
+    {
+      "path": "lake/heroic-02-v034/assault.csv",
+      "rawBytes": 100479,
+      "publicBytes": 101767
+    },
+    {
+      "path": "lake/heroic-02-v034/checkpoint-900-loaded-world.json",
+      "rawBytes": 92997,
+      "publicBytes": 92997
+    },
+    {
+      "path": "lake/heroic-02-v034/checkpoint-900-tags.json",
+      "rawBytes": 22048,
+      "publicBytes": 22048
+    },
+    {
+      "path": "lake/heroic-02-v034/checkpoint-900-world.json",
+      "rawBytes": 92997,
+      "publicBytes": 92997
+    },
+    {
+      "path": "lake/heroic-02-v034/checkpoint-900.msav",
+      "rawBytes": 15749,
+      "publicBytes": 15749
+    },
+    {
+      "path": "lake/heroic-02-v034/checkpoints.txt",
+      "rawBytes": 109,
+      "publicBytes": 110
+    },
+    {
+      "path": "lake/heroic-02-v034/combat.csv",
+      "rawBytes": 1066,
+      "publicBytes": 1106
+    },
+    {
+      "path": "lake/heroic-02-v034/console.txt",
+      "rawBytes": 3652,
+      "publicBytes": 3652
+    },
+    {
+      "path": "lake/heroic-02-v034/core-health.csv",
+      "rawBytes": 820,
+      "publicBytes": 860
+    },
+    {
+      "path": "lake/heroic-02-v034/diagnostics.txt",
+      "rawBytes": 47568,
+      "publicBytes": 48026
+    },
+    {
+      "path": "lake/heroic-02-v034/driver-source.java",
+      "rawBytes": 42442,
+      "publicBytes": 42417
+    },
+    {
+      "path": "lake/heroic-02-v034/end.msav",
+      "rawBytes": 16369,
+      "publicBytes": 16369
+    },
+    {
+      "path": "lake/heroic-02-v034/enemy-map.txt",
+      "rawBytes": 3702,
+      "publicBytes": 3958
+    },
+    {
+      "path": "lake/heroic-02-v034/final-tags.json",
+      "rawBytes": 23111,
+      "publicBytes": 23111
+    },
+    {
+      "path": "lake/heroic-02-v034/final-world.json",
+      "rawBytes": 86892,
+      "publicBytes": 86892
+    },
+    {
+      "path": "lake/heroic-02-v034/fresh-readback/console.txt",
+      "rawBytes": 691,
+      "publicBytes": 676
+    },
+    {
+      "path": "lake/heroic-02-v034/fresh-readback/driver-source.java",
+      "rawBytes": 5187,
+      "publicBytes": 5172
+    },
+    {
+      "path": "lake/heroic-02-v034/fresh-readback/loaded-tags.json",
+      "rawBytes": 23111,
+      "publicBytes": 23111
+    },
+    {
+      "path": "lake/heroic-02-v034/fresh-readback/loaded-watch-version.txt",
+      "rawBytes": 7,
+      "publicBytes": 7
+    },
+    {
+      "path": "lake/heroic-02-v034/fresh-readback/loaded-world.json",
+      "rawBytes": 86892,
+      "publicBytes": 86892
+    },
+    {
+      "path": "lake/heroic-02-v034/fresh-readback/result.txt",
+      "rawBytes": 665,
+      "publicBytes": 676
+    },
+    {
+      "path": "lake/heroic-02-v034/fresh-readback/state-audit-source.java",
+      "rawBytes": 3341,
+      "publicBytes": 3341
+    },
+    {
+      "path": "lake/heroic-02-v034/inherited-aegis.txt",
+      "rawBytes": 56,
+      "publicBytes": 61
+    },
+    {
+      "path": "lake/heroic-02-v034/inherited-onset.txt",
+      "rawBytes": 29,
+      "publicBytes": 32
+    },
+    {
+      "path": "lake/heroic-02-v034/loaded-watch-version.txt",
+      "rawBytes": 7,
+      "publicBytes": 7
+    },
+    {
+      "path": "lake/heroic-02-v034/map.txt",
+      "rawBytes": 7579,
+      "publicBytes": 7750
+    },
+    {
+      "path": "lake/heroic-02-v034/mission-description.txt",
+      "rawBytes": 231,
+      "publicBytes": 232
+    },
+    {
+      "path": "lake/heroic-02-v034/mission-limits.txt",
+      "rawBytes": 110,
+      "publicBytes": 113
+    },
+    {
+      "path": "lake/heroic-02-v034/native-repairs.csv",
+      "rawBytes": 86150,
+      "publicBytes": 87997
+    },
+    {
+      "path": "lake/heroic-02-v034/naval-stage.csv",
+      "rawBytes": 6933,
+      "publicBytes": 7054
+    },
+    {
+      "path": "lake/heroic-02-v034/objectives.json",
+      "rawBytes": 127,
+      "publicBytes": 127
+    },
+    {
+      "path": "lake/heroic-02-v034/player-losses.csv",
+      "rawBytes": 1323,
+      "publicBytes": 1366
+    },
+    {
+      "path": "lake/heroic-02-v034/processor-132-215.mlog",
+      "rawBytes": 68,
+      "publicBytes": 70
+    },
+    {
+      "path": "lake/heroic-02-v034/QA_REPORT.md",
+      "rawBytes": 1128,
+      "publicBytes": 1128
+    },
+    {
+      "path": "lake/heroic-02-v034/result.txt",
+      "rawBytes": 524,
+      "publicBytes": 546
+    },
+    {
+      "path": "lake/heroic-02-v034/rules-before-save.json",
+      "rawBytes": 28681,
+      "publicBytes": 28681
+    },
+    {
+      "path": "lake/heroic-02-v034/runtime.txt",
+      "rawBytes": 247,
+      "publicBytes": 242
+    },
+    {
+      "path": "lake/heroic-02-v034/save-status.txt",
+      "rawBytes": 64,
+      "publicBytes": 65
+    },
+    {
+      "path": "lake/heroic-02-v034/scores-before.txt",
+      "rawBytes": 100,
+      "publicBytes": 99
+    },
+    {
+      "path": "lake/heroic-02-v034/state-audit-source.java",
+      "rawBytes": 3341,
+      "publicBytes": 3341
+    },
+    {
+      "path": "lake/heroic-02-v034/task-status.csv",
+      "rawBytes": 3901,
+      "publicBytes": 3941
+    },
+    {
+      "path": "lake/heroic-02-v034/terrain.txt",
+      "rawBytes": 543,
+      "publicBytes": 569
+    },
+    {
+      "path": "lake/heroic-02-v034/trial.csv",
+      "rawBytes": 2214,
+      "publicBytes": 2255
+    },
+    {
+      "path": "lake/heroic-03-v034/actions.txt",
+      "rawBytes": 2826,
+      "publicBytes": 2927
+    },
+    {
+      "path": "lake/heroic-03-v034/army.csv",
+      "rawBytes": 10312,
+      "publicBytes": 10516
+    },
+    {
+      "path": "lake/heroic-03-v034/assault.csv",
+      "rawBytes": 115401,
+      "publicBytes": 116876
+    },
+    {
+      "path": "lake/heroic-03-v034/checkpoint-2400-loaded-world.json",
+      "rawBytes": 91317,
+      "publicBytes": 91317
+    },
+    {
+      "path": "lake/heroic-03-v034/checkpoint-2400-tags.json",
+      "rawBytes": 22587,
+      "publicBytes": 22587
+    },
+    {
+      "path": "lake/heroic-03-v034/checkpoint-2400-world.json",
+      "rawBytes": 91317,
+      "publicBytes": 91317
+    },
+    {
+      "path": "lake/heroic-03-v034/checkpoint-2400.msav",
+      "rawBytes": 16302,
+      "publicBytes": 16302
+    },
+    {
+      "path": "lake/heroic-03-v034/checkpoint-900-loaded-world.json",
+      "rawBytes": 92936,
+      "publicBytes": 92936
+    },
+    {
+      "path": "lake/heroic-03-v034/checkpoint-900-tags.json",
+      "rawBytes": 22108,
+      "publicBytes": 22108
+    },
+    {
+      "path": "lake/heroic-03-v034/checkpoint-900-world.json",
+      "rawBytes": 92936,
+      "publicBytes": 92936
+    },
+    {
+      "path": "lake/heroic-03-v034/checkpoint-900.msav",
+      "rawBytes": 15746,
+      "publicBytes": 15746
+    },
+    {
+      "path": "lake/heroic-03-v034/checkpoints.txt",
+      "rawBytes": 218,
+      "publicBytes": 220
+    },
+    {
+      "path": "lake/heroic-03-v034/combat.csv",
+      "rawBytes": 1675,
+      "publicBytes": 1737
+    },
+    {
+      "path": "lake/heroic-03-v034/console.txt",
+      "rawBytes": 5428,
+      "publicBytes": 5428
+    },
+    {
+      "path": "lake/heroic-03-v034/core-health.csv",
+      "rawBytes": 1279,
+      "publicBytes": 1341
+    },
+    {
+      "path": "lake/heroic-03-v034/diagnostics.txt",
+      "rawBytes": 76379,
+      "publicBytes": 77115
+    },
+    {
+      "path": "lake/heroic-03-v034/driver-source.java",
+      "rawBytes": 43036,
+      "publicBytes": 43011
+    },
+    {
+      "path": "lake/heroic-03-v034/end.msav",
+      "rawBytes": 16334,
+      "publicBytes": 16334
+    },
+    {
+      "path": "lake/heroic-03-v034/enemy-map.txt",
+      "rawBytes": 3702,
+      "publicBytes": 3958
+    },
+    {
+      "path": "lake/heroic-03-v034/final-tags.json",
+      "rawBytes": 22708,
+      "publicBytes": 22708
+    },
+    {
+      "path": "lake/heroic-03-v034/final-world.json",
+      "rawBytes": 90368,
+      "publicBytes": 90368
+    },
+    {
+      "path": "lake/heroic-03-v034/fresh-readback/console.txt",
+      "rawBytes": 714,
+      "publicBytes": 699
+    },
+    {
+      "path": "lake/heroic-03-v034/fresh-readback/driver-source.java",
+      "rawBytes": 5187,
+      "publicBytes": 5172
+    },
+    {
+      "path": "lake/heroic-03-v034/fresh-readback/loaded-tags.json",
+      "rawBytes": 22708,
+      "publicBytes": 22708
+    },
+    {
+      "path": "lake/heroic-03-v034/fresh-readback/loaded-watch-version.txt",
+      "rawBytes": 7,
+      "publicBytes": 7
+    },
+    {
+      "path": "lake/heroic-03-v034/fresh-readback/loaded-world.json",
+      "rawBytes": 90368,
+      "publicBytes": 90368
+    },
+    {
+      "path": "lake/heroic-03-v034/fresh-readback/result.txt",
+      "rawBytes": 687,
+      "publicBytes": 699
+    },
+    {
+      "path": "lake/heroic-03-v034/fresh-readback/state-audit-source.java",
+      "rawBytes": 3341,
+      "publicBytes": 3341
+    },
+    {
+      "path": "lake/heroic-03-v034/inherited-aegis.txt",
+      "rawBytes": 56,
+      "publicBytes": 61
+    },
+    {
+      "path": "lake/heroic-03-v034/inherited-onset.txt",
+      "rawBytes": 29,
+      "publicBytes": 32
+    },
+    {
+      "path": "lake/heroic-03-v034/loaded-watch-version.txt",
+      "rawBytes": 7,
+      "publicBytes": 7
+    },
+    {
+      "path": "lake/heroic-03-v034/map.txt",
+      "rawBytes": 7579,
+      "publicBytes": 7750
+    },
+    {
+      "path": "lake/heroic-03-v034/mission-description.txt",
+      "rawBytes": 231,
+      "publicBytes": 232
+    },
+    {
+      "path": "lake/heroic-03-v034/mission-limits.txt",
+      "rawBytes": 110,
+      "publicBytes": 113
+    },
+    {
+      "path": "lake/heroic-03-v034/native-repairs.csv",
+      "rawBytes": 116298,
+      "publicBytes": 118791
+    },
+    {
+      "path": "lake/heroic-03-v034/naval-stage.csv",
+      "rawBytes": 22491,
+      "publicBytes": 22885
+    },
+    {
+      "path": "lake/heroic-03-v034/objectives.json",
+      "rawBytes": 127,
+      "publicBytes": 127
+    },
+    {
+      "path": "lake/heroic-03-v034/player-losses.csv",
+      "rawBytes": 387,
+      "publicBytes": 399
+    },
+    {
+      "path": "lake/heroic-03-v034/processor-132-215.mlog",
+      "rawBytes": 68,
+      "publicBytes": 70
+    },
+    {
+      "path": "lake/heroic-03-v034/QA_REPORT.md",
+      "rawBytes": 1012,
+      "publicBytes": 1012
+    },
+    {
+      "path": "lake/heroic-03-v034/repair-health-ticks.csv",
+      "rawBytes": 1647392,
+      "publicBytes": 1660032
+    },
+    {
+      "path": "lake/heroic-03-v034/result.txt",
+      "rawBytes": 540,
+      "publicBytes": 563
+    },
+    {
+      "path": "lake/heroic-03-v034/rules-before-save.json",
+      "rawBytes": 28278,
+      "publicBytes": 28278
+    },
+    {
+      "path": "lake/heroic-03-v034/runtime.txt",
+      "rawBytes": 247,
+      "publicBytes": 242
+    },
+    {
+      "path": "lake/heroic-03-v034/save-status.txt",
+      "rawBytes": 64,
+      "publicBytes": 65
+    },
+    {
+      "path": "lake/heroic-03-v034/scores-before.txt",
+      "rawBytes": 100,
+      "publicBytes": 99
+    },
+    {
+      "path": "lake/heroic-03-v034/state-audit-source.java",
+      "rawBytes": 3341,
+      "publicBytes": 3341
+    },
+    {
+      "path": "lake/heroic-03-v034/task-status.csv",
+      "rawBytes": 6122,
+      "publicBytes": 6184
+    },
+    {
+      "path": "lake/heroic-03-v034/terrain.txt",
+      "rawBytes": 543,
+      "publicBytes": 569
+    },
+    {
+      "path": "lake/heroic-03-v034/trial.csv",
+      "rawBytes": 3403,
+      "publicBytes": 3466
+    },
+    {
+      "path": "lake/heroic-04-v034/actions.txt",
+      "rawBytes": 2826,
+      "publicBytes": 2927
+    },
+    {
+      "path": "lake/heroic-04-v034/army.csv",
+      "rawBytes": 10365,
+      "publicBytes": 10569
+    },
+    {
+      "path": "lake/heroic-04-v034/assault.csv",
+      "rawBytes": 104012,
+      "publicBytes": 105402
+    },
+    {
+      "path": "lake/heroic-04-v034/checkpoint-2400-loaded-world.json",
+      "rawBytes": 91503,
+      "publicBytes": 91503
+    },
+    {
+      "path": "lake/heroic-04-v034/checkpoint-2400-tags.json",
+      "rawBytes": 22527,
+      "publicBytes": 22527
+    },
+    {
+      "path": "lake/heroic-04-v034/checkpoint-2400-world.json",
+      "rawBytes": 91503,
+      "publicBytes": 91503
+    },
+    {
+      "path": "lake/heroic-04-v034/checkpoint-2400.msav",
+      "rawBytes": 16313,
+      "publicBytes": 16313
+    },
+    {
+      "path": "lake/heroic-04-v034/checkpoint-900-loaded-world.json",
+      "rawBytes": 93183,
+      "publicBytes": 93183
+    },
+    {
+      "path": "lake/heroic-04-v034/checkpoint-900-tags.json",
+      "rawBytes": 22108,
+      "publicBytes": 22108
+    },
+    {
+      "path": "lake/heroic-04-v034/checkpoint-900-world.json",
+      "rawBytes": 93183,
+      "publicBytes": 93183
+    },
+    {
+      "path": "lake/heroic-04-v034/checkpoint-900.msav",
+      "rawBytes": 15762,
+      "publicBytes": 15762
+    },
+    {
+      "path": "lake/heroic-04-v034/checkpoints.txt",
+      "rawBytes": 218,
+      "publicBytes": 220
+    },
+    {
+      "path": "lake/heroic-04-v034/combat.csv",
+      "rawBytes": 1645,
+      "publicBytes": 1707
+    },
+    {
+      "path": "lake/heroic-04-v034/console.txt",
+      "rawBytes": 5444,
+      "publicBytes": 5444
+    },
+    {
+      "path": "lake/heroic-04-v034/core-health.csv",
+      "rawBytes": 1279,
+      "publicBytes": 1341
+    },
+    {
+      "path": "lake/heroic-04-v034/diagnostics.txt",
+      "rawBytes": 76988,
+      "publicBytes": 77723
+    },
+    {
+      "path": "lake/heroic-04-v034/driver-source.java",
+      "rawBytes": 43412,
+      "publicBytes": 43387
+    },
+    {
+      "path": "lake/heroic-04-v034/end.msav",
+      "rawBytes": 16327,
+      "publicBytes": 16327
+    },
+    {
+      "path": "lake/heroic-04-v034/enemy-map.txt",
+      "rawBytes": 3702,
+      "publicBytes": 3958
+    },
+    {
+      "path": "lake/heroic-04-v034/final-tags.json",
+      "rawBytes": 22528,
+      "publicBytes": 22528
+    },
+    {
+      "path": "lake/heroic-04-v034/final-world.json",
+      "rawBytes": 90187,
+      "publicBytes": 90187
+    },
+    {
+      "path": "lake/heroic-04-v034/fresh-readback/console.txt",
+      "rawBytes": 712,
+      "publicBytes": 697
+    },
+    {
+      "path": "lake/heroic-04-v034/fresh-readback/driver-source.java",
+      "rawBytes": 5187,
+      "publicBytes": 5172
+    },
+    {
+      "path": "lake/heroic-04-v034/fresh-readback/loaded-tags.json",
+      "rawBytes": 22528,
+      "publicBytes": 22528
+    },
+    {
+      "path": "lake/heroic-04-v034/fresh-readback/loaded-watch-version.txt",
+      "rawBytes": 7,
+      "publicBytes": 7
+    },
+    {
+      "path": "lake/heroic-04-v034/fresh-readback/loaded-world.json",
+      "rawBytes": 90187,
+      "publicBytes": 90187
+    },
+    {
+      "path": "lake/heroic-04-v034/fresh-readback/result.txt",
+      "rawBytes": 685,
+      "publicBytes": 697
+    },
+    {
+      "path": "lake/heroic-04-v034/fresh-readback/state-audit-source.java",
+      "rawBytes": 3341,
+      "publicBytes": 3341
+    },
+    {
+      "path": "lake/heroic-04-v034/inherited-aegis.txt",
+      "rawBytes": 56,
+      "publicBytes": 61
+    },
+    {
+      "path": "lake/heroic-04-v034/inherited-onset.txt",
+      "rawBytes": 29,
+      "publicBytes": 32
+    },
+    {
+      "path": "lake/heroic-04-v034/loaded-watch-version.txt",
+      "rawBytes": 7,
+      "publicBytes": 7
+    },
+    {
+      "path": "lake/heroic-04-v034/map.txt",
+      "rawBytes": 7579,
+      "publicBytes": 7750
+    },
+    {
+      "path": "lake/heroic-04-v034/mission-description.txt",
+      "rawBytes": 231,
+      "publicBytes": 232
+    },
+    {
+      "path": "lake/heroic-04-v034/mission-limits.txt",
+      "rawBytes": 110,
+      "publicBytes": 113
+    },
+    {
+      "path": "lake/heroic-04-v034/native-repairs.csv",
+      "rawBytes": 87587,
+      "publicBytes": 89451
+    },
+    {
+      "path": "lake/heroic-04-v034/naval-stage.csv",
+      "rawBytes": 28483,
+      "publicBytes": 28877
+    },
+    {
+      "path": "lake/heroic-04-v034/objectives.json",
+      "rawBytes": 127,
+      "publicBytes": 127
+    },
+    {
+      "path": "lake/heroic-04-v034/player-losses.csv",
+      "rawBytes": 289,
+      "publicBytes": 298
+    },
+    {
+      "path": "lake/heroic-04-v034/processor-132-215.mlog",
+      "rawBytes": 68,
+      "publicBytes": 70
+    },
+    {
+      "path": "lake/heroic-04-v034/QA_REPORT.md",
+      "rawBytes": 896,
+      "publicBytes": 896
+    },
+    {
+      "path": "lake/heroic-04-v034/repair-health-ticks.csv",
+      "rawBytes": 2587715,
+      "publicBytes": 2607339
+    },
+    {
+      "path": "lake/heroic-04-v034/result.txt",
+      "rawBytes": 538,
+      "publicBytes": 561
+    },
+    {
+      "path": "lake/heroic-04-v034/rules-before-save.json",
+      "rawBytes": 28098,
+      "publicBytes": 28098
+    },
+    {
+      "path": "lake/heroic-04-v034/runtime.txt",
+      "rawBytes": 247,
+      "publicBytes": 242
+    },
+    {
+      "path": "lake/heroic-04-v034/save-status.txt",
+      "rawBytes": 64,
+      "publicBytes": 65
+    },
+    {
+      "path": "lake/heroic-04-v034/scores-before.txt",
+      "rawBytes": 100,
+      "publicBytes": 99
+    },
+    {
+      "path": "lake/heroic-04-v034/state-audit-source.java",
+      "rawBytes": 3341,
+      "publicBytes": 3341
+    },
+    {
+      "path": "lake/heroic-04-v034/task-status.csv",
+      "rawBytes": 6092,
+      "publicBytes": 6154
+    },
+    {
+      "path": "lake/heroic-04-v034/terrain.txt",
+      "rawBytes": 543,
+      "publicBytes": 569
+    },
+    {
+      "path": "lake/heroic-04-v034/trial.csv",
+      "rawBytes": 3419,
+      "publicBytes": 3482
+    },
+    {
+      "path": "lake/heroic-05-v034/actions.txt",
+      "rawBytes": 2826,
+      "publicBytes": 2927
+    },
+    {
+      "path": "lake/heroic-05-v034/army.csv",
+      "rawBytes": 10575,
+      "publicBytes": 10778
+    },
+    {
+      "path": "lake/heroic-05-v034/assault.csv",
+      "rawBytes": 93770,
+      "publicBytes": 94977
+    },
+    {
+      "path": "lake/heroic-05-v034/checkpoint-900-loaded-world.json",
+      "rawBytes": 92999,
+      "publicBytes": 92999
+    },
+    {
+      "path": "lake/heroic-05-v034/checkpoint-900-tags.json",
+      "rawBytes": 22048,
+      "publicBytes": 22048
+    },
+    {
+      "path": "lake/heroic-05-v034/checkpoint-900-world.json",
+      "rawBytes": 92999,
+      "publicBytes": 92999
+    },
+    {
+      "path": "lake/heroic-05-v034/checkpoint-900.msav",
+      "rawBytes": 15746,
+      "publicBytes": 15746
+    },
+    {
+      "path": "lake/heroic-05-v034/checkpoints.txt",
+      "rawBytes": 109,
+      "publicBytes": 110
+    },
+    {
+      "path": "lake/heroic-05-v034/combat.csv",
+      "rawBytes": 817,
+      "publicBytes": 848
+    },
+    {
+      "path": "lake/heroic-05-v034/console.txt",
+      "rawBytes": 2948,
+      "publicBytes": 2948
+    },
+    {
+      "path": "lake/heroic-05-v034/core-health.csv",
+      "rawBytes": 631,
+      "publicBytes": 662
+    },
+    {
+      "path": "lake/heroic-05-v034/diagnostics.txt",
+      "rawBytes": 37890,
+      "publicBytes": 38253
+    },
+    {
+      "path": "lake/heroic-05-v034/driver-source.java",
+      "rawBytes": 43454,
+      "publicBytes": 43429
+    },
+    {
+      "path": "lake/heroic-05-v034/end.msav",
+      "rawBytes": 16290,
+      "publicBytes": 16290
+    },
+    {
+      "path": "lake/heroic-05-v034/enemy-map.txt",
+      "rawBytes": 3702,
+      "publicBytes": 3958
+    },
+    {
+      "path": "lake/heroic-05-v034/final-tags.json",
+      "rawBytes": 22467,
+      "publicBytes": 22467
+    },
+    {
+      "path": "lake/heroic-05-v034/final-world.json",
+      "rawBytes": 89419,
+      "publicBytes": 89419
+    },
+    {
+      "path": "lake/heroic-05-v034/fresh-readback/console.txt",
+      "rawBytes": 666,
+      "publicBytes": 651
+    },
+    {
+      "path": "lake/heroic-05-v034/fresh-readback/driver-source.java",
+      "rawBytes": 5390,
+      "publicBytes": 5375
+    },
+    {
+      "path": "lake/heroic-05-v034/fresh-readback/loaded-tags.json",
+      "rawBytes": 22467,
+      "publicBytes": 22467
+    },
+    {
+      "path": "lake/heroic-05-v034/fresh-readback/loaded-watch-version.txt",
+      "rawBytes": 7,
+      "publicBytes": 7
+    },
+    {
+      "path": "lake/heroic-05-v034/fresh-readback/loaded-world.json",
+      "rawBytes": 89419,
+      "publicBytes": 89419
+    },
+    {
+      "path": "lake/heroic-05-v034/fresh-readback/result.txt",
+      "rawBytes": 640,
+      "publicBytes": 651
+    },
+    {
+      "path": "lake/heroic-05-v034/fresh-readback/state-audit-source.java",
+      "rawBytes": 3341,
+      "publicBytes": 3341
+    },
+    {
+      "path": "lake/heroic-05-v034/inherited-aegis.txt",
+      "rawBytes": 56,
+      "publicBytes": 61
+    },
+    {
+      "path": "lake/heroic-05-v034/inherited-onset.txt",
+      "rawBytes": 29,
+      "publicBytes": 32
+    },
+    {
+      "path": "lake/heroic-05-v034/loaded-watch-version.txt",
+      "rawBytes": 7,
+      "publicBytes": 7
+    },
+    {
+      "path": "lake/heroic-05-v034/map.txt",
+      "rawBytes": 7579,
+      "publicBytes": 7750
+    },
+    {
+      "path": "lake/heroic-05-v034/mission-description.txt",
+      "rawBytes": 231,
+      "publicBytes": 232
+    },
+    {
+      "path": "lake/heroic-05-v034/mission-limits.txt",
+      "rawBytes": 110,
+      "publicBytes": 113
+    },
+    {
+      "path": "lake/heroic-05-v034/native-repairs.csv",
+      "rawBytes": 65862,
+      "publicBytes": 67292
+    },
+    {
+      "path": "lake/heroic-05-v034/naval-stage.csv",
+      "rawBytes": 1203,
+      "publicBytes": 1222
+    },
+    {
+      "path": "lake/heroic-05-v034/objectives.json",
+      "rawBytes": 127,
+      "publicBytes": 127
+    },
+    {
+      "path": "lake/heroic-05-v034/player-losses.csv",
+      "rawBytes": 267,
+      "publicBytes": 275
+    },
+    {
+      "path": "lake/heroic-05-v034/processor-132-215.mlog",
+      "rawBytes": 68,
+      "publicBytes": 70
+    },
+    {
+      "path": "lake/heroic-05-v034/QA_REPORT.md",
+      "rawBytes": 1497,
+      "publicBytes": 1497
+    },
+    {
+      "path": "lake/heroic-05-v034/repair-health-ticks.csv",
+      "rawBytes": 470055,
+      "publicBytes": 473770
+    },
+    {
+      "path": "lake/heroic-05-v034/result.txt",
+      "rawBytes": 499,
+      "publicBytes": 521
+    },
+    {
+      "path": "lake/heroic-05-v034/rules-before-save.json",
+      "rawBytes": 28037,
+      "publicBytes": 28037
+    },
+    {
+      "path": "lake/heroic-05-v034/runtime.txt",
+      "rawBytes": 247,
+      "publicBytes": 242
+    },
+    {
+      "path": "lake/heroic-05-v034/save-status.txt",
+      "rawBytes": 115,
+      "publicBytes": 115
+    },
+    {
+      "path": "lake/heroic-05-v034/scores-before.txt",
+      "rawBytes": 100,
+      "publicBytes": 99
+    },
+    {
+      "path": "lake/heroic-05-v034/state-audit-source.java",
+      "rawBytes": 3341,
+      "publicBytes": 3341
+    },
+    {
+      "path": "lake/heroic-05-v034/task-status.csv",
+      "rawBytes": 2980,
+      "publicBytes": 3011
+    },
+    {
+      "path": "lake/heroic-05-v034/terrain.txt",
+      "rawBytes": 543,
+      "publicBytes": 569
+    },
+    {
+      "path": "lake/heroic-05-v034/trial.csv",
+      "rawBytes": 1726,
+      "publicBytes": 1758
+    },
+    {
+      "path": "lake/tactical-01-v034/actions.txt",
+      "rawBytes": 3798,
+      "publicBytes": 3927
+    },
+    {
+      "path": "lake/tactical-01-v034/army.csv",
+      "rawBytes": 9023,
+      "publicBytes": 9203
+    },
+    {
+      "path": "lake/tactical-01-v034/assault.csv",
+      "rawBytes": 53974,
+      "publicBytes": 54724
+    },
+    {
+      "path": "lake/tactical-01-v034/checkpoint-900-loaded-world.json",
+      "rawBytes": 96571,
+      "publicBytes": 96571
+    },
+    {
+      "path": "lake/tactical-01-v034/checkpoint-900-tags.json",
+      "rawBytes": 63137,
+      "publicBytes": 63137
+    },
+    {
+      "path": "lake/tactical-01-v034/checkpoint-900-world.json",
+      "rawBytes": 96571,
+      "publicBytes": 96571
+    },
+    {
+      "path": "lake/tactical-01-v034/checkpoint-900.msav",
+      "rawBytes": 19533,
+      "publicBytes": 19533
+    },
+    {
+      "path": "lake/tactical-01-v034/checkpoints.txt",
+      "rawBytes": 109,
+      "publicBytes": 110
+    },
+    {
+      "path": "lake/tactical-01-v034/combat.csv",
+      "rawBytes": 759,
+      "publicBytes": 788
+    },
+    {
+      "path": "lake/tactical-01-v034/condensers-request.txt",
+      "rawBytes": 350,
+      "publicBytes": 352
+    },
+    {
+      "path": "lake/tactical-01-v034/console.txt",
+      "rawBytes": 3099,
+      "publicBytes": 3099
+    },
+    {
+      "path": "lake/tactical-01-v034/core-health.csv",
+      "rawBytes": 586,
+      "publicBytes": 615
+    },
+    {
+      "path": "lake/tactical-01-v034/diagnostics.txt",
+      "rawBytes": 35427,
+      "publicBytes": 35765
+    },
+    {
+      "path": "lake/tactical-01-v034/driver-source.java",
+      "rawBytes": 45430,
+      "publicBytes": 45405
+    },
+    {
+      "path": "lake/tactical-01-v034/enemy-map.txt",
+      "rawBytes": 3702,
+      "publicBytes": 3958
+    },
+    {
+      "path": "lake/tactical-01-v034/FIXTURE_FAILURE.md",
+      "rawBytes": 665,
+      "publicBytes": 665
+    },
+    {
+      "path": "lake/tactical-01-v034/inherited-aegis.txt",
+      "rawBytes": 56,
+      "publicBytes": 61
+    },
+    {
+      "path": "lake/tactical-01-v034/inherited-onset.txt",
+      "rawBytes": 29,
+      "publicBytes": 32
+    },
+    {
+      "path": "lake/tactical-01-v034/loaded-watch-version.txt",
+      "rawBytes": 7,
+      "publicBytes": 7
+    },
+    {
+      "path": "lake/tactical-01-v034/map.txt",
+      "rawBytes": 7579,
+      "publicBytes": 7750
+    },
+    {
+      "path": "lake/tactical-01-v034/mission-description.txt",
+      "rawBytes": 573,
+      "publicBytes": 574
+    },
+    {
+      "path": "lake/tactical-01-v034/mission-limits.txt",
+      "rawBytes": 110,
+      "publicBytes": 113
+    },
+    {
+      "path": "lake/tactical-01-v034/native-repairs.csv",
+      "rawBytes": 35216,
+      "publicBytes": 35902
+    },
+    {
+      "path": "lake/tactical-01-v034/naval-stage.csv",
+      "rawBytes": 591,
+      "publicBytes": 602
+    },
+    {
+      "path": "lake/tactical-01-v034/objectives.json",
+      "rawBytes": 127,
+      "publicBytes": 127
+    },
+    {
+      "path": "lake/tactical-01-v034/player-losses.csv",
+      "rawBytes": 197,
+      "publicBytes": 203
+    },
+    {
+      "path": "lake/tactical-01-v034/processor-132-215.mlog",
+      "rawBytes": 68,
+      "publicBytes": 70
+    },
+    {
+      "path": "lake/tactical-01-v034/repair-health-ticks.csv",
+      "rawBytes": 1171194,
+      "publicBytes": 1180261
+    },
+    {
+      "path": "lake/tactical-01-v034/runtime.txt",
+      "rawBytes": 249,
+      "publicBytes": 244
+    },
+    {
+      "path": "lake/tactical-01-v034/scores-before.txt",
+      "rawBytes": 100,
+      "publicBytes": 99
+    },
+    {
+      "path": "lake/tactical-01-v034/state-audit-source.java",
+      "rawBytes": 3341,
+      "publicBytes": 3341
+    },
+    {
+      "path": "lake/tactical-01-v034/tactical-facilities.csv",
+      "rawBytes": 3741,
+      "publicBytes": 3800
+    },
+    {
+      "path": "lake/tactical-01-v034/task-status.csv",
+      "rawBytes": 10991,
+      "publicBytes": 11020
+    },
+    {
+      "path": "lake/tactical-01-v034/terrain.txt",
+      "rawBytes": 543,
+      "publicBytes": 569
+    },
+    {
+      "path": "lake/tactical-01-v034/trial.csv",
+      "rawBytes": 1622,
+      "publicBytes": 1652
+    },
+    {
+      "path": "lake/tactical-02-v034/actions.txt",
+      "rawBytes": 3798,
+      "publicBytes": 3927
+    },
+    {
+      "path": "lake/tactical-02-v034/army.csv",
+      "rawBytes": 10590,
+      "publicBytes": 10793
+    },
+    {
+      "path": "lake/tactical-02-v034/assault.csv",
+      "rawBytes": 92290,
+      "publicBytes": 93493
+    },
+    {
+      "path": "lake/tactical-02-v034/checkpoint-900-loaded-world.json",
+      "rawBytes": 96510,
+      "publicBytes": 96510
+    },
+    {
+      "path": "lake/tactical-02-v034/checkpoint-900-tags.json",
+      "rawBytes": 63397,
+      "publicBytes": 63397
+    },
+    {
+      "path": "lake/tactical-02-v034/checkpoint-900-world.json",
+      "rawBytes": 96510,
+      "publicBytes": 96510
+    },
+    {
+      "path": "lake/tactical-02-v034/checkpoint-900.msav",
+      "rawBytes": 19545,
+      "publicBytes": 19545
+    },
+    {
+      "path": "lake/tactical-02-v034/checkpoints.txt",
+      "rawBytes": 109,
+      "publicBytes": 110
+    },
+    {
+      "path": "lake/tactical-02-v034/combat.csv",
+      "rawBytes": 813,
+      "publicBytes": 844
+    },
+    {
+      "path": "lake/tactical-02-v034/condensers-request.txt",
+      "rawBytes": 350,
+      "publicBytes": 352
+    },
+    {
+      "path": "lake/tactical-02-v034/console.txt",
+      "rawBytes": 2953,
+      "publicBytes": 2953
+    },
+    {
+      "path": "lake/tactical-02-v034/core-health.csv",
+      "rawBytes": 629,
+      "publicBytes": 660
+    },
+    {
+      "path": "lake/tactical-02-v034/diagnostics.txt",
+      "rawBytes": 37782,
+      "publicBytes": 38144
+    },
+    {
+      "path": "lake/tactical-02-v034/driver-source.java",
+      "rawBytes": 45463,
+      "publicBytes": 45438
+    },
+    {
+      "path": "lake/tactical-02-v034/end.msav",
+      "rawBytes": 20220,
+      "publicBytes": 20220
+    },
+    {
+      "path": "lake/tactical-02-v034/enemy-map.txt",
+      "rawBytes": 3702,
+      "publicBytes": 3958
+    },
+    {
+      "path": "lake/tactical-02-v034/final-tags.json",
+      "rawBytes": 65393,
+      "publicBytes": 65393
+    },
+    {
+      "path": "lake/tactical-02-v034/final-world.json",
+      "rawBytes": 92985,
+      "publicBytes": 92985
+    },
+    {
+      "path": "lake/tactical-02-v034/fresh-readback/console.txt",
+      "rawBytes": 669,
+      "publicBytes": 654
+    },
+    {
+      "path": "lake/tactical-02-v034/fresh-readback/driver-source.java",
+      "rawBytes": 5953,
+      "publicBytes": 5938
+    },
+    {
+      "path": "lake/tactical-02-v034/fresh-readback/loaded-tags.json",
+      "rawBytes": 65393,
+      "publicBytes": 65393
+    },
+    {
+      "path": "lake/tactical-02-v034/fresh-readback/loaded-watch-version.txt",
+      "rawBytes": 7,
+      "publicBytes": 7
+    },
+    {
+      "path": "lake/tactical-02-v034/fresh-readback/loaded-world.json",
+      "rawBytes": 92985,
+      "publicBytes": 92985
+    },
+    {
+      "path": "lake/tactical-02-v034/fresh-readback/result.txt",
+      "rawBytes": 643,
+      "publicBytes": 654
+    },
+    {
+      "path": "lake/tactical-02-v034/fresh-readback/state-audit-source.java",
+      "rawBytes": 3341,
+      "publicBytes": 3341
+    },
+    {
+      "path": "lake/tactical-02-v034/fresh-task-audit/console.txt",
+      "rawBytes": 717,
+      "publicBytes": 702
+    },
+    {
+      "path": "lake/tactical-02-v034/fresh-task-audit/driver-source.java",
+      "rawBytes": 6052,
+      "publicBytes": 6037
+    },
+    {
+      "path": "lake/tactical-02-v034/fresh-task-audit/loaded-tags.json",
+      "rawBytes": 65393,
+      "publicBytes": 65393
+    },
+    {
+      "path": "lake/tactical-02-v034/fresh-task-audit/loaded-watch-version.txt",
+      "rawBytes": 7,
+      "publicBytes": 7
+    },
+    {
+      "path": "lake/tactical-02-v034/fresh-task-audit/loaded-world.json",
+      "rawBytes": 92985,
+      "publicBytes": 92985
+    },
+    {
+      "path": "lake/tactical-02-v034/fresh-task-audit/result.txt",
+      "rawBytes": 688,
+      "publicBytes": 702
+    },
+    {
+      "path": "lake/tactical-02-v034/fresh-task-audit/state-audit-source.java",
+      "rawBytes": 3341,
+      "publicBytes": 3341
+    },
+    {
+      "path": "lake/tactical-02-v034/inherited-aegis.txt",
+      "rawBytes": 56,
+      "publicBytes": 61
+    },
+    {
+      "path": "lake/tactical-02-v034/inherited-onset.txt",
+      "rawBytes": 29,
+      "publicBytes": 32
+    },
+    {
+      "path": "lake/tactical-02-v034/loaded-watch-version.txt",
+      "rawBytes": 7,
+      "publicBytes": 7
+    },
+    {
+      "path": "lake/tactical-02-v034/map.txt",
+      "rawBytes": 7579,
+      "publicBytes": 7750
+    },
+    {
+      "path": "lake/tactical-02-v034/mission-description.txt",
+      "rawBytes": 573,
+      "publicBytes": 574
+    },
+    {
+      "path": "lake/tactical-02-v034/mission-limits.txt",
+      "rawBytes": 110,
+      "publicBytes": 113
+    },
+    {
+      "path": "lake/tactical-02-v034/native-repairs.csv",
+      "rawBytes": 64619,
+      "publicBytes": 66034
+    },
+    {
+      "path": "lake/tactical-02-v034/naval-stage.csv",
+      "rawBytes": 1096,
+      "publicBytes": 1114
+    },
+    {
+      "path": "lake/tactical-02-v034/objectives.json",
+      "rawBytes": 127,
+      "publicBytes": 127
+    },
+    {
+      "path": "lake/tactical-02-v034/player-losses.csv",
+      "rawBytes": 230,
+      "publicBytes": 237
+    },
+    {
+      "path": "lake/tactical-02-v034/processor-132-215.mlog",
+      "rawBytes": 68,
+      "publicBytes": 70
+    },
+    {
+      "path": "lake/tactical-02-v034/QA_REPORT.md",
+      "rawBytes": 2316,
+      "publicBytes": 2316
+    },
+    {
+      "path": "lake/tactical-02-v034/repair-health-ticks.csv",
+      "rawBytes": 334306,
+      "publicBytes": 337036
+    },
+    {
+      "path": "lake/tactical-02-v034/result.txt",
+      "rawBytes": 497,
+      "publicBytes": 519
+    },
+    {
+      "path": "lake/tactical-02-v034/rules-before-save.json",
+      "rawBytes": 70937,
+      "publicBytes": 70937
+    },
+    {
+      "path": "lake/tactical-02-v034/runtime.txt",
+      "rawBytes": 249,
+      "publicBytes": 244
+    },
+    {
+      "path": "lake/tactical-02-v034/save-status.txt",
+      "rawBytes": 112,
+      "publicBytes": 112
+    },
+    {
+      "path": "lake/tactical-02-v034/scores-before.txt",
+      "rawBytes": 100,
+      "publicBytes": 99
+    },
+    {
+      "path": "lake/tactical-02-v034/state-audit-source.java",
+      "rawBytes": 3341,
+      "publicBytes": 3341
+    },
+    {
+      "path": "lake/tactical-02-v034/tactical-facilities.csv",
+      "rawBytes": 3929,
+      "publicBytes": 3991
+    },
+    {
+      "path": "lake/tactical-02-v034/task-status.csv",
+      "rawBytes": 11425,
+      "publicBytes": 11456
+    },
+    {
+      "path": "lake/tactical-02-v034/terrain.txt",
+      "rawBytes": 543,
+      "publicBytes": 569
+    },
+    {
+      "path": "lake/tactical-02-v034/trial.csv",
+      "rawBytes": 1731,
+      "publicBytes": 1763
+    },
+    {
+      "path": "tide/HEROIC-31/bandage-observations.csv",
+      "rawBytes": 14892,
+      "publicBytes": 15254
+    },
+    {
+      "path": "tide/HEROIC-31/console.txt",
+      "rawBytes": 30346,
+      "publicBytes": 30316
+    },
+    {
+      "path": "tide/HEROIC-31/core-damage.csv",
+      "rawBytes": 721,
+      "publicBytes": 737
+    },
+    {
+      "path": "tide/HEROIC-31/counter-building-damage.csv",
+      "rawBytes": 21905,
+      "publicBytes": 22233
+    },
+    {
+      "path": "tide/HEROIC-31/counter-result.txt",
+      "rawBytes": 10549,
+      "publicBytes": 10577
+    },
+    {
+      "path": "tide/HEROIC-31/deconstructed.csv",
+      "rawBytes": 58,
+      "publicBytes": 59
+    },
+    {
+      "path": "tide/HEROIC-31/destroyed.csv",
+      "rawBytes": 872,
+      "publicBytes": 904
+    },
+    {
+      "path": "tide/HEROIC-31/driver-source.java",
+      "rawBytes": 51331,
+      "publicBytes": 51321
+    },
+    {
+      "path": "tide/HEROIC-31/end.msav",
+      "rawBytes": 14336,
+      "publicBytes": 14336
+    },
+    {
+      "path": "tide/HEROIC-31/native-fuel-logistics.csv",
+      "rawBytes": 86343,
+      "publicBytes": 87680
+    },
+    {
+      "path": "tide/HEROIC-31/native-grid-configurations.csv",
+      "rawBytes": 324,
+      "publicBytes": 337
+    },
+    {
+      "path": "tide/HEROIC-31/native-plan-costs.txt",
+      "rawBytes": 135,
+      "publicBytes": 145
+    },
+    {
+      "path": "tide/HEROIC-31/native-starting-stock.txt",
+      "rawBytes": 349,
+      "publicBytes": 372
+    },
+    {
+      "path": "tide/HEROIC-31/result.txt",
+      "rawBytes": 1378,
+      "publicBytes": 1402
+    },
+    {
+      "path": "tide/HEROIC-31/save-readback-post034-snapshot.txt",
+      "rawBytes": 1032,
+      "publicBytes": 1027
+    },
+    {
+      "path": "tide/HEROIC-31/segment-observations.csv",
+      "rawBytes": 46078,
+      "publicBytes": 46937
+    },
+    {
+      "path": "tide/HEROIC-31/tide-source.java",
+      "rawBytes": 27308,
+      "publicBytes": 27742
+    },
+    {
+      "path": "tide/HEROIC-31/trial.csv",
+      "rawBytes": 2621,
+      "publicBytes": 2651
+    },
+    {
+      "path": "tide/HEROIC-32/bandage-observations.csv",
+      "rawBytes": 3959,
+      "publicBytes": 4059
+    },
+    {
+      "path": "tide/HEROIC-32/console.txt",
+      "rawBytes": 32663,
+      "publicBytes": 32633
+    },
+    {
+      "path": "tide/HEROIC-32/core-damage.csv",
+      "rawBytes": 87,
+      "publicBytes": 89
+    },
+    {
+      "path": "tide/HEROIC-32/counter-building-damage.csv",
+      "rawBytes": 21388,
+      "publicBytes": 21708
+    },
+    {
+      "path": "tide/HEROIC-32/counter-result.txt",
+      "rawBytes": 10422,
+      "publicBytes": 10450
+    },
+    {
+      "path": "tide/HEROIC-32/deconstructed.csv",
+      "rawBytes": 58,
+      "publicBytes": 59
+    },
+    {
+      "path": "tide/HEROIC-32/destroyed.csv",
+      "rawBytes": 910,
+      "publicBytes": 944
+    },
+    {
+      "path": "tide/HEROIC-32/driver-source.java",
+      "rawBytes": 51331,
+      "publicBytes": 51321
+    },
+    {
+      "path": "tide/HEROIC-32/end.msav",
+      "rawBytes": 14297,
+      "publicBytes": 14297
+    },
+    {
+      "path": "tide/HEROIC-32/native-fuel-logistics.csv",
+      "rawBytes": 77995,
+      "publicBytes": 79201
+    },
+    {
+      "path": "tide/HEROIC-32/native-grid-configurations.csv",
+      "rawBytes": 277,
+      "publicBytes": 288
+    },
+    {
+      "path": "tide/HEROIC-32/native-plan-costs.txt",
+      "rawBytes": 135,
+      "publicBytes": 145
+    },
+    {
+      "path": "tide/HEROIC-32/native-starting-stock.txt",
+      "rawBytes": 349,
+      "publicBytes": 372
+    },
+    {
+      "path": "tide/HEROIC-32/result.txt",
+      "rawBytes": 1368,
+      "publicBytes": 1392
+    },
+    {
+      "path": "tide/HEROIC-32/save-readback-post034-snapshot.txt",
+      "rawBytes": 1033,
+      "publicBytes": 1028
+    },
+    {
+      "path": "tide/HEROIC-32/segment-observations.csv",
+      "rawBytes": 74216,
+      "publicBytes": 75444
+    },
+    {
+      "path": "tide/HEROIC-32/tide-source.java",
+      "rawBytes": 27639,
+      "publicBytes": 28075
+    },
+    {
+      "path": "tide/HEROIC-32/trial.csv",
+      "rawBytes": 2562,
+      "publicBytes": 2592
+    },
+    {
+      "path": "tide/HEROIC-33/bandage-observations.csv",
+      "rawBytes": 88,
+      "publicBytes": 89
+    },
+    {
+      "path": "tide/HEROIC-33/console.txt",
+      "rawBytes": 639,
+      "publicBytes": 639
+    },
+    {
+      "path": "tide/HEROIC-33/core-damage.csv",
+      "rawBytes": 39,
+      "publicBytes": 40
+    },
+    {
+      "path": "tide/HEROIC-33/counter-building-damage.csv",
+      "rawBytes": 53,
+      "publicBytes": 54
+    },
+    {
+      "path": "tide/HEROIC-33/deconstructed.csv",
+      "rawBytes": 58,
+      "publicBytes": 59
+    },
+    {
+      "path": "tide/HEROIC-33/destroyed.csv",
+      "rawBytes": 21,
+      "publicBytes": 22
+    },
+    {
+      "path": "tide/HEROIC-33/driver-source.java",
+      "rawBytes": 51331,
+      "publicBytes": 51321
+    },
+    {
+      "path": "tide/HEROIC-33/native-fuel-logistics.csv",
+      "rawBytes": 78,
+      "publicBytes": 79
+    },
+    {
+      "path": "tide/HEROIC-33/native-grid-configurations.csv",
+      "rawBytes": 47,
+      "publicBytes": 48
+    },
+    {
+      "path": "tide/HEROIC-33/native-plan-costs.txt",
+      "rawBytes": 135,
+      "publicBytes": 145
+    },
+    {
+      "path": "tide/HEROIC-33/native-starting-stock.txt",
+      "rawBytes": 349,
+      "publicBytes": 372
+    },
+    {
+      "path": "tide/HEROIC-33/segment-observations.csv",
+      "rawBytes": 77,
+      "publicBytes": 78
+    },
+    {
+      "path": "tide/HEROIC-33/tide-source.java",
+      "rawBytes": 28464,
+      "publicBytes": 28915
+    },
+    {
+      "path": "tide/HEROIC-33/trial.csv",
+      "rawBytes": 161,
+      "publicBytes": 162
+    },
+    {
+      "path": "tide/HEROIC-34/bandage-observations.csv",
+      "rawBytes": 88,
+      "publicBytes": 89
+    },
+    {
+      "path": "tide/HEROIC-34/console.txt",
+      "rawBytes": 649,
+      "publicBytes": 649
+    },
+    {
+      "path": "tide/HEROIC-34/core-damage.csv",
+      "rawBytes": 39,
+      "publicBytes": 40
+    },
+    {
+      "path": "tide/HEROIC-34/counter-building-damage.csv",
+      "rawBytes": 53,
+      "publicBytes": 54
+    },
+    {
+      "path": "tide/HEROIC-34/deconstructed.csv",
+      "rawBytes": 58,
+      "publicBytes": 59
+    },
+    {
+      "path": "tide/HEROIC-34/destroyed.csv",
+      "rawBytes": 21,
+      "publicBytes": 22
+    },
+    {
+      "path": "tide/HEROIC-34/driver-source.java",
+      "rawBytes": 51331,
+      "publicBytes": 51321
+    },
+    {
+      "path": "tide/HEROIC-34/native-fuel-logistics.csv",
+      "rawBytes": 78,
+      "publicBytes": 79
+    },
+    {
+      "path": "tide/HEROIC-34/native-grid-configurations.csv",
+      "rawBytes": 47,
+      "publicBytes": 48
+    },
+    {
+      "path": "tide/HEROIC-34/native-plan-costs.txt",
+      "rawBytes": 135,
+      "publicBytes": 145
+    },
+    {
+      "path": "tide/HEROIC-34/native-starting-stock.txt",
+      "rawBytes": 349,
+      "publicBytes": 372
+    },
+    {
+      "path": "tide/HEROIC-34/segment-observations.csv",
+      "rawBytes": 77,
+      "publicBytes": 78
+    },
+    {
+      "path": "tide/HEROIC-34/tide-source.java",
+      "rawBytes": 28523,
+      "publicBytes": 28975
+    },
+    {
+      "path": "tide/HEROIC-34/trial.csv",
+      "rawBytes": 161,
+      "publicBytes": 162
+    },
+    {
+      "path": "tide/HEROIC-35/bandage-observations.csv",
+      "rawBytes": 7072,
+      "publicBytes": 7251
+    },
+    {
+      "path": "tide/HEROIC-35/console.txt",
+      "rawBytes": 19231,
+      "publicBytes": 19206
+    },
+    {
+      "path": "tide/HEROIC-35/core-damage.csv",
+      "rawBytes": 3494,
+      "publicBytes": 3571
+    },
+    {
+      "path": "tide/HEROIC-35/counter-building-damage.csv",
+      "rawBytes": 5801,
+      "publicBytes": 5888
+    },
+    {
+      "path": "tide/HEROIC-35/counter-result.txt",
+      "rawBytes": 7458,
+      "publicBytes": 7468
+    },
+    {
+      "path": "tide/HEROIC-35/deconstructed.csv",
+      "rawBytes": 58,
+      "publicBytes": 59
+    },
+    {
+      "path": "tide/HEROIC-35/destroyed.csv",
+      "rawBytes": 366,
+      "publicBytes": 380
+    },
+    {
+      "path": "tide/HEROIC-35/driver-source.java",
+      "rawBytes": 51331,
+      "publicBytes": 51321
+    },
+    {
+      "path": "tide/HEROIC-35/native-fuel-logistics.csv",
+      "rawBytes": 31010,
+      "publicBytes": 31508
+    },
+    {
+      "path": "tide/HEROIC-35/native-grid-configurations.csv",
+      "rawBytes": 160,
+      "publicBytes": 166
+    },
+    {
+      "path": "tide/HEROIC-35/native-plan-costs.txt",
+      "rawBytes": 135,
+      "publicBytes": 145
+    },
+    {
+      "path": "tide/HEROIC-35/native-starting-stock.txt",
+      "rawBytes": 349,
+      "publicBytes": 372
+    },
+    {
+      "path": "tide/HEROIC-35/result.txt",
+      "rawBytes": 1369,
+      "publicBytes": 1393
+    },
+    {
+      "path": "tide/HEROIC-35/segment-observations.csv",
+      "rawBytes": 77,
+      "publicBytes": 78
+    },
+    {
+      "path": "tide/HEROIC-35/tide-source.java",
+      "rawBytes": 28927,
+      "publicBytes": 29385
+    },
+    {
+      "path": "tide/HEROIC-35/trial.csv",
+      "rawBytes": 1473,
+      "publicBytes": 1490
+    },
+    {
+      "path": "tide/HEROIC-36/bandage-observations.csv",
+      "rawBytes": 88,
+      "publicBytes": 89
+    },
+    {
+      "path": "tide/HEROIC-36/console.txt",
+      "rawBytes": 652,
+      "publicBytes": 652
+    },
+    {
+      "path": "tide/HEROIC-36/core-damage.csv",
+      "rawBytes": 39,
+      "publicBytes": 40
+    },
+    {
+      "path": "tide/HEROIC-36/counter-building-damage.csv",
+      "rawBytes": 53,
+      "publicBytes": 54
+    },
+    {
+      "path": "tide/HEROIC-36/deconstructed.csv",
+      "rawBytes": 58,
+      "publicBytes": 59
+    },
+    {
+      "path": "tide/HEROIC-36/destroyed.csv",
+      "rawBytes": 21,
+      "publicBytes": 22
+    },
+    {
+      "path": "tide/HEROIC-36/driver-source.java",
+      "rawBytes": 51331,
+      "publicBytes": 51321
+    },
+    {
+      "path": "tide/HEROIC-36/native-fuel-logistics.csv",
+      "rawBytes": 78,
+      "publicBytes": 79
+    },
+    {
+      "path": "tide/HEROIC-36/native-grid-configurations.csv",
+      "rawBytes": 47,
+      "publicBytes": 48
+    },
+    {
+      "path": "tide/HEROIC-36/native-starting-stock.txt",
+      "rawBytes": 349,
+      "publicBytes": 372
+    },
+    {
+      "path": "tide/HEROIC-36/segment-observations.csv",
+      "rawBytes": 77,
+      "publicBytes": 78
+    },
+    {
+      "path": "tide/HEROIC-36/tide-source.java",
+      "rawBytes": 29086,
+      "publicBytes": 29547
+    },
+    {
+      "path": "tide/HEROIC-36/trial.csv",
+      "rawBytes": 161,
+      "publicBytes": 162
+    },
+    {
+      "path": "tide/HEROIC-37/bandage-observations.csv",
+      "rawBytes": 13779,
+      "publicBytes": 14126
+    },
+    {
+      "path": "tide/HEROIC-37/console.txt",
+      "rawBytes": 29046,
+      "publicBytes": 29016
+    },
+    {
+      "path": "tide/HEROIC-37/core-damage.csv",
+      "rawBytes": 268,
+      "publicBytes": 274
+    },
+    {
+      "path": "tide/HEROIC-37/counter-building-damage.csv",
+      "rawBytes": 21372,
+      "publicBytes": 21692
+    },
+    {
+      "path": "tide/HEROIC-37/counter-result.txt",
+      "rawBytes": 10507,
+      "publicBytes": 10535
+    },
+    {
+      "path": "tide/HEROIC-37/deconstructed.csv",
+      "rawBytes": 58,
+      "publicBytes": 59
+    },
+    {
+      "path": "tide/HEROIC-37/destroyed.csv",
+      "rawBytes": 736,
+      "publicBytes": 765
+    },
+    {
+      "path": "tide/HEROIC-37/driver-source.java",
+      "rawBytes": 51331,
+      "publicBytes": 51321
+    },
+    {
+      "path": "tide/HEROIC-37/end.msav",
+      "rawBytes": 14189,
+      "publicBytes": 14189
+    },
+    {
+      "path": "tide/HEROIC-37/native-fuel-logistics.csv",
+      "rawBytes": 87991,
+      "publicBytes": 89372
+    },
+    {
+      "path": "tide/HEROIC-37/native-grid-configurations.csv",
+      "rawBytes": 300,
+      "publicBytes": 312
+    },
+    {
+      "path": "tide/HEROIC-37/native-plan-costs.txt",
+      "rawBytes": 135,
+      "publicBytes": 145
+    },
+    {
+      "path": "tide/HEROIC-37/native-starting-stock.txt",
+      "rawBytes": 349,
+      "publicBytes": 372
+    },
+    {
+      "path": "tide/HEROIC-37/result.txt",
+      "rawBytes": 1246,
+      "publicBytes": 1269
+    },
+    {
+      "path": "tide/HEROIC-37/save-readback-post034-snapshot.txt",
+      "rawBytes": 1034,
+      "publicBytes": 1029
+    },
+    {
+      "path": "tide/HEROIC-37/segment-observations.csv",
+      "rawBytes": 77002,
+      "publicBytes": 78249
+    },
+    {
+      "path": "tide/HEROIC-37/tide-source.java",
+      "rawBytes": 29028,
+      "publicBytes": 29487
+    },
+    {
+      "path": "tide/HEROIC-37/trial.csv",
+      "rawBytes": 2581,
+      "publicBytes": 2611
+    },
+    {
+      "path": "tide/HEROIC-38/bandage-observations.csv",
+      "rawBytes": 14121,
+      "publicBytes": 14467
+    },
+    {
+      "path": "tide/HEROIC-38/console.txt",
+      "rawBytes": 30939,
+      "publicBytes": 30909
+    },
+    {
+      "path": "tide/HEROIC-38/core-damage.csv",
+      "rawBytes": 306,
+      "publicBytes": 313
+    },
+    {
+      "path": "tide/HEROIC-38/counter-building-damage.csv",
+      "rawBytes": 22751,
+      "publicBytes": 23090
+    },
+    {
+      "path": "tide/HEROIC-38/counter-result.txt",
+      "rawBytes": 10391,
+      "publicBytes": 10419
+    },
+    {
+      "path": "tide/HEROIC-38/deconstructed.csv",
+      "rawBytes": 58,
+      "publicBytes": 59
+    },
+    {
+      "path": "tide/HEROIC-38/destroyed.csv",
+      "rawBytes": 540,
+      "publicBytes": 560
+    },
+    {
+      "path": "tide/HEROIC-38/driver-source.java",
+      "rawBytes": 51331,
+      "publicBytes": 51321
+    },
+    {
+      "path": "tide/HEROIC-38/end.msav",
+      "rawBytes": 14110,
+      "publicBytes": 14110
+    },
+    {
+      "path": "tide/HEROIC-38/native-fuel-logistics.csv",
+      "rawBytes": 97835,
+      "publicBytes": 99337
+    },
+    {
+      "path": "tide/HEROIC-38/native-grid-configurations.csv",
+      "rawBytes": 254,
+      "publicBytes": 264
+    },
+    {
+      "path": "tide/HEROIC-38/native-plan-costs.txt",
+      "rawBytes": 135,
+      "publicBytes": 145
+    },
+    {
+      "path": "tide/HEROIC-38/native-starting-stock.txt",
+      "rawBytes": 349,
+      "publicBytes": 372
+    },
+    {
+      "path": "tide/HEROIC-38/result.txt",
+      "rawBytes": 1380,
+      "publicBytes": 1404
+    },
+    {
+      "path": "tide/HEROIC-38/save-readback-post034-snapshot.txt",
+      "rawBytes": 1033,
+      "publicBytes": 1028
+    },
+    {
+      "path": "tide/HEROIC-38/segment-observations.csv",
+      "rawBytes": 57398,
+      "publicBytes": 58364
+    },
+    {
+      "path": "tide/HEROIC-38/tide-source.java",
+      "rawBytes": 29377,
+      "publicBytes": 29840
+    },
+    {
+      "path": "tide/HEROIC-38/trial.csv",
+      "rawBytes": 2655,
+      "publicBytes": 2685
+    },
+    {
+      "path": "tide/HEROIC-39/bandage-observations.csv",
+      "rawBytes": 14141,
+      "publicBytes": 14488
+    },
+    {
+      "path": "tide/HEROIC-39/console.txt",
+      "rawBytes": 30640,
+      "publicBytes": 30610
+    },
+    {
+      "path": "tide/HEROIC-39/core-damage.csv",
+      "rawBytes": 132,
+      "publicBytes": 135
+    },
+    {
+      "path": "tide/HEROIC-39/counter-building-damage.csv",
+      "rawBytes": 22513,
+      "publicBytes": 22849
+    },
+    {
+      "path": "tide/HEROIC-39/counter-result.txt",
+      "rawBytes": 10221,
+      "publicBytes": 10249
+    },
+    {
+      "path": "tide/HEROIC-39/deconstructed.csv",
+      "rawBytes": 58,
+      "publicBytes": 59
+    },
+    {
+      "path": "tide/HEROIC-39/destroyed.csv",
+      "rawBytes": 683,
+      "publicBytes": 709
+    },
+    {
+      "path": "tide/HEROIC-39/driver-source.java",
+      "rawBytes": 51331,
+      "publicBytes": 51321
+    },
+    {
+      "path": "tide/HEROIC-39/end.msav",
+      "rawBytes": 14115,
+      "publicBytes": 14115
+    },
+    {
+      "path": "tide/HEROIC-39/native-fuel-logistics.csv",
+      "rawBytes": 97609,
+      "publicBytes": 99109
+    },
+    {
+      "path": "tide/HEROIC-39/native-grid-configurations.csv",
+      "rawBytes": 302,
+      "publicBytes": 314
+    },
+    {
+      "path": "tide/HEROIC-39/native-plan-costs.txt",
+      "rawBytes": 135,
+      "publicBytes": 145
+    },
+    {
+      "path": "tide/HEROIC-39/native-starting-stock.txt",
+      "rawBytes": 349,
+      "publicBytes": 372
+    },
+    {
+      "path": "tide/HEROIC-39/result.txt",
+      "rawBytes": 1376,
+      "publicBytes": 1400
+    },
+    {
+      "path": "tide/HEROIC-39/save-readback-post034-snapshot.txt",
+      "rawBytes": 1033,
+      "publicBytes": 1028
+    },
+    {
+      "path": "tide/HEROIC-39/segment-observations.csv",
+      "rawBytes": 62852,
+      "publicBytes": 63883
+    },
+    {
+      "path": "tide/HEROIC-39/tide-source.java",
+      "rawBytes": 29377,
+      "publicBytes": 29840
+    },
+    {
+      "path": "tide/HEROIC-39/trial.csv",
+      "rawBytes": 2607,
+      "publicBytes": 2637
+    },
+    {
+      "path": "tide/HEROIC-40/bandage-observations.csv",
+      "rawBytes": 12414,
+      "publicBytes": 12720
+    },
+    {
+      "path": "tide/HEROIC-40/console.txt",
+      "rawBytes": 26842,
+      "publicBytes": 26817
+    },
+    {
+      "path": "tide/HEROIC-40/core-damage.csv",
+      "rawBytes": 1015,
+      "publicBytes": 1037
+    },
+    {
+      "path": "tide/HEROIC-40/counter-building-damage.csv",
+      "rawBytes": 18867,
+      "publicBytes": 19149
+    },
+    {
+      "path": "tide/HEROIC-40/counter-result.txt",
+      "rawBytes": 8990,
+      "publicBytes": 9000
+    },
+    {
+      "path": "tide/HEROIC-40/deconstructed.csv",
+      "rawBytes": 58,
+      "publicBytes": 59
+    },
+    {
+      "path": "tide/HEROIC-40/destroyed.csv",
+      "rawBytes": 841,
+      "publicBytes": 875
+    },
+    {
+      "path": "tide/HEROIC-40/driver-source.java",
+      "rawBytes": 51331,
+      "publicBytes": 51321
+    },
+    {
+      "path": "tide/HEROIC-40/native-fuel-logistics.csv",
+      "rawBytes": 80471,
+      "publicBytes": 81708
+    },
+    {
+      "path": "tide/HEROIC-40/native-grid-configurations.csv",
+      "rawBytes": 206,
+      "publicBytes": 214
+    },
+    {
+      "path": "tide/HEROIC-40/native-plan-costs.txt",
+      "rawBytes": 135,
+      "publicBytes": 145
+    },
+    {
+      "path": "tide/HEROIC-40/native-starting-stock.txt",
+      "rawBytes": 349,
+      "publicBytes": 372
+    },
+    {
+      "path": "tide/HEROIC-40/result.txt",
+      "rawBytes": 1247,
+      "publicBytes": 1270
+    },
+    {
+      "path": "tide/HEROIC-40/segment-observations.csv",
+      "rawBytes": 39571,
+      "publicBytes": 40217
+    },
+    {
+      "path": "tide/HEROIC-40/tide-source.java",
+      "rawBytes": 29509,
+      "publicBytes": 29973
+    },
+    {
+      "path": "tide/HEROIC-40/trial.csv",
+      "rawBytes": 2356,
+      "publicBytes": 2383
+    },
+    {
+      "path": "tide/HEROIC-41/bandage-observations.csv",
+      "rawBytes": 88,
+      "publicBytes": 89
+    },
+    {
+      "path": "tide/HEROIC-41/console.txt",
+      "rawBytes": 664,
+      "publicBytes": 664
+    },
+    {
+      "path": "tide/HEROIC-41/core-damage.csv",
+      "rawBytes": 39,
+      "publicBytes": 40
+    },
+    {
+      "path": "tide/HEROIC-41/counter-building-damage.csv",
+      "rawBytes": 53,
+      "publicBytes": 54
+    },
+    {
+      "path": "tide/HEROIC-41/deconstructed.csv",
+      "rawBytes": 58,
+      "publicBytes": 59
+    },
+    {
+      "path": "tide/HEROIC-41/destroyed.csv",
+      "rawBytes": 21,
+      "publicBytes": 22
+    },
+    {
+      "path": "tide/HEROIC-41/driver-source.java",
+      "rawBytes": 51331,
+      "publicBytes": 51321
+    },
+    {
+      "path": "tide/HEROIC-41/native-fuel-logistics.csv",
+      "rawBytes": 78,
+      "publicBytes": 79
+    },
+    {
+      "path": "tide/HEROIC-41/native-grid-configurations.csv",
+      "rawBytes": 47,
+      "publicBytes": 48
+    },
+    {
+      "path": "tide/HEROIC-41/native-starting-stock.txt",
+      "rawBytes": 349,
+      "publicBytes": 372
+    },
+    {
+      "path": "tide/HEROIC-41/segment-observations.csv",
+      "rawBytes": 77,
+      "publicBytes": 78
+    },
+    {
+      "path": "tide/HEROIC-41/tide-source.java",
+      "rawBytes": 30224,
+      "publicBytes": 30696
+    },
+    {
+      "path": "tide/HEROIC-41/trial.csv",
+      "rawBytes": 161,
+      "publicBytes": 162
+    },
+    {
+      "path": "tide/HEROIC-41/wall-observations.csv",
+      "rawBytes": 58,
+      "publicBytes": 59
+    },
+    {
+      "path": "tide/HEROIC-42/bandage-observations.csv",
+      "rawBytes": 12496,
+      "publicBytes": 12804
+    },
+    {
+      "path": "tide/HEROIC-42/console.txt",
+      "rawBytes": 30257,
+      "publicBytes": 30227
+    },
+    {
+      "path": "tide/HEROIC-42/core-damage.csv",
+      "rawBytes": 1360,
+      "publicBytes": 1390
+    },
+    {
+      "path": "tide/HEROIC-42/counter-building-damage.csv",
+      "rawBytes": 26387,
+      "publicBytes": 26787
+    },
+    {
+      "path": "tide/HEROIC-42/counter-result.txt",
+      "rawBytes": 9359,
+      "publicBytes": 9387
+    },
+    {
+      "path": "tide/HEROIC-42/deconstructed.csv",
+      "rawBytes": 58,
+      "publicBytes": 59
+    },
+    {
+      "path": "tide/HEROIC-42/destroyed.csv",
+      "rawBytes": 1354,
+      "publicBytes": 1406
+    },
+    {
+      "path": "tide/HEROIC-42/driver-source.java",
+      "rawBytes": 51331,
+      "publicBytes": 51321
+    },
+    {
+      "path": "tide/HEROIC-42/end.msav",
+      "rawBytes": 14118,
+      "publicBytes": 14118
+    },
+    {
+      "path": "tide/HEROIC-42/native-fuel-logistics.csv",
+      "rawBytes": 90374,
+      "publicBytes": 91785
+    },
+    {
+      "path": "tide/HEROIC-42/native-grid-configurations.csv",
+      "rawBytes": 206,
+      "publicBytes": 214
+    },
+    {
+      "path": "tide/HEROIC-42/native-plan-costs.txt",
+      "rawBytes": 135,
+      "publicBytes": 145
+    },
+    {
+      "path": "tide/HEROIC-42/native-starting-stock.txt",
+      "rawBytes": 349,
+      "publicBytes": 372
+    },
+    {
+      "path": "tide/HEROIC-42/result.txt",
+      "rawBytes": 1371,
+      "publicBytes": 1395
+    },
+    {
+      "path": "tide/HEROIC-42/save-readback-post034-snapshot.txt",
+      "rawBytes": 1032,
+      "publicBytes": 1027
+    },
+    {
+      "path": "tide/HEROIC-42/segment-observations.csv",
+      "rawBytes": 52752,
+      "publicBytes": 53671
+    },
+    {
+      "path": "tide/HEROIC-42/tide-source.java",
+      "rawBytes": 30177,
+      "publicBytes": 30648
+    },
+    {
+      "path": "tide/HEROIC-42/trial.csv",
+      "rawBytes": 2571,
+      "publicBytes": 2601
+    },
+    {
+      "path": "tide/HEROIC-42/wall-observations.csv",
+      "rawBytes": 58,
+      "publicBytes": 59
+    },
+    {
+      "path": "tide/INDEX.md",
+      "rawBytes": 4950,
+      "publicBytes": 4984
+    },
+    {
+      "path": "tide/readonly-reader-source.java",
+      "rawBytes": 3547,
+      "publicBytes": 3603
+    },
+    {
+      "path": "biomass/steam-availability/driver-source.java",
+      "rawBytes": 5773,
+      "publicBytes": 5758
+    },
+    {
+      "path": "biomass/steam-availability/result.txt",
+      "rawBytes": 9190,
+      "publicBytes": 9248
+    },
+    {
+      "path": "biomass/NORMAL-14/destroyed.csv",
+      "rawBytes": 3944,
+      "publicBytes": 4102
+    },
+    {
+      "path": "biomass/NORMAL-14/driver-source.java",
+      "rawBytes": 38037,
+      "publicBytes": 38027
+    },
+    {
+      "path": "biomass/NORMAL-14/end.msav",
+      "rawBytes": 27982,
+      "publicBytes": 27982
+    },
+    {
+      "path": "biomass/NORMAL-14/result.txt",
+      "rawBytes": 996,
+      "publicBytes": 1021
+    },
+    {
+      "path": "biomass/NORMAL-14/trial.csv",
+      "rawBytes": 2421,
+      "publicBytes": 2461
+    },
+    {
+      "path": "biomass/NORMAL-15/destroyed.csv",
+      "rawBytes": 1598,
+      "publicBytes": 1662
+    },
+    {
+      "path": "biomass/NORMAL-15/driver-source.java",
+      "rawBytes": 39305,
+      "publicBytes": 39295
+    },
+    {
+      "path": "biomass/NORMAL-15/end.msav",
+      "rawBytes": 27076,
+      "publicBytes": 27076
+    },
+    {
+      "path": "biomass/NORMAL-15/result.txt",
+      "rawBytes": 1119,
+      "publicBytes": 1145
+    },
+    {
+      "path": "biomass/NORMAL-15/trial.csv",
+      "rawBytes": 1964,
+      "publicBytes": 1997
+    },
+    {
+      "path": "biomass/NORMAL-16/compile-02.txt",
+      "rawBytes": 666,
+      "publicBytes": 616
+    },
+    {
+      "path": "biomass/NORMAL-16/compile-03.txt",
+      "rawBytes": 0,
+      "publicBytes": 0
+    },
+    {
+      "path": "biomass/NORMAL-16/destroyed.csv",
+      "rawBytes": 732,
+      "publicBytes": 762
+    },
+    {
+      "path": "biomass/NORMAL-16/driver-source-compile-failed-02.java",
+      "rawBytes": 42663,
+      "publicBytes": 42653
+    },
+    {
+      "path": "biomass/NORMAL-16/driver-source-compile-failed.java",
+      "rawBytes": 42631,
+      "publicBytes": 42621
+    },
+    {
+      "path": "biomass/NORMAL-16/driver-source.java",
+      "rawBytes": 42683,
+      "publicBytes": 42673
+    },
+    {
+      "path": "biomass/NORMAL-16/end.msav",
+      "rawBytes": 27542,
+      "publicBytes": 27542
+    },
+    {
+      "path": "biomass/NORMAL-16/FIXTURE_COMPILE_FAILURE.md",
+      "rawBytes": 243,
+      "publicBytes": 243
+    },
+    {
+      "path": "biomass/NORMAL-16/result.txt",
+      "rawBytes": 1121,
+      "publicBytes": 1147
+    },
+    {
+      "path": "biomass/NORMAL-16/trial.csv",
+      "rawBytes": 1068,
+      "publicBytes": 1086
+    },
+    {
+      "path": "biomass/NORMAL-17/compile.txt",
+      "rawBytes": 0,
+      "publicBytes": 0
+    },
+    {
+      "path": "biomass/NORMAL-17/destroyed.csv",
+      "rawBytes": 1132,
+      "publicBytes": 1178
+    },
+    {
+      "path": "biomass/NORMAL-17/driver-source.java",
+      "rawBytes": 43731,
+      "publicBytes": 43721
+    },
+    {
+      "path": "biomass/NORMAL-17/end.msav",
+      "rawBytes": 27518,
+      "publicBytes": 27518
+    },
+    {
+      "path": "biomass/NORMAL-17/result.txt",
+      "rawBytes": 1118,
+      "publicBytes": 1144
+    },
+    {
+      "path": "biomass/NORMAL-17/trial.csv",
+      "rawBytes": 1445,
+      "publicBytes": 1470
+    },
+    {
+      "path": "biomass/NORMAL-18/compile.txt",
+      "rawBytes": 0,
+      "publicBytes": 0
+    },
+    {
+      "path": "biomass/NORMAL-18/destroyed.csv",
+      "rawBytes": 21,
+      "publicBytes": 22
+    },
+    {
+      "path": "biomass/NORMAL-18/driver-source.java",
+      "rawBytes": 39489,
+      "publicBytes": 39479
+    },
+    {
+      "path": "biomass/NORMAL-18/FIXTURE_FAILURE.md",
+      "rawBytes": 202,
+      "publicBytes": 202
+    },
+    {
+      "path": "biomass/NORMAL-18/trial.csv",
+      "rawBytes": 119,
+      "publicBytes": 120
+    },
+    {
+      "path": "biomass/NORMAL-19/compile.txt",
+      "rawBytes": 0,
+      "publicBytes": 0
+    },
+    {
+      "path": "biomass/NORMAL-19/destroyed.csv",
+      "rawBytes": 612,
+      "publicBytes": 638
+    },
+    {
+      "path": "biomass/NORMAL-19/driver-source.java",
+      "rawBytes": 39739,
+      "publicBytes": 39729
+    },
+    {
+      "path": "biomass/NORMAL-19/end.msav",
+      "rawBytes": 27750,
+      "publicBytes": 27750
+    },
+    {
+      "path": "biomass/NORMAL-19/result.txt",
+      "rawBytes": 1118,
+      "publicBytes": 1144
+    },
+    {
+      "path": "biomass/NORMAL-19/trial.csv",
+      "rawBytes": 1034,
+      "publicBytes": 1052
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-01/destroyed.csv",
+      "rawBytes": 311,
+      "publicBytes": 322
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-01/driver-source.java",
+      "rawBytes": 37316,
+      "publicBytes": 37367
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-01/end.msav",
+      "rawBytes": 25719,
+      "publicBytes": 25719
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-01/final-core.txt",
+      "rawBytes": 4,
+      "publicBytes": 4
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-01/final-tags.json",
+      "rawBytes": 14664,
+      "publicBytes": 14664
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-01/result.txt",
+      "rawBytes": 1131,
+      "publicBytes": 1158
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-01/trial.csv",
+      "rawBytes": 1018,
+      "publicBytes": 1035
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-02/destroyed.csv",
+      "rawBytes": 3808,
+      "publicBytes": 3932
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-02/driver-source.java",
+      "rawBytes": 36716,
+      "publicBytes": 36802
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-02/end.msav",
+      "rawBytes": 26188,
+      "publicBytes": 26188
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-02/enemies.csv",
+      "rawBytes": 3908,
+      "publicBytes": 4010
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-02/final-core.txt",
+      "rawBytes": 4,
+      "publicBytes": 4
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-02/final-tags.json",
+      "rawBytes": 23205,
+      "publicBytes": 23205
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-02/result.txt",
+      "rawBytes": 1010,
+      "publicBytes": 1036
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-02/trial.csv",
+      "rawBytes": 2743,
+      "publicBytes": 2784
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-03/destroyed.csv",
+      "rawBytes": 683,
+      "publicBytes": 707
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-03/driver-source.java",
+      "rawBytes": 37678,
+      "publicBytes": 37761
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-03/enemies.csv",
+      "rawBytes": 2312,
+      "publicBytes": 2372
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-03/trial.csv",
+      "rawBytes": 1962,
+      "publicBytes": 1994
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-04/destroyed.csv",
+      "rawBytes": 21,
+      "publicBytes": 22
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-04/driver-source.java",
+      "rawBytes": 39186,
+      "publicBytes": 39268
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-04/trial.csv",
+      "rawBytes": 119,
+      "publicBytes": 120
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-05/destroyed.csv",
+      "rawBytes": 1569,
+      "publicBytes": 1623
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-05/driver-source.java",
+      "rawBytes": 39250,
+      "publicBytes": 39332
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-05/end.msav",
+      "rawBytes": 27605,
+      "publicBytes": 27605
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-05/enemies.csv",
+      "rawBytes": 3973,
+      "publicBytes": 4076
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-05/final-core.txt",
+      "rawBytes": 4,
+      "publicBytes": 4
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-05/final-tags.json",
+      "rawBytes": 26698,
+      "publicBytes": 26698
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-05/final-world.json",
+      "rawBytes": 6921486,
+      "publicBytes": 6921486
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-05/fresh-readback/driver-source.java",
+      "rawBytes": 3716,
+      "publicBytes": 3752
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-05/fresh-readback/result.txt",
+      "rawBytes": 436,
+      "publicBytes": 454
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-05/result.txt",
+      "rawBytes": 1005,
+      "publicBytes": 1031
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-05/trial.csv",
+      "rawBytes": 2516,
+      "publicBytes": 2557
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-06/destroyed.csv",
+      "rawBytes": 99,
+      "publicBytes": 103
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-06/driver-source.java",
+      "rawBytes": 40012,
+      "publicBytes": 40094
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-06/end.msav",
+      "rawBytes": 24281,
+      "publicBytes": 24281
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-06/enemies.csv",
+      "rawBytes": 300,
+      "publicBytes": 308
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-06/final-core.txt",
+      "rawBytes": 4,
+      "publicBytes": 4
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-06/final-tags.json",
+      "rawBytes": 8390,
+      "publicBytes": 8390
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-06/final-world.json",
+      "rawBytes": 6792783,
+      "publicBytes": 6792783
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-06/result.txt",
+      "rawBytes": 1132,
+      "publicBytes": 1159
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-06/trial.csv",
+      "rawBytes": 1017,
+      "publicBytes": 1034
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-07/destroyed.csv",
+      "rawBytes": 21,
+      "publicBytes": 22
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-07/driver-source.java",
+      "rawBytes": 40012,
+      "publicBytes": 40094
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-07/trial.csv",
+      "rawBytes": 119,
+      "publicBytes": 120
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-08/destroyed.csv",
+      "rawBytes": 78,
+      "publicBytes": 81
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-08/driver-source.java",
+      "rawBytes": 41470,
+      "publicBytes": 41552
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-08/end.msav",
+      "rawBytes": 25095,
+      "publicBytes": 25095
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-08/enemies.csv",
+      "rawBytes": 296,
+      "publicBytes": 304
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-08/final-core.txt",
+      "rawBytes": 4,
+      "publicBytes": 4
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-08/final-tags.json",
+      "rawBytes": 14758,
+      "publicBytes": 14758
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-08/final-world.json",
+      "rawBytes": 6880815,
+      "publicBytes": 6880815
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-08/result.txt",
+      "rawBytes": 1132,
+      "publicBytes": 1159
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-08/trial.csv",
+      "rawBytes": 1075,
+      "publicBytes": 1092
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-09/destroyed.csv",
+      "rawBytes": 368,
+      "publicBytes": 382
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-09/driver-source.java",
+      "rawBytes": 42313,
+      "publicBytes": 42399
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-09/end.msav",
+      "rawBytes": 25494,
+      "publicBytes": 25494
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-09/enemies.csv",
+      "rawBytes": 296,
+      "publicBytes": 304
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-09/final-core.txt",
+      "rawBytes": 4,
+      "publicBytes": 4
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-09/final-tags.json",
+      "rawBytes": 18097,
+      "publicBytes": 18097
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-09/final-world.json",
+      "rawBytes": 6913810,
+      "publicBytes": 6913810
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-09/result.txt",
+      "rawBytes": 1133,
+      "publicBytes": 1160
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-09/trial.csv",
+      "rawBytes": 1078,
+      "publicBytes": 1095
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-10/destroyed.csv",
+      "rawBytes": 1419,
+      "publicBytes": 1467
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-10/driver-source.java",
+      "rawBytes": 42674,
+      "publicBytes": 42760
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-10/end.msav",
+      "rawBytes": 27337,
+      "publicBytes": 27337
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-10/enemies.csv",
+      "rawBytes": 5247,
+      "publicBytes": 5383
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-10/final-core.txt",
+      "rawBytes": 4,
+      "publicBytes": 4
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-10/final-tags.json",
+      "rawBytes": 25407,
+      "publicBytes": 25407
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-10/final-world.json",
+      "rawBytes": 6937691,
+      "publicBytes": 6937691
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-10/result.txt",
+      "rawBytes": 1136,
+      "publicBytes": 1163
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-10/trial.csv",
+      "rawBytes": 2807,
+      "publicBytes": 2853
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-11/destroyed.csv",
+      "rawBytes": 5424,
+      "publicBytes": 5627
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-11/driver-source.java",
+      "rawBytes": 43221,
+      "publicBytes": 43312
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-11/end.msav",
+      "rawBytes": 28274,
+      "publicBytes": 28274
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-11/enemies.csv",
+      "rawBytes": 4391,
+      "publicBytes": 4505
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-11/final-core.txt",
+      "rawBytes": 4,
+      "publicBytes": 4
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-11/final-tags.json",
+      "rawBytes": 36041,
+      "publicBytes": 36041
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-11/final-world.json",
+      "rawBytes": 6910521,
+      "publicBytes": 6910521
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-11/result.txt",
+      "rawBytes": 1135,
+      "publicBytes": 1162
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-11/trial.csv",
+      "rawBytes": 2485,
+      "publicBytes": 2526
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-12/destroyed.csv",
+      "rawBytes": 640,
+      "publicBytes": 663
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-12/driver-source.java",
+      "rawBytes": 45181,
+      "publicBytes": 45299
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-12/end.msav",
+      "rawBytes": 26326,
+      "publicBytes": 26326
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-12/enemies.csv",
+      "rawBytes": 894,
+      "publicBytes": 917
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-12/final-core.txt",
+      "rawBytes": 4,
+      "publicBytes": 4
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-12/final-tags.json",
+      "rawBytes": 18639,
+      "publicBytes": 18639
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-12/final-world.json",
+      "rawBytes": 6897936,
+      "publicBytes": 6897936
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-12/result.txt",
+      "rawBytes": 1135,
+      "publicBytes": 1162
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-12/trial.csv",
+      "rawBytes": 1363,
+      "publicBytes": 1386
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-13/destroyed.csv",
+      "rawBytes": 703,
+      "publicBytes": 729
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-13/driver-source.java",
+      "rawBytes": 45685,
+      "publicBytes": 45806
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-13/end.msav",
+      "rawBytes": 26354,
+      "publicBytes": 26354
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-13/enemies.csv",
+      "rawBytes": 1457,
+      "publicBytes": 1495
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-13/final-core.txt",
+      "rawBytes": 4,
+      "publicBytes": 4
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-13/final-tags.json",
+      "rawBytes": 19870,
+      "publicBytes": 19870
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-13/final-world.json",
+      "rawBytes": 6905443,
+      "publicBytes": 6905443
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-13/result.txt",
+      "rawBytes": 1136,
+      "publicBytes": 1163
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-13/trial.csv",
+      "rawBytes": 1587,
+      "publicBytes": 1614
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-14/destroyed.csv",
+      "rawBytes": 21,
+      "publicBytes": 22
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-14/driver-source.java",
+      "rawBytes": 46484,
+      "publicBytes": 46610
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-14/trial.csv",
+      "rawBytes": 119,
+      "publicBytes": 120
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-15/destroyed.csv",
+      "rawBytes": 8955,
+      "publicBytes": 9272
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-15/driver-source.java",
+      "rawBytes": 47309,
+      "publicBytes": 47450
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-15/end.msav",
+      "rawBytes": 28852,
+      "publicBytes": 28852
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-15/enemies.csv",
+      "rawBytes": 18527,
+      "publicBytes": 19002
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-15/final-core.txt",
+      "rawBytes": 4,
+      "publicBytes": 4
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-15/final-tags.json",
+      "rawBytes": 38824,
+      "publicBytes": 38824
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-15/final-world.json",
+      "rawBytes": 6908763,
+      "publicBytes": 6908763
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-15/result.txt",
+      "rawBytes": 1139,
+      "publicBytes": 1166
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-15/trial.csv",
+      "rawBytes": 4774,
+      "publicBytes": 4849
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-16/destroyed.csv",
+      "rawBytes": 21,
+      "publicBytes": 22
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-16/driver-source.java",
+      "rawBytes": 47652,
+      "publicBytes": 47793
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-16/trial.csv",
+      "rawBytes": 119,
+      "publicBytes": 120
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-17/destroyed.csv",
+      "rawBytes": 3397,
+      "publicBytes": 3522
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-17/driver-source.java",
+      "rawBytes": 48037,
+      "publicBytes": 48178
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-17/end.msav",
+      "rawBytes": 27694,
+      "publicBytes": 27694
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-17/enemies.csv",
+      "rawBytes": 4427,
+      "publicBytes": 4541
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-17/final-core.txt",
+      "rawBytes": 4,
+      "publicBytes": 4
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-17/final-tags.json",
+      "rawBytes": 27364,
+      "publicBytes": 27364
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-17/final-world.json",
+      "rawBytes": 6884935,
+      "publicBytes": 6884935
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-17/result.txt",
+      "rawBytes": 1135,
+      "publicBytes": 1162
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-17/trial.csv",
+      "rawBytes": 2441,
+      "publicBytes": 2482
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-18/destroyed.csv",
+      "rawBytes": 1056,
+      "publicBytes": 1096
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-18/driver-source.java",
+      "rawBytes": 49148,
+      "publicBytes": 49299
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-18/end.msav",
+      "rawBytes": 26241,
+      "publicBytes": 26241
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-18/enemies.csv",
+      "rawBytes": 710,
+      "publicBytes": 729
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-18/final-core.txt",
+      "rawBytes": 4,
+      "publicBytes": 4
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-18/final-tags.json",
+      "rawBytes": 21352,
+      "publicBytes": 21352
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-18/final-world.json",
+      "rawBytes": 6923784,
+      "publicBytes": 6923784
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-18/result.txt",
+      "rawBytes": 1137,
+      "publicBytes": 1164
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-18/trial.csv",
+      "rawBytes": 1335,
+      "publicBytes": 1357
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-19/destroyed.csv",
+      "rawBytes": 3615,
+      "publicBytes": 3746
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-19/driver-source.java",
+      "rawBytes": 49982,
+      "publicBytes": 50142
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-19/end.msav",
+      "rawBytes": 27980,
+      "publicBytes": 27980
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-19/enemies.csv",
+      "rawBytes": 9328,
+      "publicBytes": 9567
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-19/final-core.txt",
+      "rawBytes": 4,
+      "publicBytes": 4
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-19/final-tags.json",
+      "rawBytes": 29254,
+      "publicBytes": 29254
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-19/final-world.json",
+      "rawBytes": 6920138,
+      "publicBytes": 6920138
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-19/result.txt",
+      "rawBytes": 1135,
+      "publicBytes": 1162
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-19/trial.csv",
+      "rawBytes": 3456,
+      "publicBytes": 3512
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-20/destroyed.csv",
+      "rawBytes": 2188,
+      "publicBytes": 2271
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-20/driver-source.java",
+      "rawBytes": 49908,
+      "publicBytes": 50069
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-20/end.msav",
+      "rawBytes": 26246,
+      "publicBytes": 26246
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-20/enemies.csv",
+      "rawBytes": 2407,
+      "publicBytes": 2470
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-20/final-core.txt",
+      "rawBytes": 4,
+      "publicBytes": 4
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-20/final-tags.json",
+      "rawBytes": 19904,
+      "publicBytes": 19904
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-20/final-world.json",
+      "rawBytes": 6861377,
+      "publicBytes": 6861377
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-20/gun-ammo.csv",
+      "rawBytes": 14950,
+      "publicBytes": 15410
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-20/result.txt",
+      "rawBytes": 1134,
+      "publicBytes": 1161
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-20/trial.csv",
+      "rawBytes": 1919,
+      "publicBytes": 1951
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-21/destroyed.csv",
+      "rawBytes": 3112,
+      "publicBytes": 3226
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-21/driver-source.java",
+      "rawBytes": 50005,
+      "publicBytes": 50166
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-21/enemies.csv",
+      "rawBytes": 3085,
+      "publicBytes": 3165
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-21/gun-ammo.csv",
+      "rawBytes": 16952,
+      "publicBytes": 17484
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-21/trial.csv",
+      "rawBytes": 2022,
+      "publicBytes": 2056
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-22/destroyed.csv",
+      "rawBytes": 8199,
+      "publicBytes": 8483
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-22/driver-source.java",
+      "rawBytes": 49772,
+      "publicBytes": 49935
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-22/end.msav",
+      "rawBytes": 27759,
+      "publicBytes": 27759
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-22/enemies.csv",
+      "rawBytes": 13401,
+      "publicBytes": 13746
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-22/final-core.txt",
+      "rawBytes": 4,
+      "publicBytes": 4
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-22/final-tags.json",
+      "rawBytes": 32604,
+      "publicBytes": 32604
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-22/final-world.json",
+      "rawBytes": 6826097,
+      "publicBytes": 6826097
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-22/gun-ammo.csv",
+      "rawBytes": 33698,
+      "publicBytes": 34745
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-22/result.txt",
+      "rawBytes": 1138,
+      "publicBytes": 1165
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-22/trial.csv",
+      "rawBytes": 3773,
+      "publicBytes": 3836
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-23/destroyed.csv",
+      "rawBytes": 2571,
+      "publicBytes": 2663
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-23/driver-source.java",
+      "rawBytes": 50409,
+      "publicBytes": 50572
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-23/enemies.csv",
+      "rawBytes": 2599,
+      "publicBytes": 2666
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-23/gun-ammo.csv",
+      "rawBytes": 15348,
+      "publicBytes": 15824
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-23/trial.csv",
+      "rawBytes": 1926,
+      "publicBytes": 1958
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-24/destroyed.csv",
+      "rawBytes": 6483,
+      "publicBytes": 6710
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-24/driver-source.java",
+      "rawBytes": 50887,
+      "publicBytes": 51050
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-24/end.msav",
+      "rawBytes": 27195,
+      "publicBytes": 27195
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-24/enemies.csv",
+      "rawBytes": 9447,
+      "publicBytes": 9692
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-24/final-core.txt",
+      "rawBytes": 4,
+      "publicBytes": 4
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-24/final-tags.json",
+      "rawBytes": 28780,
+      "publicBytes": 28780
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-24/final-world.json",
+      "rawBytes": 6863386,
+      "publicBytes": 6863386
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-24/gun-ammo.csv",
+      "rawBytes": 33414,
+      "publicBytes": 34446
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-24/result.txt",
+      "rawBytes": 1136,
+      "publicBytes": 1163
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-24/trial.csv",
+      "rawBytes": 3417,
+      "publicBytes": 3473
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-25/destroyed.csv",
+      "rawBytes": 169,
+      "publicBytes": 175
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-25/driver-source.java",
+      "rawBytes": 51478,
+      "publicBytes": 51639
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-25/end.msav",
+      "rawBytes": 24888,
+      "publicBytes": 24888
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-25/enemies.csv",
+      "rawBytes": 297,
+      "publicBytes": 305
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-25/final-core.txt",
+      "rawBytes": 4,
+      "publicBytes": 4
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-25/final-tags.json",
+      "rawBytes": 13318,
+      "publicBytes": 13318
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-25/final-world.json",
+      "rawBytes": 6855778,
+      "publicBytes": 6855778
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-25/gun-ammo.csv",
+      "rawBytes": 5696,
+      "publicBytes": 5876
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-25/result.txt",
+      "rawBytes": 1137,
+      "publicBytes": 1164
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-25/trial.csv",
+      "rawBytes": 1066,
+      "publicBytes": 1083
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-26/destroyed.csv",
+      "rawBytes": 4664,
+      "publicBytes": 4835
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-26/driver-source.java",
+      "rawBytes": 51666,
+      "publicBytes": 51827
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-26/end.msav",
+      "rawBytes": 27540,
+      "publicBytes": 27540
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-26/enemies.csv",
+      "rawBytes": 4671,
+      "publicBytes": 4793
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-26/final-core.txt",
+      "rawBytes": 4,
+      "publicBytes": 4
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-26/final-tags.json",
+      "rawBytes": 31410,
+      "publicBytes": 31410
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-26/final-world.json",
+      "rawBytes": 6864005,
+      "publicBytes": 6864005
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-26/gun-ammo.csv",
+      "rawBytes": 21568,
+      "publicBytes": 22250
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-26/result.txt",
+      "rawBytes": 1132,
+      "publicBytes": 1159
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-26/trial.csv",
+      "rawBytes": 2540,
+      "publicBytes": 2582
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-27/destroyed.csv",
+      "rawBytes": 8539,
+      "publicBytes": 8846
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-27/driver-source.java",
+      "rawBytes": 52371,
+      "publicBytes": 52532
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-27/end.msav",
+      "rawBytes": 27608,
+      "publicBytes": 27608
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-27/enemies.csv",
+      "rawBytes": 19175,
+      "publicBytes": 19667
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-27/final-core.txt",
+      "rawBytes": 60,
+      "publicBytes": 60
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-27/final-tags.json",
+      "rawBytes": 38019,
+      "publicBytes": 38019
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-27/final-world.json",
+      "rawBytes": 6855983,
+      "publicBytes": 6855983
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-27/fresh-readback/driver-source.java",
+      "rawBytes": 3716,
+      "publicBytes": 3752
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-27/fresh-readback/result.txt",
+      "rawBytes": 489,
+      "publicBytes": 507
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-27/gun-ammo.csv",
+      "rawBytes": 46135,
+      "publicBytes": 47596
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-27/result.txt",
+      "rawBytes": 1110,
+      "publicBytes": 1137
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-27/trial.csv",
+      "rawBytes": 4842,
+      "publicBytes": 4918
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-27/turret-shots.csv",
+      "rawBytes": 55727,
+      "publicBytes": 57393
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-28/core-bullet-damage.csv",
+      "rawBytes": 11168,
+      "publicBytes": 11411
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-28/core-damage-nearby-enemies.csv",
+      "rawBytes": 65203,
+      "publicBytes": 66801
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-28/core-minimum-changes.csv",
+      "rawBytes": 3681,
+      "publicBytes": 3793
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-28/destroyed.csv",
+      "rawBytes": 14066,
+      "publicBytes": 14577
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-28/driver-source.java",
+      "rawBytes": 53291,
+      "publicBytes": 53452
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-28/end.msav",
+      "rawBytes": 29105,
+      "publicBytes": 29105
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-28/enemies.csv",
+      "rawBytes": 17877,
+      "publicBytes": 18337
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-28/final-core.txt",
+      "rawBytes": 4,
+      "publicBytes": 4
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-28/final-tags.json",
+      "rawBytes": 55948,
+      "publicBytes": 55948
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-28/final-world.json",
+      "rawBytes": 6944045,
+      "publicBytes": 6944045
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-28/gun-ammo.csv",
+      "rawBytes": 45334,
+      "publicBytes": 46751
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-28/result.txt",
+      "rawBytes": 1133,
+      "publicBytes": 1160
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-28/trial.csv",
+      "rawBytes": 4609,
+      "publicBytes": 4683
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-28/turret-shots.csv",
+      "rawBytes": 55125,
+      "publicBytes": 56776
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-29/core-bullet-damage.csv",
+      "rawBytes": 728,
+      "publicBytes": 744
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-29/core-damage-nearby-enemies.csv",
+      "rawBytes": 212,
+      "publicBytes": 217
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-29/core-minimum-changes.csv",
+      "rawBytes": 124,
+      "publicBytes": 128
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-29/destroyed.csv",
+      "rawBytes": 10053,
+      "publicBytes": 10417
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-29/driver-source.java",
+      "rawBytes": 54644,
+      "publicBytes": 54805
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-29/enemies.csv",
+      "rawBytes": 11406,
+      "publicBytes": 11699
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-29/gun-ammo.csv",
+      "rawBytes": 33617,
+      "publicBytes": 34684
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-29/trial.csv",
+      "rawBytes": 3713,
+      "publicBytes": 3773
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-29/turret-shots.csv",
+      "rawBytes": 41195,
+      "publicBytes": 42438
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-30/core-bullet-damage.csv",
+      "rawBytes": 15021,
+      "publicBytes": 15346
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-30/core-damage-nearby-enemies.csv",
+      "rawBytes": 36911,
+      "publicBytes": 37863
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-30/core-minimum-changes.csv",
+      "rawBytes": 3013,
+      "publicBytes": 3105
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-30/destroyed.csv",
+      "rawBytes": 4170,
+      "publicBytes": 4324
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-30/driver-source.java",
+      "rawBytes": 54663,
+      "publicBytes": 54824
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-30/end.msav",
+      "rawBytes": 26695,
+      "publicBytes": 26695
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-30/enemies.csv",
+      "rawBytes": 6120,
+      "publicBytes": 6279
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-30/final-core.txt",
+      "rawBytes": 4,
+      "publicBytes": 4
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-30/final-tags.json",
+      "rawBytes": 22488,
+      "publicBytes": 22488
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-30/final-world.json",
+      "rawBytes": 6844410,
+      "publicBytes": 6844410
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-30/gun-ammo.csv",
+      "rawBytes": 22770,
+      "publicBytes": 23486
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-30/result.txt",
+      "rawBytes": 1142,
+      "publicBytes": 1169
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-30/trial.csv",
+      "rawBytes": 2890,
+      "publicBytes": 2938
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-30/turret-shots.csv",
+      "rawBytes": 28028,
+      "publicBytes": 28877
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-31/core-bullet-damage.csv",
+      "rawBytes": 16437,
+      "publicBytes": 16794
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-31/core-damage-nearby-enemies.csv",
+      "rawBytes": 48942,
+      "publicBytes": 50153
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-31/core-minimum-changes.csv",
+      "rawBytes": 3549,
+      "publicBytes": 3656
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-31/destroyed.csv",
+      "rawBytes": 6195,
+      "publicBytes": 6423
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-31/driver-source.java",
+      "rawBytes": 55695,
+      "publicBytes": 55855
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-31/end.msav",
+      "rawBytes": 27658,
+      "publicBytes": 27658
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-31/enemies.csv",
+      "rawBytes": 8258,
+      "publicBytes": 8471
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-31/final-core.txt",
+      "rawBytes": 4,
+      "publicBytes": 4
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-31/final-tags.json",
+      "rawBytes": 32905,
+      "publicBytes": 32905
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-31/final-world.json",
+      "rawBytes": 6848239,
+      "publicBytes": 6848239
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-31/gun-ammo.csv",
+      "rawBytes": 26935,
+      "publicBytes": 27790
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-31/result.txt",
+      "rawBytes": 1139,
+      "publicBytes": 1166
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-31/trial.csv",
+      "rawBytes": 3231,
+      "publicBytes": 3284
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-31/turret-shots.csv",
+      "rawBytes": 31723,
+      "publicBytes": 32679
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-01-console.log",
+      "rawBytes": 6863,
+      "publicBytes": 6853
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-02-console.log",
+      "rawBytes": 11841,
+      "publicBytes": 11831
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-03-console.log",
+      "rawBytes": 8814,
+      "publicBytes": 8814
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-04-console.log",
+      "rawBytes": 1380,
+      "publicBytes": 1380
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-05-console.log",
+      "rawBytes": 12137,
+      "publicBytes": 12127
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-06-console.log",
+      "rawBytes": 6886,
+      "publicBytes": 6876
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-07-console.log",
+      "rawBytes": 1316,
+      "publicBytes": 1316
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-08-console.log",
+      "rawBytes": 6994,
+      "publicBytes": 6984
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-09-console.txt",
+      "rawBytes": 9585,
+      "publicBytes": 9575
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-10-console.txt",
+      "rawBytes": 20350,
+      "publicBytes": 20340
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-11-console.txt",
+      "rawBytes": 20623,
+      "publicBytes": 20613
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-12-console.txt",
+      "rawBytes": 12505,
+      "publicBytes": 12495
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-13-console.txt",
+      "rawBytes": 22014,
+      "publicBytes": 22004
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-14-console.txt",
+      "rawBytes": 1536,
+      "publicBytes": 1536
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-15-console.txt",
+      "rawBytes": 66351,
+      "publicBytes": 66341
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-16-console.txt",
+      "rawBytes": 1375,
+      "publicBytes": 1375
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-17-console.txt",
+      "rawBytes": 32275,
+      "publicBytes": 32265
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-18-console.txt",
+      "rawBytes": 14419,
+      "publicBytes": 14409
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-19-console.txt",
+      "rawBytes": 45142,
+      "publicBytes": 45132
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-20-console.txt",
+      "rawBytes": 25177,
+      "publicBytes": 25167
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-21-console.txt",
+      "rawBytes": 26021,
+      "publicBytes": 26021
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-22-console.txt",
+      "rawBytes": 53702,
+      "publicBytes": 53692
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-23-console.txt",
+      "rawBytes": 25255,
+      "publicBytes": 25255
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-24-console.txt",
+      "rawBytes": 47992,
+      "publicBytes": 47982
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-25-console.txt",
+      "rawBytes": 9630,
+      "publicBytes": 9620
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-26-console.txt",
+      "rawBytes": 35649,
+      "publicBytes": 35639
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-27-console.txt",
+      "rawBytes": 67537,
+      "publicBytes": 67527
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-28-console.txt",
+      "rawBytes": 65369,
+      "publicBytes": 65359
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-29-console.txt",
+      "rawBytes": 52700,
+      "publicBytes": 52700
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-30-console.txt",
+      "rawBytes": 40163,
+      "publicBytes": 40153
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-31-console.txt",
+      "rawBytes": 44685,
+      "publicBytes": 44675
+    },
+    {
+      "path": "biomass/NORMAL-14/console.txt",
+      "rawBytes": 50346,
+      "publicBytes": 50336
+    },
+    {
+      "path": "biomass/NORMAL-15/console.txt",
+      "rawBytes": 40266,
+      "publicBytes": 40256
+    },
+    {
+      "path": "biomass/NORMAL-16/console.txt",
+      "rawBytes": 22320,
+      "publicBytes": 22310
+    },
+    {
+      "path": "biomass/NORMAL-17/console.txt",
+      "rawBytes": 32085,
+      "publicBytes": 32075
+    },
+    {
+      "path": "biomass/NORMAL-18/console.txt",
+      "rawBytes": 2377,
+      "publicBytes": 2377
+    },
+    {
+      "path": "biomass/NORMAL-19/console.txt",
+      "rawBytes": 21374,
+      "publicBytes": 21364
+    },
+    {
+      "path": "lake/INDEX.md",
+      "rawBytes": 2202,
+      "publicBytes": 2192
+    },
+    {
+      "path": "RUINOUS_V033_SNAPSHOT_01.md",
+      "rawBytes": 7920,
+      "publicBytes": 7920
+    },
+    {
+      "path": "ruinous-v033-snapshot-01-cases.csv",
+      "rawBytes": 14440,
+      "publicBytes": 14440
+    },
+    {
+      "path": "biomass/steam-availability/console.txt",
+      "rawBytes": 9258,
+      "publicBytes": 9248
+    },
+    {
+      "path": "biomass/INDEX.md",
+      "rawBytes": 2218,
+      "publicBytes": 2218
+    }
+  ]
+}

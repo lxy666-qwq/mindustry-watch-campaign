@@ -1,0 +1,1 @@
+Initial compiler rejection: Point2.dst accepts int coordinates, while destination.x/y are float. No game was launched. The original rejected helper source is preserved. Subsequent correction uses Mathf.dst; no game state or rule was changed.

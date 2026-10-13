@@ -1,0 +1,27 @@
+watchVersion=0.3.4
+actualClassLocation=file:/local-work/mindustry-star-work/star034-runtime/Mindustry.jar
+save=local-work/lake-trials/heroic-04-v034/end.msav
+profile=local-work/lake-trials/heroic-04-v034/fresh-readback/profile
+tags=398
+allTagsEqual=true
+worldValues=1473
+allWorldValuesEqual=true
+normalStars=3
+heroicStars=0
+tacticalStars=0
+inheritedOnsetNormal=3
+inheritedOnsetHeroic=1
+inheritedOnsetTactical=1
+mainStars=13
+totalStars=13
+settingsScoresUnchangedByLoad=true
+finished=false
+earned=0
+objectives=2/2
+minCore=1.0
+coreLosses=0
+losses=9
+elapsed=3597.2068
+placed=109
+status=核心最低生命 100% · 核心损失 0
+用时 3597 / 2580 秒 · 建筑损失 9 / 22

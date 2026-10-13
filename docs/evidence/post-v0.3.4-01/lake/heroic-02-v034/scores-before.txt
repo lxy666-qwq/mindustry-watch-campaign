@@ -1,0 +1,4 @@
+NORMAL=3
+HEROIC=0
+TACTICAL=0
+source=local-work/lake-trials/normal-14-v034/profile/settings.bin

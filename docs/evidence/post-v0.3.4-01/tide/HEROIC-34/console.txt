@@ -1,0 +1,16 @@
+initial grid: node=86,19 links=[5242899, 5963795] battery=5963795 batteryLinked=true sameGraph=true
+Tide native plan cost from original block requirements:
+plannedBuildings=125
+copper=1844
+lead=801
+metaglass=149
+graphite=603
+titanium=325
+thorium=80
+silicon=230
+plastanium=80
+phase-fabric=40
+
+Exception in thread "main" java.lang.IllegalStateException: Invalid initial blueprint: BuildPlan{x=78, y=52, rotation=0, block=bridge-conveyor, breaking=false, progress=0.0, initialized=false, config=(0, -4)} floor=sand-floor block=sand-wall
+	at LegalWatchTrial.main(LegalWatchTrial.java:190)
+	at LegalTideTrial.main(LegalTideTrial.java:72)

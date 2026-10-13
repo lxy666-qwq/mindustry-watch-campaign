@@ -1,0 +1,14 @@
+simSeconds,block,x,y
+848.76666,copper-wall,100,51
+849.11664,copper-wall,95,51
+850.0833,power-node,93,45
+850.11664,mender,95,49
+850.3333,duo,95,46
+852.5833,field-bandage,94,47
+855.65,steam-generator,92,32
+856.51666,conveyor,86,26
+856.9,graphite-press,92,29
+889.43335,pneumatic-drill,71,53
+892.35,combustion-generator,80,19
+894.31665,hail,84,23
+896.1,core-shard,88,26

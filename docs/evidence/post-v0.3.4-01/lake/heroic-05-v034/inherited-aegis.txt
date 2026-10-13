@@ -1,0 +1,5 @@
+NORMAL=3
+HEROIC=1
+TACTICAL=1
+mainStars=13
+totalStars=13

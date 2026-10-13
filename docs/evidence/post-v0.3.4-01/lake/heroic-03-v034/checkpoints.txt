@@ -1,0 +1,2 @@
+seconds=900 tags=391 worldValues=1519 equal=true controlledUnit=733 elapsed=899.84106 budget=102 minCore=1.0
+seconds=2400 tags=399 worldValues=1491 equal=true controlledUnit=733 elapsed=2401.911 budget=110 minCore=1.0

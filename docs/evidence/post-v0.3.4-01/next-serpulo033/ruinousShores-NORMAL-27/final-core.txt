@@ -1,0 +1,1 @@
+ItemModule{lead:80,coal:987,titanium:71,scrap:8,silicon:212}

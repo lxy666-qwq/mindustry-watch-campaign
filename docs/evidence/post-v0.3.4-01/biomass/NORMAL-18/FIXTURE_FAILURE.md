@@ -1,0 +1,1 @@
+Native planning rejected the already reserved core-side unloader tile before any simulation ticks. Source and console are preserved. This is a blueprint collision, not a game defeat or balance result.

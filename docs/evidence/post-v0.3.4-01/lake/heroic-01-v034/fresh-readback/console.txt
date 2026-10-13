@@ -1,0 +1,3 @@
+Exception in thread "main" java.lang.IllegalStateException: fresh process world changed unit.2511.position: 1982.7777,777.09644 -> null
+	at LakeStateAudit.equal(LakeStateAudit.java:54)
+	at LakeFailed034Readback.main(LakeFailed034Readback.java:28)

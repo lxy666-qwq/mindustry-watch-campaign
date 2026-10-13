@@ -1,0 +1,11 @@
+trial-work\next-mainline033\BiomassPowerTrial16_034.java:282: 错误: 找不到符号
+        while(Mathf.dst(relay.x,relay.y,destination.x,destination.y)>14f){
+              ^
+  符号:   变量 Mathf
+  位置: 类 BiomassPowerTrial16_034
+trial-work\next-mainline033\BiomassPowerTrial16_034.java:290: 错误: 找不到符号
+            if(best==null || nearest>=Mathf.dst(relay.x,relay.y,destination.x,destination.y))throw new IllegalStateException("No valid native relay toward water");
+                                      ^
+  符号:   变量 Mathf
+  位置: 类 BiomassPowerTrial16_034
+2 个错误

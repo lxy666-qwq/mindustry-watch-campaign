@@ -1,0 +1,217 @@
+profileScope=shared-progression gateVerified=true starsBefore=0 mainStarsBefore=12
+Native shores start core=206,112 inventory=ItemModule{copper:100}
+planned copper output 206,95 pathLength=14 bridgeEndpoints=0
+planned copper output 208,95 pathLength=2 bridgeEndpoints=0
+planned copper output 210,94 pathLength=3 bridgeEndpoints=0
+planned lead output 183,92 pathLength=38 bridgeEndpoints=0
+planned lead output 235,102 pathLength=35 bridgeEndpoints=0
+planned coal output 218,115 pathLength=12 bridgeEndpoints=0
+planned coal output 218,117 pathLength=2 bridgeEndpoints=0
+planned coal output 220,115 pathLength=4 bridgeEndpoints=0
+planned coal output 220,117 pathLength=5 bridgeEndpoints=0
+planned coal output 220,120 pathLength=1 bridgeEndpoints=0
+planned coal output 220,109 pathLength=13 bridgeEndpoints=0
+planned coal output 221,112 pathLength=1 bridgeEndpoints=0
+planned coal output 222,119 pathLength=1 bridgeEndpoints=0
+native steam=201,123 adjacent water pump=201,125
+native steam=199,123 adjacent water pump=199,125
+native separator=(208, 112) actual adjacent melter=(210, 112)
+planned copper output 212,94 pathLength=2 bridgeEndpoints=0
+planned copper output 206,93 pathLength=11 bridgeEndpoints=0
+driver: added=true dead=false unit=Unit#839:alpha (1648.1443, 896.27795) plans=1 next=BuildPlan{x=206, y=95, rotation=0, block=mechanical-drill, breaking=false, progress=0.0, initialized=false, config=null} tile=air valid=true unlocked=true env=true placeable=true dist=132.33414
+0.0,1.418084,1,0,1.0,100,0,0,0,0,0,0,0.0,0.0
+tutorial objectives=0/0 flags={} coreStats={} queue=285 gather=null pending=BuildPlan{x=206, y=95, rotation=0, block=mechanical-drill, breaking=false, progress=0.0, initialized=false, config=null}
+driverState unit=206,112 carry=ͭ: 0 feed=none feedAmmo=null collect=false gather=null goal=250 plans=[BuildPlan{x=260, y=211, rotation=-1, block=container, breaking=true, progress=0.0, initialized=false, config=null}] updateBuilding=true canBuild=true
+60.0,2.0039544,1,0,1.0,31,163,0,66,3,5,5,150.0,0.0
+tutorial objectives=0/0 flags={} coreStats={ͭ=8} queue=219 gather=null pending=BuildPlan{x=235, y=102, rotation=0, block=mechanical-drill, breaking=false, progress=0.0, initialized=false, config=null}
+driverState unit=207,96 carry=ͭ: 6 feed=none feedAmmo=ͭ collect=false gather=null goal=80 plans=[BuildPlan{x=235, y=102, rotation=0, block=mechanical-drill, breaking=false, progress=0.0, initialized=false, config=null}] updateBuilding=true canBuild=true
+120.0,2.7934837,1,0,1.0,44,4,0,105,6,11,8,150.0,0.0
+tutorial objectives=0/0 flags={} coreStats={ͭ=75, Ǧ=32} queue=180 gather=Ǧ pending=BuildPlan{x=199, y=117, rotation=0, block=scatter, breaking=false, progress=0.31702715, initialized=true, config=null}
+driverState unit=182,94 carry=Ǧ: 27 feed=none feedAmmo=Ǧ collect=false gather=Ǧ goal=80 plans=[] updateBuilding=true canBuild=true
+180.0,4.481523,1,0,1.0,77,28,0,108,9,22,11,150.0,0.0
+tutorial objectives=0/0 flags={} coreStats={ͭ=142, Ǧ=76} queue=177 gather=ͭ pending=BuildPlan{x=199, y=107, rotation=0, block=scatter, breaking=false, progress=0.013783784, initialized=true, config=null}
+driverState unit=213,96 carry=Ǧ: 0 feed=none feedAmmo=Ǧ collect=false gather=ͭ goal=80 plans=[] updateBuilding=true canBuild=true
+240.0,6.1829133,1,0,1.0,26,47,0,111,12,31,14,150.0,0.0
+tutorial objectives=0/0 flags={} coreStats={ͭ=208, Ǧ=120} queue=174 gather=Ǧ pending=BuildPlan{x=189, y=95, rotation=0, block=scatter, breaking=false, progress=0.0, initialized=false, config=null}
+driverState unit=184,95 carry=Ǧ: 3 feed=none feedAmmo=Ǧ collect=false gather=Ǧ goal=80 plans=[] updateBuilding=true canBuild=true
+300.0,8.0516815,2,1,0.9672727,53,53,0,113,15,40,16,118.0,0.0
+tutorial objectives=0/0 flags={} coreStats={ͭ=274, Ǧ=163} queue=172 gather=null pending=BuildPlan{x=183, y=117, rotation=0, block=scatter, breaking=false, progress=0.8270282, initialized=true, config=null}
+driverState unit=194,105 carry=Ǧ: 0 feed=none feedAmmo=Ǧ collect=false gather=null goal=80 plans=[BuildPlan{x=183, y=117, rotation=0, block=scatter, breaking=false, progress=0.8270282, initialized=true, config=null}] updateBuilding=true canBuild=true
+360.0,9.831254,2,0,0.94272727,42,1,99,164,16,45,17,86.0,0.0
+tutorial objectives=0/0 flags={} coreStats={ͭ=341, Ǧ=183, ú̿=99} queue=121 gather=Ǧ pending=BuildPlan{x=212, y=113, rotation=0, block=mender, breaking=false, progress=0.10656717, initialized=true, config=null}
+driverState unit=237,101 carry=Ǧ: 5 feed=none feedAmmo=Ǧ collect=false gather=Ǧ goal=80 plans=[] updateBuilding=true canBuild=true
+420.0,11.628595,3,0,0.94272727,33,3,252,173,16,53,17,86.0,0.0
+tutorial objectives=0/0 flags={} coreStats={ͭ=407, Ǧ=183, ú̿=252} queue=112 gather=Ǧ pending=BuildPlan{x=210, y=115, rotation=0, block=battery, breaking=false, progress=0.0, initialized=false, config=null}
+driverState unit=183,94 carry=Ǧ: 7 feed=none feedAmmo=Ǧ collect=false gather=Ǧ goal=80 plans=[] updateBuilding=true canBuild=true
+480.0,13.368527,3,0,1.0,67,16,324,182,20,69,17,86.0,0.0
+tutorial objectives=0/0 flags={} coreStats={ͭ=473, Ǧ=183, ú̿=406} queue=103 gather=null pending=BuildPlan{x=202, y=105, rotation=0, block=kiln, breaking=false, progress=0.38407424, initialized=true, config=null}
+driverState unit=206,95 carry=ú̿: 22 feed=none feedAmmo=ú̿ collect=false gather=null goal=80 plans=[BuildPlan{x=202, y=105, rotation=0, block=kiln, breaking=false, progress=0.38407424, initialized=true, config=null}] updateBuilding=true canBuild=true
+productionState graphite-press@(209, 108) items=ItemModule{} power=none
+productionState silicon-smelter@(202, 110) items=ItemModule{} power=0.75/stored=1918.8936/prod=2.0/need=1.5
+productionState build2@(202, 105) items=null power=none
+540.0,14.649458,4,2,1.0,69,37,387,185,38,105,17,106.0,0.0
+tutorial objectives=0/0 flags={} coreStats={ͭ=541, Ǧ=183, ú̿=561, ʯī=13} queue=100 gather=ʯī pending=BuildPlan{x=201, y=123, rotation=0, block=steam-generator, breaking=false, progress=0.36158714, initialized=true, config=null}
+driverState unit=196,104 carry=ú̿: 10 feed=none feedAmmo=ú̿ collect=false gather=ʯī goal=30 plans=[] updateBuilding=true canBuild=true
+productionState graphite-press@(209, 108) items=ItemModule{coal:6} power=none
+productionState silicon-smelter@(202, 110) items=ItemModule{} power=0.75/stored=3538.1777/prod=2.0/need=1.5
+productionState kiln@(202, 105) items=ItemModule{lead:10} power=0.71428573/stored=3538.1777/prod=2.0/need=1.5
+600.0,15.934985,4,1,1.0,49,28,433,189,56,139,17,89.0,0.0
+tutorial objectives=0/0 flags={} coreStats={ͭ=607, Ǧ=183, ú̿=715, ʯī=33} queue=96 gather=�� pending=BuildPlan{x=199, y=123, rotation=0, block=steam-generator, breaking=false, progress=0.6044443, initialized=true, config=null}
+driverState unit=195,111 carry=ɳ: 0 feed=none feedAmmo=ú̿ collect=false gather=�� goal=80 plans=[] updateBuilding=true canBuild=true
+productionState graphite-press@(209, 108) items=ItemModule{} power=none
+productionState silicon-smelter@(202, 110) items=ItemModule{sand:6,coal:8} power=1.0/stored=12956.4375/prod=5.5/need=2.3
+productionState kiln@(202, 105) items=ItemModule{lead:10} power=0.7931034/stored=12956.4375/prod=5.5/need=2.3
+660.0,16.943306,4,0,1.0,95,20,473,189,71,169,17,112.0,0.0
+tutorial objectives=0/0 flags={} coreStats={ͭ=673, Ǧ=183, ú̿=869, ʯī=63} queue=96 gather=�� pending=BuildPlan{x=199, y=123, rotation=0, block=steam-generator, breaking=false, progress=0.8041275, initialized=true, config=null}
+driverState unit=196,111 carry=ɳ: 0 feed=none feedAmmo=ͭ collect=false gather=�� goal=80 plans=[] updateBuilding=true canBuild=true
+productionState graphite-press@(209, 108) items=ItemModule{coal:6} power=none
+productionState silicon-smelter@(202, 110) items=ItemModule{sand:10,coal:8} power=1.0/stored=15273.997/prod=2.3/need=2.3
+productionState kiln@(202, 105) items=ItemModule{lead:10} power=0.7931034/stored=15273.997/prod=2.3/need=2.3
+720.0,18.418276,5,0,1.0,99,22,508,192,121,236,17,112.0,0.0
+tutorial objectives=0/0 flags={} coreStats={ͭ=740, Ǧ=183, ú̿=1023, ʯī=67} queue=93 gather=�� pending=BuildPlan{x=200, y=113, rotation=0, block=lancer, breaking=false, progress=0.48401177, initialized=true, config=null}
+driverState unit=192,121 carry=ɳ: 0 feed=none feedAmmo=ú̿ collect=false gather=�� goal=80 plans=[] updateBuilding=true canBuild=true
+productionState graphite-press@(209, 108) items=ItemModule{} power=none
+productionState silicon-smelter@(202, 110) items=ItemModule{sand:10,coal:10} power=1.0/stored=16000.0/prod=5.5/need=2.6
+productionState kiln@(202, 105) items=ItemModule{lead:10} power=1.0/stored=16000.0/prod=5.5/need=2.6
+780.0,19.964943,5,0,1.0,124,60,591,194,172,298,17,112.0,0.0
+tutorial objectives=0/0 flags={} coreStats={ͭ=805, Ǧ=183, ú̿=1179, ʯī=67} queue=91 gather=�� pending=BuildPlan{x=230, y=114, rotation=0, block=lancer, breaking=false, progress=0.116942696, initialized=true, config=null}
+driverState unit=215,111 carry=ɳ: 10 feed=none feedAmmo=ú̿ collect=false gather=�� goal=80 plans=[] updateBuilding=true canBuild=true
+productionState graphite-press@(209, 108) items=ItemModule{} power=none
+productionState silicon-smelter@(202, 110) items=ItemModule{coal:3} power=1.0/stored=16000.0/prod=5.5/need=2.1
+productionState kiln@(202, 105) items=ItemModule{lead:10} power=1.0/stored=16000.0/prod=5.5/need=2.1
+840.0,21.385038,6,4,1.0,141,2,624,194,246,387,17,112.0,0.0
+tutorial objectives=0/0 flags={} coreStats={ͭ=872, Ǧ=183, ú̿=1332, ʯī=67} queue=91 gather=ɳ pending=BuildPlan{x=230, y=114, rotation=0, block=lancer, breaking=false, progress=0.95178044, initialized=true, config=null}
+driverState unit=213,116 carry=ú̿: 0 feed=none feedAmmo=ú̿ collect=false gather=ɳ goal=10 plans=[] updateBuilding=true canBuild=true
+productionState graphite-press@(209, 108) items=ItemModule{} power=none
+productionState silicon-smelter@(202, 110) items=ItemModule{coal:10} power=1.0/stored=16000.0/prod=11.0/need=2.1
+productionState kiln@(202, 105) items=ItemModule{lead:10} power=1.0/stored=16000.0/prod=11.0/need=2.1
+900.0,22.83125,6,2,1.0,116,81,630,197,253,414,17,93.0,0.0
+tutorial objectives=0/0 flags={} coreStats={ͭ=911, Ǧ=183, ú̿=1486, ʯī=80} queue=92 gather=ʯī pending=BuildPlan{x=202, y=105, rotation=0, block=kiln, breaking=false, progress=0.0, initialized=false, config=null}
+driverState unit=213,115 carry=ú̿: 24 feed=none feedAmmo=ú̿ collect=false gather=ʯī goal=30 plans=[] updateBuilding=true canBuild=true
+productionState graphite-press@(209, 108) items=ItemModule{coal:8} power=none
+productionState silicon-smelter@(202, 110) items=ItemModule{coal:10} power=1.0/stored=16000.0/prod=11.0/need=2.1
+productionState separator@(208, 112) items=ItemModule{} power=1.0/stored=16000.0/prod=11.0/need=2.1
+productionState build1@(210, 112) items=null power=none
+960.0,24.07479,6,0,1.0,57,49,682,202,260,438,17,124.0,0.0
+tutorial objectives=0/0 flags={} coreStats={ͭ=912, Ǧ=183, ú̿=1628, ʯī=104} queue=88 gather=ʯī pending=BuildPlan{x=210, y=112, rotation=0, block=melter, breaking=false, progress=0.072426036, initialized=true, config=null}
+driverState unit=207,98 carry=ú̿: 0 feed=none feedAmmo=ú̿ collect=false gather=ʯī goal=30 plans=[] updateBuilding=true canBuild=true
+productionState graphite-press@(209, 108) items=ItemModule{coal:8} power=none
+productionState silicon-smelter@(202, 110) items=ItemModule{coal:10} power=1.0/stored=16000.0/prod=5.5/need=2.1
+productionState kiln@(202, 105) items=ItemModule{} power=1.0/stored=16000.0/prod=5.5/need=2.1
+productionState separator@(208, 112) items=ItemModule{} power=1.0/stored=16000.0/prod=5.5/need=2.1
+productionState build1@(210, 112) items=null power=none
+1020.0,25.045565,7,1,1.0,59,22,644,202,267,468,17,115.0,0.0
+tutorial objectives=0/0 flags={} coreStats={ͭ=934, Ǧ=183, ú̿=1766, ʯī=143} queue=88 gather=ʯī pending=BuildPlan{x=210, y=112, rotation=0, block=melter, breaking=false, progress=0.73633176, initialized=true, config=null}
+driverState unit=194,111 carry=ú̿: 8 feed=none feedAmmo=ú̿ collect=false gather=ʯī goal=30 plans=[] updateBuilding=true canBuild=true
+productionState graphite-press@(209, 108) items=ItemModule{coal:10} power=none
+productionState silicon-smelter@(202, 110) items=ItemModule{coal:10} power=1.0/stored=16000.0/prod=11.0/need=2.1
+productionState kiln@(202, 105) items=ItemModule{} power=1.0/stored=16000.0/prod=11.0/need=2.1
+productionState separator@(208, 112) items=ItemModule{} power=1.0/stored=16000.0/prod=11.0/need=2.1
+productionState build1@(210, 112) items=null power=none
+1080.0,26.385021,7,0,1.0,19,27,684,213,278,495,17,107.0,0.0
+tutorial objectives=0/0 flags={} coreStats={ͭ=956, Ǧ=183, ú̿=1920, ʯī=163} queue=78 gather=�� pending=BuildPlan{x=230, y=114, rotation=0, block=lancer, breaking=false, progress=0.08445861, initialized=true, config=null}
+driverState unit=209,115 carry=ú̿: 22 feed=none feedAmmo=ú̿ collect=false gather=�� goal=80 plans=[] updateBuilding=true canBuild=true
+productionState graphite-press@(209, 108) items=ItemModule{} power=none
+productionState silicon-smelter@(202, 110) items=ItemModule{coal:5} power=1.0/stored=20000.0/prod=11.0/need=2.3999999
+productionState kiln@(202, 105) items=ItemModule{} power=1.0/stored=20000.0/prod=11.0/need=2.3999999
+productionState separator@(208, 112) items=ItemModule{} power=1.0/stored=20000.0/prod=11.0/need=2.3999999
+productionState melter@(210, 112) items=ItemModule{} power=1.0/stored=20000.0/prod=11.0/need=2.3999999
+1140.0,27.912428,8,8,1.0,7,73,737,213,326,559,17,107.0,0.0
+tutorial objectives=0/0 flags={} coreStats={ͭ=979, Ǧ=183, ú̿=2074, ʯī=163} queue=78 gather=�� pending=BuildPlan{x=230, y=114, rotation=0, block=lancer, breaking=false, progress=0.6691702, initialized=true, config=null}
+driverState unit=211,117 carry=ú̿: 22 feed=none feedAmmo=ú̿ collect=true gather=�� goal=80 plans=[] updateBuilding=true canBuild=true
+productionState graphite-press@(209, 108) items=ItemModule{} power=none
+productionState silicon-smelter@(202, 110) items=ItemModule{sand:4,coal:2,silicon:2} power=1.0/stored=20000.0/prod=11.0/need=2.8999999
+productionState kiln@(202, 105) items=ItemModule{} power=1.0/stored=20000.0/prod=11.0/need=2.8999999
+productionState separator@(208, 112) items=ItemModule{} power=1.0/stored=20000.0/prod=11.0/need=2.8999999
+productionState melter@(210, 112) items=ItemModule{} power=1.0/stored=20000.0/prod=11.0/need=2.8999999
+1200.0,29.389235,8,4,1.0,38,49,794,213,337,585,17,61.0,0.0
+tutorial objectives=0/0 flags={} coreStats={ͭ=987, Ǧ=183, ú̿=2230, ʯī=172} queue=82 gather=ʯī pending=BuildPlan{x=202, y=105, rotation=0, block=kiln, breaking=false, progress=0.70518494, initialized=true, config=null}
+driverState unit=207,99 carry=ú̿: 18 feed=none feedAmmo=ú̿ collect=false gather=ʯī goal=30 plans=[] updateBuilding=true canBuild=true
+productionState graphite-press@(209, 108) items=ItemModule{coal:6} power=none
+productionState silicon-smelter@(202, 110) items=ItemModule{coal:10} power=1.0/stored=20000.0/prod=11.0/need=2.3999999
+productionState build2@(202, 105) items=null power=none
+productionState separator@(208, 112) items=ItemModule{} power=1.0/stored=20000.0/prod=11.0/need=2.3999999
+productionState melter@(210, 112) items=ItemModule{} power=1.0/stored=20000.0/prod=11.0/need=2.3999999
+1260.0,30.838007,9,6,1.0,33,65,841,217,347,614,16,92.0,0.0
+tutorial objectives=0/0 flags={} coreStats={ͭ=987, Ǧ=183, ú̿=2351, ʯī=189} queue=87 gather=Ǧ pending=BuildPlan{x=216, y=116, rotation=0, block=arc, breaking=false, progress=0.50150025, initialized=true, config=null}
+driverState unit=235,104 carry=Ǧ: 18 feed=none feedAmmo=ú̿ collect=false gather=Ǧ goal=80 plans=[] updateBuilding=true canBuild=true
+productionState graphite-press@(209, 108) items=ItemModule{} power=none
+productionState silicon-smelter@(202, 110) items=ItemModule{coal:10} power=1.0/stored=20000.0/prod=5.5/need=2.3999999
+productionState build2@(202, 105) items=null power=none
+productionState separator@(208, 112) items=ItemModule{} power=1.0/stored=20000.0/prod=5.5/need=2.3999999
+productionState melter@(210, 112) items=ItemModule{} power=1.0/stored=20000.0/prod=5.5/need=2.3999999
+1320.0,32.51662,9,1,1.0,47,69,873,222,354,641,17,78.0,0.0
+tutorial objectives=0/0 flags={} coreStats={ͭ=987, Ǧ=183, ú̿=2468, ʯī=189} queue=82 gather=Ǧ pending=BuildPlan{x=202, y=105, rotation=0, block=kiln, breaking=false, progress=0.70518494, initialized=true, config=null}
+driverState unit=234,104 carry=Ǧ: 0 feed=none feedAmmo=ú̿ collect=false gather=Ǧ goal=80 plans=[] updateBuilding=true canBuild=true
+productionState graphite-press@(209, 108) items=ItemModule{} power=none
+productionState silicon-smelter@(202, 110) items=ItemModule{coal:10} power=1.0/stored=20000.0/prod=11.0/need=2.3999999
+productionState build2@(202, 105) items=null power=none
+productionState separator@(208, 112) items=ItemModule{} power=1.0/stored=20000.0/prod=11.0/need=2.3999999
+productionState melter@(210, 112) items=ItemModule{} power=1.0/stored=20000.0/prod=11.0/need=2.3999999
+1380.0,34.0504,9,0,1.0,60,68,929,227,375,684,17,117.0,0.0
+tutorial objectives=0/0 flags={} coreStats={ͭ=1012, Ǧ=193, ú̿=2607, ʯī=192, ��=8} queue=78 gather=���� pending=BuildPlan{x=230, y=114, rotation=0, block=lancer, breaking=false, progress=0.16891722, initialized=true, config=null}
+driverState unit=210,107 carry=����: 0 feed=none feedAmmo=ú̿ collect=false gather=���� goal=10 plans=[] updateBuilding=true canBuild=true
+productionState graphite-press@(209, 108) items=ItemModule{} power=none
+productionState silicon-smelter@(202, 110) items=ItemModule{coal:8} power=1.0/stored=20000.0/prod=5.5/need=3.4999998
+productionState kiln@(202, 105) items=ItemModule{} power=1.0/stored=20000.0/prod=5.5/need=3.4999998
+productionState separator@(208, 112) items=ItemModule{} power=1.0/stored=20000.0/prod=5.5/need=3.4999998
+productionState melter@(210, 112) items=ItemModule{} power=1.0/stored=20000.0/prod=5.5/need=3.4999998
+1440.0,35.63607,10,8,1.0,93,63,989,227,396,718,17,117.0,0.0
+tutorial objectives=0/0 flags={} coreStats={ͭ=1057, Ǧ=202, ú̿=2745, ʯī=197, ��=15} queue=78 gather=���� pending=BuildPlan{x=230, y=114, rotation=0, block=lancer, breaking=false, progress=0.3670696, initialized=true, config=null}
+driverState unit=203,71 carry=ú̿: 0 feed=none feedAmmo=ú̿ collect=false gather=���� goal=10 plans=[] updateBuilding=true canBuild=true
+productionState graphite-press@(209, 108) items=ItemModule{} power=none
+productionState silicon-smelter@(202, 110) items=ItemModule{coal:6} power=1.0/stored=20000.0/prod=11.0/need=2.3999999
+productionState kiln@(202, 105) items=ItemModule{} power=1.0/stored=20000.0/prod=11.0/need=2.3999999
+productionState separator@(208, 112) items=ItemModule{} power=1.0/stored=20000.0/prod=11.0/need=2.3999999
+productionState melter@(210, 112) items=ItemModule{} power=1.0/stored=20000.0/prod=11.0/need=2.3999999
+1500.0,37.18429,10,4,1.0,53,53,1042,229,415,749,17,101.0,0.0
+tutorial objectives=0/0 flags={} coreStats={ͭ=1076, Ǧ=202, ú̿=2884, ʯī=197, ��=15} queue=78 gather=���� pending=BuildPlan{x=230, y=114, rotation=0, block=lancer, breaking=false, progress=0.50025374, initialized=true, config=null}
+driverState unit=204,73 carry=ú̿: 0 feed=steam-generator@199,123 feedAmmo=ú̿ collect=false gather=���� goal=10 plans=[] updateBuilding=true canBuild=true
+productionState graphite-press@(209, 108) items=ItemModule{} power=none
+productionState silicon-smelter@(202, 110) items=ItemModule{coal:5,silicon:2} power=1.0/stored=20000.0/prod=11.0/need=2.3999999
+productionState kiln@(202, 105) items=ItemModule{} power=1.0/stored=20000.0/prod=11.0/need=2.3999999
+productionState separator@(208, 112) items=ItemModule{} power=1.0/stored=20000.0/prod=11.0/need=2.3999999
+productionState melter@(210, 112) items=ItemModule{} power=1.0/stored=20000.0/prod=11.0/need=2.3999999
+1560.0,38.92744,11,6,1.0,58,44,1107,235,424,771,16,109.0,0.0
+tutorial objectives=0/0 flags={} coreStats={ͭ=1098, Ǧ=202, ú̿=3010, ʯī=197, ��=15} queue=79 gather=Ǧ pending=BuildPlan{x=223, y=123, rotation=0, block=scatter, breaking=false, progress=0.7787849, initialized=true, config=null}
+driverState unit=236,104 carry=Ǧ: 11 feed=none feedAmmo=ú̿ collect=false gather=Ǧ goal=80 plans=[] updateBuilding=true canBuild=true
+productionState graphite-press@(209, 108) items=ItemModule{} power=none
+productionState silicon-smelter@(202, 110) items=ItemModule{coal:5} power=1.0/stored=20000.0/prod=11.0/need=2.3999999
+productionState kiln@(202, 105) items=ItemModule{} power=1.0/stored=20000.0/prod=11.0/need=2.3999999
+productionState separator@(208, 112) items=ItemModule{} power=1.0/stored=20000.0/prod=11.0/need=2.3999999
+productionState melter@(210, 112) items=ItemModule{} power=1.0/stored=20000.0/prod=11.0/need=2.3999999
+1620.0,40.41254,11,1,1.0,56,66,1160,237,436,809,17,97.0,0.0
+tutorial objectives=0/0 flags={} coreStats={ͭ=1127, Ǧ=205, ú̿=3149, ʯī=201, ��=16} queue=78 gather=���� pending=BuildPlan{x=230, y=114, rotation=0, block=lancer, breaking=false, progress=0.50025374, initialized=true, config=null}
+driverState unit=188,116 carry=����: 0 feed=none feedAmmo=ú̿ collect=false gather=���� goal=10 plans=[] updateBuilding=true canBuild=true
+productionState graphite-press@(209, 108) items=ItemModule{} power=none
+productionState silicon-smelter@(202, 110) items=ItemModule{coal:5} power=1.0/stored=20000.0/prod=11.0/need=3.4999998
+productionState kiln@(202, 105) items=ItemModule{} power=1.0/stored=20000.0/prod=11.0/need=3.4999998
+productionState separator@(208, 112) items=ItemModule{} power=1.0/stored=20000.0/prod=11.0/need=3.4999998
+productionState melter@(210, 112) items=ItemModule{} power=1.0/stored=20000.0/prod=11.0/need=3.4999998
+1680.0,41.88441,11,0,1.0,43,40,1214,238,477,865,17,134.0,0.0
+tutorial objectives=0/0 flags={} coreStats={ͭ=1163, Ǧ=209, ú̿=3287, ʯī=205, ��=26} queue=78 gather=�� pending=BuildPlan{x=230, y=114, rotation=0, block=lancer, breaking=false, progress=0.18515927, initialized=true, config=null}
+driverState unit=213,104 carry=��: 0 feed=none feedAmmo=ú̿ collect=false gather=�� goal=80 plans=[] updateBuilding=true canBuild=true
+productionState graphite-press@(209, 108) items=ItemModule{} power=none
+productionState silicon-smelter@(202, 110) items=ItemModule{sand:6,coal:3} power=1.0/stored=20000.0/prod=5.5/need=2.8999999
+productionState kiln@(202, 105) items=ItemModule{} power=1.0/stored=20000.0/prod=5.5/need=2.8999999
+productionState separator@(208, 112) items=ItemModule{} power=1.0/stored=20000.0/prod=5.5/need=2.8999999
+productionState melter@(210, 112) items=ItemModule{} power=1.0/stored=20000.0/prod=5.5/need=2.8999999
+1740.0,43.386444,12,12,1.0,64,33,1264,238,511,918,17,128.0,0.0
+tutorial objectives=0/0 flags={} coreStats={ͭ=1201, Ǧ=222, ú̿=3428, ʯī=218, ��=34} queue=78 gather=���� pending=BuildPlan{x=230, y=114, rotation=0, block=lancer, breaking=false, progress=0.4677698, initialized=true, config=null}
+driverState unit=206,100 carry=ͭ: 0 feed=none feedAmmo=ú̿ collect=false gather=���� goal=10 plans=[] updateBuilding=true canBuild=true
+productionState graphite-press@(209, 108) items=ItemModule{} power=none
+productionState silicon-smelter@(202, 110) items=ItemModule{coal:1} power=1.0/stored=20000.0/prod=11.0/need=8.400001
+productionState kiln@(202, 105) items=ItemModule{} power=1.0/stored=20000.0/prod=11.0/need=8.400001
+productionState separator@(208, 112) items=ItemModule{} power=1.0/stored=20000.0/prod=11.0/need=8.400001
+productionState melter@(210, 112) items=ItemModule{} power=1.0/stored=20000.0/prod=11.0/need=8.400001
+1800.0,44.83122,12,6,0.86545455,0,32,1286,243,526,954,16,77.0,0.0
+tutorial objectives=0/0 flags={} coreStats={ͭ=1231, Ǧ=232, ú̿=3565, ʯī=226, ��=41} queue=78 gather=ͭ pending=BuildPlan{x=230, y=114, rotation=0, block=lancer, breaking=false, progress=0.53598607, initialized=true, config=null}
+driverState unit=202,114 carry=ͭ: 0 feed=none feedAmmo=ͭ collect=false gather=ͭ goal=80 plans=[] updateBuilding=true canBuild=true
+productionState graphite-press@(209, 108) items=ItemModule{} power=none
+productionState silicon-smelter@(202, 110) items=ItemModule{coal:5} power=1.0/stored=20000.0/prod=11.0/need=8.400001
+productionState kiln@(202, 105) items=ItemModule{} power=1.0/stored=20000.0/prod=11.0/need=8.400001
+productionState separator@(208, 112) items=ItemModule{} power=1.0/stored=20000.0/prod=11.0/need=8.400001
+productionState melter@(210, 112) items=ItemModule{} power=1.0/stored=20000.0/prod=11.0/need=8.400001
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "mindustry.world.modules.ItemModule.total()" because "<local4>.items" is null
+	at RuinousShoresTrial033.command(RuinousShoresTrial033.java:606)
+	at RuinousShoresTrial033.main(RuinousShoresTrial033.java:159)

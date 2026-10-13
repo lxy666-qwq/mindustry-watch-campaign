@@ -1,0 +1,106 @@
+profileScope=shared-progression gateVerified=true starsBefore=0 mainStarsBefore=12
+Native shores start core=204,170 inventory=ItemModule{copper:100}
+planned copper output 218,171 pathLength=12 bridgeEndpoints=0
+planned copper output 218,173 pathLength=2 bridgeEndpoints=0
+planned copper output 219,175 pathLength=3 bridgeEndpoints=0
+planned lead output 195,188 pathLength=23 bridgeEndpoints=0
+planned lead output 189,185 pathLength=6 bridgeEndpoints=0
+planned coal output 231,181 pathLength=35 bridgeEndpoints=0
+planned coal output 230,184 pathLength=2 bridgeEndpoints=0
+planned coal output 231,187 pathLength=5 bridgeEndpoints=0
+planned coal output 233,186 pathLength=1 bridgeEndpoints=0
+planned coal output 233,182 pathLength=1 bridgeEndpoints=0
+planned coal output 233,188 pathLength=5 bridgeEndpoints=0
+planned coal output 233,190 pathLength=2 bridgeEndpoints=0
+planned coal output 165,185 pathLength=50 bridgeEndpoints=0
+native steam=204,158 adjacent water pump=204,157
+native steam=202,158 adjacent water pump=203,157
+native separator=(206, 169) actual adjacent melter=(208, 170)
+planned copper output 220,171 pathLength=4 bridgeEndpoints=0
+planned copper output 220,173 pathLength=5 bridgeEndpoints=0
+driver: added=true dead=false unit=Unit#839:alpha (1632.2428, 1360.1912) plans=1 next=BuildPlan{x=218, y=171, rotation=0, block=mechanical-drill, breaking=false, progress=0.0, initialized=false, config=null} tile=air valid=true unlocked=true env=true placeable=true dist=116.35797
+0.0,1.4641693,1,0,1.0,100,0,0,0,0,0,0,0.0,0.0
+tutorial objectives=0/0 flags={} coreStats={} queue=300 gather=null pending=BuildPlan{x=218, y=171, rotation=0, block=mechanical-drill, breaking=false, progress=0.0, initialized=false, config=null}
+driverState unit=204,170 carry=ͭ: 0 feed=none feedAmmo=null collect=false gather=null goal=250 plans=[BuildPlan{x=260, y=211, rotation=-1, block=container, breaking=true, progress=0.0, initialized=false, config=null}] updateBuilding=true canBuild=true
+60.0,2.069228,1,0,1.0,76,163,0,25,3,5,5,150.0,0.0
+tutorial objectives=0/0 flags={} coreStats={ͭ=7} queue=275 gather=ͭ pending=BuildPlan{x=195, y=188, rotation=0, block=mechanical-drill, breaking=false, progress=0.0, initialized=false, config=null}
+driverState unit=220,171 carry=ͭ: 8 feed=none feedAmmo=ͭ collect=false gather=ͭ goal=80 plans=[] updateBuilding=true canBuild=true
+120.0,2.8849983,1,0,1.0,2,87,0,59,6,12,8,150.0,0.0
+tutorial objectives=0/0 flags={} coreStats={ͭ=73, Ǧ=33} queue=241 gather=ͭ pending=BuildPlan{x=197, y=175, rotation=0, block=scatter, breaking=false, progress=0.53067625, initialized=true, config=null}
+driverState unit=205,215 carry=ͭ: 9 feed=none feedAmmo=Ǧ collect=false gather=ͭ goal=80 plans=[] updateBuilding=true canBuild=true
+180.0,4.5605445,1,0,1.0,15,23,0,62,9,20,11,150.0,0.0
+tutorial objectives=0/0 flags={} coreStats={ͭ=140, Ǧ=77} queue=238 gather=null pending=BuildPlan{x=197, y=165, rotation=0, block=scatter, breaking=false, progress=0.52378434, initialized=true, config=null}
+driverState unit=213,173 carry=Ǧ: 23 feed=none feedAmmo=Ǧ collect=false gather=null goal=80 plans=[BuildPlan{x=197, y=165, rotation=0, block=scatter, breaking=false, progress=0.52378434, initialized=true, config=null}] updateBuilding=true canBuild=true
+240.0,6.216899,1,0,1.0,45,81,2,109,11,25,13,150.0,0.0
+tutorial objectives=0/0 flags={} coreStats={ͭ=207, Ǧ=122, ú̿=2} queue=191 gather=null pending=BuildPlan{x=233, y=186, rotation=0, block=pneumatic-drill, breaking=false, progress=0.91263187, initialized=true, config=null}
+driverState unit=219,176 carry=Ǧ: 0 feed=none feedAmmo=Ǧ collect=false gather=null goal=30 plans=[] updateBuilding=true canBuild=true
+300.0,7.2154655,2,1,0.9672727,112,125,70,109,11,25,13,124.0,0.0
+tutorial objectives=0/0 flags={} coreStats={ͭ=274, Ǧ=166, ú̿=70} queue=191 gather=null pending=BuildPlan{x=233, y=186, rotation=0, block=pneumatic-drill, breaking=false, progress=0.91263187, initialized=true, config=null}
+driverState unit=219,176 carry=Ǧ: 0 feed=none feedAmmo=Ǧ collect=false gather=null goal=30 plans=[] updateBuilding=true canBuild=true
+360.0,8.18038,2,0,0.94272727,173,170,149,109,11,25,13,93.0,0.0
+tutorial objectives=0/0 flags={} coreStats={ͭ=335, Ǧ=211, ú̿=149} queue=191 gather=null pending=BuildPlan{x=233, y=186, rotation=0, block=pneumatic-drill, breaking=false, progress=0.91263187, initialized=true, config=null}
+driverState unit=219,176 carry=Ǧ: 0 feed=none feedAmmo=Ǧ collect=false gather=null goal=30 plans=[] updateBuilding=true canBuild=true
+420.0,9.130492,3,0,0.94272727,217,184,228,109,12,28,13,88.0,0.0
+tutorial objectives=0/0 flags={} coreStats={ͭ=379, Ǧ=255, ú̿=228} queue=191 gather=ʯī pending=BuildPlan{x=233, y=186, rotation=0, block=pneumatic-drill, breaking=false, progress=0.91263187, initialized=true, config=null}
+driverState unit=209,174 carry=Ǧ: 27 feed=none feedAmmo=Ǧ collect=false gather=ʯī goal=30 plans=[] updateBuilding=true canBuild=true
+480.0,10.078186,3,0,0.94272727,262,228,307,109,12,28,13,88.0,0.0
+tutorial objectives=0/0 flags={} coreStats={ͭ=424, Ǧ=299, ú̿=307} queue=191 gather=ʯī pending=BuildPlan{x=233, y=186, rotation=0, block=pneumatic-drill, breaking=false, progress=0.91263187, initialized=true, config=null}
+driverState unit=209,174 carry=Ǧ: 27 feed=none feedAmmo=Ǧ collect=false gather=ʯī goal=30 plans=[] updateBuilding=true canBuild=true
+540.0,11.022575,4,2,0.94272727,306,272,388,109,12,28,13,88.0,0.0
+tutorial objectives=0/0 flags={} coreStats={ͭ=468, Ǧ=343, ú̿=388} queue=191 gather=ʯī pending=BuildPlan{x=233, y=186, rotation=0, block=pneumatic-drill, breaking=false, progress=0.91263187, initialized=true, config=null}
+driverState unit=209,174 carry=Ǧ: 27 feed=none feedAmmo=Ǧ collect=false gather=ʯī goal=30 plans=[] updateBuilding=true canBuild=true
+600.0,11.970111,4,1,0.91,350,317,467,109,12,28,13,61.0,0.0
+tutorial objectives=0/0 flags={} coreStats={ͭ=512, Ǧ=388, ú̿=467} queue=191 gather=ʯī pending=BuildPlan{x=233, y=186, rotation=0, block=pneumatic-drill, breaking=false, progress=0.91263187, initialized=true, config=null}
+driverState unit=209,174 carry=Ǧ: 27 feed=none feedAmmo=Ǧ collect=false gather=ʯī goal=30 plans=[] updateBuilding=true canBuild=true
+660.0,12.941242,4,0,0.88545454,365,388,535,109,13,30,13,57.0,0.0
+tutorial objectives=0/0 flags={} coreStats={ͭ=557, Ǧ=432, ú̿=535} queue=191 gather=null pending=BuildPlan{x=233, y=186, rotation=0, block=pneumatic-drill, breaking=false, progress=0.91263187, initialized=true, config=null}
+driverState unit=209,174 carry=ͭ: 18 feed=none feedAmmo=ͭ collect=false gather=null goal=30 plans=[] updateBuilding=true canBuild=true
+720.0,13.886744,5,0,0.88545454,415,400,586,109,16,38,13,79.0,0.0
+tutorial objectives=0/0 flags={} coreStats={ͭ=601, Ǧ=476, ú̿=586} queue=191 gather=ʯī pending=BuildPlan{x=233, y=186, rotation=0, block=pneumatic-drill, breaking=false, progress=0.91263187, initialized=true, config=null}
+driverState unit=203,177 carry=Ǧ: 24 feed=none feedAmmo=Ǧ collect=false gather=ʯī goal=30 plans=[] updateBuilding=true canBuild=true
+780.0,14.842429,5,0,0.88545454,459,445,636,109,16,38,13,79.0,0.0
+tutorial objectives=0/0 flags={} coreStats={ͭ=645, Ǧ=521, ú̿=636} queue=191 gather=ʯī pending=BuildPlan{x=233, y=186, rotation=0, block=pneumatic-drill, breaking=false, progress=0.91263187, initialized=true, config=null}
+driverState unit=203,177 carry=Ǧ: 24 feed=none feedAmmo=Ǧ collect=false gather=ʯī goal=30 plans=[] updateBuilding=true canBuild=true
+840.0,15.787187,6,4,0.88545454,504,489,687,109,16,38,13,79.0,0.0
+tutorial objectives=0/0 flags={} coreStats={ͭ=690, Ǧ=565, ú̿=687} queue=191 gather=ʯī pending=BuildPlan{x=233, y=186, rotation=0, block=pneumatic-drill, breaking=false, progress=0.91263187, initialized=true, config=null}
+driverState unit=203,177 carry=Ǧ: 24 feed=none feedAmmo=Ǧ collect=false gather=ʯī goal=30 plans=[] updateBuilding=true canBuild=true
+877.65,16.395962,6,4,0.0,0,0,0,109,18,45,13,85.0,0.0
+tutorial objectives=0/0 flags={} coreStats={ͭ=715, Ǧ=593, ú̿=719} queue=191 gather=null pending=BuildPlan{x=233, y=186, rotation=0, block=pneumatic-drill, breaking=false, progress=0.91263187, initialized=true, config=null}
+driverState unit=203,177 carry=ͭ: 0 feed=none feedAmmo=ͭ collect=false gather=null goal=30 plans=[] updateBuilding=true canBuild=true
+trial=legal-build
+selection=campaign-progression-gates-verified
+mission=ruinousShores
+mode=NORMAL
+finished=true
+winner=crux
+wave=6
+actualSpawnWaves=5
+simSeconds=877.65
+wallSeconds=16.721165
+placedBuildings=109
+withdraws=18
+deposits=45
+coreMinimum=-0.05090909
+buildingsDestroyed=5
+pendingPlans=191
+nextPlan=BuildPlan{x=233, y=186, rotation=0, block=pneumatic-drill, breaking=false, progress=0.91263187, initialized=true, config=null}
+codeLocation=file:/local-work/mindustry-star-work/star033-runtime/Mindustry.jar
+CampaignStars.classModifiedAtStart=0
+WatchMapGenerator.classModifiedAtStart=0
+sourceJarModifiedAtStart=1791877212532
+assetsLocation=local-work/mindustry-star-work/star033-runtime/assets
+runtimeWatchVersion=0.3.3
+CoreBlock.classModifiedAtStart=0
+profileScope=isolated copy of genuine progression-chain settings; original untouched
+gateVerified=true
+starsAfter=0
+mainStarsAfter=12
+branch0RewardAfter=true
+settingsFileExists=true
+waveTimer=true
+objectives=0
+objectiveFlags={}
+frozenForestOpen=true
+objectivesCompleted=0
+status=��ս����δ��ɣ����λ�� 0 / 3 �ǣ������ۼ� 0 / 5
+

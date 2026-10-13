@@ -1,0 +1,20 @@
+profileScope=shared-progression gateVerified=true starsBefore=0 mainStarsBefore=12
+Native shores start core=206,112 inventory=ItemModule{copper:100}
+planned copper output 206,95 pathLength=14 bridgeEndpoints=0
+planned copper output 208,95 pathLength=2 bridgeEndpoints=0
+planned copper output 210,94 pathLength=3 bridgeEndpoints=0
+planned lead output 183,92 pathLength=38 bridgeEndpoints=0
+planned lead output 235,102 pathLength=35 bridgeEndpoints=0
+planned coal output 218,115 pathLength=12 bridgeEndpoints=0
+planned coal output 218,117 pathLength=2 bridgeEndpoints=0
+planned coal output 220,115 pathLength=4 bridgeEndpoints=0
+planned coal output 220,117 pathLength=5 bridgeEndpoints=0
+planned coal output 220,120 pathLength=1 bridgeEndpoints=0
+planned coal output 220,109 pathLength=13 bridgeEndpoints=0
+planned graphite output 209,108 pathLength=78 bridgeEndpoints=0
+planned sand output 203,112 pathLength=1 bridgeEndpoints=0
+planned silicon output 202,110 pathLength=14 bridgeEndpoints=0
+Exception in thread "main" java.lang.IllegalStateException: No conveyor route from separator to core
+	at RuinousShoresTrial033.outputToCore(RuinousShoresTrial033.java:379)
+	at RuinousShoresTrial033.planDefence(RuinousShoresTrial033.java:256)
+	at RuinousShoresTrial033.main(RuinousShoresTrial033.java:149)

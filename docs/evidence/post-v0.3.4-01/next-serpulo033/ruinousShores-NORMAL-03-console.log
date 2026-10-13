@@ -1,0 +1,85 @@
+profileScope=shared-progression gateVerified=true starsBefore=0 mainStarsBefore=12
+Native shores start core=204,170 inventory=ItemModule{copper:100}
+planned copper output 218,171 pathLength=12 bridgeEndpoints=0
+planned copper output 218,173 pathLength=2 bridgeEndpoints=0
+planned copper output 219,175 pathLength=3 bridgeEndpoints=0
+planned lead output 195,188 pathLength=23 bridgeEndpoints=0
+planned lead output 189,185 pathLength=6 bridgeEndpoints=0
+planned coal output 231,181 pathLength=35 bridgeEndpoints=0
+planned coal output 230,184 pathLength=2 bridgeEndpoints=0
+planned coal output 231,187 pathLength=5 bridgeEndpoints=0
+planned coal output 233,186 pathLength=1 bridgeEndpoints=0
+planned coal output 233,182 pathLength=1 bridgeEndpoints=0
+planned coal output 233,188 pathLength=5 bridgeEndpoints=0
+planned graphite output 208,168 pathLength=2 bridgeEndpoints=0
+planned sand output 204,167 pathLength=1 bridgeEndpoints=0
+planned silicon output 200,168 pathLength=1 bridgeEndpoints=0
+planned copper output 220,171 pathLength=4 bridgeEndpoints=0
+planned copper output 220,173 pathLength=5 bridgeEndpoints=0
+driver: added=true dead=false unit=Unit#839:alpha (1632.2428, 1360.1912) plans=1 next=BuildPlan{x=218, y=171, rotation=0, block=mechanical-drill, breaking=false, progress=0.0, initialized=false, config=null} tile=air valid=true unlocked=true env=true placeable=true dist=116.35797
+0.0,1.3669795,1,0,1.0,100,0,0,0,0,0,0,0.0,0.0
+tutorial objectives=0/0 flags={} coreStats={} queue=194 gather=null pending=BuildPlan{x=218, y=171, rotation=0, block=mechanical-drill, breaking=false, progress=0.0, initialized=false, config=null}
+60.0,1.9478736,1,0,1.0,76,163,0,25,3,5,5,150.0,0.0
+tutorial objectives=0/0 flags={} coreStats={ͭ=7} queue=169 gather=ͭ pending=BuildPlan{x=195, y=188, rotation=0, block=mechanical-drill, breaking=false, progress=0.0, initialized=false, config=null}
+120.0,2.737414,1,0,1.0,21,40,0,108,6,12,8,150.0,0.0
+tutorial objectives=0/0 flags={} coreStats={ͭ=73, Ǧ=33} queue=86 gather=ͭ pending=BuildPlan{x=233, y=188, rotation=0, block=mechanical-drill, breaking=false, progress=0.59499997, initialized=true, config=null}
+180.0,4.3530316,1,0,1.0,46,32,82,118,6,12,8,150.0,0.0
+tutorial objectives=0/0 flags={} coreStats={ͭ=140, Ǧ=77, ú̿=82} queue=76 gather=ͭ pending=BuildPlan{x=210, y=172, rotation=0, block=mender, breaking=false, progress=0.44149262, initialized=true, config=null}
+240.0,6.098615,1,0,1.0,67,15,165,128,8,17,8,150.0,0.0
+tutorial objectives=0/0 flags={} coreStats={ͭ=206, Ǧ=122, ú̿=195} queue=66 gather=ͭ pending=BuildPlan{x=208, y=168, rotation=0, block=graphite-press, breaking=false, progress=0.8543594, initialized=true, config=null}
+300.0,7.7327976,2,1,1.0,80,13,174,138,26,51,8,134.0,0.0
+tutorial objectives=0/0 flags={} coreStats={ͭ=274, Ǧ=166, ú̿=308, ɳ=22, ��=27} queue=56 gather=Ǧ pending=BuildPlan{x=228, y=182, rotation=0, block=lancer, breaking=false, progress=0.23063698, initialized=true, config=null}
+360.0,9.166837,2,0,1.0,87,47,177,140,58,104,8,101.0,0.0
+tutorial objectives=0/0 flags={} coreStats={ͭ=340, Ǧ=211, ú̿=421, ɳ=46, ��=82} queue=54 gather=�� pending=BuildPlan{x=228, y=163, rotation=0, block=lancer, breaking=false, progress=0.16891722, initialized=true, config=null}
+420.0,10.684875,3,0,1.0,72,48,173,150,88,151,8,101.0,0.0
+tutorial objectives=0/0 flags={} coreStats={ͭ=406, Ǧ=255, ú̿=534, ɳ=70, ��=133} queue=44 gather=null pending=BuildPlan{x=234, y=160, rotation=0, block=copper-wall-large, breaking=false, progress=0.56666654, initialized=true, config=null}
+480.0,12.134145,3,0,1.0,78,92,259,161,91,158,8,101.0,0.0
+tutorial objectives=0/0 flags={} coreStats={ͭ=473, Ǧ=299, ú̿=648, ɳ=94, ��=133} queue=33 gather=null pending=BuildPlan{x=234, y=190, rotation=0, block=copper-wall-large, breaking=false, progress=0.5454165, initialized=true, config=null}
+540.0,13.216704,4,2,1.0,71,136,301,165,96,175,10,113.0,0.0
+tutorial objectives=0/0 flags={} coreStats={ͭ=539, Ǧ=343, ú̿=760, ɳ=118, ��=133, ʯī=27} queue=29 gather=ͭ pending=BuildPlan{x=194, y=182, rotation=0, block=copper-wall-large, breaking=false, progress=0.7508338, initialized=true, config=null}
+600.0,14.645661,4,1,1.0,51,181,359,177,99,184,10,101.0,0.0
+tutorial objectives=0/0 flags={} coreStats={ͭ=605, Ǧ=388, ú̿=874, ɳ=142, ��=133, ʯī=27} queue=17 gather=ͭ pending=BuildPlan{x=193, y=168, rotation=0, block=copper-wall-large, breaking=false, progress=0.085, initialized=true, config=null}
+660.0,15.946566,4,0,1.0,88,225,330,194,124,240,10,112.0,0.0
+tutorial objectives=0/0 flags={} coreStats={ͭ=687, Ǧ=432, ú̿=987, ɳ=166, ��=171, ʯī=44} queue=0 gather=null pending=none
+720.0,17.350325,5,0,1.0,257,269,248,194,177,338,10,103.0,0.0
+tutorial objectives=0/0 flags={} coreStats={ͭ=797, Ǧ=476, ú̿=1100, ɳ=190, ��=238, ʯī=84} queue=0 gather=null pending=none
+780.0,18.821478,5,0,1.0,438,314,152,194,232,428,10,103.0,0.0
+tutorial objectives=0/0 flags={} coreStats={ͭ=908, Ǧ=521, ú̿=1214, ɳ=214, ��=305, ʯī=124} queue=0 gather=null pending=none
+840.0,20.218859,6,4,1.0,598,358,59,194,291,525,10,103.0,0.0
+tutorial objectives=0/0 flags={} coreStats={ͭ=1018, Ǧ=565, ú̿=1326, ɳ=238, ��=366, ʯī=164} queue=0 gather=null pending=none
+900.0,21.537462,6,2,1.0,724,402,2,194,349,632,9,111.0,0.0
+tutorial objectives=0/0 flags={} coreStats={ͭ=1129, Ǧ=609, ú̿=1440, ɳ=262, ��=419, ʯī=203} queue=0 gather=null pending=none
+960.0,22.961945,6,0,1.0,928,394,49,195,371,667,10,111.0,0.0
+tutorial objectives=0/0 flags={} coreStats={ͭ=1240, Ǧ=653, ú̿=1552, ɳ=286, ��=432, ʯī=219} queue=0 gather=null pending=none
+1020.0,24.562521,7,1,1.0,1326,439,88,195,392,709,10,110.0,0.0
+tutorial objectives=0/0 flags={} coreStats={ͭ=1351, Ǧ=698, ú̿=1665, ɳ=310, ��=432, ʯī=221} queue=0 gather=null pending=none
+1080.0,25.776337,7,0,1.0,1564,483,149,195,401,734,10,110.0,0.0
+tutorial objectives=0/0 flags={} coreStats={ͭ=1462, Ǧ=742, ú̿=1780, ɳ=334, ��=432, ʯī=223} queue=0 gather=null pending=none
+1140.0,26.705097,8,8,1.0,1675,528,201,195,403,749,10,110.0,0.0
+tutorial objectives=0/0 flags={} coreStats={ͭ=1573, Ǧ=787, ú̿=1892, ɳ=358, ��=432, ʯī=223} queue=0 gather=null pending=none
+1200.0,27.649666,8,4,1.0,1688,514,230,197,410,781,10,122.0,0.0
+tutorial objectives=0/0 flags={} coreStats={ͭ=1683, Ǧ=825, ú̿=2006, ɳ=382, ��=432, ʯī=248} queue=0 gather=null pending=none
+1260.0,28.592756,9,6,1.0,1799,559,312,197,411,791,10,122.0,0.0
+tutorial objectives=0/0 flags={} coreStats={ͭ=1794, Ǧ=870, ú̿=2118, ɳ=406, ��=432, ʯī=249} queue=0 gather=null pending=none
+1320.0,29.528904,9,1,1.0,1910,603,397,197,412,801,10,92.0,0.0
+tutorial objectives=0/0 flags={} coreStats={ͭ=1905, Ǧ=914, ú̿=2233, ɳ=430, ��=432, ʯī=249} queue=0 gather=null pending=none
+1380.0,30.458574,9,0,1.0,2020,648,478,197,413,811,10,92.0,0.0
+tutorial objectives=0/0 flags={} coreStats={ͭ=2015, Ǧ=959, ú̿=2344, ɳ=454, ��=432, ʯī=249} queue=0 gather=null pending=none
+1440.0,31.389349,10,8,1.0,2132,692,561,197,414,821,10,92.0,0.0
+tutorial objectives=0/0 flags={} coreStats={ͭ=2127, Ǧ=1003, ú̿=2457, ɳ=478, ��=432, ʯī=249} queue=0 gather=null pending=none
+1500.0,32.32447,10,0,1.0,2145,680,566,199,424,857,10,113.0,0.0
+tutorial objectives=0/0 flags={} coreStats={ͭ=2237, Ǧ=1043, ú̿=2571, ɳ=502, ��=432, ʯī=281} queue=0 gather=null pending=none
+1560.0,33.253223,11,6,1.0,2256,724,648,199,425,867,10,113.0,0.0
+tutorial objectives=0/0 flags={} coreStats={ͭ=2348, Ǧ=1087, ú̿=2683, ɳ=526, ��=432, ʯī=286} queue=0 gather=null pending=none
+1620.0,34.199276,11,1,1.0,2366,763,721,199,429,884,10,107.0,0.0
+tutorial objectives=0/0 flags={} coreStats={ͭ=2458, Ǧ=1131, ú̿=2798, ɳ=550, ��=432, ʯī=290} queue=0 gather=null pending=none
+1680.0,35.146984,11,0,1.0,2477,808,803,199,430,895,10,107.0,0.0
+tutorial objectives=0/0 flags={} coreStats={ͭ=2569, Ǧ=1176, ú̿=2910, ɳ=574, ��=432, ʯī=290} queue=0 gather=null pending=none
+1740.0,36.077545,12,11,1.0,2588,852,887,199,434,910,9,110.0,0.0
+tutorial objectives=0/0 flags={} coreStats={ͭ=2680, Ǧ=1220, ú̿=3025, ɳ=598, ��=432, ʯī=290} queue=0 gather=null pending=none
+1800.0,37.02594,12,4,1.0,2602,804,889,201,448,952,10,99.0,0.0
+tutorial objectives=0/0 flags={} coreStats={ͭ=2791, Ǧ=1224, ú̿=3137, ɳ=622, ��=432, ʯī=324} queue=0 gather=null pending=none
+Exception in thread "main" java.lang.IllegalStateException: No player-mineable ��
+	at RuinousShoresTrial033.mine(RuinousShoresTrial033.java:426)
+	at RuinousShoresTrial033.command(RuinousShoresTrial033.java:490)
+	at RuinousShoresTrial033.main(RuinousShoresTrial033.java:151)
