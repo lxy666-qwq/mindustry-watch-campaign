@@ -1,0 +1,7 @@
+watchVersion=0.3.1
+CampaignStars modified=1791869886931
+CoreBlock modified=1791869879647
+Building modified=1791869880705
+jar modified=1791870186221
+profile=onset-trials/normal-12/profile
+fixedDelta=1/60 native tick; no wave skip

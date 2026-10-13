@@ -1,0 +1,6 @@
+profile=onset-trials\normal-12\profile
+readOnlyScoreAudit=true
+normal=3
+heroic=0
+tactical=1
+watchVersion=0.3.1

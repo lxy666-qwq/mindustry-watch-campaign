@@ -17,6 +17,7 @@ import org.junit.jupiter.api.*;
 import org.junit.jupiter.params.*;
 import org.junit.jupiter.params.provider.*;
 
+import java.io.*;
 import java.util.stream.*;
 
 import static mindustry.Vars.*;
@@ -850,6 +851,108 @@ public class CampaignStarsTests{
         firstBuild.handleItem(firstBuild, Items.copper);
         run(restored, 2000);
         assertEquals(16, suppliedCount(), "a genuine later core delivery confirms old placed transports under the new rule");
+    }
+
+    @ParameterizedTest
+    @EnumSource(Mode.class)
+    void oversizedLedgerSurvivesNativeSaveIO(Mode mode){
+        start(SectorPresets.frozenForest, mode);
+        var line = transport(Blocks.conveyor, 16, false);
+        int firstPosition = line.first().pos();
+        int firstIdentity = CampaignStars.identity(line.first());
+        int expectedSupply = mode == Mode.TACTICAL ? 16 : 0;
+        assertEquals(expectedSupply, suppliedCount());
+        //Synthetic large ledger exercises native persistence; this is not gameplay evidence.
+        for(int i = 10000; i < 11800; i++){
+            state.rules.tags.put("stars.constructed." + i, "true");
+            state.rules.tags.put("stars.flow.icopper:" + i + ":4>icopper:" + (i + 1) + ":4", "true");
+        }
+        state.rules.tags.put("stars.bandage.wall.123456", "87.5");
+        state.rules.tags.put("stars.bandage.asset." + firstIdentity, "92.5");
+        CampaignStars.recordCoreHealth(0.65f);
+        String rawRules = JsonIO.write(state.rules);
+        assertThrows(UTFDataFormatException.class, () -> {
+            var stream = new DataOutputStream(new ByteArrayOutputStream());
+            stream.writeUTF(rawRules);
+        }, "the old rules string cannot store this ledger");
+        var liveRules = state.rules;
+        var liveTags = liveRules.tags;
+        var expected = new StringMap();
+        expected.putAll(liveTags);
+        int placed = CampaignStars.placed(), score = CampaignStars.scoreVictory();
+        float elapsed = CampaignStars.elapsed();
+        var file = saveDirectory.child("stars-large-ledger-" + mode + ".msav");
+        SaveIO.write(file);
+        assertSame(liveRules, state.rules);
+        assertSame(liveTags, state.rules.tags);
+        assertEquals(expected, liveTags, "save serialization never removes live evidence");
+        var metadata = SaveIO.getMeta(file).rules;
+        assertEquals(SectorPresets.frozenForest.name, metadata.tags.get("stars.preset"));
+        assertEquals(mode.name(), metadata.tags.get("stars.mode"));
+        assertEquals("0.65", metadata.tags.get("stars.minCore"));
+        assertFalse(metadata.tags.containsKey("stars.flow.icopper:10000:4>icopper:10001:4"));
+        assertDoesNotThrow(() -> new DataOutputStream(new ByteArrayOutputStream()).writeUTF(JsonIO.write(metadata)));
+        logic.reset();
+        SaveIO.load(file);
+        assertEquals(expected, state.rules.tags);
+        assertSame(SectorPresets.frozenForest, CampaignStars.currentPreset());
+        assertEquals(mode, CampaignStars.currentMode());
+        assertEquals(firstIdentity, CampaignStars.identity(world.build(firstPosition)));
+        assertEquals(expectedSupply, suppliedCount());
+        assertEquals(placed, CampaignStars.placed());
+        assertEquals(elapsed, CampaignStars.elapsed());
+        assertEquals(0.65f, CampaignStars.minimumCoreHealth());
+        assertEquals(score, CampaignStars.scoreVictory());
+        var restored = world.build(firstPosition);
+        restored.handleItem(restored, Items.copper);
+        run(Seq.with(restored), 60);
+        assertEquals(expectedSupply, suppliedCount(), "restored terminal evidence continues to participate in the same mission");
+    }
+
+    @Test
+    void oldEmbeddedLedgerIsReadWithoutAChunk(){
+        start(SectorPresets.frozenForest, Mode.TACTICAL);
+        var line = transport(Blocks.conveyor, 16, false);
+        int first = line.first().pos(), identity = CampaignStars.identity(line.first());
+        assertEquals(16, suppliedCount());
+        var legacy = new SaveReadState(world.context);
+        legacy.ruleString = JsonIO.write(state.rules);
+        SaveIO.getSaveWriter().readRules(legacy);
+        Events.fire(new SaveLoadEvent(false));
+        assertEquals(identity, CampaignStars.identity(world.build(first)));
+        assertEquals(16, suppliedCount(), "legacy metadata is not stripped when reading old saves");
+    }
+
+    @Test
+    void ordinaryRulesKeepTheirExistingMetadataSerialization(){
+        var rules = new Rules();
+        rules.tags.put("native.custom.123", "unchanged");
+        rules.tags.put("map.note", "原版关卡标签");
+        assertEquals(JsonIO.write(rules), CampaignStars.rulesForSave(rules));
+        state.rules = rules;
+        assertFalse(CampaignStars.active());
+        var file = saveDirectory.child("stars-ordinary-metadata.msav");
+        SaveIO.write(file);
+        logic.reset();
+        SaveIO.load(file);
+        assertEquals(rules.tags, state.rules.tags);
+        assertFalse(CampaignStars.active());
+    }
+
+    @Test
+    void failedMetadataWriteKeepsTheLiveLedger(){
+        start(SectorPresets.groundZero, Mode.NORMAL);
+        state.rules.tags.put("stars.constructed.123", "true");
+        //An unrelated oversized external value still fails through the original save API.
+        state.rules.tags.put("external.note", "x".repeat(70000));
+        var rules = state.rules;
+        var tags = rules.tags;
+        var file = saveDirectory.child("stars-external-metadata-failure.msav");
+        assertThrows(RuntimeException.class, () -> SaveIO.write(file));
+        assertSame(rules, state.rules);
+        assertSame(tags, state.rules.tags);
+        assertEquals("true", tags.get("stars.constructed.123"));
+        assertEquals(70000, tags.get("external.note").length());
     }
 
     boolean transported(Building building){

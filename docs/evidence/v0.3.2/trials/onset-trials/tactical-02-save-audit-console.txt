@@ -1,0 +1,176 @@
+0.0,2.465998,1,0,1.0,0,0,0,0,0,0,0,"{}"
+running objectives=[ItemObjective:[accent]获得：[][lightgray]0[]/60
+ [lightgray]铍:null]
+planned=225 vents=3 factory=BuildPlan{x=263, y=116, rotation=0, block=tank-fabricator, breaking=false, progress=0.0, initialized=false, config=null} limits=MissionLimits[deadline=1860.0, buildBudget=593, lossBudget=16]
+0.0,2.9255772,1,0,1.0,0,0,0,0,0,1,0,"{}"
+running objectives=[ItemObjective:[accent]获得：[][lightgray]0[]/60
+ [lightgray]铍:null]
+60.0,7.069304,1,0,1.0,59,0,0,0,13,1,5,"{}"
+running objectives=[CoreItemObjective:[accent]移动至核心：
+[][lightgray]24[]/200
+ [lightgray]铍:null]
+120.0,9.926876,1,0,1.0,39,0,0,0,28,1,5,"{}"
+running objectives=[CoreItemObjective:[accent]移动至核心：
+[][lightgray]80[]/200
+ [lightgray]铍:null]
+180.0,14.141795,1,0,1.0,40,103,0,0,62,1,5,"{}"
+running objectives=[CoreItemObjective:[accent]移动至核心：
+[][lightgray]168[]/200
+ [lightgray]铍:null]
+240.0,18.523132,1,0,1.0,271,97,100,0,119,1,6,"{}"
+running objectives=[CoreItemObjective:[accent]移动至核心：
+[][lightgray]86[]/100
+ [lightgray]石墨:null]
+300.0,21.531025,1,0,1.0,514,143,197,0,119,1,9,"{}"
+running objectives=[BuildCountObjective:[accent]建造：[][lightgray]1[]x
+ [lightgray]坦克制造厂:null]
+360.0,22.472641,1,0,1.0,505,187,195,0,119,1,9,"{}"
+running objectives=[BuildCountObjective:[accent]建造：[][lightgray]1[]x
+ [lightgray]坦克制造厂:null]
+420.0,25.44153,1,0,1.0,500,152,149,0,163,1,10,"{}"
+running objectives=[UnitCountObjective:[accent]生产单位：[][lightgray]1[]x
+ [lightgray]围护:null]
+480.0,26.897877,1,0,1.0,430,152,162,0,225,2,15,"{breachAmmo}"
+running objectives=[TimerObjective:[accent]敌人来袭：[lightgray]24[]:]
+540.0,28.573484,1,0,1.0,573,198,236,0,225,2,17,"{breachAmmo}"
+running objectives=[DestroyBlockObjective:[accent]摧毁：
+[] [lightgray]城堡核心:null]
+600.0,29.563465,1,0,1.0,665,242,318,0,225,1,17,"{breachAmmo}"
+running objectives=[DestroyBlockObjective:[accent]摧毁：
+[] [lightgray]城堡核心:null]
+660.0,30.497812,1,0,1.0,753,288,438,0,225,2,17,"{breachAmmo}"
+running objectives=[DestroyBlockObjective:[accent]摧毁：
+[] [lightgray]城堡核心:null]
+720.0,31.477964,1,0,1.0,845,332,528,0,225,1,17,"{breachAmmo}"
+running objectives=[DestroyBlockObjective:[accent]摧毁：
+[] [lightgray]城堡核心:null]
+780.0,32.415543,1,0,1.0,933,378,636,0,225,2,17,"{breachAmmo}"
+running objectives=[DestroyBlockObjective:[accent]摧毁：
+[] [lightgray]城堡核心:null]
+840.0,33.345295,1,0,1.0,1025,422,740,0,225,1,17,"{breachAmmo}"
+running objectives=[DestroyBlockObjective:[accent]摧毁：
+[] [lightgray]城堡核心:null]
+900.0,34.27337,1,0,1.0,1113,468,814,0,225,2,17,"{breachAmmo}"
+running objectives=[DestroyBlockObjective:[accent]摧毁：
+[] [lightgray]城堡核心:null]
+960.0,35.200516,1,0,1.0,1205,512,888,0,225,2,17,"{breachAmmo}"
+running objectives=[DestroyBlockObjective:[accent]摧毁：
+[] [lightgray]城堡核心:null]
+1020.0,36.13308,1,0,1.0,1293,558,962,0,225,2,17,"{breachAmmo}"
+running objectives=[DestroyBlockObjective:[accent]摧毁：
+[] [lightgray]城堡核心:null]
+1080.0,37.066563,1,0,1.0,1385,602,1034,0,225,2,17,"{breachAmmo}"
+running objectives=[DestroyBlockObjective:[accent]摧毁：
+[] [lightgray]城堡核心:null]
+1140.0,38.00587,1,0,1.0,1473,648,1109,0,225,1,17,"{breachAmmo}"
+running objectives=[DestroyBlockObjective:[accent]摧毁：
+[] [lightgray]城堡核心:null]
+1200.0,38.94273,1,0,1.0,1565,692,1184,0,225,1,17,"{breachAmmo}"
+running objectives=[DestroyBlockObjective:[accent]摧毁：
+[] [lightgray]城堡核心:null]
+1260.0,39.86866,1,0,1.0,1653,738,1258,0,225,1,17,"{breachAmmo}"
+running objectives=[DestroyBlockObjective:[accent]摧毁：
+[] [lightgray]城堡核心:null]
+1320.0,40.794815,1,0,1.0,1745,782,1336,0,225,1,17,"{breachAmmo}"
+running objectives=[DestroyBlockObjective:[accent]摧毁：
+[] [lightgray]城堡核心:null]
+1380.0,41.724888,1,0,1.0,1833,828,1412,0,225,2,17,"{breachAmmo}"
+running objectives=[DestroyBlockObjective:[accent]摧毁：
+[] [lightgray]城堡核心:null]
+1440.0,42.663406,1,0,1.0,1925,872,1486,0,225,2,17,"{breachAmmo}"
+running objectives=[DestroyBlockObjective:[accent]摧毁：
+[] [lightgray]城堡核心:null]
+1500.0,45.255463,1,0,1.0,2000,1001,1549,0,225,3,18,"{breachAmmo}"
+running objectives=[BuildCountObjective:[accent]建造：[][lightgray]1[]x
+ [lightgray]城堡核心:null]
+1560.0,46.76486,1,0,1.0,2000,999,1576,0,225,4,18,"{breachAmmo}"
+running objectives=[BuildCountObjective:[accent]建造：[][lightgray]1[]x
+ [lightgray]城堡核心:null]
+1620.0,47.713783,1,0,1.0,2000,1001,1606,0,225,5,18,"{breachAmmo}"
+running objectives=[BuildCountObjective:[accent]建造：[][lightgray]1[]x
+ [lightgray]城堡核心:null]
+1680.0,48.64665,1,0,1.0,2000,999,1634,0,225,6,18,"{breachAmmo}"
+running objectives=[BuildCountObjective:[accent]建造：[][lightgray]1[]x
+ [lightgray]城堡核心:null]
+1740.0,49.577164,1,0,1.0,2000,1001,1663,0,225,7,18,"{breachAmmo}"
+running objectives=[BuildCountObjective:[accent]建造：[][lightgray]1[]x
+ [lightgray]城堡核心:null]
+1800.0,50.52359,1,0,1.0,2000,999,1698,0,225,8,18,"{breachAmmo}"
+running objectives=[BuildCountObjective:[accent]建造：[][lightgray]1[]x
+ [lightgray]城堡核心:null]
+1860.0,51.460526,1,0,1.0,2000,1001,1730,0,225,10,18,"{breachAmmo}"
+running objectives=[BuildCountObjective:[accent]建造：[][lightgray]1[]x
+ [lightgray]城堡核心:null]
+1920.0,52.391846,1,0,1.0,2000,999,1758,0,225,11,18,"{breachAmmo}"
+running objectives=[BuildCountObjective:[accent]建造：[][lightgray]1[]x
+ [lightgray]城堡核心:null]
+1980.0,53.323936,1,0,1.0,2000,1001,1786,0,225,12,18,"{breachAmmo}"
+running objectives=[BuildCountObjective:[accent]建造：[][lightgray]1[]x
+ [lightgray]城堡核心:null]
+2040.0,54.25758,1,0,1.0,2000,999,1814,0,225,13,18,"{breachAmmo}"
+running objectives=[BuildCountObjective:[accent]建造：[][lightgray]1[]x
+ [lightgray]城堡核心:null]
+2100.0,55.188313,1,0,1.0,2000,1001,1844,0,225,14,18,"{breachAmmo}"
+running objectives=[BuildCountObjective:[accent]建造：[][lightgray]1[]x
+ [lightgray]城堡核心:null]
+2160.0,56.12531,1,0,1.0,2000,999,1871,0,225,15,18,"{breachAmmo}"
+running objectives=[BuildCountObjective:[accent]建造：[][lightgray]1[]x
+ [lightgray]城堡核心:null]
+2220.0,57.06063,1,0,1.0,2000,1001,1900,0,225,16,18,"{breachAmmo}"
+running objectives=[BuildCountObjective:[accent]建造：[][lightgray]1[]x
+ [lightgray]城堡核心:null]
+2280.0,57.99049,1,0,1.0,2000,999,1936,0,225,16,18,"{breachAmmo}"
+running objectives=[BuildCountObjective:[accent]建造：[][lightgray]1[]x
+ [lightgray]城堡核心:null]
+2340.0,58.943966,1,0,1.0,2000,1001,2000,0,225,16,18,"{breachAmmo}"
+running objectives=[BuildCountObjective:[accent]建造：[][lightgray]1[]x
+ [lightgray]城堡核心:null]
+2400.0,59.879807,1,0,1.0,2000,999,1998,0,225,16,18,"{breachAmmo}"
+running objectives=[BuildCountObjective:[accent]建造：[][lightgray]1[]x
+ [lightgray]城堡核心:null]
+2460.0,60.810104,1,0,1.0,2000,1001,2000,0,225,16,18,"{breachAmmo}"
+running objectives=[BuildCountObjective:[accent]建造：[][lightgray]1[]x
+ [lightgray]城堡核心:null]
+2520.0,61.777687,1,0,1.0,2000,999,2000,0,225,16,18,"{breachAmmo}"
+running objectives=[BuildCountObjective:[accent]建造：[][lightgray]1[]x
+ [lightgray]城堡核心:null]
+2580.0,62.707577,1,0,1.0,2000,1001,2000,0,225,16,18,"{breachAmmo}"
+running objectives=[BuildCountObjective:[accent]建造：[][lightgray]1[]x
+ [lightgray]城堡核心:null]
+2640.0,63.644165,1,0,1.0,2000,999,1998,0,225,16,18,"{breachAmmo}"
+running objectives=[BuildCountObjective:[accent]建造：[][lightgray]1[]x
+ [lightgray]城堡核心:null]
+2700.0,64.5907,1,0,1.0,2000,1001,2000,0,225,16,18,"{breachAmmo}"
+running objectives=[BuildCountObjective:[accent]建造：[][lightgray]1[]x
+ [lightgray]城堡核心:null]
+2760.0,65.528564,1,0,1.0,2000,999,2000,0,225,16,18,"{breachAmmo}"
+running objectives=[BuildCountObjective:[accent]建造：[][lightgray]1[]x
+ [lightgray]城堡核心:null]
+2820.0,66.46063,1,0,1.0,2000,1061,2004,0,226,17,19,"{breachAmmo}"
+running objectives=[TimerObjective:[accent]建立防御：[lightgray] 1:57:null]
+2880.0,67.394135,1,0,1.0,2092,1105,2106,0,226,18,19,"{breachAmmo}"
+running objectives=[TimerObjective:[accent]建立防御：[lightgray] 57:null]
+2940.0,68.3308,1,0,1.0,2180,1151,2172,0,226,20,20,"{breachAmmo}"
+running objectives=[]
+2990.1333,69.12441,1,0,1.0,2256,1187,2226,0,226,19,20,"{breachAmmo}"
+running objectives=[]
+Exception in thread "main" java.lang.RuntimeException: java.io.IOException: Error writing region "meta".
+	at mindustry.io.SaveIO.write(SaveIO.java:135)
+	at mindustry.io.SaveIO.write(SaveIO.java:119)
+	at mindustry.io.SaveIO.write(SaveIO.java:123)
+	at OnsetTacticalTrial.main(OnsetTacticalTrial.java:99)
+Caused by: java.io.IOException: Error writing region "meta".
+	at mindustry.io.SaveFileReader.writeRegion(SaveFileReader.java:105)
+	at mindustry.io.SaveVersion.write(SaveVersion.java:81)
+	at mindustry.io.SaveIO.write(SaveIO.java:133)
+	... 3 more
+Caused by: java.io.UTFDataFormatException: encoded string ({teams:{...:erekir}) too long: 71697 bytes
+	at java.base/java.io.DataOutputStream.writeUTF(DataOutputStream.java:369)
+	at java.base/java.io.DataOutputStream.writeUTF(DataOutputStream.java:333)
+	at mindustry.io.SaveFileReader.writeStringMap(SaveFileReader.java:179)
+	at mindustry.io.SaveVersion.writeMeta(SaveVersion.java:129)
+	at mindustry.io.SaveVersion.lambda$write$4(SaveVersion.java:81)
+	at mindustry.io.SaveFileReader.lambda$writeRegion$1(SaveFileReader.java:103)
+	at mindustry.io.SaveFileReader.writeChunk(SaveFileReader.java:122)
+	at mindustry.io.SaveFileReader.writeRegion(SaveFileReader.java:103)
+	... 5 more

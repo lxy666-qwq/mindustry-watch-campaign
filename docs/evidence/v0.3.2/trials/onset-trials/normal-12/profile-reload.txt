@@ -1,0 +1,12 @@
+onset.NORMAL=3
+onset.HEROIC=0
+onset.TACTICAL=0
+mainStars=3
+branch0Stars=0
+branch0Reward=false
+frozenForestOpen=false
+branch1Open=false
+branch1RequiredMainStars=10
+branch1Anchor=crateredBattleground
+branch1AnchorNormal=0
+readOnlyReload=passed

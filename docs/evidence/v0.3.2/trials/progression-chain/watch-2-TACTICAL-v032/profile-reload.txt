@@ -1,0 +1,12 @@
+watch-2.NORMAL=3
+watch-2.HEROIC=1
+watch-2.TACTICAL=1
+actualVersion=0.3.2
+codeLocation=file:/trial-work/branch032-runtime/Mindustry.jar
+assetsSource=trial-work/branch032-runtime/assets
+mainStars=11
+branch1Reward=true
+arcRewardAvailable=true
+lancerRewardAvailable=true
+craterHeroicGate=true
+readOnlyReload=passed

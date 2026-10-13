@@ -1,0 +1,5 @@
+watchVersion=0.3.2
+actualClassLocation=onset-trials/Mindustry-v032-audit.jar
+actualCodeLocationModified=1791873417497
+profile=onset-trials/normal-12/profile
+fixedDelta=1/60 native tick; no wave skip

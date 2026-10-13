@@ -135,7 +135,7 @@ public abstract class SaveVersion extends SaveFileReader{
             "tick", state.tick,
             "wavetime", state.wavetime,
             "stats", JsonIO.write(state.stats),
-            "rules", JsonIO.write(state.rules),
+            "rules", CampaignStars.rulesForSave(state.rules),
             "sectorPreset", state.rules.sector != null && state.rules.sector.preset != null ? state.rules.sector.preset.name : "", //empty string is a placeholder for null (null is possible but may be finicky)
             "locales", JsonIO.write(state.mapLocales),
             "mods", JsonIO.write(mods.getModStrings().toArray(String.class)),

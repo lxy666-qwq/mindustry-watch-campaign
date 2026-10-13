@@ -1,0 +1,9 @@
+version=0.3.2
+inspectionOnly=true; no gameplay or score awards
+preset=onset
+legacyEmbeddedTags=479
+newMetadataTags=21
+placed=226
+minimumCore=1.0
+allTagsEqualAfterMigration=true
+settingsStars=0

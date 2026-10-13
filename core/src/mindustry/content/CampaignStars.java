@@ -11,6 +11,8 @@ import mindustry.game.EventType.*;
 import mindustry.game.MapObjectives.*;
 import mindustry.game.Objectives.*;
 import mindustry.gen.*;
+import mindustry.io.*;
+import mindustry.io.SaveFileReader.CustomChunk;
 import mindustry.type.*;
 import mindustry.world.*;
 import mindustry.world.blocks.power.*;
@@ -26,6 +28,8 @@ import mindustry.world.blocks.production.GenericCrafter.*;
 import mindustry.world.blocks.storage.*;
 import mindustry.world.blocks.storage.CoreBlock.*;
 import mindustry.world.blocks.defense.turrets.LiquidTurret.*;
+
+import java.io.*;
 
 import static mindustry.Vars.*;
 
@@ -59,6 +63,36 @@ public class CampaignStars{
     }
 
     public static void register(){
+        SaveVersion.addCustomChunk("watch-stars-ledger", new CustomChunk(){
+            @Override
+            public boolean shouldWrite(){
+                return active();
+            }
+
+            @Override
+            public boolean writeNet(){
+                return false;
+            }
+
+            @Override
+            public void write(DataOutput stream) throws IOException{
+                var keys = state.rules.tags.keys().toSeq().select(CampaignStars::ledgerTag);
+                stream.writeInt(1);
+                stream.writeInt(keys.size);
+                for(var key : keys){
+                    stream.writeUTF(key);
+                    stream.writeUTF(state.rules.tags.get(key));
+                }
+            }
+
+            @Override
+            public void read(DataInput stream) throws IOException{
+                int version = stream.readInt();
+                if(version != 1) throw new IOException("Unsupported five-star ledger version: " + version);
+                int count = stream.readInt();
+                for(int i = 0; i < count; i++) state.rules.tags.put(stream.readUTF(), stream.readUTF());
+            }
+        });
         Events.on(WorldLoadEvent.class, e -> {
             if(loadingMission || active() || !state.isCampaign()) return;
             var preset = state.rules.sector.preset;
@@ -116,6 +150,21 @@ public class CampaignStars{
                 recordVictory();
             }
         });
+    }
+
+    /** Per-asset and resource-flow records are stored outside the 64 KiB rules metadata string. */
+    private static boolean ledgerTag(String key){
+        return key.startsWith(prefix) && key.indexOf('.', prefix.length()) >= 0;
+    }
+
+    public static String rulesForSave(Rules rules){
+        if(!rules.tags.keys().toSeq().contains(CampaignStars::ledgerTag)) return JsonIO.write(rules);
+        var copy = rules.copy();
+        copy.retainContentFields(rules);
+        copy.tags.keys().toSeq().each(key -> {
+            if(ledgerTag(key)) copy.tags.remove(key);
+        });
+        return JsonIO.write(copy);
     }
 
     /** Only official technology-tree main levels and the ten relocated Watch branches participate. */

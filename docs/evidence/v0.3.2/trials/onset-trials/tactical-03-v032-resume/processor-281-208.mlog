@@ -1,0 +1,3 @@
+op div speed @tick 100000
+op min speed speed 1.3
+setrule unitBuildSpeed speed @crux 0 100 100
