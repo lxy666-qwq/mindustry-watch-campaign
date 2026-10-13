@@ -1,0 +1,132 @@
+profileScope=shared-progression gateVerified=true starsBefore=0 mainStarsBefore=26
+Native forest start: core=40,70 inventory=ItemModule{copper:200}
+planned lead output 27,59 with 19 native resource-to-core conveyors
+planned coal output 45,75 with 7 native resource-to-core conveyors
+planned coal output 42,77 with 7 native resource-to-core conveyors
+planned coal output 44,77 with 13 native resource-to-core conveyors
+planned coal output 47,75 with 9 native resource-to-core conveyors
+planned graphite output 44,69 with 2 native resource-to-core conveyors
+driver: added=true dead=false unit=Unit#240:alpha (320.0, 560.0149) plans=1 next=BuildPlan{x=27, y=59, rotation=0, block=mechanical-drill, breaking=false, progress=0.085, initialized=true, config=null} tile=build2 valid=true unlocked=true env=true placeable=true dist=130.6082
+0.0,1.0290198,1,0,1.0,199,0,0,0,0,0,0,0.0,0.0
+tutorial objectives=1/8 flags={} coreStats={} queue=114 gather=null pending=BuildPlan{x=27, y=59, rotation=0, block=mechanical-drill, breaking=false, progress=0.085, initialized=true, config=null}
+60.0,1.7350727,1,0,1.0,1,43,72,66,0,3,0,0.0,0.0
+tutorial objectives=2/8 flags={} coreStats={Ǧ=18, ú̿=72} queue=48 gather=ͭ pending=BuildPlan{x=43, y=73, rotation=0, block=arc, breaking=false, progress=0.96049917, initialized=true, config=null}
+120.0,2.0723364,1,0,1.0,91,57,63,68,3,17,0,0.0,0.0
+tutorial objectives=4/8 flags={} coreStats={Ǧ=40, ú̿=153, ʯī=30} queue=46 gather=ʯī pending=BuildPlan{x=36, y=75, rotation=0, block=scorch, breaking=false, progress=0.0, initialized=false, config=null}
+180.0,2.333917,1,0,1.0,91,80,86,68,5,31,0,0.0,0.0
+tutorial objectives=4/8 flags={} coreStats={Ǧ=63, ú̿=236, ʯī=70} queue=46 gather=ʯī pending=BuildPlan{x=36, y=75, rotation=0, block=scorch, breaking=false, progress=0.0, initialized=false, config=null}
+240.0,2.7152624,1,0,1.0,92,102,82,71,8,44,3,0.0,30.0
+tutorial objectives=4/8 flags={} coreStats={Ǧ=85, ú̿=310, ʯī=98} queue=43 gather=ʯī pending=BuildPlan{x=47, y=65, rotation=0, block=scorch, breaking=false, progress=0.8278261, initialized=true, config=null}
+300.0,2.9633877,1,0,1.0,92,124,104,71,10,57,3,0.0,30.0
+tutorial objectives=4/8 flags={} coreStats={Ǧ=107, ú̿=392, ʯī=138} queue=43 gather=ʯī pending=BuildPlan{x=47, y=65, rotation=0, block=scorch, breaking=false, progress=0.8278261, initialized=true, config=null}
+360.0,3.3310986,1,0,1.0,66,146,136,75,12,69,7,0.0,30.0
+tutorial objectives=4/8 flags={} coreStats={Ǧ=129, ú̿=472, ʯī=168} queue=39 gather=ͭ pending=BuildPlan{x=48, y=74, rotation=0, block=scorch, breaking=false, progress=0.48782608, initialized=true, config=null}
+420.0,3.5981317,1,0,1.0,92,168,129,75,15,84,7,0.0,30.0
+tutorial objectives=4/8 flags={} coreStats={Ǧ=151, ú̿=555, ʯī=206} queue=39 gather=ʯī pending=BuildPlan{x=48, y=74, rotation=0, block=scorch, breaking=false, progress=0.6504348, initialized=true, config=null}
+480.0,3.8873827,1,0,1.0,92,190,122,75,18,98,7,0.0,30.0
+tutorial objectives=4/8 flags={} coreStats={Ǧ=173, ú̿=638, ʯī=246} queue=39 gather=ʯī pending=BuildPlan{x=48, y=74, rotation=0, block=scorch, breaking=false, progress=0.6504348, initialized=true, config=null}
+540.0,4.4066057,1,0,1.0,66,213,203,84,18,107,16,0.0,69.0
+tutorial objectives=4/8 flags={} coreStats={Ǧ=196, ú̿=707, ʯī=252} queue=30 gather=ͭ pending=BuildPlan{x=46, y=73, rotation=0, block=duo, breaking=false, progress=0.14571428, initialized=true, config=null}
+600.0,4.9709506,1,0,1.0,65,235,278,92,18,116,24,0.0,90.0
+tutorial objectives=4/8 flags={} coreStats={Ǧ=218, ú̿=782, ʯī=252} queue=22 gather=ͭ pending=BuildPlan{x=37, y=77, rotation=0, block=duo, breaking=false, progress=0.408, initialized=true, config=null}
+660.0,5.4778123,1,0,1.0,2,257,360,103,18,123,27,0.0,90.0
+tutorial objectives=4/8 flags={} coreStats={Ǧ=240, ú̿=864, ʯī=252} queue=11 gather=ͭ pending=BuildPlan{x=46, y=80, rotation=0, block=copper-wall-large, breaking=false, progress=0.21249992, initialized=true, config=null}
+720.0,5.9504647,1,0,1.0,32,279,443,111,18,130,27,0.0,90.0
+tutorial objectives=4/8 flags={} coreStats={Ǧ=262, ú̿=947, ʯī=252} queue=3 gather=ͭ pending=BuildPlan{x=51, y=74, rotation=0, block=copper-wall-large, breaking=false, progress=0.21249992, initialized=true, config=null}
+780.0,6.4382358,1,0,1.0,59,301,465,114,30,158,27,382.0,270.0
+tutorial objectives=4/8 flags={} coreStats={Ǧ=284, ú̿=1029, ʯī=252} queue=0 gather=ͭ pending=none
+840.0,6.962766,1,0,1.0,204,323,422,114,46,202,27,532.0,270.0
+tutorial objectives=8/8 flags={power, done} coreStats={Ǧ=306, ú̿=1112, ʯī=279} queue=0 gather=null pending=none
+900.0,7.546395,1,0,1.0,405,345,366,114,65,254,27,532.0,270.0
+tutorial objectives=8/8 flags={power, done} coreStats={Ǧ=328, ú̿=1194, ʯī=319} queue=0 gather=null pending=none
+960.0,8.067813,1,0,1.0,607,368,279,114,86,307,27,532.0,270.0
+tutorial objectives=8/8 flags={power, done} coreStats={Ǧ=351, ú̿=1275, ʯī=359} queue=0 gather=null pending=none
+1020.0,8.588791,2,1,1.0,809,390,248,114,104,360,27,532.0,270.0
+tutorial objectives=8/8 flags={power, done} coreStats={Ǧ=373, ú̿=1358, ʯī=399} queue=0 gather=null pending=none
+1080.0,9.192946,2,0,1.0,1051,412,234,114,116,392,27,467.0,270.0
+tutorial objectives=8/8 flags={power, done} coreStats={Ǧ=395, ú̿=1440, ʯī=410} queue=0 gather=null pending=none
+1140.0,9.750413,3,1,1.0,1301,434,257,114,126,421,27,467.0,270.0
+tutorial objectives=8/8 flags={power, done} coreStats={Ǧ=417, ú̿=1523, ʯī=410} queue=0 gather=null pending=none
+1200.0,10.251152,3,0,1.0,1500,456,291,114,134,449,27,404.0,270.0
+tutorial objectives=8/8 flags={power, done} coreStats={Ǧ=439, ú̿=1605, ʯī=410} queue=0 gather=null pending=none
+1260.0,10.499905,4,3,1.0,1500,478,314,114,136,469,27,404.0,270.0
+tutorial objectives=8/8 flags={power, done} coreStats={Ǧ=461, ú̿=1688, ʯī=410} queue=0 gather=null pending=none
+1320.0,10.772025,4,0,1.0,1500,501,284,114,144,511,27,458.0,270.0
+tutorial objectives=8/8 flags={power, done} coreStats={Ǧ=484, ú̿=1770, ʯī=427} queue=0 gather=null pending=none
+1380.0,11.037126,5,2,1.0,1500,523,245,114,148,542,27,458.0,270.0
+tutorial objectives=8/8 flags={power, done} coreStats={Ǧ=506, ú̿=1851, ʯī=463} queue=0 gather=null pending=none
+1440.0,11.320304,5,0,1.0,1500,545,268,114,150,562,27,407.0,270.0
+tutorial objectives=8/8 flags={power, done} coreStats={Ǧ=528, ú̿=1934, ʯī=463} queue=0 gather=null pending=none
+1500.0,11.631639,6,4,1.0,1500,567,254,114,156,593,27,409.0,270.0
+tutorial objectives=8/8 flags={power, done} coreStats={Ǧ=550, ú̿=2016, ʯī=470} queue=0 gather=null pending=none
+1560.0,11.897896,6,0,1.0,1500,589,223,114,164,636,27,426.0,270.0
+tutorial objectives=8/8 flags={power, done} coreStats={Ǧ=572, ú̿=2099, ʯī=509} queue=0 gather=null pending=none
+1620.0,12.207294,7,2,1.0,1500,611,229,114,170,664,27,389.0,270.0
+tutorial objectives=8/8 flags={power, done} coreStats={Ǧ=594, ú̿=2181, ʯī=519} queue=0 gather=null pending=none
+1680.0,12.466402,7,0,1.0,1500,633,222,114,173,692,27,417.0,270.0
+tutorial objectives=8/8 flags={power, done} coreStats={Ǧ=616, ú̿=2264, ʯī=538} queue=0 gather=null pending=none
+1740.0,12.751275,8,0,1.0,1477,656,226,115,179,727,27,411.0,270.0
+tutorial objectives=8/8 flags={power, done} coreStats={Ǧ=639, ú̿=2346, ʯī=540} queue=0 gather=null pending=none
+1800.0,13.038953,9,6,1.0,1500,678,145,115,186,762,27,411.0,270.0
+tutorial objectives=8/8 flags={power, done} coreStats={Ǧ=661, ú̿=2427, ʯī=580} queue=0 gather=null pending=none
+1860.0,13.293668,9,0,1.0,1500,700,134,115,193,800,27,449.0,270.0
+tutorial objectives=8/8 flags={power, done} coreStats={Ǧ=683, ú̿=2510, ʯī=600} queue=0 gather=null pending=none
+1920.0,13.542588,10,9,1.0,1500,722,96,115,197,829,27,449.0,270.0
+tutorial objectives=8/8 flags={power, done} coreStats={Ǧ=705, ú̿=2592, ʯī=633} queue=0 gather=null pending=none
+1980.0,13.880202,10,0,1.0,1500,744,87,116,206,872,27,421.0,270.0
+tutorial objectives=8/8 flags={power, done} coreStats={Ǧ=727, ú̿=2675, ʯī=646} queue=0 gather=null pending=none
+2040.0,14.150958,11,8,1.0,1500,766,19,116,211,905,27,421.0,270.0
+tutorial objectives=8/8 flags={power, done} coreStats={Ǧ=749, ú̿=2757, ʯī=686} queue=0 gather=null pending=none
+2100.0,14.451698,11,0,0.9435456,1429,789,46,120,221,941,27,466.0,270.0
+tutorial objectives=8/8 flags={power, done} coreStats={Ǧ=772, ú̿=2840, ʯī=703} queue=0 gather=ú̿ pending=none
+2160.0,14.827501,12,3,0.9435456,1500,811,20,120,233,974,27,411.0,270.0
+tutorial objectives=8/8 flags={power, done} coreStats={Ǧ=794, ú̿=2922, ʯī=723} queue=0 gather=null pending=none
+2220.0,15.098903,12,0,0.9435456,1500,833,31,120,237,992,27,411.0,270.0
+tutorial objectives=8/8 flags={power, done} coreStats={Ǧ=816, ú̿=3003, ʯī=737} queue=0 gather=null pending=none
+2280.0,15.397567,13,6,0.9435456,1500,855,54,120,239,1004,27,400.0,270.0
+tutorial objectives=8/8 flags={power, done} coreStats={Ǧ=838, ú̿=3086, ʯī=753} queue=0 gather=null pending=none
+2340.0,15.674049,13,0,0.9435456,1500,877,40,120,246,1040,27,424.0,270.0
+tutorial objectives=8/8 flags={power, done} coreStats={Ǧ=860, ú̿=3168, ʯī=779} queue=0 gather=ú̿ pending=none
+2400.0,15.999303,14,0,0.9435456,1500,899,6,120,254,1071,27,436.0,270.0
+tutorial objectives=8/8 flags={power, done} coreStats={Ǧ=882, ú̿=3251, ʯī=795} queue=0 gather=null pending=none
+2460.0,16.281403,15,8,0.9435456,1500,921,28,120,256,1084,27,440.0,270.0
+tutorial objectives=8/8 flags={power, done} coreStats={Ǧ=904, ú̿=3333, ʯī=806} queue=0 gather=null pending=none
+2508.0667,16.56456,15,0,0.83063674,1500,939,32,120,258,1104,26,190.0,245.0
+tutorial objectives=8/8 flags={power, done} coreStats={Ǧ=922, ú̿=3397, ʯī=834} queue=0 gather=ú̿ pending=none
+trial=legal-build
+selection=campaign-progression-gates-verified
+mission=frozenForest
+mode=HEROIC
+finished=true
+winner=sharded
+wave=15
+actualSpawnWaves=14
+simSeconds=2508.0667
+wallSeconds=16.566065
+placedBuildings=120
+withdraws=258
+deposits=1104
+coreMinimum=0.83063674
+buildingsDestroyed=12
+pendingPlans=0
+codeLocation=file:/local-work/mindustry-star-work/star034-runtime/Mindustry.jar
+CampaignStars.classModifiedAtStart=1791887228434
+WatchMapGenerator.classModifiedAtStart=1791887228434
+runtimeWatchVersion=0.3.4
+CoreBlock.classModifiedAtStart=1791887228434
+profileScope=shared-progression
+gateVerified=true
+starsAfter=0
+mainStarsAfter=26
+branch0RewardAfter=true
+settingsFileExists=true
+waveTimer=true
+objectives=8
+objectiveFlags={power, done}
+frozenForestOpen=true
+objectivesCompleted=8
+status=��ս����δ��ɣ����λ�� 0 / 1 �ǣ������ۼ� 3 / 5
+mainStarsBefore=26
+modeStarsBefore=0
+endSaveWritten=true
+

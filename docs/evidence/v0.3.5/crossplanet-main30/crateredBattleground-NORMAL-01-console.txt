@@ -1,0 +1,97 @@
+profileScope=shared-progression gateVerified=true starsBefore=0 mainStarsBefore=27
+Native crater start: core=87,51 inventory=ItemModule{copper:100}
+planned copper output 90,47 with 3 native resource-to-core conveyors
+planned copper output 92,47 with 6 native resource-to-core conveyors
+planned lead output 54,54 with 32 native resource-to-core conveyors
+planned actual coal drill 67,61; native Alpha can carry its real output if the conveyor is cut
+planned coal output 67,61 with 27 native resource-to-core conveyors
+planned actual coal drill 68,58; native Alpha can carry its real output if the conveyor is cut
+planned coal output 68,58 with 38 native resource-to-core conveyors
+planned graphite output 83,47 with 3 native resource-to-core conveyors
+driver: added=true dead=false unit=Unit#281:alpha (696.0, 408.01492) plans=1 next=BuildPlan{x=90, y=47, rotation=0, block=mechanical-drill, breaking=false, progress=0.085, initialized=true, config=null} tile=build2 valid=true unlocked=true env=true placeable=true dist=39.608532
+0.0,1.1165442,1,0,1.0,99,0,0,0,0,0,0,0.0,0.0
+tutorial objectives=0/0 flags={} coreStats={} queue=150 gather=null pending=BuildPlan{x=90, y=47, rotation=0, block=mechanical-drill, breaking=false, progress=0.085, initialized=true, config=null}
+60.0,1.8282495,1,0,1.0,76,0,0,19,3,4,4,116.0,0.0
+tutorial objectives=0/0 flags={} coreStats={ͭ=41} queue=131 gather=ͭ pending=BuildPlan{x=85, y=63, rotation=0, block=copper-wall-large, breaking=false, progress=0.25499988, initialized=true, config=null}
+120.0,2.3642035,1,0,1.0,56,3,1,126,3,5,4,116.0,0.0
+tutorial objectives=0/0 flags={} coreStats={ͭ=85, Ǧ=1, ú̿=1} queue=24 gather=Ǧ pending=BuildPlan{x=83, y=47, rotation=0, block=graphite-press, breaking=false, progress=0.0, initialized=false, config=null}
+180.0,2.7983387,2,1,1.0,84,68,2,130,8,12,4,116.0,0.0
+tutorial objectives=0/0 flags={} coreStats={ͭ=130, Ǧ=23, ú̿=29, ʯī=10} queue=20 gather=ʯī pending=BuildPlan{x=81, y=61, rotation=0, block=scorch, breaking=false, progress=0.36956522, initialized=true, config=null}
+240.0,3.1506672,2,0,1.0,112,90,3,131,13,18,5,116.0,30.0
+tutorial objectives=0/0 flags={} coreStats={ͭ=175, Ǧ=45, ú̿=59, ʯī=23} queue=19 gather=ú̿ pending=BuildPlan{x=85, y=59, rotation=0, block=scorch, breaking=false, progress=0.059130434, initialized=true, config=null}
+300.0,3.4074872,3,0,1.0,149,112,9,131,19,24,5,115.0,30.0
+tutorial objectives=0/0 flags={} coreStats={ͭ=219, Ǧ=67, ú̿=91, ʯī=36} queue=19 gather=ú̿ pending=BuildPlan{x=85, y=59, rotation=0, block=scorch, breaking=false, progress=0.3252174, initialized=true, config=null}
+360.0,3.6526053,4,2,1.0,171,134,1,132,26,31,6,115.0,60.0
+tutorial objectives=0/0 flags={} coreStats={ͭ=263, Ǧ=89, ú̿=120, ʯī=49} queue=18 gather=ú̿ pending=BuildPlan{x=89, y=60, rotation=0, block=scorch, breaking=false, progress=0.23652174, initialized=true, config=null}
+420.0,3.8957238,4,0,1.0,206,157,5,132,33,39,6,112.0,60.0
+tutorial objectives=0/0 flags={} coreStats={ͭ=307, Ǧ=112, ú̿=152, ʯī=63} queue=18 gather=ú̿ pending=BuildPlan{x=89, y=60, rotation=0, block=scorch, breaking=false, progress=0.59130436, initialized=true, config=null}
+480.0,4.174386,5,1,1.0,234,179,0,133,38,45,7,108.0,90.0
+tutorial objectives=0/0 flags={} coreStats={ͭ=351, Ǧ=134, ú̿=183, ʯī=71} queue=17 gather=ʯī pending=BuildPlan{x=93, y=60, rotation=0, block=scorch, breaking=false, progress=0.23652174, initialized=true, config=null}
+540.0,4.444642,6,4,1.0,263,201,4,133,46,54,7,92.0,90.0
+tutorial objectives=0/0 flags={} coreStats={ͭ=396, Ǧ=156, ú̿=215, ʯī=87} queue=17 gather=ʯī pending=BuildPlan{x=93, y=60, rotation=0, block=scorch, breaking=false, progress=0.8721739, initialized=true, config=null}
+600.0,4.809093,6,0,1.0,22,15,1,138,54,68,12,53.0,110.0
+tutorial objectives=0/0 flags={} coreStats={ͭ=440, Ǧ=178, ú̿=245, ʯī=100} queue=12 gather=ú̿ pending=BuildPlan{x=83, y=54, rotation=0, block=hail, breaking=false, progress=0.30324325, initialized=true, config=null}
+660.0,5.15262,7,2,1.0,102,37,6,138,60,76,12,66.0,104.0
+tutorial objectives=0/0 flags={} coreStats={ͭ=485, Ǧ=200, ú̿=275, ʯī=114} queue=12 gather=ú̿ pending=BuildPlan{x=83, y=54, rotation=0, block=hail, breaking=false, progress=0.8270277, initialized=true, config=null}
+720.0,5.4026604,8,6,1.0,108,59,9,139,67,85,13,66.0,98.0
+tutorial objectives=0/0 flags={} coreStats={ͭ=529, Ǧ=222, ú̿=307, ʯī=129} queue=11 gather=ú̿ pending=BuildPlan{x=91, y=54, rotation=0, block=hail, breaking=false, progress=0.4135135, initialized=true, config=null}
+780.0,5.8563404,8,0,1.0,7,81,17,146,76,98,18,159.0,118.0
+tutorial objectives=0/0 flags={} coreStats={ͭ=573, Ǧ=244, ú̿=336, ʯī=135} queue=4 gather=ͭ pending=BuildPlan{x=76, y=49, rotation=0, block=copper-wall-large, breaking=false, progress=0.07083333, initialized=true, config=null}
+840.0,6.2786617,9,6,1.0,81,104,5,150,79,107,18,142.0,113.0
+tutorial objectives=0/0 flags={} coreStats={ͭ=617, Ǧ=267, ú̿=368, ʯī=152} queue=0 gather=ʯī pending=none
+900.0,6.667635,10,8,0.97545457,80,126,0,152,88,125,17,185.0,86.0
+tutorial objectives=0/0 flags={} coreStats={ͭ=661, Ǧ=289, ú̿=399, ʯī=170} queue=1 gather=ʯī pending=BuildPlan{x=93, y=60, rotation=0, block=scorch, breaking=false, progress=0.23652174, initialized=true, config=null}
+960.0,6.9239388,10,0,0.97545457,105,148,4,152,94,131,17,92.0,86.0
+tutorial objectives=0/0 flags={} coreStats={ͭ=706, Ǧ=311, ú̿=431, ʯī=189} queue=1 gather=ú̿ pending=BuildPlan{x=93, y=60, rotation=0, block=scorch, breaking=false, progress=0.36956522, initialized=true, config=null}
+1020.0,7.232172,11,6,0.97545457,109,170,6,152,101,141,16,85.0,86.0
+tutorial objectives=0/0 flags={} coreStats={ͭ=751, Ǧ=333, ú̿=461, ʯī=203} queue=1 gather=ú̿ pending=BuildPlan{x=93, y=60, rotation=0, block=scorch, breaking=false, progress=0.96086955, initialized=true, config=null}
+1080.0,7.502258,12,10,0.97545457,72,192,6,152,110,156,16,154.0,86.0
+tutorial objectives=0/0 flags={} coreStats={ͭ=795, Ǧ=355, ú̿=491, ʯī=218} queue=1 gather=ú̿ pending=BuildPlan{x=93, y=60, rotation=0, block=scorch, breaking=false, progress=0.3252174, initialized=true, config=null}
+1140.0,7.8014402,12,1,0.97545457,73,214,8,152,118,167,15,88.0,78.0
+tutorial objectives=0/0 flags={} coreStats={ͭ=839, Ǧ=377, ú̿=523, ʯī=233} queue=1 gather=ú̿ pending=BuildPlan{x=93, y=60, rotation=0, block=scorch, breaking=false, progress=0.28086957, initialized=true, config=null}
+1200.0,8.120231,13,13,0.97545457,91,237,9,152,126,178,15,100.0,78.0
+tutorial objectives=0/0 flags={} coreStats={ͭ=883, Ǧ=400, ú̿=552, ʯī=247} queue=1 gather=ú̿ pending=BuildPlan{x=93, y=60, rotation=0, block=scorch, breaking=false, progress=0.28086957, initialized=true, config=null}
+1260.0,8.394678,14,12,0.4529977,59,259,8,152,129,184,12,5.0,60.0
+tutorial objectives=0/0 flags={} coreStats={ͭ=885, Ǧ=422, ú̿=565, ʯī=254} queue=1 gather=ú̿ pending=BuildPlan{x=93, y=60, rotation=0, block=scorch, breaking=false, progress=0.10347826, initialized=true, config=null}
+1319.5,8.798163,14,4,0.0,0,0,0,152,135,194,10,57.0,60.0
+tutorial objectives=0/0 flags={} coreStats={ͭ=885, Ǧ=444, ú̿=571, ʯī=255} queue=1 gather=ú̿ pending=BuildPlan{x=93, y=60, rotation=0, block=scorch, breaking=false, progress=0.10347826, initialized=true, config=null}
+trial=legal-build
+selection=campaign-progression-gates-verified
+mission=crateredBattleground
+mode=NORMAL
+finished=true
+winner=crux
+wave=14
+actualSpawnWaves=13
+simSeconds=1319.5
+wallSeconds=8.799638
+placedBuildings=152
+withdraws=135
+deposits=194
+coreMinimum=-0.005504206
+buildingsDestroyed=40
+pendingPlans=1
+nextPlan=BuildPlan{x=93, y=60, rotation=0, block=scorch, breaking=false, progress=0.10347826, initialized=true, config=null}
+codeLocation=file:/local-work/mindustry-star-work/star034-runtime/Mindustry.jar
+CampaignStars.classModifiedAtStart=0
+WatchMapGenerator.classModifiedAtStart=0
+runtimeWatchVersion=0.3.4
+CoreBlock.classModifiedAtStart=0
+sourceJarModifiedAtStart=1791887228434
+assetsLocation=local-work/mindustry-star-work/star034-runtime/assets
+profileScope=shared-progression
+gateVerified=true
+starsAfter=0
+mainStarsAfter=27
+branch0RewardAfter=true
+settingsFileExists=true
+waveTimer=true
+objectives=0
+objectiveFlags={}
+frozenForestOpen=true
+objectivesCompleted=0
+status=��ս����δ��ɣ����λ�� 0 / 3 �ǣ������ۼ� 0 / 5
+mainStarsBefore=27
+modeStarsBefore=0
+endSaveWritten=true
+

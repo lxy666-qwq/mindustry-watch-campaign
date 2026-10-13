@@ -1,0 +1,8 @@
+0.0,2.1028836,1,0,1.0,300,300,0,0,0,0,0,"{}"
+running objectives=[]
+0.0,2.2481332,1,0,1.0,300,300,0,0,0,0,0,"{}"
+running objectives=[]
+Exception in thread "main" java.lang.IllegalStateException: No native adjoining tank-upgrade placement BuildPlan{x=275, y=499, rotation=3, block=tank-refabricator, breaking=false, progress=0.0, initialized=false, config=null}
+	at Atlas034Trial.plan(Atlas034Trial.java:525)
+	at Atlas034Trial.command(Atlas034Trial.java:179)
+	at Atlas034Trial.main(Atlas034Trial.java:127)

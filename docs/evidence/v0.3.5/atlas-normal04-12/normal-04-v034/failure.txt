@@ -1,0 +1,1 @@
+java.lang.IllegalStateException: No native adjoining tank-upgrade placement BuildPlan{x=275, y=499, rotation=3, block=tank-refabricator, breaking=false, progress=0.0, initialized=false, config=null}

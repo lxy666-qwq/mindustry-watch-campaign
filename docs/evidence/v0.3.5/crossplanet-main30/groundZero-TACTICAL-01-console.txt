@@ -1,0 +1,85 @@
+profileScope=shared-progression gateVerified=true starsBefore=0 mainStarsBefore=22
+Native tutorial start: core=129,55 inventory=ItemModule{}
+planned ͭ drill 129,48 with 4 resource-to-core conveyors
+planned Ǧ drill 109,49 with 21 resource-to-core conveyors
+driver: added=true dead=false unit=Unit#272:alpha (1032.0, 439.71494) plans=0 next=BuildPlan{x=129, y=48, rotation=0, block=mechanical-drill, breaking=false, progress=0.0, initialized=false, config=null} tile=air valid=true unlocked=true env=true placeable=true dist=51.8694
+0.0,1.0600837,1,0,1.0,0,0,0,0,0,0,0,0.0,0.0
+tutorial objectives=0/17 flags={} coreStats={} queue=68 gather=ͭ pending=BuildPlan{x=129, y=48, rotation=0, block=mechanical-drill, breaking=false, progress=0.0, initialized=false, config=null}
+60.0,1.9149477,1,0,1.0,50,43,0,30,1,2,3,30.0,0.0
+tutorial objectives=3/17 flags={duoAmmo} coreStats={ͭ=16, Ǧ=13} queue=38 gather=ͭ pending=BuildPlan{x=126, y=71, rotation=0, block=copper-wall, breaking=false, progress=0.0, initialized=false, config=null}
+120.0,2.623602,1,0,1.0,72,60,0,39,4,8,6,120.0,0.0
+tutorial objectives=3/17 flags={scatterAmmo, duoAmmo} coreStats={ͭ=38, Ǧ=35} queue=29 gather=Ǧ pending=BuildPlan{x=133, y=73, rotation=0, block=scatter, breaking=false, progress=0.20270269, initialized=true, config=null}
+180.0,3.3294282,1,0,1.0,63,51,0,46,8,14,13,150.0,0.0
+tutorial objectives=3/17 flags={scatterAmmo, duoAmmo} coreStats={ͭ=60, Ǧ=57} queue=22 gather=null pending=BuildPlan{x=121, y=77, rotation=0, block=duo, breaking=false, progress=0.6571429, initialized=true, config=null}
+240.0,4.031931,1,0,1.0,70,58,0,51,9,16,18,180.0,0.0
+tutorial objectives=3/17 flags={scatterAmmo, duoAmmo} coreStats={ͭ=82, Ǧ=79} queue=17 gather=ͭ pending=BuildPlan{x=137, y=69, rotation=0, block=scatter, breaking=false, progress=0.0, initialized=false, config=null}
+300.0,4.6915007,2,1,1.0,89,15,0,68,14,28,19,390.0,0.0
+tutorial objectives=11/17 flags={scatterAmmo, duoAmmo, spawnOver} coreStats={ͭ=104, Ǧ=102} queue=0 gather=null pending=none
+360.0,5.5295296,2,0,1.0,472,37,0,68,14,28,19,351.0,0.0
+tutorial objectives=14/17 flags={scatterAmmo, duoAmmo, spawnOver} coreStats={ͭ=127, Ǧ=124} queue=0 gather=null pending=none
+420.0,6.374741,3,1,1.0,854,59,0,68,14,28,19,327.0,0.0
+tutorial objectives=17/17 flags={scatterAmmo, duoAmmo, spawnOver} coreStats={ͭ=149, Ǧ=146} queue=0 gather=null pending=none
+480.0,7.1658607,3,0,1.0,1206,81,0,68,15,30,19,323.0,0.0
+tutorial objectives=17/17 flags={scatterAmmo, duoAmmo, spawnOver} coreStats={ͭ=171, Ǧ=168} queue=0 gather=null pending=none
+540.0,7.809577,4,2,1.0,1505,103,0,68,15,30,19,323.0,0.0
+tutorial objectives=17/17 flags={scatterAmmo, duoAmmo, spawnOver} coreStats={ͭ=193, Ǧ=190} queue=0 gather=null pending=none
+600.0,8.129384,4,0,1.0,1507,125,0,69,16,35,19,325.0,0.0
+tutorial objectives=17/17 flags={scatterAmmo, duoAmmo, spawnOver} coreStats={ͭ=215, Ǧ=212} queue=0 gather=null pending=none
+660.0,8.374411,5,2,1.0,1529,147,0,69,16,35,19,316.0,0.0
+tutorial objectives=17/17 flags={scatterAmmo, duoAmmo, spawnOver} coreStats={ͭ=237, Ǧ=234} queue=0 gather=null pending=none
+720.0,8.635198,5,0,1.0,1522,170,0,69,17,38,19,304.0,0.0
+tutorial objectives=17/17 flags={scatterAmmo, duoAmmo, spawnOver} coreStats={ͭ=260, Ǧ=257} queue=0 gather=null pending=none
+780.0,8.885351,6,3,1.0,1544,192,0,69,17,38,19,304.0,0.0
+tutorial objectives=17/17 flags={scatterAmmo, duoAmmo, spawnOver} coreStats={ͭ=282, Ǧ=279} queue=0 gather=null pending=none
+840.0,9.226428,6,0,1.0,1512,214,0,70,19,44,19,289.0,0.0
+tutorial objectives=17/17 flags={scatterAmmo, duoAmmo, spawnOver} coreStats={ͭ=304, Ǧ=301} queue=0 gather=null pending=none
+900.0,9.479687,7,3,1.0,1534,236,0,70,19,44,19,266.0,0.0
+tutorial objectives=17/17 flags={scatterAmmo, duoAmmo, spawnOver} coreStats={ͭ=326, Ǧ=323} queue=0 gather=null pending=none
+960.0,9.797332,7,0,1.0,1513,258,0,71,21,53,19,298.0,0.0
+tutorial objectives=17/17 flags={scatterAmmo, duoAmmo, spawnOver} coreStats={ͭ=348, Ǧ=345} queue=0 gather=null pending=none
+1020.0,10.081573,8,4,1.0,1535,280,0,71,21,53,19,298.0,0.0
+tutorial objectives=17/17 flags={scatterAmmo, duoAmmo, spawnOver} coreStats={ͭ=370, Ǧ=367} queue=0 gather=null pending=none
+1080.0,10.504534,8,0,1.0,1511,303,0,73,24,61,19,279.0,0.0
+tutorial objectives=17/17 flags={scatterAmmo, duoAmmo, spawnOver} coreStats={ͭ=392, Ǧ=390} queue=0 gather=null pending=none
+1140.0,10.779769,9,3,1.0,1494,325,0,73,25,66,18,234.0,0.0
+tutorial objectives=17/17 flags={scatterAmmo, duoAmmo, spawnOver} coreStats={ͭ=415, Ǧ=412} queue=1 gather=null pending=BuildPlan{x=137, y=77, rotation=0, block=duo, breaking=false, progress=0.2857143, initialized=true, config=null}
+1200.0,11.32458,9,0,0.9646546,1507,347,0,76,29,77,19,289.0,0.0
+tutorial objectives=17/17 flags={scatterAmmo, duoAmmo, spawnOver} coreStats={ͭ=437, Ǧ=434} queue=0 gather=null pending=none
+1256.8833,11.578333,10,0,0.9646546,1402,368,0,78,31,83,19,183.0,0.0
+tutorial objectives=17/17 flags={scatterAmmo, duoAmmo, spawnOver} coreStats={ͭ=458, Ǧ=455} queue=0 gather=null pending=none
+trial=legal-build
+selection=campaign-progression-gates-verified
+mission=groundZero
+mode=TACTICAL
+finished=true
+winner=sharded
+wave=10
+actualSpawnWaves=9
+simSeconds=1256.8833
+wallSeconds=11.579016
+placedBuildings=78
+withdraws=31
+deposits=83
+coreMinimum=0.9646546
+buildingsDestroyed=10
+pendingPlans=0
+codeLocation=file:/local-work/mindustry-star-work/star034-runtime/Mindustry.jar
+CampaignStars.classModifiedAtStart=1791887228434
+WatchMapGenerator.classModifiedAtStart=1791887228434
+profileScope=shared-progression
+gateVerified=true
+starsAfter=1
+mainStarsAfter=23
+branch0RewardAfter=false
+settingsFileExists=true
+waveTimer=true
+objectives=17
+objectiveFlags={scatterAmmo, duoAmmo, spawnOver}
+objectivesCompleted=17
+status=���λ�� 1 / 1 �ǣ������ۼ� 5 / 5
+actualVersion=0.3.4
+assets=local-work/mindustry-star-work/star034-runtime/assets
+mainStarsBefore=22
+modeStarsBefore=0
+endSaveWritten=true
+

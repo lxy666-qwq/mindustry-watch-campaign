@@ -1,0 +1,17 @@
+unit.9544.health saved=769.6452 loaded=null
+unit.9544.identity saved=stell:1 loaded=null
+unit.2528.position saved=2711.3064,3611.1 loaded=null
+unit.9429.cargo saved=copper:0 loaded=null
+unit.9429.identity saved=stell:1 loaded=null
+unit.9429.health saved=844.0 loaded=null
+unit.9586.position saved=2488.2275,3688.2227 loaded=null
+unit.9586.cargo saved=copper:0 loaded=null
+unit.2528.cargo saved=copper:0 loaded=null
+unit.9544.cargo saved=copper:0 loaded=null
+unit.9586.health saved=829.1905 loaded=null
+unit.9429.position saved=2710.2449,3626.9377 loaded=null
+units saved=18 loaded=14
+unit.2528.identity saved=stell:1 loaded=null
+unit.2528.health saved=383.31842 loaded=null
+unit.9544.position saved=2698.7874,3618.2156 loaded=null
+unit.9586.identity saved=stell:1 loaded=null

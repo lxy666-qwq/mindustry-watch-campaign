@@ -1,0 +1,41 @@
+candidate=86,51 nativeValid=false
+tile=86,51 floor=sand-floor block=sand-wall team=derelict
+tile=86,52 floor=sand-floor block=sand-wall team=derelict
+tile=87,51 floor=sand-floor block=sand-wall team=derelict
+tile=87,52 floor=sand-floor block=sand-wall team=derelict
+candidate=88,51 nativeValid=true
+tile=88,51 floor=sand-floor block=air team=derelict
+tile=88,52 floor=sand-floor block=air team=derelict
+tile=89,51 floor=sand-floor block=air team=derelict
+tile=89,52 floor=sand-floor block=air team=derelict
+candidate=90,51 nativeValid=true
+tile=90,51 floor=sand-floor block=air team=derelict
+tile=90,52 floor=sand-floor block=air team=derelict
+tile=91,51 floor=sand-floor block=copper-wall team=sharded
+tile=91,52 floor=sand-floor block=air team=derelict
+candidate=92,51 nativeValid=true
+tile=92,51 floor=sand-floor block=copper-wall team=sharded
+tile=92,52 floor=sand-floor block=air team=derelict
+tile=93,51 floor=sand-floor block=copper-wall team=sharded
+tile=93,52 floor=sand-floor block=air team=derelict
+candidate=94,51 nativeValid=true
+tile=94,51 floor=sand-floor block=copper-wall team=sharded
+tile=94,52 floor=sand-floor block=air team=derelict
+tile=95,51 floor=sand-floor block=copper-wall team=sharded
+tile=95,52 floor=sand-floor block=air team=derelict
+candidate=96,51 nativeValid=true
+tile=96,51 floor=sand-floor block=copper-wall team=sharded
+tile=96,52 floor=sand-floor block=air team=derelict
+tile=97,51 floor=sand-floor block=copper-wall team=sharded
+tile=97,52 floor=sand-floor block=air team=derelict
+candidate=98,51 nativeValid=true
+tile=98,51 floor=sand-floor block=copper-wall team=sharded
+tile=98,52 floor=sand-floor block=air team=derelict
+tile=99,51 floor=sand-floor block=copper-wall team=sharded
+tile=99,52 floor=sand-floor block=air team=derelict
+candidate=100,51 nativeValid=true
+tile=100,51 floor=sand-floor block=copper-wall team=sharded
+tile=100,52 floor=sand-floor block=air team=derelict
+tile=101,51 floor=sand-floor block=air team=derelict
+tile=101,52 floor=sand-floor block=air team=derelict
+readOnly=true; world loaded but zero ticks, no scores or inventory changed by audit

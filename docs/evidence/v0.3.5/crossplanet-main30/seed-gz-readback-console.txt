@@ -1,0 +1,36 @@
+actualVersion=0.3.4
+jar=local-work/mindustry-star-work/star034-runtime/Mindustry.jar
+jarModified=1791887228434
+assets=local-work/mindustry-star-work/star034-runtime/assets
+sourceProfile=local-work/mindustry-star-work/crossplanet034-ui/profile
+endSave=local-work/mindustry-star-work/crossplanet034/groundZero-NORMAL-01/end.msav
+mainStars=21
+totalStars=21
+erekirEarnedMain=18
+onset=3/1/1
+aegis=3/1/1
+lake=3/1/1
+intersect=3/0/0
+groundZero=3/0/0
+frozenForest=0/0/0
+crateredBattleground=0/0/0
+watch1=0/0/0 reward=false unlocked=true
+watch2=0/0/0 reward=false unlocked=false
+watch3=0/0/0 reward=false unlocked=false
+watch4=0/0/0 reward=false unlocked=false
+loadedMission=groundZero
+loadedMode=NORMAL
+finished=true
+earned=3
+coreMinimum=1.0
+objectivesCompleted=17
+objectivesTotal=17
+detachedSector=true
+allBestScoresEqual=true
+worldBaselineCompared=false
+ruleTagsCompared=0
+terrainAndBuildingFieldsCompared=0
+noTicks=true
+noScoreMerging=true
+originalProfileUntouched=true
+readback=passed

@@ -1,0 +1,6 @@
+trial-work\manual-core-probe035\NativeCargoRead035.java:24: 错误: 找不到符号
+        profile.copyContentsTo(out.child("profile"));
+               ^
+  符号:   方法 copyContentsTo(Fi)
+  位置: 类型为Fi的变量 profile
+1 个错误

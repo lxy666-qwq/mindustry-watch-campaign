@@ -1,0 +1,36 @@
+actualVersion=0.3.4
+jar=local-work/mindustry-star-work/star034-runtime/Mindustry.jar
+jarModified=1791887228434
+assets=local-work/mindustry-star-work/star034-runtime/assets
+sourceProfile=local-work/mindustry-star-work/crossplanet034-ui/watch-1-HEROIC-01/profile
+endSave=local-work/mindustry-star-work/crossplanet034-ui/watch-1-HEROIC-01/end.msav
+mainStars=23
+totalStars=27
+erekirEarnedMain=18
+onset=3/1/1
+aegis=3/1/1
+lake=3/1/1
+intersect=3/0/0
+groundZero=3/1/1
+frozenForest=0/0/0
+crateredBattleground=0/0/0
+watch1=3/1/0 reward=false unlocked=true
+watch2=0/0/0 reward=false unlocked=false
+watch3=0/0/0 reward=false unlocked=false
+watch4=0/0/0 reward=false unlocked=false
+loadedMission=watch-1
+loadedMode=HEROIC
+finished=true
+earned=1
+coreMinimum=1.0
+objectivesCompleted=0
+objectivesTotal=0
+detachedSector=true
+allBestScoresEqual=true
+worldBaselineCompared=true
+ruleTagsCompared=148
+terrainAndBuildingFieldsCompared=22736
+noTicks=true
+noScoreMerging=true
+originalProfileUntouched=true
+readback=passed

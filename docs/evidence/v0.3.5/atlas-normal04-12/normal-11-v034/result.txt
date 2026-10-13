@@ -1,0 +1,27 @@
+mission=atlas
+mode=NORMAL
+scope=native tick driver
+gateVerified=true
+finished=true
+winner=malis
+simSeconds=1192.55
+built=394
+commands=584
+deposits=7
+pendingPlans=56
+next=BuildPlan{x=298, y=516, rotation=0, block=plasma-bore, breaking=false, progress=0.0, initialized=false, config=null}
+stars=0
+minimumCore=-0.0025038333
+losses=96
+elapsed=1192.9194
+normalBefore=0
+heroBefore=0
+tacticalBefore=0
+normalAfter=0
+tacticalAfter=0
+earned=0
+runtimeWatchVersion=0.3.4
+objectives=0/0
+flags={}
+status=挑战条件未达成；本次获得 0 / 3 星；本关累计 0 / 5
+classLocation=file:/local-work/mindustry-star-work/star034-runtime/Mindustry.jar

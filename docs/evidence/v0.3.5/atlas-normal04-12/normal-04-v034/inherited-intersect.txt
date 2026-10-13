@@ -1,0 +1,4 @@
+NORMAL=3
+HEROIC=0
+TACTICAL=0
+mainStars=18

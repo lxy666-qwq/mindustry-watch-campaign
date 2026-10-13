@@ -1,0 +1,17 @@
+source=BuildPlan{x=291, y=299, rotation=1, block=plasma-bore, breaking=false, progress=0.0, initialized=false, config=null} target=BuildPlan{x=265, y=340, rotation=1, block=mech-fabricator, breaking=false, progress=0.0, initialized=false, config=null}
+yellow-stone-plates:air:air[290,299] entity=null:derelict reserved=true native=true routeTile=false
+ adjacent producer BuildPlan{x=291, y=299, rotation=1, block=plasma-bore, breaking=false, progress=0.0, initialized=false, config=null} suppliedBy=null
+yellow-stone-plates:air:air[290,300] entity=null:derelict reserved=true native=true routeTile=false
+ adjacent producer BuildPlan{x=291, y=299, rotation=1, block=plasma-bore, breaking=false, progress=0.0, initialized=false, config=null} suppliedBy=null
+yellow-stone-plates:air:air[291,298] entity=null:derelict reserved=false native=true routeTile=true
+ adjacent producer BuildPlan{x=291, y=299, rotation=1, block=plasma-bore, breaking=false, progress=0.0, initialized=false, config=null} suppliedBy=null
+yellow-stone-plates:yellow-stone-wall:ore-wall-beryllium[291,301] entity=null:derelict reserved=false native=false routeTile=false
+ adjacent producer BuildPlan{x=291, y=299, rotation=1, block=plasma-bore, breaking=false, progress=0.0, initialized=false, config=null} suppliedBy=null
+yellow-stone-plates:air:air[292,298] entity=null:derelict reserved=false native=true routeTile=true
+ adjacent producer BuildPlan{x=291, y=299, rotation=1, block=plasma-bore, breaking=false, progress=0.0, initialized=false, config=null} suppliedBy=null
+yellow-stone-plates:yellow-stone-wall:ore-wall-beryllium[292,301] entity=null:derelict reserved=false native=false routeTile=false
+ adjacent producer BuildPlan{x=291, y=299, rotation=1, block=plasma-bore, breaking=false, progress=0.0, initialized=false, config=null} suppliedBy=null
+yellow-stone-plates:air:air[293,299] entity=null:derelict reserved=false native=true routeTile=true
+ adjacent producer BuildPlan{x=291, y=299, rotation=1, block=plasma-bore, breaking=false, progress=0.0, initialized=false, config=null} suppliedBy=null
+yellow-stone-plates:air:air[293,300] entity=null:derelict reserved=false native=true routeTile=true
+ adjacent producer BuildPlan{x=291, y=299, rotation=1, block=plasma-bore, breaking=false, progress=0.0, initialized=false, config=null} suppliedBy=null

@@ -1,0 +1,17 @@
+fixedVersion=0.3.3
+codeLocation=file:/local-work/mindustry-star-work/star033-runtime/Mindustry.jar
+mission=watch-8
+mode=TACTICAL
+loadedEarned=1
+actualModeStars=1
+mainStars=0
+gateClaimed=false
+wave=29
+placed=124
+losses=9
+minimumCore=1.0
+A=43
+B=2
+all168BestScoresUnchanged=true
+noSimulation=true
+noAwardsCreated=true

@@ -1215,7 +1215,7 @@ public class CampaignStarsTests{
         SaveIO.write(file);
         logic.reset();
         SaveIO.load(file);
-        assertEquals("2", state.rules.tags.get("stars.flowVersion"));
+        assertEquals("3", state.rules.tags.get("stars.flowVersion"));
         assertEquals(0, suppliedCount());
         assertTrue(transported(world.build(firstPosition)));
         assertEquals(firstToken, CampaignStars.identity(world.build(firstPosition)));
@@ -1266,7 +1266,7 @@ public class CampaignStarsTests{
         SaveIO.load(file);
         assertEquals(0, suppliedCount());
         assertEquals(1, CampaignStars.stars(SectorPresets.groundZero, Mode.TACTICAL));
-        assertEquals("2", state.rules.tags.get("stars.flowVersion"));
+        assertEquals("3", state.rules.tags.get("stars.flowVersion"));
         var firstBuild = world.build(first);
         Seq<Building> restored = new Seq<>();
         for(int i = 0; i < 16; i++) restored.add(world.tile(firstBuild.tile.x + i, firstBuild.tile.y).build);
@@ -1345,7 +1345,7 @@ public class CampaignStarsTests{
         assertEquals(identity, CampaignStars.identity(world.build(first)));
         assertTrue(transported(world.build(first)), "native output and asset identity survive the old metadata read");
         assertEquals(0, suppliedCount(), "old core-return credit needs new version-two supply evidence");
-        assertEquals("2", state.rules.tags.get("stars.flowVersion"));
+        assertEquals("3", state.rules.tags.get("stars.flowVersion"));
     }
 
     @Test
@@ -1401,6 +1401,216 @@ public class CampaignStarsTests{
             for(var building : buildings) building.update();
             CampaignStars.update();
         }
+    }
+
+    @ParameterizedTest
+    @ValueSource(booleans = {false, true})
+    void manualCoreStockReturningToSameOrOtherCoreHasNoOrigin(boolean otherCore){
+        start(SectorPresets.frozenForest, Mode.TACTICAL);
+        var origin = rectangle(15, 8);
+        int x = origin.x + 2, y = origin.y + 2;
+        var source = at(Blocks.coreShard, x, y, 0);
+        var first = at(Blocks.conveyor, x + 5, y + 2, otherCore ? 0 : 2);
+        var second = at(Blocks.conveyor, x + (otherCore ? 6 : 4), y + 2, otherCore ? 0 : 2);
+        if(otherCore) at(Blocks.coreShard, x + 8, y + 2, 0);
+        else at(Blocks.conveyor, x + 3, y + 2, 2);
+        if(!otherCore){
+            at(Blocks.conveyor, x + 2, y + 2, 2);
+            at(Blocks.conveyor, x + 1, y + 2, 3);
+        }
+        source.items.set(Items.copper, 5);
+        var unit = UnitTypes.alpha.create(state.rules.defaultTeam);
+        InputHandler.takeItems(source, Items.copper, 2, unit);
+        assertEquals(2, unit.stack.amount);
+        InputHandler.transferItemTo(unit, Items.copper, 2, unit.x, unit.y, first);
+        Seq<Building> route = Seq.with(first, second);
+        if(!otherCore) route.add(world.build(x + 3, y + 2)).add(world.build(x + 2, y + 2)).add(world.build(x + 1, y + 2));
+        run(route, 1200);
+        assertEquals(route.size, route.count(this::transported));
+        assertEquals(0, suppliedCount());
+    }
+
+    @Test
+    void manualCoreStockCannotBeLaunderedThroughDetachedStorage(){
+        start(SectorPresets.frozenForest, Mode.TACTICAL);
+        var origin = rectangle(17, 8);
+        var source = at(Blocks.coreShard, origin.x + 2, origin.y + 2, 0);
+        var storage = at(Blocks.container, origin.x + 8, origin.y + 5, 0);
+        var first = at(Blocks.conveyor, origin.x + 9, origin.y + 2, 0);
+        var second = at(Blocks.conveyor, origin.x + 10, origin.y + 2, 0);
+        at(Blocks.coreShard, origin.x + 12, origin.y + 2, 0);
+        source.items.set(Items.copper, 3);
+        var unit = UnitTypes.alpha.create(state.rules.defaultTeam);
+        InputHandler.takeItems(source, Items.copper, 1, unit);
+        InputHandler.transferItemTo(unit, Items.copper, 1, unit.x, unit.y, storage);
+        InputHandler.takeItems(storage, Items.copper, 1, unit);
+        InputHandler.transferItemTo(unit, Items.copper, 1, unit.x, unit.y, first);
+        run(Seq.with(first, second), 900);
+        assertEquals(2, Seq.with(first, second).count(this::transported));
+        assertEquals(0, suppliedCount());
+    }
+
+    @Test
+    void manualWithdrawnActualMineOutputRetainsItsOrigin(){
+        start(SectorPresets.frozenForest, Mode.TACTICAL);
+        var origin = rectangle(14, 7);
+        var drill = at(Blocks.mechanicalDrill, origin.x, origin.y + 4, 0);
+        mine(drill);
+        var first = at(Blocks.conveyor, origin.x + 5, origin.y + 2, 0);
+        var second = at(Blocks.conveyor, origin.x + 6, origin.y + 2, 0);
+        at(Blocks.coreShard, origin.x + 8, origin.y + 2, 0);
+        var unit = UnitTypes.alpha.create(state.rules.defaultTeam);
+        InputHandler.takeItems(drill, Items.copper, 1, unit);
+        assertEquals(1, unit.stack.amount);
+        InputHandler.transferItemTo(unit, Items.copper, 1, unit.x, unit.y, first);
+        run(Seq.with(first, second), 900);
+        assertEquals(2, suppliedCount());
+    }
+
+    @Test
+    void manualCoreStockToActualAmmoStillSuppliesTheNewRoute(){
+        start(SectorPresets.frozenForest, Mode.TACTICAL);
+        var origin = rectangle(14, 7);
+        var source = at(Blocks.coreShard, origin.x, origin.y + 2, 0);
+        var first = at(Blocks.conveyor, origin.x + 5, origin.y + 2, 0);
+        var second = at(Blocks.conveyor, origin.x + 6, origin.y + 2, 0);
+        var turret = (mindustry.world.blocks.defense.turrets.ItemTurret.ItemTurretBuild)at(Blocks.duo, origin.x + 7, origin.y + 2, 0);
+        source.items.set(Items.copper, 3);
+        var unit = UnitTypes.alpha.create(state.rules.defaultTeam);
+        InputHandler.takeItems(source, Items.copper, 1, unit);
+        InputHandler.transferItemTo(unit, Items.copper, 1, unit.x, unit.y, first);
+        run(Seq.with(first, second), 900);
+        assertTrue(turret.totalAmmo > 0);
+        assertEquals(2, suppliedCount());
+    }
+
+    @Test
+    void manualCoreCoalToActualProductionStillSuppliesTheNewRoute(){
+        start(SectorPresets.frozenForest, Mode.TACTICAL);
+        var origin = rectangle(14, 8);
+        var source = at(Blocks.coreShard, origin.x, origin.y + 2, 0);
+        var first = at(Blocks.conveyor, origin.x + 5, origin.y + 2, 0);
+        var second = at(Blocks.conveyor, origin.x + 6, origin.y + 2, 0);
+        var press = at(Blocks.graphitePress, origin.x + 7, origin.y + 2, 0);
+        source.items.set(Items.coal, 5);
+        var unit = UnitTypes.alpha.create(state.rules.defaultTeam);
+        InputHandler.takeItems(source, Items.coal, 2, unit);
+        InputHandler.transferItemTo(unit, Items.coal, 2, unit.x, unit.y, first);
+        run(Seq.with(first, second, press), 900);
+        assertTrue(press.items.get(Items.graphite) > 0);
+        assertEquals(2, suppliedCount());
+    }
+
+    @Test
+    void partialManualCoreDeliveriesRetainTheirSource(){
+        start(SectorPresets.frozenForest, Mode.TACTICAL);
+        var origin = rectangle(14, 7);
+        var source = at(Blocks.coreShard, origin.x, origin.y + 2, 0);
+        var first = at(Blocks.conveyor, origin.x + 5, origin.y + 2, 0);
+        var second = at(Blocks.conveyor, origin.x + 6, origin.y + 2, 0);
+        at(Blocks.coreShard, origin.x + 8, origin.y + 2, 0);
+        source.items.set(Items.copper, 5);
+        var unit = UnitTypes.alpha.create(state.rules.defaultTeam);
+        InputHandler.takeItems(source, Items.copper, 2, unit);
+        InputHandler.transferItemTo(unit, Items.copper, 1, unit.x, unit.y, first);
+        run(Seq.with(first, second), 900);
+        assertEquals(1, unit.stack.amount);
+        assertEquals(0, suppliedCount());
+        InputHandler.transferItemTo(unit, Items.copper, 1, unit.x, unit.y, first);
+        run(Seq.with(first, second), 900);
+        assertEquals(0, suppliedCount());
+    }
+
+    @Test
+    void clearedUnitCargoAllowsSubsequentFreshMinedInventory(){
+        start(SectorPresets.frozenForest, Mode.TACTICAL);
+        var origin = rectangle(14, 7);
+        var source = at(Blocks.coreShard, origin.x, origin.y + 2, 0);
+        var first = at(Blocks.conveyor, origin.x + 5, origin.y + 2, 0);
+        var second = at(Blocks.conveyor, origin.x + 6, origin.y + 2, 0);
+        at(Blocks.coreShard, origin.x + 8, origin.y + 2, 0);
+        source.items.set(Items.copper, 5);
+        var unit = UnitTypes.alpha.create(state.rules.defaultTeam);
+        InputHandler.takeItems(source, Items.copper, 2, unit);
+        unit.clearItem();
+        unit.addItem(Items.copper, 1);
+        InputHandler.transferItemTo(unit, Items.copper, 1, unit.x, unit.y, first);
+        run(Seq.with(first, second), 900);
+        assertEquals(2, suppliedCount());
+    }
+
+    @Test
+    void aMixedCargoWithNewMinedItemsKeepsItsLegitimateOrigin(){
+        start(SectorPresets.frozenForest, Mode.TACTICAL);
+        var origin = rectangle(14, 7);
+        var source = at(Blocks.coreShard, origin.x, origin.y + 2, 0);
+        var first = at(Blocks.conveyor, origin.x + 5, origin.y + 2, 0);
+        var second = at(Blocks.conveyor, origin.x + 6, origin.y + 2, 0);
+        at(Blocks.coreShard, origin.x + 8, origin.y + 2, 0);
+        source.items.set(Items.copper, 5);
+        var unit = UnitTypes.alpha.create(state.rules.defaultTeam);
+        InputHandler.takeItems(source, Items.copper, 1, unit);
+        unit.addItem(Items.copper, 1);
+        InputHandler.transferItemTo(unit, Items.copper, 2, unit.x, unit.y, first);
+        run(Seq.with(first, second), 900);
+        assertEquals(2, suppliedCount());
+    }
+
+    @Test
+    void savedCarriedCoreStockCannotBecomeFreshInventoryOnLoad(){
+        start(SectorPresets.frozenForest, Mode.TACTICAL);
+        var origin = rectangle(14, 7);
+        var source = at(Blocks.coreShard, origin.x, origin.y + 2, 0);
+        var first = at(Blocks.conveyor, origin.x + 5, origin.y + 2, 0);
+        var second = at(Blocks.conveyor, origin.x + 6, origin.y + 2, 0);
+        at(Blocks.coreShard, origin.x + 8, origin.y + 2, 0);
+        source.items.set(Items.copper, 5);
+        var unit = UnitTypes.alpha.create(state.rules.defaultTeam);
+        unit.set(first); unit.add();
+        InputHandler.takeItems(source, Items.copper, 2, unit);
+        int id = unit.id, firstPosition = first.pos(), secondPosition = second.pos();
+        var file = saveDirectory.child("stars-carried-core-stock.msav");
+        SaveIO.write(file); logic.reset(); SaveIO.load(file);
+        var loaded = Groups.unit.getByID(id);
+        assertNotNull(loaded);
+        assertEquals(2, loaded.stack.amount);
+        first = world.build(firstPosition); second = world.build(secondPosition);
+        InputHandler.transferItemTo(loaded, Items.copper, 2, loaded.x, loaded.y, first);
+        run(Seq.with(first, second), 900);
+        assertEquals(0, suppliedCount());
+    }
+
+    @Test
+    void versionTwoHeldInventoryNeedsANewSourceAfterMigration(){
+        start(SectorPresets.frozenForest, Mode.TACTICAL);
+        var origin = rectangle(14, 7);
+        var source = at(Blocks.coreShard, origin.x, origin.y + 2, 0);
+        var first = at(Blocks.conveyor, origin.x + 5, origin.y + 2, 0);
+        var second = at(Blocks.conveyor, origin.x + 6, origin.y + 2, 0);
+        at(Blocks.coreShard, origin.x + 8, origin.y + 2, 0);
+        source.items.set(Items.copper, 5);
+        var unit = UnitTypes.alpha.create(state.rules.defaultTeam);
+        unit.set(first); unit.add();
+        InputHandler.takeItems(source, Items.copper, 2, unit);
+        //Version two did not persist the player's item provenance.
+        state.rules.tags.keys().toSeq().each(key -> {
+            if(key.startsWith("stars.cargo")) state.rules.tags.remove(key);
+        });
+        state.rules.tags.put("stars.flowVersion", "2");
+        CampaignStars.saveBest(SectorPresets.groundZero, Mode.NORMAL, 3);
+        int id = unit.id, firstPosition = first.pos(), secondPosition = second.pos();
+        var file = saveDirectory.child("stars-version-two-held-stock.msav");
+        SaveIO.write(file); logic.reset(); SaveIO.load(file);
+        var loaded = Groups.unit.getByID(id);
+        assertNotNull(loaded);
+        assertEquals(2, loaded.stack.amount);
+        assertEquals("3", state.rules.tags.get("stars.flowVersion"));
+        assertEquals("2", state.rules.tags.get("stars.cargoAmount." + id));
+        assertEquals(3, CampaignStars.stars(SectorPresets.groundZero, Mode.NORMAL));
+        first = world.build(firstPosition); second = world.build(secondPosition);
+        InputHandler.transferItemTo(loaded, Items.copper, 2, loaded.x, loaded.y, first);
+        run(Seq.with(first, second), 900);
+        assertEquals(0, suppliedCount());
     }
 
     void unitInput(Building recipient, Item item, int amount){

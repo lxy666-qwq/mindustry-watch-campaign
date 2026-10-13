@@ -1,0 +1,62 @@
+limit=238,301,53,76
+wall 284,262 graphite
+wall 283,263 graphite
+wall 290,263 graphite
+wall 283,264 graphite
+wall 291,264 graphite
+wall 283,265 graphite
+wall 292,265 graphite
+wall 292,266 graphite
+wall 293,267 graphite
+vent 288,271
+wall 201,279 beryllium
+wall 202,279 beryllium
+wall 202,280 beryllium
+wall 202,281 beryllium
+vent 277,281
+wall 202,282 beryllium
+wall 201,284 beryllium
+wall 201,285 beryllium
+wall 201,286 beryllium
+wall 201,287 beryllium
+vent 297,294
+wall 204,299 graphite
+wall 298,299 beryllium
+wall 205,300 graphite
+wall 298,300 beryllium
+wall 206,301 graphite
+wall 287,301 beryllium
+wall 288,301 beryllium
+wall 289,301 beryllium
+wall 290,301 beryllium
+wall 291,301 beryllium
+wall 292,301 beryllium
+wall 298,301 beryllium
+wall 207,302 graphite
+wall 297,302 beryllium
+wall 208,304 graphite
+wall 207,305 graphite
+wall 269,309 beryllium
+wall 274,309 beryllium
+wall 270,310 beryllium
+wall 271,310 beryllium
+wall 272,310 beryllium
+wall 273,310 beryllium
+vent 267,315
+wall 262,319 beryllium
+wall 262,320 beryllium
+wall 261,321 beryllium
+wall 261,322 beryllium
+wall 284,322 graphite
+wall 283,323 graphite
+wall 283,324 graphite
+wall 282,325 graphite
+wall 282,326 graphite
+wall 282,327 graphite
+wall 276,341 beryllium
+wall 275,342 beryllium
+vent 282,342
+wall 281,347 graphite
+wall 281,348 graphite
+wall 280,349 graphite
+wall 280,350 graphite

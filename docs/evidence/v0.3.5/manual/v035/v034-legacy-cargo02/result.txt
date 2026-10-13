@@ -1,0 +1,35 @@
+probe=native-player-core-withdraw-manual-conveyor-core-return
+selection=independent-equipment-boundary; campaign gate not claimed
+mission=watch-8
+mode=TACTICAL
+watchVersion=0.3.4
+codeSource=file:/local-work/mindustry-star-work/star034-runtime/Mindustry.jar
+sourceJarModified=1791887228434
+assets=local-work/mindustry-star-work/star034-runtime/assets
+unloaderAllowed=true
+graphiteAllowed=true
+initialCopper=1000
+initialNativeItems=ItemModule{copper:1000,lead:700,metaglass:150,graphite:200,coal:200,titanium:350,thorium:500,silicon:300,plastanium:250,phase-fabric:150,surge-alloy:150}
+endingCopper=877
+minedControl=false
+actualMine=null
+carriedCheckpoint=true
+nativePlaced=26
+expectedLoopPlans=24
+pendingPlans=0
+withdrawals=2940
+deposits=198
+phaseOneTaskA=24
+endingTaskA=24
+endingTaskB=2
+tacticalTaskComplete=true
+hypotheticalScoreOnly=1
+permanentStars=0
+gameOver=false
+minimumCore=1.0
+wave=1
+simSeconds=150.0
+status=核心最低生命 100% · 核心损失 0
+24座曾实际供给核心、弹药塔、消耗冷却液的炮台或产出设施的传送带/物流管及2座胜利前60秒内曾实际产出/发电的加工设施。核心入库只计真实产出或玩家实际投放的来源，核心回流不计。
+新增运输设施 24 / 24 · 新增生产设施 2 / 2
+累计建造 26 / 160

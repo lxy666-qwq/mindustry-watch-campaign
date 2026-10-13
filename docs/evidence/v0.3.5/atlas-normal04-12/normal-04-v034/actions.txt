@@ -1,0 +1,13 @@
+Native Atlas attack campaign, genuine Intersect normal3/main18 continuation. Use the original operating base; build normal factory logistics, tungsten drilling and tank upgrades. No resource/goal/wave/unit/score writes.
+plan turbine-condenser 254,496 r=0
+plan beam-node 257,506 r=0
+plan beam-node 252,506 r=0
+plan beam-node 252,496 r=0
+plan turbine-condenser 286,477 r=0
+plan beam-node 265,495 r=0
+plan beam-node 275,495 r=0
+plan beam-node 284,495 r=0
+plan beam-node 284,485 r=0
+plan beam-node 284,476 r=0
+plan tank-fabricator 275,502 r=3
+plan beam-node 275,500 r=0

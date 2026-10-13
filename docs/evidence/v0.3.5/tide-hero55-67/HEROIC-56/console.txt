@@ -1,0 +1,7 @@
+initial grid: node=86,19 links=[5242899, 5963795] battery=5963795 batteryLinked=true sameGraph=true
+Exception in thread "main" java.lang.IllegalStateException: Native front large copper wall site unavailable: 86
+	at LegalTideTrial.heroicEquipment(LegalTideTrial.java:324)
+	at LegalTideTrial.createTidePlans(LegalTideTrial.java:223)
+	at LegalTideTrial.planTide(LegalTideTrial.java:103)
+	at LegalWatchTrial.main(LegalWatchTrial.java:185)
+	at LegalTideTrial.main(LegalTideTrial.java:79)

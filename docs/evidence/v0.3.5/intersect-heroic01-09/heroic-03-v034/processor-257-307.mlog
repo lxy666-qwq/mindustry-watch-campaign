@@ -1,0 +1,6 @@
+jump 3 equal expDone true
+op greaterThan isWaveDone @waveNumber 1
+jump 4 equal isWaveDone true
+end
+explosion @crux 293 285 7 500 true true true
+set expDone true

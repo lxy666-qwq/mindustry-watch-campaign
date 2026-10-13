@@ -1,0 +1,23 @@
+Actual native initial loadout; no inventory modified by driver
+copper=1000
+lead=700
+metaglass=150
+graphite=200
+sand=0
+coal=200
+titanium=350
+thorium=500
+scrap=0
+silicon=300
+plastanium=250
+phase-fabric=150
+surge-alloy=150
+spore-pod=0
+blast-compound=0
+pyratite=0
+beryllium=0
+tungsten=0
+oxide=0
+carbide=0
+fissile-matter=0
+dormant-cyst=0

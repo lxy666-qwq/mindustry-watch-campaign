@@ -1,0 +1,8 @@
+Fixed v0.3.5 W8 TACTICAL one-case replay.
+Full private profile copy from legal-trial-watch5-normal3/profile; no merging, clearing or injected progress.
+Existing main0 and genuinely earned W1/W5/W8 full-five rewards required before combat.
+This is rewarded direct-map QA, not the normal 100-star menu progression chain.
+Only C helpers change: fixed v035 assertion, source capture paths, native outcome save for every result, provenance assertions.
+Combat construction and supply strategy reuses the previously frozen W8 TACTICAL-1 source unchanged.
+Jar must be first in classpath; no D classes or Gradle.
+No added distinct-mode coverage for replay. All historical evidence stays untouched.

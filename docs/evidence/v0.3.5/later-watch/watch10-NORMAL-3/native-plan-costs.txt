@@ -1,0 +1,11 @@
+laterArtillery=true
+laterShield=true
+bossAim=true
+coalFort=true
+plannedBuildings=133
+copper=1249
+lead=700
+metaglass=102
+graphite=451
+titanium=315
+silicon=274

@@ -1,0 +1,64 @@
+driver: added=true dead=false unit=Unit#289:alpha (575.845, 208.27177) plans=1 next=BuildPlan{x=55, y=53, rotation=0, block=mechanical-drill, breaking=false, progress=0.0, initialized=false, config=null} tile=air valid=true unlocked=true env=true placeable=true dist=256.24908
+0.0,0.9023242,1,0,1.0,1000,700,200,0,0,0,2,60.0,0.0,0,0,0.0,0.0
+60.0,1.343048,1,0,1.0,227,522,153,67,6,19,18,228.0,180.0,0,0,0.0,0.0
+120.0,1.6374437,1,0,1.0,271,566,174,67,6,19,18,228.0,180.0,0,0,0.0,0.0
+180.0,1.9063293,2,2,1.0,315,610,194,67,6,19,18,228.0,180.0,0,0,0.0,0.0
+240.0,2.2424245,3,2,1.0,359,655,215,67,6,19,18,187.0,180.0,0,0,0.0,0.0
+300.0,2.5359056,4,2,1.0,392,699,233,68,6,22,18,194.0,180.0,0,0,0.0,0.0
+driver: added=true dead=false unit=Unit#289:alpha (572.8765, 312.0161) plans=0 next=BuildPlan{x=55, y=53, rotation=0, block=mechanical-drill, breaking=false, progress=1.0, initialized=true, config=null} tile=mechanical-drill valid=false unlocked=true env=true placeable=true dist=173.3823
+360.0,2.7952652,5,0,1.0,774,743,254,69,6,24,18,166.0,180.0,0,0,0.0,0.0
+420.0,3.05552,6,0,1.0,807,788,271,70,7,29,18,191.0,180.0,0,0,0.0,0.0
+480.0,3.3203037,7,0,1.0,814,832,258,72,8,32,18,165.0,180.0,0,0,0.0,0.0
+540.0,3.5928137,8,0,1.0,846,876,294,73,9,38,18,178.0,180.0,0,0,0.0,0.0
+600.0,3.8733795,10,6,1.0,878,921,312,74,9,39,18,147.0,180.0,0,0,0.0,0.0
+660.0,4.1352687,11,4,1.0,851,965,299,77,11,47,18,146.0,180.0,0,0,0.0,0.0
+720.0,4.4095955,12,5,1.0,823,1009,336,78,14,56,18,166.0,180.0,0,0,0.0,0.0
+driver: added=true dead=false unit=Unit#2158:alpha (553.0001, 256.5116) plans=0 next=BuildPlan{x=66, y=49, rotation=0, block=scorch, breaking=false, progress=0.0, initialized=false, config=null} tile=air valid=true unlocked=true env=true placeable=true dist=137.77559
+780.0,4.739166,13,1,0.6288738,605,1054,351,82,20,76,15,148.0,120.0,0,0,0.0,0.0
+driver: added=true dead=false unit=Unit#2158:alpha (547.34393, 268.56317) plans=0 next=BuildPlan{x=66, y=49, rotation=0, block=scorch, breaking=false, progress=0.0, initialized=false, config=null} tile=air valid=true unlocked=true env=true placeable=true dist=124.94334
+781.3333,4.7493124,13,0,0.6288738,605,1054,351,82,20,76,15,123.0,120.0,0,0,0.0,0.0
+trial=legal-build
+selection=actual-campaign-progress; gate verified before loading
+profileScope=shared-actual-progress
+profile=local-work/mindustry-star-work/crossplanet034-ui/profile
+gateVerified=true
+mission=watch-1
+mode=TACTICAL
+finished=true
+winner=sharded
+wave=13
+actualSpawnWaves=12
+simSeconds=781.3333
+wallSeconds=4.876104
+placedBuildings=82
+withdraws=20
+deposits=76
+turretControls=0
+friendlyMonoSurvivors=0
+coreMinimum=0.6288738
+buildingsDestroyed=24
+buildingsDeconstructed=0
+pendingRemovals=0
+pendingPlans=1
+nextPlan=BuildPlan{x=66, y=49, rotation=0, block=scorch, breaking=false, progress=0.0, initialized=false, config=null}
+actualVersion=0.3.4
+codeLocation=file:/local-work/mindustry-star-work/star034-runtime/Mindustry.jar
+assetsSource=local-work/mindustry-star-work/star034-runtime/assets
+CampaignStars.classModifiedAtStart=1791887228434
+WatchMapGenerator.classModifiedAtStart=1791887228434
+waveTimer=true
+objectives=0
+objectiveFlags={}
+modeStarsBefore=0
+missionStarsBefore=4
+mainStarsBefore=23
+branchRewardBefore=false
+modeStarsAfter=1
+starsAfter=5
+mainStarsAfter=23
+branchRewardAfter=true
+frozenForestUnlocked=true
+settingsFile=local-work/mindustry-star-work/crossplanet034-ui/profile/settings.bin
+settingsExists=true
+status=���λ�� 1 / 1 �ǣ������ۼ� 5 / 5
+

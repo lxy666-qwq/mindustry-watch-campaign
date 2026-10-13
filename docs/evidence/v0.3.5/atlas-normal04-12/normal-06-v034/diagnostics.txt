@@ -1,0 +1,57 @@
+seconds=0.0 pilot=278.5,517.5 cargo=铜: 0 onlyDepositCore=true pending=none
+plasma-bore 298,516 eff=0.0 enabled=true items=ItemModule{} power=0.0 produced=0.0 need=0.0
+plasma-bore 298,518 eff=0.0 enabled=true items=ItemModule{} power=0.0 produced=0.0 need=0.0
+plasma-bore 255,520 eff=0.0 enabled=true items=ItemModule{} power=0.0 produced=0.0 need=0.0
+plasma-bore 298,520 eff=0.0 enabled=true items=ItemModule{} power=0.0 produced=0.0 need=0.0
+plasma-bore 300,521 eff=0.0 enabled=true items=ItemModule{} power=0.0 produced=0.0 need=0.0
+plasma-bore 302,521 eff=0.0 enabled=true items=ItemModule{} power=0.0 produced=0.0 need=0.0
+plasma-bore 255,522 eff=0.0 enabled=true items=ItemModule{} power=0.0 produced=0.0 need=0.0
+silicon-arc-furnace 268,522 eff=0.0 enabled=true items=ItemModule{} power=0.0 produced=0.0 need=0.0
+plasma-bore 255,524 eff=0.0 enabled=true items=ItemModule{} power=0.0 produced=0.0 need=0.0
+cliff-crusher 270,537 eff=0.0 enabled=true items=ItemModule{} power=0.0 produced=0.0 need=0.0
+cliff-crusher 272,537 eff=0.0 enabled=true items=ItemModule{} power=0.0 produced=0.0 need=0.0
+cliff-crusher 274,537 eff=0.0 enabled=true items=ItemModule{} power=0.0 produced=0.0 need=0.0
+cliff-crusher 276,537 eff=0.0 enabled=true items=ItemModule{} power=0.0 produced=0.0 need=0.0
+actual supply Building#1884[268,488]:breach water=0.0 ammo=0
+actual supply Building#1905[296,502]:breach water=0.0 ammo=0
+actual supply Building#1948[279,510]:breach water=0.0 ammo=0
+actual supply Building#1962[258,517]:turbine-condenser water=0.0 ammo=0
+actual supply Building#2086[274,533]:turbine-condenser water=0.0 ammo=0
+seconds=0.0 pilot=278.52426,517.44336 cargo=铜: 0 onlyDepositCore=true pending=none
+plasma-bore 298,516 eff=0.0 enabled=true items=ItemModule{} power=0.0 produced=0.0 need=0.0
+plasma-bore 298,518 eff=0.0 enabled=true items=ItemModule{} power=0.0 produced=0.0 need=0.0
+plasma-bore 255,520 eff=0.0 enabled=true items=ItemModule{} power=0.0 produced=0.0 need=0.0
+plasma-bore 298,520 eff=0.0 enabled=true items=ItemModule{} power=0.0 produced=0.0 need=0.0
+plasma-bore 300,521 eff=0.0 enabled=true items=ItemModule{} power=0.0 produced=0.0 need=0.0
+plasma-bore 302,521 eff=0.0 enabled=true items=ItemModule{} power=0.0 produced=0.0 need=0.0
+plasma-bore 255,522 eff=0.0 enabled=true items=ItemModule{} power=0.0 produced=0.0 need=0.0
+silicon-arc-furnace 268,522 eff=0.0 enabled=true items=ItemModule{} power=0.0 produced=0.0 need=0.0
+plasma-bore 255,524 eff=0.0 enabled=true items=ItemModule{} power=0.0 produced=0.0 need=0.0
+cliff-crusher 270,537 eff=0.0 enabled=true items=ItemModule{} power=0.0 produced=0.0 need=0.0
+cliff-crusher 272,537 eff=0.0 enabled=true items=ItemModule{} power=0.0 produced=0.0 need=0.0
+cliff-crusher 274,537 eff=0.0 enabled=true items=ItemModule{} power=0.0 produced=0.0 need=0.0
+cliff-crusher 276,537 eff=0.0 enabled=true items=ItemModule{} power=0.0 produced=0.0 need=0.0
+actual supply Building#1884[268,488]:breach water=0.0 ammo=0
+actual supply Building#1905[296,502]:breach water=0.0 ammo=0
+actual supply Building#1948[279,510]:breach water=0.0 ammo=0
+actual supply Building#1962[258,517]:turbine-condenser water=0.083333336 ammo=0
+actual supply Building#2086[274,533]:turbine-condenser water=0.083333336 ammo=0
+seconds=5.6833334 pilot=297.3674,491.80795 cargo=铜: 0 onlyDepositCore=true pending=BuildPlan{x=254, y=496, rotation=0, block=turbine-condenser, breaking=false, progress=0.0, initialized=false, config=null}
+plasma-bore 298,516 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=6.9333344 need=6.9333344
+plasma-bore 298,518 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=6.9333344 need=6.9333344
+plasma-bore 255,520 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=6.9333344 need=6.9333344
+plasma-bore 298,520 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=6.9333344 need=6.9333344
+plasma-bore 300,521 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=6.9333344 need=6.9333344
+plasma-bore 302,521 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=6.9333344 need=6.9333344
+plasma-bore 255,522 eff=1.0 enabled=true items=ItemModule{graphite:1} power=1.0 produced=6.9333344 need=6.9333344
+silicon-arc-furnace 268,522 eff=1.0 enabled=true items=ItemModule{graphite:1,sand:10,silicon:1} power=1.0 produced=6.9333344 need=6.9333344
+plasma-bore 255,524 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=6.9333344 need=6.9333344
+cliff-crusher 270,537 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=6.9333344 need=6.9333344
+cliff-crusher 272,537 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=6.9333344 need=6.9333344
+cliff-crusher 274,537 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=6.9333344 need=6.9333344
+cliff-crusher 276,537 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=6.9333344 need=6.9333344
+actual supply Building#1884[268,488]:breach water=0.0 ammo=0
+actual supply Building#1905[296,502]:breach water=0.0 ammo=2
+actual supply Building#1948[279,510]:breach water=0.0 ammo=1
+actual supply Building#1962[258,517]:turbine-condenser water=20.0 ammo=0
+actual supply Building#2086[274,533]:turbine-condenser water=20.0 ammo=0

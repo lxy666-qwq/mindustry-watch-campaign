@@ -1,0 +1,6 @@
+import arc.*; import arc.files.*; import arc.mock.*; import mindustry.*; import mindustry.content.*; import mindustry.core.*; import mindustry.net.*; import mindustry.game.*; import mindustry.world.*; import static mindustry.Vars.*;
+public class TideFootprintRead{ public static void main(String[] args){
+ var assets=new Fi(System.getProperty("trial.assets")); Core.app=new MockApplication(); Core.files=new MockFiles(){public Fi internal(String p){return assets.child(p);}}; Core.graphics=new MockGraphics(); Core.audio=new MockAudio(); Core.input=new MockInput(); Core.settings=new Settings(); Core.settings.setDataDirectory(new Fi(args[0])); headless=true;net=new Net(null);Vars.init();Vars.loadSettings();content.createBaseContent();logic=new Logic();netServer=new NetServer();content.init();CampaignStars.loadMission(content.sector("watch-6"),CampaignStars.Mode.HEROIC);
+ for(int x=86;x<=100;x+=2){System.out.println("candidate="+x+",51 nativeValid="+Build.validPlaceIgnoreUnits(Blocks.copperWallLarge,Team.sharded,x,51,0,true,true)); for(int dx=0;dx<2;dx++)for(int dy=0;dy<2;dy++){var t=world.tile(x+dx,51+dy);System.out.println("tile="+t.x+","+t.y+" floor="+t.floor().name+" block="+t.block().name+" team="+t.team());}}
+ System.out.println("readOnly=true; world loaded but zero ticks, no scores or inventory changed by audit");
+}}

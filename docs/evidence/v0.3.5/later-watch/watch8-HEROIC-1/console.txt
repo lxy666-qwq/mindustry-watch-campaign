@@ -1,0 +1,311 @@
+initial grid: node=94,19 links=[5767187, 6488083] battery=6488083 batteryLinked=true sameGraph=true
+driver: added=true dead=false unit=Unit#295:alpha (768.0, 208.31493) plans=1 next=BuildPlan{x=96, y=50, rotation=0, block=duo, breaking=false, progress=0.043714285, initialized=true, config=null} tile=build1 valid=true unlocked=true env=true placeable=true dist=191.68507
+0.0,1.2282977,1,0,1.0,999,700,200,0,0,0,2,60.0,0.0,300,350,0.0,0.0
+driver: added=true dead=false unit=Unit#295:alpha (720.66284, 320.4855) plans=0 next=BuildPlan{x=89, y=40, rotation=0, block=ripple, breaking=false, progress=0.21250015, initialized=true, config=null} tile=build3 valid=true unlocked=true env=true placeable=true dist=8.676436
+60.0,1.6125567,1,0,1.0,118,472,159,71,7,21,11,180.0,0.0,216,159,3118.9614,1.0
+driver: added=true dead=false unit=Unit#295:alpha (719.3344, 307.0516) plans=0 next=BuildPlan{x=89, y=40, rotation=0, block=ripple, breaking=false, progress=0.4958338, initialized=true, config=null} tile=build3 valid=true unlocked=true env=true placeable=true dist=14.881349
+120.0,1.8718574,1,0,1.0,119,494,96,71,11,36,11,180.0,0.0,216,142,4000.0,1.0
+driver: added=true dead=false unit=Unit#295:alpha (717.3967, 287.45966) plans=0 next=BuildPlan{x=89, y=40, rotation=0, block=ripple, breaking=false, progress=0.8074976, initialized=true, config=null} tile=build3 valid=true unlocked=true env=true placeable=true dist=32.984825
+180.0,2.1291044,2,5,1.0,116,516,33,71,15,51,11,180.0,0.0,216,123,4000.0,1.0
+driver: added=true dead=false unit=Unit#295:alpha (716.9539, 282.9817) plans=0 next=BuildPlan{x=72, y=28, rotation=0, block=mechanical-pump, breaking=false, progress=0.0, initialized=false, config=null} tile=air valid=true unlocked=true env=true placeable=true dist=152.79675
+240.0,2.519365,2,0,1.0,116,458,4,81,20,68,12,127.0,0.0,152,111,4000.0,1.9599992
+driver: added=true dead=false unit=Unit#295:alpha (727.7162, 249.02655) plans=0 next=BuildPlan{x=87, y=31, rotation=0, block=steam-generator, breaking=false, progress=0.35619035, initialized=true, config=null} tile=build2 valid=true unlocked=true env=true placeable=true dist=27.87523
+press: items=ItemModule{coal:2} water=15.511464 power=1.0 efficiency=0.0
+water bridge: x=78 link=5242909 water=25.77957
+water bridge: x=80 link=-1 water=25.793535
+water bridge: x=81 link=5439517 water=25.956726
+water bridge: x=83 link=-1 water=25.821053
+water bridge: x=84 link=5636125 water=25.836409
+water bridge: x=86 link=-1 water=25.942083
+300.0,2.8493197,3,0,1.0,119,366,0,101,67,118,12,143.0,0.0,105,11,4000.0,1.9599992
+driver: added=true dead=false unit=Unit#295:alpha (751.3931, 305.5248) plans=0 next=BuildPlan{x=100, y=32, rotation=0, block=steam-generator, breaking=false, progress=0.64761937, initialized=true, config=null} tile=build2 valid=true unlocked=true env=true placeable=true dist=69.570045
+press: items=ItemModule{coal:1} water=26.707922 power=1.0 efficiency=0.0
+water bridge: x=78 link=5242909 water=28.64529
+water bridge: x=80 link=-1 water=28.644844
+water bridge: x=81 link=5439517 water=28.83451
+water bridge: x=83 link=-1 water=28.632278
+water bridge: x=84 link=5636125 water=28.632385
+water bridge: x=86 link=-1 water=28.809782
+360.0,3.1622763,4,0,1.0,118,338,0,113,127,182,12,149.0,0.0,52,11,4000.0,2.8100002
+driver: added=true dead=false unit=Unit#295:alpha (740.8805, 271.4669) plans=0 next=BuildPlan{x=101, y=48, rotation=0, block=mender, breaking=false, progress=0.4567164, initialized=true, config=null} tile=build1 valid=true unlocked=true env=true placeable=true dist=131.0295
+press: items=ItemModule{coal:1} water=43.137863 power=1.0 efficiency=0.0
+water bridge: x=78 link=5242909 water=71.77799
+water bridge: x=80 link=-1 water=71.77923
+water bridge: x=81 link=5439517 water=72.01451
+water bridge: x=83 link=-1 water=71.781235
+water bridge: x=84 link=5636125 water=71.81349
+water bridge: x=86 link=-1 water=72.01739
+420.0,3.4278107,5,0,1.0,114,302,0,115,184,239,12,125.0,0.0,41,11,4000.0,5.8850026
+driver: added=true dead=false unit=Unit#295:alpha (737.9399, 248.99887) plans=0 next=BuildPlan{x=106, y=47, rotation=0, block=mender, breaking=false, progress=0.0, initialized=false, config=null} tile=air valid=true unlocked=true env=true placeable=true dist=168.0551
+press: items=ItemModule{} water=59.846104 power=1.0 efficiency=0.0
+water bridge: x=78 link=5242909 water=99.41731
+water bridge: x=80 link=-1 water=99.42327
+water bridge: x=81 link=5439517 water=99.4986
+water bridge: x=83 link=-1 water=99.42039
+water bridge: x=84 link=5636125 water=99.40912
+water bridge: x=86 link=-1 water=99.49518
+480.0,3.7004147,6,0,1.0,119,277,0,117,249,311,12,159.0,0.0,19,11,4000.0,6.426665
+press: items=ItemModule{} water=59.844032 power=1.0 efficiency=0.0
+water bridge: x=78 link=5242909 water=99.41078
+water bridge: x=80 link=-1 water=99.41054
+water bridge: x=81 link=5439517 water=99.50142
+water bridge: x=83 link=-1 water=99.411255
+water bridge: x=84 link=5636125 water=99.41089
+water bridge: x=86 link=-1 water=99.50365
+540.0,3.9722624,7,0,1.0,138,269,0,118,309,373,12,112.0,0.0,16,11,4000.0,5.26
+press: items=ItemModule{coal:2} water=59.96866 power=1.0 efficiency=0.0
+water bridge: x=78 link=5242909 water=99.34719
+water bridge: x=80 link=-1 water=99.35104
+water bridge: x=81 link=5439517 water=99.44798
+water bridge: x=83 link=-1 water=99.35123
+water bridge: x=84 link=5636125 water=99.3448
+water bridge: x=86 link=-1 water=99.45387
+600.0,4.25293,8,0,1.0,182,291,0,118,368,436,12,130.0,0.0,3,11,4000.0,7.285003
+press: items=ItemModule{coal:2} water=59.972176 power=0.8 efficiency=0.0
+water bridge: x=78 link=5242909 water=99.950485
+water bridge: x=80 link=-1 water=99.95051
+water bridge: x=81 link=5439517 water=99.95087
+water bridge: x=83 link=-1 water=99.95103
+water bridge: x=84 link=5636125 water=99.95158
+water bridge: x=86 link=-1 water=99.95224
+660.0,4.557712,9,3,1.0,217,313,0,118,428,496,12,100.0,0.0,0,11,305.23172,-7.2000036
+press: items=ItemModule{coal:4} water=59.972176 power=0.0 efficiency=0.0
+water bridge: x=78 link=5242909 water=99.950485
+water bridge: x=80 link=-1 water=99.95051
+water bridge: x=81 link=5439517 water=99.95087
+water bridge: x=83 link=-1 water=99.95103
+water bridge: x=84 link=5636125 water=99.95158
+water bridge: x=86 link=-1 water=99.95224
+720.0,4.828607,10,7,1.0,219,335,0,118,488,563,12,138.0,0.0,0,11,0.0,-9.000001
+press: items=ItemModule{coal:4} water=59.972176 power=0.0 efficiency=0.0
+water bridge: x=78 link=5242909 water=99.950485
+water bridge: x=80 link=-1 water=99.95051
+water bridge: x=81 link=5439517 water=99.95087
+water bridge: x=83 link=-1 water=99.95103
+water bridge: x=84 link=5636125 water=99.95158
+water bridge: x=86 link=-1 water=99.95224
+780.0,5.1193624,11,7,1.0,233,358,0,118,546,626,12,127.0,0.0,0,11,0.0,-9.000001
+press: items=ItemModule{coal:4} water=59.972176 power=0.0 efficiency=0.0
+water bridge: x=78 link=5242909 water=99.950485
+water bridge: x=80 link=-1 water=99.95051
+water bridge: x=81 link=5439517 water=99.95087
+water bridge: x=83 link=-1 water=99.95103
+water bridge: x=84 link=5636125 water=99.95158
+water bridge: x=86 link=-1 water=99.95224
+840.0,5.4272804,12,8,1.0,240,380,0,118,605,690,12,134.0,0.0,0,11,0.0,-9.000001
+driver: added=true dead=false unit=Unit#295:alpha (735.5722, 272.74722) plans=0 next=BuildPlan{x=105, y=52, rotation=0, block=titanium-wall-large, breaking=false, progress=0.46218765, initialized=true, config=null} tile=build2 valid=true unlocked=true env=true placeable=true dist=182.86598
+press: items=ItemModule{coal:1} water=59.94974 power=0.65333337 efficiency=0.0
+water bridge: x=78 link=5242909 water=99.69667
+water bridge: x=80 link=-1 water=99.698456
+water bridge: x=81 link=5439517 water=99.73932
+water bridge: x=83 link=-1 water=99.70097
+water bridge: x=84 link=5636125 water=99.70439
+water bridge: x=86 link=-1 water=99.73599
+900.0,5.698375,13,7,1.0,182,402,0,119,661,754,12,146.0,0.0,0,0,4000.0,0.44333345
+driver: added=true dead=false unit=Unit#295:alpha (735.5174, 272.5361) plans=0 next=BuildPlan{x=105, y=52, rotation=0, block=titanium-wall-large, breaking=false, progress=0.46218765, initialized=true, config=null} tile=air valid=true unlocked=true env=true placeable=true dist=183.06851
+press: items=ItemModule{coal:1} water=59.95185 power=1.0 efficiency=0.0
+water bridge: x=78 link=5242909 water=99.56198
+water bridge: x=80 link=-1 water=99.55904
+water bridge: x=81 link=5439517 water=99.63447
+water bridge: x=83 link=-1 water=99.556465
+water bridge: x=84 link=5636125 water=99.54299
+water bridge: x=86 link=-1 water=99.63905
+960.0,5.9895935,14,8,1.0,217,424,0,119,720,814,12,138.0,0.0,0,0,4000.0,5.26
+driver: added=true dead=false unit=Unit#295:alpha (731.5301, 248.40488) plans=0 next=BuildPlan{x=105, y=52, rotation=0, block=titanium-wall-large, breaking=false, progress=0.46218765, initialized=true, config=null} tile=air valid=true unlocked=true env=true placeable=true dist=205.16911
+press: items=ItemModule{} water=59.90705 power=0.65333337 efficiency=0.0
+water bridge: x=78 link=5242909 water=99.4426
+water bridge: x=80 link=-1 water=99.450516
+water bridge: x=81 link=5439517 water=99.52149
+water bridge: x=83 link=-1 water=99.459175
+water bridge: x=84 link=5636125 water=99.46851
+water bridge: x=86 link=-1 water=99.51763
+1020.0,6.272208,15,9,1.0,240,446,0,119,779,877,12,137.0,0.0,0,0,4000.0,2.9516642
+driver: added=true dead=false unit=Unit#295:alpha (736.33746, 274.40656) plans=0 next=BuildPlan{x=105, y=52, rotation=0, block=titanium-wall-large, breaking=false, progress=0.46218765, initialized=true, config=null} tile=air valid=true unlocked=true env=true placeable=true dist=181.07643
+press: items=ItemModule{} water=59.905254 power=0.4 efficiency=0.0
+water bridge: x=78 link=5242909 water=99.836235
+water bridge: x=80 link=-1 water=99.83738
+water bridge: x=81 link=5439517 water=99.85683
+water bridge: x=83 link=-1 water=99.84066
+water bridge: x=84 link=5636125 water=99.84061
+water bridge: x=86 link=-1 water=99.85156
+1080.0,6.5640345,16,12,1.0,266,468,0,119,838,938,12,118.0,0.0,0,0,3923.2002,-0.23999998
+driver: added=true dead=false unit=Unit#295:alpha (749.0701, 274.29285) plans=0 next=BuildPlan{x=105, y=52, rotation=0, block=titanium-wall-large, breaking=false, progress=0.46218765, initialized=true, config=null} tile=air valid=true unlocked=true env=true placeable=true dist=173.903
+press: items=ItemModule{} water=59.911648 power=1.0 efficiency=0.0
+water bridge: x=78 link=5242909 water=99.19775
+water bridge: x=80 link=-1 water=99.208565
+water bridge: x=81 link=5439517 water=99.26299
+water bridge: x=83 link=-1 water=99.20587
+water bridge: x=84 link=5636125 water=99.200195
+water bridge: x=86 link=-1 water=99.27916
+1140.0,6.907824,17,8,1.0,279,491,0,119,898,1002,12,115.0,0.0,0,0,4000.0,10.301671
+driver: added=true dead=false unit=Unit#295:alpha (749.0701, 274.29285) plans=0 next=BuildPlan{x=105, y=52, rotation=0, block=titanium-wall-large, breaking=false, progress=0.46218765, initialized=true, config=null} tile=air valid=true unlocked=true env=true placeable=true dist=173.903
+press: items=ItemModule{} water=59.82961 power=0.4 efficiency=0.0
+water bridge: x=78 link=5242909 water=99.64971
+water bridge: x=80 link=-1 water=99.65052
+water bridge: x=81 link=5439517 water=99.69832
+water bridge: x=83 link=-1 water=99.66792
+water bridge: x=84 link=5636125 water=99.681
+water bridge: x=86 link=-1 water=99.69709
+1200.0,7.1679654,18,16,1.0,295,513,0,119,959,1066,12,124.0,0.0,0,0,3935.6797,-0.8733336
+driver: added=true dead=false unit=Unit#295:alpha (739.4626, 258.94382) plans=0 next=BuildPlan{x=105, y=52, rotation=0, block=titanium-wall-large, breaking=false, progress=0.46218765, initialized=true, config=null} tile=air valid=true unlocked=true env=true placeable=true dist=192.00824
+press: items=ItemModule{} water=59.84447 power=1.0 efficiency=0.0
+water bridge: x=78 link=5242909 water=99.53409
+water bridge: x=80 link=-1 water=99.52924
+water bridge: x=81 link=5439517 water=99.615906
+water bridge: x=83 link=-1 water=99.53339
+water bridge: x=84 link=5636125 water=99.54054
+water bridge: x=86 link=-1 water=99.61848
+1260.0,7.5197353,18,0,1.0,289,535,0,119,1022,1138,12,122.0,0.0,0,0,4000.0,0.48000017
+driver: added=true dead=false unit=Unit#295:alpha (746.68, 268.35056) plans=0 next=BuildPlan{x=105, y=52, rotation=0, block=titanium-wall-large, breaking=false, progress=0.46218765, initialized=true, config=null} tile=air valid=true unlocked=true env=true placeable=true dist=180.19084
+press: items=ItemModule{coal:2} water=59.953476 power=0.65333337 efficiency=0.0
+water bridge: x=78 link=5242909 water=99.40311
+water bridge: x=80 link=-1 water=99.419495
+water bridge: x=81 link=5439517 water=99.47628
+water bridge: x=83 link=-1 water=99.42418
+water bridge: x=84 link=5636125 water=99.43506
+water bridge: x=86 link=-1 water=99.469376
+1320.0,7.792856,19,0,1.0,274,557,0,119,1085,1207,12,153.0,0.0,0,0,4000.0,4.09333
+driver: added=true dead=false unit=Unit#295:alpha (747.3988, 272.79245) plans=0 next=BuildPlan{x=105, y=52, rotation=0, block=titanium-wall-large, breaking=false, progress=0.46218765, initialized=true, config=null} tile=air valid=true unlocked=true env=true placeable=true dist=176.07343
+press: items=ItemModule{coal:2} water=59.949623 power=0.4 efficiency=0.0
+water bridge: x=78 link=5242909 water=99.91333
+water bridge: x=80 link=-1 water=99.9147
+water bridge: x=81 link=5439517 water=99.91962
+water bridge: x=83 link=-1 water=99.913994
+water bridge: x=84 link=5636125 water=99.91692
+water bridge: x=86 link=-1 water=99.92
+1380.0,8.084624,20,0,1.0,300,579,0,119,1143,1267,12,130.0,0.0,0,0,3977.1997,-0.23999998
+driver: added=true dead=false unit=Unit#295:alpha (745.2093, 261.05405) plans=0 next=BuildPlan{x=105, y=52, rotation=0, block=titanium-wall-large, breaking=false, progress=0.46218765, initialized=true, config=null} tile=air valid=true unlocked=true env=true placeable=true dist=187.14546
+press: items=ItemModule{coal:1} water=59.91555 power=0.65333337 efficiency=0.0
+water bridge: x=78 link=5242909 water=99.42537
+water bridge: x=80 link=-1 water=99.41161
+water bridge: x=81 link=5439517 water=99.51589
+water bridge: x=83 link=-1 water=99.39537
+water bridge: x=84 link=5636125 water=99.3853
+water bridge: x=86 link=-1 water=99.515274
+1440.0,8.393732,21,0,1.0,302,601,0,119,1208,1339,12,139.0,0.0,0,0,4000.0,5.9850016
+driver: added=true dead=false unit=Unit#295:alpha (733.8156, 256.02277) plans=0 next=BuildPlan{x=105, y=52, rotation=0, block=titanium-wall-large, breaking=false, progress=0.46218765, initialized=true, config=null} tile=air valid=true unlocked=true env=true placeable=true dist=197.55792
+press: items=ItemModule{coal:1} water=59.937733 power=1.0 efficiency=0.0
+water bridge: x=78 link=5242909 water=99.5887
+water bridge: x=80 link=-1 water=99.586296
+water bridge: x=81 link=5439517 water=99.6544
+water bridge: x=83 link=-1 water=99.5806
+water bridge: x=84 link=5636125 water=99.576645
+water bridge: x=86 link=-1 water=99.65649
+1500.0,8.737803,22,0,1.0,293,623,0,119,1273,1410,12,122.0,0.0,0,0,4000.0,3.2433329
+driver: added=true dead=false unit=Unit#295:alpha (752.98785, 271.18015) plans=0 next=BuildPlan{x=105, y=52, rotation=0, block=titanium-wall-large, breaking=false, progress=0.46218765, initialized=true, config=null} tile=air valid=true unlocked=true env=true placeable=true dist=174.44357
+press: items=ItemModule{} water=59.844643 power=0.65333337 efficiency=0.0
+water bridge: x=78 link=5242909 water=99.56554
+water bridge: x=80 link=-1 water=99.57104
+water bridge: x=81 link=5439517 water=99.62555
+water bridge: x=83 link=-1 water=99.578186
+water bridge: x=84 link=5636125 water=99.58527
+water bridge: x=86 link=-1 water=99.62298
+1560.0,9.032668,23,0,1.0,305,646,0,119,1335,1475,12,119.0,0.0,0,0,4000.0,1.510001
+driver: added=true dead=false unit=Unit#295:alpha (771.0918, 323.76212) plans=0 next=BuildPlan{x=105, y=52, rotation=0, block=titanium-wall-large, breaking=false, progress=0.46218765, initialized=true, config=null} tile=air valid=true unlocked=true env=true placeable=true dist=120.73664
+press: items=ItemModule{coal:2} water=59.96165 power=0.4 efficiency=0.0
+water bridge: x=78 link=5242909 water=99.8922
+water bridge: x=80 link=-1 water=99.89414
+water bridge: x=81 link=5439517 water=99.901886
+water bridge: x=83 link=-1 water=99.894646
+water bridge: x=84 link=5636125 water=99.89575
+water bridge: x=86 link=-1 water=99.903465
+1620.0,9.356021,24,0,1.0,308,668,0,119,1398,1542,12,94.0,0.0,0,0,2641.846,-2.7400033
+driver: added=true dead=false unit=Unit#295:alpha (752.56744, 287.75262) plans=0 next=BuildPlan{x=105, y=52, rotation=0, block=titanium-wall-large, breaking=false, progress=0.46218765, initialized=true, config=null} tile=air valid=true unlocked=true env=true placeable=true dist=160.77711
+press: items=ItemModule{coal:2} water=59.961575 power=0.8 efficiency=0.0
+water bridge: x=78 link=5242909 water=99.60984
+water bridge: x=80 link=-1 water=99.608536
+water bridge: x=81 link=5439517 water=99.67512
+water bridge: x=83 link=-1 water=99.60413
+water bridge: x=84 link=5636125 water=99.59644
+water bridge: x=86 link=-1 water=99.67888
+1680.0,9.649164,25,0,1.0,270,690,0,119,1464,1617,12,121.0,0.0,0,0,2951.6404,-2.8483367
+driver: added=true dead=false unit=Unit#295:alpha (750.16473, 273.86075) plans=0 next=BuildPlan{x=105, y=52, rotation=0, block=titanium-wall-large, breaking=false, progress=0.46218765, initialized=true, config=null} tile=air valid=true unlocked=true env=true placeable=true dist=173.67136
+press: items=ItemModule{coal:1} water=59.94933 power=0.65333337 efficiency=0.0
+water bridge: x=78 link=5242909 water=99.78371
+water bridge: x=80 link=-1 water=99.78673
+water bridge: x=81 link=5439517 water=99.8129
+water bridge: x=83 link=-1 water=99.78945
+water bridge: x=84 link=5636125 water=99.79148
+water bridge: x=86 link=-1 water=99.81052
+1740.0,9.9525795,26,12,1.0,323,704,0,119,1524,1681,12,128.0,0.0,0,0,4000.0,0.75999963
+driver: added=true dead=false unit=Unit#295:alpha (756.5175, 270.5922) plans=0 next=BuildPlan{x=105, y=52, rotation=0, block=titanium-wall-large, breaking=false, progress=0.46218765, initialized=true, config=null} tile=air valid=true unlocked=true env=true placeable=true dist=173.13544
+press: items=ItemModule{coal:1} water=59.952267 power=0.65333337 efficiency=0.0
+water bridge: x=78 link=5242909 water=99.67815
+water bridge: x=80 link=-1 water=99.68316
+water bridge: x=81 link=5439517 water=99.7226
+water bridge: x=83 link=-1 water=99.68926
+water bridge: x=84 link=5636125 water=99.694046
+water bridge: x=86 link=-1 water=99.719925
+1800.0,10.284386,27,13,1.0,261,726,0,121,1588,1753,12,138.0,0.0,0,0,4000.0,0.75999963
+driver: added=true dead=false unit=Unit#295:alpha (742.59735, 248.19711) plans=0 next=BuildPlan{x=105, y=52, rotation=0, block=titanium-wall-large, breaking=false, progress=0.46218765, initialized=true, config=null} tile=air valid=true unlocked=true env=true placeable=true dist=199.49619
+press: items=ItemModule{coal:1} water=59.883255 power=0.4 efficiency=0.0
+water bridge: x=78 link=5242909 water=99.800606
+water bridge: x=80 link=-1 water=99.80173
+water bridge: x=81 link=5439517 water=99.82848
+water bridge: x=83 link=-1 water=99.80288
+water bridge: x=84 link=5636125 water=99.804344
+water bridge: x=86 link=-1 water=99.826515
+1860.0,10.5970745,28,12,1.0,228,748,0,122,1658,1833,12,122.0,0.0,0,0,3994.7195,0.37666687
+driver: added=true dead=false unit=Unit#295:alpha (743.0337, 256.98856) plans=0 next=BuildPlan{x=105, y=52, rotation=0, block=titanium-wall-large, breaking=false, progress=0.46218765, initialized=true, config=null} tile=air valid=true unlocked=true env=true placeable=true dist=191.74704
+press: items=ItemModule{coal:2} water=53.95908 power=0.65333337 efficiency=0.0
+water bridge: x=78 link=5242909 water=40.96309
+water bridge: x=80 link=-1 water=40.98083
+water bridge: x=81 link=5439517 water=41.162502
+water bridge: x=83 link=-1 water=41.004696
+water bridge: x=84 link=5636125 water=41.029037
+water bridge: x=86 link=-1 water=41.150257
+1920.0,10.889943,29,11,0.8682301,117,748,0,126,1721,1903,12,143.0,0.0,0,0,4000.0,1.1266658
+driver: added=true dead=false unit=Unit#295:alpha (745.9395, 297.4911) plans=0 next=BuildPlan{x=97, y=51, rotation=0, block=copper-wall, breaking=false, progress=0.8500001, initialized=true, config=null} tile=air valid=true unlocked=true env=true placeable=true dist=114.52446
+press: items=ItemModule{coal:2} water=51.019123 power=0.8 efficiency=0.0
+water bridge: x=78 link=5242909 water=53.076694
+water bridge: x=80 link=-1 water=53.093246
+water bridge: x=81 link=5439517 water=53.274837
+water bridge: x=83 link=-1 water=53.110336
+water bridge: x=84 link=5636125 water=53.127563
+water bridge: x=86 link=-1 water=53.261192
+1935.9833,10.975857,29,0,0.8682301,84,748,0,127,1738,1921,12,116.0,0.0,0,0,3353.002,-5.2400002
+trial=legal-build
+selection=direct-map-combat-test; campaign gate not claimed
+profileScope=isolated-combat-qa-existing-actual-scores
+profile=local-work/mindustry-star-work/legal-trial-watch5-normal3/profile
+gateVerified=false
+mission=watch-8
+mode=HEROIC
+finished=true
+winner=sharded
+wave=29
+actualSpawnWaves=28
+simSeconds=1935.9833
+wallSeconds=11.020791
+placedBuildings=127
+withdraws=1738
+deposits=1921
+turretControls=0
+friendlyMonoSurvivors=0
+coreMinimum=0.8682301
+buildingsDestroyed=21
+buildingsDeconstructed=0
+pendingRemovals=0
+pendingPlans=3
+nextPlan=BuildPlan{x=97, y=51, rotation=0, block=copper-wall, breaking=false, progress=0.8500001, initialized=true, config=null}
+actualVersion=0.3.3
+codeLocation=file:/local-work/mindustry-star-work/star033-runtime/Mindustry.jar
+assetsSource=local-work/mindustry-star-work/star033-runtime/assets
+CampaignStars.classModifiedAtStart=1791877212532
+WatchMapGenerator.classModifiedAtStart=1791877212532
+waveTimer=true
+objectives=0
+objectiveFlags={}
+modeStarsBefore=0
+missionStarsBefore=3
+mainStarsBefore=0
+branchRewardBefore=false
+modeStarsAfter=1
+starsAfter=4
+mainStarsAfter=0
+branchRewardAfter=false
+frozenForestUnlocked=false
+settingsFile=local-work/mindustry-star-work/legal-trial-watch5-normal3/profile/settings.bin
+settingsExists=true
+status=���λ�� 1 / 1 �ǣ������ۼ� 4 / 5
+

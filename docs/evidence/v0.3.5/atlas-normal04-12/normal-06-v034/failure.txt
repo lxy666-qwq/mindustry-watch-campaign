@@ -1,0 +1,1 @@
+java.lang.IllegalStateException: No placement for impact-drill near 340,457

@@ -1,0 +1,8 @@
+plannedBuildings=111
+copper=1148
+lead=582
+metaglass=102
+graphite=321
+titanium=339
+silicon=209
+plastanium=80

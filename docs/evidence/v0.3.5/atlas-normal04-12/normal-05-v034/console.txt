@@ -1,0 +1,9 @@
+0.0,2.1846585,1,0,1.0,300,300,0,0,0,0,0,"{}"
+running objectives=[]
+0.0,2.483876,1,0,1.0,300,300,0,0,0,0,0,"{}"
+running objectives=[]
+Exception in thread "main" java.lang.IllegalStateException: No placement for impact-drill near 340,457
+	at Atlas034Trial.nearest(Atlas034Trial.java:416)
+	at Atlas034Trial.plan(Atlas034Trial.java:530)
+	at Atlas034Trial.command(Atlas034Trial.java:179)
+	at Atlas034Trial.main(Atlas034Trial.java:127)

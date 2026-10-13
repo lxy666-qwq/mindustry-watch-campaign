@@ -1,6 +1,7 @@
 package mindustry.entities.comp;
 
 import arc.math.*;
+import mindustry.content.CampaignStars;
 import mindustry.annotations.Annotations.*;
 import mindustry.gen.*;
 import mindustry.type.*;
@@ -24,6 +25,7 @@ abstract class ItemsComp implements Posc{
 
     void clearItem(){
         stack.amount = 0;
+        CampaignStars.clearUnitCargo(self());
     }
 
     boolean acceptsItem(Item item){

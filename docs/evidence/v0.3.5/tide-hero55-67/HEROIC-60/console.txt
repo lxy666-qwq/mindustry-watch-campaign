@@ -1,0 +1,402 @@
+initial grid: node=86,19 links=[5242899, 5963795] battery=5963795 batteryLinked=true sameGraph=true
+Tide native plan cost from original block requirements:
+plannedBuildings=134
+copper=1853
+lead=861
+metaglass=148
+graphite=599
+titanium=325
+thorium=80
+silicon=230
+plastanium=80
+phase-fabric=40
+
+driver: added=true dead=false unit=Unit#295:alpha (704.0, 208.01492) plans=1 next=BuildPlan{x=88, y=50, rotation=0, block=duo, breaking=false, progress=0.0, initialized=false, config=null} tile=air valid=true unlocked=true env=true placeable=true dist=191.98508
+0.0,1.2403866,1,0,1.0,1001,700,200,0,0,0,2,60.0,0.0,300,350,0.0,0.0
+driver: added=true dead=false unit=Unit#295:alpha (657.35254, 264.13947) plans=0 next=BuildPlan{x=80, y=35, rotation=0, block=ripple, breaking=false, progress=0.7196651, initialized=true, config=null} tile=build3 valid=true unlocked=true env=true placeable=true dist=23.508875
+60.0,1.6875798,1,0,1.0,164,341,163,82,6,16,6,120.0,0.0,260,307,2677.3875,0.7000004
+driver: added=true dead=false unit=Unit#295:alpha (657.35254, 264.13947) plans=1 next=BuildPlan{x=76, y=43, rotation=0, block=cyclone, breaking=false, progress=0.37901238, initialized=true, config=null} tile=build3 valid=true unlocked=true env=true placeable=true dist=93.87959
+coast gun: ripple at=80,35 ammo=0 health=1.0
+120.0,1.9617058,1,0,1.0,132,418,142,83,10,31,7,120.0,0.0,260,243,4000.0,0.7000004
+driver: added=true dead=false unit=Unit#295:alpha (657.35254, 264.13947) plans=0 next=BuildPlan{x=76, y=43, rotation=0, block=cyclone, breaking=false, progress=0.8928897, initialized=true, config=null} tile=build3 valid=true unlocked=true env=true placeable=true dist=93.87959
+coast gun: ripple at=80,35 ammo=28 health=1.0
+180.0,2.2488837,2,4,1.0,115,494,142,83,16,48,7,120.0,0.0,252,179,4000.0,0.7000004
+driver: added=true dead=false unit=Unit#295:alpha (655.65045, 304.66797) plans=0 next=BuildPlan{x=76, y=54, rotation=0, block=hail, breaking=false, progress=0.6202703, initialized=true, config=null} tile=build1 valid=true unlocked=true env=true placeable=true dist=135.95592
+coast gun: hail at=76,56 ammo=30 health=1.0
+coast gun: ripple at=80,35 ammo=22 health=1.0
+coast gun: cyclone at=76,43 ammo=28 health=1.0
+240.0,2.6123319,2,0,1.0,115,570,124,85,27,72,9,76.0,0.0,252,165,4000.0,0.7000004
+driver: added=true dead=false unit=Unit#295:alpha (662.1413, 307.63986) plans=0 next=BuildPlan{x=82, y=23, rotation=0, block=hail, breaking=false, progress=0.0, initialized=false, config=null} tile=air valid=true unlocked=true env=true placeable=true dist=123.79229
+coast gun: hail at=76,56 ammo=19 health=1.0
+coast gun: hail at=76,54 ammo=20 health=1.0
+coast gun: ripple at=80,35 ammo=18 health=1.0
+coast gun: hail at=84,23 ammo=30 health=1.0
+coast gun: cyclone at=76,43 ammo=28 health=1.0
+300.0,2.9265969,3,0,1.0,114,646,148,87,36,97,11,108.0,0.0,252,165,4000.0,0.7000004
+driver: added=true dead=false unit=Unit#295:alpha (653.6743, 321.6827) plans=0 next=BuildPlan{x=90, y=49, rotation=0, block=salvo, breaking=false, progress=0.2252501, initialized=true, config=null} tile=build2 valid=true unlocked=true env=true placeable=true dist=102.31696
+coast gun: hail at=76,56 ammo=26 health=1.0
+coast gun: hail at=76,54 ammo=29 health=1.0
+coast gun: ripple at=80,35 ammo=28 health=1.0
+coast gun: hail at=84,23 ammo=30 health=1.0
+coast gun: hail at=82,23 ammo=30 health=1.0
+coast gun: cyclone at=76,43 ammo=28 health=1.0
+360.0,3.242541,4,0,1.0,118,722,121,88,46,124,12,94.0,0.0,234,154,4000.0,0.7000004
+driver: added=true dead=false unit=Unit#295:alpha (652.23, 303.74286) plans=0 next=BuildPlan{x=90, y=49, rotation=0, block=salvo, breaking=false, progress=0.726749, initialized=true, config=null} tile=build2 valid=true unlocked=true env=true placeable=true dist=116.88591
+coast gun: hail at=76,56 ammo=16 health=1.0
+coast gun: hail at=76,54 ammo=20 health=1.0
+coast gun: ripple at=80,35 ammo=26 health=1.0
+coast gun: hail at=84,23 ammo=30 health=1.0
+coast gun: hail at=82,23 ammo=30 health=1.0
+coast gun: cyclone at=76,43 ammo=28 health=1.0
+420.0,3.5183501,5,0,1.0,154,799,99,88,50,139,12,87.0,0.0,234,129,4000.0,0.7000004
+driver: added=true dead=false unit=Unit#295:alpha (660.2331, 274.85498) plans=0 next=BuildPlan{x=92, y=48, rotation=0, block=salvo, breaking=false, progress=0.21250008, initialized=true, config=null} tile=build2 valid=true unlocked=true env=true placeable=true dist=138.4361
+coast gun: hail at=76,56 ammo=21 health=1.0
+coast gun: hail at=76,54 ammo=26 health=1.0
+coast gun: ripple at=80,35 ammo=20 health=1.0
+coast gun: hail at=84,23 ammo=30 health=1.0
+coast gun: hail at=82,23 ammo=30 health=1.0
+coast gun: salvo at=90,49 ammo=27 health=1.0
+coast gun: cyclone at=76,43 ammo=24 health=1.0
+480.0,3.8778868,6,0,1.0,158,875,111,89,62,169,13,88.0,0.0,222,105,4000.0,0.7000004
+driver: added=true dead=false unit=Unit#295:alpha (700.23224, 303.61752) plans=0 next=BuildPlan{x=92, y=48, rotation=0, block=salvo, breaking=false, progress=0.6884991, initialized=true, config=null} tile=build2 valid=true unlocked=true env=true placeable=true dist=93.28385
+coast gun: hail at=76,56 ammo=21 health=1.0
+coast gun: hail at=76,54 ammo=27 health=1.0
+coast gun: ripple at=80,35 ammo=14 health=1.0
+coast gun: hail at=84,23 ammo=30 health=1.0
+coast gun: hail at=82,23 ammo=30 health=1.0
+coast gun: salvo at=90,49 ammo=28 health=1.0
+coast gun: cyclone at=76,43 ammo=24 health=1.0
+540.0,4.1712394,7,0,1.0,156,951,93,89,77,203,13,107.0,0.0,210,81,4000.0,0.7000004
+driver: added=true dead=false unit=Unit#295:alpha (680.5605, 306.44763) plans=0 next=BuildPlan{x=92, y=32, rotation=0, block=steam-generator, breaking=false, progress=0.5666667, initialized=true, config=null} tile=build2 valid=true unlocked=true env=true placeable=true dist=75.435
+coast gun: hail at=76,56 ammo=29 health=1.0
+coast gun: hail at=76,54 ammo=18 health=1.0
+coast gun: ripple at=80,35 ammo=12 health=1.0
+coast gun: hail at=84,23 ammo=30 health=1.0
+coast gun: hail at=82,23 ammo=30 health=1.0
+coast gun: salvo at=90,49 ammo=12 health=1.0
+coast gun: salvo at=92,48 ammo=26 health=1.0
+coast gun: cyclone at=76,43 ammo=24 health=1.0
+600.0,4.495382,8,0,1.0,153,930,94,91,86,226,14,99.0,0.0,188,65,4000.0,0.7000004
+native player turret control at 631.81665 target=risso
+native player turret release at 634.43335
+driver: added=true dead=false unit=Unit#1512:alpha (664.695, 330.31534) plans=0 next=BuildPlan{x=94, y=34, rotation=0, block=water-extractor, breaking=false, progress=0.7029739, initialized=true, config=null} tile=build2 valid=true unlocked=true env=true placeable=true dist=106.23915
+coast gun: hail at=76,56 ammo=13 health=1.0
+coast gun: hail at=76,54 ammo=25 health=1.0
+coast gun: ripple at=80,35 ammo=12 health=1.0
+coast gun: hail at=84,23 ammo=30 health=1.0
+coast gun: hail at=82,23 ammo=29 health=1.0
+coast gun: salvo at=90,49 ammo=26 health=1.0
+coast gun: salvo at=92,48 ammo=30 health=1.0
+coast gun: cyclone at=76,43 ammo=13 health=1.0
+660.0,4.933541,9,0,1.0,111,897,45,96,104,262,14,82.0,0.0,167,65,5948.3184,-0.30000004
+driver: added=true dead=false unit=Unit#1512:alpha (666.8727, 316.9857) plans=0 next=BuildPlan{x=97, y=34, rotation=0, block=water-extractor, breaking=false, progress=0.77189296, initialized=true, config=null} tile=build2 valid=true unlocked=true env=true placeable=true dist=120.32297
+coast gun: hail at=76,56 ammo=12 health=1.0
+coast gun: hail at=76,54 ammo=19 health=1.0
+coast gun: ripple at=80,35 ammo=12 health=1.0
+coast gun: hail at=84,23 ammo=30 health=1.0
+coast gun: hail at=82,23 ammo=29 health=1.0
+coast gun: salvo at=90,49 ammo=15 health=1.0
+coast gun: salvo at=92,48 ammo=23 health=1.0
+coast gun: cyclone at=76,43 ammo=29 health=1.0
+720.0,5.2626395,10,0,1.0,110,942,52,97,122,296,14,92.0,0.0,161,65,4911.286,0.7000004
+native player turret control at 759.35 target=risso
+native player turret release at 762.61664
+driver: added=true dead=false unit=Unit#2284:alpha (705.85425, 221.10294) plans=0 next=BuildPlan{x=77, y=29, rotation=0, block=steam-generator, breaking=false, progress=0.72047675, initialized=true, config=null} tile=build2 valid=true unlocked=true env=true placeable=true dist=87.1371
+coast gun: hail at=76,56 ammo=2 health=1.0
+coast gun: hail at=76,54 ammo=10 health=1.0
+coast gun: ripple at=80,35 ammo=8 health=1.0
+coast gun: hail at=84,23 ammo=28 health=1.0
+coast gun: hail at=82,23 ammo=27 health=1.0
+coast gun: salvo at=90,49 ammo=25 health=1.0
+coast gun: salvo at=92,48 ammo=22 health=1.0
+coast gun: cyclone at=76,43 ammo=14 health=0.9625479
+780.0,5.63023,11,5,1.0,134,984,62,122,126,311,14,88.0,0.0,140,65,8472.262,-0.30000004
+driver: added=true dead=false unit=Unit#2284:alpha (659.38873, 329.1551) plans=0 next=BuildPlan{x=85, y=27, rotation=0, block=mender, breaking=false, progress=0.2283582, initialized=true, config=null} tile=build1 valid=true unlocked=true env=true placeable=true dist=115.016945
+coast gun: hail at=76,56 ammo=28 health=1.0
+coast gun: hail at=76,54 ammo=30 health=1.0
+coast gun: ripple at=80,35 ammo=12 health=1.0
+coast gun: hail at=84,23 ammo=28 health=1.0
+coast gun: hail at=82,23 ammo=27 health=1.0
+coast gun: salvo at=90,49 ammo=21 health=1.0
+coast gun: salvo at=92,48 ammo=14 health=1.0
+coast gun: cyclone at=76,43 ammo=14 health=1.0
+840.0,5.9667225,12,7,1.0,118,922,41,130,148,346,14,64.0,0.0,130,65,5121.9688,-4.5
+native player turret control at 886.8 target=risso
+native player turret release at 889.9
+driver: added=true dead=false unit=Unit#6975:alpha (723.6589, 315.6343) plans=0 next=BuildPlan{x=85, y=27, rotation=0, block=mender, breaking=false, progress=0.91343224, initialized=true, config=null} tile=build1 valid=true unlocked=true env=true placeable=true dist=108.78002
+coast gun: hail at=76,56 ammo=6 health=1.0
+coast gun: hail at=76,54 ammo=9 health=1.0
+coast gun: ripple at=80,35 ammo=14 health=1.0
+coast gun: hail at=84,23 ammo=27 health=1.0
+coast gun: hail at=82,23 ammo=25 health=1.0
+coast gun: salvo at=90,49 ammo=15 health=1.0
+coast gun: salvo at=92,48 ammo=14 health=1.0
+coast gun: cyclone at=76,43 ammo=28 health=1.0
+900.0,6.342543,13,6,1.0,92,978,30,130,173,388,14,90.0,0.0,130,65,4586.8994,-4.5
+coast gun: hail at=76,56 ammo=0 health=1.0
+coast gun: hail at=76,54 ammo=0 health=1.0
+coast gun: ripple at=80,35 ammo=8 health=1.0
+coast gun: hail at=84,23 ammo=27 health=1.0
+coast gun: hail at=82,23 ammo=25 health=1.0
+coast gun: salvo at=90,49 ammo=0 health=1.0
+coast gun: salvo at=92,48 ammo=0 health=1.0
+coast gun: cyclone at=76,43 ammo=26 health=1.0
+960.0,6.697827,14,10,1.0,111,1021,70,134,277,498,14,78.0,0.0,0,25,2206.965,-4.1000023
+driver: added=true dead=false unit=Unit#6975:alpha (682.39996, 239.38368) plans=0 next=BuildPlan{x=95, y=49, rotation=0, block=mender, breaking=false, progress=0.91343224, initialized=true, config=null} tile=build1 valid=true unlocked=true env=true placeable=true dist=171.21187
+coast gun: hail at=76,56 ammo=0 health=1.0
+coast gun: hail at=76,54 ammo=0 health=1.0
+coast gun: ripple at=80,35 ammo=0 health=1.0
+coast gun: hail at=84,23 ammo=19 health=0.78450763
+coast gun: hail at=82,23 ammo=19 health=0.7048922
+coast gun: salvo at=90,49 ammo=0 health=1.0
+coast gun: salvo at=92,48 ammo=0 health=0.9676563
+coast gun: cyclone at=76,43 ammo=0 health=1.0
+1020.0,7.148726,15,10,0.9487726,120,1070,27,134,382,618,13,73.0,0.0,0,25,488.76425,2.0194552
+driver: added=true dead=false unit=Unit#6975:alpha (657.6952, 322.78775) plans=0 next=BuildPlan{x=84, y=23, rotation=0, block=hail, breaking=false, progress=0.6202703, initialized=true, config=null} tile=build1 valid=true unlocked=true env=true placeable=true dist=139.523
+coast gun: hail at=76,56 ammo=17 health=1.0
+coast gun: hail at=76,54 ammo=12 health=1.0
+coast gun: ripple at=80,35 ammo=12 health=1.0
+coast gun: hail at=82,23 ammo=12 health=1.0
+coast gun: salvo at=90,49 ammo=30 health=1.0
+coast gun: salvo at=92,48 ammo=30 health=0.8243755
+coast gun: cyclone at=76,43 ammo=27 health=1.0
+1080.0,7.588634,16,13,1.0,113,1137,1,136,450,706,12,62.0,0.0,0,25,4519.5303,-0.033333063
+driver: added=true dead=false unit=Unit#6975:alpha (673.29645, 308.06345) plans=0 next=BuildPlan{x=95, y=49, rotation=0, block=mender, breaking=false, progress=0.2283582, initialized=true, config=null} tile=build1 valid=true unlocked=true env=true placeable=true dist=120.67664
+coast gun: hail at=76,56 ammo=21 health=1.0
+coast gun: hail at=76,54 ammo=14 health=1.0
+coast gun: ripple at=80,35 ammo=20 health=1.0
+coast gun: hail at=82,23 ammo=12 health=1.0
+coast gun: salvo at=90,49 ammo=30 health=1.0
+coast gun: salvo at=92,48 ammo=26 health=0.6518759
+coast gun: cyclone at=76,43 ammo=27 health=1.0
+enemy ship: risso at=43.012478,79.24233 health=280.0 shield=0.0
+enemy ship: risso at=43.005276,82.99495 health=280.0 shield=0.0
+enemy ship: minke at=42.974995,81.34455 health=600.0 shield=0.0
+1140.0,7.9737315,17,10,1.0,119,1207,1,136,527,794,12,57.0,0.0,0,25,4587.944,0.7000004
+native player turret control at 1142.0834 target=risso
+native player turret release at 1143.3167
+native player turret control at 1143.3667 target=risso
+native player turret release at 1146.35
+native player turret control at 1146.4 target=minke
+native player turret release at 1147.1833
+native player turret control at 1147.2333 target=minke
+native player turret release at 1147.4
+native player turret control at 1147.7333 target=minke
+native player turret release at 1148.5333
+native player turret control at 1148.5834 target=minke
+native player turret release at 1149.2
+coast gun: hail at=76,56 ammo=17 health=1.0
+coast gun: hail at=76,54 ammo=14 health=1.0
+coast gun: ripple at=80,35 ammo=30 health=1.0
+coast gun: hail at=84,23 ammo=30 health=1.0
+coast gun: hail at=82,23 ammo=17 health=1.0
+coast gun: salvo at=90,49 ammo=30 health=1.0
+coast gun: salvo at=92,48 ammo=30 health=1.0
+coast gun: cyclone at=76,43 ammo=28 health=1.0
+1200.0,8.3893175,18,15,1.0,142,1248,0,140,628,901,13,78.0,0.0,0,25,1129.4089,0.39999962
+coast gun: hail at=76,56 ammo=25 health=1.0
+coast gun: hail at=76,54 ammo=9 health=1.0
+coast gun: ripple at=80,35 ammo=18 health=1.0
+coast gun: hail at=84,23 ammo=30 health=1.0
+coast gun: hail at=82,23 ammo=17 health=1.0
+coast gun: salvo at=90,49 ammo=30 health=1.0
+coast gun: salvo at=92,48 ammo=30 health=1.0
+coast gun: cyclone at=76,43 ammo=24 health=1.0
+1260.0,8.81056,18,0,1.0,146,1294,0,141,734,1015,13,86.0,0.0,0,25,801.02295,0.39999962
+native player turret control at 1269.3 target=risso
+native player turret release at 1269.5333
+native player turret control at 1269.5834 target=risso
+native player turret release at 1270.0
+native player turret control at 1270.0834 target=risso
+native player turret release at 1270.3334
+native player turret control at 1270.5834 target=risso
+native player turret release at 1270.7333
+native player turret control at 1271.0834 target=risso
+native player turret release at 1272.0667
+native player turret control at 1272.1167 target=risso
+native player turret release at 1272.4
+native player turret control at 1272.6167 target=risso
+native player turret release at 1272.7333
+coast gun: hail at=76,56 ammo=19 health=1.0
+coast gun: hail at=76,54 ammo=20 health=1.0
+coast gun: ripple at=80,35 ammo=30 health=1.0
+coast gun: hail at=84,23 ammo=29 health=1.0
+coast gun: hail at=82,23 ammo=15 health=1.0
+coast gun: salvo at=90,49 ammo=30 health=1.0
+coast gun: salvo at=92,48 ammo=30 health=1.0
+coast gun: cyclone at=76,43 ammo=7 health=1.0
+1320.0,9.255769,19,0,1.0,169,1370,1,142,845,1133,13,63.0,0.0,0,25,544.00696,0.39999962
+coast gun: hail at=76,56 ammo=29 health=1.0
+coast gun: hail at=76,54 ammo=29 health=1.0
+coast gun: ripple at=80,35 ammo=22 health=1.0
+coast gun: hail at=84,23 ammo=29 health=1.0
+coast gun: hail at=82,23 ammo=15 health=1.0
+coast gun: salvo at=90,49 ammo=14 health=1.0
+coast gun: salvo at=92,48 ammo=30 health=1.0
+coast gun: cyclone at=76,43 ammo=24 health=1.0
+1380.0,9.614589,20,0,1.0,194,1416,0,143,946,1243,13,60.0,0.0,0,25,2406.9849,0.03333295
+native player turret control at 1396.9 target=risso
+native player turret release at 1397.0667
+native player turret control at 1397.1167 target=risso
+native player turret release at 1398.6
+native player turret control at 1398.65 target=risso
+native player turret release at 1400.1333
+native player turret control at 1400.1833 target=minke
+native player turret release at 1400.8833
+native player turret control at 1400.9333 target=minke
+native player turret release at 1401.2667
+coast gun: hail at=76,56 ammo=11 health=1.0
+coast gun: hail at=76,54 ammo=12 health=1.0
+coast gun: ripple at=80,35 ammo=8 health=1.0
+coast gun: hail at=84,23 ammo=25 health=1.0
+coast gun: hail at=82,23 ammo=29 health=1.0
+coast gun: salvo at=90,49 ammo=8 health=1.0
+coast gun: salvo at=92,48 ammo=30 health=1.0
+coast gun: cyclone at=76,43 ammo=25 health=1.0
+1440.0,10.057936,21,0,1.0,183,1492,0,144,1043,1350,13,66.0,0.0,0,25,1242.0049,2.4000003
+native player turret control at 1462.4667 target=bryde
+native player turret release at 1463.6833
+native player turret control at 1463.7333 target=bryde
+native player turret release at 1465.2167
+native player turret control at 1465.2667 target=bryde
+native player turret release at 1466.75
+native player turret control at 1466.8 target=bryde
+native player turret release at 1468.2833
+native player turret control at 1468.3334 target=bryde
+native player turret release at 1471.4333
+driver: added=true dead=false unit=Unit#56407:alpha (666.6919, 315.89548) plans=0 next=BuildPlan{x=94, y=47, rotation=0, block=field-bandage, breaking=false, progress=0.0, initialized=false, config=null} tile=air valid=true unlocked=true env=true placeable=true dist=109.93329
+coast gun: hail at=76,54 ammo=8 health=0.617625
+coast gun: ripple at=80,35 ammo=30 health=1.0
+coast gun: hail at=82,23 ammo=22 health=0.15018784
+coast gun: salvo at=90,49 ammo=26 health=0.7372882
+coast gun: salvo at=92,48 ammo=13 health=0.67656326
+coast gun: cyclone at=76,43 ammo=28 health=1.0
+1500.0,10.544923,22,0,0.48323298,117,1466,0,158,1120,1444,11,65.0,0.0,0,25,9.987114,-2.8430793
+native player turret control at 1524.2333 target=risso
+native player turret release at 1525.5667
+native player turret control at 1525.6167 target=risso
+native player turret release at 1526.8
+native player turret control at 1526.85 target=risso
+native player turret release at 1527.3667
+driver: added=true dead=false unit=Unit#58853:alpha (670.0323, 330.12143) plans=0 next=BuildPlan{x=71, y=53, rotation=0, block=pneumatic-drill, breaking=false, progress=0.0, initialized=false, config=null} tile=air valid=true unlocked=true env=true placeable=true dist=138.52994
+coast gun: hail at=76,54 ammo=11 health=1.0
+coast gun: ripple at=80,35 ammo=20 health=1.0
+coast gun: hail at=82,23 ammo=21 health=0.75018775
+coast gun: salvo at=90,49 ammo=14 health=0.73640746
+coast gun: salvo at=92,48 ammo=26 health=1.0
+coast gun: cyclone at=76,43 ammo=12 health=1.0
+1560.0,10.951992,23,0,1.0,101,1526,1,159,1222,1552,11,87.0,0.0,0,25,0.0,-0.88333255
+driver: added=true dead=false unit=Unit#58853:alpha (666.9476, 318.87363) plans=0 next=BuildPlan{x=76, y=56, rotation=0, block=hail, breaking=false, progress=0.8890539, initialized=true, config=null} tile=build1 valid=true unlocked=true env=true placeable=true dist=141.94519
+coast gun: hail at=76,54 ammo=8 health=1.0
+coast gun: ripple at=80,35 ammo=6 health=1.0
+coast gun: hail at=84,23 ammo=7 health=1.0
+coast gun: hail at=82,23 ammo=20 health=1.0
+coast gun: salvo at=90,49 ammo=10 health=0.10646789
+coast gun: salvo at=92,48 ammo=0 health=0.19380239
+coast gun: cyclone at=76,43 ammo=0 health=1.0
+1620.0,11.309424,24,0,1.0,93,1602,0,160,1310,1646,12,33.0,0.0,0,25,0.6999998,-2.0500016
+native player turret control at 1651.75 target=risso
+native player turret release at 1652.75
+native player turret control at 1652.8 target=risso
+native player turret release at 1653.6167
+native player turret control at 1653.6666 target=risso
+native player turret release at 1654.0834
+native player turret control at 1654.1666 target=risso
+native player turret release at 1654.8167
+native player turret control at 1654.8667 target=minke
+native player turret release at 1656.15
+native player turret control at 1656.2 target=minke
+native player turret release at 1656.7667
+driver: added=true dead=false unit=Unit#65908:alpha (659.5568, 327.25836) plans=0 next=BuildPlan{x=79, y=29, rotation=0, block=liquid-router, breaking=false, progress=0.0, initialized=false, config=null} tile=air valid=true unlocked=true env=true placeable=true dist=99.16418
+coast gun: hail at=76,56 ammo=2 health=0.6503838
+coast gun: hail at=76,54 ammo=0 health=1.0
+coast gun: ripple at=80,35 ammo=14 health=1.0
+coast gun: hail at=84,23 ammo=10 health=1.0
+coast gun: hail at=82,23 ammo=17 health=1.0
+coast gun: salvo at=92,48 ammo=12 health=0.19380239
+coast gun: cyclone at=76,43 ammo=24 health=0.95204777
+1677.7333,11.729529,25,0,1.0,107,1645,0,162,1401,1749,12,46.0,0.0,0,25,0.0,-9.413047
+segmentBuiltAtSeconds=943.6667
+observedNativeRemovalsLowerBound=190
+observedNativeDamageReductions=0
+minimumActivePowerStatus=0.0
+minimumStoredWhileTargetActive=0.0
+mode=HEROIC
+actualVersion=0.3.3
+observedNativeBoosterSiliconConsumed=0
+maximumNativeMenderPhaseHeat=0.0
+bandageBuiltAtSeconds=10.583333
+observedNativeBandageGraphiteConsumed=36
+profileScope=isolated-combat-qa-existing-actual-scores
+mainStars=0
+driverClassLocation=file:/local-work/mindustry-star-work/tide033-hero60-classes/
+rulesTags={stars.asset.6094874=22, stars.asset.5898266=19, stars.constructed.74=true, stars.constructed.177=true, stars.asset.6488090=28, stars.asset.4849717=103, stars.bandage.asset.70=1285.6476, stars.constructed.190=true, stars.constructed.217=true, stars.asset.6160412=180, stars.constructed.164=true, stars.bandage.wall.6488115=1103.0757, stars.asset.5767194=18, stars.constructed.138=true, stars.counterKit=true, stars.asset.5505056=164, stars.constructed.151=true, stars.minCore=0.37923518, stars.constructed.230=true, stars.constructed.125=true, stars.constructed.204=true, stars.asset.4784175=124, stars.asset.4980784=108, stars.bandage.wall.6357043=1285.6476, stars.taskBStart=0, stars.constructed.112=true, stars.asset.6815777=138, stars.asset.4980771=133, watch.event.13.lowTide=true, stars.constructed.95=true, stars.asset.5963794=167, stars.constructed.198=true, stars.asset.5373999=92, stars.constructed.82=true, stars.bandage.asset.65=1034.3895, stars.asset.6684704=43, stars.constructed.185=true, stars.constructed.159=true, stars.asset.5636123=147, stars.asset.5111848=95, stars.constructed.172=true, stars.asset.4980792=234, stars.constructed.146=true, stars.asset.6684698=31, stars.constructed.225=true, stars.asset.5111835=225, stars.asset.4718627=224, stars.asset.4980779=157, stars.constructed.212=true, stars.constructed.133=true, stars.asset.4784183=151, stars.constructed.107=true, stars.asset.6029338=21, stars.asset.4718640=122, stars.constructed.120=true, stars.asset.5570590=198, stars.asset.5242928=97, stars.constructed.77=true, stars.asset.5767203=88, stars.constructed.90=true, stars.bandage.asset.73=1086.7701, stars.asset.5242915=156, stars.constructed.193=true, stars.asset.6160415=177, stars.constructed.167=true, stars.constructed.233=true, stars.asset.5767197=82, stars.bandage.wall.6553651=1086.7701, stars.constructed.180=true, stars.bandage.wall.6422579=1151.0056, stars.constructed.154=true, stars.asset.5505059=114, stars.constructed.207=true, stars.constructed.128=true, stars.asset.5046323=55, stars.asset.4980787=54, stars.constructed.141=true, stars.asset.4915235=134, stars.bandage.wall.5832755=513.23346, stars.constructed.220=true, stars.constructed.115=true, stars.asset.5177376=205, stars.constructed.98=true, stars.constructed.102=true, stars.asset.6094885=80, stars.bandage.asset.68=1033.4897, stars.constructed.85=true, stars.asset.6815780=135, stars.asset.6684707=49, stars.constructed.188=true, stars.asset.5242923=111, stars.asset.6291489=173, stars.asset.5242910=206, stars.constructed.175=true, stars.asset.6225946=24, stars.deadline=3117.0, stars.constructed.149=true, stars.constructed.228=true, stars.constructed.162=true, stars.asset.6160410=23, stars.asset.5505067=112, stars.constructed.136=true, stars.asset.6619162=30, stars.asset.5111851=203, stars.constructed.215=true, stars.constructed.123=true, stars.asset.5767219=76, stars.flowVersion=2, stars.constructed.202=true, stars.asset.6094893=230, stars.constructed.110=true, stars.asset.4784160=220, stars.asset.6029341=126, stars.constructed.93=true, stars.constructed.196=true, stars.asset.6160418=170, stars.asset.4587577=153, stars.constructed.80=true, stars.asset.5242931=58, stars.asset.5308445=195, stars.asset.6684702=39, stars.asset.5111859=56, stars.constructed.183=true, stars.constructed.157=true, stars.asset.5636121=223, stars.constructed.170=true, stars.asset.5505075=62, stars.constructed.144=true, stars.constructed.118=true, stars.constructed.223=true, stars.bandage.wall.6094899=1481.7823, stars.asset.5570588=186, stars.constructed.210=true, stars.constructed.131=true, stars.asset.4980790=159, stars.constructed.105=true, stars.asset.5439525=79, stars.constructed.88=true, stars.asset.6357025=172, stars.constructed.75=true, stars.asset.5373979=226, stars.bandage.asset.71=1151.0056, stars.constructed.178=true, stars.rewardRefundBase=0.5, stars.constructed.191=true, stars.asset.6160413=179, stars.constructed.165=true, stars.constructed.139=true, stars.constructed.231=true, stars.asset.5242908=228, stars.constructed.218=true, stars.constructed.152=true, stars.asset.4980759=211, stars.constructed.205=true, stars.constructed.126=true, watch.event.8.navy=true, stars.asset.6029344=165, stars.asset.5832755=77, stars.asset.4849699=142, stars.asset.4980772=132, stars.constructed.113=true, stars.asset.5767209=89, stars.asset.4784163=131, stars.taskAStart=0, stars.constructed.100=true, stars.constructed.96=true, stars.asset.6094883=99, stars.partial=false, stars.bandage.asset.66=1481.7823, stars.asset.5963795=3, stars.constructed.199=true, stars.constructed.83=true, stars.finished=true, stars.asset.6684705=45, stars.asset.6094870=4, stars.asset.4522012=221, stars.asset.4456501=215, stars.constructed.186=true, stars.asset.5373987=91, stars.constructed.226=true, stars.asset.5111836=219, stars.constructed.213=true, stars.asset.5636124=185, stars.constructed.173=true, stars.asset.4849713=141, stars.bandage.wall.6029363=1034.3895, stars.constructed.147=true, stars.asset.6684699=33, stars.constructed.160=true, stars.constructed.134=true, stars.asset.4849700=50, stars.lossBudget=22, stars.assetNext=235, stars.asset.4718628=129, stars.asset.5177395=57, stars.asset.5505052=187, stars.constructed.108=true, stars.asset.6029339=128, stars.asset.4718641=121, stars.constructed.121=true, stars.asset.5439515=222, stars.constructed.200=true, stars.asset.5570591=199, stars.earned=0, stars.constructed.78=true, stars.buildBudget=160, stars.constructed.91=true, stars.preset=watch-6, stars.asset.4587575=148, stars.constructed.194=true, stars.asset.6160416=176, stars.constructed.168=true, stars.asset.6684700=35, stars.constructed.181=true, stars.constructed.234=true, stars.constructed.155=true, stars.asset.4718649=154, stars.asset.6291482=25, stars.constructed.129=true, stars.asset.4980788=229, stars.constructed.208=true, stars.asset.5505047=233, stars.constructed.142=true, stars.constructed.221=true, stars.constructed.116=true, stars.bandage.wall.6291507=1160.3207, stars.constructed.99=true, stars.asset.6029360=163, stars.constructed.103=true, stars.asset.6029334=169, stars.asset.5963798=168, stars.asset.5832732=182, stars.constructed.86=true, stars.bandage.asset.69=1160.3207, stars.asset.6684708=51, stars.asset.5898291=78, stars.constructed.189=true, stars.rewardBuildBase=1.0, stars.bandage.wall.6160435=1095.9347, stars.bandage.wall.6225971=1033.4897, stars.asset.4849716=106, stars.constructed.176=true, stars.asset.5701660=184, stars.constructed.229=true, stars.asset.5111839=144, stars.constructed.163=true, stars.constructed.137=true, stars.constructed.216=true, stars.constructed.150=true, stars.failed=false, stars.asset.5505055=115, stars.asset.4718644=104, stars.constructed.124=true, stars.constructed.203=true, stars.asset.4980783=109, stars.native=false, stars.constructed.111=true, stars.asset.6357018=26, stars.asset.6815776=139, stars.constructed.94=true, stars.bandage.asset.77=513.23346, stars.asset.6750240=140, stars.asset.5570608=202, stars.constructed.197=true, stars.constructed.81=true, stars.asset.6684703=41, stars.constructed.184=true, stars.constructed.158=true, stars.asset.4849711=125, stars.asset.5636122=17, stars.constructed.171=true, stars.constructed.145=true, stars.asset.4718639=123, stars.constructed.224=true, stars.constructed.119=true, stars.asset.5439539=61, stars.asset.5505063=113, stars.asset.5570589=197, stars.constructed.132=true, stars.constructed.211=true, stars.asset.5374003=60, stars.constructed.106=true, stars.asset.5046301=196, stars.asset.5767215=90, stars.constructed.89=true, stars.asset.6357026=171, stars.asset.5898268=181, stars.asset.5832722=166, stars.asset.5308467=59, stars.asset.5242927=110, stars.constructed.76=true, stars.constructed.179=true, stars.asset.4849719=152, stars.bandage.asset.72=1103.0757, stars.constructed.192=true, stars.asset.6160414=178, stars.constructed.166=true, stars.asset.5767196=183, stars.constructed.219=true, stars.asset.5373980=189, stars.asset.6553626=29, stars.constructed.153=true, stars.asset.4915247=96, stars.asset.4718647=150, stars.constructed.127=true, stars.constructed.232=true, stars.asset.5963802=20, stars.constructed.206=true, stars.asset.4653111=149, stars.constructed.140=true, stars.constructed.114=true, stars.asset.6815779=136, stars.constructed.97=true, stars.asset.6422554=27, stars.asset.6750243=137, stars.elapsed=1679.7611, stars.constructed.101=true, stars.bandage.asset.67=1095.9347, stars.constructed.84=true, stars.asset.5308449=85, stars.asset.6684706=47, stars.asset.5242909=194, stars.asset.5308462=52, stars.constructed.187=true, stars.constructed.174=true, stars.asset.5636125=117, stars.asset.5570611=63, stars.asset.4849714=120, stars.asset.5373975=161, stars.constructed.148=true, stars.asset.4915255=231, stars.constructed.227=true, stars.constructed.161=true, stars.asset.5767191=218, watch.event.21.boss=true, stars.constructed.135=true, stars.constructed.109=true, stars.constructed.214=true, stars.asset.5505053=116, stars.asset.4718642=217, stars.constructed.122=true, stars.asset.5767218=74, stars.constructed.201=true, stars.asset.5439516=188, stars.asset.4849695=143, stars.constructed.79=true, stars.asset.6029340=127, stars.constructed.92=true, stars.placed=162, stars.asset.5308444=227, stars.constructed.195=true, stars.asset.6160417=175, stars.constructed.169=true, stars.asset.6684701=37, stars.mode=HEROIC, stars.coreLosses=0, stars.constructed.182=true, stars.asset.6225953=174, stars.constructed.156=true, stars.constructed.235=true, stars.asset.5111845=201, stars.asset.4980789=93, stars.asset.5505074=75, stars.constructed.209=true, stars.constructed.143=true, stars.constructed.222=true, stars.constructed.117=true, stars.asset.5570587=204, stars.constructed.130=true, stars.asset.4784180=105, stars.constructed.104=true, stars.constructed.87=true}
+endingCore.copper=107
+endingCore.lead=1645
+endingCore.metaglass=0
+endingCore.graphite=0
+endingCore.sand=0
+endingCore.coal=0
+endingCore.titanium=25
+endingCore.thorium=0
+endingCore.scrap=0
+endingCore.silicon=0
+endingCore.plastanium=33
+endingCore.phase-fabric=0
+endingCore.surge-alloy=0
+endingCore.spore-pod=0
+endingCore.blast-compound=0
+endingCore.pyratite=0
+endingCore.beryllium=0
+endingCore.tungsten=0
+endingCore.oxide=0
+endingCore.carbide=0
+endingCore.fissile-matter=0
+endingCore.dormant-cyst=0
+nativeEndSave=local-work/mindustry-star-work/qa033-tide/HEROIC-60/end.msav
+
+trial=legal-build
+selection=direct-map-combat-test; campaign gate not claimed
+profileScope=isolated-combat-qa-existing-actual-scores
+profile=local-work/mindustry-star-work/legal-trial-watch5-normal3/profile
+gateVerified=false
+mission=watch-6
+mode=HEROIC
+finished=true
+winner=sharded
+wave=25
+actualSpawnWaves=24
+simSeconds=1677.7333
+wallSeconds=11.7990465
+placedBuildings=162
+withdraws=1401
+deposits=1749
+turretControls=35
+friendlyMonoSurvivors=0
+coreMinimum=0.37923518
+buildingsDestroyed=49
+buildingsDeconstructed=20
+pendingRemovals=0
+pendingPlans=5
+nextPlan=BuildPlan{x=79, y=29, rotation=0, block=liquid-router, breaking=false, progress=0.0, initialized=false, config=null}
+actualVersion=0.3.3
+codeLocation=file:/local-work/mindustry-star-work/star033-runtime/Mindustry.jar
+assetsSource=local-work/mindustry-star-work/star033-runtime/assets
+CampaignStars.classModifiedAtStart=1791877212532
+WatchMapGenerator.classModifiedAtStart=1791877212532
+waveTimer=true
+objectives=0
+objectiveFlags={}
+modeStarsBefore=0
+missionStarsBefore=4
+mainStarsBefore=0
+branchRewardBefore=false
+modeStarsAfter=0
+starsAfter=4
+mainStarsAfter=0
+branchRewardAfter=false
+frozenForestUnlocked=false
+settingsFile=local-work/mindustry-star-work/legal-trial-watch5-normal3/profile/settings.bin
+settingsExists=true
+status=��ս����δ��ɣ����λ�� 0 / 1 �ǣ������ۼ� 4 / 5
+

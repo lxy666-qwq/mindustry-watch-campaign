@@ -171,6 +171,7 @@ public abstract class InputHandler implements InputProcessor, GestureListener{
         if(removed == 0) return;
 
         to.addItem(item, removed);
+        CampaignStars.recordItemPickup(build, to, item, removed);
         for(int j = 0; j < Mathf.clamp(removed / 3, 1, 8); j++){
             Time.run(j * 3f, () -> transferItemEffect(item, build.x, build.y, to));
         }
@@ -255,7 +256,7 @@ public abstract class InputHandler implements InputProcessor, GestureListener{
         }
         if(amount > 0){
             build.handleStack(item, amount, unit);
-            CampaignStars.recordManualItemInput(unit, build, item);
+            CampaignStars.recordManualItemInput(unit, build, item, amount);
         }
     }
 

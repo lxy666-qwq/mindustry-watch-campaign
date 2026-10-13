@@ -1,0 +1,36 @@
+actualVersion=0.3.4
+jar=local-work/mindustry-star-work/star034-runtime/Mindustry.jar
+jarModified=1791887228434
+assets=local-work/mindustry-star-work/star034-runtime/assets
+sourceProfile=local-work/mindustry-star-work/crossplanet034-ui/frozenForest-HEROIC-02/profile
+endSave=local-work/mindustry-star-work/crossplanet034-ui/frozenForest-HEROIC-02/end.msav
+mainStars=30
+totalStars=40
+erekirEarnedMain=18
+onset=3/1/1
+aegis=3/1/1
+lake=3/1/1
+intersect=3/0/0
+groundZero=3/1/1
+frozenForest=3/0/1
+crateredBattleground=3/0/0
+watch1=3/1/1 reward=true unlocked=true
+watch2=3/1/1 reward=true unlocked=true
+watch3=0/0/0 reward=false unlocked=true
+watch4=0/0/0 reward=false unlocked=false
+loadedMission=frozenForest
+loadedMode=HEROIC
+finished=true
+earned=0
+coreMinimum=0.75536424
+objectivesCompleted=8
+objectivesTotal=8
+detachedSector=true
+allBestScoresEqual=true
+worldBaselineCompared=true
+ruleTagsCompared=258
+terrainAndBuildingFieldsCompared=42846
+noTicks=true
+noScoreMerging=true
+originalProfileUntouched=true
+readback=passed

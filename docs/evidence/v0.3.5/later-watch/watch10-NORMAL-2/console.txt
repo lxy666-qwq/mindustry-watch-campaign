@@ -1,0 +1,284 @@
+initial grid: node=94,19 links=[5767187, 6488083] battery=6488083 batteryLinked=true sameGraph=true
+driver: added=true dead=false unit=Unit#295:alpha (768.0, 208.31493) plans=1 next=BuildPlan{x=96, y=50, rotation=0, block=duo, breaking=false, progress=0.043714285, initialized=true, config=null} tile=build1 valid=true unlocked=true env=true placeable=true dist=191.68507
+0.0,1.2415599,1,0,1.0,999,700,200,0,0,0,2,60.0,0.0,300,350,0.0,0.0
+driver: added=true dead=false unit=Unit#295:alpha (720.66284, 320.4855) plans=0 next=BuildPlan{x=103, y=41, rotation=0, block=ripple, breaking=false, progress=0.52133363, initialized=true, config=null} tile=build3 valid=true unlocked=true env=true placeable=true dist=103.610016
+60.0,1.6647626,1,0,1.0,201,442,129,68,8,20,9,180.0,0.0,175,184,0.0,-3.0
+driver: added=true dead=false unit=Unit#295:alpha (718.72516, 300.89355) plans=0 next=BuildPlan{x=103, y=41, rotation=0, block=ripple, breaking=false, progress=0.8074976, initialized=true, config=null} tile=build3 valid=true unlocked=true env=true placeable=true dist=108.708565
+120.0,1.954565,1,0,1.0,202,464,96,68,11,34,9,180.0,0.0,175,167,0.0,-3.0
+driver: added=true dead=false unit=Unit#295:alpha (717.3967, 287.45966) plans=0 next=BuildPlan{x=94, y=41, rotation=0, block=hail, breaking=false, progress=0.7649999, initialized=true, config=null} tile=build1 valid=true unlocked=true env=true placeable=true dist=53.300148
+180.0,2.2227225,2,6,1.0,187,486,34,69,16,50,10,180.0,0.0,175,155,0.0,-3.0
+driver: added=true dead=false unit=Unit#295:alpha (715.1269, 264.5068) plans=0 next=BuildPlan{x=84, y=29, rotation=0, block=bridge-conduit, breaking=false, progress=0.28687498, initialized=true, config=(2, 0)} tile=build1 valid=true unlocked=true env=true placeable=true dist=54.00575
+water bridge: x=78 link=5242909 water=41.42416
+water bridge: x=80 link=-1 water=60.43259
+water bridge: x=81 link=5439517 water=86.889755
+water bridge: x=83 link=-1 water=86.95838
+240.0,2.6503775,2,0,1.0,137,428,1,91,22,69,12,179.0,0.0,91,155,0.0,-2.0400007
+driver: added=true dead=false unit=Unit#295:alpha (715.1269, 264.5068) plans=0 next=BuildPlan{x=86, y=29, rotation=0, block=bridge-conduit, breaking=false, progress=0.28687498, initialized=true, config=null} tile=build1 valid=true unlocked=true env=true placeable=true dist=42.338642
+water bridge: x=78 link=5242909 water=99.95137
+water bridge: x=80 link=-1 water=99.95188
+water bridge: x=81 link=5439517 water=99.95213
+water bridge: x=83 link=-1 water=99.95439
+water bridge: x=84 link=5636125 water=0.0
+300.0,2.9380443,3,0,1.0,181,450,0,92,23,70,12,179.0,0.0,91,155,0.0,-3.0399985
+driver: added=true dead=false unit=Unit#295:alpha (715.1269, 264.5068) plans=0 next=BuildPlan{x=86, y=29, rotation=0, block=bridge-conduit, breaking=false, progress=0.28687498, initialized=true, config=null} tile=build1 valid=true unlocked=true env=true placeable=true dist=42.338642
+water bridge: x=78 link=5242909 water=99.95137
+water bridge: x=80 link=-1 water=99.95188
+water bridge: x=81 link=5439517 water=99.95213
+water bridge: x=83 link=-1 water=99.95439
+water bridge: x=84 link=5636125 water=0.0
+360.0,3.219585,4,5,1.0,225,473,0,92,23,70,12,175.0,0.0,91,155,0.0,-3.0399985
+driver: added=true dead=false unit=Unit#295:alpha (715.1269, 264.5068) plans=0 next=BuildPlan{x=86, y=29, rotation=0, block=bridge-conduit, breaking=false, progress=0.28687498, initialized=true, config=null} tile=build1 valid=true unlocked=true env=true placeable=true dist=42.338642
+water bridge: x=78 link=5242909 water=99.95137
+water bridge: x=80 link=-1 water=99.95188
+water bridge: x=81 link=5439517 water=99.95213
+water bridge: x=83 link=-1 water=99.95439
+water bridge: x=84 link=5636125 water=0.0
+420.0,3.4668362,5,6,1.0,270,495,0,92,24,71,12,175.0,0.0,91,155,0.0,-3.0399985
+driver: added=true dead=false unit=Unit#295:alpha (715.1269, 264.5068) plans=0 next=BuildPlan{x=86, y=29, rotation=0, block=bridge-conduit, breaking=false, progress=0.28687498, initialized=true, config=null} tile=build1 valid=true unlocked=true env=true placeable=true dist=42.338642
+water bridge: x=78 link=5242909 water=99.95137
+water bridge: x=80 link=-1 water=99.95188
+water bridge: x=81 link=5439517 water=99.95213
+water bridge: x=83 link=-1 water=99.95439
+water bridge: x=84 link=5636125 water=0.0
+480.0,3.7004619,6,8,1.0,314,517,0,92,24,71,12,175.0,0.0,91,155,0.0,-3.0399985
+driver: added=true dead=false unit=Unit#295:alpha (715.1269, 264.5068) plans=0 next=BuildPlan{x=86, y=29, rotation=0, block=bridge-conduit, breaking=false, progress=0.28687498, initialized=true, config=null} tile=build1 valid=true unlocked=true env=true placeable=true dist=42.338642
+water bridge: x=78 link=5242909 water=99.95137
+water bridge: x=80 link=-1 water=99.95188
+water bridge: x=81 link=5439517 water=99.95213
+water bridge: x=83 link=-1 water=99.95439
+water bridge: x=84 link=5636125 water=0.0
+540.0,3.9516242,6,0,1.0,358,539,0,92,24,71,12,169.0,0.0,91,155,0.0,-3.0399985
+driver: added=true dead=false unit=Unit#295:alpha (715.1269, 264.5068) plans=0 next=BuildPlan{x=86, y=29, rotation=0, block=bridge-conduit, breaking=false, progress=0.28687498, initialized=true, config=null} tile=build1 valid=true unlocked=true env=true placeable=true dist=42.338642
+water bridge: x=78 link=5242909 water=99.95137
+water bridge: x=80 link=-1 water=99.95188
+water bridge: x=81 link=5439517 water=99.95213
+water bridge: x=83 link=-1 water=99.95439
+water bridge: x=84 link=5636125 water=0.0
+600.0,4.254121,7,0,1.0,402,561,0,92,24,73,12,149.0,0.0,91,155,0.0,-3.0399985
+driver: added=true dead=false unit=Unit#295:alpha (715.1269, 264.5068) plans=0 next=BuildPlan{x=86, y=29, rotation=0, block=bridge-conduit, breaking=false, progress=0.28687498, initialized=true, config=null} tile=build1 valid=true unlocked=true env=true placeable=true dist=42.338642
+water bridge: x=78 link=5242909 water=99.95137
+water bridge: x=80 link=-1 water=99.95188
+water bridge: x=81 link=5439517 water=99.95213
+water bridge: x=83 link=-1 water=99.95439
+water bridge: x=84 link=5636125 water=0.0
+660.0,4.5211186,8,7,1.0,447,583,0,92,24,73,12,149.0,0.0,91,155,0.0,-3.0399985
+driver: added=true dead=false unit=Unit#295:alpha (715.1269, 264.5068) plans=0 next=BuildPlan{x=86, y=29, rotation=0, block=bridge-conduit, breaking=false, progress=0.28687498, initialized=true, config=null} tile=build1 valid=true unlocked=true env=true placeable=true dist=42.338642
+water bridge: x=78 link=5242909 water=99.95137
+water bridge: x=80 link=-1 water=99.95188
+water bridge: x=81 link=5439517 water=99.95213
+water bridge: x=83 link=-1 water=99.95439
+water bridge: x=84 link=5636125 water=0.0
+720.0,4.795147,9,8,1.0,491,605,0,92,24,73,12,143.0,0.0,91,155,0.0,-3.0399985
+driver: added=true dead=false unit=Unit#295:alpha (716.30835, 268.8487) plans=0 next=BuildPlan{x=86, y=29, rotation=0, block=bridge-conduit, breaking=false, progress=0.28687498, initialized=true, config=null} tile=build1 valid=true unlocked=true env=true placeable=true dist=46.467075
+water bridge: x=78 link=5242909 water=99.95137
+water bridge: x=80 link=-1 water=99.95188
+water bridge: x=81 link=5439517 water=99.95213
+water bridge: x=83 link=-1 water=99.95439
+water bridge: x=84 link=5636125 water=0.0
+780.0,5.054142,10,18,1.0,506,628,0,92,26,75,12,153.0,0.0,85,155,0.0,-3.0399985
+driver: added=true dead=false unit=Unit#295:alpha (716.30835, 268.8487) plans=0 next=BuildPlan{x=86, y=29, rotation=0, block=bridge-conduit, breaking=false, progress=0.28687498, initialized=true, config=null} tile=build1 valid=true unlocked=true env=true placeable=true dist=46.467075
+water bridge: x=78 link=5242909 water=99.95137
+water bridge: x=80 link=-1 water=99.95188
+water bridge: x=81 link=5439517 water=99.95213
+water bridge: x=83 link=-1 water=99.95439
+water bridge: x=84 link=5636125 water=0.0
+840.0,5.3247933,10,0,1.0,561,650,0,92,29,81,12,136.0,0.0,85,155,0.0,-3.0399985
+driver: added=true dead=false unit=Unit#295:alpha (716.30835, 268.8487) plans=0 next=BuildPlan{x=86, y=29, rotation=0, block=bridge-conduit, breaking=false, progress=0.28687498, initialized=true, config=null} tile=build1 valid=true unlocked=true env=true placeable=true dist=46.467075
+water bridge: x=78 link=5242909 water=99.95137
+water bridge: x=80 link=-1 water=99.95188
+water bridge: x=81 link=5439517 water=99.95213
+water bridge: x=83 link=-1 water=99.95439
+water bridge: x=84 link=5636125 water=0.0
+900.0,5.635165,11,0,1.0,605,672,0,92,29,81,12,134.0,0.0,85,155,0.0,-3.0399985
+driver: added=true dead=false unit=Unit#295:alpha (716.30835, 268.8487) plans=0 next=BuildPlan{x=86, y=29, rotation=0, block=bridge-conduit, breaking=false, progress=0.28687498, initialized=true, config=null} tile=build1 valid=true unlocked=true env=true placeable=true dist=46.467075
+water bridge: x=78 link=5242909 water=99.95137
+water bridge: x=80 link=-1 water=99.95188
+water bridge: x=81 link=5439517 water=99.95213
+water bridge: x=83 link=-1 water=99.95439
+water bridge: x=84 link=5636125 water=0.0
+960.0,5.9583497,12,5,1.0,649,694,0,92,29,82,12,129.0,0.0,85,155,0.0,-3.0399985
+driver: added=true dead=false unit=Unit#295:alpha (734.5068, 315.02332) plans=0 next=BuildPlan{x=86, y=29, rotation=0, block=bridge-conduit, breaking=false, progress=0.28687498, initialized=true, config=null} tile=build1 valid=true unlocked=true env=true placeable=true dist=95.16171
+water bridge: x=78 link=5242909 water=99.95137
+water bridge: x=80 link=-1 water=99.95188
+water bridge: x=81 link=5439517 water=99.95213
+water bridge: x=83 link=-1 water=99.95439
+water bridge: x=84 link=5636125 water=0.0
+1020.0,6.283757,13,13,1.0,664,716,0,92,30,85,12,116.0,0.0,85,155,0.0,-3.0399985
+driver: added=true dead=false unit=Unit#295:alpha (734.5068, 315.02332) plans=0 next=BuildPlan{x=86, y=29, rotation=0, block=bridge-conduit, breaking=false, progress=0.28687498, initialized=true, config=null} tile=build1 valid=true unlocked=true env=true placeable=true dist=95.16171
+water bridge: x=78 link=5242909 water=99.95137
+water bridge: x=80 link=-1 water=99.95188
+water bridge: x=81 link=5439517 water=99.95213
+water bridge: x=83 link=-1 water=99.95439
+water bridge: x=84 link=5636125 water=0.0
+1080.0,6.5513797,14,14,1.0,689,738,0,92,32,92,12,123.0,0.0,85,155,0.0,-3.0399985
+driver: added=true dead=false unit=Unit#295:alpha (734.5068, 315.02332) plans=0 next=BuildPlan{x=86, y=29, rotation=0, block=bridge-conduit, breaking=false, progress=0.28687498, initialized=true, config=null} tile=build1 valid=true unlocked=true env=true placeable=true dist=95.16171
+water bridge: x=78 link=5242909 water=99.95137
+water bridge: x=80 link=-1 water=99.95188
+water bridge: x=81 link=5439517 water=99.95213
+water bridge: x=83 link=-1 water=99.95439
+water bridge: x=84 link=5636125 water=0.0
+1140.0,6.820465,14,0,1.0,733,761,0,92,33,93,12,118.0,0.0,85,155,0.0,-3.0399985
+driver: added=true dead=false unit=Unit#295:alpha (734.5068, 315.02332) plans=0 next=BuildPlan{x=86, y=29, rotation=0, block=bridge-conduit, breaking=false, progress=0.28687498, initialized=true, config=null} tile=build1 valid=true unlocked=true env=true placeable=true dist=95.16171
+water bridge: x=78 link=5242909 water=99.95137
+water bridge: x=80 link=-1 water=99.95188
+water bridge: x=81 link=5439517 water=99.95213
+water bridge: x=83 link=-1 water=99.95439
+water bridge: x=84 link=5636125 water=0.0
+1200.0,7.105724,15,0,0.9881906,729,783,0,92,36,102,12,131.0,0.0,85,155,0.0,-3.0399985
+driver: added=true dead=false unit=Unit#295:alpha (734.5068, 315.02332) plans=0 next=BuildPlan{x=86, y=29, rotation=0, block=bridge-conduit, breaking=false, progress=0.28687498, initialized=true, config=null} tile=build1 valid=true unlocked=true env=true placeable=true dist=95.16171
+water bridge: x=78 link=5242909 water=99.95137
+water bridge: x=80 link=-1 water=99.95188
+water bridge: x=81 link=5439517 water=99.95213
+water bridge: x=83 link=-1 water=99.95439
+water bridge: x=84 link=5636125 water=0.0
+1260.0,7.3704915,16,7,0.9881906,773,805,0,92,37,104,12,117.0,0.0,85,155,0.0,-3.0399985
+driver: added=true dead=false unit=Unit#295:alpha (734.5068, 315.02332) plans=0 next=BuildPlan{x=86, y=29, rotation=0, block=bridge-conduit, breaking=false, progress=0.28687498, initialized=true, config=null} tile=build1 valid=true unlocked=true env=true placeable=true dist=95.16171
+water bridge: x=78 link=5242909 water=99.95137
+water bridge: x=80 link=-1 water=99.95188
+water bridge: x=81 link=5439517 water=99.95213
+water bridge: x=83 link=-1 water=99.95439
+water bridge: x=84 link=5636125 water=0.0
+1320.0,7.6664515,17,9,0.9881906,787,817,0,92,39,111,12,134.0,0.0,85,155,0.0,-3.0399985
+driver: added=true dead=false unit=Unit#295:alpha (734.5068, 315.02332) plans=0 next=BuildPlan{x=86, y=29, rotation=0, block=bridge-conduit, breaking=false, progress=0.28687498, initialized=true, config=null} tile=build1 valid=true unlocked=true env=true placeable=true dist=95.16171
+water bridge: x=78 link=5242909 water=99.95137
+water bridge: x=80 link=-1 water=99.95188
+water bridge: x=81 link=5439517 water=99.95213
+water bridge: x=83 link=-1 water=99.95439
+water bridge: x=84 link=5636125 water=0.0
+1380.0,7.9348226,18,16,0.9881906,831,839,0,92,40,112,12,132.0,0.0,85,155,0.0,-3.0719986
+driver: added=true dead=false unit=Unit#295:alpha (734.5068, 315.02332) plans=0 next=BuildPlan{x=86, y=29, rotation=0, block=bridge-conduit, breaking=false, progress=0.28687498, initialized=true, config=null} tile=build1 valid=true unlocked=true env=true placeable=true dist=95.16171
+water bridge: x=78 link=5242909 water=99.95137
+water bridge: x=80 link=-1 water=99.95188
+water bridge: x=81 link=5439517 water=99.95213
+water bridge: x=83 link=-1 water=99.95439
+water bridge: x=84 link=5636125 water=0.0
+1440.0,8.234826,18,0,0.9881906,837,861,0,92,43,118,12,135.0,0.0,85,155,0.0,-4.0
+driver: added=true dead=false unit=Unit#295:alpha (734.5068, 315.02332) plans=0 next=BuildPlan{x=86, y=29, rotation=0, block=bridge-conduit, breaking=false, progress=0.28687498, initialized=true, config=null} tile=build1 valid=true unlocked=true env=true placeable=true dist=95.16171
+water bridge: x=78 link=5242909 water=99.95137
+water bridge: x=80 link=-1 water=99.95188
+water bridge: x=81 link=5439517 water=99.95213
+water bridge: x=83 link=-1 water=99.95439
+water bridge: x=84 link=5636125 water=0.0
+1500.0,8.528022,19,0,0.9881906,851,883,0,92,45,124,12,123.0,0.0,85,155,0.0,-4.0
+driver: added=true dead=false unit=Unit#295:alpha (734.5068, 315.02332) plans=0 next=BuildPlan{x=86, y=29, rotation=0, block=bridge-conduit, breaking=false, progress=0.28687498, initialized=true, config=null} tile=build1 valid=true unlocked=true env=true placeable=true dist=95.16171
+water bridge: x=78 link=5242909 water=99.95137
+water bridge: x=80 link=-1 water=99.95188
+water bridge: x=81 link=5439517 water=99.95213
+water bridge: x=83 link=-1 water=99.95439
+water bridge: x=84 link=5636125 water=0.0
+1560.0,8.795389,20,9,0.9881906,896,906,0,92,45,124,12,123.0,0.0,85,155,0.0,-4.0
+driver: added=true dead=false unit=Unit#295:alpha (734.5068, 315.02332) plans=0 next=BuildPlan{x=86, y=29, rotation=0, block=bridge-conduit, breaking=false, progress=0.28687498, initialized=true, config=null} tile=build1 valid=true unlocked=true env=true placeable=true dist=95.16171
+water bridge: x=78 link=5242909 water=99.95137
+water bridge: x=80 link=-1 water=99.95188
+water bridge: x=81 link=5439517 water=99.95213
+water bridge: x=83 link=-1 water=99.95439
+water bridge: x=84 link=5636125 water=0.0
+1620.0,9.103142,21,11,0.9881906,941,898,0,92,48,131,12,120.0,0.0,85,155,0.0,-4.0
+driver: added=true dead=false unit=Unit#295:alpha (734.5068, 315.02332) plans=0 next=BuildPlan{x=86, y=29, rotation=0, block=bridge-conduit, breaking=false, progress=0.28687498, initialized=true, config=null} tile=build1 valid=true unlocked=true env=true placeable=true dist=95.16171
+water bridge: x=78 link=5242909 water=99.95137
+water bridge: x=80 link=-1 water=99.95188
+water bridge: x=81 link=5439517 water=99.95213
+water bridge: x=83 link=-1 water=99.95439
+water bridge: x=84 link=5636125 water=0.0
+1680.0,9.396369,22,23,0.9881906,985,920,0,92,48,131,12,108.0,0.0,85,155,0.0,-3.9840002
+driver: added=true dead=false unit=Unit#295:alpha (734.5068, 315.02332) plans=0 next=BuildPlan{x=86, y=29, rotation=0, block=bridge-conduit, breaking=false, progress=0.28687498, initialized=true, config=null} tile=build1 valid=true unlocked=true env=true placeable=true dist=95.16171
+water bridge: x=78 link=5242909 water=99.95137
+water bridge: x=80 link=-1 water=99.95188
+water bridge: x=81 link=5439517 water=99.95213
+water bridge: x=83 link=-1 water=99.95439
+water bridge: x=84 link=5636125 water=0.0
+1740.0,9.713775,22,0,0.9881906,980,967,0,92,52,141,12,122.0,0.0,85,155,0.0,-3.0399985
+driver: added=true dead=false unit=Unit#295:alpha (734.5068, 315.02332) plans=0 next=BuildPlan{x=86, y=29, rotation=0, block=bridge-conduit, breaking=false, progress=0.28687498, initialized=true, config=null} tile=build1 valid=true unlocked=true env=true placeable=true dist=95.16171
+water bridge: x=78 link=5242909 water=99.95137
+water bridge: x=80 link=-1 water=99.95188
+water bridge: x=81 link=5439517 water=99.95213
+water bridge: x=83 link=-1 water=99.95439
+water bridge: x=84 link=5636125 water=0.0
+1800.0,10.051913,23,0,0.9881906,995,984,0,92,54,148,12,128.0,0.0,85,155,0.0,-3.0399985
+driver: added=true dead=false unit=Unit#295:alpha (734.5068, 315.02332) plans=0 next=BuildPlan{x=86, y=29, rotation=0, block=bridge-conduit, breaking=false, progress=0.28687498, initialized=true, config=null} tile=build1 valid=true unlocked=true env=true placeable=true dist=95.16171
+water bridge: x=78 link=5242909 water=99.95137
+water bridge: x=80 link=-1 water=99.95188
+water bridge: x=81 link=5439517 water=99.95213
+water bridge: x=83 link=-1 water=99.95439
+water bridge: x=84 link=5636125 water=0.0
+1860.0,10.395589,24,13,0.9881906,1039,1006,0,92,55,150,12,125.0,0.0,85,155,0.0,-3.0399985
+driver: added=true dead=false unit=Unit#295:alpha (734.5068, 315.02332) plans=0 next=BuildPlan{x=86, y=29, rotation=0, block=bridge-conduit, breaking=false, progress=0.28687498, initialized=true, config=null} tile=build1 valid=true unlocked=true env=true placeable=true dist=95.16171
+water bridge: x=78 link=5242909 water=99.95137
+water bridge: x=80 link=-1 water=99.95188
+water bridge: x=81 link=5439517 water=99.95213
+water bridge: x=83 link=-1 water=99.95439
+water bridge: x=84 link=5636125 water=0.0
+1920.0,10.700766,25,17,0.9881906,1053,1029,0,92,56,155,12,116.0,0.0,85,155,0.0,-3.0399985
+driver: added=true dead=false unit=Unit#295:alpha (734.5068, 315.02332) plans=0 next=BuildPlan{x=86, y=29, rotation=0, block=bridge-conduit, breaking=false, progress=0.28687498, initialized=true, config=null} tile=build1 valid=true unlocked=true env=true placeable=true dist=95.16171
+water bridge: x=78 link=5242909 water=99.95137
+water bridge: x=80 link=-1 water=99.95188
+water bridge: x=81 link=5439517 water=99.95213
+water bridge: x=83 link=-1 water=99.95439
+water bridge: x=84 link=5636125 water=0.0
+1980.0,10.991036,26,18,0.9881906,1071,1051,0,92,58,160,12,129.0,0.0,85,155,0.0,-3.0399985
+driver: added=true dead=false unit=Unit#295:alpha (734.5068, 315.02332) plans=0 next=BuildPlan{x=86, y=29, rotation=0, block=bridge-conduit, breaking=false, progress=0.28687498, initialized=true, config=null} tile=build1 valid=true unlocked=true env=true placeable=true dist=95.16171
+water bridge: x=78 link=5242909 water=99.95137
+water bridge: x=80 link=-1 water=99.95188
+water bridge: x=81 link=5439517 water=99.95213
+water bridge: x=83 link=-1 water=99.95439
+water bridge: x=84 link=5636125 water=0.0
+2040.0,11.303441,26,0,0.9881906,1085,1073,0,92,59,165,12,130.0,0.0,85,155,0.0,-3.0399985
+native player turret control at 2090.7666 target=scepter
+water bridge: x=78 link=5242909 water=99.95137
+water bridge: x=80 link=-1 water=99.95188
+water bridge: x=81 link=5439517 water=99.95213
+water bridge: x=83 link=-1 water=99.95439
+water bridge: x=84 link=5636125 water=0.0
+2100.0,11.748928,27,1,0.808827,1007,1003,0,92,72,195,2,0.0,0.0,85,155,947.51544,0.9599993
+driver: added=true dead=false unit=Unit#19155:alpha (768.0, 208.27657) plans=0 next=BuildPlan{x=86, y=29, rotation=0, block=bridge-conduit, breaking=false, progress=0.28687498, initialized=true, config=null} tile=build1 valid=true unlocked=true env=true placeable=true dist=83.443405
+water bridge: x=78 link=5242909 water=99.95137
+water bridge: x=80 link=-1 water=99.95188
+water bridge: x=81 link=5439517 water=99.95213
+water bridge: x=83 link=-1 water=99.95439
+water bridge: x=84 link=5636125 water=0.0
+2101.4167,11.77728,27,1,0.0,0,0,0,92,72,195,2,0.0,0.0,0,0,1028.1549,0.9599993
+trial=legal-build
+selection=direct-map-combat-test; campaign gate not claimed
+profileScope=isolated-combat-qa-existing-actual-scores
+profile=local-work/mindustry-star-work/legal-trial-watch5-normal3/profile
+gateVerified=false
+mission=watch-10
+mode=NORMAL
+finished=true
+winner=crux
+wave=27
+actualSpawnWaves=26
+simSeconds=2101.4167
+wallSeconds=11.822772
+placedBuildings=92
+withdraws=72
+deposits=195
+turretControls=1
+friendlyMonoSurvivors=0
+coreMinimum=-0.07162759
+buildingsDestroyed=50
+buildingsDeconstructed=0
+pendingRemovals=0
+pendingPlans=25
+nextPlan=BuildPlan{x=86, y=29, rotation=0, block=bridge-conduit, breaking=false, progress=0.28687498, initialized=true, config=null}
+actualVersion=0.3.3
+codeLocation=file:/local-work/mindustry-star-work/star033-runtime/Mindustry.jar
+assetsSource=local-work/mindustry-star-work/star033-runtime/assets
+CampaignStars.classModifiedAtStart=1791877212532
+WatchMapGenerator.classModifiedAtStart=1791877212532
+waveTimer=true
+objectives=0
+objectiveFlags={}
+modeStarsBefore=0
+missionStarsBefore=0
+mainStarsBefore=0
+branchRewardBefore=false
+modeStarsAfter=0
+starsAfter=0
+mainStarsAfter=0
+branchRewardAfter=false
+frozenForestUnlocked=false
+settingsFile=local-work/mindustry-star-work/legal-trial-watch5-normal3/profile/settings.bin
+settingsExists=true
+status=��ս����δ��ɣ����λ�� 0 / 3 �ǣ������ۼ� 0 / 5
+

@@ -1,0 +1,36 @@
+actualVersion=0.3.4
+jar=local-work/mindustry-star-work/star034-runtime/Mindustry.jar
+jarModified=1791887228434
+assets=local-work/mindustry-star-work/star034-runtime/assets
+sourceProfile=local-work/mindustry-star-work/crossplanet034-ui/watch-2-NORMAL-01/profile
+endSave=local-work/mindustry-star-work/crossplanet034-ui/watch-2-NORMAL-01/end.msav
+mainStars=30
+totalStars=38
+erekirEarnedMain=18
+onset=3/1/1
+aegis=3/1/1
+lake=3/1/1
+intersect=3/0/0
+groundZero=3/1/1
+frozenForest=3/0/1
+crateredBattleground=3/0/0
+watch1=3/1/1 reward=true unlocked=true
+watch2=3/0/0 reward=false unlocked=true
+watch3=0/0/0 reward=false unlocked=true
+watch4=0/0/0 reward=false unlocked=false
+loadedMission=watch-2
+loadedMode=NORMAL
+finished=true
+earned=3
+coreMinimum=1.0
+objectivesCompleted=0
+objectivesTotal=0
+detachedSector=true
+allBestScoresEqual=true
+worldBaselineCompared=true
+ruleTagsCompared=235
+terrainAndBuildingFieldsCompared=23577
+noTicks=true
+noScoreMerging=true
+originalProfileUntouched=true
+readback=passed

@@ -1,0 +1,304 @@
+initial grid: node=86,19 links=[5242899, 5963795] battery=5963795 batteryLinked=true sameGraph=true
+driver: added=true dead=false unit=Unit#295:alpha (704.025, 208.31387) plans=1 next=BuildPlan{x=90, y=50, rotation=0, block=duo, breaking=false, progress=0.043714285, initialized=true, config=null} tile=build1 valid=true unlocked=true env=true placeable=true dist=192.35065
+0.0,1.3097351,1,0,1.0,999,700,200,0,0,0,2,60.0,0.0,300,350,0.0,0.0
+driver: added=true dead=false unit=Unit#295:alpha (658.03973, 322.19022) plans=0 next=BuildPlan{x=81, y=40, rotation=0, block=ripple, breaking=false, progress=0.37683368, initialized=true, config=null} tile=build3 valid=true unlocked=true env=true placeable=true dist=10.27586
+60.0,1.7411386,1,0,1.0,118,472,160,67,8,23,11,180.0,0.0,216,149,3118.9553,1.0
+driver: added=true dead=false unit=Unit#295:alpha (656.6182, 308.7662) plans=0 next=BuildPlan{x=81, y=40, rotation=0, block=ripple, breaking=false, progress=0.66016567, initialized=true, config=null} tile=build3 valid=true unlocked=true env=true placeable=true dist=14.158812
+120.0,2.0271218,1,0,1.0,119,494,97,67,12,36,11,180.0,0.0,216,132,4000.0,1.0
+driver: added=true dead=false unit=Unit#295:alpha (654.8696, 292.25854) plans=0 next=BuildPlan{x=81, y=40, rotation=0, block=ripple, breaking=false, progress=0.9718294, initialized=true, config=null} tile=build3 valid=true unlocked=true env=true placeable=true dist=28.579367
+180.0,2.286584,2,5,1.0,117,516,35,67,16,51,11,180.0,0.0,216,113,4000.0,1.0
+driver: added=true dead=false unit=Unit#295:alpha (651.63324, 261.7241) plans=0 next=BuildPlan{x=66, y=28, rotation=0, block=mechanical-pump, breaking=false, progress=0.68, initialized=true, config=null} tile=build1 valid=true unlocked=true env=true placeable=true dist=129.26053
+240.0,2.7165365,2,0,1.0,116,458,2,78,21,67,12,132.0,0.0,152,111,4000.0,1.9599992
+driver: added=true dead=false unit=Unit#295:alpha (667.0171, 248.20467) plans=0 next=BuildPlan{x=92, y=32, rotation=0, block=steam-generator, breaking=false, progress=0.08095237, initialized=true, config=null} tile=build2 valid=true unlocked=true env=true placeable=true dist=73.92993
+press: items=ItemModule{} water=33.763416 power=1.0 efficiency=0.0
+water bridge: x=70 link=4718621 water=7.370875
+water bridge: x=72 link=-1 water=7.1794295
+water bridge: x=73 link=4915229 water=7.1946115
+water bridge: x=75 link=-1 water=7.352881
+water bridge: x=76 link=5111837 water=7.3302703
+water bridge: x=78 link=-1 water=7.2210274
+300.0,3.0952835,3,0,1.0,118,337,0,109,70,118,12,139.0,0.0,87,11,4000.0,2.7600017
+driver: added=true dead=false unit=Unit#295:alpha (685.79645, 263.84586) plans=0 next=BuildPlan{x=85, y=48, rotation=0, block=mender, breaking=false, progress=0.4567164, initialized=true, config=null} tile=build1 valid=true unlocked=true env=true placeable=true dist=120.29388
+press: items=ItemModule{coal:2} water=35.270103 power=1.0 efficiency=0.0
+water bridge: x=70 link=4718621 water=58.86827
+water bridge: x=72 link=-1 water=58.665977
+water bridge: x=73 link=4915229 water=58.69358
+water bridge: x=75 link=-1 water=58.867077
+water bridge: x=76 link=5111837 water=58.87688
+water bridge: x=78 link=-1 water=58.710125
+360.0,3.5147862,4,0,1.0,118,310,0,110,130,181,12,132.0,0.0,49,11,4000.0,2.885
+driver: added=true dead=false unit=Unit#295:alpha (685.7962, 263.84424) plans=0 next=BuildPlan{x=88, y=48, rotation=0, block=mender, breaking=false, progress=0.2283582, initialized=true, config=null} tile=build1 valid=true unlocked=true env=true placeable=true dist=121.52689
+press: items=ItemModule{coal:1} water=59.677944 power=0.81666666 efficiency=0.0
+water bridge: x=70 link=4718621 water=99.52421
+water bridge: x=72 link=-1 water=99.44641
+water bridge: x=73 link=4915229 water=99.45324
+water bridge: x=75 link=-1 water=99.5212
+water bridge: x=76 link=5111837 water=99.51692
+water bridge: x=78 link=-1 water=99.46118
+420.0,3.842801,5,5,1.0,119,279,0,112,187,238,12,132.0,0.0,49,11,4000.0,4.659996
+driver: added=true dead=false unit=Unit#295:alpha (686.009, 269.7569) plans=0 next=BuildPlan{x=99, y=52, rotation=0, block=copper-wall-large, breaking=false, progress=0.0, initialized=false, config=null} tile=air valid=true unlocked=true env=true placeable=true dist=186.20154
+press: items=ItemModule{coal:1} water=59.93506 power=1.0 efficiency=0.0
+water bridge: x=70 link=4718621 water=99.56783
+water bridge: x=72 link=-1 water=99.488174
+water bridge: x=73 link=4915229 water=99.48602
+water bridge: x=75 link=-1 water=99.56995
+water bridge: x=76 link=5111837 water=99.57216
+water bridge: x=78 link=-1 water=99.48379
+480.0,4.2199383,6,7,1.0,119,247,0,114,248,302,12,136.0,0.0,39,11,4000.0,5.26
+press: items=ItemModule{} water=59.84616 power=1.0 efficiency=0.0
+water bridge: x=70 link=4718621 water=99.49263
+water bridge: x=72 link=-1 water=99.419235
+water bridge: x=73 link=4915229 water=99.427185
+water bridge: x=75 link=-1 water=99.48111
+water bridge: x=76 link=5111837 water=99.474884
+water bridge: x=78 link=-1 water=99.42251
+540.0,4.5370603,7,10,1.0,129,269,0,115,308,366,12,122.0,0.0,26,11,4000.0,5.8933344
+press: items=ItemModule{} water=59.84626 power=0.39999995 efficiency=0.0
+water bridge: x=70 link=4718621 water=99.62008
+water bridge: x=72 link=-1 water=99.577225
+water bridge: x=73 link=4915229 water=99.58485
+water bridge: x=75 link=-1 water=99.62393
+water bridge: x=76 link=5111837 water=99.666
+water bridge: x=78 link=-1 water=99.58671
+600.0,4.8401155,7,0,1.0,173,291,0,115,369,431,12,104.0,0.0,17,11,3972.3792,-0.16999985
+press: items=ItemModule{coal:2} water=59.951344 power=0.6053336 efficiency=0.0
+water bridge: x=70 link=4718621 water=99.51356
+water bridge: x=72 link=-1 water=99.43637
+water bridge: x=73 link=4915229 water=99.44017
+water bridge: x=75 link=-1 water=99.51046
+water bridge: x=76 link=5111837 water=99.497246
+water bridge: x=78 link=-1 water=99.45117
+660.0,5.183087,8,0,1.0,217,313,0,115,430,497,12,141.0,0.0,2,11,4000.0,3.7326648
+press: items=ItemModule{coal:2} water=59.94723 power=0.4 efficiency=0.0
+water bridge: x=70 link=4718621 water=99.914116
+water bridge: x=72 link=-1 water=99.90404
+water bridge: x=73 link=4915229 water=99.90409
+water bridge: x=75 link=-1 water=99.91657
+water bridge: x=76 link=5111837 water=99.911316
+water bridge: x=78 link=-1 water=99.90466
+720.0,5.53536,9,0,1.0,252,335,0,115,491,559,12,116.0,0.0,0,11,3966.2075,-0.38399893
+press: items=ItemModule{coal:1} water=59.934788 power=1.0 efficiency=0.0
+water bridge: x=70 link=4718621 water=99.51252
+water bridge: x=72 link=-1 water=99.42404
+water bridge: x=73 link=4915229 water=99.41476
+water bridge: x=75 link=-1 water=99.511345
+water bridge: x=76 link=5111837 water=99.50981
+water bridge: x=78 link=-1 water=99.402794
+780.0,5.8603816,10,7,1.0,255,358,0,115,554,627,12,155.0,0.0,0,11,4000.0,6.1159983
+press: items=ItemModule{coal:1} water=59.94475 power=1.0 efficiency=0.0
+water bridge: x=70 link=4718621 water=99.70877
+water bridge: x=72 link=-1 water=99.64802
+water bridge: x=73 link=4915229 water=99.64044
+water bridge: x=75 link=-1 water=99.72214
+water bridge: x=76 link=5111837 water=99.73082
+water bridge: x=78 link=-1 water=99.6374
+840.0,6.174216,11,7,1.0,290,380,0,115,614,689,12,133.0,0.0,0,11,4000.0,2.0910003
+press: items=ItemModule{} water=59.924164 power=0.65333337 efficiency=0.0
+water bridge: x=70 link=4718621 water=99.56117
+water bridge: x=72 link=-1 water=99.49131
+water bridge: x=73 link=4915229 water=99.49924
+water bridge: x=75 link=-1 water=99.556046
+water bridge: x=76 link=5111837 water=99.550514
+water bridge: x=78 link=-1 water=99.50763
+900.0,6.481294,12,8,1.0,301,402,0,115,675,753,12,158.0,0.0,0,11,4000.0,2.976664
+press: items=ItemModule{coal:3} water=59.683315 power=1.0 efficiency=1.0
+water bridge: x=70 link=4718621 water=99.825005
+water bridge: x=72 link=-1 water=99.77255
+water bridge: x=73 link=4915229 water=99.75942
+water bridge: x=75 link=-1 water=99.82463
+water bridge: x=76 link=5111837 water=99.82901
+water bridge: x=78 link=-1 water=99.7523
+960.0,6.818582,12,0,1.0,333,424,0,115,735,815,12,132.0,0.0,0,11,3974.7998,0.103333585
+press: items=ItemModule{coal:1} water=59.94875 power=0.4 efficiency=0.0
+water bridge: x=70 link=4718621 water=99.344185
+water bridge: x=72 link=-1 water=99.23107
+water bridge: x=73 link=4915229 water=99.226295
+water bridge: x=75 link=-1 water=99.33796
+water bridge: x=76 link=5111837 water=99.332344
+water bridge: x=78 link=-1 water=99.21836
+1020.0,7.1731243,13,0,1.0,377,446,0,115,782,880,12,142.0,0.0,105,11,4000.0,7.826672
+press: items=ItemModule{coal:1} water=59.902622 power=0.4 efficiency=0.0
+water bridge: x=70 link=4718621 water=99.854225
+water bridge: x=72 link=-1 water=99.83289
+water bridge: x=73 link=4915229 water=99.83341
+water bridge: x=75 link=-1 water=99.848175
+water bridge: x=76 link=5111837 water=99.85076
+water bridge: x=78 link=-1 water=99.83659
+1080.0,7.48722,14,0,1.0,421,468,0,115,847,951,12,154.0,0.0,89,11,3991.8398,0.17666687
+press: items=ItemModule{} water=59.845573 power=0.8 efficiency=0.0
+water bridge: x=70 link=4718621 water=99.50942
+water bridge: x=72 link=-1 water=99.41
+water bridge: x=73 link=4915229 water=99.40714
+water bridge: x=75 link=-1 water=99.52156
+water bridge: x=76 link=5111837 water=99.52755
+water bridge: x=78 link=-1 water=99.41481
+1140.0,7.814016,15,5,1.0,465,491,0,115,906,1010,12,118.0,0.0,59,11,3927.1035,-0.12333409
+press: items=ItemModule{} water=59.83508 power=0.39999995 efficiency=0.0
+water bridge: x=70 link=4718621 water=99.5998
+water bridge: x=72 link=-1 water=99.54494
+water bridge: x=73 link=4915229 water=99.55064
+water bridge: x=75 link=-1 water=99.59938
+water bridge: x=76 link=5111837 water=99.62787
+water bridge: x=78 link=-1 water=99.55366
+1200.0,8.115399,16,8,1.0,510,513,0,115,965,1072,12,121.0,0.0,79,11,3983.8203,0.09666701
+press: items=ItemModule{coal:2} water=59.95632 power=0.65333337 efficiency=0.0
+water bridge: x=70 link=4718621 water=99.491646
+water bridge: x=72 link=-1 water=99.41804
+water bridge: x=73 link=4915229 water=99.42169
+water bridge: x=75 link=-1 water=99.474785
+water bridge: x=76 link=5111837 water=99.46398
+water bridge: x=78 link=-1 water=99.42665
+1260.0,8.438618,17,8,1.0,555,535,0,115,1023,1133,12,125.0,0.0,69,11,4000.0,4.593335
+press: items=ItemModule{coal:2} water=59.949306 power=0.4 efficiency=0.0
+water bridge: x=70 link=4718621 water=99.92596
+water bridge: x=72 link=-1 water=99.91419
+water bridge: x=73 link=4915229 water=99.91332
+water bridge: x=75 link=-1 water=99.919266
+water bridge: x=76 link=5111837 water=99.919785
+water bridge: x=78 link=-1 water=99.91598
+1320.0,8.75293,18,14,1.0,599,557,0,115,1083,1197,12,133.0,0.0,57,11,3978.1592,-0.23999998
+press: items=ItemModule{coal:1} water=59.93956 power=0.65333337 efficiency=0.0
+water bridge: x=70 link=4718621 water=99.483154
+water bridge: x=72 link=-1 water=99.39426
+water bridge: x=73 link=4915229 water=99.39159
+water bridge: x=75 link=-1 water=99.47861
+water bridge: x=76 link=5111837 water=99.47464
+water bridge: x=78 link=-1 water=99.388115
+1380.0,9.091658,18,0,1.0,643,579,0,115,1149,1271,12,136.0,0.0,37,11,4000.0,5.7100015
+press: items=ItemModule{} water=59.871838 power=0.65333337 efficiency=0.0
+water bridge: x=70 link=4718621 water=99.72961
+water bridge: x=72 link=-1 water=99.68641
+water bridge: x=73 link=4915229 water=99.68933
+water bridge: x=75 link=-1 water=99.72616
+water bridge: x=76 link=5111837 water=99.721634
+water bridge: x=78 link=-1 water=99.692474
+1440.0,9.432261,19,0,1.0,663,601,0,116,1211,1342,12,142.0,0.0,8,11,4000.0,0.75999963
+press: items=ItemModule{} water=59.89508 power=1.0 efficiency=0.0
+water bridge: x=70 link=4718621 water=99.61287
+water bridge: x=72 link=-1 water=99.53672
+water bridge: x=73 link=4915229 water=99.521576
+water bridge: x=75 link=-1 water=99.617195
+water bridge: x=76 link=5111837 water=99.6197
+water bridge: x=78 link=-1 water=99.50083
+1500.0,9.772086,20,0,1.0,707,623,0,116,1271,1403,12,118.0,0.0,0,11,4000.0,4.526666
+press: items=ItemModule{coal:2} water=59.95138 power=0.65333337 efficiency=0.0
+water bridge: x=70 link=4718621 water=99.500656
+water bridge: x=72 link=-1 water=99.42049
+water bridge: x=73 link=4915229 water=99.42514
+water bridge: x=75 link=-1 water=99.49049
+water bridge: x=76 link=5111837 water=99.474686
+water bridge: x=78 link=-1 water=99.43161
+1560.0,10.069974,21,10,1.0,719,646,0,116,1331,1468,12,151.0,0.0,0,11,4000.0,4.510001
+press: items=ItemModule{coal:1} water=59.94072 power=0.65333337 efficiency=0.0
+water bridge: x=70 link=4718621 water=99.85945
+water bridge: x=72 link=-1 water=99.83907
+water bridge: x=73 link=4915229 water=99.840164
+water bridge: x=75 link=-1 water=99.85397
+water bridge: x=76 link=5111837 water=99.855156
+water bridge: x=78 link=-1 water=99.843605
+1620.0,10.393734,22,15,1.0,754,664,0,116,1392,1533,12,92.0,0.0,0,11,4000.0,0.75999963
+press: items=ItemModule{coal:1} water=59.949562 power=1.0 efficiency=0.0
+water bridge: x=70 link=4718621 water=99.268715
+water bridge: x=72 link=-1 water=99.13252
+water bridge: x=73 link=4915229 water=99.2092
+water bridge: x=75 link=-1 water=99.27933
+water bridge: x=76 link=5111837 water=99.29341
+water bridge: x=78 link=-1 water=99.21105
+1680.0,10.705466,23,14,1.0,760,686,0,116,1453,1598,12,92.0,0.0,0,11,4000.0,10.485004
+press: items=ItemModule{coal:1} water=59.939674 power=1.0 efficiency=0.0
+water bridge: x=70 link=4718621 water=99.532524
+water bridge: x=72 link=-1 water=99.45357
+water bridge: x=73 link=4915229 water=99.45543
+water bridge: x=75 link=-1 water=99.531845
+water bridge: x=76 link=5111837 water=99.53412
+water bridge: x=78 link=-1 water=99.45074
+1740.0,11.076612,23,0,1.0,757,708,0,116,1515,1668,12,104.0,0.0,0,11,4000.0,5.8433347
+press: items=ItemModule{coal:1} water=59.941536 power=1.0 efficiency=0.0
+water bridge: x=70 link=4718621 water=99.83767
+water bridge: x=72 link=-1 water=99.78255
+water bridge: x=73 link=4915229 water=99.76122
+water bridge: x=75 link=-1 water=99.83907
+water bridge: x=76 link=5111837 water=99.84564
+water bridge: x=78 link=-1 water=99.75307
+1800.0,11.431733,24,0,1.0,741,730,0,116,1581,1741,12,140.0,0.0,0,11,4000.0,1.1850005
+driver: added=true dead=false unit=Unit#295:alpha (702.5289, 324.08487) plans=1 next=BuildPlan{x=98, y=47, rotation=0, block=mender, breaking=false, progress=0.2283582, initialized=true, config=null} tile=build1 valid=true unlocked=true env=true placeable=true dist=96.60603
+press: items=ItemModule{coal:2} water=59.965736 power=0.33333337 efficiency=0.0
+water bridge: x=70 link=4718621 water=99.94626
+water bridge: x=72 link=-1 water=99.94027
+water bridge: x=73 link=4915229 water=99.94029
+water bridge: x=75 link=-1 water=99.947624
+water bridge: x=76 link=5111837 water=99.9409
+water bridge: x=78 link=-1 water=99.94146
+1860.0,11.791271,25,0,1.0,706,746,0,116,1650,1820,12,91.0,0.0,0,11,2337.611,1.0600005
+driver: added=true dead=false unit=Unit#295:alpha (683.83356, 270.243) plans=0 next=BuildPlan{x=97, y=52, rotation=0, block=titanium-wall-large, breaking=false, progress=0.46218765, initialized=true, config=null} tile=build2 valid=true unlocked=true env=true placeable=true dist=177.97511
+press: items=ItemModule{} water=59.892944 power=0.4 efficiency=0.0
+water bridge: x=70 link=4718621 water=99.835304
+water bridge: x=72 link=-1 water=99.814415
+water bridge: x=73 link=4915229 water=99.81626
+water bridge: x=75 link=-1 water=99.839066
+water bridge: x=76 link=5111837 water=99.837685
+water bridge: x=78 link=-1 water=99.81811
+1920.0,12.110288,26,11,1.0,675,740,0,118,1710,1885,12,128.0,0.0,0,0,3923.32,-0.4799998
+driver: added=true dead=false unit=Unit#295:alpha (682.42737, 249.27303) plans=0 next=BuildPlan{x=97, y=52, rotation=0, block=titanium-wall-large, breaking=false, progress=0.46218765, initialized=true, config=null} tile=air valid=true unlocked=true env=true placeable=true dist=196.6421
+press: items=ItemModule{coal:2} water=59.964966 power=0.65333337 efficiency=0.0
+water bridge: x=70 link=4718621 water=99.41876
+water bridge: x=72 link=-1 water=99.31112
+water bridge: x=73 link=4915229 water=99.30228
+water bridge: x=75 link=-1 water=99.418884
+water bridge: x=76 link=5111837 water=99.418076
+water bridge: x=78 link=-1 water=99.29544
+1980.0,12.472009,27,13,1.0,671,762,0,118,1775,1958,12,142.0,0.0,0,0,4000.0,6.168335
+driver: added=true dead=false unit=Unit#295:alpha (695.2833, 304.9053) plans=0 next=BuildPlan{x=97, y=52, rotation=0, block=titanium-wall-large, breaking=false, progress=0.46218765, initialized=true, config=null} tile=air valid=true unlocked=true env=true placeable=true dist=142.91153
+press: items=ItemModule{coal:2} water=59.9541 power=0.8 efficiency=0.0
+water bridge: x=70 link=4718621 water=99.93297
+water bridge: x=72 link=-1 water=99.92133
+water bridge: x=73 link=4915229 water=99.921364
+water bridge: x=75 link=-1 water=99.926384
+water bridge: x=76 link=5111837 water=99.92676
+water bridge: x=78 link=-1 water=99.923065
+1998.1833,12.6048765,27,0,1.0,662,768,2,118,1796,1980,12,94.0,0.0,0,0,2860.285,-5.7733326
+trial=legal-build
+selection=direct-map-combat-test; campaign gate not claimed
+profileScope=isolated-combat-qa-existing-actual-scores
+profile=local-work/mindustry-star-work/legal-trial-watch5-normal3/profile
+gateVerified=false
+mission=watch-7
+mode=TACTICAL
+finished=true
+winner=sharded
+wave=27
+actualSpawnWaves=26
+simSeconds=1998.1833
+wallSeconds=12.653703
+placedBuildings=118
+withdraws=1796
+deposits=1980
+turretControls=0
+friendlyMonoSurvivors=0
+coreMinimum=1.0
+buildingsDestroyed=9
+buildingsDeconstructed=0
+pendingRemovals=0
+pendingPlans=1
+nextPlan=BuildPlan{x=97, y=52, rotation=0, block=titanium-wall-large, breaking=false, progress=0.46218765, initialized=true, config=null}
+actualVersion=0.3.3
+codeLocation=file:/local-work/mindustry-star-work/star033-runtime/Mindustry.jar
+assetsSource=local-work/mindustry-star-work/star033-runtime/assets
+CampaignStars.classModifiedAtStart=1791877212532
+WatchMapGenerator.classModifiedAtStart=1791877212532
+waveTimer=true
+objectives=0
+objectiveFlags={}
+modeStarsBefore=0
+missionStarsBefore=3
+mainStarsBefore=0
+branchRewardBefore=false
+modeStarsAfter=1
+starsAfter=4
+mainStarsAfter=0
+branchRewardAfter=false
+frozenForestUnlocked=false
+settingsFile=local-work/mindustry-star-work/legal-trial-watch5-normal3/profile/settings.bin
+settingsExists=true
+status=���λ�� 1 / 1 �ǣ������ۼ� 4 / 5
+

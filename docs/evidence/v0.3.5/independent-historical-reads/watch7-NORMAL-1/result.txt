@@ -1,0 +1,17 @@
+fixedVersion=0.3.3
+codeLocation=file:/local-work/mindustry-star-work/star033-runtime/Mindustry.jar
+mission=watch-7
+mode=NORMAL
+loadedEarned=3
+actualModeStars=3
+mainStars=0
+gateClaimed=false
+wave=27
+placed=81
+losses=25
+minimumCore=0.7410612
+A=0
+B=0
+all168BestScoresUnchanged=true
+noSimulation=true
+noAwardsCreated=true

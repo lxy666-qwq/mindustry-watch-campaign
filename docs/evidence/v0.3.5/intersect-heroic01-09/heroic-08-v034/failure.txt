@@ -1,0 +1,1 @@
+java.lang.IllegalStateException: No native directional duct route BuildPlan{x=280, y=344, rotation=1, block=plasma-bore, breaking=false, progress=0.0, initialized=false, config=null} -> BuildPlan{x=280, y=325, rotation=0, block=diffuse, breaking=false, progress=0.0, initialized=false, config=null}

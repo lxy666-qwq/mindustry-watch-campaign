@@ -1,0 +1,118 @@
+initial grid: node=86,19 links=[5242899, 5963795] battery=5963795 batteryLinked=true sameGraph=true
+driver: added=true dead=false unit=Unit#295:alpha (704.025, 208.31387) plans=1 next=BuildPlan{x=90, y=50, rotation=0, block=duo, breaking=false, progress=0.043714285, initialized=true, config=null} tile=build1 valid=true unlocked=true env=true placeable=true dist=192.35065
+0.0,1.177574,1,0,1.0,999,700,200,0,0,0,2,60.0,0.0,300,350,0.0,0.0
+driver: added=true dead=false unit=Unit#295:alpha (651.8305, 265.68832) plans=0 next=BuildPlan{x=81, y=40, rotation=0, block=ripple, breaking=false, progress=0.8839969, initialized=true, config=null} tile=build3 valid=true unlocked=true env=true placeable=true dist=54.446587
+60.0,1.5799637,1,0,1.0,119,502,200,64,5,14,11,180.0,0.0,198,118,3118.9514,1.0
+driver: added=true dead=false unit=Unit#295:alpha (651.8305, 265.68832) plans=0 next=BuildPlan{x=66, y=28, rotation=0, block=mechanical-pump, breaking=false, progress=0.0, initialized=false, config=null} tile=air valid=true unlocked=true env=true placeable=true dist=130.65952
+120.0,1.8367827,1,0,1.0,115,444,230,75,7,19,12,180.0,0.0,134,111,4000.0,1.9599992
+driver: added=true dead=false unit=Unit#295:alpha (651.8305, 265.68832) plans=0 next=BuildPlan{x=70, y=29, rotation=0, block=bridge-conduit, breaking=false, progress=0.0, initialized=false, config=(2, 0)} tile=air valid=true unlocked=true env=true placeable=true dist=97.81485
+180.0,2.0955603,2,5,1.0,144,466,258,81,8,23,12,180.0,0.0,134,111,4000.0,1.9599992
+driver: added=true dead=false unit=Unit#295:alpha (651.8305, 265.68832) plans=0 next=BuildPlan{x=70, y=29, rotation=0, block=bridge-conduit, breaking=false, progress=0.0, initialized=false, config=(2, 0)} tile=air valid=true unlocked=true env=true placeable=true dist=97.81485
+240.0,2.4750848,2,0,1.0,188,488,286,81,9,27,12,137.0,0.0,134,111,4000.0,1.9599992
+driver: added=true dead=false unit=Unit#295:alpha (680.3916, 267.96704) plans=0 next=BuildPlan{x=70, y=29, rotation=0, block=bridge-conduit, breaking=false, progress=0.0, initialized=false, config=(2, 0)} tile=air valid=true unlocked=true env=true placeable=true dist=125.649376
+300.0,2.7674603,3,0,1.0,232,510,305,81,12,35,12,143.0,0.0,127,111,4000.0,1.9599992
+driver: added=true dead=false unit=Unit#295:alpha (681.6842, 272.27713) plans=0 next=BuildPlan{x=70, y=29, rotation=0, block=bridge-conduit, breaking=false, progress=0.0, initialized=false, config=(2, 0)} tile=air valid=true unlocked=true env=true placeable=true dist=128.1768
+360.0,3.0357025,4,5,1.0,276,533,332,81,14,41,12,132.0,0.0,124,111,4000.0,1.9599992
+driver: added=true dead=false unit=Unit#295:alpha (683.2122, 257.9308) plans=0 next=BuildPlan{x=70, y=29, rotation=0, block=bridge-conduit, breaking=false, progress=0.0, initialized=false, config=(2, 0)} tile=air valid=true unlocked=true env=true placeable=true dist=125.9113
+420.0,3.2926614,5,5,1.0,321,555,380,81,16,50,12,149.0,0.0,109,111,4000.0,1.9599992
+driver: added=true dead=false unit=Unit#295:alpha (683.2122, 257.9308) plans=0 next=BuildPlan{x=70, y=29, rotation=0, block=bridge-conduit, breaking=false, progress=0.0, initialized=false, config=(2, 0)} tile=air valid=true unlocked=true env=true placeable=true dist=125.9113
+480.0,3.5657613,6,11,1.0,366,577,399,81,19,57,12,121.0,0.0,103,111,4000.0,1.9599992
+driver: added=true dead=false unit=Unit#295:alpha (681.9367, 262.81418) plans=0 next=BuildPlan{x=70, y=29, rotation=0, block=bridge-conduit, breaking=false, progress=0.0, initialized=false, config=(2, 0)} tile=air valid=true unlocked=true env=true placeable=true dist=125.76993
+540.0,3.9009764,6,0,1.0,410,599,421,81,23,69,12,123.0,0.0,88,111,4000.0,1.9599992
+driver: added=true dead=false unit=Unit#295:alpha (674.5889, 244.406) plans=0 next=BuildPlan{x=70, y=29, rotation=0, block=bridge-conduit, breaking=false, progress=0.0, initialized=false, config=(2, 0)} tile=air valid=true unlocked=true env=true placeable=true dist=115.25854
+600.0,4.179033,7,0,1.0,454,621,443,81,27,83,12,135.0,0.0,58,111,4000.0,1.9599992
+driver: added=true dead=false unit=Unit#295:alpha (678.5059, 241.4688) plans=0 next=BuildPlan{x=70, y=29, rotation=0, block=bridge-conduit, breaking=false, progress=0.0, initialized=false, config=(2, 0)} tile=air valid=true unlocked=true env=true placeable=true dist=118.883606
+660.0,4.4708037,8,6,1.0,498,643,470,81,28,87,12,135.0,0.0,58,111,4000.0,1.8161198
+driver: added=true dead=false unit=Unit#295:alpha (697.8273, 260.3487) plans=0 next=BuildPlan{x=70, y=29, rotation=0, block=bridge-conduit, breaking=false, progress=0.0, initialized=false, config=(2, 0)} tile=air valid=true unlocked=true env=true placeable=true dist=140.7125
+720.0,4.7457128,9,7,1.0,542,665,518,81,30,93,12,115.0,0.0,55,111,4000.0,1.8160018
+driver: added=true dead=false unit=Unit#295:alpha (692.4899, 242.23526) plans=0 next=BuildPlan{x=70, y=29, rotation=0, block=bridge-conduit, breaking=false, progress=0.0, initialized=false, config=(2, 0)} tile=air valid=true unlocked=true env=true placeable=true dist=132.88469
+780.0,5.03255,10,15,1.0,587,688,537,81,33,103,12,116.0,0.0,38,111,4000.0,1.8160018
+driver: added=true dead=false unit=Unit#295:alpha (684.5314, 246.63135) plans=0 next=BuildPlan{x=70, y=29, rotation=0, block=bridge-conduit, breaking=false, progress=0.0, initialized=false, config=(2, 0)} tile=air valid=true unlocked=true env=true placeable=true dist=125.387955
+840.0,5.327549,10,0,1.0,632,710,559,81,41,120,12,125.0,0.0,19,111,4000.0,1.8160018
+driver: added=true dead=false unit=Unit#295:alpha (695.23114, 251.08087) plans=0 next=BuildPlan{x=70, y=29, rotation=0, block=bridge-conduit, breaking=false, progress=0.0, initialized=false, config=(2, 0)} tile=air valid=true unlocked=true env=true placeable=true dist=136.57065
+900.0,5.58526,11,0,1.0,676,732,608,81,43,129,12,117.0,0.0,0,111,4000.0,1.8160018
+driver: added=true dead=false unit=Unit#295:alpha (699.2251, 248.08516) plans=0 next=BuildPlan{x=70, y=29, rotation=0, block=bridge-conduit, breaking=false, progress=0.0, initialized=false, config=(2, 0)} tile=air valid=true unlocked=true env=true placeable=true dist=140.1512
+960.0,5.860485,12,8,1.0,720,754,635,81,44,134,12,117.0,0.0,4,111,4000.0,1.9599992
+driver: added=true dead=false unit=Unit#295:alpha (686.51184, 253.029) plans=0 next=BuildPlan{x=70, y=29, rotation=0, block=bridge-conduit, breaking=false, progress=0.0, initialized=false, config=(2, 0)} tile=air valid=true unlocked=true env=true placeable=true dist=128.24767
+1020.0,6.12727,13,11,1.0,744,776,815,81,50,147,12,127.0,0.0,114,111,4000.0,1.9599992
+driver: added=true dead=false unit=Unit#295:alpha (675.958, 244.411) plans=0 next=BuildPlan{x=70, y=29, rotation=0, block=bridge-conduit, breaking=false, progress=0.0, initialized=false, config=(2, 0)} tile=air valid=true unlocked=true env=true placeable=true dist=116.62029
+1080.0,6.3964725,14,12,1.0,788,798,855,81,54,158,12,103.0,0.0,95,111,4000.0,1.9599992
+driver: added=true dead=false unit=Unit#295:alpha (691.43726, 272.84073) plans=0 next=BuildPlan{x=70, y=29, rotation=0, block=bridge-conduit, breaking=false, progress=0.0, initialized=false, config=(2, 0)} tile=air valid=true unlocked=true env=true placeable=true dist=137.63617
+1140.0,6.700656,14,0,1.0,832,821,877,81,58,170,12,113.0,0.0,78,111,4000.0,1.9599992
+driver: added=true dead=false unit=Unit#295:alpha (698.5747, 277.0416) plans=0 next=BuildPlan{x=70, y=29, rotation=0, block=bridge-conduit, breaking=false, progress=0.0, initialized=false, config=(2, 0)} tile=air valid=true unlocked=true env=true placeable=true dist=145.711
+1200.0,6.987827,15,0,1.0,877,843,926,81,61,179,11,98.0,0.0,45,111,4000.0,1.9599992
+driver: added=true dead=false unit=Unit#295:alpha (684.72504, 261.48718) plans=0 next=BuildPlan{x=70, y=29, rotation=0, block=bridge-conduit, breaking=false, progress=0.0, initialized=false, config=(2, 0)} tile=air valid=true unlocked=true env=true placeable=true dist=128.16328
+1260.0,7.3047075,16,8,1.0,922,865,926,81,64,189,11,118.0,0.0,55,111,4000.0,1.9599992
+driver: added=true dead=false unit=Unit#295:alpha (685.4092, 264.7903) plans=0 next=BuildPlan{x=70, y=29, rotation=0, block=bridge-conduit, breaking=false, progress=0.0, initialized=false, config=(2, 0)} tile=air valid=true unlocked=true env=true placeable=true dist=129.62509
+1320.0,7.566218,17,8,1.0,966,887,974,81,66,197,11,98.0,0.0,40,111,4000.0,1.9599992
+driver: added=true dead=false unit=Unit#295:alpha (686.9857, 269.0047) plans=0 next=BuildPlan{x=70, y=29, rotation=0, block=bridge-conduit, breaking=false, progress=0.0, initialized=false, config=(2, 0)} tile=air valid=true unlocked=true env=true placeable=true dist=132.26761
+1380.0,7.8500795,18,14,1.0,1010,909,1002,81,68,204,11,97.0,0.0,34,111,4000.0,1.9599992
+driver: added=true dead=false unit=Unit#295:alpha (683.16003, 240.20972) plans=0 next=BuildPlan{x=70, y=29, rotation=0, block=bridge-conduit, breaking=false, progress=0.0, initialized=false, config=(2, 0)} tile=air valid=true unlocked=true env=true placeable=true dist=123.43336
+1440.0,8.125232,18,0,1.0,1054,931,1015,81,72,216,11,113.0,0.0,18,111,4000.0,1.9599992
+driver: added=true dead=false unit=Unit#295:alpha (707.0823, 306.7125) plans=0 next=BuildPlan{x=70, y=29, rotation=0, block=bridge-conduit, breaking=false, progress=0.0, initialized=false, config=(2, 0)} tile=air valid=true unlocked=true env=true placeable=true dist=164.97015
+1500.0,8.429991,19,0,1.0,1068,953,1067,81,79,231,11,95.0,0.0,0,111,4000.0,1.9599992
+driver: added=true dead=false unit=Unit#295:alpha (679.5492, 243.21187) plans=0 next=BuildPlan{x=70, y=29, rotation=0, block=bridge-conduit, breaking=false, progress=0.0, initialized=false, config=(2, 0)} tile=air valid=true unlocked=true env=true placeable=true dist=120.07379
+1560.0,8.711209,20,9,1.0,1134,976,1094,81,80,236,11,95.0,0.0,0,111,4000.0,1.9599992
+driver: added=true dead=false unit=Unit#295:alpha (684.70447, 260.37454) plans=0 next=BuildPlan{x=70, y=29, rotation=0, block=bridge-conduit, breaking=false, progress=0.0, initialized=false, config=(2, 0)} tile=air valid=true unlocked=true env=true placeable=true dist=127.89182
+1620.0,8.968789,21,10,1.0,1159,998,1112,81,83,244,11,88.0,0.0,0,111,4000.0,1.9599992
+driver: added=true dead=false unit=Unit#295:alpha (687.81244, 270.14062) plans=0 next=BuildPlan{x=70, y=29, rotation=0, block=bridge-conduit, breaking=false, progress=0.0, initialized=false, config=(2, 0)} tile=air valid=true unlocked=true env=true placeable=true dist=133.38188
+1680.0,9.225592,22,19,1.0,1175,1020,1140,81,85,252,11,102.0,0.0,0,111,4000.0,1.9599992
+driver: added=true dead=false unit=Unit#295:alpha (675.2797, 244.62646) plans=0 next=BuildPlan{x=70, y=29, rotation=0, block=bridge-conduit, breaking=false, progress=0.0, initialized=false, config=(2, 0)} tile=air valid=true unlocked=true env=true placeable=true dist=115.96915
+1740.0,9.5000305,22,0,1.0,1181,1037,1162,81,91,267,10,86.0,0.0,0,111,4000.0,1.9599992
+driver: added=true dead=false unit=Unit#295:alpha (695.169, 284.65457) plans=0 next=BuildPlan{x=70, y=29, rotation=0, block=bridge-conduit, breaking=false, progress=0.0, initialized=false, config=(2, 0)} tile=air valid=true unlocked=true env=true placeable=true dist=145.06262
+1800.0,9.771704,23,0,1.0,1186,1059,1205,81,96,278,9,49.0,0.0,0,111,4000.0,1.9599992
+driver: added=true dead=false unit=Unit#295:alpha (677.88275, 243.08954) plans=0 next=BuildPlan{x=70, y=29, rotation=0, block=bridge-conduit, breaking=false, progress=0.0, initialized=false, config=(2, 0)} tile=air valid=true unlocked=true env=true placeable=true dist=118.40321
+1860.0,10.059147,24,12,1.0,1250,1081,1232,81,97,283,9,49.0,0.0,0,111,4000.0,1.9599992
+driver: added=true dead=false unit=Unit#295:alpha (675.50055, 259.16296) plans=0 next=BuildPlan{x=70, y=29, rotation=0, block=bridge-conduit, breaking=false, progress=0.0, initialized=false, config=(2, 0)} tile=air valid=true unlocked=true env=true placeable=true dist=118.6516
+1920.0,10.356241,25,16,1.0,1271,1104,1250,81,103,296,9,57.0,0.0,0,111,3688.7664,1.9599992
+driver: added=true dead=false unit=Unit#295:alpha (675.1599, 260.54715) plans=0 next=BuildPlan{x=70, y=29, rotation=0, block=bridge-conduit, breaking=false, progress=0.0, initialized=false, config=(2, 0)} tile=air valid=true unlocked=true env=true placeable=true dist=118.64546
+1980.0,10.636495,26,15,0.7410612,1284,1115,1272,81,113,316,7,29.0,0.0,0,111,4000.0,1.9599992
+driver: added=true dead=false unit=Unit#295:alpha (661.7298, 250.6659) plans=0 next=BuildPlan{x=70, y=29, rotation=0, block=bridge-conduit, breaking=false, progress=0.0, initialized=false, config=(2, 0)} tile=air valid=true unlocked=true env=true placeable=true dist=103.428085
+2040.0,10.899643,26,0,0.7410612,1309,1115,1294,81,117,326,6,45.0,0.0,0,111,4000.0,1.9599992
+driver: added=true dead=false unit=Unit#295:alpha (666.51666, 320.27997) plans=0 next=BuildPlan{x=70, y=29, rotation=0, block=bridge-conduit, breaking=false, progress=0.0, initialized=false, config=(2, 0)} tile=air valid=true unlocked=true env=true placeable=true dist=138.34433
+2093.3333,11.14,27,0,0.7410612,1337,1115,1339,81,121,337,6,36.0,0.0,0,111,4000.0,1.9599992
+trial=legal-build
+selection=direct-map-combat-test; campaign gate not claimed
+profileScope=isolated-combat-qa-existing-actual-scores
+profile=local-work/mindustry-star-work/legal-trial-watch5-normal3/profile
+gateVerified=false
+mission=watch-7
+mode=NORMAL
+finished=true
+winner=sharded
+wave=27
+actualSpawnWaves=26
+simSeconds=2093.3333
+wallSeconds=11.184436
+placedBuildings=81
+withdraws=121
+deposits=337
+turretControls=0
+friendlyMonoSurvivors=0
+coreMinimum=0.7410612
+buildingsDestroyed=25
+buildingsDeconstructed=0
+pendingRemovals=0
+pendingPlans=30
+nextPlan=BuildPlan{x=70, y=29, rotation=0, block=bridge-conduit, breaking=false, progress=0.0, initialized=false, config=(2, 0)}
+actualVersion=0.3.3
+codeLocation=file:/local-work/mindustry-star-work/star033-runtime/Mindustry.jar
+assetsSource=local-work/mindustry-star-work/star033-runtime/assets
+CampaignStars.classModifiedAtStart=1791877212532
+WatchMapGenerator.classModifiedAtStart=1791877212532
+waveTimer=true
+objectives=0
+objectiveFlags={}
+modeStarsBefore=0
+missionStarsBefore=0
+mainStarsBefore=0
+branchRewardBefore=false
+modeStarsAfter=3
+starsAfter=3
+mainStarsAfter=0
+branchRewardAfter=false
+frozenForestUnlocked=false
+settingsFile=local-work/mindustry-star-work/legal-trial-watch5-normal3/profile/settings.bin
+settingsExists=true
+status=���λ�� 3 / 3 �ǣ������ۼ� 3 / 5
+

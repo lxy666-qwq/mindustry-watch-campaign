@@ -321,7 +321,7 @@ public class CampaignStars{
         tags.put(prefix + "deadline", Float.toString(limits.deadline));
         tags.put(prefix + "assetNext", "0");
         tags.put(prefix + "taskAStart", "0");
-        tags.put(prefix + "flowVersion", "2");
+        tags.put(prefix + "flowVersion", "3");
         for(var building : state.rules.defaultTeam.data().buildings) newAsset(building.pos(), false);
         tags.put(prefix + "taskBStart", "0");
     }
@@ -477,14 +477,21 @@ public class CampaignStars{
         receivedInputs.clear();
         itemOrigins.clear();
         coreAssets.clear();
-        if(state.rules.tags.getInt(prefix + "flowVersion", 0) < 2){
-            //Earlier runs could credit core-return branches without a real resource origin.
+        if(state.rules.tags.getInt(prefix + "flowVersion", 0) < 3){
+            //Earlier manual deliveries could turn withdrawn core stock into a new origin.
             state.rules.tags.keys().toSeq().each(key -> {
                 if(key.startsWith(prefix + "flow.") || key.startsWith(prefix + "received.") ||
                     key.startsWith(prefix + "transferred.") || key.startsWith(prefix + "origin.") ||
-                    key.startsWith(prefix + "core.")) state.rules.tags.remove(key);
+                    key.startsWith(prefix + "core.") || key.startsWith(prefix + "cargo")) state.rules.tags.remove(key);
             });
-            state.rules.tags.put(prefix + "flowVersion", "2");
+            state.rules.tags.put(prefix + "flowVersion", "3");
+            //Older saves have no provenance for already-carried stock; require a new positive source.
+            for(var unit : Groups.unit){
+                if(unit.team == state.rules.defaultTeam && unit.stack.amount > 0){
+                    state.rules.tags.put(prefix + "cargoItem." + unit.id, unit.item().name);
+                    state.rules.tags.put(prefix + "cargoAmount." + unit.id, Integer.toString(unit.stack.amount));
+                }
+            }
         }
         for(var key : state.rules.tags.keys()){
             if(key.startsWith(prefix + "flow.")){
@@ -510,11 +517,15 @@ public class CampaignStars{
         if(coreInventory(source)) recordCoreAsset(source);
         if(coreInventory(recipient)) recordCoreAsset(recipient);
         String from = flowNode(source, recipient, resource, true), to = flowNode(recipient, source, resource, false);
+        recordFlowNodes(from, to, input);
+        return true;
+    }
+
+    private static void recordFlowNodes(String from, String to, boolean input){
         if(incomingFlows.get(to, ObjectSet::new).add(from)) state.rules.tags.put(prefix + "flow." + from + ">" + to, "true");
         if(input){
-            if(receivedInputs.get(asset(recipient), ObjectSet::new).add(to)) state.rules.tags.put(prefix + "received." + to, "true");
+            if(receivedInputs.get(flowAsset(to), ObjectSet::new).add(to)) state.rules.tags.put(prefix + "received." + to, "true");
         }
-        return true;
     }
 
     /** Called after a real item enters the receiver's inventory. Full-core incineration does not call this. */
@@ -550,12 +561,53 @@ public class CampaignStars{
         recordProduction(source);
     }
 
+    public static void clearUnitCargo(Unit unit){
+        if(!tacticalRunning()) return;
+        for(var field : new String[]{"cargoItem.", "cargoAmount.", "cargoFresh.", "cargoSources."}){
+            state.rules.tags.remove(prefix + field + unit.id);
+        }
+    }
+
+    /** Untracked positive additions are native mining; tracked withdrawals retain their building sources. */
+    private static void syncUnitCargo(Unit unit, Item item, int amount){
+        var tags = state.rules.tags;
+        if(amount == 0 || !item.name.equals(tags.get(prefix + "cargoItem." + unit.id))) clearUnitCargo(unit);
+        if(amount > tags.getInt(prefix + "cargoAmount." + unit.id)) tags.put(prefix + "cargoFresh." + unit.id, "true");
+        tags.put(prefix + "cargoItem." + unit.id, item.name);
+        tags.put(prefix + "cargoAmount." + unit.id, Integer.toString(amount));
+    }
+
+    private static Seq<String> cargoSources(Unit unit){
+        String sources = state.rules.tags.get(prefix + "cargoSources." + unit.id, "");
+        return sources.isEmpty() ? new Seq<>() : Seq.with(sources.split(","));
+    }
+
+    /** Called after a positive native withdrawal, before this cargo can be deposited elsewhere. */
+    public static void recordItemPickup(Building source, Unit recipient, Item item, int amount){
+        if(!tacticalRunning() || source.team != state.rules.defaultTeam || recipient.team != source.team) return;
+        loadFlows();
+        syncUnitCargo(recipient, item, recipient.stack.amount - amount);
+        String node = "i" + item.name + ":" + identity(source) + ":4";
+        if(coreInventory(source)) recordCoreAsset(source);
+        else if(!coreAssets.contains(flowAsset(node)) && !incomingFlows.containsKey(node)) recordItemOrigin(source, item);
+        var sources = cargoSources(recipient);
+        if(!sources.contains(node)) sources.add(node);
+        state.rules.tags.put(prefix + "cargoSources." + recipient.id, sources.toString(","));
+        state.rules.tags.put(prefix + "cargoAmount." + recipient.id, Integer.toString(recipient.stack.amount));
+    }
+
     /** InputHandler calls this after a positive physical unit-to-inventory stack delivery. */
-    public static void recordManualItemInput(Unit source, Building recipient, Item item){
+    public static void recordManualItemInput(Unit source, Building recipient, Item item, int amount){
         if(tacticalRunning() && source != null && source.team == state.rules.defaultTeam && recipient.team == source.team){
+            loadFlows();
+            syncUnitCargo(source, item, source.stack.amount + amount);
             //Linked storage shares the core's inventory; its historical token stays a boundary after unlinking.
             if(coreInventory(recipient)) recordCoreAsset(recipient);
-            else recordItemOrigin(recipient, item);
+            else if(state.rules.tags.getBool(prefix + "cargoFresh." + source.id)) recordItemOrigin(recipient, item);
+            String node = "i" + item.name + ":" + identity(recipient) + ":4";
+            for(var origin : cargoSources(source)) recordFlowNodes(origin, node, recipient.block.consumesItem(item));
+            if(source.stack.amount == 0) clearUnitCargo(source);
+            else state.rules.tags.put(prefix + "cargoAmount." + source.id, Integer.toString(source.stack.amount));
         }
     }
 

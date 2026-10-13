@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="WatchBranchTests" tests="32" skipped="0" failures="0" errors="0" timestamp="2026-10-13T13:18:24.896Z" hostname="LAPTOP-B3R6MC71" time="1.405">
+  <properties/>
+  <testcase name="tenBranchesUseDistinctSectorsAcrossBothOfficialPlanets()" classname="WatchBranchTests" time="0.007"/>
+  <testcase name="earnedBranchStarsCannotUnlockMoreBranches()" classname="WatchBranchTests" time="0.003"/>
+  <testcase name="existingSectorFileExcludesATileBeforeSaveSlotsAreLoaded()" classname="WatchBranchTests" time="0.002"/>
+  <testcase name="originalErekirRulesAndBuildMenuRemainPlanetSpecific()" classname="WatchBranchTests" time="0.421"/>
+  <testcase name="[1] 6" classname="WatchBranchTests" time="0.035"/>
+  <testcase name="[2] 7" classname="WatchBranchTests" time="0.015"/>
+  <testcase name="[3] 8" classname="WatchBranchTests" time="0.021"/>
+  <testcase name="[4] 9" classname="WatchBranchTests" time="0.022"/>
+  <testcase name="savedPlayerBaseInfoExcludesAnOtherwiseFreeTile()" classname="WatchBranchTests" time="0.005"/>
+  <testcase name="allOriginalNamedPresetLocationsRemainUnchanged()" classname="WatchBranchTests" time="0.0"/>
+  <testcase name="existingPresetCannotBeSelectedAsAFreeBranchTile()" classname="WatchBranchTests" time="0.0"/>
+  <testcase name="[1] 0" classname="WatchBranchTests" time="0.001"/>
+  <testcase name="[2] 1" classname="WatchBranchTests" time="0.006"/>
+  <testcase name="[3] 2" classname="WatchBranchTests" time="0.001"/>
+  <testcase name="[4] 3" classname="WatchBranchTests" time="0.0"/>
+  <testcase name="[5] 4" classname="WatchBranchTests" time="0.001"/>
+  <testcase name="[6] 5" classname="WatchBranchTests" time="0.0"/>
+  <testcase name="[7] 6" classname="WatchBranchTests" time="0.0"/>
+  <testcase name="[8] 7" classname="WatchBranchTests" time="0.001"/>
+  <testcase name="[9] 8" classname="WatchBranchTests" time="0.0"/>
+  <testcase name="[10] 9" classname="WatchBranchTests" time="0.0"/>
+  <testcase name="onlyTechnologyMainlineMapsCountTowardBranchUnlocks()" classname="WatchBranchTests" time="0.0"/>
+  <testcase name="[1] 0" classname="WatchBranchTests" time="0.002"/>
+  <testcase name="[2] 1" classname="WatchBranchTests" time="0.001"/>
+  <testcase name="[3] 2" classname="WatchBranchTests" time="0.001"/>
+  <testcase name="[4] 3" classname="WatchBranchTests" time="0.0"/>
+  <testcase name="[5] 4" classname="WatchBranchTests" time="0.001"/>
+  <testcase name="[6] 5" classname="WatchBranchTests" time="0.001"/>
+  <testcase name="[7] 6" classname="WatchBranchTests" time="0.001"/>
+  <testcase name="[8] 7" classname="WatchBranchTests" time="0.001"/>
+  <testcase name="[9] 8" classname="WatchBranchTests" time="0.001"/>
+  <testcase name="[10] 9" classname="WatchBranchTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="PatcherTests" tests="34" skipped="0" failures="0" errors="0" timestamp="2026-10-13T13:18:21.947Z" hostname="LAPTOP-B3R6MC71" time="1.709">
+  <properties/>
+  <testcase name="uUnitWeaponReassign()" classname="PatcherTests" time="0.039"/>
+  <testcase name="unitWeapons()" classname="PatcherTests" time="0.013"/>
+  <testcase name="singleValue()" classname="PatcherTests" time="0.003"/>
+  <testcase name="setMultiAdd()" classname="PatcherTests" time="0.008"/>
+  <testcase name="customAttribute()" classname="PatcherTests" time="0.002"/>
+  <testcase name="specificArrayRequirements()" classname="PatcherTests" time="0.01"/>
+  <testcase name="arrayMulti()" classname="PatcherTests" time="0.006"/>
+  <testcase name="reconstructorPlansEditSpecific()" classname="PatcherTests" time="0.003"/>
+  <testcase name="consumeApply()" classname="PatcherTests" time="0.005"/>
+  <testcase name="unknownFieldWarn()" classname="PatcherTests" time="0.002"/>
+  <testcase name="unitFlags()" classname="PatcherTests" time="0.004"/>
+  <testcase name="reconstructorPlansAdd()" classname="PatcherTests" time="0.002"/>
+  <testcase name="assignStringToObject()" classname="PatcherTests" time="0.004"/>
+  <testcase name="unitAbilities()" classname="PatcherTests" time="0.002"/>
+  <testcase name="unitType()" classname="PatcherTests" time="0.003"/>
+  <testcase name="noResolution()" classname="PatcherTests" time="0.002"/>
+  <testcase name="unitAbilitiesArray()" classname="PatcherTests" time="0.002"/>
+  <testcase name="noIdAssign()" classname="PatcherTests" time="0.001"/>
+  <testcase name="[1] block.ground-factory.plans.+: {&#10;    unit: flare&#10;    requirements: [surge-alloy/10]&#10;    time: 100&#10;}&#10;" classname="PatcherTests" time="0.036"/>
+  <testcase name="[2] block: {&#10;    ground-factory: {&#10;        plans.+: {&#10;            unit: flare&#10;            requirements: [surge-alloy/10]&#10;            time: 100&#10;        }&#10;    }&#10;}&#10;" classname="PatcherTests" time="0.002"/>
+  <testcase name="addWeapon()" classname="PatcherTests" time="0.002"/>
+  <testcase name="nestedArrays()" classname="PatcherTests" time="0.002"/>
+  <testcase name="attributes()" classname="PatcherTests" time="0.001"/>
+  <testcase name="unitFlagsArray()" classname="PatcherTests" time="0.0"/>
+  <testcase name="bigPatch()" classname="PatcherTests" time="0.003"/>
+  <testcase name="gibberish()" classname="PatcherTests" time="0.005"/>
+  <testcase name="indexAccess()" classname="PatcherTests" time="0.003"/>
+  <testcase name="cannotPatch()" classname="PatcherTests" time="0.001"/>
+  <testcase name="objectFloatMap()" classname="PatcherTests" time="0.009"/>
+  <testcase name="reconstructorPlans()" classname="PatcherTests" time="0.002"/>
+  <testcase name="nestedArrays2()" classname="PatcherTests" time="0.001"/>
+  <testcase name="ammoReassign()" classname="PatcherTests" time="0.001"/>
+  <testcase name="singleValue2()" classname="PatcherTests" time="0.0"/>
+  <testcase name="unitTypeObject()" classname="PatcherTests" time="0.0"/>
+  <system-out><![CDATA[[0b04-04-gaseous-reactor.hjson]: Colors should strings, not numbers. Make sure you have quotes around the value, or they will not be parsed correctly: 'color: 7693000'
+[0b04-05-energia-converter.hjson]: Colors should strings, not numbers. Make sure you have quotes around the value, or they will not be parsed correctly: 'color: 7693000'
+[0b04-06-vapourization-generator.hjson]: Colors should strings, not numbers. Make sure you have quotes around the value, or they will not be parsed correctly: 'color: 7693000'
+[0b04-06-vapourization-generator.hjson]: Colors should strings, not numbers. Make sure you have quotes around the value, or they will not be parsed correctly: 'color: 7693000'
+[0b04-06-vapourization-generator.hjson]: Colors should strings, not numbers. Make sure you have quotes around the value, or they will not be parsed correctly: 'color: 7693000'
+[0b04-09-ohr-burner.hjson]: Colors should strings, not numbers. Make sure you have quotes around the value, or they will not be parsed correctly: 'color: 7693000'
+[0b04-09-ohr-burner.hjson]: Colors should strings, not numbers. Make sure you have quotes around the value, or they will not be parsed correctly: 'color: 7693000'
+[0r02-meron.hjson]: Unknown field 'ammoType' for class 'UnitType'
+[build-pylon.hjson]: Unknown field 'buildRange' for class 'BuildTurret'
+[quasar.hjson]: Unknown field 'health' for class 'ForceFieldAbility'
+Content '0b-tremor' isn't in the tech tree, but 'allure-0b-aftershock' requires it to be researched.
+Content '0b-tremor' isn't in the tech tree, but 'allure-0b-quake' requires it to be researched.
+[ContentPatcher] Unknown field 'frogs' for class 'BasicBulletType'
+[ContentPatcher] Unknown field 'frogs' for class 'UnitType'
+[ContentPatcher] Failed to read value dagger.weapons = unit.dagger.weapons: [
+frog
+]: (type = class arc.struct.Seq elementType = class mindustry.type.Weapon)
+SerializationException: Expecting an object, but found: 'frog'
+[ContentPatcher] Field 'public java.lang.Object mindustry.world.Block.lastConfig' cannot be edited.
+[ContentPatcher] Field 'public short mindustry.ctype.Content.id' cannot be edited.
+Failed to apply patch: }[35209509()jfkjhadsf,
+,,,,,[]
+]{
+: arc.util.serialization.Jval$JsonParseException: Found '}' where a key name was expected (check your syntax or use quotes if the key name includes {}[],: or whitespace) at 1:0
+	at arc.util.serialization.Jval$Hparser.error(Jval.java:988)
+	at arc.util.serialization.Jval$Hparser.readName(Jval.java:717)
+	at arc.util.serialization.Jval$Hparser.readObject(Jval.java:686)
+	at arc.util.serialization.Jval$Hparser.parse(Jval.java:502)
+	at arc.util.serialization.Jval.read(Jval.java:64)
+	at mindustry.mod.DataPatcher.apply(DataPatcher.java:232)
+	at mindustry.mod.DataPatcher.apply(DataPatcher.java:89)
+	at mindustry.mod.DataManager.load(DataManager.java:232)
+	at PatcherTests.apply(PatcherTests.java:24)
+	at PatcherTests.gibberish(PatcherTests.java:356)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:688)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:149)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:140)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:84)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:104)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:98)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$6(TestMethodTestDescriptor.java:210)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:206)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:131)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:65)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:108)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:96)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:75)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestDefinitionProcessor$CollectThenExecuteTestDefinitionConsumer.processAllTestClasses(JUnitPlatformTestDefinitionProcessor.java:172)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestDefinitionProcessor$CollectThenExecuteTestDefinitionConsumer.access$000(JUnitPlatformTestDefinitionProcessor.java:121)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestDefinitionProcessor.stop(JUnitPlatformTestDefinitionProcessor.java:114)
+	at org.gradle.api.internal.tasks.testing.SuiteTestDefinitionProcessor.stop(SuiteTestDefinitionProcessor.java:64)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.gradle.internal.dispatch.MethodInvocation.invokeOn(MethodInvocation.java:77)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:28)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:19)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:88)
+	at jdk.proxy1/jdk.proxy1.$Proxy4.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:195)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:126)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:103)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:63)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:122)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:72)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+
+[ContentPatcher] Field 'public int mindustry.world.Block.size' cannot be edited.
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

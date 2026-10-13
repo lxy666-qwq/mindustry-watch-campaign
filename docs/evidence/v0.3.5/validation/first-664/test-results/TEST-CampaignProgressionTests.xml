@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="CampaignProgressionTests" tests="14" skipped="0" failures="0" errors="0" timestamp="2026-10-13T13:05:15.426Z" hostname="LAPTOP-B3R6MC71" time="2.459">
+  <properties/>
+  <testcase name="[1] NORMAL" classname="CampaignProgressionTests" time="0.274"/>
+  <testcase name="[2] HEROIC" classname="CampaignProgressionTests" time="0.087"/>
+  <testcase name="[3] TACTICAL" classname="CampaignProgressionTests" time="0.064"/>
+  <testcase name="all56LevelsAnd168ModesAreReachableWithoutCircularStarGates()" classname="CampaignProgressionTests" time="0.005"/>
+  <testcase name="finalBranchDoesNotBlockItsOwnOriginAnchor()" classname="CampaignProgressionTests" time="0.0"/>
+  <testcase name="fourStarBranchAndOtherMapsCannotReceiveStrongholdKit()" classname="CampaignProgressionTests" time="0.002"/>
+  <testcase name="normalMilestonesRequireTheirFiveStarCounterBranch()" classname="CampaignProgressionTests" time="0.0"/>
+  <testcase name="mainStarsNeverGrantEquipmentAndBranchFourStarsDoNotGrantIt()" classname="CampaignProgressionTests" time="0.0"/>
+  <testcase name="nativeCampaignRulesNeverReceiveFreePersistentEquipment()" classname="CampaignProgressionTests" time="0.0"/>
+  <testcase name="[1] NORMAL" classname="CampaignProgressionTests" time="0.555"/>
+  <testcase name="[2] HEROIC" classname="CampaignProgressionTests" time="0.317"/>
+  <testcase name="[3] TACTICAL" classname="CampaignProgressionTests" time="0.297"/>
+  <testcase name="everyRewardHasExplicitEquipmentInBothPlanetFamilies()" classname="CampaignProgressionTests" time="0.002"/>
+  <testcase name="tideKitIsUnavailableAtFourStarsOrOnOtherMissions()" classname="CampaignProgressionTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

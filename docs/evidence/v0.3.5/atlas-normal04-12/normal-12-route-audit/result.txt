@@ -1,0 +1,15 @@
+runtime=0.3.4
+class=file:/local-work/mindustry-star-work/star034-runtime/Mindustry.jar
+mainStars=18
+noSimulation=true
+275,482 block=air floor=yellow-stone solid=false stellCanPass=true meruiCanPass=true discovered=true
+278,448 block=carbon-wall floor=carbon-stone solid=true stellCanPass=false meruiCanPass=false discovered=true
+275,420 block=air floor=rhyolite solid=false stellCanPass=true meruiCanPass=true discovered=false
+264,408 block=air floor=rhyolite solid=false stellCanPass=true meruiCanPass=true discovered=false
+265,470 block=air floor=rhyolite solid=false stellCanPass=true meruiCanPass=true discovered=true
+267,450 block=air floor=yellow-stone solid=false stellCanPass=true meruiCanPass=true discovered=true
+266,430 block=air floor=rhyolite solid=false stellCanPass=true meruiCanPass=true discovered=false
+263,409 block=air floor=rhyolite solid=false stellCanPass=true meruiCanPass=true discovered=false
+261,403 block=air floor=rhyolite solid=false stellCanPass=true meruiCanPass=true discovered=false
+253,402 block=air floor=rhyolite solid=false stellCanPass=true meruiCanPass=true discovered=false
+245,399 block=rhyolite-wall floor=rhyolite solid=true stellCanPass=false meruiCanPass=false discovered=false

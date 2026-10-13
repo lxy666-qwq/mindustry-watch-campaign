@@ -1,0 +1,7 @@
+simSeconds,x,y,dominantItem,nativeDrillSpeed,storedItems,nativeOutputBlock,outputStored,coreCoal,coreGraphite
+60.0,79,53,煤炭,0.008,ItemModule{},conveyor,ItemModule{},129,0
+60.0,82,53,煤炭,0.008,ItemModule{},conveyor,ItemModule{coal:1},129,0
+120.0,79,53,煤炭,0.008,ItemModule{},conveyor,ItemModule{},96,0
+120.0,82,53,煤炭,0.008,ItemModule{},conveyor,ItemModule{},96,0
+180.0,79,53,煤炭,0.008,ItemModule{},conveyor,ItemModule{coal:1},34,0
+180.0,82,53,煤炭,0.008,ItemModule{},conveyor,ItemModule{},34,0

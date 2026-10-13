@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="power.PowerTests$PowerGraphTests" tests="17" skipped="0" failures="0" errors="0" timestamp="2026-10-13T13:18:38.617Z" hostname="LAPTOP-B3R6MC71" time="0.047">
+  <properties/>
+  <testcase name="directConsumptionStopsWithNoPower()" classname="power.PowerTests$PowerGraphTests" time="0.019"/>
+  <testcase name="01" classname="power.PowerTests$PowerGraphTests" time="0.001"/>
+  <testcase name="02" classname="power.PowerTests$PowerGraphTests" time="0.0"/>
+  <testcase name="03" classname="power.PowerTests$PowerGraphTests" time="0.0"/>
+  <testcase name="04" classname="power.PowerTests$PowerGraphTests" time="0.0"/>
+  <testcase name="05" classname="power.PowerTests$PowerGraphTests" time="0.0"/>
+  <testcase name="06" classname="power.PowerTests$PowerGraphTests" time="0.001"/>
+  <testcase name="07" classname="power.PowerTests$PowerGraphTests" time="0.0"/>
+  <testcase name="01" classname="power.PowerTests$PowerGraphTests" time="0.002"/>
+  <testcase name="02" classname="power.PowerTests$PowerGraphTests" time="0.0"/>
+  <testcase name="03" classname="power.PowerTests$PowerGraphTests" time="0.0"/>
+  <testcase name="04" classname="power.PowerTests$PowerGraphTests" time="0.0"/>
+  <testcase name="05" classname="power.PowerTests$PowerGraphTests" time="0.0"/>
+  <testcase name="06" classname="power.PowerTests$PowerGraphTests" time="0.0"/>
+  <testcase name="07" classname="power.PowerTests$PowerGraphTests" time="0.0"/>
+  <testcase name="08" classname="power.PowerTests$PowerGraphTests" time="0.0"/>
+  <testcase name="09" classname="power.PowerTests$PowerGraphTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

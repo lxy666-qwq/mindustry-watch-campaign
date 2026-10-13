@@ -1,0 +1,15 @@
+runtime=0.3.5
+codeLocation=file:/local-work/mindustry-star-work/star035-runtime/Mindustry.jar
+source=local-work/mindustry-star-work/manual-core-probe035/v035-core-cargo02
+checkpoint=end
+legacy=false
+keptNonlogistics=0
+clearedOldLogistics=0
+loadedTags=308
+worldFields=260
+worldFieldsAllEqual=true
+roundtripAllEqual=true
+scoreCount=168
+mainStars=21
+bestScoresUnchanged=true
+initialTaskA=0

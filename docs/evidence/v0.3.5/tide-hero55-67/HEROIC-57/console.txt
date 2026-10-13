@@ -1,0 +1,88 @@
+initial grid: node=86,19 links=[5242899, 5963795] battery=5963795 batteryLinked=true sameGraph=true
+Tide native plan cost from original block requirements:
+plannedBuildings=137
+copper=2066
+lead=879
+metaglass=148
+graphite=599
+titanium=325
+thorium=80
+silicon=230
+plastanium=80
+phase-fabric=40
+
+driver: added=true dead=false unit=Unit#295:alpha (704.0, 208.01492) plans=1 next=BuildPlan{x=88, y=50, rotation=0, block=duo, breaking=false, progress=0.0, initialized=false, config=null} tile=air valid=true unlocked=true env=true placeable=true dist=191.98508
+0.0,1.313964,1,0,1.0,1001,700,200,0,0,0,2,60.0,0.0,300,350,0.0,0.0
+driver: added=true dead=false unit=Unit#295:alpha (682.7172, 312.60434) plans=0 next=BuildPlan{x=78, y=27, rotation=0, block=bridge-conveyor, breaking=false, progress=0.0, initialized=false, config=(4, 0)} tile=air valid=true unlocked=true env=true placeable=true dist=113.04916
+60.0,1.7986951,1,0,1.0,119,327,129,75,6,16,6,120.0,0.0,260,350,2855.2888,0.7000004
+driver: added=true dead=false unit=Unit#295:alpha (677.57794, 293.2799) plans=0 next=BuildPlan{x=78, y=27, rotation=0, block=bridge-conveyor, breaking=false, progress=0.0, initialized=false, config=(4, 0)} tile=air valid=true unlocked=true env=true placeable=true dist=94.03606
+120.0,2.0900793,1,0,1.0,119,403,87,75,9,28,6,120.0,0.0,260,350,4000.0,0.7000004
+driver: added=true dead=false unit=Unit#295:alpha (674.1092, 280.23373) plans=0 next=BuildPlan{x=78, y=27, rotation=0, block=bridge-conveyor, breaking=false, progress=0.0, initialized=false, config=(4, 0)} tile=air valid=true unlocked=true env=true placeable=true dist=81.46719
+180.0,2.3789077,2,4,1.0,119,479,106,75,10,34,6,120.0,0.0,260,350,4000.0,0.7000004
+driver: added=true dead=false unit=Unit#788:alpha (702.0099, 213.95834) plans=0 next=BuildPlan{x=78, y=27, rotation=0, block=bridge-conveyor, breaking=false, progress=0.0, initialized=false, config=(4, 0)} tile=air valid=true unlocked=true env=true placeable=true dist=78.0366
+240.0,2.8155596,2,0,0.95295465,80,555,62,75,15,47,6,94.0,0.0,260,350,4000.0,0.7000004
+driver: added=true dead=false unit=Unit#952:alpha (682.73737, 259.00546) plans=0 next=BuildPlan{x=78, y=27, rotation=0, block=bridge-conveyor, breaking=false, progress=0.0, initialized=false, config=(4, 0)} tile=air valid=true unlocked=true env=true placeable=true dist=72.798
+300.0,3.1345196,3,0,0.8494549,21,631,56,75,20,59,5,68.0,0.0,260,350,4000.0,0.7000004
+driver: added=true dead=false unit=Unit#1225:alpha (704.0, 208.29825) plans=0 next=BuildPlan{x=78, y=27, rotation=0, block=bridge-conveyor, breaking=false, progress=0.0, initialized=false, config=(4, 0)} tile=air valid=true unlocked=true env=true placeable=true dist=80.36987
+347.4,3.47705,4,3,0.0,0,0,0,75,23,67,3,0.0,0.0,0,0,4000.0,1.0
+segmentBuiltAtSeconds=-0.016666668
+observedNativeRemovalsLowerBound=0
+observedNativeDamageReductions=0
+minimumActivePowerStatus=1.0
+minimumStoredWhileTargetActive=Infinity
+mode=HEROIC
+actualVersion=0.3.3
+observedNativeBoosterSiliconConsumed=0
+maximumNativeMenderPhaseHeat=0.0
+bandageBuiltAtSeconds=20.466667
+observedNativeBandageGraphiteConsumed=0
+profileScope=isolated-combat-qa-existing-actual-scores
+mainStars=0
+driverClassLocation=file:/local-work/mindustry-star-work/tide033-hero57-classes/
+rulesTags={stars.asset.6094874=22, stars.asset.5898266=19, stars.constructed.74=true, stars.asset.6488090=28, stars.asset.5636115=2, stars.constructed.138=true, stars.counterKit=true, stars.minCore=-0.006771673, stars.constructed.125=true, stars.asset.4784175=128, stars.asset.4980784=112, stars.taskBStart=0, stars.constructed.112=true, stars.asset.6815777=142, stars.asset.4980771=137, stars.constructed.95=true, stars.asset.6225969=104, stars.constructed.82=true, stars.asset.6684704=43, stars.asset.5111848=99, stars.asset.4849712=145, stars.constructed.146=true, stars.asset.6684698=31, stars.constructed.133=true, stars.asset.4718627=134, stars.constructed.107=true, stars.asset.6029338=21, stars.asset.4718640=126, stars.constructed.120=true, stars.asset.5242928=101, stars.constructed.77=true, stars.asset.5767203=92, stars.constructed.90=true, stars.asset.5767197=86, stars.asset.5505059=118, stars.constructed.128=true, stars.asset.5046323=55, stars.asset.4980787=54, stars.constructed.141=true, stars.asset.4915235=138, stars.constructed.115=true, stars.constructed.98=true, stars.constructed.102=true, stars.asset.6094885=84, stars.constructed.85=true, stars.asset.6815780=139, stars.asset.6684707=49, stars.asset.5242923=115, stars.asset.6225946=24, stars.deadline=3117.0, stars.asset.6160410=23, stars.asset.6488115=72, stars.constructed.136=true, stars.asset.6619162=30, stars.constructed.123=true, stars.asset.5767219=76, stars.flowVersion=2, stars.asset.6357043=70, stars.constructed.110=true, stars.asset.6094893=98, stars.asset.6029341=130, stars.asset.4784160=90, stars.constructed.93=true, stars.constructed.80=true, stars.asset.5242931=58, stars.asset.6684702=39, stars.asset.6160431=105, stars.asset.5111859=56, stars.asset.5636121=122, stars.constructed.144=true, stars.constructed.118=true, stars.asset.5242899=1, stars.constructed.131=true, stars.constructed.105=true, stars.asset.5439525=83, stars.constructed.88=true, stars.constructed.75=true, stars.rewardRefundBase=0.5, stars.asset.5963827=64, stars.asset.6553651=82, stars.constructed.139=true, stars.asset.6422579=81, stars.constructed.126=true, stars.asset.4849699=146, stars.asset.4980759=88, stars.asset.4980772=136, stars.constructed.113=true, stars.asset.4784163=135, stars.taskAStart=0, stars.asset.6094883=103, stars.constructed.96=true, stars.constructed.100=true, stars.partial=false, stars.asset.5963795=3, stars.constructed.83=true, stars.finished=true, stars.asset.6684705=45, stars.asset.6094870=4, stars.asset.4522012=91, stars.asset.5373987=95, stars.constructed.147=true, stars.asset.6684699=33, stars.constructed.134=true, stars.asset.5111836=87, stars.asset.4849700=50, stars.lossBudget=22, stars.assetNext=148, stars.asset.4718628=133, stars.asset.5177395=57, stars.constructed.108=true, stars.asset.6029339=132, stars.asset.4718641=125, stars.constructed.121=true, stars.asset.5439515=102, stars.earned=0, stars.constructed.78=true, stars.buildBudget=160, stars.constructed.91=true, stars.preset=watch-6, stars.asset.6684700=35, stars.asset.6291482=25, stars.constructed.129=true, stars.constructed.142=true, stars.constructed.116=true, stars.asset.6094899=66, stars.constructed.99=true, stars.constructed.103=true, stars.constructed.86=true, stars.asset.6684708=51, stars.asset.5898291=77, stars.rewardBuildBase=1.0, stars.asset.4849716=110, stars.asset.5111839=148, stars.constructed.137=true, stars.failed=true, stars.asset.5505055=119, stars.asset.4718644=108, stars.constructed.124=true, stars.asset.4980783=113, stars.native=false, stars.constructed.111=true, stars.asset.6357018=26, stars.asset.6815776=143, stars.constructed.94=true, stars.asset.6750240=144, stars.constructed.81=true, stars.asset.6684703=41, stars.asset.4849711=129, stars.asset.5636122=17, stars.constructed.145=true, stars.asset.4718639=127, stars.constructed.119=true, stars.constructed.132=true, stars.asset.6029363=78, stars.constructed.106=true, stars.constructed.89=true, stars.asset.5308467=59, stars.asset.5242927=114, stars.constructed.76=true, stars.asset.6553626=29, stars.asset.4915247=100, stars.constructed.127=true, stars.asset.5963802=20, stars.constructed.140=true, stars.constructed.114=true, stars.asset.6291507=80, stars.asset.6815779=140, stars.constructed.97=true, stars.asset.6422554=27, stars.asset.6750243=141, stars.elapsed=347.3593, stars.constructed.101=true, stars.constructed.84=true, stars.asset.5308449=89, stars.asset.6684706=47, stars.asset.6160435=79, stars.asset.5636125=121, stars.asset.6225971=68, stars.asset.5570611=63, stars.constructed.148=true, stars.asset.5767191=85, stars.constructed.135=true, stars.constructed.109=true, stars.asset.5505053=120, stars.asset.4718642=123, stars.constructed.122=true, stars.asset.4849695=147, stars.constructed.79=true, stars.asset.6029340=131, stars.constructed.92=true, stars.placed=75, stars.asset.6225966=53, stars.asset.6684701=37, stars.mode=HEROIC, stars.coreLosses=1, stars.constructed.143=true, stars.constructed.117=true, stars.constructed.130=true, stars.asset.4784180=109, stars.constructed.104=true, stars.constructed.87=true}
+
+trial=legal-build
+selection=direct-map-combat-test; campaign gate not claimed
+profileScope=isolated-combat-qa-existing-actual-scores
+profile=local-work/mindustry-star-work/legal-trial-watch5-normal3/profile
+gateVerified=false
+mission=watch-6
+mode=HEROIC
+finished=true
+winner=crux
+wave=4
+actualSpawnWaves=3
+simSeconds=347.4
+wallSeconds=3.4842937
+placedBuildings=75
+withdraws=23
+deposits=67
+turretControls=0
+friendlyMonoSurvivors=0
+coreMinimum=-0.006771673
+buildingsDestroyed=17
+buildingsDeconstructed=20
+pendingRemovals=0
+pendingPlans=62
+nextPlan=BuildPlan{x=78, y=27, rotation=0, block=bridge-conveyor, breaking=false, progress=0.0, initialized=false, config=(4, 0)}
+actualVersion=0.3.3
+codeLocation=file:/local-work/mindustry-star-work/star033-runtime/Mindustry.jar
+assetsSource=local-work/mindustry-star-work/star033-runtime/assets
+CampaignStars.classModifiedAtStart=1791877212532
+WatchMapGenerator.classModifiedAtStart=1791877212532
+waveTimer=true
+objectives=0
+objectiveFlags={}
+modeStarsBefore=0
+missionStarsBefore=4
+mainStarsBefore=0
+branchRewardBefore=false
+modeStarsAfter=0
+starsAfter=4
+mainStarsAfter=0
+branchRewardAfter=false
+frozenForestUnlocked=false
+settingsFile=local-work/mindustry-star-work/legal-trial-watch5-normal3/profile/settings.bin
+settingsExists=true
+status=��ս����δ��ɣ����λ�� 0 / 1 �ǣ������ۼ� 4 / 5
+

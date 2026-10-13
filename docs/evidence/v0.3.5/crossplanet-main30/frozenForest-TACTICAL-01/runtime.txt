@@ -1,0 +1,6 @@
+actualVersion=0.3.4
+jar=local-work/mindustry-star-work/star034-runtime/Mindustry.jar
+jarModifiedAtStart=1791887228434
+assets=local-work/mindustry-star-work/star034-runtime/assets
+profile=local-work/mindustry-star-work/crossplanet034-ui/profile
+noScoreMerging=true

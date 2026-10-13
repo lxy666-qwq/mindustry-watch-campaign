@@ -1,0 +1,7 @@
+source=BuildPlan{x=281, y=285, rotation=2, block=duct-router, breaking=false, progress=0.0, initialized=false, config=null} target=BuildPlan{x=259, y=337, rotation=0, block=breach, breaking=false, progress=0.0, initialized=false, config=null}
+yellow-stone:air:air[280,285] entity=null:derelict reserved=true native=true routeTile=false
+yellow-stone-plates:air:air[281,284] entity=null:derelict reserved=false native=true routeTile=false
+ adjacent producer BuildPlan{x=283, y=284, rotation=0, block=impact-drill, breaking=false, progress=0.0, initialized=false, config=null} suppliedBy=BuildPlan{x=281, y=286, rotation=1, block=duct, breaking=false, progress=0.0, initialized=false, config=null}
+yellow-stone:air:ore-tungsten[281,286] entity=null:derelict reserved=true native=true routeTile=false
+ adjacent producer BuildPlan{x=283, y=284, rotation=0, block=impact-drill, breaking=false, progress=0.0, initialized=false, config=null} suppliedBy=BuildPlan{x=281, y=286, rotation=1, block=duct, breaking=false, progress=0.0, initialized=false, config=null}
+yellow-stone:air:ore-tungsten[282,285] entity=null:derelict reserved=true native=true routeTile=false
