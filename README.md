@@ -2,7 +2,7 @@
 
 基于 Mindustry v160.7，把官方命名主线改为“普通三星＋英雄一星＋战术一星”的五星战役，并将原守望十关分布为主线附近的星数支线。保留原地图目标、地形与产线建设，通过核心保护、限时防御和设施任务增加重玩挑战。
 
-当前版本：**0.3.0（预览版）**。46个官方主线与10个守望支线，各有3种任务，共168个任务、280星。全168个任务的实际通关与难度平衡验证尚未完成。
+当前版本：**0.3.1（预览版）**。46个官方主线与10个守望支线，各有3种任务，共168个任务、280星。全168个任务的实际通关与难度平衡验证尚未完成。
 
 原项目作者为 Anuken 及 Mindustry 社区；本仓库是课程实践的派生版本。原说明保存在 [README.upstream.md](README.upstream.md)。
 
@@ -13,7 +13,7 @@
 Windows 本地完整环境位于 `D:\软件工程`：
 
 1. 新版入口为 `五星战役.bat`，使用独立的 `五星存档` 目录。
-2. 主菜单点击 **五星战役 0.3.0**，选择 Serpulo 或 Erekir。
+2. 主菜单点击 **五星战役 0.3.1**，选择 Serpulo 或 Erekir。
 3. 选择主线关卡，阅读任务要求后开始普通任务；普通通关后可选择英雄与战术挑战；指定关卡还须满足支线满五星装备准备。
 4. 主线取得的总星数满足支线门槛，且完成锚点普通任务后，开放附近守望支线。
 5. 每次从任务入口开始都从初始地图重玩；通过读档可继续同一次任务。退出前正常保存。
@@ -122,8 +122,9 @@ powershell -NoProfile -ExecutionPolicy Bypass -File ..\项目操作.ps1 -Action 
 - `coursework-v0.1.0`：v160.7原版基线与课程环境。
 - `coursework-v0.2.0`：独立守望星球、十关地形事件及独立存档。
 - `coursework-v0.3.0`：五星战役预览版；关卡树、分散支线、装备准备、有限永久奖励与战地绷带塔。完整168任务实战尚未完成。
+- `coursework-v0.3.1`：修正环境伤害与同帧修复可能漏记核心最低生命；621项回归及真实桌面存读档通过。
 
-本轮614项测试全部通过，桌面最终JAR及8张复查截图已核对。星级、奖励链与具体战斗证据见 [v0.3.0验证记录](docs/verification-v0.3.0.md)和[逐项试玩台账](docs/playthrough-v0.3.0.md)。预览版下载见[coursework-v0.3.0发布页](https://github.com/lxy666-qwq/mindustry-watch-campaign/releases/tag/coursework-v0.3.0)。
+本轮621项测试全部通过，桌面新JAR及3张核心生命修订图已核对。历史与新增共21/168个模式有真实授星样例，完整实战尚未完成。证据见[v0.3.1验证记录](docs/verification-v0.3.1.md)与[逐项试玩台账](docs/playthrough-v0.3.1.md)。预览版下载见[coursework-v0.3.1发布页](https://github.com/lxy666-qwq/mindustry-watch-campaign/releases/tag/coursework-v0.3.1)。v0.3.0标签、程序和证据保留。
 
 历史验证记录为 [v0.2.0验证记录](docs/verification-v0.2.0.md)。当前功能变更与验证进度见 [CHANGELOG.md](CHANGELOG.md)，发布流程见 [RELEASE_PROCESS.md](docs/RELEASE_PROCESS.md)。
 

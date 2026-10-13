@@ -70,11 +70,6 @@ public class CampaignStars{
             }
         });
         Events.run(Trigger.update, CampaignStars::update);
-        Events.on(BuildDamageEvent.class, e -> {
-            if(running() && e.build.team == state.rules.defaultTeam && e.build.block instanceof CoreBlock){
-                recordCoreHealth(e.build.healthf());
-            }
-        });
         Events.on(BlockDestroyEvent.class, e -> {
             if(running()) state.rules.tags.remove(prefix + "asset." + e.tile.pos());
             if(running() && e.tile.team() == state.rules.defaultTeam && e.tile.block() instanceof CoreBlock){
@@ -537,6 +532,12 @@ public class CampaignStars{
 
     public static int placed(){
         return state.rules.tags.getInt(prefix + "placed", 0);
+    }
+
+    public static void recordCoreHealth(Building building){
+        if(running() && building.team == state.rules.defaultTeam && building.block instanceof CoreBlock){
+            recordCoreHealth(building.healthf());
+        }
     }
 
     public static void recordCoreHealth(float fraction){

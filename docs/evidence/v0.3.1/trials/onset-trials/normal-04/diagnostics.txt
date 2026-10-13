@@ -1,0 +1,239 @@
+seconds=0.0 pilot=276.5,107.5 cargo=铜: 0 pending=none
+seconds=0.0 pilot=276.5626,107.494385 cargo=铜: 0 pending=BuildPlan{x=289, y=116, rotation=0, block=turbine-condenser, breaking=false, progress=0.0, initialized=false, config=null}
+seconds=60.0 pilot=269.93484,112.403755 cargo=铜: 0 pending=BuildPlan{x=243, y=121, rotation=0, block=turbine-condenser, breaking=false, progress=0.46666685, initialized=true, config=null}
+plasma-bore 284,105 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=6.0 need=0.15
+seconds=120.0 pilot=249.32713,95.860374 cargo=石墨: 29 pending=BuildPlan{x=267, y=100, rotation=0, block=silicon-arc-furnace, breaking=false, progress=0.0, initialized=false, config=null}
+plasma-bore 284,105 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=9.0 need=0.45000002
+plasma-bore 286,107 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=9.0 need=0.45000002
+plasma-bore 255,95 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=9.0 need=0.45000002
+seconds=180.0 pilot=285.6581,103.949356 cargo=石墨: 0 pending=BuildPlan{x=273, y=110, rotation=2, block=duct, breaking=false, progress=0.0, initialized=false, config=null}
+plasma-bore 284,105 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=9.0 need=0.6333333
+plasma-bore 286,107 eff=1.0 enabled=true items=ItemModule{beryllium:2} power=1.0 produced=9.0 need=0.6333333
+plasma-bore 255,95 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=9.0 need=0.6333333
+silicon-arc-furnace 267,100 eff=0.0 enabled=true items=ItemModule{graphite:4,silicon:4} power=1.0 produced=9.0 need=0.6333333
+cliff-crusher 275,89 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=9.0 need=0.6333333
+cliff-crusher 277,90 eff=0.0 enabled=true items=ItemModule{} power=0.0 produced=0.0 need=0.18333334
+seconds=240.0 pilot=290.4414,105.09871 cargo=石墨: 0 pending=BuildPlan{x=265, y=117, rotation=0, block=tank-fabricator, breaking=false, progress=0.0, initialized=false, config=null}
+plasma-bore 284,105 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=9.0 need=0.81666666
+plasma-bore 286,107 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=9.0 need=0.81666666
+plasma-bore 255,95 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=9.0 need=0.81666666
+silicon-arc-furnace 267,100 eff=0.0 enabled=true items=ItemModule{graphite:13,sand:1} power=1.0 produced=9.0 need=0.81666666
+cliff-crusher 275,89 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=9.0 need=0.81666666
+cliff-crusher 277,90 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=9.0 need=0.81666666
+seconds=300.0 pilot=290.4414,105.09871 cargo=石墨: 0 pending=BuildPlan{x=265, y=117, rotation=0, block=tank-fabricator, breaking=false, progress=0.0, initialized=false, config=null}
+plasma-bore 284,105 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=9.0 need=0.6333333
+plasma-bore 286,107 eff=1.0 enabled=true items=ItemModule{beryllium:2} power=1.0 produced=9.0 need=0.6333333
+plasma-bore 255,95 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=9.0 need=0.6333333
+silicon-arc-furnace 267,100 eff=0.0 enabled=true items=ItemModule{graphite:24,sand:2} power=1.0 produced=9.0 need=0.6333333
+cliff-crusher 275,89 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=9.0 need=0.6333333
+cliff-crusher 277,90 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=9.0 need=0.6333333
+seconds=360.0 pilot=290.4414,105.09871 cargo=石墨: 0 pending=BuildPlan{x=265, y=117, rotation=0, block=tank-fabricator, breaking=false, progress=0.0, initialized=false, config=null}
+plasma-bore 284,105 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=9.0 need=0.6333333
+plasma-bore 286,107 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=9.0 need=0.6333333
+plasma-bore 255,95 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=9.0 need=0.6333333
+silicon-arc-furnace 267,100 eff=0.0 enabled=true items=ItemModule{graphite:30,sand:3} power=1.0 produced=9.0 need=0.6333333
+cliff-crusher 275,89 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=9.0 need=0.6333333
+cliff-crusher 277,90 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=9.0 need=0.6333333
+seconds=420.0 pilot=290.4414,105.09871 cargo=石墨: 0 pending=BuildPlan{x=265, y=117, rotation=0, block=tank-fabricator, breaking=false, progress=0.0, initialized=false, config=null}
+plasma-bore 284,105 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=9.0 need=0.6333333
+plasma-bore 286,107 eff=1.0 enabled=true items=ItemModule{beryllium:2} power=1.0 produced=9.0 need=0.6333333
+plasma-bore 255,95 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=9.0 need=0.6333333
+silicon-arc-furnace 267,100 eff=0.0 enabled=true items=ItemModule{graphite:30,sand:3} power=1.0 produced=9.0 need=0.6333333
+cliff-crusher 275,89 eff=1.0 enabled=true items=ItemModule{sand:9} power=1.0 produced=9.0 need=0.6333333
+cliff-crusher 277,90 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=9.0 need=0.6333333
+seconds=480.0 pilot=290.4414,105.09871 cargo=石墨: 0 pending=BuildPlan{x=265, y=117, rotation=0, block=tank-fabricator, breaking=false, progress=0.0, initialized=false, config=null}
+plasma-bore 284,105 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=9.0 need=0.45000002
+plasma-bore 286,107 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=9.0 need=0.45000002
+plasma-bore 255,95 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=9.0 need=0.45000002
+silicon-arc-furnace 267,100 eff=0.0 enabled=true items=ItemModule{graphite:30,sand:3} power=1.0 produced=9.0 need=0.45000002
+cliff-crusher 275,89 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=9.0 need=0.45000002
+cliff-crusher 277,90 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=9.0 need=0.45000002
+seconds=540.0 pilot=290.4414,105.09871 cargo=石墨: 0 pending=BuildPlan{x=265, y=117, rotation=0, block=tank-fabricator, breaking=false, progress=0.0, initialized=false, config=null}
+plasma-bore 284,105 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=9.0 need=0.45000002
+plasma-bore 286,107 eff=1.0 enabled=true items=ItemModule{beryllium:2} power=1.0 produced=9.0 need=0.45000002
+plasma-bore 255,95 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=9.0 need=0.45000002
+silicon-arc-furnace 267,100 eff=0.0 enabled=true items=ItemModule{graphite:30,sand:3} power=1.0 produced=9.0 need=0.45000002
+cliff-crusher 275,89 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=9.0 need=0.45000002
+cliff-crusher 277,90 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=9.0 need=0.45000002
+seconds=600.0 pilot=290.4414,105.09871 cargo=石墨: 0 pending=BuildPlan{x=265, y=117, rotation=0, block=tank-fabricator, breaking=false, progress=0.0, initialized=false, config=null}
+plasma-bore 284,105 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=9.0 need=0.45000002
+plasma-bore 286,107 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=9.0 need=0.45000002
+plasma-bore 255,95 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=9.0 need=0.45000002
+silicon-arc-furnace 267,100 eff=0.0 enabled=true items=ItemModule{graphite:30,sand:3} power=1.0 produced=9.0 need=0.45000002
+cliff-crusher 275,89 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=9.0 need=0.45000002
+cliff-crusher 277,90 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=9.0 need=0.45000002
+seconds=660.0 pilot=290.4414,105.09871 cargo=石墨: 0 pending=BuildPlan{x=265, y=117, rotation=0, block=tank-fabricator, breaking=false, progress=0.0, initialized=false, config=null}
+plasma-bore 284,105 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=9.0 need=0.45000002
+plasma-bore 286,107 eff=1.0 enabled=true items=ItemModule{beryllium:2} power=1.0 produced=9.0 need=0.45000002
+plasma-bore 255,95 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=9.0 need=0.45000002
+silicon-arc-furnace 267,100 eff=0.0 enabled=true items=ItemModule{graphite:30,sand:3} power=1.0 produced=9.0 need=0.45000002
+cliff-crusher 275,89 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=9.0 need=0.45000002
+cliff-crusher 277,90 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=9.0 need=0.45000002
+seconds=720.0 pilot=290.4414,105.09871 cargo=石墨: 0 pending=BuildPlan{x=265, y=117, rotation=0, block=tank-fabricator, breaking=false, progress=0.0, initialized=false, config=null}
+plasma-bore 284,105 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=9.0 need=0.45000002
+plasma-bore 286,107 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=9.0 need=0.45000002
+plasma-bore 255,95 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=9.0 need=0.45000002
+silicon-arc-furnace 267,100 eff=0.0 enabled=true items=ItemModule{graphite:30,sand:3} power=1.0 produced=9.0 need=0.45000002
+cliff-crusher 275,89 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=9.0 need=0.45000002
+cliff-crusher 277,90 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=9.0 need=0.45000002
+seconds=780.0 pilot=290.4414,105.09871 cargo=石墨: 0 pending=BuildPlan{x=265, y=117, rotation=0, block=tank-fabricator, breaking=false, progress=0.0, initialized=false, config=null}
+plasma-bore 284,105 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=9.0 need=0.45000002
+plasma-bore 286,107 eff=1.0 enabled=true items=ItemModule{beryllium:2} power=1.0 produced=9.0 need=0.45000002
+plasma-bore 255,95 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=9.0 need=0.45000002
+silicon-arc-furnace 267,100 eff=0.0 enabled=true items=ItemModule{graphite:30,sand:3} power=1.0 produced=9.0 need=0.45000002
+cliff-crusher 275,89 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=9.0 need=0.45000002
+cliff-crusher 277,90 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=9.0 need=0.45000002
+seconds=840.0 pilot=290.4414,105.09871 cargo=石墨: 0 pending=BuildPlan{x=265, y=117, rotation=0, block=tank-fabricator, breaking=false, progress=0.0, initialized=false, config=null}
+plasma-bore 284,105 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=9.0 need=0.45000002
+plasma-bore 286,107 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=9.0 need=0.45000002
+plasma-bore 255,95 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=9.0 need=0.45000002
+silicon-arc-furnace 267,100 eff=0.0 enabled=true items=ItemModule{graphite:30,sand:3} power=1.0 produced=9.0 need=0.45000002
+cliff-crusher 275,89 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=9.0 need=0.45000002
+cliff-crusher 277,90 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=9.0 need=0.45000002
+seconds=900.0 pilot=290.4414,105.09871 cargo=石墨: 0 pending=BuildPlan{x=265, y=117, rotation=0, block=tank-fabricator, breaking=false, progress=0.0, initialized=false, config=null}
+plasma-bore 284,105 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=9.0 need=0.45000002
+plasma-bore 286,107 eff=1.0 enabled=true items=ItemModule{beryllium:2} power=1.0 produced=9.0 need=0.45000002
+plasma-bore 255,95 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=9.0 need=0.45000002
+silicon-arc-furnace 267,100 eff=0.0 enabled=true items=ItemModule{graphite:30,sand:3} power=1.0 produced=9.0 need=0.45000002
+cliff-crusher 275,89 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=9.0 need=0.45000002
+cliff-crusher 277,90 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=9.0 need=0.45000002
+seconds=960.0 pilot=290.4414,105.09871 cargo=石墨: 0 pending=BuildPlan{x=265, y=117, rotation=0, block=tank-fabricator, breaking=false, progress=0.0, initialized=false, config=null}
+plasma-bore 284,105 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=9.0 need=0.45000002
+plasma-bore 286,107 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=9.0 need=0.45000002
+plasma-bore 255,95 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=9.0 need=0.45000002
+silicon-arc-furnace 267,100 eff=0.0 enabled=true items=ItemModule{graphite:30,sand:3} power=1.0 produced=9.0 need=0.45000002
+cliff-crusher 275,89 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=9.0 need=0.45000002
+cliff-crusher 277,90 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=9.0 need=0.45000002
+seconds=1020.0 pilot=290.4414,105.09871 cargo=石墨: 0 pending=BuildPlan{x=265, y=117, rotation=0, block=tank-fabricator, breaking=false, progress=0.0, initialized=false, config=null}
+plasma-bore 284,105 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=9.0 need=0.45000002
+plasma-bore 286,107 eff=1.0 enabled=true items=ItemModule{beryllium:2} power=1.0 produced=9.0 need=0.45000002
+plasma-bore 255,95 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=9.0 need=0.45000002
+silicon-arc-furnace 267,100 eff=0.0 enabled=true items=ItemModule{graphite:30,sand:3} power=1.0 produced=9.0 need=0.45000002
+cliff-crusher 275,89 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=9.0 need=0.45000002
+cliff-crusher 277,90 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=9.0 need=0.45000002
+seconds=1080.0 pilot=290.4414,105.09871 cargo=石墨: 0 pending=BuildPlan{x=265, y=117, rotation=0, block=tank-fabricator, breaking=false, progress=0.0, initialized=false, config=null}
+plasma-bore 284,105 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=9.0 need=0.45000002
+plasma-bore 286,107 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=9.0 need=0.45000002
+plasma-bore 255,95 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=9.0 need=0.45000002
+silicon-arc-furnace 267,100 eff=0.0 enabled=true items=ItemModule{graphite:30,sand:3} power=1.0 produced=9.0 need=0.45000002
+cliff-crusher 275,89 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=9.0 need=0.45000002
+cliff-crusher 277,90 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=9.0 need=0.45000002
+seconds=1140.0 pilot=290.4414,105.09871 cargo=石墨: 0 pending=BuildPlan{x=265, y=117, rotation=0, block=tank-fabricator, breaking=false, progress=0.0, initialized=false, config=null}
+plasma-bore 284,105 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=9.0 need=0.45000002
+plasma-bore 286,107 eff=1.0 enabled=true items=ItemModule{beryllium:2} power=1.0 produced=9.0 need=0.45000002
+plasma-bore 255,95 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=9.0 need=0.45000002
+silicon-arc-furnace 267,100 eff=0.0 enabled=true items=ItemModule{graphite:30,sand:3} power=1.0 produced=9.0 need=0.45000002
+cliff-crusher 275,89 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=9.0 need=0.45000002
+cliff-crusher 277,90 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=9.0 need=0.45000002
+seconds=1200.0 pilot=290.4414,105.09871 cargo=石墨: 0 pending=BuildPlan{x=265, y=117, rotation=0, block=tank-fabricator, breaking=false, progress=0.0, initialized=false, config=null}
+plasma-bore 284,105 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=9.0 need=0.45000002
+plasma-bore 286,107 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=9.0 need=0.45000002
+plasma-bore 255,95 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=9.0 need=0.45000002
+silicon-arc-furnace 267,100 eff=0.0 enabled=true items=ItemModule{graphite:30,sand:3} power=1.0 produced=9.0 need=0.45000002
+cliff-crusher 275,89 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=9.0 need=0.45000002
+cliff-crusher 277,90 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=9.0 need=0.45000002
+seconds=1260.0 pilot=290.4414,105.09871 cargo=石墨: 0 pending=BuildPlan{x=265, y=117, rotation=0, block=tank-fabricator, breaking=false, progress=0.0, initialized=false, config=null}
+plasma-bore 284,105 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=9.0 need=0.45000002
+plasma-bore 286,107 eff=1.0 enabled=true items=ItemModule{beryllium:2} power=1.0 produced=9.0 need=0.45000002
+plasma-bore 255,95 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=9.0 need=0.45000002
+silicon-arc-furnace 267,100 eff=0.0 enabled=true items=ItemModule{graphite:30,sand:3} power=1.0 produced=9.0 need=0.45000002
+cliff-crusher 275,89 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=9.0 need=0.45000002
+cliff-crusher 277,90 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=9.0 need=0.45000002
+seconds=1320.0 pilot=290.4414,105.09871 cargo=石墨: 0 pending=BuildPlan{x=265, y=117, rotation=0, block=tank-fabricator, breaking=false, progress=0.0, initialized=false, config=null}
+plasma-bore 284,105 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=9.0 need=0.45000002
+plasma-bore 286,107 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=9.0 need=0.45000002
+plasma-bore 255,95 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=9.0 need=0.45000002
+silicon-arc-furnace 267,100 eff=0.0 enabled=true items=ItemModule{graphite:30,sand:3} power=1.0 produced=9.0 need=0.45000002
+cliff-crusher 275,89 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=9.0 need=0.45000002
+cliff-crusher 277,90 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=9.0 need=0.45000002
+seconds=1380.0 pilot=290.4414,105.09871 cargo=石墨: 0 pending=BuildPlan{x=265, y=117, rotation=0, block=tank-fabricator, breaking=false, progress=0.0, initialized=false, config=null}
+plasma-bore 284,105 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=9.0 need=0.45000002
+plasma-bore 286,107 eff=1.0 enabled=true items=ItemModule{beryllium:2} power=1.0 produced=9.0 need=0.45000002
+plasma-bore 255,95 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=9.0 need=0.45000002
+silicon-arc-furnace 267,100 eff=0.0 enabled=true items=ItemModule{graphite:30,sand:3} power=1.0 produced=9.0 need=0.45000002
+cliff-crusher 275,89 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=9.0 need=0.45000002
+cliff-crusher 277,90 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=9.0 need=0.45000002
+seconds=1440.0 pilot=290.4414,105.09871 cargo=石墨: 0 pending=BuildPlan{x=265, y=117, rotation=0, block=tank-fabricator, breaking=false, progress=0.0, initialized=false, config=null}
+plasma-bore 284,105 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=9.0 need=0.45000002
+plasma-bore 286,107 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=9.0 need=0.45000002
+plasma-bore 255,95 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=9.0 need=0.45000002
+silicon-arc-furnace 267,100 eff=0.0 enabled=true items=ItemModule{graphite:30,sand:3} power=1.0 produced=9.0 need=0.45000002
+cliff-crusher 275,89 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=9.0 need=0.45000002
+cliff-crusher 277,90 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=9.0 need=0.45000002
+seconds=1500.0 pilot=290.4414,105.09871 cargo=石墨: 0 pending=BuildPlan{x=265, y=117, rotation=0, block=tank-fabricator, breaking=false, progress=0.0, initialized=false, config=null}
+plasma-bore 284,105 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=9.0 need=0.45000002
+plasma-bore 286,107 eff=1.0 enabled=true items=ItemModule{beryllium:2} power=1.0 produced=9.0 need=0.45000002
+plasma-bore 255,95 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=9.0 need=0.45000002
+silicon-arc-furnace 267,100 eff=0.0 enabled=true items=ItemModule{graphite:30,sand:3} power=1.0 produced=9.0 need=0.45000002
+cliff-crusher 275,89 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=9.0 need=0.45000002
+cliff-crusher 277,90 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=9.0 need=0.45000002
+seconds=1560.0 pilot=290.4414,105.09871 cargo=石墨: 0 pending=BuildPlan{x=265, y=117, rotation=0, block=tank-fabricator, breaking=false, progress=0.0, initialized=false, config=null}
+plasma-bore 284,105 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=9.0 need=0.45000002
+plasma-bore 286,107 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=9.0 need=0.45000002
+plasma-bore 255,95 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=9.0 need=0.45000002
+silicon-arc-furnace 267,100 eff=0.0 enabled=true items=ItemModule{graphite:30,sand:3} power=1.0 produced=9.0 need=0.45000002
+cliff-crusher 275,89 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=9.0 need=0.45000002
+cliff-crusher 277,90 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=9.0 need=0.45000002
+seconds=1620.0 pilot=290.4414,105.09871 cargo=石墨: 0 pending=BuildPlan{x=265, y=117, rotation=0, block=tank-fabricator, breaking=false, progress=0.0, initialized=false, config=null}
+plasma-bore 284,105 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=9.0 need=0.45000002
+plasma-bore 286,107 eff=1.0 enabled=true items=ItemModule{beryllium:2} power=1.0 produced=9.0 need=0.45000002
+plasma-bore 255,95 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=9.0 need=0.45000002
+silicon-arc-furnace 267,100 eff=0.0 enabled=true items=ItemModule{graphite:30,sand:3} power=1.0 produced=9.0 need=0.45000002
+cliff-crusher 275,89 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=9.0 need=0.45000002
+cliff-crusher 277,90 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=9.0 need=0.45000002
+seconds=1680.0 pilot=290.4414,105.09871 cargo=石墨: 0 pending=BuildPlan{x=265, y=117, rotation=0, block=tank-fabricator, breaking=false, progress=0.0, initialized=false, config=null}
+plasma-bore 284,105 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=9.0 need=0.45000002
+plasma-bore 286,107 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=9.0 need=0.45000002
+plasma-bore 255,95 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=9.0 need=0.45000002
+silicon-arc-furnace 267,100 eff=0.0 enabled=true items=ItemModule{graphite:30,sand:3} power=1.0 produced=9.0 need=0.45000002
+cliff-crusher 275,89 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=9.0 need=0.45000002
+cliff-crusher 277,90 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=9.0 need=0.45000002
+seconds=1740.0 pilot=290.4414,105.09871 cargo=石墨: 0 pending=BuildPlan{x=265, y=117, rotation=0, block=tank-fabricator, breaking=false, progress=0.0, initialized=false, config=null}
+plasma-bore 284,105 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=9.0 need=0.45000002
+plasma-bore 286,107 eff=1.0 enabled=true items=ItemModule{beryllium:2} power=1.0 produced=9.0 need=0.45000002
+plasma-bore 255,95 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=9.0 need=0.45000002
+silicon-arc-furnace 267,100 eff=0.0 enabled=true items=ItemModule{graphite:30,sand:3} power=1.0 produced=9.0 need=0.45000002
+cliff-crusher 275,89 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=9.0 need=0.45000002
+cliff-crusher 277,90 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=9.0 need=0.45000002
+seconds=1800.0 pilot=290.4414,105.09871 cargo=石墨: 0 pending=BuildPlan{x=265, y=117, rotation=0, block=tank-fabricator, breaking=false, progress=0.0, initialized=false, config=null}
+plasma-bore 284,105 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=9.0 need=0.45000002
+plasma-bore 286,107 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=9.0 need=0.45000002
+plasma-bore 255,95 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=9.0 need=0.45000002
+silicon-arc-furnace 267,100 eff=0.0 enabled=true items=ItemModule{graphite:30,sand:3} power=1.0 produced=9.0 need=0.45000002
+cliff-crusher 275,89 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=9.0 need=0.45000002
+cliff-crusher 277,90 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=9.0 need=0.45000002
+seconds=1860.0 pilot=290.4414,105.09871 cargo=石墨: 0 pending=BuildPlan{x=265, y=117, rotation=0, block=tank-fabricator, breaking=false, progress=0.0, initialized=false, config=null}
+plasma-bore 284,105 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=9.0 need=0.45000002
+plasma-bore 286,107 eff=1.0 enabled=true items=ItemModule{beryllium:2} power=1.0 produced=9.0 need=0.45000002
+plasma-bore 255,95 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=9.0 need=0.45000002
+silicon-arc-furnace 267,100 eff=0.0 enabled=true items=ItemModule{graphite:30,sand:3} power=1.0 produced=9.0 need=0.45000002
+cliff-crusher 275,89 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=9.0 need=0.45000002
+cliff-crusher 277,90 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=9.0 need=0.45000002
+seconds=1920.0 pilot=290.4414,105.09871 cargo=石墨: 0 pending=BuildPlan{x=265, y=117, rotation=0, block=tank-fabricator, breaking=false, progress=0.0, initialized=false, config=null}
+plasma-bore 284,105 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=9.0 need=0.45000002
+plasma-bore 286,107 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=9.0 need=0.45000002
+plasma-bore 255,95 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=9.0 need=0.45000002
+silicon-arc-furnace 267,100 eff=0.0 enabled=true items=ItemModule{graphite:30,sand:3} power=1.0 produced=9.0 need=0.45000002
+cliff-crusher 275,89 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=9.0 need=0.45000002
+cliff-crusher 277,90 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=9.0 need=0.45000002
+seconds=1980.0 pilot=290.4414,105.09871 cargo=石墨: 0 pending=BuildPlan{x=265, y=117, rotation=0, block=tank-fabricator, breaking=false, progress=0.0, initialized=false, config=null}
+plasma-bore 284,105 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=9.0 need=0.45000002
+plasma-bore 286,107 eff=1.0 enabled=true items=ItemModule{beryllium:2} power=1.0 produced=9.0 need=0.45000002
+plasma-bore 255,95 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=9.0 need=0.45000002
+silicon-arc-furnace 267,100 eff=0.0 enabled=true items=ItemModule{graphite:30,sand:3} power=1.0 produced=9.0 need=0.45000002
+cliff-crusher 275,89 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=9.0 need=0.45000002
+cliff-crusher 277,90 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=9.0 need=0.45000002
+seconds=2040.0 pilot=290.4414,105.09871 cargo=石墨: 0 pending=BuildPlan{x=265, y=117, rotation=0, block=tank-fabricator, breaking=false, progress=0.0, initialized=false, config=null}
+plasma-bore 284,105 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=9.0 need=0.45000002
+plasma-bore 286,107 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=9.0 need=0.45000002
+plasma-bore 255,95 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=9.0 need=0.45000002
+silicon-arc-furnace 267,100 eff=0.0 enabled=true items=ItemModule{graphite:30,sand:3} power=1.0 produced=9.0 need=0.45000002
+cliff-crusher 275,89 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=9.0 need=0.45000002
+cliff-crusher 277,90 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=9.0 need=0.45000002
+seconds=2100.0 pilot=290.4414,105.09871 cargo=石墨: 0 pending=BuildPlan{x=265, y=117, rotation=0, block=tank-fabricator, breaking=false, progress=0.0, initialized=false, config=null}
+plasma-bore 284,105 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=9.0 need=0.45000002
+plasma-bore 286,107 eff=1.0 enabled=true items=ItemModule{beryllium:2} power=1.0 produced=9.0 need=0.45000002
+plasma-bore 255,95 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=9.0 need=0.45000002
+silicon-arc-furnace 267,100 eff=0.0 enabled=true items=ItemModule{graphite:30,sand:3} power=1.0 produced=9.0 need=0.45000002
+cliff-crusher 275,89 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=9.0 need=0.45000002
+cliff-crusher 277,90 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=9.0 need=0.45000002

@@ -1,0 +1,1 @@
+seconds=0.0 pilot=276.5,107.5 cargo=铜: 0 onlyDepositCore=true pending=none

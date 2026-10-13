@@ -1,0 +1,8 @@
+mission=onset
+mode=NORMAL
+scope=driver-planning-failure-before-simulation
+gateVerified=true
+finished=false
+simSeconds=0
+stars=0
+error=No route from beryllium output router to factory; layout planner failed, not gameplay failure

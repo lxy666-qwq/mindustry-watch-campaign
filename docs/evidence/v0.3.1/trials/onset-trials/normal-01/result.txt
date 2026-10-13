@@ -1,0 +1,8 @@
+mission=onset
+mode=NORMAL
+finished=false
+scope=driver-planning-failure-before-simulation
+gateVerified=true
+stars=0
+simSeconds=0
+reason=No duct route from planned fourth crusher at 275,89 to furnace267,100; separate reserved routes enclosed the placement. Driver is being revised to use native unlocked duct bridges. No D/source or outcome mutation.

@@ -1,0 +1,7 @@
+size=512x512 core=rhyolite:core-bastion:air[276,107] entity=CoreBuild:sharded resources=ItemModule{}
+core-bastion @276,107 rotation=0 items=ItemModule{}
+world-processor @299,127 rotation=0 items=null
+world-processor @300,127 rotation=0 items=null
+world-processor @301,127 rotation=0 items=null
+world-processor @280,208 rotation=3 items=null
+world-processor @281,208 rotation=2 items=null

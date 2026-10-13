@@ -1,0 +1,8 @@
+mission=onset
+mode=NORMAL
+scope=driver-planning-failure-before-simulation
+gateVerified=true
+finished=false
+simSeconds=0
+stars=0
+error=New ore-to-factory pipe lacked crossing; planner failed before ticks

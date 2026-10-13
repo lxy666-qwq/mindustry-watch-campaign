@@ -1,0 +1,8 @@
+frozenForest.NORMAL=3
+frozenForest.HEROIC=1
+frozenForest.TACTICAL=1
+mainStars=8
+branch0Stars=5
+branch0Reward=true
+frozenForestOpen=true
+readOnlyReload=passed

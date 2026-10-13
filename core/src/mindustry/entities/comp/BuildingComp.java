@@ -2092,6 +2092,8 @@ abstract class BuildingComp implements Posc, Teamc, Healthc, Buildingc, Timerc, 
     }
 
     public void healthChanged(){
+        CampaignStars.recordCoreHealth(self());
+
         //server-side, health updates are batched.
         if(net.server()){
             netServer.buildHealthUpdate(self());

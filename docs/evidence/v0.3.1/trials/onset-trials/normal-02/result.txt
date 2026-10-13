@@ -1,0 +1,8 @@
+mission=onset
+mode=NORMAL
+finished=false
+scope=driver-compile-failure-and-stale-class-run-before-simulation
+gateVerified=true
+stars=0
+simSeconds=0
+reason=New driver compilation failed because Java var cannot declare two variables; the shell then mistakenly ran previous compiled driver. Executed previous source restored as driver-source.java; attempted source separately retained. No gameplay success claimed.

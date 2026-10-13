@@ -1,0 +1,6 @@
+nativeDamagedHealth=0.84900004
+nativeHealedHealth=1.0
+recordedMinimum=1.0
+gameOver=false
+stars=0
+syntheticProbe=true; no victory, no score, not a playthrough

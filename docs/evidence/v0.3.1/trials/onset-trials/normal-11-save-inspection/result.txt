@@ -1,0 +1,25 @@
+save inspection only
+limit=224,67,119,144
+forwardTile=air team=derelict build=null coreUnlock=true available=true placeable=true env=true nativeCanPlace=false validIgnoreUnits=false noUnitOverlap=true
+core rhyolite:core-bastion:air[276,107] entity=CoreBuild:sharded team=sharded health=1.0 inventory=ItemModule{graphite:2000,silicon:2000,beryllium:2000}
+core core-zone:core-bastion:air[293,288] entity=CoreBuild:malis team=malis health=1.0 inventory=ItemModule{graphite:1073741823,sand:1073741823,thorium:1073741823,silicon:1073741823,phase-fabric:1073741823,surge-alloy:1073741823,beryllium:1073741823,tungsten:1073741823,oxide:1073741823,carbide:1073741823}
+unit evoke 284.37433,186.59055 team=sharded controller=mindustry.ai.types.BuilderAI@53499d85 plans=[]
+unit evoke 291.8443,269.96408 team=malis controller=mindustry.ai.types.BuilderAI@30ed9c6c plans=[]
+unit evoke 292.6017,267.56918 team=malis controller=mindustry.ai.types.BuilderAI@782a4fff plans=[]
+unit stell 288.94717,131.99243 team=sharded controller=mindustry.ai.types.CommandAI@46c670a6 plans=[]
+unit stell 288.5189,133.56996 team=sharded controller=mindustry.ai.types.CommandAI@59fc684e plans=[]
+unit stell 289.95746,133.33998 team=sharded controller=mindustry.ai.types.CommandAI@5ae81e1 plans=[]
+unit stell 288.0125,130.9875 team=sharded controller=mindustry.ai.types.CommandAI@2fd1731c plans=[]
+unit stell 289.67328,135.10641 team=sharded controller=mindustry.ai.types.CommandAI@5ae76500 plans=[]
+unit stell 286.49557,130.9875 team=sharded controller=mindustry.ai.types.CommandAI@6063d80a plans=[]
+unit stell 287.83133,134.99394 team=sharded controller=mindustry.ai.types.CommandAI@1133ec6e plans=[]
+unit stell 287.50015,132.1037 team=sharded controller=mindustry.ai.types.CommandAI@355e34c7 plans=[]
+unit stell 284.93378,130.98781 team=sharded controller=mindustry.ai.types.CommandAI@54709809 plans=[]
+unit stell 286.85352,133.63596 team=sharded controller=mindustry.ai.types.CommandAI@2a2da905 plans=[]
+unit stell 285.70166,132.43439 team=sharded controller=mindustry.ai.types.CommandAI@24f360b2 plans=[]
+unit stell 283.01114,131.03989 team=sharded controller=mindustry.ai.types.CommandAI@60cf80e7 plans=[]
+unit stell 286.11017,135.26465 team=sharded controller=mindustry.ai.types.CommandAI@302fec27 plans=[]
+unit stell 285.0756,133.9051 team=sharded controller=mindustry.ai.types.CommandAI@770d0ea6 plans=[]
+unit stell 284.08563,132.49782 team=sharded controller=mindustry.ai.types.CommandAI@48c40605 plans=[]
+objectives=18/20
+status=核心最低生命 100% · 核心损失 0

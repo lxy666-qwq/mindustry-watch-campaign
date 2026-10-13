@@ -176,6 +176,81 @@ public class CampaignStarsTests{
         assertEquals(2, CampaignStars.stars(SectorPresets.groundZero));
     }
 
+    @ParameterizedTest
+    @CsvSource({"NORMAL,0.35,0.65,2", "HEROIC,0.151,0.849,0", "TACTICAL,0.401,0.599,0"})
+    void sameFrameEnvironmentalDamageAndRepairKeepLowestHealth(Mode mode, float damage, float minimum, int score){
+        start(SectorPresets.groundZero, mode);
+        var core = state.rules.defaultTeam.core();
+        core.damage(core.maxHealth * damage);
+        assertEquals(minimum, core.healthf(), 0.0001f);
+        core.heal();
+        CampaignStars.update();
+        assertEquals(1f, core.healthf());
+        assertEquals(minimum, CampaignStars.minimumCoreHealth(), 0.0001f,
+            "native non-bullet damage must be recorded before a repair in the same frame");
+        assertEquals(score, CampaignStars.scoreVictory());
+        var file = saveDirectory.child("stars-environmental-damage-" + mode + ".msav");
+        SaveIO.write(file);
+        logic.reset();
+        SaveIO.load(file);
+        assertEquals(minimum, CampaignStars.minimumCoreHealth(), 0.0001f);
+        assertEquals(score, CampaignStars.scoreVictory());
+    }
+
+    @Test
+    void enemyCoreAndFriendlyWallDamageCannotLowerPlayerCoreGrade(){
+        start(SectorPresets.groundZero, Mode.HEROIC);
+        var enemyTile = emptyTileFor(Blocks.coreShard.size);
+        enemyTile.setBlock(Blocks.coreShard, state.rules.waveTeam);
+        var enemy = enemyTile.build;
+        enemy.damage(enemy.maxHealth * 0.2f);
+        enemy.heal();
+        var wall = place(Blocks.copperWall);
+        wall.damage(wall.maxHealth * 0.5f);
+        wall.heal();
+        CampaignStars.update();
+        assertEquals(1f, CampaignStars.minimumCoreHealth());
+        assertEquals(1, CampaignStars.scoreVictory());
+    }
+
+    @Test
+    void uninstrumentedNativeCoreDamageDoesNotCreateStarHistory(){
+        start(SectorPresets.groundZero, Mode.NORMAL);
+        state.rules.tags.remove("stars.preset");
+        var core = state.rules.defaultTeam.core();
+        core.damage(core.maxHealth * 0.35f);
+        core.heal();
+        CampaignStars.update();
+        assertFalse(CampaignStars.active());
+        assertEquals(1f, CampaignStars.minimumCoreHealth());
+    }
+
+    @Test
+    void finishedRunKeepsItsRecordedHealthAndGrade(){
+        start(SectorPresets.groundZero, Mode.NORMAL);
+        assertEquals(3, CampaignStars.recordVictory());
+        var core = state.rules.defaultTeam.core();
+        core.damage(core.maxHealth * 0.35f);
+        core.heal();
+        CampaignStars.update();
+        assertEquals(1f, CampaignStars.minimumCoreHealth());
+        assertEquals(3, CampaignStars.recordVictory());
+    }
+
+    @Test
+    void anyFriendlyCoreDamageCountsBeforeRepair(){
+        start(SectorPresets.groundZero, Mode.NORMAL);
+        var tile = emptyTileFor(Blocks.coreShard.size);
+        tile.setBlock(Blocks.coreShard, state.rules.defaultTeam);
+        var second = tile.build;
+        assertTrue(state.rules.defaultTeam.cores().contains(core -> core == second));
+        second.damage(second.maxHealth * 0.35f);
+        second.heal();
+        CampaignStars.update();
+        assertEquals(0.65f, CampaignStars.minimumCoreHealth(), 0.0001f);
+        assertEquals(2, CampaignStars.scoreVictory());
+    }
+
     @Test
     void coreLossGradeAndRunFailureRemainRecorded(){
         start(SectorPresets.groundZero, Mode.NORMAL);

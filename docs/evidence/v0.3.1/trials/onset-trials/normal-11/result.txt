@@ -1,0 +1,18 @@
+mission=onset
+mode=NORMAL
+scope=native tick driver
+gateVerified=true
+finished=false
+winner=null
+simSeconds=3600.0
+built=225
+commands=526
+deposits=8
+pendingPlans=1
+next=BuildPlan{x=288, y=198, rotation=0, block=core-bastion, breaking=false, progress=0.99998444, initialized=false, config=null}
+stars=0
+minimumCore=1.0
+objectives=18/20
+flags={breachAmmo}
+status=核心最低生命 100% · 核心损失 0
+classLocation=Mindustry/core/build/classes/java/main/

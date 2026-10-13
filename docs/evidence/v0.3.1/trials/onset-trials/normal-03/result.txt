@@ -1,0 +1,18 @@
+mission=onset
+mode=NORMAL
+scope=native tick driver
+gateVerified=true
+finished=false
+winner=null
+simSeconds=1800.0
+built=192
+commands=0
+deposits=4
+pendingPlans=14
+next=BuildPlan{x=265, y=117, rotation=0, block=tank-fabricator, breaking=false, progress=0.0, initialized=false, config=null}
+stars=0
+minimumCore=1.0
+objectives=6/20
+flags={}
+status=核心最低生命 100% · 核心损失 0
+classLocation=Mindustry/core/build/classes/java/main/
