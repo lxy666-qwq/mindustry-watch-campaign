@@ -1,0 +1,16 @@
+runtime=0.3.3
+class=file:/trial-work/star033-runtime/Mindustry.jar
+sourceProfile=local-work/aegis-trials/tactical-01-v033/profile/settings.bin
+onsetNormal=3
+onsetHero=1
+onsetTactical=1
+aegisNormal=3
+aegisHero=1
+aegisTactical=1
+mainStars=10
+totalStars=10
+lakeUnlocked=true
+allowed=true
+
+size=320x320 core=core-zone:core-bastion:air[236,83] entity=CoreBuild:sharded initialItems=ItemModule{graphite:200,beryllium:200} attack=true waves=false limit=false:0,0,1,1
+[{class:BuildCount,block:ship-fabricator,parents:[],editorPos:65537},{class:UnitCount,unit:elude,parents:[0],editorPos:458753}]

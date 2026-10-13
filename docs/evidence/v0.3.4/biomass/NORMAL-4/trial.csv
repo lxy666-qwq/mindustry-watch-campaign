@@ -1,0 +1,4 @@
+simSeconds,wallSeconds,wave,enemies,coreHealth,copper,lead,coal,placed,withdraws,deposits,gunsAlive,duoAmmo,scorchAmmo
+0.0,1.218483,1,0,1.0,100,0,0,0,0,0,0,0.0,0.0
+60.0,1.7404467,1,0,1.0,79,32,0,43,0,1,0,0.0,0.0
+120.0,2.379504,1,0,1.0,0,25,0,46,2,10,2,0.0,0.0

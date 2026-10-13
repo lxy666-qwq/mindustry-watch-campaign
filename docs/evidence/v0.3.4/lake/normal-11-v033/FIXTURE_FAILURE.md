@@ -1,0 +1,3 @@
+# 第11例编译/启动夹具错误，不计试玩覆盖
+
+新版C驾驶器把Seq.truncate当作有返回值的方法，javac失败。PowerShell仍继续执行了上次成功编译的旧class；source拷贝与实际driver class不一致，立即停止该case。控制台保留，此例不作为任何产品判断或成功证据。后续修正C源码并在javac非零时快速停止，另开第12例。

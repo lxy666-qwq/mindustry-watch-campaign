@@ -1,0 +1,5 @@
+tungstenFloorTiles=0
+tungstenWallTiles=0
+availableWaterConsumer impact-drill cost=[石墨: 60, 硅: 70, 铍: 90]
+availableWaterConsumer breach cost=[石墨: 125, 硅: 150, 铍: 150]
+availableWaterConsumer diffuse cost=[石墨: 200, 硅: 200, 铍: 150, 钨: 50]

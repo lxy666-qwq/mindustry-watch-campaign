@@ -1,0 +1,1 @@
+Native end.msav written; new-process readback passed: 601 tags and 1281 observed world fields equal, TaskA14, unchanged scores.

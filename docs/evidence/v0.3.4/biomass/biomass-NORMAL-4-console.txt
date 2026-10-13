@@ -1,0 +1,38 @@
+profileScope=independent-copy-of-genuine-main12-chain gateVerified=true starsBefore=0 mainStarsBefore=12
+Native biomass power start: core=138,56 inventory=ItemModule{copper:100} refund=0.53
+planned native salvage container at 52,115
+planned native salvage air-factory at 76,143
+planned native salvage additive-reconstructor at 76,146
+planned native salvage door-large at 92,87
+planned native salvage door-large at 81,156
+planned copper output 129,60 with 9 native resource-to-core conveyors
+planned lead output 143,84 with 30 native resource-to-core conveyors
+native large node plan (133, 51) links=[(4, 10), (-1, 14), (4, 13), (-3, -2), (-2, -2), (-1, -2), (0, -2), (1, -2), (2, -2), (3, -2), (4, -2), (-3, -1), (-2, -1), (-1, -1), (0, -1)]
+native large node plan (137, 61) links=[(-4, -10), (-5, 4), (8, 4), (0, 3), (-7, -12), (-6, -12), (-5, -12), (-4, -12), (-3, -12), (-2, -12), (-1, -12), (0, -12), (-7, -11), (-6, -11), (-5, -11)]
+planned actual coal drill 176,68; native Alpha can carry its real output if the conveyor is cut
+planned coal output 176,68 with 47 native resource-to-core conveyors
+planned actual coal drill 177,65; native Alpha can carry its real output if the conveyor is cut
+planned coal output 177,65 with 46 native resource-to-core conveyors
+planned actual coal drill 97,67; native Alpha can carry its real output if the conveyor is cut
+planned coal output 97,67 with 48 native resource-to-core conveyors
+planned actual coal drill 176,70; native Alpha can carry its real output if the conveyor is cut
+planned coal output 176,70 with 56 native resource-to-core conveyors
+planned actual coal drill 96,65; native Alpha can carry its real output if the conveyor is cut
+planned coal output 96,65 with 48 native resource-to-core conveyors
+native planned blocks=337 counter costs=[铜: 60, 铅: 70, 钛: 30, 硅: 60]
+driver: added=true dead=false unit=Unit#277:alpha (1103.753, 448.18527) plans=1 next=BuildPlan{x=129, y=60, rotation=0, block=mechanical-drill, breaking=false, progress=0.0, initialized=false, config=null} tile=air valid=true unlocked=true env=true placeable=true dist=76.63662
+0.0,1.218483,1,0,1.0,100,0,0,0,0,0,0,0.0,0.0
+tutorial objectives=0/0 flags={} coreStats={} queue=337 gather=null pending=BuildPlan{x=129, y=60, rotation=0, block=mechanical-drill, breaking=false, progress=0.0, initialized=false, config=null}
+native demolition completed at 52,115 t=7.366667 coreItems=ItemModule{copper:100,titanium:53}
+native demolition completed at 76,143 t=12.116667 coreItems=ItemModule{copper:132,lead:37,titanium:53,silicon:32}
+native demolition completed at 76,146 t=20.483334 coreItems=ItemModule{copper:238,lead:101,titanium:53,silicon:80}
+native demolition completed at 92,87 t=29.233334 coreItems=ItemModule{copper:238,lead:101,titanium:66,silicon:88}
+native demolition completed at 81,156 t=37.716667 coreItems=ItemModule{copper:238,lead:101,titanium:79,silicon:96}
+60.0,1.7404467,1,0,1.0,79,32,0,43,0,1,0,0.0,0.0
+real counter arc pos=(132, 65) power=0.0 graph=-3.3000019
+real counter arc pos=(145, 65) power=0.0 graph=-3.3000019
+tutorial objectives=0/0 flags={} coreStats={铜=4} queue=294 gather=铅 pending=BuildPlan{x=137, y=64, rotation=0, block=lancer, breaking=false, progress=0.016242038, initialized=true, config=null}
+120.0,2.379504,1,0,1.0,0,25,0,46,2,10,2,0.0,0.0
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "mindustry.world.modules.ItemModule.get(mindustry.type.Item)" because "<local7>.items" is null
+	at BiomassPowerTrial4_033.snapshot(BiomassPowerTrial4_033.java:206)
+	at BiomassPowerTrial4_033.main(BiomassPowerTrial4_033.java:153)

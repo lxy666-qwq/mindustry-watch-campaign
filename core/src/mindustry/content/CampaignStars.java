@@ -28,6 +28,8 @@ import mindustry.world.blocks.production.GenericCrafter.*;
 import mindustry.world.blocks.storage.*;
 import mindustry.world.blocks.storage.CoreBlock.*;
 import mindustry.world.blocks.defense.turrets.LiquidTurret.*;
+import mindustry.world.blocks.defense.turrets.BaseTurret;
+import mindustry.world.consumers.ConsumeLiquidBase;
 
 import java.io.*;
 
@@ -567,6 +569,15 @@ public class CampaignStars{
         }
     }
 
+    /** Confirms existing supply paths only after this turret's native coolant consumer removes liquid. */
+    public static void recordLiquidConsumption(Building recipient, ConsumeLiquidBase consumer, Liquid liquid, float amount){
+        if(tacticalRunning() && amount > 0f && recipient.team == state.rules.defaultTeam &&
+            recipient.block instanceof BaseTurret turret && turret.coolant == consumer){
+            loadFlows();
+            markSupply("l" + liquid.name + ":" + identity(recipient) + ":4");
+        }
+    }
+
     /** ItemTurret calls this only after converting a valid physical item into ammunition. */
     public static void recordAmmoSupply(Building source, Building recipient, Item item){
         if(!tacticalRunning()) return;
@@ -893,7 +904,7 @@ public class CampaignStars{
         };
         String transport = terrain(preset) == Terrain.NAVAL || terrain(preset) == Terrain.VOLCANIC ?
             (cn ? "导管" : "conduits") : (cn ? "传送带/物流管" : "conveyors/ducts");
-        return taskARequired(preset) + (cn ? "座曾实际供给核心、弹药塔或产出设施的" : " transports that actually supplied a core, ammunition turret or producing facility: ") + transport +
+        return taskARequired(preset) + (cn ? "座曾实际供给核心、弹药塔、消耗冷却液的炮台或产出设施的" : " transports that actually supplied a core, ammunition turret, turret consuming coolant or producing facility: ") + transport +
             (cn ? "及2座胜利前60秒内曾实际产出/发电的" : " and 2 facilities with actual output/power in the final 60 seconds: ") + kind +
             (cn ? "。核心入库只计真实产出或玩家实际投放的来源，核心回流不计。" : ". Core input requires actual production or a physical player delivery as origin; core stock returns do not count.");
     }

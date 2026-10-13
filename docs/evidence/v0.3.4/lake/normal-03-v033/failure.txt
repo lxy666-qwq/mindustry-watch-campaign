@@ -1,0 +1,1 @@
+java.lang.IllegalStateException: No duct route BuildPlan{x=234, y=86, rotation=0, block=duct-router, breaking=false, progress=0.0, initialized=false, config=null} -> BuildPlan{x=237, y=106, rotation=1, block=ship-fabricator, breaking=false, progress=0.0, initialized=false, config=null}

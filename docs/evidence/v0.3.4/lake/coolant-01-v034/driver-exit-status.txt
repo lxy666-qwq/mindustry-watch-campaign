@@ -1,0 +1,2 @@
+exit=2
+reason=Frozen v033 last assertion still requires TaskA==0. Actual v034 TaskA14 intentionally contradicts the old assertion. result/end.msav/checkpoint equality exist; v034 fresh-readback exit=0 and expected A14. Not a gameplay or SaveIO failure.

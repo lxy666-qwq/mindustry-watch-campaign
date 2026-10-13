@@ -1,0 +1,122 @@
+profileScope=independent-copy-of-genuine-main12-chain gateVerified=true starsBefore=0 mainStarsBefore=12
+Native biomass power start: core=138,56 inventory=ItemModule{copper:100} refund=0.53
+planned native salvage container at 52,115
+planned native salvage air-factory at 76,143
+planned native salvage additive-reconstructor at 76,146
+planned copper output 129,60 with 9 native resource-to-core conveyors
+planned lead output 143,84 with 30 native resource-to-core conveyors
+native node plan (133, 53) links=[(3, 5), (-3, -4), (-2, -4), (-1, -4), (0, -4), (1, -4), (2, -4), (3, -4), (4, -4), (-3, -3)]
+native node plan (136, 58) links=[(-3, -5)]
+native node plan (140, 63) links=[(5, 1), (5, 2), (-3, 1)]
+native node plan (145, 64) links=[(-5, -1), (0, 1)]
+planned actual coal drill 176,68; native Alpha can carry its real output if the conveyor is cut
+planned coal output 176,68 with 47 native resource-to-core conveyors
+planned actual coal drill 177,65; native Alpha can carry its real output if the conveyor is cut
+planned coal output 177,65 with 46 native resource-to-core conveyors
+planned actual coal drill 97,67; native Alpha can carry its real output if the conveyor is cut
+planned actual coal drill 176,70; native Alpha can carry its real output if the conveyor is cut
+planned actual coal drill 96,65; native Alpha can carry its real output if the conveyor is cut
+planned graphite output 135,47 with 8 native resource-to-core conveyors
+native planned blocks=181 counter costs=[铜: 60, 铅: 70, 钛: 30, 硅: 60]
+driver: added=true dead=false unit=Unit#277:alpha (1103.753, 448.18527) plans=1 next=BuildPlan{x=129, y=60, rotation=0, block=mechanical-drill, breaking=false, progress=0.0, initialized=false, config=null} tile=air valid=true unlocked=true env=true placeable=true dist=76.63662
+0.0,1.3082515,1,0,1.0,100,0,0,0,0,0,0,0.0,0.0
+tutorial objectives=0/0 flags={} coreStats={} queue=181 gather=null pending=BuildPlan{x=129, y=60, rotation=0, block=mechanical-drill, breaking=false, progress=0.0, initialized=false, config=null}
+native demolition completed at 52,115 t=7.366667 coreItems=ItemModule{copper:100,titanium:53}
+native demolition completed at 76,143 t=12.116667 coreItems=ItemModule{copper:132,lead:37,titanium:53,silicon:32}
+native demolition completed at 76,146 t=20.483334 coreItems=ItemModule{copper:238,lead:101,titanium:53,silicon:80}
+60.0,1.962002,1,0,1.0,36,20,0,44,0,3,0,0.0,0.0
+real counter arc pos=(132, 65) power=0.0 graph=-3.3000019
+real counter arc pos=(145, 65) power=0.0 graph=-3.3000019
+real counter lancer pos=(137, 64) power=0.0 graph=-6.0
+tutorial objectives=0/0 flags={} coreStats={铜=11, 铅=7} queue=137 gather=铜 pending=BuildPlan{x=130, y=62, rotation=0, block=scatter, breaking=false, progress=0.28256762, initialized=true, config=null}
+120.0,2.6276412,1,0,1.0,31,2,0,48,2,10,2,0.0,0.0
+real counter arc pos=(132, 65) power=0.0 graph=-3.3000019
+real counter arc pos=(145, 65) power=0.0 graph=-3.3000019
+real counter lancer pos=(137, 64) power=0.0 graph=-6.0
+tutorial objectives=0/0 flags={} coreStats={铜=33, 铅=29} queue=133 gather=铅 pending=BuildPlan{x=132, y=49, rotation=0, block=combustion-generator, breaking=false, progress=0.9534788, initialized=true, config=null}
+180.0,3.5410714,1,0,1.0,68,71,0,55,2,15,2,0.0,0.0
+real counter arc pos=(132, 65) power=0.0 graph=-3.3000019
+real counter arc pos=(145, 65) power=0.0 graph=-3.3000019
+real counter lancer pos=(137, 64) power=0.0 graph=-6.0
+tutorial objectives=0/0 flags={} coreStats={铜=55, 铅=51} queue=126 gather=铅 pending=BuildPlan{x=131, y=50, rotation=0, block=battery, breaking=false, progress=0.8036361, initialized=true, config=null}
+240.0,4.6531525,2,2,1.0,48,70,0,164,5,22,2,0.0,0.0
+real counter arc pos=(132, 65) power=0.0 graph=-3.3000019
+real counter arc pos=(145, 65) power=0.0 graph=-9.299994
+real counter lancer pos=(137, 64) power=0.0 graph=-9.299994
+tutorial objectives=0/0 flags={} coreStats={铜=77, 铅=73, 煤炭=5} queue=17 gather=null pending=BuildPlan{x=135, y=47, rotation=0, block=graphite-press, breaking=false, progress=0.0, initialized=false, config=null}
+300.0,6.011884,2,0,1.0,56,79,6,174,14,35,3,0.0,0.0
+real counter arc pos=(132, 65) power=0.0 graph=-3.3000019
+real counter arc pos=(145, 65) power=0.0 graph=-9.299994
+real counter lancer pos=(137, 64) power=0.0 graph=-9.299994
+tutorial objectives=0/0 flags={} coreStats={铜=99, 铅=95, 煤炭=45} queue=7 gather=铜 pending=BuildPlan{x=142, y=61, rotation=0, block=scatter, breaking=false, progress=0.5927034, initialized=true, config=null}
+360.0,7.0699496,3,0,0.9027257,71,76,0,181,32,54,4,0.0,0.0
+real counter arc pos=(132, 65) power=0.0 graph=-3.3000019
+real counter arc pos=(145, 65) power=0.0 graph=-9.299994
+real counter lancer pos=(137, 64) power=0.0 graph=-9.299994
+tutorial objectives=0/0 flags={} coreStats={铜=121, 铅=118, 煤炭=87} queue=0 gather=null pending=none
+420.0,8.00439,3,0,0.9027257,71,98,0,181,36,60,4,0.0,0.0
+real counter arc pos=(132, 65) power=0.0 graph=-3.3000019
+real counter arc pos=(145, 65) power=0.0 graph=-9.299994
+real counter lancer pos=(137, 64) power=0.0 graph=-9.299994
+tutorial objectives=0/0 flags={} coreStats={铜=121, 铅=140, 煤炭=127} queue=0 gather=煤炭 pending=none
+480.0,8.940521,4,0,0.6109032,71,120,2,181,40,65,4,0.0,0.0
+real counter arc pos=(132, 65) power=0.0 graph=-3.3000019
+real counter arc pos=(145, 65) power=0.0 graph=-9.299994
+real counter lancer pos=(137, 64) power=0.0 graph=-9.299994
+tutorial objectives=0/0 flags={} coreStats={铜=121, 铅=162, 煤炭=169} queue=0 gather=煤炭 pending=none
+540.0,9.878095,4,0,0.6109032,71,142,2,181,44,71,4,0.0,0.0
+real counter arc pos=(132, 65) power=0.0 graph=-3.3000019
+real counter arc pos=(145, 65) power=0.0 graph=-9.299994
+real counter lancer pos=(137, 64) power=0.0 graph=-9.299994
+tutorial objectives=0/0 flags={} coreStats={铜=121, 铅=184, 煤炭=209} queue=0 gather=煤炭 pending=none
+600.0,10.812564,5,0,0.4163548,71,164,4,181,48,76,4,0.0,0.0
+real counter arc pos=(132, 65) power=0.0 graph=-3.3000019
+real counter arc pos=(145, 65) power=0.0 graph=-9.299994
+real counter lancer pos=(137, 64) power=0.0 graph=-9.299994
+tutorial objectives=0/0 flags={} coreStats={铜=121, 铅=206, 煤炭=251} queue=0 gather=煤炭 pending=none
+660.0,11.7520485,6,6,0.4163548,71,186,6,181,52,81,4,0.0,0.0
+real counter arc pos=(132, 65) power=0.0 graph=-3.3000019
+real counter arc pos=(145, 65) power=0.0 graph=-9.299994
+real counter lancer pos=(137, 64) power=0.0 graph=-9.299994
+tutorial objectives=0/0 flags={} coreStats={铜=121, 铅=228, 煤炭=293} queue=0 gather=煤炭 pending=none
+705.3,12.521288,6,2,0.0,0,0,0,181,55,85,4,0.0,0.0
+real counter arc pos=(132, 65) power=0.0 graph=-3.3000019
+real counter arc pos=(145, 65) power=0.0 graph=-9.299994
+real counter lancer pos=(137, 64) power=0.0 graph=-9.299994
+tutorial objectives=0/0 flags={} coreStats={铜=121, 铅=245, 煤炭=323} queue=0 gather=煤炭 pending=none
+trial=legal-build
+selection=campaign-progression-gates-verified
+mission=biomassFacility
+mode=NORMAL
+finished=true
+winner=crux
+wave=6
+actualSpawnWaves=5
+simSeconds=705.3
+wallSeconds=12.522938
+placedBuildings=181
+withdraws=55
+deposits=85
+coreMinimum=-0.005467918
+buildingsDestroyed=12
+pendingPlans=0
+codeLocation=file:/local-work/mindustry-star-work/star033-runtime/Mindustry.jar
+CampaignStars.classModifiedAtStart=1791877212532
+WatchMapGenerator.classModifiedAtStart=1791877212532
+runtimeWatchVersion=0.3.3
+CoreBlock.classModifiedAtStart=1791877212532
+sourceJarModifiedAtStart=1791877212532
+assetsLocation=local-work/mindustry-star-work/star033-runtime/assets
+profileScope=shared-progression
+gateVerified=true
+starsAfter=0
+mainStarsAfter=12
+branch0RewardAfter=true
+settingsFileExists=true
+waveTimer=true
+objectives=0
+objectiveFlags={}
+frozenForestOpen=true
+objectivesCompleted=0
+status=挑战条件未达成；本次获得 0 / 3 星；本关累计 0 / 5
+

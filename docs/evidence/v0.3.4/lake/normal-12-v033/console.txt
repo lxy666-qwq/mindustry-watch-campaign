@@ -1,0 +1,78 @@
+0.0,1.2755831,1,0,1.0,200,200,0,0,0,0,0,"{}"
+running objectives=[BuildCountObjective:[accent]建造：[][lightgray]1[]x
+ [lightgray]飞船制造厂:null]
+planned=62 factories=[15990859] limits=MissionLimits[deadline=2580.0, buildBudget=302, lossBudget=22]
+0.0,1.4079663,1,0,1.0,199,200,0,0,0,1,0,"{}"
+running objectives=[BuildCountObjective:[accent]建造：[][lightgray]1[]x
+ [lightgray]飞船制造厂:null]
+60.0,2.2735393,1,0,1.0,178,234,53,0,61,1,0,"{}"
+running objectives=[BuildCountObjective:[accent]建造：[][lightgray]1[]x
+ [lightgray]飞船制造厂:null]
+120.0,3.2944944,1,0,1.0,512,272,142,0,61,1,0,"{}"
+running objectives=[BuildCountObjective:[accent]建造：[][lightgray]1[]x
+ [lightgray]飞船制造厂:null]
+180.0,4.2870564,1,0,1.0,581,337,234,0,61,1,0,"{}"
+running objectives=[BuildCountObjective:[accent]建造：[][lightgray]1[]x
+ [lightgray]飞船制造厂:null]
+240.0,5.491328,1,1,1.0,538,377,42,0,62,1,1,"{}"
+running objectives=[UnitCountObjective:[accent]生产单位：[][lightgray]1[]x
+ [lightgray]挣脱:null]
+300.0,6.42966,1,0,1.0,636,411,88,0,62,2,2,"{}"
+running objectives=[]
+360.0,7.3758345,1,1,1.0,748,444,134,0,62,2,2,"{}"
+running objectives=[]
+420.0,8.30477,1,0,1.0,846,478,180,0,62,3,2,"{}"
+running objectives=[]
+480.0,9.242389,1,1,1.0,958,511,226,0,62,4,2,"{}"
+running objectives=[]
+540.0,10.1943865,1,0,1.0,1058,545,272,0,62,4,2,"{}"
+running objectives=[]
+600.0,11.127419,1,1,1.0,1168,578,318,0,62,5,2,"{}"
+running objectives=[]
+660.0,12.067437,1,0,1.0,1268,612,364,0,62,6,2,"{}"
+running objectives=[]
+720.0,13.033776,1,1,1.0,1378,645,409,0,62,6,2,"{}"
+running objectives=[]
+780.0,13.98973,1,0,1.0,1481,680,454,0,62,7,2,"{}"
+running objectives=[]
+840.0,14.940278,1,1,1.0,1588,712,500,0,62,8,2,"{}"
+running objectives=[]
+900.0,15.920963,1,0,1.0,1688,747,546,0,62,8,2,"{}"
+running objectives=[]
+NATIVE SAVE/LOAD CHECKPOINT PASSED 900 seconds, 314 tags
+960.0,17.217949,1,1,1.0,1798,780,592,0,62,9,2,"{}"
+running objectives=[]
+1020.0,18.180546,1,1,1.0,1928,815,634,0,62,10,2,"{}"
+running objectives=[]
+1080.0,19.132727,1,2,1.0,1792,678,510,0,70,10,2,"{}"
+running objectives=[]
+1140.0,20.080475,1,1,1.0,1828,688,554,0,72,11,2,"{}"
+running objectives=[]
+1200.0,21.07922,1,1,1.0,1686,548,438,0,78,11,2,"{}"
+running objectives=[]
+1260.0,22.059593,1,2,1.0,1824,583,482,0,78,12,2,"{}"
+running objectives=[]
+1320.0,23.043968,1,1,1.0,1676,448,352,0,83,12,2,"{}"
+running objectives=[]
+1380.0,24.06361,1,2,1.0,1814,509,397,0,83,13,2,"{}"
+running objectives=[]
+1440.0,25.619242,1,2,1.0,1934,547,420,0,83,1,2,"{}"
+running objectives=[]
+1500.0,26.637384,1,1,1.0,2000,626,428,0,83,1,2,"{}"
+running objectives=[]
+1560.0,27.602665,1,2,1.0,2000,670,428,0,83,1,2,"{}"
+running objectives=[]
+1620.0,28.557175,1,2,1.0,2000,680,428,0,83,1,2,"{}"
+running objectives=[]
+1680.0,29.506414,1,2,1.0,2000,680,428,0,83,1,2,"{}"
+running objectives=[]
+1740.0,30.463757,1,3,1.0,2000,680,428,0,83,1,2,"{}"
+running objectives=[]
+1800.0,31.398428,1,1,0.9891111,2000,680,428,0,83,1,2,"{}"
+running objectives=[]
+1860.0,32.366142,1,3,0.81644446,2000,680,428,0,83,1,2,"{}"
+running objectives=[]
+1920.0,33.316933,1,4,0.16622223,2000,680,428,0,83,1,2,"{}"
+running objectives=[]
+1932.05,33.52207,1,5,0.0,0,0,0,0,83,1,2,"{}"
+running objectives=[]

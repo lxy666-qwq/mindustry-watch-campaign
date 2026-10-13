@@ -1,0 +1,18 @@
+seconds=0.0 pilot=236.5,83.5 cargo=铜: 0 onlyDepositCore=true pending=none
+silicon-arc-furnace 232,88 eff=0.0 enabled=true items=ItemModule{} power=0.0 produced=0.0 need=0.0
+plasma-bore 226,93 eff=0.0 enabled=true items=ItemModule{} power=0.0 produced=0.0 need=0.0
+plasma-bore 228,93 eff=0.0 enabled=true items=ItemModule{} power=0.0 produced=0.0 need=0.0
+plasma-bore 237,93 eff=0.0 enabled=true items=ItemModule{} power=0.0 produced=0.0 need=0.0
+plasma-bore 239,93 eff=0.0 enabled=true items=ItemModule{} power=0.0 produced=0.0 need=0.0
+cliff-crusher 216,94 eff=0.0 enabled=true items=ItemModule{} power=0.0 produced=0.0 need=0.0
+cliff-crusher 216,96 eff=0.0 enabled=true items=ItemModule{} power=0.0 produced=0.0 need=0.0
+plasma-bore 241,96 eff=0.0 enabled=true items=ItemModule{} power=0.0 produced=0.0 need=0.0
+seconds=0.0 pilot=236.5,83.5 cargo=铜: 0 onlyDepositCore=true pending=BuildPlan{x=224, y=106, rotation=0, block=vent-condenser, breaking=false, progress=0.0, initialized=false, config=null}
+silicon-arc-furnace 232,88 eff=0.0 enabled=true items=ItemModule{} power=0.0 produced=0.0 need=0.0
+plasma-bore 226,93 eff=0.0 enabled=true items=ItemModule{} power=0.0 produced=0.0 need=0.0
+plasma-bore 228,93 eff=0.0 enabled=true items=ItemModule{} power=0.0 produced=0.0 need=0.0
+plasma-bore 237,93 eff=0.0 enabled=true items=ItemModule{} power=0.0 produced=0.0 need=0.0
+plasma-bore 239,93 eff=0.0 enabled=true items=ItemModule{} power=0.0 produced=0.0 need=0.0
+cliff-crusher 216,94 eff=0.0 enabled=true items=ItemModule{} power=0.0 produced=0.0 need=0.0
+cliff-crusher 216,96 eff=0.0 enabled=true items=ItemModule{} power=0.0 produced=0.0 need=0.0
+plasma-bore 241,96 eff=0.0 enabled=true items=ItemModule{} power=0.0 produced=0.0 need=0.0

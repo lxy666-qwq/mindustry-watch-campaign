@@ -1,0 +1,32 @@
+0.0,1.2051115,1,0,1.0,200,200,0,0,0,0,0,"{}"
+running objectives=[BuildCountObjective:[accent]���죺[][lightgray]1[]x
+ [lightgray]�ɴ����쳧:null]
+planned=20 limits=MissionLimits[deadline=2580.0, buildBudget=302, lossBudget=22] actualGate=false
+0.0,1.2925036,1,0,1.0,200,200,0,0,0,1,0,"{}"
+running objectives=[BuildCountObjective:[accent]���죺[][lightgray]1[]x
+ [lightgray]�ɴ����쳧:null]
+60.0,1.8893929,1,0,1.0,144,224,87,0,20,1,0,"{}"
+running objectives=[BuildCountObjective:[accent]���죺[][lightgray]1[]x
+ [lightgray]�ɴ����쳧:null]
+120.0,2.5254674,1,1,1.0,211,281,176,0,20,1,0,"{}"
+running objectives=[BuildCountObjective:[accent]���죺[][lightgray]1[]x
+ [lightgray]�ɴ����쳧:null]
+180.0,3.2409546,1,0,1.0,280,350,268,0,20,1,0,"{}"
+running objectives=[BuildCountObjective:[accent]���죺[][lightgray]1[]x
+ [lightgray]�ɴ����쳧:null]
+NATIVE SAVE/LOAD CHECKPOINT PASSED 180 seconds, 588 tags
+240.0,4.7797933,1,1,1.0,346,416,360,0,20,1,0,"{}"
+running objectives=[BuildCountObjective:[accent]���죺[][lightgray]1[]x
+ [lightgray]�ɴ����쳧:null]
+300.0,5.7452245,1,0,1.0,438,484,452,0,20,1,0,"{}"
+running objectives=[BuildCountObjective:[accent]���죺[][lightgray]1[]x
+ [lightgray]�ɴ����쳧:null]
+360.0,6.678609,1,1,1.0,547,550,544,0,20,1,0,"{}"
+running objectives=[BuildCountObjective:[accent]���죺[][lightgray]1[]x
+ [lightgray]�ɴ����쳧:null]
+420.0,7.6257167,1,0,1.0,644,629,592,0,20,1,0,"{}"
+running objectives=[BuildCountObjective:[accent]���죺[][lightgray]1[]x
+ [lightgray]�ɴ����쳧:null]
+480.0,8.563507,1,1,1.0,747,711,616,0,20,1,0,"{}"
+running objectives=[BuildCountObjective:[accent]���죺[][lightgray]1[]x
+ [lightgray]�ɴ����쳧:null]

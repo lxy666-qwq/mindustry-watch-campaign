@@ -1,0 +1,30 @@
+watchVersion=0.3.4
+actualClassLocation=file:/local-work/mindustry-star-work/star034-runtime/Mindustry.jar
+save=local-work/lake-trials/coolant-01-v034/end.msav
+profile=local-work/lake-trials/coolant-01-v034/fresh-readback/profile
+tags=601
+allTagsEqual=true
+worldValues=1281
+allWorldValuesEqual=true
+TaskA=14
+normalStars=0
+heroicStars=0
+tacticalStars=0
+inheritedOnsetNormal=3
+inheritedOnsetHeroic=1
+inheritedOnsetTactical=1
+mainStars=10
+totalStars=10
+settingsScoresUnchangedByLoad=true
+finished=false
+earned=0
+objectives=0/2
+minCore=1.0
+coreLosses=0
+losses=3
+elapsed=479.92694
+placed=20
+status=核心最低生命 100% · 核心损失 0
+12座曾实际供给核心、弹药塔、消耗冷却液的炮台或产出设施的导管及2座胜利前60秒内曾实际产出/发电的抽水/冷凝设施。核心入库只计真实产出或玩家实际投放的来源，核心回流不计。
+新增运输设施 14 / 12 · 新增生产设施 0 / 2
+累计建造 20 / 302

@@ -1,0 +1,3 @@
+actualSavedScore.NORMAL=3
+actualSavedScore.HEROIC=1
+actualSavedScore.TACTICAL=0

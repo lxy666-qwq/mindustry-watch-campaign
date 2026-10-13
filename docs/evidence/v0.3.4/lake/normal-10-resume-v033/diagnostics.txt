@@ -1,0 +1,29 @@
+seconds=0.0 pilot=228.35716,86.05388 cargo=铜: 0 onlyDepositCore=true pending=none
+ship-fabricator 244,75 eff=0.0 enabled=true items=ItemModule{graphite:91,silicon:20} power=1.0 produced=0.0 need=0.0 payload=null front=null progress=0.0
+silicon-arc-furnace 232,88 eff=0.0 enabled=true items=ItemModule{graphite:30,sand:1} power=1.0 produced=0.0 need=0.0
+plasma-bore 237,93 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=0.0 need=0.0
+plasma-bore 239,93 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=0.0 need=0.0
+plasma-bore 241,96 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=0.0 need=0.0
+seconds=0.0 pilot=228.35716,86.05388 cargo=铜: 0 onlyDepositCore=true pending=BuildPlan{x=226, y=93, rotation=1, block=plasma-bore, breaking=false, progress=0.025000002, initialized=true, config=null}
+ship-fabricator 244,75 eff=0.0 enabled=true items=ItemModule{graphite:91,silicon:20} power=1.0 produced=9.0 need=0.0 payload=null front=null progress=0.0
+silicon-arc-furnace 232,88 eff=0.0 enabled=true items=ItemModule{graphite:30,sand:1} power=1.0 produced=9.0 need=0.0
+plasma-bore 237,93 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=9.0 need=0.0
+plasma-bore 239,93 eff=1.0 enabled=true items=ItemModule{beryllium:2} power=1.0 produced=9.0 need=0.0
+plasma-bore 241,96 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=9.0 need=0.0
+seconds=60.0 pilot=226.57025,91.533516 cargo=铜: 0 onlyDepositCore=true pending=BuildPlan{x=223, y=112, rotation=3, block=breach, breaking=false, progress=0.0, initialized=false, config=null}
+ship-fabricator 244,75 eff=0.0 enabled=true items=ItemModule{graphite:100,silicon:30} power=1.0 produced=6.0 need=0.6 payload=null front=null progress=0.0
+silicon-arc-furnace 232,88 eff=0.0 enabled=true items=ItemModule{graphite:30,sand:1} power=1.0 produced=6.0 need=0.6
+plasma-bore 237,93 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=6.0 need=0.6
+plasma-bore 239,93 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=6.0 need=0.6
+plasma-bore 241,96 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=6.0 need=0.6
+plasma-bore 228,93 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=6.0 need=0.6
+seconds=120.0 pilot=226.57025,91.533516 cargo=铜: 0 onlyDepositCore=true pending=BuildPlan{x=223, y=112, rotation=3, block=breach, breaking=false, progress=0.0, initialized=false, config=null}
+ship-fabricator 244,75 eff=0.0 enabled=true items=ItemModule{graphite:100,silicon:30} power=1.0 produced=6.0 need=0.0 payload=null front=null progress=0.0
+seconds=180.0 pilot=226.57025,91.533516 cargo=铜: 0 onlyDepositCore=true pending=BuildPlan{x=223, y=112, rotation=3, block=breach, breaking=false, progress=0.0, initialized=false, config=null}
+ship-fabricator 244,75 eff=0.0 enabled=true items=ItemModule{graphite:100,silicon:30} power=1.0 produced=6.0 need=0.0 payload=null front=null progress=0.0
+seconds=240.0 pilot=226.57025,91.533516 cargo=铜: 0 onlyDepositCore=true pending=BuildPlan{x=223, y=112, rotation=3, block=breach, breaking=false, progress=0.0, initialized=false, config=null}
+ship-fabricator 244,75 eff=0.0 enabled=true items=ItemModule{graphite:100,silicon:30} power=1.0 produced=6.0 need=0.0 payload=null front=null progress=0.0
+seconds=300.0 pilot=226.57025,91.533516 cargo=铜: 0 onlyDepositCore=true pending=BuildPlan{x=223, y=112, rotation=3, block=breach, breaking=false, progress=0.0, initialized=false, config=null}
+ship-fabricator 244,75 eff=0.0 enabled=true items=ItemModule{graphite:100,silicon:30} power=0.0 produced=0.0 need=0.0 payload=null front=null progress=0.0
+seconds=337.2 pilot=226.57025,91.533516 cargo=铜: 0 onlyDepositCore=true pending=BuildPlan{x=223, y=112, rotation=3, block=breach, breaking=false, progress=0.0, initialized=false, config=null}
+ship-fabricator 244,75 eff=0.0 enabled=true items=ItemModule{graphite:100,silicon:30} power=0.0 produced=0.0 need=0.0 payload=null front=null progress=0.0

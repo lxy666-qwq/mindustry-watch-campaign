@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="LogicTests" tests="122" skipped="0" failures="0" errors="0" timestamp="2026-10-13T10:04:12.856Z" hostname="LAPTOP-B3R6MC71" time="1.061">
+  <properties/>
+  <testcase name="varWithProperlyQuotedEmptyString()" classname="LogicTests" time="0.006"/>
+  <testcase name="crlfLabelsResolveToTheSameJumpLocationAsLfLabels()" classname="LogicTests" time="0.021"/>
+  <testcase name="a trailing escaped quote is content, not a terminator, so the string is left unterminated" classname="LogicTests" time="0.009"/>
+  <testcase name="a dangling backslash at the absolute end of input has nothing to escape" classname="LogicTests" time="0.0"/>
+  <testcase name="an escaped-quote-then-semicolon does not let the semicolon act as a statement separator inside the string" classname="LogicTests" time="0.001"/>
+  <testcase name="a string missing its closing quote entirely" classname="LogicTests" time="0.0"/>
+  <testcase name="a string that never closes before the line ends, with trailing content after it" classname="LogicTests" time="0.0"/>
+  <testcase name="a \u escape with non-hex digits is rejected" classname="LogicTests" time="0.0"/>
+  <testcase name="a \u escape with non-hex digits is rejected" classname="LogicTests" time="0.0"/>
+  <testcase name="a \u escape with non-hex digits is rejected" classname="LogicTests" time="0.001"/>
+  <testcase name="a \u escape truncated by the closing quote is rejected" classname="LogicTests" time="0.0"/>
+  <testcase name="a bare single quote character is invalid" classname="LogicTests" time="0.001"/>
+  <testcase name="a bare single semicolon is invalid" classname="LogicTests" time="0.0"/>
+  <testcase name="a bare single space is invalid" classname="LogicTests" time="0.0"/>
+  <testcase name="a single ordinary character passes through unchanged" classname="LogicTests" time="0.0"/>
+  <testcase name="empty input gets converted to null" classname="LogicTests" time="0.0"/>
+  <testcase name="a plain already-quoted value is untouched" classname="LogicTests" time="0.0"/>
+  <testcase name="a unescaped quote at the end gets doubled" classname="LogicTests" time="0.0"/>
+  <testcase name="a bare, unescaped quote embedded inside a quoted value gets escaped" classname="LogicTests" time="0.0"/>
+  <testcase name="a literal backslash inside a quoted value gets escaped so it can't form an accidental escape" classname="LogicTests" time="0.0"/>
+  <testcase name="a real embedded newline inside a quoted value is turned into the \n escape sequence" classname="LogicTests" time="0.0"/>
+  <testcase name="bare quote + literal backslash + real newline combined inside one quoted value" classname="LogicTests" time="0.0"/>
+  <testcase name="unquoted values get semicolons/spaces/quotes replaced instead of escaped" classname="LogicTests" time="0.0"/>
+  <testcase name="a raw newline in an unquoted value gets neutralized like a space" classname="LogicTests" time="0.0"/>
+  <testcase name="a raw tab in an unquoted value gets neutralized like a space" classname="LogicTests" time="0.001"/>
+  <testcase name="a raw '#' in an unquoted value gets neutralized so it can't start a comment" classname="LogicTests" time="0.0"/>
+  <testcase name="a lone newline character is invalid on its own, same as a lone space" classname="LogicTests" time="0.0"/>
+  <testcase name="a lone tab character is invalid on its own, same as a lone space" classname="LogicTests" time="0.0"/>
+  <testcase name="a lone '#' character is invalid on its own, same as a lone space" classname="LogicTests" time="0.0"/>
+  <testcase name="a well-formed \uXXXX escape inside a quoted value passes through untouched" classname="LogicTests" time="0.0"/>
+  <testcase name="\uXXXX combined with other escapes inside a quoted value" classname="LogicTests" time="0.0"/>
+  <testcase name="a malformed \u escape with too few digits still escapes the backslash instead of throwing" classname="LogicTests" time="0.0"/>
+  <testcase name="a malformed \u escape with non-hex digits still escapes the backslash instead of throwing" classname="LogicTests" time="0.0"/>
+  <testcase name="a \u escape truncated by the closing quote still escapes the backslash instead of throwing" classname="LogicTests" time="0.0"/>
+  <testcase name="plainNumberIsNotTreatedAsAString()" classname="LogicTests" time="0.003"/>
+  <testcase name="crlfAfterUnquotedTokenDoesNotCorruptTheToken()" classname="LogicTests" time="0.001"/>
+  <testcase name="quoteInVariableNameThrows()" classname="LogicTests" time="0.001"/>
+  <testcase name="color: rgb white" classname="LogicTests" time="0.0"/>
+  <testcase name="color: rgba" classname="LogicTests" time="0.0"/>
+  <testcase name="color: named" classname="LogicTests" time="0.0"/>
+  <testcase name="crlfAfterQuotedStringParsesCleanly()" classname="LogicTests" time="0.0"/>
+  <testcase name="parse null" classname="LogicTests" time="0.001"/>
+  <testcase name="decimal: zero" classname="LogicTests" time="0.0"/>
+  <testcase name="decimal: positive integer" classname="LogicTests" time="0.0"/>
+  <testcase name="decimal: negative integer" classname="LogicTests" time="0.0"/>
+  <testcase name="decimal: explicit plus sign" classname="LogicTests" time="0.001"/>
+  <testcase name="decimal: fraction" classname="LogicTests" time="0.0"/>
+  <testcase name="decimal: negative fraction" classname="LogicTests" time="0.001"/>
+  <testcase name="decimal: leading dot" classname="LogicTests" time="0.0"/>
+  <testcase name="decimal: large integer" classname="LogicTests" time="0.0"/>
+  <testcase name="decimal: scientific" classname="LogicTests" time="0.0"/>
+  <testcase name="decimal: scientific negative exponent" classname="LogicTests" time="0.0"/>
+  <testcase name="hex: zero" classname="LogicTests" time="0.0"/>
+  <testcase name="hex: uppercase digits" classname="LogicTests" time="0.0"/>
+  <testcase name="hex: lowercase digits" classname="LogicTests" time="0.0"/>
+  <testcase name="hex: mixed case" classname="LogicTests" time="0.0"/>
+  <testcase name="hex: explicit plus" classname="LogicTests" time="0.001"/>
+  <testcase name="hex: negative" classname="LogicTests" time="0.0"/>
+  <testcase name="hex: many leading zeros aren't overflow" classname="LogicTests" time="0.001"/>
+  <testcase name="hex: only zeros" classname="LogicTests" time="0.0"/>
+  <testcase name="hex: Long.MAX_VALUE" classname="LogicTests" time="0.0"/>
+  <testcase name="hex: Long.MIN_VALUE (0x8000...)" classname="LogicTests" time="0.0"/>
+  <testcase name="hex: unsigned long max wraps to -1" classname="LogicTests" time="0.0"/>
+  <testcase name="hex: unsigned long max - 1 wraps to -2" classname="LogicTests" time="0.0"/>
+  <testcase name="hex: negated -1 wrap gives 1" classname="LogicTests" time="0.0"/>
+  <testcase name="hex: negative Long.MAX_VALUE" classname="LogicTests" time="0.0"/>
+  <testcase name="bin: zero" classname="LogicTests" time="0.0"/>
+  <testcase name="bin: one" classname="LogicTests" time="0.0"/>
+  <testcase name="bin: ten" classname="LogicTests" time="0.0"/>
+  <testcase name="bin: explicit plus" classname="LogicTests" time="0.0"/>
+  <testcase name="bin: negative" classname="LogicTests" time="0.001"/>
+  <testcase name="bin: many leading zeros aren't overflow" classname="LogicTests" time="0.0"/>
+  <testcase name="bin: 63 ones is Long.MAX_VALUE" classname="LogicTests" time="0.0"/>
+  <testcase name="bin: 1 followed by 63 zeros is Long.MIN_VALUE" classname="LogicTests" time="0.001"/>
+  <testcase name="bin: 64 ones wraps to -1" classname="LogicTests" time="0.0"/>
+  <testcase name="quoteAtEndOfVariableNameThrows()" classname="LogicTests" time="0.0"/>
+  <testcase name="loneCarriageReturnActsAsALineEnding()" classname="LogicTests" time="0.0"/>
+  <testcase name="invalid: []" classname="LogicTests" time="0.001"/>
+  <testcase name="invalid: [abc]" classname="LogicTests" time="0.0"/>
+  <testcase name="invalid: [e10]" classname="LogicTests" time="0.001"/>
+  <testcase name="invalid: [NaN]" classname="LogicTests" time="0.0"/>
+  <testcase name="invalid: [Infinity]" classname="LogicTests" time="0.0"/>
+  <testcase name="invalid: [0x]" classname="LogicTests" time="0.0"/>
+  <testcase name="invalid: [0b]" classname="LogicTests" time="0.001"/>
+  <testcase name="invalid: [+0x]" classname="LogicTests" time="0.001"/>
+  <testcase name="invalid: [-0b]" classname="LogicTests" time="0.001"/>
+  <testcase name="invalid: [0xG]" classname="LogicTests" time="0.0"/>
+  <testcase name="invalid: [0x12G4]" classname="LogicTests" time="0.0"/>
+  <testcase name="invalid: [0b2]" classname="LogicTests" time="0.0"/>
+  <testcase name="invalid: [0b102]" classname="LogicTests" time="0.0"/>
+  <testcase name="invalid: [0x-1]" classname="LogicTests" time="0.001"/>
+  <testcase name="invalid: [0x1.5]" classname="LogicTests" time="0.0"/>
+  <testcase name="invalid: [0x10000000000000000]" classname="LogicTests" time="0.0"/>
+  <testcase name="invalid: [-0x10000000000000000]" classname="LogicTests" time="0.0"/>
+  <testcase name="invalid: [0xFFFFFFFFFFFFFFFFF]" classname="LogicTests" time="0.0"/>
+  <testcase name="invalid: [0b10000000000000000000000000000000000000000000000000000000000000000]" classname="LogicTests" time="0.0"/>
+  <testcase name="invalid: [0b11111111111111111111111111111111111111111111111111111111111111111]" classname="LogicTests" time="0.001"/>
+  <testcase name="invalid: [%fff]" classname="LogicTests" time="0.0"/>
+  <testcase name="invalid: [%[nosuchcolor]]" classname="LogicTests" time="0.001"/>
+  <testcase name="plain quoted value" classname="LogicTests" time="0.001"/>
+  <testcase name="bare embedded quote round-trips to a literal quote" classname="LogicTests" time="0.001"/>
+  <testcase name="literal backslash round-trips to a single backslash" classname="LogicTests" time="0.0"/>
+  <testcase name="real embedded newline round-trips to a real newline" classname="LogicTests" time="0.0"/>
+  <testcase name="newline typed as escape turns into real backslash" classname="LogicTests" time="0.0"/>
+  <testcase name="bare quote + backslash + newline combined round-trip correctly together" classname="LogicTests" time="0.001"/>
+  <testcase name="typing \n by hand in a single-line field decodes to a real newline, not literal backslash+n" classname="LogicTests" time="0.0"/>
+  <testcase name="typing \&quot; by hand decodes to a literal embedded quote, not literal backslash+quote" classname="LogicTests" time="0.001"/>
+  <testcase name="typing \\ by hand (two backslashes) decodes to a single literal backslash" classname="LogicTests" time="0.001"/>
+  <testcase name="a lone backslash NOT forming a recognized escape still round-trips as itself, unaffected by the fix" classname="LogicTests" time="0.0"/>
+  <testcase name="a trailing lone backslash right before the closing quote still round-trips as itself" classname="LogicTests" time="0.001"/>
+  <testcase name="plain string has no escapes" classname="LogicTests" time="0.0"/>
+  <testcase name="\n decodes to a real newline character" classname="LogicTests" time="0.0"/>
+  <testcase name="\&quot; decodes to a literal quote without ending the string" classname="LogicTests" time="0.001"/>
+  <testcase name="\\ decodes to a single literal backslash" classname="LogicTests" time="0.001"/>
+  <testcase name="an escaped backslash immediately followed by a literal n must NOT collapse into a newline" classname="LogicTests" time="0.001"/>
+  <testcase name="unrecognized escape sequences pass through as a literal backslash + character" classname="LogicTests" time="0.0"/>
+  <testcase name="\n, \&quot; and \\ combined in a single string" classname="LogicTests" time="0.001"/>
+  <testcase name="empty quoted string" classname="LogicTests" time="0.0"/>
+  <testcase name="escaped backslash sitting right before the closing quote" classname="LogicTests" time="0.001"/>
+  <testcase name="\u0041 decodes to the corresponding unicode character" classname="LogicTests" time="0.0"/>
+  <testcase name="\uf8ff decodes to the corresponding unicode character" classname="LogicTests" time="0.001"/>
+  <testcase name="\u escapes combined with other escapes in one string" classname="LogicTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

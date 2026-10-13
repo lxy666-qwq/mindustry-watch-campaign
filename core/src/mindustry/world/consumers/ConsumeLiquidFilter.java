@@ -5,6 +5,7 @@ import arc.scene.ui.layout.*;
 import arc.struct.*;
 import arc.util.*;
 import mindustry.gen.*;
+import mindustry.content.CampaignStars;
 import mindustry.type.*;
 import mindustry.ui.*;
 import mindustry.world.*;
@@ -44,7 +45,9 @@ public class ConsumeLiquidFilter extends ConsumeLiquidBase{
     public void update(Building build){
         Liquid liq = getConsumed(build);
         if(liq != null){
+            float before = build.liquids.get(liq);
             build.liquids.remove(liq, amount * build.edelta() * multiplier.get(build));
+            CampaignStars.recordLiquidConsumption(build, this, liq, before - build.liquids.get(liq));
         }
     }
 

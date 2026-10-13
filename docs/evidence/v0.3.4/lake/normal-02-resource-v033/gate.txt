@@ -1,0 +1,13 @@
+runtime=0.3.3
+class=file:/trial-work/star033-runtime/Mindustry.jar
+sourceProfile=local-work/aegis-trials/tactical-01-v033/profile/settings.bin
+onsetNormal=3
+onsetHero=1
+onsetTactical=1
+aegisNormal=3
+aegisHero=1
+aegisTactical=1
+mainStars=10
+totalStars=10
+lakeUnlocked=true
+allowed=true

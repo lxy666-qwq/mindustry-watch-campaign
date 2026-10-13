@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="power.DirectConsumerTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-10-13T10:04:47.377Z" hostname="LAPTOP-B3R6MC71" time="0.716">
+  <properties/>
+  <testcase name="powerRequestedWithSufficientItems()" classname="power.DirectConsumerTests" time="0.014"/>
+  <testcase name="noPowerRequestedWithInsufficientItems()" classname="power.DirectConsumerTests" time="0.001"/>
+  <testcase name="noPowerRequestedWithNoItems()" classname="power.DirectConsumerTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,15 @@
+Isolated coolant scoring QA; copied genuine Onset/Aegis10-star profile; Lake TACTICAL UI gate=false because Lake NORMAL has not yet won. No resource/goal/wave/unit writes.
+plan vent-condenser 224,106 r=0
+plan beam-node 245,99 r=0
+plan beam-node 245,104 r=0
+plan beam-node 235,104 r=0
+plan beam-node 225,104 r=0
+plan reinforced-conduit 224,104 r=3
+plan reinforced-conduit 224,103 r=2
+plan reinforced-conduit 223,103 r=2
+plan reinforced-conduit 222,103 r=2
+plan reinforced-conduit 221,103 r=1
+plan reinforced-conduit 221,104 r=1
+plan reinforced-conduit 221,105 r=1
+plan reinforced-conduit 221,106 r=1
+plan reinforced-conduit 221,107 r=1

@@ -1,0 +1,111 @@
+profileScope=shared-progression gateVerified=true starsBefore=0 mainStarsBefore=12
+Native biomass start: core=138,56 inventory=ItemModule{copper:100}
+planned copper output 129,60 with 9 native resource-to-core conveyors
+planned copper output 128,58 with 8 native resource-to-core conveyors
+planned lead output 143,84 with 128 native resource-to-core conveyors
+planned actual coal drill 176,68; native Alpha can carry its real output if the conveyor is cut
+planned coal output 176,68 with 47 native resource-to-core conveyors
+planned actual coal drill 177,65; native Alpha can carry its real output if the conveyor is cut
+planned coal output 177,65 with 45 native resource-to-core conveyors
+planned graphite output 134,52 with 3 native resource-to-core conveyors
+driver: added=true dead=false unit=Unit#277:alpha (1104.0, 448.01492) plans=1 next=BuildPlan{x=129, y=60, rotation=0, block=mechanical-drill, breaking=false, progress=0.085, initialized=true, config=null} tile=build2 valid=true unlocked=true env=true placeable=true dist=76.934555
+0.0,1.3511317,1,0,1.0,99,0,0,0,0,0,0,0.0,0.0
+tutorial objectives=0/0 flags={} coreStats={} queue=278 gather=null pending=BuildPlan{x=129, y=60, rotation=0, block=mechanical-drill, breaking=false, progress=0.085, initialized=true, config=null}
+60.0,2.1917062,1,0,1.0,70,0,0,27,3,4,4,108.0,0.0
+tutorial objectives=0/0 flags={} coreStats={铜=35} queue=251 gather=铜 pending=BuildPlan{x=136, y=68, rotation=0, block=copper-wall-large, breaking=false, progress=0.21249992, initialized=true, config=null}
+120.0,2.7932427,1,0,1.0,15,0,0,240,3,5,4,108.0,0.0
+tutorial objectives=0/0 flags={} coreStats={铜=79} queue=38 gather=铜 pending=BuildPlan{x=151, y=59, rotation=2, block=conveyor, breaking=false, progress=0.0, initialized=false, config=null}
+180.0,3.9686112,1,0,1.0,25,88,8,258,8,15,4,108.0,0.0
+tutorial objectives=0/0 flags={} coreStats={铜=123, 铅=15, 煤炭=34, 石墨=13} queue=20 gather=煤炭 pending=BuildPlan{x=132, y=65, rotation=0, block=scorch, breaking=false, progress=0.0, initialized=false, config=null}
+240.0,4.8886137,2,2,1.0,44,110,5,259,19,26,5,108.0,30.0
+tutorial objectives=0/0 flags={} coreStats={铜=167, 铅=37, 煤炭=75, 石墨=30} queue=19 gather=煤炭 pending=BuildPlan{x=136, y=65, rotation=0, block=scorch, breaking=false, progress=0.0, initialized=false, config=null}
+300.0,5.8418727,2,0,1.0,40,132,4,260,28,35,6,98.0,60.0
+tutorial objectives=0/0 flags={} coreStats={铜=190, 铅=59, 煤炭=116, 石墨=46} queue=18 gather=煤炭 pending=BuildPlan{x=140, y=65, rotation=0, block=scorch, breaking=false, progress=0.10347826, initialized=true, config=null}
+360.0,6.7683344,3,0,1.0,43,154,0,260,38,45,6,86.0,60.0
+tutorial objectives=0/0 flags={} coreStats={铜=211, 铅=81, 煤炭=157, 石墨=64} queue=18 gather=石墨 pending=BuildPlan{x=140, y=65, rotation=0, block=scorch, breaking=false, progress=0.8278261, initialized=true, config=null}
+420.0,7.6980953,3,0,1.0,44,177,2,261,46,53,7,92.0,90.0
+tutorial objectives=0/0 flags={} coreStats={铜=230, 铅=104, 煤炭=198, 石墨=79} queue=17 gather=石墨 pending=BuildPlan{x=144, y=65, rotation=0, block=scorch, breaking=false, progress=0.54695654, initialized=true, config=null}
+480.0,8.651462,4,0,1.0,0,124,11,263,55,63,9,80.0,120.0
+tutorial objectives=0/0 flags={} coreStats={铜=250, 铅=126, 煤炭=239, 石墨=94} queue=15 gather=铜 pending=BuildPlan{x=134, y=60, rotation=0, block=scatter, breaking=false, progress=0.52378434, initialized=true, config=null}
+540.0,9.616007,4,0,1.0,23,13,23,266,59,73,12,82.0,120.0
+tutorial objectives=0/0 flags={} coreStats={铜=270, 铅=148, 煤炭=281, 石墨=103} queue=12 gather=石墨 pending=BuildPlan{x=134, y=58, rotation=0, block=hail, breaking=false, progress=0.35837838, initialized=true, config=null}
+600.0,10.547657,5,0,1.0,15,35,12,267,67,90,13,96.0,120.0
+tutorial objectives=0/0 flags={} coreStats={铜=284, 铅=170, 煤炭=322, 石墨=135} queue=11 gather=铜 pending=BuildPlan{x=142, y=59, rotation=0, block=hail, breaking=false, progress=0.0, initialized=false, config=null}
+660.0,11.56857,6,6,1.0,50,57,17,269,75,102,15,106.0,120.0
+tutorial objectives=0/0 flags={} coreStats={铜=284, 铅=192, 煤炭=363, 石墨=153} queue=9 gather=铜 pending=BuildPlan{x=135, y=62, rotation=0, block=duo, breaking=false, progress=0.0, initialized=false, config=null}
+720.0,13.234501,6,0,0.9074546,13,79,58,275,79,109,17,150.0,120.0
+tutorial objectives=0/0 flags={} coreStats={铜=284, 铅=214, 煤炭=404, 石墨=153} queue=3 gather=铜 pending=BuildPlan{x=127, y=56, rotation=0, block=copper-wall-large, breaking=false, progress=0.8358341, initialized=true, config=null}
+780.0,14.557161,7,4,0.9074546,180,80,49,302,87,127,18,212.0,120.0
+tutorial objectives=0/0 flags={} coreStats={铜=319, 铅=215, 煤炭=445, 石墨=173} queue=0 gather=null pending=none
+840.0,16.070768,7,0,0.9074546,527,119,12,310,101,155,18,184.0,120.0
+tutorial objectives=0/0 flags={} coreStats={铜=361, 铅=254, 煤炭=486, 石墨=213} queue=0 gather=null pending=none
+900.0,17.227266,8,6,0.9074546,749,141,9,310,112,169,18,184.0,120.0
+tutorial objectives=0/0 flags={} coreStats={铜=405, 铅=276, 煤炭=527, 石墨=239} queue=0 gather=煤炭 pending=none
+960.0,18.466116,8,0,0.9074546,857,155,3,327,125,189,18,209.0,110.0
+tutorial objectives=0/0 flags={} coreStats={铜=438, 铅=290, 煤炭=569, 石墨=259} queue=0 gather=null pending=none
+1020.0,19.686357,9,1,0.9074546,1038,184,6,327,136,200,18,176.0,108.0
+tutorial objectives=0/0 flags={} coreStats={铜=481, 铅=319, 煤炭=610, 石墨=282} queue=0 gather=煤炭 pending=none
+1080.0,20.72836,9,0,0.9074546,1138,204,9,345,147,212,18,157.0,108.0
+tutorial objectives=0/0 flags={} coreStats={铜=517, 铅=339, 煤炭=651, 石墨=301} queue=0 gather=煤炭 pending=none
+1140.0,22.056196,10,3,0.9074546,1335,224,0,345,159,229,18,185.0,104.0
+tutorial objectives=0/0 flags={} coreStats={铜=557, 铅=359, 煤炭=692, 石墨=322} queue=0 gather=null pending=none
+1200.0,23.086966,10,1,0.9074546,1406,226,2,369,168,240,18,161.0,117.0
+tutorial objectives=0/0 flags={} coreStats={铜=592, 铅=361, 煤炭=733, 石墨=336} queue=0 gather=null pending=none
+1260.0,24.213524,11,0,0.9074546,1493,227,0,417,182,260,18,188.0,103.0
+tutorial objectives=0/0 flags={} coreStats={铜=630, 铅=362, 煤炭=774, 石墨=359} queue=0 gather=null pending=none
+1320.0,25.152706,12,14,0.9074546,1540,272,8,417,191,269,18,188.0,103.0
+tutorial objectives=0/0 flags={} coreStats={铜=674, 铅=407, 煤炭=815, 石墨=378} queue=0 gather=煤炭 pending=none
+1380.0,26.104269,12,1,0.87200004,1380,284,2,432,209,300,18,202.0,95.0
+tutorial objectives=0/0 flags={} coreStats={铜=712, 铅=419, 煤炭=857, 石墨=389} queue=0 gather=煤炭 pending=none
+1440.0,27.104816,13,7,0.87200004,1386,276,6,504,219,313,18,197.0,95.0
+tutorial objectives=0/0 flags={} coreStats={铜=756, 铅=420, 煤炭=898, 石墨=408} queue=0 gather=煤炭 pending=none
+1500.0,28.138292,13,0,0.87200004,1503,276,3,518,232,330,18,186.0,109.0
+tutorial objectives=0/0 flags={} coreStats={铜=796, 铅=420, 煤炭=939, 石墨=425} queue=0 gather=煤炭 pending=none
+1560.0,29.069231,14,15,0.87200004,1548,320,2,518,241,339,18,186.0,109.0
+tutorial objectives=0/0 flags={} coreStats={铜=841, 铅=464, 煤炭=980, 石墨=442} queue=0 gather=null pending=none
+1620.0,30.006681,14,1,0.86018187,1521,314,0,518,259,369,16,133.0,102.0
+tutorial objectives=0/0 flags={} coreStats={铜=866, 铅=468, 煤炭=1021, 石墨=451} queue=20 gather=null pending=BuildPlan{x=129, y=60, rotation=0, block=mechanical-drill, breaking=false, progress=0.8499999, initialized=true, config=null}
+1680.0,31.101198,15,3,0.86018187,1429,304,1,594,275,393,18,172.0,115.0
+tutorial objectives=0/0 flags={} coreStats={铜=906, 铅=469, 煤炭=1062, 石墨=470} queue=0 gather=煤炭 pending=none
+1740.0,32.134712,15,0,0.86018187,1495,339,0,628,285,406,18,188.0,115.0
+tutorial objectives=0/0 flags={} coreStats={铜=940, 铅=504, 煤炭=1103, 石墨=488} queue=0 gather=null pending=none
+1800.0,33.108353,16,8,0.86018187,1539,350,2,628,299,423,15,99.0,82.0
+tutorial objectives=0/0 flags={} coreStats={铜=979, 铅=523, 煤炭=1145, 石墨=512} queue=0 gather=煤炭 pending=none
+1808.8334,33.245358,16,4,0.0,0,0,0,628,299,423,11,0.0,30.0
+tutorial objectives=0/0 flags={} coreStats={铜=982, 铅=523, 煤炭=1151, 石墨=513} queue=0 gather=煤炭 pending=none
+trial=legal-build
+selection=campaign-progression-gates-verified
+mission=biomassFacility
+mode=NORMAL
+finished=true
+winner=crux
+wave=16
+actualSpawnWaves=15
+simSeconds=1808.8334
+wallSeconds=33.24644
+placedBuildings=628
+withdraws=299
+deposits=423
+coreMinimum=-0.005454431
+buildingsDestroyed=428
+pendingPlans=0
+codeLocation=file:/local-work/mindustry-star-work/star033-runtime/Mindustry.jar
+CampaignStars.classModifiedAtStart=1791877212532
+WatchMapGenerator.classModifiedAtStart=1791877212532
+runtimeWatchVersion=0.3.3
+CoreBlock.classModifiedAtStart=1791877212532
+sourceJarModifiedAtStart=1791877212532
+assetsLocation=local-work/mindustry-star-work/star033-runtime/assets
+profileScope=shared-progression
+gateVerified=true
+starsAfter=0
+mainStarsAfter=12
+branch0RewardAfter=true
+settingsFileExists=true
+waveTimer=true
+objectives=0
+objectiveFlags={}
+frozenForestOpen=true
+objectivesCompleted=0
+status=挑战条件未达成；本次获得 0 / 3 星；本关累计 0 / 5
+

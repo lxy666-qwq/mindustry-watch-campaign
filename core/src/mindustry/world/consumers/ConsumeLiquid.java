@@ -2,6 +2,7 @@ package mindustry.world.consumers;
 
 import arc.scene.ui.layout.*;
 import mindustry.gen.*;
+import mindustry.content.CampaignStars;
 import mindustry.type.*;
 import mindustry.ui.*;
 import mindustry.world.*;
@@ -35,7 +36,9 @@ public class ConsumeLiquid extends ConsumeLiquidBase{
 
     @Override
     public void update(Building build){
+        float before = build.liquids.get(liquid);
         build.liquids.remove(liquid, amount * build.edelta() * multiplier.get(build));
+        CampaignStars.recordLiquidConsumption(build, this, liquid, before - build.liquids.get(liquid));
     }
 
     @Override

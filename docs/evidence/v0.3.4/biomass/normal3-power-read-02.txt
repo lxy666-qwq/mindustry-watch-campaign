@@ -1,0 +1,23 @@
+combustion-generator pos=130,49 coal=4 efficiency=1.0 power=0.0 links=[] graphID=8 capacity=0.0 input=0.0 need=0.0
+combustion-generator pos=131,49 coal=0 efficiency=0.0 power=0.0 links=[] graphID=8 capacity=0.0 input=0.0 need=0.0
+combustion-generator pos=132,49 coal=0 efficiency=0.0 power=0.0 links=[] graphID=8 capacity=0.0 input=0.0 need=0.0
+combustion-generator pos=133,49 coal=0 efficiency=0.0 power=0.0 links=[] graphID=8 capacity=0.0 input=0.0 need=0.0
+combustion-generator pos=134,49 coal=0 efficiency=0.0 power=0.0 links=[] graphID=8 capacity=0.0 input=0.0 need=0.0
+combustion-generator pos=135,49 coal=0 efficiency=0.0 power=0.0 links=[] graphID=8 capacity=0.0 input=0.0 need=0.0
+combustion-generator pos=136,49 coal=0 efficiency=0.0 power=0.0 links=[] graphID=8 capacity=0.0 input=0.0 need=0.0
+combustion-generator pos=137,49 coal=0 efficiency=0.0 power=0.0 links=[] graphID=8 capacity=0.0 input=0.0 need=0.0
+battery pos=130,50 coal=0 efficiency=0.0 power=1.0 links=[] graphID=8 capacity=0.0 input=0.0 need=0.0
+battery pos=131,50 coal=0 efficiency=0.0 power=1.0 links=[] graphID=8 capacity=0.0 input=0.0 need=0.0
+battery pos=132,50 coal=0 efficiency=0.0 power=1.0 links=[] graphID=8 capacity=0.0 input=0.0 need=0.0
+battery pos=133,50 coal=0 efficiency=0.0 power=1.0 links=[] graphID=8 capacity=0.0 input=0.0 need=0.0
+battery pos=134,50 coal=0 efficiency=0.0 power=1.0 links=[] graphID=8 capacity=0.0 input=0.0 need=0.0
+battery pos=135,50 coal=0 efficiency=0.0 power=1.0 links=[] graphID=8 capacity=0.0 input=0.0 need=0.0
+battery pos=136,50 coal=0 efficiency=0.0 power=1.0 links=[] graphID=8 capacity=0.0 input=0.0 need=0.0
+battery pos=137,50 coal=0 efficiency=0.0 power=1.0 links=[] graphID=8 capacity=0.0 input=0.0 need=0.0
+power-node pos=136,61 coal=0 efficiency=0.0 power=0.0 links=[8650817, 8978496, 9175103] graphID=20 capacity=0.0 input=0.0 need=0.0
+power-node pos=140,63 coal=0 efficiency=0.0 power=0.0 links=[8912957, 9502785, 8978496, 9502784] graphID=20 capacity=0.0 input=0.0 need=0.0
+lancer pos=137,64 coal=0 efficiency=0.0 power=0.0 links=[8912957, 9175103] graphID=20 capacity=0.0 input=0.0 need=0.0
+power-node pos=145,64 coal=0 efficiency=0.0 power=0.0 links=[9175103, 9502785] graphID=20 capacity=0.0 input=0.0 need=0.0
+arc pos=132,65 coal=0 efficiency=0.0 power=0.0 links=[8912957] graphID=20 capacity=0.0 input=0.0 need=0.0
+arc pos=145,65 coal=0 efficiency=0.0 power=0.0 links=[9175103, 9502784] graphID=20 capacity=0.0 input=0.0 need=0.0
+unloaderResearched=true costs=[钛: 25, 硅: 30]

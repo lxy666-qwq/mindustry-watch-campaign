@@ -1,0 +1,7 @@
+sourceWorld=local-work/lake-trials/normal-09-v033/end.msav
+originalEvoke=733
+logic.play=false; no starting loadout repeated
+startElapsed=3597.2068
+startPlaced=182
+startMinCore=0.86777776
+startLoss=146

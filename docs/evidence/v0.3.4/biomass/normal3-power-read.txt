@@ -1,0 +1,10 @@
+combustion-generator pos=130,49 coal=4 efficiency=1.0 power=0.0 links=[] graphID=8 capacity=0.0 input=0.0 need=0.0
+combustion-generator pos=131,49 coal=0 efficiency=0.0 power=0.0 links=[] graphID=8 capacity=0.0 input=0.0 need=0.0
+combustion-generator pos=132,49 coal=0 efficiency=0.0 power=0.0 links=[] graphID=8 capacity=0.0 input=0.0 need=0.0
+combustion-generator pos=133,49 coal=0 efficiency=0.0 power=0.0 links=[] graphID=8 capacity=0.0 input=0.0 need=0.0
+combustion-generator pos=134,49 coal=0 efficiency=0.0 power=0.0 links=[] graphID=8 capacity=0.0 input=0.0 need=0.0
+combustion-generator pos=135,49 coal=0 efficiency=0.0 power=0.0 links=[] graphID=8 capacity=0.0 input=0.0 need=0.0
+combustion-generator pos=136,49 coal=0 efficiency=0.0 power=0.0 links=[] graphID=8 capacity=0.0 input=0.0 need=0.0
+combustion-generator pos=137,49 coal=0 efficiency=0.0 power=0.0 links=[] graphID=8 capacity=0.0 input=0.0 need=0.0
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "mindustry.world.modules.ItemModule.get(mindustry.type.Item)" because "<local2>.items" is null
+	at NativePowerRead033.main(NativePowerRead033.java:19)

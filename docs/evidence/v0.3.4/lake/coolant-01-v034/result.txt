@@ -1,0 +1,39 @@
+mission=lake
+firstWater=2.3166652
+firstIsolatedConsumption=81.53627
+isolatedConsumedWater=19.75
+ammoDecreaseFrames=102
+reloadDecreaseFrames=102
+cutComplete=true
+retainedNewPipes=14
+TaskA=14
+TaskB=0
+mode=TACTICAL
+scope=isolated native coolant QA; UI TACTICAL gate closed; no victory or score injection
+gateVerified=false
+finished=false
+winner=null
+simSeconds=480.0
+built=20
+commands=0
+deposits=0
+pendingPlans=0
+next=none
+stars=0
+minimumCore=1.0
+losses=3
+elapsed=479.92694
+normalBefore=0
+heroBefore=0
+tacticalBefore=0
+normalAfter=0
+tacticalAfter=0
+earned=0
+runtimeWatchVersion=0.3.4
+objectives=0/2
+flags={}
+status=核心最低生命 100% · 核心损失 0
+12座曾实际供给核心、弹药塔、消耗冷却液的炮台或产出设施的导管及2座胜利前60秒内曾实际产出/发电的抽水/冷凝设施。核心入库只计真实产出或玩家实际投放的来源，核心回流不计。
+新增运输设施 14 / 12 · 新增生产设施 0 / 2
+累计建造 20 / 302
+classLocation=file:/local-work/mindustry-star-work/star034-runtime/Mindustry.jar

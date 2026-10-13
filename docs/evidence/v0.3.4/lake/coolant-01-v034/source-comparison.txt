@@ -1,0 +1,1 @@
+Compared text directly without hashes. Only frozen runtime path and C source-copy path changed from coolant-02-v033. Native actions, ticks, checkpoint, old A==0 exit assertion all retained.

@@ -1045,6 +1045,115 @@ public class CampaignStarsTests{
         assertEquals(8, suppliedCount());
     }
 
+    Seq<Building> coolantLine(Block turretBlock, Liquid liquid){
+        var origin = rectangle(22, 9);
+        Seq<Building> pipes = new Seq<>();
+        int y = origin.y + 3;
+        for(int i = 0; i < 12; i++) pipes.add(at(Blocks.reinforcedConduit, origin.x + i, y, 0));
+        var turret = at(turretBlock, origin.x + 12 + turretBlock.size / 2, y, 0);
+        pipes.first().handleLiquid(pipes.first(), liquid, 20f);
+        run(pipes, 1200);
+        assertTrue(turret.liquids.get(liquid) > 0f, "native conduits actually deliver coolant");
+        pipes.add(turret);
+        return pipes;
+    }
+
+    @ParameterizedTest
+    @ValueSource(strings = {"breach", "duo"})
+    void nativeFixedAndFilteredCoolantConfirmSupplyOnlyAfterConsumption(String name){
+        start(SectorPresets.lake, Mode.TACTICAL);
+        var line = coolantLine(content.block(name), Liquids.water);
+        var turret = (mindustry.world.blocks.defense.turrets.ItemTurret.ItemTurretBuild)line.pop();
+        assertEquals(0, suppliedCount(), "filling an idle turret does not confirm supply");
+        turret.handleStack(name.equals("breach") ? Items.beryllium : Items.copper, 20, null);
+        float before = turret.liquids.get(Liquids.water);
+        run(Seq.with(turret), 10);
+        assertTrue(turret.liquids.get(Liquids.water) < before, "the original reload actually consumes water");
+        assertEquals(12, suppliedCount());
+    }
+
+    @ParameterizedTest
+    @ValueSource(strings = {"breach", "duo"})
+    void fullyReloadedNativeTurretDoesNotCreditStoredCoolant(String name){
+        start(SectorPresets.lake, Mode.TACTICAL);
+        var line = coolantLine(content.block(name), Liquids.water);
+        var turret = (mindustry.world.blocks.defense.turrets.ItemTurret.ItemTurretBuild)line.pop();
+        turret.handleStack(name.equals("breach") ? Items.beryllium : Items.copper, 20, null);
+        turret.reloadCounter = ((mindustry.world.blocks.defense.turrets.ReloadTurret)turret.block).reload;
+        float before = turret.liquids.get(Liquids.water);
+        run(Seq.with(turret), 10);
+        assertEquals(before, turret.liquids.get(Liquids.water));
+        assertEquals(0, suppliedCount());
+    }
+
+    @Test
+    void coolingCreditsOnlyTheLiquidThatNativeConsumerUsed(){
+        start(SectorPresets.lake, Mode.TACTICAL);
+        var line = coolantLine(Blocks.duo, Liquids.cryofluid);
+        var turret = (mindustry.world.blocks.defense.turrets.ItemTurret.ItemTurretBuild)line.pop();
+        var water = at(Blocks.reinforcedConduit, turret.tileX(), turret.tileY() + 1, 3);
+        water.handleLiquid(water, Liquids.water, 8f);
+        run(Seq.with(water), 600);
+        assertTrue(turret.liquids.get(Liquids.water) > 0f);
+        assertSame(Liquids.water, turret.liquids.current());
+        turret.handleStack(Items.copper, 20, null);
+        float cryo = turret.liquids.get(Liquids.cryofluid), storedWater = turret.liquids.get(Liquids.water);
+        run(Seq.with(turret), 10);
+        assertTrue(turret.liquids.get(Liquids.water) < storedWater);
+        assertEquals(cryo, turret.liquids.get(Liquids.cryofluid));
+        assertTrue(supplied(water));
+        assertEquals(0, line.count(this::supplied), "unused cryofluid route remains uncredited");
+    }
+
+    @Test
+    void capturedNativeTurretCoolingDoesNotConfirmPlayerSupply(){
+        start(SectorPresets.lake, Mode.TACTICAL);
+        var line = coolantLine(Blocks.breach, Liquids.water);
+        var turret = (mindustry.world.blocks.defense.turrets.ItemTurret.ItemTurretBuild)line.pop();
+        turret.changeTeam(Team.crux);
+        turret.handleStack(Items.beryllium, 20, null);
+        float before = turret.liquids.get(Liquids.water);
+        run(Seq.with(turret), 10);
+        assertTrue(turret.liquids.get(Liquids.water) < before);
+        assertEquals(0, line.count(this::supplied));
+    }
+
+    @ParameterizedTest
+    @EnumSource(value = Mode.class, names = {"NORMAL", "HEROIC"})
+    void nativeCoolingOutsideTacticalDoesNotCreateSupplyEvidence(Mode mode){
+        start(SectorPresets.lake, mode);
+        var line = coolantLine(Blocks.breach, Liquids.water);
+        var turret = (mindustry.world.blocks.defense.turrets.ItemTurret.ItemTurretBuild)line.pop();
+        turret.handleStack(Items.beryllium, 20, null);
+        float before = turret.liquids.get(Liquids.water);
+        run(Seq.with(turret), 10);
+        assertTrue(turret.liquids.get(Liquids.water) < before);
+        assertFalse(state.rules.tags.keys().toSeq().contains(k -> k.startsWith("stars.transferred.")));
+    }
+
+    @Test
+    void nativeCoolingSupplyAndPendingFlowSurviveWorldSave(){
+        start(SectorPresets.lake, Mode.TACTICAL);
+        var line = coolantLine(Blocks.breach, Liquids.water);
+        var turret = (mindustry.world.blocks.defense.turrets.ItemTurret.ItemTurretBuild)line.pop();
+        int turretPosition = turret.pos();
+        var positions = line.map(Building::pos);
+        var file = saveDirectory.child("stars-pending-native-coolant.msav");
+        SaveIO.write(file);
+        SaveIO.load(file);
+        assertEquals(0, suppliedCount());
+        turret = (mindustry.world.blocks.defense.turrets.ItemTurret.ItemTurretBuild)world.build(turretPosition);
+        turret.handleStack(Items.beryllium, 20, null);
+        float before = turret.liquids.get(Liquids.water);
+        run(Seq.with(turret), 10);
+        assertTrue(turret.liquids.get(Liquids.water) < before);
+        assertEquals(12, suppliedCount());
+        SaveIO.write(file);
+        SaveIO.load(file);
+        assertEquals(12, suppliedCount());
+        for(var position : positions) assertTrue(supplied(world.build(position)));
+    }
+
     @Test
     void actualSupplyAndMovedTransportIdentitySurviveSaveIO(){
         start(SectorPresets.frozenForest, Mode.TACTICAL);

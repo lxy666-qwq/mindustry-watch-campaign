@@ -1,0 +1,27 @@
+mission=lake
+mode=NORMAL
+scope=driver failed: No duct route BuildPlan{x=234, y=86, rotation=0, block=duct-router, breaking=false, progress=0.0, initialized=false, config=null} -> BuildPlan{x=237, y=106, rotation=1, block=ship-fabricator, breaking=false, progress=0.0, initialized=false, config=null}
+gateVerified=true
+finished=false
+winner=null
+simSeconds=0.0
+built=0
+commands=0
+deposits=0
+pendingPlans=61
+next=BuildPlan{x=224, y=106, rotation=0, block=turbine-condenser, breaking=false, progress=0.0, initialized=false, config=null}
+stars=0
+minimumCore=1.0
+losses=0
+elapsed=0.0
+normalBefore=0
+heroBefore=0
+tacticalBefore=0
+normalAfter=0
+tacticalAfter=0
+earned=0
+runtimeWatchVersion=0.3.3
+objectives=0/2
+flags={}
+status=核心最低生命 100% · 核心损失 0
+classLocation=file:/trial-work/star033-runtime/Mindustry.jar

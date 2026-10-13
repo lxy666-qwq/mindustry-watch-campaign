@@ -1,0 +1,16 @@
+simSeconds,block,x,y
+1041.1333,mender,95,49
+1088.5,copper-wall,100,51
+1092.25,copper-wall,99,51
+1149.6167,combustion-generator,80,19
+1398.4833,copper-wall-large,68,53
+1402.3667,bridge-conveyor,71,28
+1402.8667,conveyor,71,27
+1403.45,power-node,76,23
+1462.9333,mender,75,55
+1466.0333,bridge-conveyor,71,33
+1466.0333,power-node,73,32
+1466.0333,bridge-conveyor,71,32
+1467.2,mender,85,27
+1469.7167,hail,84,23
+1470.2333,core-shard,88,26

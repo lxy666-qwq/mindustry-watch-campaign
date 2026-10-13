@@ -1,0 +1,1 @@
+Native break requested at 80.96948 ammoDecreaseFrames=1 retainedPipes=15 TaskA=0 water=20.0

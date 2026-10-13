@@ -1,0 +1,21 @@
+Native continuation of preserved normal09, same world/items/time/stats/tags; authentic inherited settings only.
+native repair BuildPlan{x=226, y=93, rotation=1, block=plasma-bore, breaking=false, progress=0.0, initialized=false, config=null}
+native repair BuildPlan{x=228, y=93, rotation=1, block=plasma-bore, breaking=false, progress=0.0, initialized=false, config=null}
+native repair BuildPlan{x=216, y=94, rotation=2, block=cliff-crusher, breaking=false, progress=0.0, initialized=false, config=null}
+native repair BuildPlan{x=216, y=96, rotation=2, block=cliff-crusher, breaking=false, progress=0.0, initialized=false, config=null}
+native repair BuildPlan{x=220, y=98, rotation=1, block=duct, breaking=false, progress=0.0, initialized=false, config=null}
+native repair BuildPlan{x=220, y=99, rotation=1, block=duct, breaking=false, progress=0.0, initialized=false, config=null}
+native repair BuildPlan{x=220, y=100, rotation=1, block=duct, breaking=false, progress=0.0, initialized=false, config=null}
+native repair BuildPlan{x=220, y=101, rotation=1, block=duct, breaking=false, progress=0.0, initialized=false, config=null}
+native repair BuildPlan{x=220, y=102, rotation=1, block=duct, breaking=false, progress=0.0, initialized=false, config=null}
+native repair BuildPlan{x=220, y=103, rotation=1, block=duct, breaking=false, progress=0.0, initialized=false, config=null}
+native repair BuildPlan{x=220, y=104, rotation=1, block=duct, breaking=false, progress=0.0, initialized=false, config=null}
+native repair BuildPlan{x=220, y=105, rotation=1, block=duct, breaking=false, progress=0.0, initialized=false, config=null}
+native repair BuildPlan{x=220, y=106, rotation=1, block=duct, breaking=false, progress=0.0, initialized=false, config=null}
+native repair BuildPlan{x=220, y=107, rotation=1, block=duct, breaking=false, progress=0.0, initialized=false, config=null}
+native repair BuildPlan{x=220, y=108, rotation=0, block=duct, breaking=false, progress=0.0, initialized=false, config=null}
+native repair BuildPlan{x=221, y=108, rotation=0, block=duct, breaking=false, progress=0.0, initialized=false, config=null}
+native repair BuildPlan{x=222, y=108, rotation=1, block=duct, breaking=false, progress=0.0, initialized=false, config=null}
+native repair BuildPlan{x=222, y=109, rotation=1, block=duct, breaking=false, progress=0.0, initialized=false, config=null}
+native repair BuildPlan{x=222, y=110, rotation=1, block=duct, breaking=false, progress=0.0, initialized=false, config=null}
+native repair BuildPlan{x=223, y=112, rotation=3, block=breach, breaking=false, progress=0.0, initialized=false, config=null}

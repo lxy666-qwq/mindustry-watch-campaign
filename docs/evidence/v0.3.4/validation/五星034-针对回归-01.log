@@ -1,0 +1,73 @@
+No Android SDK found. Skipping Android module.
+Compiling with localArc
+> Task :Arc:arc-core:compileJava UP-TO-DATE
+> Task :Arc:extensions:packer:compileJava UP-TO-DATE
+> Task :Arc:extensions:packer:processResources NO-SOURCE
+> Task :Arc:extensions:packer:classes UP-TO-DATE
+> Task :Arc:extensions:packer:jar UP-TO-DATE
+> Task :Arc:arc-core:processResources NO-SOURCE
+> Task :Arc:arc-core:classes UP-TO-DATE
+> Task :Arc:arc-core:jar UP-TO-DATE
+
+> Configure project :
+Compiling with build: 'custom build'
+
+> Task :Arc:extensions:fx:compileJava UP-TO-DATE
+> Task :Arc:extensions:flabel:compileJava UP-TO-DATE
+> Task :annotations:clearCache
+> Task :Arc:extensions:arcnet:compileJava UP-TO-DATE
+> Task :annotations:compileJava UP-TO-DATE
+> Task :Arc:extensions:g3d:compileJava UP-TO-DATE
+> Task :core:clearCache
+> Task :core:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :Arc:extensions:freetype:compileJava UP-TO-DATE
+> Task :Arc:backends:backend-headless:compileJava UP-TO-DATE
+> Task :Arc:extensions:fx:processResources UP-TO-DATE
+> Task :Arc:extensions:fx:classes UP-TO-DATE
+> Task :Arc:extensions:fx:jar UP-TO-DATE
+> Task :Arc:backends:backend-headless:processResources NO-SOURCE
+> Task :Arc:backends:backend-headless:classes UP-TO-DATE
+> Task :Arc:backends:backend-headless:jar UP-TO-DATE
+> Task :Arc:extensions:freetype:processResources NO-SOURCE
+> Task :Arc:extensions:freetype:classes UP-TO-DATE
+> Task :Arc:extensions:freetype:jar UP-TO-DATE
+> Task :Arc:extensions:flabel:processResources NO-SOURCE
+> Task :Arc:extensions:flabel:classes UP-TO-DATE
+> Task :Arc:extensions:flabel:jar UP-TO-DATE
+> Task :Arc:extensions:arcnet:processResources NO-SOURCE
+> Task :Arc:extensions:arcnet:classes UP-TO-DATE
+> Task :Arc:extensions:arcnet:jar UP-TO-DATE
+> Task :Arc:extensions:g3d:processResources NO-SOURCE
+> Task :Arc:extensions:g3d:classes UP-TO-DATE
+> Task :Arc:extensions:g3d:jar UP-TO-DATE
+> Task :annotations:processResources UP-TO-DATE
+> Task :annotations:classes UP-TO-DATE
+> Task :annotations:jar UP-TO-DATE
+> Task :core:kaptGenerateStubsKotlin SKIPPED
+> Task :core:preGen UP-TO-DATE
+> Task :core:processResources NO-SOURCE
+> Task :tests:clearCache
+> Task :tests:compileJava NO-SOURCE
+> Task :tests:processResources NO-SOURCE
+> Task :tests:classes UP-TO-DATE
+> Task :tests:processTestResources UP-TO-DATE
+> Task :core:kaptKotlin
+> Task :core:compileKotlin SKIPPED
+> Task :core:compileJava
+ע: ĳЩ�����ļ�ʹ����δ�����򲻰�ȫ�Ĳ�����
+ע: �й���ϸ��Ϣ, ��ʹ�� -Xlint:unchecked ���±��롣
+
+> Task :core:classes
+> Task :core:jar
+
+> Task :tests:compileTestJava
+
+> Task :tests:testClasses
+ע: D:\��������\Mindustry\tests\src\test\java\DataAssetTests.javaʹ����δ�����򲻰�ȫ�Ĳ�����
+ע: �й���ϸ��Ϣ, ��ʹ�� -Xlint:unchecked ���±��롣
+> Task :tests:test
+
+[Incubating] Problems report is available at: file:///D:/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B/Mindustry/build/reports/problems/problems-report.html
+
+BUILD SUCCESSFUL in 2m 7s
+29 actionable tasks: 8 executed, 21 up-to-date
