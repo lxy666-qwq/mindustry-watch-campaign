@@ -303,6 +303,9 @@ public class Planet extends UnlockableContent{
         if(!customGame){
             campaignRules.apply(this, rules);
         }
+        //Branches use their own equipment/environment even when hosted near an Erekir main level.
+        int branch = mindustry.content.WatchCampaign.level(rules.sector == null ? null : rules.sector.preset);
+        if(branch >= 0) mindustry.content.WatchCampaign.configure(rules, branch);
     }
 
     public void applyDefaultRules(CampaignRules rules){

@@ -244,7 +244,9 @@ public class GenericCrafter extends Block{
                 if(outputLiquids != null){
                     float inc = getProgressIncrease(1f);
                     for(var output : outputLiquids){
-                        handleLiquid(this, output.liquid, Math.min(output.amount * inc, liquidCapacity - liquids.get(output.liquid)));
+                        float amount = Math.min(output.amount * inc, liquidCapacity - liquids.get(output.liquid));
+                        handleLiquid(this, output.liquid, amount);
+                        if(amount > 0f) CampaignStars.recordProduction(this);
                     }
                 }
 

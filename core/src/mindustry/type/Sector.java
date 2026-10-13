@@ -201,7 +201,8 @@ public class Sector{
 
     /** @return the sector size, in tiles */
     public int getSize(){
-        return planet.generator == null ? 1 : planet.generator.getSectorSize(this);
+        int branch = mindustry.content.WatchCampaign.level(preset);
+        return branch >= 0 ? mindustry.content.WatchCampaign.stages[branch].size() : planet.generator == null ? 1 : planet.generator.getSectorSize(this);
     }
 
     public void removeItems(ItemSeq items){

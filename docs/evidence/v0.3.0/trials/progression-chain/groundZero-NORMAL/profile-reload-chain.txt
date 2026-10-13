@@ -1,0 +1,8 @@
+groundZero.NORMAL=3
+groundZero.HEROIC=0
+groundZero.TACTICAL=0
+mainStars=3
+branch0Stars=5
+branch0Reward=true
+frozenForestOpen=true
+readOnlyReload=passed

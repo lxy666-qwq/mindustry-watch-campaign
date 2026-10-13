@@ -412,6 +412,7 @@ public class PlanetDialog extends BaseDialog implements PlanetInterfaceRenderer{
     }
 
     boolean canSelect(Sector sector){
+        if(mode == look && WatchCampaign.level(sector.preset) >= 0) return CampaignStars.branchUnlocked(WatchCampaign.level(sector.preset));
         if(mode == select) return sector.hasBase() && launchSector != null && sector.planet == launchSector.planet;
 
         //sectors with addStartingItems = true can't be landed on, as they override the core and items of the interplanetary accelerator
@@ -1281,6 +1282,11 @@ public class PlanetDialog extends BaseDialog implements PlanetInterfaceRenderer{
 
         stable.image().color(Pal.accent).fillX().height(3f).pad(3f).row();
 
+        if(sector.preset != null && CampaignStars.eligible(sector.preset) && mode == look){
+            stable.button(Core.bundle.get("stars.select") + "  " + CampaignStars.stars(sector.preset) + "/5", Icon.star,
+                () -> WatchCampaign.starsDialog.show(sector.preset)).growX().height(48f).row();
+        }
+
         boolean locked = isLocked(sector);
 
         if(locked){
@@ -1358,6 +1364,7 @@ public class PlanetDialog extends BaseDialog implements PlanetInterfaceRenderer{
     }
 
     boolean isLocked(Sector sector){
+        if(WatchCampaign.level(sector.preset) >= 0) return !CampaignStars.branchUnlocked(WatchCampaign.level(sector.preset));
         return sector.preset != null && sector.preset.locked() && !sector.hasBase() && sector.preset.techNode != null;
     }
 
@@ -1369,6 +1376,10 @@ public class PlanetDialog extends BaseDialog implements PlanetInterfaceRenderer{
         if(selected == null) return;
 
         Sector sector = selected;
+        if(mode == look && WatchCampaign.level(sector.preset) >= 0){
+            WatchCampaign.starsDialog.show(sector.preset);
+            return;
+        }
 
         if(sector.isBeingPlayed()){
             //already at this sector

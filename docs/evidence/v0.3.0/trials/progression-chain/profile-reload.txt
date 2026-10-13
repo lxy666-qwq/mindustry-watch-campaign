@@ -1,0 +1,8 @@
+watch-1.NORMAL=3
+watch-1.HEROIC=1
+watch-1.TACTICAL=1
+mainStars=3
+branch0Stars=5
+branch0Reward=true
+frozenForestOpen=true
+readOnlyReload=passed

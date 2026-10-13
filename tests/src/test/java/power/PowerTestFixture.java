@@ -26,6 +26,8 @@ public class PowerTestFixture{
     static void initializeDependencies(){
         headless = true;
         Core.files = new MockFiles();
+        Core.settings = new Settings();
+        Vars.saveDirectory = Core.files.local("test_files/power/saves");
         Groups.init();
 
         boolean make = content == null;

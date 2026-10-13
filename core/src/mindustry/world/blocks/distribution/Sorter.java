@@ -6,6 +6,7 @@ import arc.math.*;
 import arc.scene.ui.layout.*;
 import arc.util.*;
 import arc.util.io.*;
+import mindustry.content.CampaignStars;
 import mindustry.annotations.Annotations.*;
 import mindustry.entities.units.*;
 import mindustry.gen.*;
@@ -101,6 +102,7 @@ public class Sorter extends Block{
 
         @Override
         public void handleItem(Building source, Item item){
+            CampaignStars.recordItemFlow(source, this, item);
             getTileTarget(item, source, true).handleItem(this, item);
         }
 

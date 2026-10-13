@@ -1,0 +1,4 @@
+"mission","mode","finished","winner","simSeconds","wave","exitCode","result"
+"groundZero","NORMAL","false","none","1800.0","1","2","trial-work/control-sample-final\groundZero-NORMAL\result.txt"
+"onset","NORMAL","false","none","1800.0","1","2","trial-work/control-sample-final\onset-NORMAL\result.txt"
+"watch-1","NORMAL","true","crux","274.25","3","0","trial-work/control-sample-final\watch-1-NORMAL\result.txt"

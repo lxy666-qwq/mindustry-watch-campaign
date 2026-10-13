@@ -4,6 +4,7 @@ import arc.graphics.g2d.*;
 import arc.scene.ui.layout.*;
 import arc.util.*;
 import arc.util.io.*;
+import mindustry.content.CampaignStars;
 import mindustry.annotations.Annotations.*;
 import mindustry.entities.*;
 import mindustry.entities.units.*;
@@ -180,6 +181,7 @@ public class DuctRouter extends Block{
             current = item;
             progress = -1f;
             items.add(item, 1);
+            CampaignStars.recordItemFlow(source, this, item);
             noSleep();
         }
 

@@ -202,6 +202,7 @@ public class Duct extends Block implements Autotiler{
 
             if(current != null && next != null){
                 if(progress >= (1f - 1f/speed) && moveForward(current)){
+                    CampaignStars.recordTransfer(this);
                     items.remove(current, 1);
                     current = null;
                     progress %= (1f - 1f/speed);
@@ -246,6 +247,7 @@ public class Duct extends Block implements Autotiler{
             progress = -1f;
             recDir = relativeToEdge(source.tile);
             items.add(item, 1);
+            CampaignStars.recordItemFlow(source, this, item);
             noSleep();
         }
 

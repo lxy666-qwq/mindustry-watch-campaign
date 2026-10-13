@@ -85,6 +85,7 @@ public class Router extends Block{
         @Override
         public void handleItem(Building source, Item item){
             items.add(item, 1);
+            CampaignStars.recordItemFlow(source, this, item);
             lastItem = item;
             time = 0f;
             lastInput = source.tile;

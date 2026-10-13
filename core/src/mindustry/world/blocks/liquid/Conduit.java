@@ -249,7 +249,7 @@ public class Conduit extends LiquidBlock implements Autotiler{
             smoothLiquid = Mathf.lerpDelta(smoothLiquid, liquids.currentAmount() / liquidCapacity, 0.05f);
 
             if(liquids.currentAmount() > 0.0001f && timer(timerFlow, 1)){
-                moveLiquidForward(leaks, liquids.current());
+                if(moveLiquidForward(leaks, liquids.current()) > 0f) CampaignStars.recordTransfer(this);
                 noSleep();
             }else{
                 sleep();

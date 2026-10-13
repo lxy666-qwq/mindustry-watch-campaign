@@ -302,6 +302,7 @@ public class StackConveyor extends Block implements Autotiler{
                 if(state != stateLoad || (items.total() >= getMaximumAccepted(lastItem))){
                     if(front() instanceof StackConveyorBuild e && e.team == team && e.link == -1){
                         e.items.add(items);
+                        items.each((item, amount) -> CampaignStars.recordItemFlow(this, e, item));
                         e.lastItem = lastItem;
                         e.link = tile.pos();
                         //▲ to | from ▼

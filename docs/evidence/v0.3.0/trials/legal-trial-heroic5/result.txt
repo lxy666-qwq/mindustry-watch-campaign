@@ -1,0 +1,24 @@
+trial=legal-build
+selection=direct-map-combat-test; campaign gate not claimed
+mission=watch-1
+mode=HEROIC
+finished=true
+winner=crux
+wave=13
+actualSpawnWaves=12
+simSeconds=731.7
+wallSeconds=12.552041
+placedBuildings=65
+withdraws=10
+deposits=45
+coreMinimum=-0.006771673
+buildingsDestroyed=24
+pendingPlans=1
+nextPlan=BuildPlan{x=66, y=49, rotation=0, block=scorch, breaking=false, progress=0.0, initialized=false, config=null}
+codeLocation=Mindustry/core/build/classes/java/main/
+CampaignStars.classModifiedAtStart=1791863449254
+WatchMapGenerator.classModifiedAtStart=1791863451601
+waveTimer=true
+objectives=0
+objectiveFlags={}
+status=挑战条件未达成；本次获得 0 / 1 星；本关累计 0 / 5

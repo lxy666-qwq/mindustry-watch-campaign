@@ -65,6 +65,7 @@ public class ContentLoader{
         Bullets.load();
         UnitTypes.load();
         Blocks.load();
+        WatchRewardBlocks.load();
         Loadouts.load();
         Weathers.load();
         Planets.load();

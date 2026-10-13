@@ -174,3 +174,8 @@ core/assets-raw/sprites/ui/sectors/*.json
 
 # Coursework release launcher saves
 watch-data/
+
+# Five-star launcher saves and local battle trials
+five-star-data/
+trial-work/
+trial-classes/

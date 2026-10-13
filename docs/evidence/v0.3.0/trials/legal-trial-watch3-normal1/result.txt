@@ -1,0 +1,24 @@
+trial=legal-build
+selection=direct-map-combat-test; campaign gate not claimed
+mission=watch-3
+mode=NORMAL
+finished=true
+winner=sharded
+wave=19
+actualSpawnWaves=18
+simSeconds=1320.5333
+wallSeconds=20.645777
+placedBuildings=75
+withdraws=1646
+deposits=326
+coreMinimum=1.0
+buildingsDestroyed=7
+pendingPlans=1
+nextPlan=BuildPlan{x=80, y=51, rotation=0, block=copper-wall, breaking=false, progress=0.0, initialized=false, config=null}
+codeLocation=Mindustry/core/build/classes/java/main/
+CampaignStars.classModifiedAtStart=1791863449254
+WatchMapGenerator.classModifiedAtStart=1791863451601
+waveTimer=true
+objectives=0
+objectiveFlags={}
+status=本次获得 3 / 3 星；本关累计 3 / 5

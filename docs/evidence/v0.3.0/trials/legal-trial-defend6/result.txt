@@ -1,0 +1,12 @@
+trial=legal-build
+selection=direct-Watch1-combat-test; campaign gate not claimed
+finished=true
+winner=sharded
+wave=13
+actualSpawnWaves=12
+simSeconds=808.55
+wallSeconds=12.3233595
+placedBuildings=51
+withdraws=25
+deposits=84
+status=本次获得 3 / 3 星；本关累计 3 / 5

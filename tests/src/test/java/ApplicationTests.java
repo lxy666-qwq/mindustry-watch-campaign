@@ -897,6 +897,8 @@ public class ApplicationTests{
                 assertEquals(Team.sharded, state.rules.defaultTeam, "Sector " + sector.name + " must have the Sharded player team.");
                 var planetRules = new Rules();
                 sector.planet.ruleSetter.get(planetRules);
+                int branch = WatchCampaign.level(sector);
+                if(branch >= 0) WatchCampaign.configure(planetRules, branch);
                 assertEquals(planetRules.waveTeam, state.rules.waveTeam, "Sector " + sector.name + " must have its planet's enemy team.");
 
                 Seq<TimerObjective> timers = state.rules.objectives.all.select(m -> m instanceof TimerObjective && !m.hidden && ((TimerObjective)m).text != null &&

@@ -1,0 +1,59 @@
+groundZero objective[0]: {"class": "Item", "amount": 15, "parents": [], "editorPos": 65537}
+groundZero objective[1]: {"class": "BuildCount", "block": "mechanical-drill", "parents": [0], "editorPos": 65540}
+groundZero objective[2]: {"class": "CoreItem", "amount": 5, "parents": [1], "editorPos": 458756}
+groundZero objective[3]: {"class": "CoreItem", "amount": 100, "parents": [2], "editorPos": 851972}
+groundZero objective[4]: {"class": "Timer", "duration": 300, "parents": [7], "editorPos": 1638407}
+groundZero objective[5]: {"class": "Timer", "duration": 180, "parents": [4], "editorPos": 2031623}
+groundZero objective[6]: {"class": "BuildCount", "block": "duo", "count": 2, "parents": [9], "editorPos": 1638404}
+groundZero objective[7]: {"class": "BuildCount", "flagsAdded": ["spawnOver"], "block": "copper-wall", "count": 6, "parents": [15], "editorPos": 2162692}
+groundZero objective[8]: {"class": "Timer", "flagsAdded": ["spawnWave"], "duration": 180, "parents": [5], "editorPos": 2424839}
+groundZero objective[9]: {"class": "CoreItem", "flagsAdded": ["mineOver"], "item": "lead", "amount": 25, "parents": [3], "editorPos": 1245188}
+groundZero objective[10]: {"class": "DestroyUnits", "parents": [8], "editorPos": 2818055}
+groundZero objective[11]: {"class": "BuildCount", "block": "scatter", "parents": [10], "editorPos": 1638415}
+groundZero objective[12]: {"class": "Timer", "flagsAdded": ["spawnWave"], "text": "@objective.enemiesapproaching", "duration": 3600, "parents": [16], "editorPos": 2031631}
+groundZero objective[13]: {"class": "DestroyUnits", "count": 2, "parents": [12], "editorPos": 2424847}
+groundZero objective[14]: {"class": "Timer", "flagsAdded": ["allowWaves"], "duration": 416.52, "parents": [13], "editorPos": 2818063}
+groundZero objective[15]: {"class": "Flag", "flag": "duoAmmo", "text": "@gz.supplyturret", "parents": [6], "editorPos": 1900545}
+groundZero objective[16]: {"class": "Flag", "flag": "scatterAmmo", "text": "@gz.supplyturret", "parents": [11], "editorPos": 1835026}
+frozenForest objective[0]: {"class": "Produce", "content": "coal", "parents": [], "editorPos": 0}
+frozenForest objective[1]: {"class": "BuildCount", "block": "graphite-press", "parents": [0], "editorPos": 458752}
+frozenForest objective[2]: {"class": "Item", "item": "graphite", "amount": 5, "parents": [1], "editorPos": 917504}
+frozenForest objective[3]: {"class": "BuildCount", "block": "combustion-generator", "parents": [2], "editorPos": 1376256}
+frozenForest objective[4]: {"class": "Flag", "flag": "power", "text": "@ff.coalpower.objective", "parents": [3], "editorPos": 1835008}
+frozenForest objective[5]: {"class": "BuildCount", "block": "power-node", "parents": [4], "editorPos": 2293760}
+frozenForest objective[6]: {"class": "BuildCount", "block": "battery", "parents": [5], "editorPos": 2752512}
+frozenForest objective[7]: {"class": "BuildCount", "flagsAdded": ["done"], "block": "arc", "parents": [6], "editorPos": 3211264}
+onset objective[0]: {"class": "Item", "item": "beryllium", "amount": 60, "parents": [], "editorPos": 65537}
+onset objective[1]: {"class": "BuildCount", "block": "turbine-condenser", "parents": [0], "editorPos": 65540}
+onset objective[2]: {"class": "BuildCount", "block": "plasma-bore", "parents": [1], "editorPos": 458756}
+onset objective[3]: {"class": "BuildCount", "block": "beam-node", "parents": [2], "editorPos": 851972}
+onset objective[4]: {"class": "CoreItem", "item": "beryllium", "amount": 5, "parents": [3], "editorPos": 65543}
+onset objective[5]: {"class": "CoreItem", "item": "beryllium", "amount": 200, "parents": [4], "editorPos": 458759}
+onset objective[6]: {"class": "CoreItem", "item": "graphite", "amount": 100, "parents": [5], "editorPos": 65546}
+onset objective[7]: {"class": "Research", "content": "silicon-arc-furnace", "parents": [6], "editorPos": 458762}
+onset objective[8]: {"class": "CoreItem", "item": "silicon", "amount": 50, "parents": [7], "editorPos": 851978}
+onset objective[9]: {"class": "BuildCount", "block": "tank-fabricator", "parents": [8], "editorPos": 65549}
+onset objective[10]: {"class": "UnitCount", "unit": "stell", "parents": [9], "editorPos": 458765}
+onset objective[11]: {"class": "CommandMode", "parents": [10], "editorPos": 851981}
+onset objective[12]: {"class": "BuildCount", "block": "breach", "parents": [11], "editorPos": 65552}
+onset objective[13]: {"class": "BuildCount", "block": "beryllium-wall", "count": 6, "parents": [19], "editorPos": 851984}
+onset objective[14]: {"class": "Timer", "flagsAdded": ["defStart"], "text": "@objective.enemiesapproaching", "parents": [13], "editorPos": 65555}
+onset objective[15]: {"class": "DestroyUnits", "flagsAdded": ["defDone"], "count": 2, "parents": [14], "editorPos": 458771}
+onset objective[16]: {"class": "DestroyBlock", "pos": {"x": 288, "y": 198}, "team": 3, "block": "core-bastion", "parents": [15], "editorPos": 65558}
+onset objective[17]: {"class": "BuildCount", "block": "core-bastion", "parents": [16], "editorPos": 458774}
+onset objective[18]: {"class": "Timer", "flagsAdded": ["openMap"], "text": "@onset.defenses", "duration": 7200, "parents": [17], "editorPos": 65561}
+onset objective[19]: {"class": "Flag", "flag": "breachAmmo", "text": "@gz.supplyturret", "parents": [12], "editorPos": 458768}
+marsh objective[0]: {"class": "Research", "content": "oxidation-chamber", "parents": [], "editorPos": 720906}
+marsh objective[1]: {"class": "BuildCount", "block": "oxidation-chamber", "parents": [0], "editorPos": 1114124}
+marsh objective[2]: {"class": "Produce", "content": "oxide", "parents": [0], "editorPos": 1114120}
+marsh objective[3]: {"class": "Research", "content": "chemical-combustion-chamber", "parents": [5], "editorPos": 2293770}
+marsh objective[4]: {"class": "Research", "content": "reinforced-pump", "parents": [1, 2], "editorPos": 1507338}
+marsh objective[5]: {"class": "Research", "content": "arkycite", "parents": [4], "editorPos": 1900554}
+marsh objective[6]: {"class": "BuildCount", "block": "chemical-combustion-chamber", "parents": [3], "editorPos": 2686986}
+marsh objective[7]: {"class": "Timer", "flagsAdded": ["setupComplete"], "text": "@objective.enemiesapproaching", "duration": 28800, "parents": [6], "editorPos": 3080202}
+peaks objective[0]: {"class": "Research", "content": "beam-tower", "parents": [2], "editorPos": 851978}
+peaks objective[1]: {"class": "BuildCount", "block": "chemical-combustion-chamber", "parents": [3], "editorPos": 1638410}
+peaks objective[2]: {"class": "CoreItem", "item": "tungsten", "amount": 50, "parents": [], "editorPos": 458762}
+peaks objective[3]: {"class": "BuildCount", "block": "beam-tower", "count": 2, "parents": [0], "editorPos": 1245194}
+peaks objective[4]: {"class": "Timer", "flagsAdded": ["setupFinished"], "text": "@objective.enemiesapproaching", "duration": 10800, "parents": [5], "editorPos": 2424842}
+peaks objective[5]: {"class": "UnitCount", "flagsAdded": ["openMap"], "unit": "avert", "parents": [1], "editorPos": 2031626}

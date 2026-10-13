@@ -130,6 +130,7 @@ public abstract class UnlockableContent extends MappableContent{
     }
 
     public boolean isOnPlanet(@Nullable Planet planet){
+        if(CampaignStars.available(this) || WatchCampaign.available(this)) return true;
         return planet == null || planet == Planets.sun || shownPlanets.isEmpty() || shownPlanets.contains(planet);
     }
 
@@ -267,25 +268,25 @@ public abstract class UnlockableContent extends MappableContent{
     }
 
     public boolean unlockedNowHost(){
-        return !state.isCampaign() || unlockedHost();
+        return CampaignStars.active() ? unlockedHost() : !state.isCampaign() || unlockedHost();
     }
 
     /** @return in multiplayer, whether this is unlocked for the host player, otherwise, whether it is unlocked for the local player (same as unlocked()) */
     public boolean unlockedHost(){
         return net != null && net.client() ?
             alwaysUnlocked || state.rules.researched.contains(this) :
-            unlocked || alwaysUnlocked || WatchCampaign.available(this);
+            unlocked || alwaysUnlocked || WatchCampaign.available(this) || CampaignStars.available(this);
     }
 
     /** @return whether this content is unlocked, or the player is in a custom (non-campaign) game. */
     public boolean unlockedNow(){
-        return unlocked() || !state.isCampaign();
+        return CampaignStars.active() ? unlocked() : unlocked() || !state.isCampaign();
     }
 
     public boolean unlocked(){
         return net != null && net.client() ?
             alwaysUnlocked || unlocked || state.rules.researched.contains(this) :
-            unlocked || alwaysUnlocked || WatchCampaign.available(this);
+            unlocked || alwaysUnlocked || WatchCampaign.available(this) || CampaignStars.available(this);
     }
 
     /** Locks this content again. */

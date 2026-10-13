@@ -5,6 +5,7 @@ import arc.graphics.g2d.*;
 import arc.math.*;
 import arc.math.geom.*;
 import arc.util.io.*;
+import mindustry.content.CampaignStars;
 import mindustry.annotations.Annotations.*;
 import mindustry.entities.*;
 import mindustry.gen.*;
@@ -128,6 +129,7 @@ public class DuctJunction extends Block{
             itemdata[relative] = item;
             times[relative] = -1f;
             items.add(item, 1);
+            CampaignStars.recordItemFlow(source, this, item);
         }
 
         @Override

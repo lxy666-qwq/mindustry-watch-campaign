@@ -13,6 +13,7 @@ import mindustry.maps.planet.*;
 import mindustry.mod.Mods.*;
 import mindustry.type.*;
 import mindustry.world.*;
+import mindustry.ui.dialogs.*;
 
 import static mindustry.Vars.*;
 import static mindustry.content.Blocks.*;
@@ -22,6 +23,10 @@ public class WatchCampaign{
     public static Planet planet;
     public static String version;
     public static SectorPreset[] sectors = new SectorPreset[10];
+    public static SectorPreset[] anchors;
+    public static final int[] starRequirements = {3, 10, 20, 35, 50, 65, 80, 100, 120, 145};
+    private static final int[] preferredSlots = {171, 220, 125, 174, 100, 37, 66, 52, 44, 77};
+    public static CampaignStarsDialog starsDialog;
 
     public enum Change{
         supply, flank, armor, thaw, air, snow, flood, swarm, sandstorm, calm,
@@ -65,6 +70,7 @@ public class WatchCampaign{
         version = Core.files.internal("watch-version.txt").readString().trim();
         planet = new Planet("watch", Planets.sun, 0.85f, 1){{
             alwaysUnlocked = true;
+            visible = accessible = false; // The archived v0.2.0 keeps the original standalone campaign.
             startSector = 0;
             generator = new BlankPlanetGenerator(){
                 @Override
@@ -102,47 +108,87 @@ public class WatchCampaign{
             };
         }};
 
-        Items.serpuloItems.each(item -> item.shownPlanets.add(planet));
+        anchors = new SectorPreset[]{SectorPresets.groundZero, SectorPresets.crateredBattleground,
+            SectorPresets.frozenForest, SectorPresets.ruinousShores, SectorPresets.tarFields,
+            SectorPresets.windsweptIslands, SectorPresets.marsh, SectorPresets.atlas,
+            SectorPresets.caldera, SectorPresets.origin};
         for(int i = 0; i < stages.length; i++){
             int level = i;
             var preset = new SectorPreset("watch-" + (i + 1), (LoadedMod)null);
             preset.generator = new WatchMapGenerator(preset, level);
-            preset.initialize(planet, i);
+            preset.initialize(anchors[i].planet, branchPosition(i).id, true);
             preset.description = text("stage." + (i + 1) + ".briefing");
             preset.captureWave = stages[i].waves + 1; // state.wave counts the next wave; play the final wave before capture.
             preset.difficulty = 1f + i * 0.7f;
-            preset.alwaysUnlocked = i == 0;
+            preset.alwaysUnlocked = false;
             preset.showHidden = true;
             preset.addStartingItems = true;
             preset.overrideLaunchDefaults = true;
-            preset.isLastSector = i == 9;
+            preset.isLastSector = false;
             preset.rules = rules -> configure(rules, level);
             sectors[i] = preset;
         }
-        planet.techTree = TechTree.nodeRoot("watch", sectors[0], () -> addStageNode(1));
+        for(int i = 0; i < sectors.length; i++){
+            new TechTree.TechNode(anchors[i].techNode, sectors[i], ItemStack.empty).objectives.add(new BranchStars(i));
+        }
         WatchCampaignEvents.register();
-
-        Events.on(ClientLoadEvent.class, e -> ui.menufrag.addButton(Core.bundle.format("watch.menu", version), mindustry.gen.Icon.terrain, () -> {
-            ui.planet.state.planet = planet;
-            ui.planet.show();
-            ui.planet.state.planet = planet;
-            ui.planet.selectSector(planet.getStartSector());
-        }));
+        CampaignStars.register();
+        Events.on(ClientLoadEvent.class, e -> {
+            starsDialog = new CampaignStarsDialog();
+            ui.menufrag.addButton(Core.bundle.format("stars.menu", version), mindustry.gen.Icon.star, starsDialog::show);
+        });
     }
 
-    private static void addStageNode(int level){
-        if(level < sectors.length){
-            TechTree.node(sectors[level], ItemStack.empty, () -> addStageNode(level + 1));
+    /** Select a nearby unused tile without replacing an original preset or player base. */
+    public static Sector branchPosition(int level){
+        var anchor = anchors[level].sector;
+        String key = "stars.branch-position." + (level + 1);
+        int saved = Core.settings.getInt(key, -1);
+        if(saved >= 0 && saved < anchor.planet.sectors.size){
+            var sector = anchor.planet.sectors.get(saved);
+            if(freeBranchTile(sector)) return sector;
         }
+        var preferred = anchor.planet.sectors.get(preferredSlots[level]);
+        var result = freeBranchTile(preferred) ? preferred : anchor.near().copy().sort((a, b) -> Integer.compare(a.id, b.id)).find(WatchCampaign::freeBranchTile);
+        if(result == null){
+            result = anchor.planet.sectors.copy().sort((a, b) -> Float.compare(a.tile.v.dst2(anchor.tile.v), b.tile.v.dst2(anchor.tile.v))).find(WatchCampaign::freeBranchTile);
+        }
+        if(result == null) throw new IllegalStateException("No free tile for branch " + level);
+        Core.settings.put(key, result.id);
+        return result;
+    }
+
+    public static boolean freeBranchTile(Sector sector){
+        String infoKey = sector.planet.name + "-s-" + sector.id + "-info";
+        return sector.preset == null && !saveDirectory.child("sector-" + sector.planet.name + "-" + sector.id + ".msav").exists()
+            && !(Core.settings.has(infoKey) && Core.settings.getJson(infoKey, SectorInfo.class, SectorInfo::new).hasCore);
+    }
+
+    public static class BranchStars implements Objectives.Objective{
+        public int branch;
+        public BranchStars(int branch){ this.branch = branch; }
+        public boolean complete(){ return CampaignStars.branchUnlocked(branch); }
+        public String display(){ return Core.bundle.format("stars.requirement", starRequirements[branch], anchors[branch].localizedName); }
+    }
+
+    public static int level(SectorPreset preset){
+        if(preset == null) return -1;
+        for(int i = 0; i < sectors.length; i++) if(sectors[i] == preset) return i;
+        return -1;
     }
 
     public static int level(){
-        return state.rules.sector != null && state.rules.sector.planet == planet && state.rules.sector.id < stages.length ? state.rules.sector.id : -1;
+        var preset = state.rules.sector == null ? null : state.rules.sector.preset;
+        if(preset == null){
+            String name = state.rules.tags.get("stars.preset");
+            if(name != null) preset = content.sector(name);
+        }
+        return level(preset);
     }
 
-    /** Scoped unlocks: entering this campaign does not write vanilla block unlocks to settings. */
+    /** Scoped unlocks: branches never write free equipment research into the vanilla campaign. */
     public static boolean available(UnlockableContent content){
-        return planet != null && state.rules.planet == planet && state.rules.researched.contains(content);
+        return level() >= 0 && state.rules.researched.contains(content);
     }
 
     public static Seq<Block> equipment(int level){
@@ -163,8 +209,18 @@ public class WatchCampaign{
 
     public static void configure(Rules rules, int level){
         Stage stage = stages[level];
-        rules.planet = planet;
-        planet.ruleSetter.get(rules);
+        rules.planet = sectors[level].planet;
+        rules.env = Planets.serpulo.defaultEnv;
+        rules.attributes.clear();
+        rules.attributes.add(Planets.serpulo.defaultAttributes);
+        rules.defaultTeam = Team.sharded;
+        rules.waveTeam = Team.crux;
+        rules.fog = rules.staticFog = false;
+        rules.onlyDepositCore = false;
+        rules.hideSpawns = false;
+        rules.placeRangeCheck = false;
+        rules.derelictRepair = true;
+        rules.coreDestroyClear = true;
         rules.waves = rules.waveTimer = true;
         rules.attackMode = false;
         rules.winWave = stage.waves + 1;
@@ -178,13 +234,13 @@ public class WatchCampaign{
         rules.bannedBlocks.clear();
         var equipment = equipment(level);
         rules.bannedBlocks.addAll(equipment);
+        rules.researched.clear();
         rules.researched.addAll(equipment);
         rules.researched.addAll(Items.serpuloItems);
         rules.researched.addAll(UnitTypes.alpha, UnitTypes.mono, UnitTypes.poly, UnitTypes.dagger, UnitTypes.flare, UnitTypes.risso);
         if(level >= 5) rules.researched.addAll(UnitTypes.crawler, UnitTypes.nova, UnitTypes.retusa, UnitTypes.mace, UnitTypes.atrax,
             UnitTypes.pulsar, UnitTypes.horizon, UnitTypes.minke, UnitTypes.oxynoe);
-        equipment.each(b -> b.shownPlanets.add(planet));
-        rules.loadout = Seq.with(new ItemStack(Items.copper, 1000), new ItemStack(Items.lead, 700), new ItemStack(Items.coal, 200), new ItemStack(Items.graphite, 200));
+                rules.loadout = Seq.with(new ItemStack(Items.copper, 1000), new ItemStack(Items.lead, 700), new ItemStack(Items.coal, 200), new ItemStack(Items.graphite, 200));
         if(level >= 1) rules.loadout.add(new ItemStack(Items.silicon, 300), new ItemStack(Items.metaglass, 150));
         if(level >= 2) rules.loadout.add(new ItemStack(Items.titanium, 350));
         if(level >= 4) rules.loadout.add(new ItemStack(Items.plastanium, 250));

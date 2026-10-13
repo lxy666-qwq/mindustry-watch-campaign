@@ -5,6 +5,7 @@ import arc.graphics.*;
 import arc.graphics.g2d.*;
 import arc.math.*;
 import arc.util.*;
+import mindustry.content.*;
 import mindustry.game.*;
 import mindustry.logic.*;
 import mindustry.type.*;
@@ -161,6 +162,7 @@ public class Pump extends LiquidBlock{
             if(efficiency > 0 && liquidDrop != null){
                 float maxPump = Math.min(liquidCapacity - liquids.get(liquidDrop), amount * pumpAmount * edelta());
                 liquids.add(liquidDrop, maxPump);
+                if(maxPump > 0f) CampaignStars.recordProduction(this);
 
                 //does nothing for most pumps, as those do not require items.
                 if((consTimer += delta()) >= consumeTime){

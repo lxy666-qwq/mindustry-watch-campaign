@@ -153,7 +153,8 @@ public class WatchMapGenerator extends FileMapGenerator{
         starterMine(base.x + 14, base.y + 10, base.x + 2, base.y, true);
         for(int offset : new int[]{-7, 7}){
             tiles.getn(base.x + offset, base.y + 20).setBlock(duo, Team.sharded);
-            tiles.getn(base.x + offset, base.y + 20).build.items.add(Items.copper, 100);
+            var turret = tiles.getn(base.x + offset, base.y + 20).build;
+            turret.handleStack(Items.copper, turret.acceptStack(Items.copper, 100, null), null);
         }
         for(int offset = -12; offset <= 12; offset++){
             if(Math.abs(offset) > 2) tiles.getn(base.x + offset, base.y + 25).setBlock(copperWall, Team.sharded);
@@ -161,9 +162,9 @@ public class WatchMapGenerator extends FileMapGenerator{
         if(level >= 1){
             tiles.getn(base.x - 8, base.y - 7).setBlock(combustionGenerator, Team.sharded);
             tiles.getn(base.x - 8, base.y - 7).build.items.add(Items.coal, 20);
-            tiles.getn(base.x - 4, base.y - 7).setBlock(powerNode, Team.sharded);
+            tiles.getn(base.x - 2, base.y - 7).setBlock(powerNode, Team.sharded);
             tiles.getn(base.x + 3, base.y - 7).setBlock(battery, Team.sharded);
-            var node = (PowerNodeBuild)tiles.getn(base.x - 4, base.y - 7).build;
+            var node = (PowerNodeBuild)tiles.getn(base.x - 2, base.y - 7).build;
             node.configureAny(tiles.getn(base.x - 8, base.y - 7).pos());
             node.configureAny(tiles.getn(base.x + 3, base.y - 7).pos());
         }

@@ -3,6 +3,7 @@ package mindustry.world.blocks.distribution;
 import arc.math.*;
 import arc.util.*;
 import arc.util.io.*;
+import mindustry.content.CampaignStars;
 import mindustry.gen.*;
 import mindustry.type.*;
 import mindustry.world.*;
@@ -45,7 +46,10 @@ public class OverflowGate extends Block{
         public void handleItem(Building source, Item item){
             Building target = getTileTarget(item, source, true);
 
-            if(target != null) target.handleItem(this, item);
+            if(target != null){
+                CampaignStars.recordItemFlow(source, this, item);
+                target.handleItem(this, item);
+            }
         }
 
         public @Nullable Building getTileTarget(Item item, Building src, boolean flip){

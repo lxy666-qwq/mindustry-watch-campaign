@@ -34,13 +34,7 @@ public class WatchCampaignEvents{
             if(!net.client() && blackoutActive()) enforceBlackout();
             if(!headless && (shownRules != state.rules || shownWave != state.wave)) refreshHud();
         });
-        Events.on(SectorCaptureEvent.class, e -> {
-            if(e.sector.planet == planet && e.initialCapture){
-                int next = e.sector.id + 1;
-                if(next < sectors.length) sectors[next].unlock();
-                if(!headless) ui.announce(text(next < sectors.length ? "cleared" : "complete"), 8f);
-            }
-        });
+
     }
 
     public static String key(Encounter event){
@@ -183,6 +177,7 @@ public class WatchCampaignEvents{
                 break;
             }
         }
+        if(CampaignStars.active()) message.append("\n").append(CampaignStars.status());
         if(blackoutActive()) message.append("\n[scarlet]").append(text("power.tip"));
         ui.hudfrag.setHudText(message.toString());
         shownWave = state.wave;

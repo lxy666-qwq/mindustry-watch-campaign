@@ -329,6 +329,7 @@ public class MassDriver extends Block{
             for(int i = 0; i < data.items.length; i++){
                 int maxAdd = Math.min(data.items[i], itemCapacity * 2 - totalItems);
                 items.add(content.item(i), maxAdd);
+                if(maxAdd > 0) CampaignStars.recordItemFlow(data.from, this, content.item(i));
                 data.items[i] -= maxAdd;
                 totalItems += maxAdd;
 

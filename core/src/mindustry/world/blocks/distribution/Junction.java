@@ -2,6 +2,7 @@ package mindustry.world.blocks.distribution;
 
 import arc.util.*;
 import arc.util.io.*;
+import mindustry.content.CampaignStars;
 import mindustry.gen.*;
 import mindustry.type.*;
 import mindustry.world.*;
@@ -81,6 +82,7 @@ public class Junction extends Block{
         public void handleItem(Building source, Item item){
             int relative = source.relativeTo(tile);
             buffer.accept(relative, item);
+            CampaignStars.recordItemFlow(source, this, item);
         }
 
         @Override

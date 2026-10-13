@@ -19,7 +19,7 @@ import static org.junit.jupiter.api.Assertions.*;
 public class WatchCampaignTests{
     @BeforeAll
     static void init(){
-        ApplicationTests.launchApplication(false);
+        ApplicationTests.launchApplication();
         //The shared headless fixture calls Vars.init directly; normal launch also installs this serializer.
         arc.Core.settings.setJson(JsonIO.json);
     }
@@ -173,17 +173,17 @@ public class WatchCampaignTests{
     }
 
     @Test
-    void technologyIsScopedAndStagesRequirePreviousCapture(){
+    void technologyIsScopedAndBranchesRequireStars(){
         boolean previousUnlock = Blocks.spectre.unlocked();
         load(9);
         assertTrue(Blocks.spectre.unlockedNowHost());
         logic.reset();
         assertEquals(previousUnlock, Blocks.spectre.unlocked());
         assertFalse(WatchCampaign.available(Blocks.spectre));
-        assertEquals(10, content.sectors().count(s -> s.planet == planet));
-        for(int i = 1; i < sectors.length; i++){
-            int previous = i - 1;
-            assertTrue(sectors[i].techNode.objectives.contains(o -> o instanceof SectorComplete sc && sc.preset == sectors[previous]));
+        assertEquals(10, content.sectors().count(s -> WatchCampaign.level(s) >= 0));
+        for(int i = 0; i < sectors.length; i++){
+            assertSame(anchors[i].techNode, sectors[i].techNode.parent);
+            assertTrue(sectors[i].techNode.objectives.contains(o -> o instanceof BranchStars));
         }
         state.rules.sector = SectorPresets.groundZero.sector;
         state.wave = 30;

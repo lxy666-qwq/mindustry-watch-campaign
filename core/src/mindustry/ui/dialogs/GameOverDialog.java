@@ -9,6 +9,7 @@ import arc.scene.ui.*;
 import arc.scene.ui.layout.*;
 import arc.util.*;
 import mindustry.*;
+import mindustry.content.*;
 import mindustry.core.GameState.*;
 import mindustry.game.*;
 import mindustry.game.EventType.*;
@@ -58,7 +59,11 @@ public class GameOverDialog extends BaseDialog{
         buttons.margin(10);
 
         cont.table(t -> {
-            if(state.rules.pvp && winner != null){
+            if(CampaignStars.active()){
+                t.add("@stars.result").center().pad(6);
+                t.row();
+                t.add(CampaignStars.result()).wrap().width(500f).center().pad(6);
+            }else if(state.rules.pvp && winner != null){
                 t.add(Core.bundle.format("gameover.pvp", winner.coloredName())).center().pad(6);
             }else{
                 t.add(state.isCampaign() ? Core.bundle.format("sector.lost", state.getSector().name()) : "@gameover").center().pad(6);
@@ -130,6 +135,13 @@ public class GameOverDialog extends BaseDialog{
                     }
                 }).size(170f, 60f);
             }
+        }else if(CampaignStars.active()){
+            buttons.button("@stars.title", Icon.star, () -> {
+                hide();
+                logic.reset();
+                WatchCampaign.starsDialog.show();
+            }).size(210f, 60f);
+            buttons.button("@menu", () -> { hide(); logic.reset(); }).size(140f, 60f);
         }else{
             buttons.button("@menu", () -> {
                 hide();

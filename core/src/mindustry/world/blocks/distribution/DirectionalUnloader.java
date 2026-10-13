@@ -4,6 +4,7 @@ import arc.graphics.g2d.*;
 import arc.scene.ui.layout.*;
 import arc.util.*;
 import arc.util.io.*;
+import mindustry.content.CampaignStars;
 import mindustry.annotations.Annotations.*;
 import mindustry.entities.*;
 import mindustry.entities.units.*;
@@ -101,6 +102,7 @@ public class DirectionalUnloader extends Block{
                         for(int i = 0; i < itemc; i++){
                             Item item = itemseq.get((i + offset) % itemc);
                             if(back.items.has(item) && front.acceptItem(this, item)){
+                                CampaignStars.recordItemFlow(back, this, item);
                                 front.handleItem(this, item);
                                 back.items.remove(item, 1);
                                 back.itemTaken(item);
@@ -109,6 +111,7 @@ public class DirectionalUnloader extends Block{
                             }
                         }
                     }else if(back.items.has(unloadItem) && front.acceptItem(this, unloadItem)){
+                        CampaignStars.recordItemFlow(back, this, unloadItem);
                         front.handleItem(this, unloadItem);
                         back.items.remove(unloadItem, 1);
                         back.itemTaken(unloadItem);

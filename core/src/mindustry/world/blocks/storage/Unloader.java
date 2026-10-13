@@ -8,6 +8,7 @@ import arc.util.*;
 import arc.util.io.*;
 import arc.util.pooling.*;
 import arc.util.pooling.Pool.*;
+import mindustry.content.CampaignStars;
 import mindustry.annotations.Annotations.*;
 import mindustry.entities.units.*;
 import mindustry.gen.*;
@@ -244,6 +245,7 @@ public class Unloader extends Block{
 
                 //trade the items
                 if(dumpingFrom.loadFactor != dumpingTo.loadFactor || !dumpingFrom.canLoad){
+                    CampaignStars.recordItemFlow(from, this, item);
                     to.handleItem(this, item);
                     from.removeStack(item, 1);
                     dumpingTo.lastUsed = dumpingFrom.lastUsed = 0;

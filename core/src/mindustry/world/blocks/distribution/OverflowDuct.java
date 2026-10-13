@@ -3,6 +3,7 @@ package mindustry.world.blocks.distribution;
 import arc.graphics.g2d.*;
 import arc.math.*;
 import arc.util.*;
+import mindustry.content.CampaignStars;
 import mindustry.annotations.Annotations.*;
 import mindustry.entities.*;
 import mindustry.entities.units.*;
@@ -155,6 +156,7 @@ public class OverflowDuct extends Block{
             current = item;
             progress = -1f;
             items.add(item, 1);
+            CampaignStars.recordItemFlow(source, this, item);
             noSleep();
         }
     }

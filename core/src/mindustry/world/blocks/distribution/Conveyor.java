@@ -300,6 +300,7 @@ public class Conveyor extends Block implements Autotiler{
         public boolean pass(Item item){
             if(item != null && next != null && next.team == team && next.acceptItem(this, item)){
                 next.handleItem(this, item);
+                CampaignStars.recordTransfer(this);
                 return true;
             }
             return false;
@@ -347,6 +348,7 @@ public class Conveyor extends Block implements Autotiler{
             }
 
             noSleep();
+            if(amount > 0 && source instanceof Building building) CampaignStars.recordItemFlow(building, this, item);
         }
 
         @Override
@@ -369,6 +371,7 @@ public class Conveyor extends Block implements Autotiler{
 
             noSleep();
             items.add(item, 1);
+            CampaignStars.recordItemFlow(source, this, item);
 
             if(Math.abs(facing.relativeTo(tile.x, tile.y) - r) == 0){ //idx = 0
                 add(0);

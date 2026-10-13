@@ -1,0 +1,416 @@
+{
+  "groundZero": {
+    "width": 256,
+    "height": 256,
+    "enemyCores": 0,
+    "waves": true,
+    "winWave": 10,
+    "waveSpacingSeconds": 120,
+    "initialWaveSpacingSeconds": 0
+  },
+  "saltFlats": {
+    "width": 300,
+    "height": 300,
+    "enemyCores": 1,
+    "waves": true,
+    "winWave": 0,
+    "waveSpacingSeconds": 90,
+    "initialWaveSpacingSeconds": 0
+  },
+  "testingGrounds": {
+    "width": 300,
+    "height": 300,
+    "enemyCores": 0,
+    "waves": true,
+    "winWave": 33,
+    "waveSpacingSeconds": 100,
+    "initialWaveSpacingSeconds": 270
+  },
+  "frozenForest": {
+    "width": 200,
+    "height": 200,
+    "enemyCores": 0,
+    "waves": true,
+    "winWave": 15,
+    "waveSpacingSeconds": 130,
+    "initialWaveSpacingSeconds": 0
+  },
+  "biomassFacility": {
+    "width": 250,
+    "height": 250,
+    "enemyCores": 0,
+    "waves": true,
+    "winWave": 20,
+    "waveSpacingSeconds": 110,
+    "initialWaveSpacingSeconds": 0
+  },
+  "taintedWoods": {
+    "width": 280,
+    "height": 280,
+    "enemyCores": 0,
+    "waves": true,
+    "winWave": 33,
+    "waveSpacingSeconds": 125,
+    "initialWaveSpacingSeconds": 250
+  },
+  "crateredBattleground": {
+    "width": 256,
+    "height": 256,
+    "enemyCores": 0,
+    "waves": true,
+    "winWave": 20,
+    "waveSpacingSeconds": 90,
+    "initialWaveSpacingSeconds": 0
+  },
+  "ruinousShores": {
+    "width": 298,
+    "height": 298,
+    "enemyCores": 0,
+    "waves": true,
+    "winWave": 30,
+    "waveSpacingSeconds": 145,
+    "initialWaveSpacingSeconds": 245
+  },
+  "perilousHarbor": {
+    "width": 380,
+    "height": 380,
+    "enemyCores": 3,
+    "waves": true,
+    "winWave": 0,
+    "waveSpacingSeconds": 90,
+    "initialWaveSpacingSeconds": 600
+  },
+  "facility32m": {
+    "width": 220,
+    "height": 280,
+    "enemyCores": 0,
+    "waves": true,
+    "winWave": 25,
+    "waveSpacingSeconds": 100,
+    "initialWaveSpacingSeconds": 300
+  },
+  "windsweptIslands": {
+    "width": 400,
+    "height": 400,
+    "enemyCores": 0,
+    "waves": true,
+    "winWave": 30,
+    "waveSpacingSeconds": 120,
+    "initialWaveSpacingSeconds": 0
+  },
+  "stainedMountains": {
+    "width": 300,
+    "height": 300,
+    "enemyCores": 0,
+    "waves": true,
+    "winWave": 30,
+    "waveSpacingSeconds": 140,
+    "initialWaveSpacingSeconds": 240
+  },
+  "extractionOutpost": {
+    "width": 360,
+    "height": 400,
+    "enemyCores": 3,
+    "waves": true,
+    "winWave": 0,
+    "waveSpacingSeconds": 120,
+    "initialWaveSpacingSeconds": 0
+  },
+  "coastline": {
+    "width": 432,
+    "height": 432,
+    "enemyCores": 0,
+    "waves": true,
+    "winWave": 30,
+    "waveSpacingSeconds": 120,
+    "initialWaveSpacingSeconds": 255
+  },
+  "weatheredChannels": {
+    "width": 500,
+    "height": 500,
+    "enemyCores": 0,
+    "waves": true,
+    "winWave": 40,
+    "waveSpacingSeconds": 120,
+    "initialWaveSpacingSeconds": 360
+  },
+  "navalFortress": {
+    "width": 400,
+    "height": 400,
+    "enemyCores": 3,
+    "waves": true,
+    "winWave": 0,
+    "waveSpacingSeconds": 90,
+    "initialWaveSpacingSeconds": 210
+  },
+  "frontier": {
+    "width": 320,
+    "height": 320,
+    "enemyCores": 1,
+    "waves": true,
+    "winWave": 0,
+    "waveSpacingSeconds": 120,
+    "initialWaveSpacingSeconds": 250
+  },
+  "fungalPass": {
+    "width": 150,
+    "height": 250,
+    "enemyCores": 2,
+    "waves": true,
+    "winWave": 0,
+    "waveSpacingSeconds": 200,
+    "initialWaveSpacingSeconds": 0
+  },
+  "infestedCanyons": {
+    "width": 200,
+    "height": 265,
+    "enemyCores": 3,
+    "waves": true,
+    "winWave": 0,
+    "waveSpacingSeconds": 150,
+    "initialWaveSpacingSeconds": 270
+  },
+  "atolls": {
+    "width": 432,
+    "height": 432,
+    "enemyCores": 4,
+    "waves": true,
+    "winWave": 0,
+    "waveSpacingSeconds": 140,
+    "initialWaveSpacingSeconds": 0
+  },
+  "sunkenPier": {
+    "width": 450,
+    "height": 450,
+    "enemyCores": 0,
+    "waves": true,
+    "winWave": 50,
+    "waveSpacingSeconds": 90,
+    "initialWaveSpacingSeconds": 100
+  },
+  "mycelialBastion": {
+    "width": 300,
+    "height": 300,
+    "enemyCores": 3,
+    "waves": true,
+    "winWave": 0,
+    "waveSpacingSeconds": 90,
+    "initialWaveSpacingSeconds": 600
+  },
+  "overgrowth": {
+    "width": 344,
+    "height": 344,
+    "enemyCores": 1,
+    "waves": true,
+    "winWave": 0,
+    "waveSpacingSeconds": 105,
+    "initialWaveSpacingSeconds": 360
+  },
+  "tarFields": {
+    "width": 260,
+    "height": 260,
+    "enemyCores": 0,
+    "waves": true,
+    "winWave": 40,
+    "waveSpacingSeconds": 90,
+    "initialWaveSpacingSeconds": 0
+  },
+  "impact0078": {
+    "width": 300,
+    "height": 300,
+    "enemyCores": 0,
+    "waves": true,
+    "winWave": 45,
+    "waveSpacingSeconds": 100,
+    "initialWaveSpacingSeconds": 0
+  },
+  "desolateRift": {
+    "width": 110,
+    "height": 400,
+    "enemyCores": 0,
+    "waves": true,
+    "winWave": 18,
+    "waveSpacingSeconds": 120,
+    "initialWaveSpacingSeconds": 0
+  },
+  "nuclearComplex": {
+    "width": 250,
+    "height": 250,
+    "enemyCores": 0,
+    "waves": true,
+    "winWave": 50,
+    "waveSpacingSeconds": 140,
+    "initialWaveSpacingSeconds": 240
+  },
+  "littoralShipyard": {
+    "width": 600,
+    "height": 600,
+    "enemyCores": 4,
+    "waves": true,
+    "winWave": 0,
+    "waveSpacingSeconds": 200,
+    "initialWaveSpacingSeconds": 450
+  },
+  "planetaryTerminal": {
+    "width": 512,
+    "height": 512,
+    "enemyCores": 2,
+    "waves": true,
+    "winWave": 0,
+    "waveSpacingSeconds": 120,
+    "initialWaveSpacingSeconds": 600
+  },
+  "onset": {
+    "width": 512,
+    "height": 512,
+    "enemyCores": 2,
+    "waves": false,
+    "winWave": 0,
+    "waveSpacingSeconds": 120,
+    "initialWaveSpacingSeconds": 1800
+  },
+  "aegis": {
+    "width": 400,
+    "height": 400,
+    "enemyCores": 1,
+    "waves": false,
+    "winWave": 0,
+    "waveSpacingSeconds": 120,
+    "initialWaveSpacingSeconds": 0
+  },
+  "lake": {
+    "width": 320,
+    "height": 320,
+    "enemyCores": 1,
+    "waves": false,
+    "winWave": 0,
+    "waveSpacingSeconds": 120,
+    "initialWaveSpacingSeconds": 0
+  },
+  "intersect": {
+    "width": 484,
+    "height": 484,
+    "enemyCores": 1,
+    "waves": true,
+    "winWave": 9,
+    "waveSpacingSeconds": 180,
+    "initialWaveSpacingSeconds": 500
+  },
+  "atlas": {
+    "width": 586,
+    "height": 586,
+    "enemyCores": 4,
+    "waves": false,
+    "winWave": 0,
+    "waveSpacingSeconds": 120,
+    "initialWaveSpacingSeconds": 0
+  },
+  "split": {
+    "width": 600,
+    "height": 600,
+    "enemyCores": 1,
+    "waves": false,
+    "winWave": 0,
+    "waveSpacingSeconds": 120,
+    "initialWaveSpacingSeconds": 0
+  },
+  "basin": {
+    "width": 586,
+    "height": 586,
+    "enemyCores": 6,
+    "waves": false,
+    "winWave": 0,
+    "waveSpacingSeconds": 120,
+    "initialWaveSpacingSeconds": 0
+  },
+  "marsh": {
+    "width": 586,
+    "height": 586,
+    "enemyCores": 1,
+    "waves": false,
+    "winWave": 0,
+    "waveSpacingSeconds": 120,
+    "initialWaveSpacingSeconds": 0
+  },
+  "peaks": {
+    "width": 310,
+    "height": 390,
+    "enemyCores": 2,
+    "waves": false,
+    "winWave": 0,
+    "waveSpacingSeconds": 120,
+    "initialWaveSpacingSeconds": 0
+  },
+  "ravine": {
+    "width": 494,
+    "height": 494,
+    "enemyCores": 0,
+    "waves": true,
+    "winWave": 24,
+    "waveSpacingSeconds": 110,
+    "initialWaveSpacingSeconds": 660
+  },
+  "caldera-erekir": {
+    "width": 450,
+    "height": 450,
+    "enemyCores": 1,
+    "waves": false,
+    "winWave": 0,
+    "waveSpacingSeconds": 120,
+    "initialWaveSpacingSeconds": 0
+  },
+  "stronghold": {
+    "width": 586,
+    "height": 586,
+    "enemyCores": 10,
+    "waves": false,
+    "winWave": 0,
+    "waveSpacingSeconds": 120,
+    "initialWaveSpacingSeconds": 0
+  },
+  "crevice": {
+    "width": 494,
+    "height": 494,
+    "enemyCores": 0,
+    "waves": true,
+    "winWave": 46,
+    "waveSpacingSeconds": 120,
+    "initialWaveSpacingSeconds": 360
+  },
+  "siege": {
+    "width": 400,
+    "height": 600,
+    "enemyCores": 4,
+    "waves": false,
+    "winWave": 0,
+    "waveSpacingSeconds": 120,
+    "initialWaveSpacingSeconds": 0
+  },
+  "crossroads": {
+    "width": 600,
+    "height": 420,
+    "enemyCores": 3,
+    "waves": false,
+    "winWave": 0,
+    "waveSpacingSeconds": 120,
+    "initialWaveSpacingSeconds": 0
+  },
+  "karst": {
+    "width": 600,
+    "height": 600,
+    "enemyCores": 0,
+    "waves": true,
+    "winWave": 10,
+    "waveSpacingSeconds": 480,
+    "initialWaveSpacingSeconds": 660
+  },
+  "origin": {
+    "width": 600,
+    "height": 600,
+    "enemyCores": 9,
+    "waves": false,
+    "winWave": 0,
+    "waveSpacingSeconds": 120,
+    "initialWaveSpacingSeconds": 0
+  }
+}

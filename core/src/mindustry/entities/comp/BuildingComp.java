@@ -801,6 +801,7 @@ abstract class BuildingComp implements Posc, Teamc, Healthc, Buildingc, Timerc, 
     public void handleStack(Item item, int amount, @Nullable Teamc source){
         noSleep();
         items.add(item, amount);
+        if(amount > 0 && source instanceof Building building) CampaignStars.recordItemFlow(building, self(), item);
     }
 
     /** Returns offset for stack placement. */
@@ -864,6 +865,7 @@ abstract class BuildingComp implements Posc, Teamc, Healthc, Buildingc, Timerc, 
 
     public void handleItem(Building source, Item item){
         items.add(item, 1);
+        CampaignStars.recordItemFlow(source, self(), item);
     }
 
     public boolean acceptItem(Building source, Item item){
@@ -876,6 +878,7 @@ abstract class BuildingComp implements Posc, Teamc, Healthc, Buildingc, Timerc, 
 
     public void handleLiquid(Building source, Liquid liquid, float amount){
         liquids.add(liquid, amount);
+        CampaignStars.recordLiquidFlow(source, self(), liquid, amount);
     }
 
     //TODO entire liquid system is awful
@@ -1042,6 +1045,7 @@ abstract class BuildingComp implements Posc, Teamc, Healthc, Buildingc, Timerc, 
     }
 
     public void produced(Item item, int amount){
+        if(amount > 0) CampaignStars.recordProduction(self());
         if(Vars.state.rules.sector != null && team == state.rules.defaultTeam){
             Vars.state.rules.sector.info.handleProduction(item, amount);
 

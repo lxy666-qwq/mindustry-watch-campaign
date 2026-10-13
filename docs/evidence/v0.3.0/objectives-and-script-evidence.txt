@@ -1,0 +1,2060 @@
+
+## groundZero 零号地区
+[
+  {
+    "class": "Item",
+    "markers": [
+      {
+        "class": "ShapeText",
+        "pos": {
+          "x": 1096,
+          "y": 424
+        },
+        "text": "@gz.mine"
+      }
+    ],
+    "amount": 15,
+    "parents": [],
+    "editorPos": 65537
+  },
+  {
+    "class": "BuildCount",
+    "markers": [
+      {
+        "class": "ShapeText",
+        "pos": {
+          "x": 1084,
+          "y": 412
+        },
+        "text": "@gz.research",
+        "textHeight": 13,
+        "radius": 10.24,
+        "rotation": 45
+      }
+    ],
+    "block": "mechanical-drill",
+    "parents": [
+      0
+    ],
+    "editorPos": 65540
+  },
+  {
+    "class": "CoreItem",
+    "markers": [
+      {
+        "class": "Text",
+        "pos": {
+          "x": 1084,
+          "y": 480
+        },
+        "text": "@gz.conveyors"
+      }
+    ],
+    "amount": 5,
+    "parents": [
+      1
+    ],
+    "editorPos": 458756
+  },
+  {
+    "class": "CoreItem",
+    "markers": [
+      {
+        "class": "Text",
+        "pos": {
+          "x": 1084,
+          "y": 480
+        },
+        "text": "@gz.drills"
+      }
+    ],
+    "amount": 100,
+    "parents": [
+      2
+    ],
+    "editorPos": 851972
+  },
+  {
+    "class": "Timer",
+    "markers": [
+      {
+        "class": "Text",
+        "pos": {
+          "x": 1080,
+          "y": 1840
+        },
+        "text": "@gz.zone1",
+        "fontSize": 3
+      }
+    ],
+    "duration": 300,
+    "parents": [
+      7
+    ],
+    "editorPos": 1638407
+  },
+  {
+    "class": "Timer",
+    "markers": [
+      {
+        "class": "Text",
+        "pos": {
+          "x": 1080,
+          "y": 1840
+        },
+        "text": "@gz.zone2",
+        "fontSize": 3
+      }
+    ],
+    "duration": 180,
+    "parents": [
+      4
+    ],
+    "editorPos": 2031623
+  },
+  {
+    "class": "BuildCount",
+    "markers": [
+      {
+        "class": "Text",
+        "pos": {
+          "x": 1060,
+          "y": 1480
+        },
+        "text": "@gz.turrets"
+      },
+      {
+        "class": "Shape",
+        "pos": {
+          "x": 968,
+          "y": 1448
+        },
+        "radius": 6
+      },
+      {
+        "class": "Shape",
+        "pos": {
+          "x": 1152,
+          "y": 1448
+        },
+        "radius": 6
+      },
+      {
+        "class": "Text",
+        "pos": {
+          "x": 1032,
+          "y": 480
+        },
+        "text": "@gz.moveup"
+      }
+    ],
+    "block": "duo",
+    "count": 2,
+    "parents": [
+      9
+    ],
+    "editorPos": 1638404
+  },
+  {
+    "class": "BuildCount",
+    "flagsAdded": [
+      "spawnOver"
+    ],
+    "markers": [
+      {
+        "class": "Text",
+        "pos": {
+          "x": 1060,
+          "y": 1480
+        },
+        "text": "@gz.walls"
+      }
+    ],
+    "block": "copper-wall",
+    "count": 6,
+    "parents": [
+      15
+    ],
+    "editorPos": 2162692
+  },
+  {
+    "class": "Timer",
+    "flagsAdded": [
+      "spawnWave"
+    ],
+    "markers": [
+      {
+        "class": "Text",
+        "pos": {
+          "x": 1080,
+          "y": 1840
+        },
+        "text": "@gz.zone3",
+        "fontSize": 3
+      }
+    ],
+    "duration": 180,
+    "parents": [
+      5
+    ],
+    "editorPos": 2424839
+  },
+  {
+    "class": "CoreItem",
+    "flagsAdded": [
+      "mineOver"
+    ],
+    "markers": [
+      {
+        "class": "Text",
+        "pos": {
+          "x": 888,
+          "y": 424
+        },
+        "text": "@gz.lead"
+      }
+    ],
+    "item": "lead",
+    "amount": 25,
+    "parents": [
+      3
+    ],
+    "editorPos": 1245188
+  },
+  {
+    "class": "DestroyUnits",
+    "parents": [
+      8
+    ],
+    "editorPos": 2818055
+  },
+  {
+    "class": "BuildCount",
+    "markers": [
+      {
+        "class": "ShapeText",
+        "pos": {
+          "x": 1124,
+          "y": 1364
+        },
+        "text": "@gz.aa",
+        "textHeight": 13,
+        "radius": 10.24,
+        "rotation": 45
+      }
+    ],
+    "block": "scatter",
+    "parents": [
+      10
+    ],
+    "editorPos": 1638415
+  },
+  {
+    "class": "Timer",
+    "flagsAdded": [
+      "spawnWave"
+    ],
+    "markers": [
+      {
+        "class": "Text",
+        "pos": {
+          "x": 1060,
+          "y": 1480
+        },
+        "text": "@gz.defend"
+      }
+    ],
+    "text": "@objective.enemiesapproaching",
+    "duration": 3600,
+    "parents": [
+      16
+    ],
+    "editorPos": 2031631
+  },
+  {
+    "class": "DestroyUnits",
+    "count": 2,
+    "parents": [
+      12
+    ],
+    "editorPos": 2424847
+  },
+  {
+    "class": "Timer",
+    "flagsAdded": [
+      "allowWaves"
+    ],
+    "markers": [
+      {
+        "class": "Text",
+        "pos": {
+          "x": 1060,
+          "y": 1480
+        },
+        "text": "@gz.finish"
+      },
+      {
+        "class": "Text",
+        "pos": {
+          "x": 1032,
+          "y": 472
+        },
+        "text": "@gz.finish"
+      }
+    ],
+    "duration": 416.52,
+    "parents": [
+      13
+    ],
+    "editorPos": 2818063
+  },
+  {
+    "class": "Flag",
+    "markers": [
+      {
+        "class": "Text",
+        "pos": {
+          "x": 1060,
+          "y": 1480
+        },
+        "text": "@gz.duoammo"
+      }
+    ],
+    "flag": "duoAmmo",
+    "text": "@gz.supplyturret",
+    "parents": [
+      6
+    ],
+    "editorPos": 1900545
+  },
+  {
+    "class": "Flag",
+    "markers": [
+      {
+        "class": "Text",
+        "pos": {
+          "x": 1060,
+          "y": 1480
+        },
+        "text": "@gz.scatterammo"
+      }
+    ],
+    "flag": "scatterAmmo",
+    "text": "@gz.supplyturret",
+    "parents": [
+      11
+    ],
+    "editorPos": 1835026
+  }
+]
+docs\original-v160.7\scripts\groundZero\94_43.mlog:5: getflag end "spawnOver"
+docs\original-v160.7\scripts\groundZero\95_42.mlog:1: getflag waves "allowWaves"
+docs\original-v160.7\scripts\groundZero\95_42.mlog:2: jump 0 equal waves false
+docs\original-v160.7\scripts\groundZero\95_42.mlog:3: setflag "allowWaves" false
+docs\original-v160.7\scripts\groundZero\95_42.mlog:4: setrule waveSending true 0 0 100 100
+docs\original-v160.7\scripts\groundZero\95_42.mlog:5: setrule waveTimer true 0 0 100 100
+
+## frozenForest 冰冻森林
+[
+  {
+    "class": "Produce",
+    "markers": [
+      {
+        "class": "Text",
+        "pos": {
+          "x": 440,
+          "y": 464
+        },
+        "text": "@ff.coal"
+      }
+    ],
+    "content": "coal",
+    "parents": [],
+    "editorPos": 0
+  },
+  {
+    "class": "BuildCount",
+    "markers": [
+      {
+        "class": "Text",
+        "pos": {
+          "x": 440,
+          "y": 464
+        },
+        "text": "@ff.graphitepress"
+      }
+    ],
+    "block": "graphite-press",
+    "parents": [
+      0
+    ],
+    "editorPos": 458752
+  },
+  {
+    "class": "Item",
+    "markers": [
+      {
+        "class": "Text",
+        "pos": {
+          "x": 440,
+          "y": 464
+        },
+        "text": "@ff.craft"
+      }
+    ],
+    "item": "graphite",
+    "amount": 5,
+    "parents": [
+      1
+    ],
+    "editorPos": 917504
+  },
+  {
+    "class": "BuildCount",
+    "markers": [
+      {
+        "class": "Text",
+        "pos": {
+          "x": 440,
+          "y": 464
+        },
+        "text": "@ff.generator"
+      }
+    ],
+    "block": "combustion-generator",
+    "parents": [
+      2
+    ],
+    "editorPos": 1376256
+  },
+  {
+    "class": "Flag",
+    "markers": [
+      {
+        "class": "Text",
+        "pos": {
+          "x": 440,
+          "y": 464
+        },
+        "text": "@ff.coalpower"
+      }
+    ],
+    "flag": "power",
+    "text": "@ff.coalpower.objective",
+    "parents": [
+      3
+    ],
+    "editorPos": 1835008
+  },
+  {
+    "class": "BuildCount",
+    "markers": [
+      {
+        "class": "Text",
+        "pos": {
+          "x": 440,
+          "y": 464
+        },
+        "text": "@ff.node"
+      }
+    ],
+    "block": "power-node",
+    "parents": [
+      4
+    ],
+    "editorPos": 2293760
+  },
+  {
+    "class": "BuildCount",
+    "markers": [
+      {
+        "class": "Text",
+        "pos": {
+          "x": 440,
+          "y": 464
+        },
+        "text": "@ff.battery"
+      }
+    ],
+    "block": "battery",
+    "parents": [
+      5
+    ],
+    "editorPos": 2752512
+  },
+  {
+    "class": "BuildCount",
+    "flagsAdded": [
+      "done"
+    ],
+    "markers": [
+      {
+        "class": "Text",
+        "pos": {
+          "x": 440,
+          "y": 464
+        },
+        "text": "@ff.arc"
+      }
+    ],
+    "block": "arc",
+    "parents": [
+      6
+    ],
+    "editorPos": 3211264
+  }
+]
+docs\original-v160.7\scripts\frozenForest\1_0.mlog:3: setrule waveTimer result 0 0 100 100
+
+## frontier 边陲哨站
+[
+  {
+    "class": "UnitCount",
+    "flagsAdded": [
+      "revealMap"
+    ],
+    "markers": [
+      {
+        "class": "Text",
+        "pos": {
+          "x": 616,
+          "y": 1480
+        },
+        "text": "@frontier.tutorial1"
+      },
+      {
+        "class": "Shape",
+        "pos": {
+          "x": 616,
+          "y": 1408
+        },
+        "radius": 20,
+        "rotation": 45
+      }
+    ],
+    "unit": "mace",
+    "parents": [],
+    "editorPos": 0
+  },
+  {
+    "class": "Timer",
+    "hidden": true,
+    "markers": [
+      {
+        "class": "Text",
+        "pos": {
+          "x": 840,
+          "y": 1488
+        },
+        "text": "@frontier.tutorial2"
+      },
+      {
+        "class": "Text",
+        "pos": {
+          "x": 840,
+          "y": 1480
+        },
+        "text": "@frontier.tutorial3"
+      }
+    ],
+    "duration": 7200,
+    "parents": [
+      0
+    ],
+    "editorPos": 393216
+  },
+  {
+    "class": "UnitCount",
+    "hidden": true,
+    "flagsAdded": [
+      "revealMap"
+    ],
+    "unit": "atrax",
+    "parents": [],
+    "editorPos": 65533
+  },
+  {
+    "class": "UnitCount",
+    "hidden": true,
+    "flagsAdded": [
+      "revealMap"
+    ],
+    "unit": "pulsar",
+    "parents": [],
+    "editorPos": 65530
+  },
+  {
+    "class": "UnitCount",
+    "hidden": true,
+    "flagsAdded": [
+      "revealMap"
+    ],
+    "unit": "horizon",
+    "parents": [],
+    "editorPos": 65527
+  },
+  {
+    "class": "UnitCount",
+    "hidden": true,
+    "flagsAdded": [
+      "revealMap"
+    ],
+    "unit": "poly",
+    "parents": [],
+    "editorPos": 65524
+  }
+]
+docs\original-v160.7\scripts\frontier\0_0.mlog:1: setrule waves false 0 0 100 100
+docs\original-v160.7\scripts\frontier\0_0.mlog:5: setrule waves true 0 0 100 100
+
+## fungalPass 真菌通道
+[
+  {
+    "class": "BuildCount",
+    "markers": [
+      {
+        "class": "Text",
+        "pos": {
+          "x": 600,
+          "y": 344
+        },
+        "text": "@fungalpass.tutorial1"
+      }
+    ],
+    "block": "ground-factory",
+    "parents": [],
+    "editorPos": 1114123
+  },
+  {
+    "class": "UnitCount",
+    "markers": [
+      {
+        "class": "Text",
+        "pos": {
+          "x": 600,
+          "y": 344
+        },
+        "text": "@fungalpass.tutorial2"
+      }
+    ],
+    "count": 3,
+    "parents": [
+      0
+    ],
+    "editorPos": 1507339
+  },
+  {
+    "class": "CommandMode",
+    "flagsAdded": [
+      "unitsBuilt"
+    ],
+    "markers": [
+      {
+        "class": "Text",
+        "pos": {
+          "x": 600,
+          "y": 344
+        },
+        "text": "@onset.commandmode"
+      }
+    ],
+    "parents": [
+      1
+    ],
+    "editorPos": 1900555
+  },
+  {
+    "class": "DestroyBlock",
+    "hidden": true,
+    "pos": {
+      "x": 77,
+      "y": 125
+    },
+    "block": "core-shard",
+    "parents": [
+      2
+    ],
+    "editorPos": 2293771
+  }
+]
+docs\original-v160.7\scripts\fungalPass\0_0.mlog:2: setrule waveTimer result 0 0 100 100
+
+## infestedCanyons 菌疫峡谷
+[
+  {
+    "class": "Timer",
+    "details": "Starts the first set of factories.",
+    "flagsAdded": [
+      "E1"
+    ],
+    "text": "@objective.enemiesapproaching",
+    "duration": 16200,
+    "parents": [],
+    "editorPos": 524298
+  },
+  {
+    "class": "Timer",
+    "flagsAdded": [
+      "E2"
+    ],
+    "duration": 27000,
+    "parents": [
+      0
+    ],
+    "editorPos": 917514
+  },
+  {
+    "class": "Timer",
+    "flagsAdded": [
+      "E3"
+    ],
+    "duration": 36000,
+    "parents": [
+      1
+    ],
+    "editorPos": 1310730
+  }
+]
+
+## atolls 环礁群岛
+[
+  {
+    "class": "DestroyBlocks",
+    "hidden": true,
+    "flagsAdded": [
+      "attack"
+    ],
+    "positions": [
+      {
+        "x": 108,
+        "y": 169
+      },
+      {
+        "x": 351,
+        "y": 239
+      }
+    ],
+    "block": "core-foundation",
+    "parents": [],
+    "editorPos": 786440
+  },
+  {
+    "class": "Timer",
+    "markers": [
+      {
+        "class": "Text",
+        "pos": {
+          "x": 1160,
+          "y": 2528
+        },
+        "text": "@atolls.destroy1"
+      }
+    ],
+    "duration": 7200,
+    "parents": [],
+    "editorPos": 786437
+  },
+  {
+    "class": "Timer",
+    "hidden": true,
+    "duration": 3600,
+    "parents": [
+      0
+    ],
+    "editorPos": 1179654
+  },
+  {
+    "class": "Timer",
+    "markers": [
+      {
+        "class": "Text",
+        "pos": {
+          "x": 1160,
+          "y": 2520
+        },
+        "text": "@atolls.mega1"
+      },
+      {
+        "class": "Text",
+        "pos": {
+          "x": 1160,
+          "y": 2504
+        },
+        "text": "@atolls.mega2"
+      },
+      {
+        "class": "Text",
+        "pos": {
+          "x": 1160,
+          "y": 2488
+        },
+        "text": "@atolls.mega3"
+      },
+      {
+        "class": "Shape",
+        "pos": {
+          "x": 1400,
+          "y": 840
+        },
+        "radius": 60,
+        "sides": 6
+      },
+      {
+        "class": "Shape",
+        "pos": {
+          "x": 2008,
+          "y": 584
+        },
+        "radius": 60,
+        "sides": 6
+      },
+      {
+        "class": "Text",
+        "pos": {
+          "x": 1400,
+          "y": 856
+        },
+        "text": "@atolls.mega4"
+      },
+      {
+        "class": "Text",
+        "pos": {
+          "x": 1400,
+          "y": 848
+        },
+        "text": "@atolls.mega5"
+      },
+      {
+        "class": "Text",
+        "pos": {
+          "x": 1400,
+          "y": 840
+        },
+        "text": "@atolls.mega6"
+      },
+      {
+        "class": "Text",
+        "pos": {
+          "x": 1400,
+          "y": 832
+        },
+        "text": "@atolls.mega7"
+      },
+      {
+        "class": "Text",
+        "pos": {
+          "x": 2008,
+          "y": 600
+        },
+        "text": "@atolls.mega8"
+      },
+      {
+        "class": "Text",
+        "pos": {
+          "x": 2008,
+          "y": 592
+        },
+        "text": "@atolls.mega5"
+      },
+      {
+        "class": "Text",
+        "pos": {
+          "x": 2008,
+          "y": 584
+        },
+        "text": "@atolls.mega6"
+      },
+      {
+        "class": "Text",
+        "pos": {
+          "x": 2008,
+          "y": 576
+        },
+        "text": "@atolls.mega7"
+      },
+      {
+        "class": "Minimap",
+        "world": -1,
+        "minimap": 1,
+        "pos": {
+          "x": 1392,
+          "y": 824
+        },
+        "radius": 36,
+        "color": "33f254ac"
+      },
+      {
+        "class": "Minimap",
+        "world": -1,
+        "minimap": 1,
+        "pos": {
+          "x": 2008,
+          "y": 576
+        },
+        "radius": 36,
+        "color": "33f254ac"
+      }
+    ],
+    "duration": 36000,
+    "parents": [
+      2
+    ],
+    "editorPos": 1572870
+  }
+]
+docs\original-v160.7\scripts\atolls\181_325.mlog:4: setrule waves false 0 0 100 100
+docs\original-v160.7\scripts\atolls\181_325.mlog:146: setrule waves true 0 0 100 100
+
+## mycelialBastion 菌丝堡垒
+[
+  {
+    "class": "Timer",
+    "details": "",
+    "flagsAdded": [
+      "e1"
+    ],
+    "text": "@objective.enemyunitproduction",
+    "duration": 36000,
+    "parents": [],
+    "editorPos": 524298
+  },
+  {
+    "class": "Timer",
+    "hidden": true,
+    "flagsAdded": [
+      "e2"
+    ],
+    "text": "[tan]Enemy Production Escalating in: [white]{0}",
+    "duration": 18000,
+    "parents": [
+      0
+    ],
+    "editorPos": 851978
+  },
+  {
+    "class": "Timer",
+    "hidden": true,
+    "flagsAdded": [
+      "e3"
+    ],
+    "text": "[tan]Enemy Production Escalating in: [white]{0}",
+    "duration": 36000,
+    "parents": [
+      1
+    ],
+    "editorPos": 1179658
+  },
+  {
+    "class": "Timer",
+    "hidden": true,
+    "flagsAdded": [
+      "e4"
+    ],
+    "text": "[red]FINAL ESCALATION IN: [white]{0}",
+    "duration": 43200,
+    "parents": [
+      2
+    ],
+    "editorPos": 1507338
+  }
+]
+
+## littoralShipyard 海滨船厂
+[
+  {
+    "class": "Timer",
+    "flagsAdded": [
+      "ground",
+      "air",
+      "naval"
+    ],
+    "text": "@objective.enemiesapproaching",
+    "duration": 27000,
+    "parents": [],
+    "editorPos": 5
+  },
+  {
+    "class": "Timer",
+    "hidden": true,
+    "flagsAdded": [
+      "t2"
+    ],
+    "text": "[accent]Enemy production escalates[white] in: {0}",
+    "duration": 45000,
+    "parents": [
+      0
+    ],
+    "editorPos": 327685
+  },
+  {
+    "class": "Timer",
+    "hidden": true,
+    "flagsAdded": [
+      "t4"
+    ],
+    "text": "[red]High tier unit production starts[white] in: {0}",
+    "duration": 144000,
+    "parents": [
+      3
+    ],
+    "editorPos": 983045
+  },
+  {
+    "class": "Timer",
+    "hidden": true,
+    "flagsAdded": [
+      "t3"
+    ],
+    "text": "[orange]Enemy production escalates[white] in: {0}",
+    "duration": 108000,
+    "parents": [
+      1
+    ],
+    "editorPos": 655365
+  }
+]
+
+## planetaryTerminal 行星发射终端
+[
+  {
+    "class": "Timer",
+    "flagsAdded": [
+      "ground"
+    ],
+    "text": "@objective.enemiesapproaching",
+    "duration": 36000,
+    "parents": [],
+    "editorPos": 262154
+  },
+  {
+    "class": "Timer",
+    "hidden": true,
+    "flagsAdded": [
+      "air"
+    ],
+    "text": "Enemy air factories activating in: [accent]{0}[]",
+    "duration": 72000,
+    "parents": [
+      0
+    ],
+    "editorPos": 589834
+  },
+  {
+    "class": "Timer",
+    "hidden": true,
+    "flagsAdded": [
+      "naval"
+    ],
+    "text": "Enemy naval factories activating in: [accent]{0}[]",
+    "duration": 96000,
+    "parents": [
+      1
+    ],
+    "editorPos": 917514
+  },
+  {
+    "class": "Timer",
+    "hidden": true,
+    "flagsAdded": [
+      "t2"
+    ],
+    "text": "Enemy production escalating in: [accent]{0}[]",
+    "duration": 90000,
+    "parents": [
+      2
+    ],
+    "editorPos": 1245194
+  },
+  {
+    "class": "Timer",
+    "hidden": true,
+    "flagsAdded": [
+      "t3"
+    ],
+    "text": "[salmon]2nd escalation in: [accent]{0}[]",
+    "duration": 84000,
+    "parents": [
+      3
+    ],
+    "editorPos": 1572874
+  },
+  {
+    "class": "Timer",
+    "hidden": true,
+    "flagsAdded": [
+      "t4",
+      "overdrive"
+    ],
+    "text": "[red]Final escalation in: [accent]{0}[]",
+    "duration": 120000,
+    "parents": [
+      4
+    ],
+    "editorPos": 1900554
+  }
+]
+
+## onset 始发地区
+[
+  {
+    "class": "Item",
+    "markers": [
+      {
+        "class": "ShapeText",
+        "pos": {
+          "x": 2320,
+          "y": 848
+        },
+        "text": "@onset.mine",
+        "textHeight": 14
+      }
+    ],
+    "item": "beryllium",
+    "amount": 60,
+    "parents": [],
+    "editorPos": 65537
+  },
+  {
+    "class": "BuildCount",
+    "markers": [
+      {
+        "class": "ShapeText",
+        "pos": {
+          "x": 2312,
+          "y": 928
+        },
+        "text": "@onset.research",
+        "textHeight": 9,
+        "radius": 20.8
+      }
+    ],
+    "block": "turbine-condenser",
+    "parents": [
+      0
+    ],
+    "editorPos": 65540
+  },
+  {
+    "class": "BuildCount",
+    "markers": [
+      {
+        "class": "ShapeText",
+        "pos": {
+          "x": 2348,
+          "y": 908
+        },
+        "text": "@onset.bore",
+        "textHeight": 60,
+        "radius": 10.24,
+        "rotation": 45
+      }
+    ],
+    "block": "plasma-bore",
+    "parents": [
+      1
+    ],
+    "editorPos": 458756
+  },
+  {
+    "class": "BuildCount",
+    "markers": [
+      {
+        "class": "ShapeText",
+        "pos": {
+          "x": 2352,
+          "y": 928
+        },
+        "text": "@onset.power"
+      }
+    ],
+    "block": "beam-node",
+    "parents": [
+      2
+    ],
+    "editorPos": 851972
+  },
+  {
+    "class": "CoreItem",
+    "markers": [
+      {
+        "class": "Text",
+        "pos": {
+          "x": 2280,
+          "y": 864
+        },
+        "text": "@onset.ducts"
+      }
+    ],
+    "item": "beryllium",
+    "amount": 5,
+    "parents": [
+      3
+    ],
+    "editorPos": 65543
+  },
+  {
+    "class": "CoreItem",
+    "markers": [
+      {
+        "class": "Text",
+        "pos": {
+          "x": 2240,
+          "y": 944
+        },
+        "text": "@onset.moremine"
+      }
+    ],
+    "item": "beryllium",
+    "amount": 200,
+    "parents": [
+      4
+    ],
+    "editorPos": 458759
+  },
+  {
+    "class": "CoreItem",
+    "markers": [
+      {
+        "class": "Text",
+        "pos": {
+          "x": 2088,
+          "y": 864
+        },
+        "text": "@onset.graphite"
+      }
+    ],
+    "item": "graphite",
+    "amount": 100,
+    "parents": [
+      5
+    ],
+    "editorPos": 65546
+  },
+  {
+    "class": "Research",
+    "markers": [
+      {
+        "class": "Text",
+        "pos": {
+          "x": 2144,
+          "y": 808
+        },
+        "text": "@onset.research2"
+      }
+    ],
+    "content": "silicon-arc-furnace",
+    "parents": [
+      6
+    ],
+    "editorPos": 458762
+  },
+  {
+    "class": "CoreItem",
+    "markers": [
+      {
+        "class": "Text",
+        "pos": {
+          "x": 2144,
+          "y": 808
+        },
+        "text": "@onset.arcfurnace"
+      },
+      {
+        "class": "Text",
+        "pos": {
+          "x": 2096,
+          "y": 704
+        },
+        "text": "@onset.crusher"
+      }
+    ],
+    "item": "silicon",
+    "amount": 50,
+    "parents": [
+      7
+    ],
+    "editorPos": 851978
+  },
+  {
+    "class": "BuildCount",
+    "markers": [
+      {
+        "class": "Text",
+        "pos": {
+          "x": 2064,
+          "y": 928
+        },
+        "text": "@onset.fabricator"
+      }
+    ],
+    "block": "tank-fabricator",
+    "parents": [
+      8
+    ],
+    "editorPos": 65549
+  },
+  {
+    "class": "UnitCount",
+    "markers": [
+      {
+        "class": "Text",
+        "pos": {
+          "x": 2064,
+          "y": 928
+        },
+        "text": "@onset.makeunit"
+      }
+    ],
+    "unit": "stell",
+    "parents": [
+      9
+    ],
+    "editorPos": 458765
+  },
+  {
+    "class": "CommandMode",
+    "markers": [
+      {
+        "class": "Text",
+        "pos": {
+          "x": 2064,
+          "y": 928
+        },
+        "text": "@onset.commandmode"
+      }
+    ],
+    "parents": [
+      10
+    ],
+    "editorPos": 851981
+  },
+  {
+    "class": "BuildCount",
+    "markers": [
+      {
+        "class": "Text",
+        "pos": {
+          "x": 2064,
+          "y": 912
+        },
+        "text": "@onset.turrets"
+      }
+    ],
+    "block": "breach",
+    "parents": [
+      11
+    ],
+    "editorPos": 65552
+  },
+  {
+    "class": "BuildCount",
+    "markers": [
+      {
+        "class": "Text",
+        "pos": {
+          "x": 2208,
+          "y": 1064
+        },
+        "text": "@onset.walls"
+      }
+    ],
+    "block": "beryllium-wall",
+    "count": 6,
+    "parents": [
+      19
+    ],
+    "editorPos": 851984
+  },
+  {
+    "class": "Timer",
+    "details": "",
+    "flagsAdded": [
+      "defStart"
+    ],
+    "markers": [
+      {
+        "class": "Text",
+        "pos": {
+          "x": 2208,
+          "y": 1064
+        },
+        "text": "@onset.enemies"
+      }
+    ],
+    "text": "@objective.enemiesapproaching",
+    "parents": [
+      13
+    ],
+    "editorPos": 65555
+  },
+  {
+    "class": "DestroyUnits",
+    "flagsAdded": [
+      "defDone"
+    ],
+    "count": 2,
+    "parents": [
+      14
+    ],
+    "editorPos": 458771
+  },
+  {
+    "class": "DestroyBlock",
+    "markers": [
+      {
+        "class": "Text",
+        "pos": {
+          "x": 2208,
+          "y": 1064
+        },
+        "text": "@onset.attack"
+      }
+    ],
+    "pos": {
+      "x": 288,
+      "y": 198
+    },
+    "team": 3,
+    "block": "core-bastion",
+    "parents": [
+      15
+    ],
+    "editorPos": 65558
+  },
+  {
+    "class": "BuildCount",
+    "markers": [
+      {
+        "class": "ShapeText",
+        "pos": {
+          "x": 2300,
+          "y": 1580
+        },
+        "text": "@onset.cores",
+        "textHeight": 12,
+        "radius": 23.4
+      }
+    ],
+    "block": "core-bastion",
+    "parents": [
+      16
+    ],
+    "editorPos": 458774
+  },
+  {
+    "class": "Timer",
+    "flagsAdded": [
+      "openMap"
+    ],
+    "markers": [
+      {
+        "class": "Text",
+        "pos": {
+          "x": 2304,
+          "y": 1616
+        },
+        "text": "@onset.detect"
+      }
+    ],
+    "text": "@onset.defenses",
+    "duration": 7200,
+    "parents": [
+      17
+    ],
+    "editorPos": 65561
+  },
+  {
+    "class": "Flag",
+    "markers": [
+      {
+        "class": "Text",
+        "pos": {
+          "x": 2064,
+          "y": 912
+        },
+        "text": "@onset.turretammo"
+      }
+    ],
+    "flag": "breachAmmo",
+    "text": "@gz.supplyturret",
+    "parents": [
+      12
+    ],
+    "editorPos": 458768
+  }
+]
+
+## aegis 庇护前哨
+[
+  {
+    "class": "CoreItem",
+    "flagsAdded": [
+      "beginBuild"
+    ],
+    "markers": [
+      {
+        "class": "ShapeText",
+        "pos": {
+          "x": 960,
+          "y": 1048
+        },
+        "text": "@aegis.tungsten"
+      }
+    ],
+    "item": "tungsten",
+    "amount": 100,
+    "parents": [],
+    "editorPos": 1638412
+  }
+]
+
+## lake 岩浆湖
+[
+  {
+    "class": "BuildCount",
+    "block": "ship-fabricator",
+    "parents": [],
+    "editorPos": 65537
+  },
+  {
+    "class": "UnitCount",
+    "unit": "elude",
+    "parents": [
+      0
+    ],
+    "editorPos": 458753
+  }
+]
+
+## split 横断山谷
+[
+  {
+    "class": "CoreItem",
+    "markers": [
+      {
+        "class": "Text",
+        "pos": {
+          "x": 2776,
+          "y": 3560
+        },
+        "text": "@split.pickup"
+      },
+      {
+        "class": "Text",
+        "pos": {
+          "x": 2344,
+          "y": 3336
+        },
+        "text": "@split.acquire"
+      }
+    ],
+    "item": "tungsten",
+    "amount": 100,
+    "parents": [],
+    "editorPos": 65537
+  },
+  {
+    "class": "BuildCount",
+    "markers": [
+      {
+        "class": "Text",
+        "pos": {
+          "x": 2344,
+          "y": 3336
+        },
+        "text": "@split.build"
+      }
+    ],
+    "block": "payload-mass-driver",
+    "count": 2,
+    "parents": [
+      0
+    ],
+    "editorPos": 458753
+  },
+  {
+    "class": "DestroyCore",
+    "markers": [
+      {
+        "class": "Text",
+        "pos": {
+          "x": 2344,
+          "y": 3336
+        },
+        "text": "@split.container"
+      }
+    ],
+    "parents": [
+      1
+    ],
+    "editorPos": 851969
+  }
+]
+
+## basin 风蚀盆地
+[
+  {
+    "class": "DestroyBlocks",
+    "flagsAdded": [
+      "nukeannounce"
+    ],
+    "positions": [
+      {
+        "x": 290,
+        "y": 501
+      },
+      {
+        "x": 158,
+        "y": 496
+      }
+    ],
+    "team": 3,
+    "block": "core-bastion",
+    "parents": [],
+    "editorPos": 65537
+  },
+  {
+    "class": "Timer",
+    "flagsAdded": [
+      "nuke1"
+    ],
+    "markers": [
+      {
+        "class": "Minimap",
+        "minimap": 1,
+        "pos": {
+          "x": 2704,
+          "y": 3016
+        },
+        "radius": 52,
+        "stroke": 14
+      },
+      {
+        "class": "Shape",
+        "minimap": 1,
+        "pos": {
+          "x": 2704,
+          "y": 3016
+        },
+        "radius": 416,
+        "fill": true,
+        "sides": 90,
+        "color": "c63a3a4c"
+      },
+      {
+        "class": "Shape",
+        "minimap": 1,
+        "pos": {
+          "x": 2704,
+          "y": 3016
+        },
+        "radius": 416,
+        "sides": 90,
+        "color": "f25454ff"
+      }
+    ],
+    "text": "@objective.nuclearlaunch",
+    "duration": 21600,
+    "parents": [
+      0
+    ],
+    "editorPos": 458753
+  }
+]
+
+## marsh 芳油湿地
+[
+  {
+    "class": "Research",
+    "content": "oxidation-chamber",
+    "parents": [],
+    "editorPos": 720906
+  },
+  {
+    "class": "BuildCount",
+    "block": "oxidation-chamber",
+    "parents": [
+      0
+    ],
+    "editorPos": 1114124
+  },
+  {
+    "class": "Produce",
+    "content": "oxide",
+    "parents": [
+      0
+    ],
+    "editorPos": 1114120
+  },
+  {
+    "class": "Research",
+    "content": "chemical-combustion-chamber",
+    "parents": [
+      5
+    ],
+    "editorPos": 2293770
+  },
+  {
+    "class": "Research",
+    "content": "reinforced-pump",
+    "parents": [
+      1,
+      2
+    ],
+    "editorPos": 1507338
+  },
+  {
+    "class": "Research",
+    "content": "arkycite",
+    "parents": [
+      4
+    ],
+    "editorPos": 1900554
+  },
+  {
+    "class": "BuildCount",
+    "block": "chemical-combustion-chamber",
+    "parents": [
+      3
+    ],
+    "editorPos": 2686986
+  },
+  {
+    "class": "Timer",
+    "flagsAdded": [
+      "setupComplete"
+    ],
+    "text": "@objective.enemiesapproaching",
+    "duration": 28800,
+    "parents": [
+      6
+    ],
+    "editorPos": 3080202
+  }
+]
+
+## peaks 横堑峰峦
+[
+  {
+    "class": "Research",
+    "content": "beam-tower",
+    "parents": [
+      2
+    ],
+    "editorPos": 851978
+  },
+  {
+    "class": "BuildCount",
+    "block": "chemical-combustion-chamber",
+    "parents": [
+      3
+    ],
+    "editorPos": 1638410
+  },
+  {
+    "class": "CoreItem",
+    "item": "tungsten",
+    "amount": 50,
+    "parents": [],
+    "editorPos": 458762
+  },
+  {
+    "class": "BuildCount",
+    "block": "beam-tower",
+    "count": 2,
+    "parents": [
+      0
+    ],
+    "editorPos": 1245194
+  },
+  {
+    "class": "Timer",
+    "flagsAdded": [
+      "setupFinished"
+    ],
+    "text": "@objective.enemiesapproaching",
+    "duration": 10800,
+    "parents": [
+      5
+    ],
+    "editorPos": 2424842
+  },
+  {
+    "class": "UnitCount",
+    "flagsAdded": [
+      "openMap"
+    ],
+    "unit": "avert",
+    "parents": [
+      1
+    ],
+    "editorPos": 2031626
+  }
+]
+
+## stronghold 晶石要塞
+[
+  {
+    "class": "Timer",
+    "flagsAdded": [
+      "units1"
+    ],
+    "text": "@objective.enemiesapproaching",
+    "duration": 10800,
+    "parents": [],
+    "editorPos": 458762
+  },
+  {
+    "class": "Timer",
+    "flagsAdded": [
+      "units2"
+    ],
+    "text": "@objective.enemyescalating",
+    "duration": 10800,
+    "parents": [
+      4
+    ],
+    "editorPos": 2031627
+  },
+  {
+    "class": "Timer",
+    "flagsAdded": [
+      "beginAirProduction"
+    ],
+    "text": "@objective.enemyairunits",
+    "duration": 27000,
+    "parents": [
+      3
+    ],
+    "editorPos": 2818059
+  },
+  {
+    "class": "Timer",
+    "flagsAdded": [
+      "units3"
+    ],
+    "text": "@objective.enemyescalating",
+    "duration": 36000,
+    "parents": [
+      1
+    ],
+    "editorPos": 2424843
+  },
+  {
+    "class": "Timer",
+    "flagsAdded": [
+      "expandMap"
+    ],
+    "text": "@objective.enemyescalating",
+    "duration": 21600,
+    "parents": [
+      7
+    ],
+    "editorPos": 1638410
+  },
+  {
+    "class": "Timer",
+    "flagsAdded": [
+      "units4"
+    ],
+    "text": "@objective.enemyescalating",
+    "duration": 36000,
+    "parents": [
+      2
+    ],
+    "editorPos": 3211275
+  },
+  {
+    "class": "Timer",
+    "flagsAdded": [
+      "units5"
+    ],
+    "text": "@objective.enemyescalating",
+    "duration": 30000,
+    "parents": [
+      5
+    ],
+    "editorPos": 3604491
+  },
+  {
+    "class": "DestroyBlocks",
+    "positions": [
+      {
+        "x": 520,
+        "y": 389
+      },
+      {
+        "x": 335,
+        "y": 297
+      }
+    ],
+    "team": 3,
+    "block": "core-bastion",
+    "parents": [
+      0
+    ],
+    "editorPos": 851978
+  }
+]
+
+## siege 平行岭谷
+[
+  {
+    "class": "Timer",
+    "flagsAdded": [
+      "def"
+    ],
+    "text": "@objective.enemiesapproaching",
+    "duration": 36000,
+    "parents": [],
+    "editorPos": 983050
+  },
+  {
+    "class": "Timer",
+    "flagsAdded": [
+      "u1"
+    ],
+    "text": "@objective.enemyescalating",
+    "duration": 36000,
+    "parents": [
+      0
+    ],
+    "editorPos": 1376266
+  },
+  {
+    "class": "Timer",
+    "flagsAdded": [
+      "u2"
+    ],
+    "text": "@objective.enemyescalating",
+    "duration": 36000,
+    "parents": [
+      1
+    ],
+    "editorPos": 1769482
+  },
+  {
+    "class": "Timer",
+    "flagsAdded": [
+      "u3"
+    ],
+    "text": "@objective.enemyescalating",
+    "duration": 24000,
+    "parents": [
+      2
+    ],
+    "editorPos": 2162698
+  }
+]
+
+## crossroads 十字路口
+[
+  {
+    "class": "Timer",
+    "flagsAdded": [
+      "u2"
+    ],
+    "text": "@objective.enemiesapproaching",
+    "duration": 36000,
+    "parents": [],
+    "editorPos": 720906
+  },
+  {
+    "class": "Timer",
+    "flagsAdded": [
+      "u1"
+    ],
+    "text": "@objective.enemyescalating",
+    "duration": 30000,
+    "parents": [
+      0
+    ],
+    "editorPos": 1114122
+  },
+  {
+    "class": "Timer",
+    "flagsAdded": [
+      "u3"
+    ],
+    "text": "@objective.enemyairunits",
+    "duration": 10800,
+    "parents": [
+      1
+    ],
+    "editorPos": 1507338
+  },
+  {
+    "class": "Timer",
+    "flagsAdded": [
+      "u4"
+    ],
+    "text": "@objective.enemyescalating",
+    "duration": 60000,
+    "parents": [
+      2
+    ],
+    "editorPos": 1900554
+  }
+]
+
+## origin 起源
+[
+  {
+    "class": "Timer",
+    "flagsAdded": [
+      "u1"
+    ],
+    "text": "@objective.enemyescalating",
+    "duration": 36000,
+    "parents": [],
+    "editorPos": 589834
+  },
+  {
+    "class": "Timer",
+    "flagsAdded": [
+      "u2"
+    ],
+    "text": "@objective.enemyescalating",
+    "duration": 72000,
+    "parents": [
+      0
+    ],
+    "editorPos": 983050
+  },
+  {
+    "class": "Timer",
+    "flagsAdded": [
+      "u3"
+    ],
+    "text": "@objective.enemyescalating",
+    "duration": 108000,
+    "parents": [
+      1
+    ],
+    "editorPos": 1376266
+  },
+  {
+    "class": "Timer",
+    "flagsAdded": [
+      "u4"
+    ],
+    "text": "@objective.enemyescalating",
+    "duration": 108000,
+    "parents": [
+      2
+    ],
+    "editorPos": 1769482
+  },
+  {
+    "class": "Timer",
+    "flagsAdded": [
+      "u5"
+    ],
+    "text": "@objective.enemyescalating",
+    "duration": 72000,
+    "parents": [
+      3
+    ],
+    "editorPos": 2162698
+  }
+]
