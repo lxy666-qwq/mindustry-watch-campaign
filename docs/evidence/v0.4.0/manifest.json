@@ -1,0 +1,319 @@
+{
+  "version": "0.4.0",
+  "mode": "route-ui-validation",
+  "newVictories": 0,
+  "files": [
+    {
+      "path": "desktop/en/01-planet-chooser.png",
+      "bytes": 478506
+    },
+    {
+      "path": "desktop/en/02-serpulo-start.png",
+      "bytes": 2202797
+    },
+    {
+      "path": "desktop/en/03-ground-zero-briefing.png",
+      "bytes": 963543
+    },
+    {
+      "path": "desktop/en/04-serpulo-islands.png",
+      "bytes": 2211272
+    },
+    {
+      "path": "desktop/en/05-locked-tide-tactical.png",
+      "bytes": 964223
+    },
+    {
+      "path": "desktop/en/06-erekir-start.png",
+      "bytes": 2234550
+    },
+    {
+      "path": "desktop/en/07-erekir-caldera.png",
+      "bytes": 2222229
+    },
+    {
+      "path": "desktop/en/08-compact-route.png",
+      "bytes": 1176756
+    },
+    {
+      "path": "desktop/en/09-portrait-chooser.png",
+      "bytes": 386894
+    },
+    {
+      "path": "desktop/en/10-continue-route.png",
+      "bytes": 1929165
+    },
+    {
+      "path": "desktop/en/11-route-launched-native-mission.png",
+      "bytes": 295177
+    },
+    {
+      "path": "desktop/en/12-serpulo-full-panorama.png",
+      "bytes": 1840011
+    },
+    {
+      "path": "desktop/en/13-erekir-full-panorama.png",
+      "bytes": 1827583
+    },
+    {
+      "path": "desktop/en/desktop.log",
+      "bytes": 537
+    },
+    {
+      "path": "desktop/en/result.txt",
+      "bytes": 857
+    },
+    {
+      "path": "desktop/zh/01-planet-chooser.png",
+      "bytes": 502426
+    },
+    {
+      "path": "desktop/zh/02-serpulo-start.png",
+      "bytes": 2234334
+    },
+    {
+      "path": "desktop/zh/03-ground-zero-briefing.png",
+      "bytes": 1003177
+    },
+    {
+      "path": "desktop/zh/04-serpulo-islands.png",
+      "bytes": 2240542
+    },
+    {
+      "path": "desktop/zh/05-locked-tide-tactical.png",
+      "bytes": 1048320
+    },
+    {
+      "path": "desktop/zh/06-erekir-start.png",
+      "bytes": 2262193
+    },
+    {
+      "path": "desktop/zh/07-erekir-caldera.png",
+      "bytes": 2244023
+    },
+    {
+      "path": "desktop/zh/08-compact-route.png",
+      "bytes": 1229596
+    },
+    {
+      "path": "desktop/zh/09-portrait-chooser.png",
+      "bytes": 400000
+    },
+    {
+      "path": "desktop/zh/10-continue-route.png",
+      "bytes": 2143367
+    },
+    {
+      "path": "desktop/zh/11-route-launched-native-mission.png",
+      "bytes": 276721
+    },
+    {
+      "path": "desktop/zh/12-serpulo-full-panorama.png",
+      "bytes": 1866553
+    },
+    {
+      "path": "desktop/zh/13-erekir-full-panorama.png",
+      "bytes": 1859177
+    },
+    {
+      "path": "desktop/zh/desktop.log",
+      "bytes": 537
+    },
+    {
+      "path": "desktop/zh/result.txt",
+      "bytes": 864
+    },
+    {
+      "path": "superseded/desktop-case01/desktop.log",
+      "bytes": 975
+    },
+    {
+      "path": "superseded/desktop-case02/02-serpulo-start.png",
+      "bytes": 264175
+    },
+    {
+      "path": "superseded/desktop-case02/desktop.log",
+      "bytes": 537
+    },
+    {
+      "path": "superseded/desktop-case06/02-serpulo-start.png",
+      "bytes": 1736439
+    },
+    {
+      "path": "superseded/desktop-case06/desktop.log",
+      "bytes": 537
+    },
+    {
+      "path": "superseded/desktop-case08/02-serpulo-start.png",
+      "bytes": 2218928
+    },
+    {
+      "path": "superseded/desktop-case08/desktop.log",
+      "bytes": 537
+    },
+    {
+      "path": "terrain/index.tsv",
+      "bytes": 6974
+    },
+    {
+      "path": "terrain/result.txt",
+      "bytes": 92
+    },
+    {
+      "path": "terrain/terrain-export.log",
+      "bytes": 5540
+    },
+    {
+      "path": "tools/ExportRouteScenes040.java",
+      "bytes": 3814
+    },
+    {
+      "path": "tools/RouteDesktopCapture040.java",
+      "bytes": 9105
+    },
+    {
+      "path": "validation/final-tests/TEST-ApplicationTests.xml",
+      "bytes": 11793
+    },
+    {
+      "path": "validation/final-tests/TEST-CampaignProgressionTests.xml",
+      "bytes": 1829
+    },
+    {
+      "path": "validation/final-tests/TEST-CampaignRouteLayoutTests.xml",
+      "bytes": 987
+    },
+    {
+      "path": "validation/final-tests/TEST-CampaignStarsTests.xml",
+      "bytes": 20549
+    },
+    {
+      "path": "validation/final-tests/TEST-DataAssetTests.xml",
+      "bytes": 20502
+    },
+    {
+      "path": "validation/final-tests/TEST-LogicTests.xml",
+      "bytes": 12288
+    },
+    {
+      "path": "validation/final-tests/TEST-ModTestAllure.xml",
+      "bytes": 5546
+    },
+    {
+      "path": "validation/final-tests/TEST-PatcherTests.xml",
+      "bytes": 15303
+    },
+    {
+      "path": "validation/final-tests/TEST-power.ConsumeGeneratorTests.xml",
+      "bytes": 1942
+    },
+    {
+      "path": "validation/final-tests/TEST-power.DirectConsumerTests.xml",
+      "bytes": 647
+    },
+    {
+      "path": "validation/final-tests/TEST-power.PowerTests$PowerGraphTests.xml",
+      "bytes": 1757
+    },
+    {
+      "path": "validation/final-tests/TEST-WatchBranchTests.xml",
+      "bytes": 2908
+    },
+    {
+      "path": "validation/final-tests/TEST-WatchCampaignTests.xml",
+      "bytes": 2557
+    },
+    {
+      "path": "validation/final-tests/TEST-WatchRewardTests.xml",
+      "bytes": 1419
+    },
+    {
+      "path": "validation/final-tests/TEST-WatchStarterAmmoTests.xml",
+      "bytes": 1742
+    },
+    {
+      "path": "validation/first-network-failure/TEST-ApplicationTests.xml",
+      "bytes": 11793
+    },
+    {
+      "path": "validation/first-network-failure/TEST-CampaignProgressionTests.xml",
+      "bytes": 1835
+    },
+    {
+      "path": "validation/first-network-failure/TEST-CampaignRouteLayoutTests.xml",
+      "bytes": 987
+    },
+    {
+      "path": "validation/first-network-failure/TEST-CampaignStarsTests.xml",
+      "bytes": 20558
+    },
+    {
+      "path": "validation/first-network-failure/TEST-DataAssetTests.xml",
+      "bytes": 20501
+    },
+    {
+      "path": "validation/first-network-failure/TEST-LogicTests.xml",
+      "bytes": 12283
+    },
+    {
+      "path": "validation/first-network-failure/TEST-ModTestAllure.xml",
+      "bytes": 11890
+    },
+    {
+      "path": "validation/first-network-failure/TEST-PatcherTests.xml",
+      "bytes": 13696
+    },
+    {
+      "path": "validation/first-network-failure/TEST-power.ConsumeGeneratorTests.xml",
+      "bytes": 1938
+    },
+    {
+      "path": "validation/first-network-failure/TEST-power.DirectConsumerTests.xml",
+      "bytes": 647
+    },
+    {
+      "path": "validation/first-network-failure/TEST-power.PowerTests$PowerGraphTests.xml",
+      "bytes": 1749
+    },
+    {
+      "path": "validation/first-network-failure/TEST-WatchBranchTests.xml",
+      "bytes": 2907
+    },
+    {
+      "path": "validation/first-network-failure/TEST-WatchCampaignTests.xml",
+      "bytes": 2557
+    },
+    {
+      "path": "validation/first-network-failure/TEST-WatchRewardTests.xml",
+      "bytes": 1418
+    },
+    {
+      "path": "validation/first-network-failure/TEST-WatchStarterAmmoTests.xml",
+      "bytes": 1744
+    },
+    {
+      "path": "validation/logs/五星040-全量测试.log",
+      "bytes": 38377
+    },
+    {
+      "path": "validation/logs/五星040-全量测试02.log",
+      "bytes": 97726
+    },
+    {
+      "path": "validation/logs/五星040-发布全量测试.log",
+      "bytes": 44761
+    },
+    {
+      "path": "validation/logs/五星040-绘制地图专项.log",
+      "bytes": 3046
+    },
+    {
+      "path": "validation/logs/五星040-绘制地图构建03.log",
+      "bytes": 3914
+    },
+    {
+      "path": "validation/summary.json",
+      "bytes": 71
+    }
+  ]
+}

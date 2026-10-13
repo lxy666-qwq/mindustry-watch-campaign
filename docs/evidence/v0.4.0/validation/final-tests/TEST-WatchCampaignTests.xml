@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="WatchCampaignTests" tests="27" skipped="0" failures="0" errors="0" timestamp="2026-10-13T16:36:15.047Z" hostname="LAPTOP-B3R6MC71" time="1.648">
+  <properties/>
+  <testcase name="supplyRewardDoesNotRepeatAfterSave()" classname="WatchCampaignTests" time="0.199"/>
+  <testcase name="[1] 0" classname="WatchCampaignTests" time="0.052"/>
+  <testcase name="[2] 1" classname="WatchCampaignTests" time="0.023"/>
+  <testcase name="[3] 2" classname="WatchCampaignTests" time="0.012"/>
+  <testcase name="[4] 3" classname="WatchCampaignTests" time="0.017"/>
+  <testcase name="[5] 4" classname="WatchCampaignTests" time="0.017"/>
+  <testcase name="[6] 5" classname="WatchCampaignTests" time="0.062"/>
+  <testcase name="[7] 6" classname="WatchCampaignTests" time="0.016"/>
+  <testcase name="[8] 7" classname="WatchCampaignTests" time="0.013"/>
+  <testcase name="[9] 8" classname="WatchCampaignTests" time="0.031"/>
+  <testcase name="[10] 9" classname="WatchCampaignTests" time="0.023"/>
+  <testcase name="blackoutSurvivesRealSaveAndRestoresOnlyAffectedGenerators()" classname="WatchCampaignTests" time="0.061"/>
+  <testcase name="starterMiningLinesActuallyDeliverCopperAndLead()" classname="WatchCampaignTests" time="0.035"/>
+  <testcase name="floodPreservesBuiltBridgeTilesAndOpensEastDetour()" classname="WatchCampaignTests" time="0.017"/>
+  <testcase name="technologyIsScopedAndBranchesRequireStars()" classname="WatchCampaignTests" time="0.017"/>
+  <testcase name="navalApproachCanReachFiringRangeBeforeAndAfterLowTide()" classname="WatchCampaignTests" time="0.033"/>
+  <testcase name="[1] 0" classname="WatchCampaignTests" time="0.02"/>
+  <testcase name="[2] 1" classname="WatchCampaignTests" time="0.011"/>
+  <testcase name="[3] 2" classname="WatchCampaignTests" time="0.012"/>
+  <testcase name="[4] 3" classname="WatchCampaignTests" time="0.009"/>
+  <testcase name="[5] 4" classname="WatchCampaignTests" time="0.014"/>
+  <testcase name="[6] 5" classname="WatchCampaignTests" time="0.022"/>
+  <testcase name="[7] 6" classname="WatchCampaignTests" time="0.011"/>
+  <testcase name="[8] 7" classname="WatchCampaignTests" time="0.015"/>
+  <testcase name="[9] 8" classname="WatchCampaignTests" time="0.014"/>
+  <testcase name="[10] 9" classname="WatchCampaignTests" time="0.015"/>
+  <testcase name="beforeWaveHookOpensRouteBeforeSpawning()" classname="WatchCampaignTests" time="0.012"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="WatchStarterAmmoTests" tests="19" skipped="0" failures="0" errors="0" timestamp="2026-10-13T15:45:05.195Z" hostname="LAPTOP-B3R6MC71" time="1.342">
+  <properties/>
+  <testcase name="[1] 1" classname="WatchStarterAmmoTests" time="0.099"/>
+  <testcase name="[2] 2" classname="WatchStarterAmmoTests" time="0.058"/>
+  <testcase name="[3] 3" classname="WatchStarterAmmoTests" time="0.036"/>
+  <testcase name="[4] 4" classname="WatchStarterAmmoTests" time="0.018"/>
+  <testcase name="[5] 5" classname="WatchStarterAmmoTests" time="0.058"/>
+  <testcase name="[6] 6" classname="WatchStarterAmmoTests" time="0.019"/>
+  <testcase name="[7] 7" classname="WatchStarterAmmoTests" time="0.012"/>
+  <testcase name="[8] 8" classname="WatchStarterAmmoTests" time="0.027"/>
+  <testcase name="[9] 9" classname="WatchStarterAmmoTests" time="0.016"/>
+  <testcase name="[1] 0" classname="WatchStarterAmmoTests" time="0.008"/>
+  <testcase name="[2] 1" classname="WatchStarterAmmoTests" time="0.01"/>
+  <testcase name="[3] 2" classname="WatchStarterAmmoTests" time="0.009"/>
+  <testcase name="[4] 3" classname="WatchStarterAmmoTests" time="0.009"/>
+  <testcase name="[5] 4" classname="WatchStarterAmmoTests" time="0.015"/>
+  <testcase name="[6] 5" classname="WatchStarterAmmoTests" time="0.021"/>
+  <testcase name="[7] 6" classname="WatchStarterAmmoTests" time="0.012"/>
+  <testcase name="[8] 7" classname="WatchStarterAmmoTests" time="0.013"/>
+  <testcase name="[9] 8" classname="WatchStarterAmmoTests" time="0.012"/>
+  <testcase name="[10] 9" classname="WatchStarterAmmoTests" time="0.013"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

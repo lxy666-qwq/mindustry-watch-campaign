@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="WatchRewardTests" tests="10" skipped="0" failures="0" errors="0" timestamp="2026-10-13T15:45:03.103Z" hostname="LAPTOP-B3R6MC71" time="1.491">
+  <properties/>
+  <testcase name="demolitionOfWallAndTowerDoesNotResetPositionCooldown()" classname="WatchRewardTests" time="0.167"/>
+  <testcase name="twoTowersShareOneWallCooldown()" classname="WatchRewardTests" time="0.067"/>
+  <testcase name="realPowerAndGraphiteRepairOneWallAtFifteenPercent()" classname="WatchRewardTests" time="0.079"/>
+  <testcase name="distantWallAndUnsupportedCustomGameCannotUseBandage()" classname="WatchRewardTests" time="0.029"/>
+  <testcase name="airliftingInjuredWallAfterSaveCannotResetItsCooldown()" classname="WatchRewardTests" time="0.136"/>
+  <testcase name="nativeCampaignMetricsDoNotEnableRewardHealing()" classname="WatchRewardTests" time="0.021"/>
+  <testcase name="realSaveKeepsWallCooldownAndSpentGraphite()" classname="WatchRewardTests" time="0.055"/>
+  <testcase name="healthyWallsEnemiesCoresAndSelfDoNotReceiveBandages()" classname="WatchRewardTests" time="0.02"/>
+  <testcase name="unlockIsScopedToFiveStarReward()" classname="WatchRewardTests" time="0.104"/>
+  <testcase name="noElectricityOrNoGraphiteCannotHeal()" classname="WatchRewardTests" time="0.024"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -2,7 +2,7 @@
 
 基于 Mindustry v160.7，把官方命名主线改为“普通三星＋英雄一星＋战术一星”的五星战役，并将原守望十关分布为主线附近的星数支线。保留原地图目标、地形与产线建设，通过核心保护、限时防御和设施任务增加重玩挑战。
 
-当前版本：**0.3.5（预览版）**。46个官方主线与10个守望支线，各3种任务，共168任务、280星。当前41/168种不同历史模式有真实满分样例，完整实战与平衡仍未验收；新增与正常同档解锁记录见[本版实战台账](docs/playthrough-v0.3.5.md)，历史快照保留。装备材料另见[反制材料审计](docs/counter-material-audit-v0.3.3.md)。
+当前版本：**0.4.0（预览版）**。46个官方主线与10个守望支线，各3种任务，共168任务、280星。新增两张连续绘制的战役地图，关卡标记嵌在完整场景中；[地图导航](docs/ROUTE_MAP.md)。历史41/168种不同模式有真实满分样例，完整实战与平衡尚未验收；本轮导航验证不增加通关成绩。[本版验证](docs/verification-v0.4.0.md)、[历史台账](docs/playthrough-v0.3.5.md)。
 
 原项目作者为 Anuken 及 Mindustry 社区；本仓库是课程实践的派生版本。原说明保存在 [README.upstream.md](README.upstream.md)。
 
@@ -12,8 +12,8 @@
 
 Windows 本地完整环境位于 `D:\软件工程`：
 
-1. 原版与改版统一放在同一目录：`Mindustry-v160.7.bat`启动官方原版，`Mindustry-v0.3.5.bat`启动五星改版，对应同名JAR。新版使用原来的`五星存档`；旧`五星战役.bat`转到版本入口。
-2. 主菜单点击 **五星战役 0.3.5**，选择 Serpulo 或 Erekir。
+1. 原版与改版统一放在同一目录：`Mindustry-v160.7.bat`启动官方原版，`Mindustry-v0.4.0.bat`启动五星改版，对应同名JAR。新版使用原来的`五星存档`；旧`五星战役.bat`转到版本入口。
+2. 主菜单点击 **五星战役 0.4.0**，选择 Serpulo 或 Erekir。
 3. 选择主线关卡，阅读任务要求后开始普通任务；普通通关后可选择英雄与战术挑战；指定关卡还须满足支线满五星装备准备。
 4. 主线取得的总星数满足支线门槛，且完成锚点普通任务后，开放附近守望支线。
 5. 每次从任务入口开始都从初始地图重玩；通过读档可继续同一次任务。退出前正常保存。
@@ -21,6 +21,10 @@ Windows 本地完整环境位于 `D:\软件工程`：
 `守望十关.bat` 固定运行 `版本归档\v0.2.0\Mindustry.jar`，继续使用原来的 `守望存档`。旧程序与旧存档单独保留；根目录`Mindustry-v160.7.jar`为官方发布程序，v0.1.0课程构建归档与原版资料继续保留。同目录合集、启动方式与存档位置见[发行文件布局](docs/DISTRIBUTION_LAYOUT.md)。
 
 源码构建的当前程序需要 Java 17，可运行 `java -Dnodiscord -jar Mindustry.jar`。版本号来自 `core/assets/watch-version.txt`。开发版本的构建、验证与发布状态分开记录，不把历史发布包当作当前开发包。
+
+## 连续地图导航
+
+点击星球展开整张大陆地图，拖动探索山地、河流、海岸和堡垒中的关卡；点击标记查看任务，悬停高亮真实前置，使用“地图全景”查看完整场景。节点显示最佳五星和锁定状态；支线仍按主线星数及锚点普通通关解锁。[操作和实际截图](docs/ROUTE_MAP.md)。
 
 ## 每关五星
 
@@ -40,7 +44,7 @@ Windows 本地完整环境位于 `D:\软件工程`：
 
 ## 守望十条支线
 
-潮汐港湾三种模式另需赤沙驿站满五星，先取得裂解拦截装备。支线解锁累计主线关卡的普通、英雄、战术星数；支线所得星数不计入门槛。除星数外，还须完成表中锚点的普通任务。支线在任务列表中紧接锚点显示，在星球上选择附近空闲格；已有预设和玩家基地不被覆盖。
+潮汐港湾三种模式另需赤沙驿站满五星，先取得裂解拦截装备。支线解锁累计主线关卡的普通、英雄、战术星数；支线所得星数不计入门槛。除星数外，还须完成表中锚点的普通任务。支线在连续地图中显示于对应锚点附近；其原生扇区仍选择附近空闲格，已有预设和玩家基地不被覆盖。
 
 | 支线 | 星球／锚点 | 主线星数 | 防守波次 | 主要变化 |
 |---|---|---:|---:|---|
@@ -63,7 +67,7 @@ Windows 本地完整环境位于 `D:\软件工程`：
 
 ## 关卡树与装备准备
 
-“关卡树”列出原科技主线、额外占领前置、支线锚点和主线星数门槛。部分较难主线还要求先把指定支线打满五星，获得对应的防空、液体防御、储能或维修装备；条件在关卡详情中完整显示，选中英雄／战术时同步更新。
+“前置详表”列出原科技主线、额外占领前置、支线锚点和主线星数门槛。部分较难主线还要求先把指定支线打满五星，获得对应的防空、液体防御、储能或维修装备；条件在关卡详情中完整显示，选中英雄／战术时同步更新。
 
 例如零号地区普通通关并达到3主线星后可进入绿谷前哨；绿谷前哨满五星后获得分裂和战地绷带塔，再开放冰冻森林的五星任务。Erekir奖励采用其自身装备环境。终末堡垒只作为起源、行星发射终端英雄／战术的额外准备，两个终点的普通任务不会被它阻塞。完整关系图及十条装备对应表见 [关卡树与装备准备](docs/STAR_CAMPAIGN.md#关卡树与装备准备)。
 
@@ -108,7 +112,9 @@ powershell -NoProfile -ExecutionPolicy Bypass -File ..\项目操作.ps1 -Action 
 |---|---|
 | [CampaignStars.java](core/src/mindustry/content/CampaignStars.java) | 参与范围、评分、挑战、星数、解锁与奖励 |
 | [CampaignProgression.java](core/src/mindustry/content/CampaignProgression.java) | 原科技前置、满五星装备准备与两星球装备对应 |
-| [CampaignStarsDialog.java](core/src/mindustry/ui/dialogs/CampaignStarsDialog.java) | 星级列表、任务选择、条件和奖励说明 |
+| [CampaignStarsDialog.java](core/src/mindustry/ui/dialogs/CampaignStarsDialog.java) | 星球选择、连续地图、任务选择、条件和奖励说明 |
+| [CampaignRouteView.java](core/src/mindustry/ui/CampaignRouteView.java) | 连续地图与可点击关卡标记 |
+| [CampaignRouteLayout.java](core/src/mindustry/ui/layout/CampaignRouteLayout.java) | 实际前置和地图标记布局 |
 | [star-missions.json](core/assets/star-missions.json) | 原版地图元数据，供任务时限和预算预览使用 |
 | [WatchCampaign.java](core/src/mindustry/content/WatchCampaign.java) | 十条支线锚点、门槛、装备与敌人波次 |
 | [WatchMapGenerator.java](core/src/mindustry/maps/planet/WatchMapGenerator.java) | 守望地形、路线、矿点与启动设施 |
@@ -128,7 +134,9 @@ powershell -NoProfile -ExecutionPolicy Bypass -File ..\项目操作.ps1 -Action 
 - `coursework-v0.3.4`：修复炮台实际消耗冷却液后仍不计运输贡献；654项回归、同脚本原生对照及桌面保存读回通过。
 - `coursework-v0.3.5`：修复人工搬运核心库存被当新来源；665项回归、真实钻机/回流对照、携带存档迁移及SDL读回通过。
 
-本轮665项测试通过。相同原生建造脚本的核心人工回流A24→0、真实生产B2保持；真实钻机人工入库A24，三组携带中途档及三组结束档新进程/原生回读保持世界与21主线星。另有真实三条支线奖励档迁移、SDL SaveSlot308标签读回；固定新版雷暴战术自然28波/1星、运输43/生产2及新进程读回通过。当前41/168种历史满分样例；全168主动战斗、完整正常解锁链与整体平衡仍在继续。见[v0.3.5验证](docs/verification-v0.3.5.md)及[实战台账](docs/playthrough-v0.3.5.md)。本版源码标签和程序另行保留，旧七版及之前实战补充快照不覆盖。
+- `coursework-v0.4.0`：连续绘制的星球地图导航，673项回归及26张中英文实际桌面图、拖动与启动保存通过。
+
+本轮673项回归及必要客户端检查通过，168项最佳成绩保持，新增通关0。历史41/168满分样例仍按各自版本记录；全168主动实战、完整正常解锁链和整体平衡未全部验收。用户要求先完成交付，本轮没有重启全量试玩。[v0.4.0验证](docs/verification-v0.4.0.md)及[v0.3.5历史台账](docs/playthrough-v0.3.5.md)。旧八版保留。
 
 历史验证记录为 [v0.2.0验证记录](docs/verification-v0.2.0.md)。当前功能变更与验证进度见 [CHANGELOG.md](CHANGELOG.md)，发布流程见 [RELEASE_PROCESS.md](docs/RELEASE_PROCESS.md)。
 

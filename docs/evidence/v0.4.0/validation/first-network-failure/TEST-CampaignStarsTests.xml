@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="CampaignStarsTests" tests="218" skipped="0" failures="0" errors="0" timestamp="2026-10-13T15:43:56.091Z" hostname="LAPTOP-B3R6MC71" time="24.271">
+  <properties/>
+  <testcase name="partialManualCoreDeliveriesRetainTheirSource()" classname="CampaignStarsTests" time="0.186"/>
+  <testcase name="uninstrumentedNativeCoreDamageDoesNotCreateStarHistory()" classname="CampaignStarsTests" time="0.117"/>
+  <testcase name="crossingJunctionLanesNeverShareAFalseCoreEndpoint()" classname="CampaignStarsTests" time="0.044"/>
+  <testcase name="[1] false" classname="CampaignStarsTests" time="0.062"/>
+  <testcase name="[2] true" classname="CampaignStarsTests" time="0.023"/>
+  <testcase name="branchBoardUnlockAlsoRespectsItsCounterRewardPrerequisite()" classname="CampaignStarsTests" time="0.002"/>
+  <testcase name="aFactoryOriginIsSpecificToItsActualOutputItem()" classname="CampaignStarsTests" time="0.019"/>
+  <testcase name="ductActualDeliveryIsRecognizedAndUntaggedTransportDoesNotLeak()" classname="CampaignStarsTests" time="0.045"/>
+  <testcase name="[1] NORMAL" classname="CampaignStarsTests" time="0.066"/>
+  <testcase name="[2] HEROIC" classname="CampaignStarsTests" time="0.033"/>
+  <testcase name="newDrillsKeepOutputIdentityAcrossAirliftSaveAndDropsCostBudget()" classname="CampaignStarsTests" time="0.169"/>
+  <testcase name="tacticalRequiresNewFacilitiesAndConstructionBudget()" classname="CampaignStarsTests" time="0.118"/>
+  <testcase name="versionTwoHeldInventoryNeedsANewSourceAfterMigration()" classname="CampaignStarsTests" time="0.066"/>
+  <testcase name="finiteCargoOnlyAppliesOnFreshNormalRunAndSurvivesSaving()" classname="CampaignStarsTests" time="0.078"/>
+  <testcase name="groundZero NORMAL" classname="CampaignStarsTests" time="0.025"/>
+  <testcase name="groundZero HEROIC" classname="CampaignStarsTests" time="0.034"/>
+  <testcase name="groundZero TACTICAL" classname="CampaignStarsTests" time="0.032"/>
+  <testcase name="saltFlats NORMAL" classname="CampaignStarsTests" time="0.081"/>
+  <testcase name="saltFlats HEROIC" classname="CampaignStarsTests" time="0.055"/>
+  <testcase name="saltFlats TACTICAL" classname="CampaignStarsTests" time="0.06"/>
+  <testcase name="testingGrounds NORMAL" classname="CampaignStarsTests" time="0.086"/>
+  <testcase name="testingGrounds HEROIC" classname="CampaignStarsTests" time="0.129"/>
+  <testcase name="testingGrounds TACTICAL" classname="CampaignStarsTests" time="0.083"/>
+  <testcase name="frozenForest NORMAL" classname="CampaignStarsTests" time="0.015"/>
+  <testcase name="frozenForest HEROIC" classname="CampaignStarsTests" time="0.014"/>
+  <testcase name="frozenForest TACTICAL" classname="CampaignStarsTests" time="0.013"/>
+  <testcase name="biomassFacility NORMAL" classname="CampaignStarsTests" time="0.021"/>
+  <testcase name="biomassFacility HEROIC" classname="CampaignStarsTests" time="0.022"/>
+  <testcase name="biomassFacility TACTICAL" classname="CampaignStarsTests" time="0.023"/>
+  <testcase name="taintedWoods NORMAL" classname="CampaignStarsTests" time="0.047"/>
+  <testcase name="taintedWoods HEROIC" classname="CampaignStarsTests" time="0.054"/>
+  <testcase name="taintedWoods TACTICAL" classname="CampaignStarsTests" time="0.054"/>
+  <testcase name="crateredBattleground NORMAL" classname="CampaignStarsTests" time="0.031"/>
+  <testcase name="crateredBattleground HEROIC" classname="CampaignStarsTests" time="0.025"/>
+  <testcase name="crateredBattleground TACTICAL" classname="CampaignStarsTests" time="0.022"/>
+  <testcase name="ruinousShores NORMAL" classname="CampaignStarsTests" time="0.199"/>
+  <testcase name="ruinousShores HEROIC" classname="CampaignStarsTests" time="0.095"/>
+  <testcase name="ruinousShores TACTICAL" classname="CampaignStarsTests" time="0.101"/>
+  <testcase name="perilousHarbor NORMAL" classname="CampaignStarsTests" time="0.137"/>
+  <testcase name="perilousHarbor HEROIC" classname="CampaignStarsTests" time="0.132"/>
+  <testcase name="perilousHarbor TACTICAL" classname="CampaignStarsTests" time="0.139"/>
+  <testcase name="facility32m NORMAL" classname="CampaignStarsTests" time="0.048"/>
+  <testcase name="facility32m HEROIC" classname="CampaignStarsTests" time="0.064"/>
+  <testcase name="facility32m TACTICAL" classname="CampaignStarsTests" time="0.039"/>
+  <testcase name="windsweptIslands NORMAL" classname="CampaignStarsTests" time="0.195"/>
+  <testcase name="windsweptIslands HEROIC" classname="CampaignStarsTests" time="0.161"/>
+  <testcase name="windsweptIslands TACTICAL" classname="CampaignStarsTests" time="0.2"/>
+  <testcase name="stainedMountains NORMAL" classname="CampaignStarsTests" time="0.025"/>
+  <testcase name="stainedMountains HEROIC" classname="CampaignStarsTests" time="0.026"/>
+  <testcase name="stainedMountains TACTICAL" classname="CampaignStarsTests" time="0.026"/>
+  <testcase name="extractionOutpost NORMAL" classname="CampaignStarsTests" time="0.146"/>
+  <testcase name="extractionOutpost HEROIC" classname="CampaignStarsTests" time="0.167"/>
+  <testcase name="extractionOutpost TACTICAL" classname="CampaignStarsTests" time="0.142"/>
+  <testcase name="coastline NORMAL" classname="CampaignStarsTests" time="0.218"/>
+  <testcase name="coastline HEROIC" classname="CampaignStarsTests" time="0.22"/>
+  <testcase name="coastline TACTICAL" classname="CampaignStarsTests" time="0.199"/>
+  <testcase name="weatheredChannels NORMAL" classname="CampaignStarsTests" time="0.394"/>
+  <testcase name="weatheredChannels HEROIC" classname="CampaignStarsTests" time="0.357"/>
+  <testcase name="weatheredChannels TACTICAL" classname="CampaignStarsTests" time="0.432"/>
+  <testcase name="navalFortress NORMAL" classname="CampaignStarsTests" time="0.086"/>
+  <testcase name="navalFortress HEROIC" classname="CampaignStarsTests" time="0.085"/>
+  <testcase name="navalFortress TACTICAL" classname="CampaignStarsTests" time="0.072"/>
+  <testcase name="frontier NORMAL" classname="CampaignStarsTests" time="0.038"/>
+  <testcase name="frontier HEROIC" classname="CampaignStarsTests" time="0.035"/>
+  <testcase name="frontier TACTICAL" classname="CampaignStarsTests" time="0.032"/>
+  <testcase name="fungalPass NORMAL" classname="CampaignStarsTests" time="0.033"/>
+  <testcase name="fungalPass HEROIC" classname="CampaignStarsTests" time="0.03"/>
+  <testcase name="fungalPass TACTICAL" classname="CampaignStarsTests" time="0.03"/>
+  <testcase name="infestedCanyons NORMAL" classname="CampaignStarsTests" time="0.047"/>
+  <testcase name="infestedCanyons HEROIC" classname="CampaignStarsTests" time="0.048"/>
+  <testcase name="infestedCanyons TACTICAL" classname="CampaignStarsTests" time="0.044"/>
+  <testcase name="atolls NORMAL" classname="CampaignStarsTests" time="0.426"/>
+  <testcase name="atolls HEROIC" classname="CampaignStarsTests" time="0.425"/>
+  <testcase name="atolls TACTICAL" classname="CampaignStarsTests" time="0.425"/>
+  <testcase name="sunkenPier NORMAL" classname="CampaignStarsTests" time="0.362"/>
+  <testcase name="sunkenPier HEROIC" classname="CampaignStarsTests" time="0.266"/>
+  <testcase name="sunkenPier TACTICAL" classname="CampaignStarsTests" time="0.328"/>
+  <testcase name="mycelialBastion NORMAL" classname="CampaignStarsTests" time="0.092"/>
+  <testcase name="mycelialBastion HEROIC" classname="CampaignStarsTests" time="0.097"/>
+  <testcase name="mycelialBastion TACTICAL" classname="CampaignStarsTests" time="0.085"/>
+  <testcase name="overgrowth NORMAL" classname="CampaignStarsTests" time="0.107"/>
+  <testcase name="overgrowth HEROIC" classname="CampaignStarsTests" time="0.102"/>
+  <testcase name="overgrowth TACTICAL" classname="CampaignStarsTests" time="0.111"/>
+  <testcase name="tarFields NORMAL" classname="CampaignStarsTests" time="0.021"/>
+  <testcase name="tarFields HEROIC" classname="CampaignStarsTests" time="0.02"/>
+  <testcase name="tarFields TACTICAL" classname="CampaignStarsTests" time="0.022"/>
+  <testcase name="impact0078 NORMAL" classname="CampaignStarsTests" time="0.031"/>
+  <testcase name="impact0078 HEROIC" classname="CampaignStarsTests" time="0.026"/>
+  <testcase name="impact0078 TACTICAL" classname="CampaignStarsTests" time="0.028"/>
+  <testcase name="desolateRift NORMAL" classname="CampaignStarsTests" time="0.017"/>
+  <testcase name="desolateRift HEROIC" classname="CampaignStarsTests" time="0.018"/>
+  <testcase name="desolateRift TACTICAL" classname="CampaignStarsTests" time="0.016"/>
+  <testcase name="nuclearComplex NORMAL" classname="CampaignStarsTests" time="0.025"/>
+  <testcase name="nuclearComplex HEROIC" classname="CampaignStarsTests" time="0.025"/>
+  <testcase name="nuclearComplex TACTICAL" classname="CampaignStarsTests" time="0.026"/>
+  <testcase name="littoralShipyard NORMAL" classname="CampaignStarsTests" time="0.286"/>
+  <testcase name="littoralShipyard HEROIC" classname="CampaignStarsTests" time="0.273"/>
+  <testcase name="littoralShipyard TACTICAL" classname="CampaignStarsTests" time="0.288"/>
+  <testcase name="planetaryTerminal NORMAL" classname="CampaignStarsTests" time="0.513"/>
+  <testcase name="planetaryTerminal HEROIC" classname="CampaignStarsTests" time="0.53"/>
+  <testcase name="planetaryTerminal TACTICAL" classname="CampaignStarsTests" time="0.512"/>
+  <testcase name="onset NORMAL" classname="CampaignStarsTests" time="0.126"/>
+  <testcase name="onset HEROIC" classname="CampaignStarsTests" time="0.124"/>
+  <testcase name="onset TACTICAL" classname="CampaignStarsTests" time="0.123"/>
+  <testcase name="aegis NORMAL" classname="CampaignStarsTests" time="0.089"/>
+  <testcase name="aegis HEROIC" classname="CampaignStarsTests" time="0.081"/>
+  <testcase name="aegis TACTICAL" classname="CampaignStarsTests" time="0.08"/>
+  <testcase name="lake NORMAL" classname="CampaignStarsTests" time="0.018"/>
+  <testcase name="lake HEROIC" classname="CampaignStarsTests" time="0.02"/>
+  <testcase name="lake TACTICAL" classname="CampaignStarsTests" time="0.016"/>
+  <testcase name="intersect NORMAL" classname="CampaignStarsTests" time="0.128"/>
+  <testcase name="intersect HEROIC" classname="CampaignStarsTests" time="0.098"/>
+  <testcase name="intersect TACTICAL" classname="CampaignStarsTests" time="0.098"/>
+  <testcase name="atlas NORMAL" classname="CampaignStarsTests" time="0.213"/>
+  <testcase name="atlas HEROIC" classname="CampaignStarsTests" time="0.219"/>
+  <testcase name="atlas TACTICAL" classname="CampaignStarsTests" time="0.225"/>
+  <testcase name="split NORMAL" classname="CampaignStarsTests" time="0.062"/>
+  <testcase name="split HEROIC" classname="CampaignStarsTests" time="0.064"/>
+  <testcase name="split TACTICAL" classname="CampaignStarsTests" time="0.105"/>
+  <testcase name="basin NORMAL" classname="CampaignStarsTests" time="0.244"/>
+  <testcase name="basin HEROIC" classname="CampaignStarsTests" time="0.331"/>
+  <testcase name="basin TACTICAL" classname="CampaignStarsTests" time="0.281"/>
+  <testcase name="marsh NORMAL" classname="CampaignStarsTests" time="0.077"/>
+  <testcase name="marsh HEROIC" classname="CampaignStarsTests" time="0.066"/>
+  <testcase name="marsh TACTICAL" classname="CampaignStarsTests" time="0.106"/>
+  <testcase name="peaks NORMAL" classname="CampaignStarsTests" time="0.11"/>
+  <testcase name="peaks HEROIC" classname="CampaignStarsTests" time="0.104"/>
+  <testcase name="peaks TACTICAL" classname="CampaignStarsTests" time="0.111"/>
+  <testcase name="ravine NORMAL" classname="CampaignStarsTests" time="0.038"/>
+  <testcase name="ravine HEROIC" classname="CampaignStarsTests" time="0.051"/>
+  <testcase name="ravine TACTICAL" classname="CampaignStarsTests" time="0.043"/>
+  <testcase name="caldera-erekir NORMAL" classname="CampaignStarsTests" time="0.037"/>
+  <testcase name="caldera-erekir HEROIC" classname="CampaignStarsTests" time="0.042"/>
+  <testcase name="caldera-erekir TACTICAL" classname="CampaignStarsTests" time="0.039"/>
+  <testcase name="stronghold NORMAL" classname="CampaignStarsTests" time="0.095"/>
+  <testcase name="stronghold HEROIC" classname="CampaignStarsTests" time="0.091"/>
+  <testcase name="stronghold TACTICAL" classname="CampaignStarsTests" time="0.097"/>
+  <testcase name="crevice NORMAL" classname="CampaignStarsTests" time="0.244"/>
+  <testcase name="crevice HEROIC" classname="CampaignStarsTests" time="0.249"/>
+  <testcase name="crevice TACTICAL" classname="CampaignStarsTests" time="0.158"/>
+  <testcase name="siege NORMAL" classname="CampaignStarsTests" time="0.074"/>
+  <testcase name="siege HEROIC" classname="CampaignStarsTests" time="0.081"/>
+  <testcase name="siege TACTICAL" classname="CampaignStarsTests" time="0.077"/>
+  <testcase name="crossroads NORMAL" classname="CampaignStarsTests" time="0.072"/>
+  <testcase name="crossroads HEROIC" classname="CampaignStarsTests" time="0.099"/>
+  <testcase name="crossroads TACTICAL" classname="CampaignStarsTests" time="0.064"/>
+  <testcase name="karst NORMAL" classname="CampaignStarsTests" time="0.382"/>
+  <testcase name="karst HEROIC" classname="CampaignStarsTests" time="0.405"/>
+  <testcase name="karst TACTICAL" classname="CampaignStarsTests" time="0.265"/>
+  <testcase name="origin NORMAL" classname="CampaignStarsTests" time="0.486"/>
+  <testcase name="origin HEROIC" classname="CampaignStarsTests" time="0.488"/>
+  <testcase name="origin TACTICAL" classname="CampaignStarsTests" time="0.544"/>
+  <testcase name="lakeTacticalAllowsItsAccessibleWaterCondenser()" classname="CampaignStarsTests" time="0.046"/>
+  <testcase name="actualSupplyAndMovedTransportIdentitySurviveSaveIO()" classname="CampaignStarsTests" time="0.044"/>
+  <testcase name="distinctDifficultyChangesOnlyEnemyPressure()" classname="CampaignStarsTests" time="0.054"/>
+  <testcase name="genericSaveRestoresRunAndCannotOverwriteNativeSector()" classname="CampaignStarsTests" time="0.04"/>
+  <testcase name="newFacilityIdentitySurvivesSaveInsidePayloadConveyor()" classname="CampaignStarsTests" time="0.048"/>
+  <testcase name="initialFacilityAirliftNeverBecomesNewAfterSave()" classname="CampaignStarsTests" time="0.368"/>
+  <testcase name="nativeCoolingSupplyAndPendingFlowSurviveWorldSave()" classname="CampaignStarsTests" time="0.11"/>
+  <testcase name="finishedRunKeepsItsRecordedHealthAndGrade()" classname="CampaignStarsTests" time="0.022"/>
+  <testcase name="[1] breach" classname="CampaignStarsTests" time="0.024"/>
+  <testcase name="[2] duo" classname="CampaignStarsTests" time="0.021"/>
+  <testcase name="enemyCoreAndFriendlyWallDamageCannotLowerPlayerCoreGrade()" classname="CampaignStarsTests" time="0.019"/>
+  <testcase name="manualCoreCoalToActualProductionStillSuppliesTheNewRoute()" classname="CampaignStarsTests" time="0.021"/>
+  <testcase name="[1] false" classname="CampaignStarsTests" time="0.015"/>
+  <testcase name="[2] true" classname="CampaignStarsTests" time="0.015"/>
+  <testcase name="liquidBridgeAndRouterPreserveRealAmmunitionSupply()" classname="CampaignStarsTests" time="0.133"/>
+  <testcase name="scoresAreMaximaAndTotalCannotExceed280()" classname="CampaignStarsTests" time="0.001"/>
+  <testcase name="[1] false" classname="CampaignStarsTests" time="0.015"/>
+  <testcase name="[2] true" classname="CampaignStarsTests" time="0.015"/>
+  <testcase name="liquidSupplyNeedsActualGeneratorOutputAfterInput()" classname="CampaignStarsTests" time="0.112"/>
+  <testcase name="intersectKeepsItsOriginalAttackAfterWavesPhase()" classname="CampaignStarsTests" time="0.17"/>
+  <testcase name="oldOutputOnlySaveMustReconfirmTerminalSupplyWithoutLosingBestStars()" classname="CampaignStarsTests" time="0.042"/>
+  <testcase name="manualCoreStockToActualAmmoStillSuppliesTheNewRoute()" classname="CampaignStarsTests" time="0.013"/>
+  <testcase name="clearedUnitCargoAllowsSubsequentFreshMinedInventory()" classname="CampaignStarsTests" time="0.015"/>
+  <testcase name="[1] false" classname="CampaignStarsTests" time="0.015"/>
+  <testcase name="[2] true" classname="CampaignStarsTests" time="0.012"/>
+  <testcase name="permanentBonusesAreCappedAndRepeatedApplicationIsIdempotent()" classname="CampaignStarsTests" time="0.022"/>
+  <testcase name="failedMetadataWriteKeepsTheLiveLedger()" classname="CampaignStarsTests" time="0.024"/>
+  <testcase name="manualWithdrawnActualMineOutputRetainsItsOrigin()" classname="CampaignStarsTests" time="0.015"/>
+  <testcase name="capturedNativeTurretCoolingDoesNotConfirmPlayerSupply()" classname="CampaignStarsTests" time="0.042"/>
+  <testcase name="[1] false" classname="CampaignStarsTests" time="0.015"/>
+  <testcase name="[2] true" classname="CampaignStarsTests" time="0.017"/>
+  <testcase name="anyFriendlyCoreDamageCountsBeforeRepair()" classname="CampaignStarsTests" time="0.019"/>
+  <testcase name="ordinaryRulesKeepTheirExistingMetadataSerialization()" classname="CampaignStarsTests" time="0.022"/>
+  <testcase name="zeroAmountUnitAnimationAndUntypedStoredItemsDoNotCreateOrigins()" classname="CampaignStarsTests" time="0.017"/>
+  <testcase name="coreLossGradeAndRunFailureRemainRecorded()" classname="CampaignStarsTests" time="0.028"/>
+  <testcase name="emptyRoutersConveyorsAndStoredItemsDoNotFulfillTransport()" classname="CampaignStarsTests" time="0.024"/>
+  <testcase name="coreAmmunitionSupplyStopsAtCoreHistoryBoundary()" classname="CampaignStarsTests" time="0.027"/>
+  <testcase name="eligibilityIs46MainLevelsAndTenBranches()" classname="CampaignStarsTests" time="0.001"/>
+  <testcase name="[1] NORMAL" classname="CampaignStarsTests" time="0.095"/>
+  <testcase name="[2] HEROIC" classname="CampaignStarsTests" time="0.403"/>
+  <testcase name="[3] TACTICAL" classname="CampaignStarsTests" time="0.073"/>
+  <testcase name="savedCarriedCoreStockCannotBecomeFreshInventoryOnLoad()" classname="CampaignStarsTests" time="0.071"/>
+  <testcase name="actualCoreChainSuppliesThroughBridgeAndRouter()" classname="CampaignStarsTests" time="0.02"/>
+  <testcase name="genuineMineBranchDoesNotCreditTheMergedCoreReturnBranch()" classname="CampaignStarsTests" time="0.017"/>
+  <testcase name="heroicNeedsTimeCoreIntegrityAndLimitedBuildingLosses()" classname="CampaignStarsTests" time="0.035"/>
+  <testcase name="manualCoreStockCannotBeLaunderedThroughDetachedStorage()" classname="CampaignStarsTests" time="0.046"/>
+  <testcase name="aMixedCargoWithNewMinedItemsKeepsItsLegitimateOrigin()" classname="CampaignStarsTests" time="0.017"/>
+  <testcase name="coolingCreditsOnlyTheLiquidThatNativeConsumerUsed()" classname="CampaignStarsTests" time="0.044"/>
+  <testcase name="normalGradeKeepsDamageHistoryEvenAfterRepair()" classname="CampaignStarsTests" time="0.023"/>
+  <testcase name="[1] NORMAL, 0.35, 0.65, 2" classname="CampaignStarsTests" time="0.062"/>
+  <testcase name="[2] HEROIC, 0.151, 0.849, 0" classname="CampaignStarsTests" time="0.082"/>
+  <testcase name="[3] TACTICAL, 0.401, 0.599, 0" classname="CampaignStarsTests" time="0.091"/>
+  <testcase name="savedFailureCannotAwardStarsAfterReload()" classname="CampaignStarsTests" time="0.108"/>
+  <testcase name="branchPointsNeverUnlockOtherBranches()" classname="CampaignStarsTests" time="0.001"/>
+  <testcase name="[1] conveyor" classname="CampaignStarsTests" time="0.047"/>
+  <testcase name="[2] duct" classname="CampaignStarsTests" time="0.046"/>
+  <testcase name="legacyVersionOneChunkReconfirmsAAndPreservesBWorldAndBestScores()" classname="CampaignStarsTests" time="0.096"/>
+  <testcase name="aFormerLinkedStorageKeepsItsCoreBoundaryAfterDestructionAndSave()" classname="CampaignStarsTests" time="0.069"/>
+  <testcase name="coreProductionSupplyNeedsRealConsumedOutput()" classname="CampaignStarsTests" time="0.026"/>
+  <testcase name="emptyConduitsAndDryPumpsNeverCountAsUsefulFacilities()" classname="CampaignStarsTests" time="0.237"/>
+  <testcase name="oldEmbeddedLedgerIsReadWithoutAChunk()" classname="CampaignStarsTests" time="0.067"/>
+  <testcase name="priorVanillaCaptureGrantsOnlyOneHonestStar()" classname="CampaignStarsTests" time="0.0"/>
+  <testcase name="untaggedCustomRulesReceiveNoPermanentRewards()" classname="CampaignStarsTests" time="0.0"/>
+  <testcase name="massDriverActualPoweredShotPreservesItsSupplyChain()" classname="CampaignStarsTests" time="0.054"/>
+  <testcase name="[1] breach" classname="CampaignStarsTests" time="0.144"/>
+  <testcase name="[2] duo" classname="CampaignStarsTests" time="0.174"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

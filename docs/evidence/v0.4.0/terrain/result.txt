@@ -1,0 +1,5 @@
+mode=terrain-extraction-only
+baseVersion=0.3.5
+scenes=56
+logicTicks=0
+permanentStars=0

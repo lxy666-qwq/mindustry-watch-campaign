@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="power.ConsumeGeneratorTests" tests="19" skipped="0" failures="0" errors="0" timestamp="2026-10-13T15:45:07.637Z" hostname="LAPTOP-B3R6MC71" time="0.639">
+  <properties/>
+  <testcase name="efficiencyRemainsConstantWithinItemDuration_ItemsOnly()" classname="power.ConsumeGeneratorTests" time="0.013"/>
+  <testcase name="01-delta2.0" classname="power.ConsumeGeneratorTests" time="0.002"/>
+  <testcase name="02-delta2.0" classname="power.ConsumeGeneratorTests" time="0.0"/>
+  <testcase name="03-delta2.0" classname="power.ConsumeGeneratorTests" time="0.0"/>
+  <testcase name="04-delta2.0" classname="power.ConsumeGeneratorTests" time="0.0"/>
+  <testcase name="01-delta1.0" classname="power.ConsumeGeneratorTests" time="0.0"/>
+  <testcase name="02-delta1.0" classname="power.ConsumeGeneratorTests" time="0.0"/>
+  <testcase name="03-delta1.0" classname="power.ConsumeGeneratorTests" time="0.001"/>
+  <testcase name="04-delta1.0" classname="power.ConsumeGeneratorTests" time="0.0"/>
+  <testcase name="01-delta0.5" classname="power.ConsumeGeneratorTests" time="0.0"/>
+  <testcase name="02-delta0.5" classname="power.ConsumeGeneratorTests" time="0.0"/>
+  <testcase name="03-delta0.5" classname="power.ConsumeGeneratorTests" time="0.0"/>
+  <testcase name="04-delta0.5" classname="power.ConsumeGeneratorTests" time="0.001"/>
+  <testcase name="01" classname="power.ConsumeGeneratorTests" time="0.0"/>
+  <testcase name="02" classname="power.ConsumeGeneratorTests" time="0.0"/>
+  <testcase name="03" classname="power.ConsumeGeneratorTests" time="0.0"/>
+  <testcase name="04" classname="power.ConsumeGeneratorTests" time="0.0"/>
+  <testcase name="05" classname="power.ConsumeGeneratorTests" time="0.0"/>
+  <testcase name="06" classname="power.ConsumeGeneratorTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
