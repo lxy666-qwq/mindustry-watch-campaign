@@ -1,0 +1,5950 @@
+{
+  "baseRelease": "0.3.4",
+  "releaseFrozenFullScoreModes": 32,
+  "previousSupplementFullScoreModes": 34,
+  "fullScoreModes": 36,
+  "totalModes": 168,
+  "freezePoint": "Ruins NORMAL32-36/readback; Intersect NORMAL03-22/readback; Tide HEROIC43-54; Biomass NORMAL20-28; later attempts separate",
+  "files": [
+    {
+      "path": "tide/HEROIC-43/bandage-observations.csv",
+      "rawBytes": 10945,
+      "publicBytes": 11238
+    },
+    {
+      "path": "tide/HEROIC-43/console.txt",
+      "rawBytes": 28047,
+      "publicBytes": 28022
+    },
+    {
+      "path": "tide/HEROIC-43/core-damage.csv",
+      "rawBytes": 1465,
+      "publicBytes": 1497
+    },
+    {
+      "path": "tide/HEROIC-43/counter-building-damage.csv",
+      "rawBytes": 22757,
+      "publicBytes": 23101
+    },
+    {
+      "path": "tide/HEROIC-43/counter-result.txt",
+      "rawBytes": 8987,
+      "publicBytes": 8997
+    },
+    {
+      "path": "tide/HEROIC-43/deconstructed.csv",
+      "rawBytes": 58,
+      "publicBytes": 59
+    },
+    {
+      "path": "tide/HEROIC-43/destroyed.csv",
+      "rawBytes": 1201,
+      "publicBytes": 1247
+    },
+    {
+      "path": "tide/HEROIC-43/driver-source.java",
+      "rawBytes": 51331,
+      "publicBytes": 51321
+    },
+    {
+      "path": "tide/HEROIC-43/native-fuel-logistics.csv",
+      "rawBytes": 59359,
+      "publicBytes": 60374
+    },
+    {
+      "path": "tide/HEROIC-43/native-grid-configurations.csv",
+      "rawBytes": 183,
+      "publicBytes": 190
+    },
+    {
+      "path": "tide/HEROIC-43/native-plan-costs.txt",
+      "rawBytes": 135,
+      "publicBytes": 145
+    },
+    {
+      "path": "tide/HEROIC-43/native-starting-stock.txt",
+      "rawBytes": 349,
+      "publicBytes": 372
+    },
+    {
+      "path": "tide/HEROIC-43/result.txt",
+      "rawBytes": 1382,
+      "publicBytes": 1406
+    },
+    {
+      "path": "tide/HEROIC-43/segment-observations.csv",
+      "rawBytes": 15624,
+      "publicBytes": 15962
+    },
+    {
+      "path": "tide/HEROIC-43/strategy.txt",
+      "rawBytes": 399,
+      "publicBytes": 399
+    },
+    {
+      "path": "tide/HEROIC-43/tide-source.java",
+      "rawBytes": 30220,
+      "publicBytes": 30691
+    },
+    {
+      "path": "tide/HEROIC-43/trial.csv",
+      "rawBytes": 2294,
+      "publicBytes": 2321
+    },
+    {
+      "path": "tide/HEROIC-43/wall-observations.csv",
+      "rawBytes": 58,
+      "publicBytes": 59
+    },
+    {
+      "path": "tide/HEROIC-44/bandage-observations.csv",
+      "rawBytes": 88,
+      "publicBytes": 89
+    },
+    {
+      "path": "tide/HEROIC-44/console.txt",
+      "rawBytes": 659,
+      "publicBytes": 659
+    },
+    {
+      "path": "tide/HEROIC-44/core-damage.csv",
+      "rawBytes": 39,
+      "publicBytes": 40
+    },
+    {
+      "path": "tide/HEROIC-44/counter-building-damage.csv",
+      "rawBytes": 53,
+      "publicBytes": 54
+    },
+    {
+      "path": "tide/HEROIC-44/deconstructed.csv",
+      "rawBytes": 58,
+      "publicBytes": 59
+    },
+    {
+      "path": "tide/HEROIC-44/destroyed.csv",
+      "rawBytes": 21,
+      "publicBytes": 22
+    },
+    {
+      "path": "tide/HEROIC-44/driver-source.java",
+      "rawBytes": 51331,
+      "publicBytes": 51321
+    },
+    {
+      "path": "tide/HEROIC-44/native-fuel-logistics.csv",
+      "rawBytes": 78,
+      "publicBytes": 79
+    },
+    {
+      "path": "tide/HEROIC-44/native-grid-configurations.csv",
+      "rawBytes": 47,
+      "publicBytes": 48
+    },
+    {
+      "path": "tide/HEROIC-44/native-starting-stock.txt",
+      "rawBytes": 349,
+      "publicBytes": 372
+    },
+    {
+      "path": "tide/HEROIC-44/segment-observations.csv",
+      "rawBytes": 77,
+      "publicBytes": 78
+    },
+    {
+      "path": "tide/HEROIC-44/strategy.txt",
+      "rawBytes": 514,
+      "publicBytes": 514
+    },
+    {
+      "path": "tide/HEROIC-44/tide-source.java",
+      "rawBytes": 30970,
+      "publicBytes": 31449
+    },
+    {
+      "path": "tide/HEROIC-44/trial.csv",
+      "rawBytes": 161,
+      "publicBytes": 162
+    },
+    {
+      "path": "tide/HEROIC-44/wall-observations.csv",
+      "rawBytes": 58,
+      "publicBytes": 59
+    },
+    {
+      "path": "tide/HEROIC-45/bandage-observations.csv",
+      "rawBytes": 7212,
+      "publicBytes": 7392
+    },
+    {
+      "path": "tide/HEROIC-45/console.txt",
+      "rawBytes": 16630,
+      "publicBytes": 16605
+    },
+    {
+      "path": "tide/HEROIC-45/core-damage.csv",
+      "rawBytes": 2799,
+      "publicBytes": 2861
+    },
+    {
+      "path": "tide/HEROIC-45/counter-building-damage.csv",
+      "rawBytes": 10991,
+      "publicBytes": 11165
+    },
+    {
+      "path": "tide/HEROIC-45/counter-result.txt",
+      "rawBytes": 6417,
+      "publicBytes": 6427
+    },
+    {
+      "path": "tide/HEROIC-45/deconstructed.csv",
+      "rawBytes": 2411,
+      "publicBytes": 2452
+    },
+    {
+      "path": "tide/HEROIC-45/destroyed.csv",
+      "rawBytes": 599,
+      "publicBytes": 624
+    },
+    {
+      "path": "tide/HEROIC-45/driver-source.java",
+      "rawBytes": 51331,
+      "publicBytes": 51321
+    },
+    {
+      "path": "tide/HEROIC-45/native-fuel-logistics.csv",
+      "rawBytes": 18100,
+      "publicBytes": 18397
+    },
+    {
+      "path": "tide/HEROIC-45/native-grid-configurations.csv",
+      "rawBytes": 68,
+      "publicBytes": 70
+    },
+    {
+      "path": "tide/HEROIC-45/native-plan-costs.txt",
+      "rawBytes": 135,
+      "publicBytes": 145
+    },
+    {
+      "path": "tide/HEROIC-45/native-starting-stock.txt",
+      "rawBytes": 349,
+      "publicBytes": 372
+    },
+    {
+      "path": "tide/HEROIC-45/result.txt",
+      "rawBytes": 1377,
+      "publicBytes": 1401
+    },
+    {
+      "path": "tide/HEROIC-45/segment-observations.csv",
+      "rawBytes": 77,
+      "publicBytes": 78
+    },
+    {
+      "path": "tide/HEROIC-45/strategy.txt",
+      "rawBytes": 494,
+      "publicBytes": 494
+    },
+    {
+      "path": "tide/HEROIC-45/tide-source.java",
+      "rawBytes": 31094,
+      "publicBytes": 31575
+    },
+    {
+      "path": "tide/HEROIC-45/trial.csv",
+      "rawBytes": 1498,
+      "publicBytes": 1515
+    },
+    {
+      "path": "tide/HEROIC-45/wall-observations.csv",
+      "rawBytes": 58,
+      "publicBytes": 59
+    },
+    {
+      "path": "tide/HEROIC-46/bandage-observations.csv",
+      "rawBytes": 6749,
+      "publicBytes": 6930
+    },
+    {
+      "path": "tide/HEROIC-46/console.txt",
+      "rawBytes": 17465,
+      "publicBytes": 17440
+    },
+    {
+      "path": "tide/HEROIC-46/core-damage.csv",
+      "rawBytes": 4013,
+      "publicBytes": 4102
+    },
+    {
+      "path": "tide/HEROIC-46/counter-building-damage.csv",
+      "rawBytes": 7119,
+      "publicBytes": 7226
+    },
+    {
+      "path": "tide/HEROIC-46/counter-result.txt",
+      "rawBytes": 6798,
+      "publicBytes": 6808
+    },
+    {
+      "path": "tide/HEROIC-46/deconstructed.csv",
+      "rawBytes": 2411,
+      "publicBytes": 2452
+    },
+    {
+      "path": "tide/HEROIC-46/destroyed.csv",
+      "rawBytes": 352,
+      "publicBytes": 365
+    },
+    {
+      "path": "tide/HEROIC-46/driver-source.java",
+      "rawBytes": 51331,
+      "publicBytes": 51321
+    },
+    {
+      "path": "tide/HEROIC-46/native-fuel-logistics.csv",
+      "rawBytes": 17907,
+      "publicBytes": 18212
+    },
+    {
+      "path": "tide/HEROIC-46/native-grid-configurations.csv",
+      "rawBytes": 110,
+      "publicBytes": 114
+    },
+    {
+      "path": "tide/HEROIC-46/native-plan-costs.txt",
+      "rawBytes": 135,
+      "publicBytes": 145
+    },
+    {
+      "path": "tide/HEROIC-46/native-starting-stock.txt",
+      "rawBytes": 349,
+      "publicBytes": 372
+    },
+    {
+      "path": "tide/HEROIC-46/result.txt",
+      "rawBytes": 1372,
+      "publicBytes": 1396
+    },
+    {
+      "path": "tide/HEROIC-46/segment-observations.csv",
+      "rawBytes": 77,
+      "publicBytes": 78
+    },
+    {
+      "path": "tide/HEROIC-46/strategy.txt",
+      "rawBytes": 512,
+      "publicBytes": 512
+    },
+    {
+      "path": "tide/HEROIC-46/tide-source.java",
+      "rawBytes": 31215,
+      "publicBytes": 31697
+    },
+    {
+      "path": "tide/HEROIC-46/trial.csv",
+      "rawBytes": 1441,
+      "publicBytes": 1458
+    },
+    {
+      "path": "tide/HEROIC-46/wall-observations.csv",
+      "rawBytes": 58,
+      "publicBytes": 59
+    },
+    {
+      "path": "tide/HEROIC-47/bandage-observations.csv",
+      "rawBytes": 14229,
+      "publicBytes": 14577
+    },
+    {
+      "path": "tide/HEROIC-47/console.txt",
+      "rawBytes": 28966,
+      "publicBytes": 28936
+    },
+    {
+      "path": "tide/HEROIC-47/core-damage.csv",
+      "rawBytes": 175,
+      "publicBytes": 179
+    },
+    {
+      "path": "tide/HEROIC-47/counter-building-damage.csv",
+      "rawBytes": 23050,
+      "publicBytes": 23394
+    },
+    {
+      "path": "tide/HEROIC-47/counter-result.txt",
+      "rawBytes": 10724,
+      "publicBytes": 10752
+    },
+    {
+      "path": "tide/HEROIC-47/deconstructed.csv",
+      "rawBytes": 2411,
+      "publicBytes": 2452
+    },
+    {
+      "path": "tide/HEROIC-47/destroyed.csv",
+      "rawBytes": 613,
+      "publicBytes": 635
+    },
+    {
+      "path": "tide/HEROIC-47/driver-source.java",
+      "rawBytes": 51331,
+      "publicBytes": 51321
+    },
+    {
+      "path": "tide/HEROIC-47/end.msav",
+      "rawBytes": 14163,
+      "publicBytes": 14163
+    },
+    {
+      "path": "tide/HEROIC-47/native-fuel-logistics.csv",
+      "rawBytes": 90729,
+      "publicBytes": 92122
+    },
+    {
+      "path": "tide/HEROIC-47/native-grid-configurations.csv",
+      "rawBytes": 227,
+      "publicBytes": 236
+    },
+    {
+      "path": "tide/HEROIC-47/native-plan-costs.txt",
+      "rawBytes": 135,
+      "publicBytes": 145
+    },
+    {
+      "path": "tide/HEROIC-47/native-starting-stock.txt",
+      "rawBytes": 349,
+      "publicBytes": 372
+    },
+    {
+      "path": "tide/HEROIC-47/result.txt",
+      "rawBytes": 1249,
+      "publicBytes": 1272
+    },
+    {
+      "path": "tide/HEROIC-47/save-readback-post034-02.txt",
+      "rawBytes": 1035,
+      "publicBytes": 1030
+    },
+    {
+      "path": "tide/HEROIC-47/segment-observations.csv",
+      "rawBytes": 76734,
+      "publicBytes": 77982
+    },
+    {
+      "path": "tide/HEROIC-47/strategy.txt",
+      "rawBytes": 604,
+      "publicBytes": 604
+    },
+    {
+      "path": "tide/HEROIC-47/tide-source.java",
+      "rawBytes": 31262,
+      "publicBytes": 31744
+    },
+    {
+      "path": "tide/HEROIC-47/trial.csv",
+      "rawBytes": 2611,
+      "publicBytes": 2641
+    },
+    {
+      "path": "tide/HEROIC-47/wall-observations.csv",
+      "rawBytes": 58,
+      "publicBytes": 59
+    },
+    {
+      "path": "tide/HEROIC-48/bandage-observations.csv",
+      "rawBytes": 12305,
+      "publicBytes": 12611
+    },
+    {
+      "path": "tide/HEROIC-48/console.txt",
+      "rawBytes": 28056,
+      "publicBytes": 28031
+    },
+    {
+      "path": "tide/HEROIC-48/core-damage.csv",
+      "rawBytes": 1264,
+      "publicBytes": 1292
+    },
+    {
+      "path": "tide/HEROIC-48/counter-building-damage.csv",
+      "rawBytes": 22985,
+      "publicBytes": 23343
+    },
+    {
+      "path": "tide/HEROIC-48/counter-result.txt",
+      "rawBytes": 9500,
+      "publicBytes": 9510
+    },
+    {
+      "path": "tide/HEROIC-48/deconstructed.csv",
+      "rawBytes": 2411,
+      "publicBytes": 2452
+    },
+    {
+      "path": "tide/HEROIC-48/destroyed.csv",
+      "rawBytes": 1102,
+      "publicBytes": 1146
+    },
+    {
+      "path": "tide/HEROIC-48/driver-source.java",
+      "rawBytes": 51331,
+      "publicBytes": 51321
+    },
+    {
+      "path": "tide/HEROIC-48/native-fuel-logistics.csv",
+      "rawBytes": 77667,
+      "publicBytes": 78877
+    },
+    {
+      "path": "tide/HEROIC-48/native-grid-configurations.csv",
+      "rawBytes": 225,
+      "publicBytes": 234
+    },
+    {
+      "path": "tide/HEROIC-48/native-plan-costs.txt",
+      "rawBytes": 135,
+      "publicBytes": 145
+    },
+    {
+      "path": "tide/HEROIC-48/native-starting-stock.txt",
+      "rawBytes": 349,
+      "publicBytes": 372
+    },
+    {
+      "path": "tide/HEROIC-48/result.txt",
+      "rawBytes": 1369,
+      "publicBytes": 1393
+    },
+    {
+      "path": "tide/HEROIC-48/segment-observations.csv",
+      "rawBytes": 29440,
+      "publicBytes": 29999
+    },
+    {
+      "path": "tide/HEROIC-48/strategy.txt",
+      "rawBytes": 572,
+      "publicBytes": 572
+    },
+    {
+      "path": "tide/HEROIC-48/tide-source.java",
+      "rawBytes": 31278,
+      "publicBytes": 31760
+    },
+    {
+      "path": "tide/HEROIC-48/trial.csv",
+      "rawBytes": 2323,
+      "publicBytes": 2350
+    },
+    {
+      "path": "tide/HEROIC-48/wall-observations.csv",
+      "rawBytes": 58,
+      "publicBytes": 59
+    },
+    {
+      "path": "tide/HEROIC-49/bandage-observations.csv",
+      "rawBytes": 7231,
+      "publicBytes": 7415
+    },
+    {
+      "path": "tide/HEROIC-49/console.txt",
+      "rawBytes": 19142,
+      "publicBytes": 19117
+    },
+    {
+      "path": "tide/HEROIC-49/core-damage.csv",
+      "rawBytes": 2994,
+      "publicBytes": 3061
+    },
+    {
+      "path": "tide/HEROIC-49/counter-building-damage.csv",
+      "rawBytes": 6201,
+      "publicBytes": 6294
+    },
+    {
+      "path": "tide/HEROIC-49/counter-result.txt",
+      "rawBytes": 7542,
+      "publicBytes": 7552
+    },
+    {
+      "path": "tide/HEROIC-49/deconstructed.csv",
+      "rawBytes": 2411,
+      "publicBytes": 2452
+    },
+    {
+      "path": "tide/HEROIC-49/destroyed.csv",
+      "rawBytes": 277,
+      "publicBytes": 288
+    },
+    {
+      "path": "tide/HEROIC-49/driver-source.java",
+      "rawBytes": 51331,
+      "publicBytes": 51321
+    },
+    {
+      "path": "tide/HEROIC-49/native-fuel-logistics.csv",
+      "rawBytes": 32919,
+      "publicBytes": 33450
+    },
+    {
+      "path": "tide/HEROIC-49/native-grid-configurations.csv",
+      "rawBytes": 179,
+      "publicBytes": 186
+    },
+    {
+      "path": "tide/HEROIC-49/native-plan-costs.txt",
+      "rawBytes": 135,
+      "publicBytes": 145
+    },
+    {
+      "path": "tide/HEROIC-49/native-starting-stock.txt",
+      "rawBytes": 349,
+      "publicBytes": 372
+    },
+    {
+      "path": "tide/HEROIC-49/result.txt",
+      "rawBytes": 1382,
+      "publicBytes": 1406
+    },
+    {
+      "path": "tide/HEROIC-49/segment-observations.csv",
+      "rawBytes": 77,
+      "publicBytes": 78
+    },
+    {
+      "path": "tide/HEROIC-49/strategy.txt",
+      "rawBytes": 649,
+      "publicBytes": 649
+    },
+    {
+      "path": "tide/HEROIC-49/tide-source.java",
+      "rawBytes": 31550,
+      "publicBytes": 32039
+    },
+    {
+      "path": "tide/HEROIC-49/trial.csv",
+      "rawBytes": 1473,
+      "publicBytes": 1490
+    },
+    {
+      "path": "tide/HEROIC-49/wall-observations.csv",
+      "rawBytes": 58,
+      "publicBytes": 59
+    },
+    {
+      "path": "tide/HEROIC-50/bandage-observations.csv",
+      "rawBytes": 10811,
+      "publicBytes": 11075
+    },
+    {
+      "path": "tide/HEROIC-50/console.txt",
+      "rawBytes": 32466,
+      "publicBytes": 32436
+    },
+    {
+      "path": "tide/HEROIC-50/core-damage.csv",
+      "rawBytes": 3257,
+      "publicBytes": 3329
+    },
+    {
+      "path": "tide/HEROIC-50/counter-building-damage.csv",
+      "rawBytes": 23768,
+      "publicBytes": 24126
+    },
+    {
+      "path": "tide/HEROIC-50/counter-result.txt",
+      "rawBytes": 10722,
+      "publicBytes": 10750
+    },
+    {
+      "path": "tide/HEROIC-50/deconstructed.csv",
+      "rawBytes": 2411,
+      "publicBytes": 2452
+    },
+    {
+      "path": "tide/HEROIC-50/destroyed.csv",
+      "rawBytes": 1410,
+      "publicBytes": 1464
+    },
+    {
+      "path": "tide/HEROIC-50/driver-source.java",
+      "rawBytes": 51351,
+      "publicBytes": 51341
+    },
+    {
+      "path": "tide/HEROIC-50/end.msav",
+      "rawBytes": 14234,
+      "publicBytes": 14234
+    },
+    {
+      "path": "tide/HEROIC-50/native-fuel-logistics.csv",
+      "rawBytes": 89259,
+      "publicBytes": 90622
+    },
+    {
+      "path": "tide/HEROIC-50/native-grid-configurations.csv",
+      "rawBytes": 417,
+      "publicBytes": 434
+    },
+    {
+      "path": "tide/HEROIC-50/native-plan-costs.txt",
+      "rawBytes": 135,
+      "publicBytes": 145
+    },
+    {
+      "path": "tide/HEROIC-50/native-starting-stock.txt",
+      "rawBytes": 349,
+      "publicBytes": 372
+    },
+    {
+      "path": "tide/HEROIC-50/result.txt",
+      "rawBytes": 1376,
+      "publicBytes": 1400
+    },
+    {
+      "path": "tide/HEROIC-50/save-readback-post034-02.txt",
+      "rawBytes": 1033,
+      "publicBytes": 1028
+    },
+    {
+      "path": "tide/HEROIC-50/segment-observations.csv",
+      "rawBytes": 67025,
+      "publicBytes": 68075
+    },
+    {
+      "path": "tide/HEROIC-50/strategy.txt",
+      "rawBytes": 583,
+      "publicBytes": 583
+    },
+    {
+      "path": "tide/HEROIC-50/tide-source.java",
+      "rawBytes": 31682,
+      "publicBytes": 32172
+    },
+    {
+      "path": "tide/HEROIC-50/trial.csv",
+      "rawBytes": 2619,
+      "publicBytes": 2649
+    },
+    {
+      "path": "tide/HEROIC-50/wall-observations.csv",
+      "rawBytes": 58,
+      "publicBytes": 59
+    },
+    {
+      "path": "tide/HEROIC-51/bandage-observations.csv",
+      "rawBytes": 88,
+      "publicBytes": 89
+    },
+    {
+      "path": "tide/HEROIC-51/console.txt",
+      "rawBytes": 663,
+      "publicBytes": 663
+    },
+    {
+      "path": "tide/HEROIC-51/core-damage.csv",
+      "rawBytes": 39,
+      "publicBytes": 40
+    },
+    {
+      "path": "tide/HEROIC-51/counter-building-damage.csv",
+      "rawBytes": 53,
+      "publicBytes": 54
+    },
+    {
+      "path": "tide/HEROIC-51/deconstructed.csv",
+      "rawBytes": 58,
+      "publicBytes": 59
+    },
+    {
+      "path": "tide/HEROIC-51/destroyed.csv",
+      "rawBytes": 21,
+      "publicBytes": 22
+    },
+    {
+      "path": "tide/HEROIC-51/driver-source.java",
+      "rawBytes": 51351,
+      "publicBytes": 51341
+    },
+    {
+      "path": "tide/HEROIC-51/native-fuel-logistics.csv",
+      "rawBytes": 78,
+      "publicBytes": 79
+    },
+    {
+      "path": "tide/HEROIC-51/native-grid-configurations.csv",
+      "rawBytes": 47,
+      "publicBytes": 48
+    },
+    {
+      "path": "tide/HEROIC-51/native-starting-stock.txt",
+      "rawBytes": 349,
+      "publicBytes": 372
+    },
+    {
+      "path": "tide/HEROIC-51/segment-observations.csv",
+      "rawBytes": 77,
+      "publicBytes": 78
+    },
+    {
+      "path": "tide/HEROIC-51/strategy.txt",
+      "rawBytes": 677,
+      "publicBytes": 677
+    },
+    {
+      "path": "tide/HEROIC-51/tide-source.java",
+      "rawBytes": 31894,
+      "publicBytes": 32385
+    },
+    {
+      "path": "tide/HEROIC-51/trial.csv",
+      "rawBytes": 161,
+      "publicBytes": 162
+    },
+    {
+      "path": "tide/HEROIC-51/wall-observations.csv",
+      "rawBytes": 58,
+      "publicBytes": 59
+    },
+    {
+      "path": "tide/HEROIC-52/bandage-observations.csv",
+      "rawBytes": 88,
+      "publicBytes": 89
+    },
+    {
+      "path": "tide/HEROIC-52/console.txt",
+      "rawBytes": 663,
+      "publicBytes": 663
+    },
+    {
+      "path": "tide/HEROIC-52/core-damage.csv",
+      "rawBytes": 39,
+      "publicBytes": 40
+    },
+    {
+      "path": "tide/HEROIC-52/counter-building-damage.csv",
+      "rawBytes": 53,
+      "publicBytes": 54
+    },
+    {
+      "path": "tide/HEROIC-52/deconstructed.csv",
+      "rawBytes": 58,
+      "publicBytes": 59
+    },
+    {
+      "path": "tide/HEROIC-52/destroyed.csv",
+      "rawBytes": 21,
+      "publicBytes": 22
+    },
+    {
+      "path": "tide/HEROIC-52/driver-source.java",
+      "rawBytes": 51351,
+      "publicBytes": 51341
+    },
+    {
+      "path": "tide/HEROIC-52/native-fuel-logistics.csv",
+      "rawBytes": 78,
+      "publicBytes": 79
+    },
+    {
+      "path": "tide/HEROIC-52/native-grid-configurations.csv",
+      "rawBytes": 47,
+      "publicBytes": 48
+    },
+    {
+      "path": "tide/HEROIC-52/native-starting-stock.txt",
+      "rawBytes": 349,
+      "publicBytes": 372
+    },
+    {
+      "path": "tide/HEROIC-52/segment-observations.csv",
+      "rawBytes": 77,
+      "publicBytes": 78
+    },
+    {
+      "path": "tide/HEROIC-52/strategy.txt",
+      "rawBytes": 477,
+      "publicBytes": 477
+    },
+    {
+      "path": "tide/HEROIC-52/tide-source.java",
+      "rawBytes": 31894,
+      "publicBytes": 32385
+    },
+    {
+      "path": "tide/HEROIC-52/trial.csv",
+      "rawBytes": 161,
+      "publicBytes": 162
+    },
+    {
+      "path": "tide/HEROIC-52/wall-observations.csv",
+      "rawBytes": 58,
+      "publicBytes": 59
+    },
+    {
+      "path": "tide/HEROIC-53/bandage-observations.csv",
+      "rawBytes": 14603,
+      "publicBytes": 14958
+    },
+    {
+      "path": "tide/HEROIC-53/console.txt",
+      "rawBytes": 31256,
+      "publicBytes": 31226
+    },
+    {
+      "path": "tide/HEROIC-53/core-damage.csv",
+      "rawBytes": 39,
+      "publicBytes": 40
+    },
+    {
+      "path": "tide/HEROIC-53/counter-building-damage.csv",
+      "rawBytes": 28531,
+      "publicBytes": 28958
+    },
+    {
+      "path": "tide/HEROIC-53/counter-result.txt",
+      "rawBytes": 10814,
+      "publicBytes": 10842
+    },
+    {
+      "path": "tide/HEROIC-53/deconstructed.csv",
+      "rawBytes": 2411,
+      "publicBytes": 2452
+    },
+    {
+      "path": "tide/HEROIC-53/destroyed.csv",
+      "rawBytes": 669,
+      "publicBytes": 694
+    },
+    {
+      "path": "tide/HEROIC-53/driver-source.java",
+      "rawBytes": 51351,
+      "publicBytes": 51341
+    },
+    {
+      "path": "tide/HEROIC-53/end.msav",
+      "rawBytes": 14312,
+      "publicBytes": 14312
+    },
+    {
+      "path": "tide/HEROIC-53/native-fuel-logistics.csv",
+      "rawBytes": 88906,
+      "publicBytes": 90266
+    },
+    {
+      "path": "tide/HEROIC-53/native-grid-configurations.csv",
+      "rawBytes": 203,
+      "publicBytes": 211
+    },
+    {
+      "path": "tide/HEROIC-53/native-plan-costs.txt",
+      "rawBytes": 135,
+      "publicBytes": 145
+    },
+    {
+      "path": "tide/HEROIC-53/native-starting-stock.txt",
+      "rawBytes": 349,
+      "publicBytes": 372
+    },
+    {
+      "path": "tide/HEROIC-53/result.txt",
+      "rawBytes": 1362,
+      "publicBytes": 1386
+    },
+    {
+      "path": "tide/HEROIC-53/save-readback-post034-02.txt",
+      "rawBytes": 1027,
+      "publicBytes": 1022
+    },
+    {
+      "path": "tide/HEROIC-53/segment-observations.csv",
+      "rawBytes": 44349,
+      "publicBytes": 45126
+    },
+    {
+      "path": "tide/HEROIC-53/strategy.txt",
+      "rawBytes": 415,
+      "publicBytes": 415
+    },
+    {
+      "path": "tide/HEROIC-53/tide-source.java",
+      "rawBytes": 31963,
+      "publicBytes": 32455
+    },
+    {
+      "path": "tide/HEROIC-53/trial.csv",
+      "rawBytes": 2617,
+      "publicBytes": 2647
+    },
+    {
+      "path": "tide/HEROIC-53/wall-observations.csv",
+      "rawBytes": 58,
+      "publicBytes": 59
+    },
+    {
+      "path": "tide/HEROIC-54/bandage-observations.csv",
+      "rawBytes": 13851,
+      "publicBytes": 14190
+    },
+    {
+      "path": "tide/HEROIC-54/console.txt",
+      "rawBytes": 32140,
+      "publicBytes": 32110
+    },
+    {
+      "path": "tide/HEROIC-54/core-damage.csv",
+      "rawBytes": 908,
+      "publicBytes": 928
+    },
+    {
+      "path": "tide/HEROIC-54/counter-building-damage.csv",
+      "rawBytes": 27678,
+      "publicBytes": 28094
+    },
+    {
+      "path": "tide/HEROIC-54/counter-result.txt",
+      "rawBytes": 10545,
+      "publicBytes": 10573
+    },
+    {
+      "path": "tide/HEROIC-54/deconstructed.csv",
+      "rawBytes": 2411,
+      "publicBytes": 2452
+    },
+    {
+      "path": "tide/HEROIC-54/destroyed.csv",
+      "rawBytes": 913,
+      "publicBytes": 947
+    },
+    {
+      "path": "tide/HEROIC-54/driver-source.java",
+      "rawBytes": 51351,
+      "publicBytes": 51341
+    },
+    {
+      "path": "tide/HEROIC-54/end.msav",
+      "rawBytes": 14294,
+      "publicBytes": 14294
+    },
+    {
+      "path": "tide/HEROIC-54/native-fuel-logistics.csv",
+      "rawBytes": 87225,
+      "publicBytes": 88627
+    },
+    {
+      "path": "tide/HEROIC-54/native-grid-configurations.csv",
+      "rawBytes": 249,
+      "publicBytes": 259
+    },
+    {
+      "path": "tide/HEROIC-54/native-plan-costs.txt",
+      "rawBytes": 135,
+      "publicBytes": 145
+    },
+    {
+      "path": "tide/HEROIC-54/native-starting-stock.txt",
+      "rawBytes": 349,
+      "publicBytes": 372
+    },
+    {
+      "path": "tide/HEROIC-54/result.txt",
+      "rawBytes": 1381,
+      "publicBytes": 1405
+    },
+    {
+      "path": "tide/HEROIC-54/save-readback-post034-02.txt",
+      "rawBytes": 1032,
+      "publicBytes": 1027
+    },
+    {
+      "path": "tide/HEROIC-54/segment-observations.csv",
+      "rawBytes": 41838,
+      "publicBytes": 42580
+    },
+    {
+      "path": "tide/HEROIC-54/strategy.txt",
+      "rawBytes": 589,
+      "publicBytes": 589
+    },
+    {
+      "path": "tide/HEROIC-54/tide-source.java",
+      "rawBytes": 32237,
+      "publicBytes": 32732
+    },
+    {
+      "path": "tide/HEROIC-54/trial.csv",
+      "rawBytes": 2578,
+      "publicBytes": 2608
+    },
+    {
+      "path": "tide/HEROIC-54/wall-observations.csv",
+      "rawBytes": 58,
+      "publicBytes": 59
+    },
+    {
+      "path": "tide/INDEX.md",
+      "rawBytes": 4722,
+      "publicBytes": 4765
+    },
+    {
+      "path": "tide/LegalEarnedBranchRead.java",
+      "rawBytes": 3547,
+      "publicBytes": 3603
+    },
+    {
+      "path": "intersect/normal03-19/INDEX.md",
+      "rawBytes": 9333,
+      "publicBytes": 9328
+    },
+    {
+      "path": "intersect/normal03-19/native-unitcap-contract.txt",
+      "rawBytes": 544,
+      "publicBytes": 544
+    },
+    {
+      "path": "intersect/normal03-19/normal-03-v034/actions.txt",
+      "rawBytes": 157,
+      "publicBytes": 158
+    },
+    {
+      "path": "intersect/normal03-19/normal-03-v034/combat.csv",
+      "rawBytes": 36,
+      "publicBytes": 38
+    },
+    {
+      "path": "intersect/normal03-19/normal-03-v034/console.txt",
+      "rawBytes": 418,
+      "publicBytes": 418
+    },
+    {
+      "path": "intersect/normal03-19/normal-03-v034/core-health.csv",
+      "rawBytes": 38,
+      "publicBytes": 40
+    },
+    {
+      "path": "intersect/normal03-19/normal-03-v034/diagnostics.txt",
+      "rawBytes": 1074,
+      "publicBytes": 1086
+    },
+    {
+      "path": "intersect/normal03-19/normal-03-v034/driver-source.java",
+      "rawBytes": 42165,
+      "publicBytes": 42140
+    },
+    {
+      "path": "intersect/normal03-19/normal-03-v034/enemy-map.txt",
+      "rawBytes": 2280,
+      "publicBytes": 2396
+    },
+    {
+      "path": "intersect/normal03-19/normal-03-v034/failure.txt",
+      "rawBytes": 82,
+      "publicBytes": 83
+    },
+    {
+      "path": "intersect/normal03-19/normal-03-v034/fresh-process-readback/console.txt",
+      "rawBytes": 611,
+      "publicBytes": 601
+    },
+    {
+      "path": "intersect/normal03-19/normal-03-v034/fresh-process-readback/driver-source.java",
+      "rawBytes": 4900,
+      "publicBytes": 4919
+    },
+    {
+      "path": "intersect/normal03-19/normal-03-v034/fresh-process-readback/loaded-tags.json",
+      "rawBytes": 3056,
+      "publicBytes": 3056
+    },
+    {
+      "path": "intersect/normal03-19/normal-03-v034/fresh-process-readback/loaded-watch-version.txt",
+      "rawBytes": 7,
+      "publicBytes": 7
+    },
+    {
+      "path": "intersect/normal03-19/normal-03-v034/fresh-process-readback/loaded-world.json",
+      "rawBytes": 21445,
+      "publicBytes": 21445
+    },
+    {
+      "path": "intersect/normal03-19/normal-03-v034/fresh-process-readback/result.txt",
+      "rawBytes": 588,
+      "publicBytes": 601
+    },
+    {
+      "path": "intersect/normal03-19/normal-03-v034/fresh-process-readback/state-audit-source.java",
+      "rawBytes": 3341,
+      "publicBytes": 3341
+    },
+    {
+      "path": "intersect/normal03-19/normal-03-v034/fresh-process-readback/world-differences.txt",
+      "rawBytes": 0,
+      "publicBytes": 0
+    },
+    {
+      "path": "intersect/normal03-19/normal-03-v034/inherited-aegis.txt",
+      "rawBytes": 56,
+      "publicBytes": 61
+    },
+    {
+      "path": "intersect/normal03-19/normal-03-v034/inherited-onset.txt",
+      "rawBytes": 29,
+      "publicBytes": 32
+    },
+    {
+      "path": "intersect/normal03-19/normal-03-v034/loaded-watch-version.txt",
+      "rawBytes": 7,
+      "publicBytes": 7
+    },
+    {
+      "path": "intersect/normal03-19/normal-03-v034/map.txt",
+      "rawBytes": 1692,
+      "publicBytes": 1727
+    },
+    {
+      "path": "intersect/normal03-19/normal-03-v034/mission-description.txt",
+      "rawBytes": 139,
+      "publicBytes": 140
+    },
+    {
+      "path": "intersect/normal03-19/normal-03-v034/mission-limits.txt",
+      "rawBytes": 110,
+      "publicBytes": 113
+    },
+    {
+      "path": "intersect/normal03-19/normal-03-v034/objectives.json",
+      "rawBytes": 2,
+      "publicBytes": 2
+    },
+    {
+      "path": "intersect/normal03-19/normal-03-v034/partial.msav",
+      "rawBytes": 44878,
+      "publicBytes": 44878
+    },
+    {
+      "path": "intersect/normal03-19/normal-03-v034/processor-256-307.mlog",
+      "rawBytes": 0,
+      "publicBytes": 0
+    },
+    {
+      "path": "intersect/normal03-19/normal-03-v034/processor-257-307.mlog",
+      "rawBytes": 161,
+      "publicBytes": 167
+    },
+    {
+      "path": "intersect/normal03-19/normal-03-v034/processor-258-307.mlog",
+      "rawBytes": 0,
+      "publicBytes": 0
+    },
+    {
+      "path": "intersect/normal03-19/normal-03-v034/result.txt",
+      "rawBytes": 529,
+      "publicBytes": 551
+    },
+    {
+      "path": "intersect/normal03-19/normal-03-v034/runtime.txt",
+      "rawBytes": 252,
+      "publicBytes": 247
+    },
+    {
+      "path": "intersect/normal03-19/normal-03-v034/scores-before.txt",
+      "rawBytes": 102,
+      "publicBytes": 101
+    },
+    {
+      "path": "intersect/normal03-19/normal-03-v034/state-audit-source.java",
+      "rawBytes": 3341,
+      "publicBytes": 3341
+    },
+    {
+      "path": "intersect/normal03-19/normal-03-v034/task-status.csv",
+      "rawBytes": 96,
+      "publicBytes": 98
+    },
+    {
+      "path": "intersect/normal03-19/normal-03-v034/terrain.txt",
+      "rawBytes": 1348,
+      "publicBytes": 1410
+    },
+    {
+      "path": "intersect/normal03-19/normal-03-v034/trial.csv",
+      "rawBytes": 209,
+      "publicBytes": 212
+    },
+    {
+      "path": "intersect/normal03-19/normal-04-v034/actions.txt",
+      "rawBytes": 5425,
+      "publicBytes": 5615
+    },
+    {
+      "path": "intersect/normal03-19/normal-04-v034/combat.csv",
+      "rawBytes": 36,
+      "publicBytes": 38
+    },
+    {
+      "path": "intersect/normal03-19/normal-04-v034/console.txt",
+      "rawBytes": 691,
+      "publicBytes": 691
+    },
+    {
+      "path": "intersect/normal03-19/normal-04-v034/core-health.csv",
+      "rawBytes": 38,
+      "publicBytes": 40
+    },
+    {
+      "path": "intersect/normal03-19/normal-04-v034/diagnostics.txt",
+      "rawBytes": 1192,
+      "publicBytes": 1204
+    },
+    {
+      "path": "intersect/normal03-19/normal-04-v034/driver-source.java",
+      "rawBytes": 42167,
+      "publicBytes": 42142
+    },
+    {
+      "path": "intersect/normal03-19/normal-04-v034/enemy-map.txt",
+      "rawBytes": 2280,
+      "publicBytes": 2396
+    },
+    {
+      "path": "intersect/normal03-19/normal-04-v034/failure.txt",
+      "rawBytes": 293,
+      "publicBytes": 294
+    },
+    {
+      "path": "intersect/normal03-19/normal-04-v034/fresh-process-readback/console.txt",
+      "rawBytes": 611,
+      "publicBytes": 601
+    },
+    {
+      "path": "intersect/normal03-19/normal-04-v034/fresh-process-readback/driver-source.java",
+      "rawBytes": 4900,
+      "publicBytes": 4919
+    },
+    {
+      "path": "intersect/normal03-19/normal-04-v034/fresh-process-readback/loaded-tags.json",
+      "rawBytes": 3056,
+      "publicBytes": 3056
+    },
+    {
+      "path": "intersect/normal03-19/normal-04-v034/fresh-process-readback/loaded-watch-version.txt",
+      "rawBytes": 7,
+      "publicBytes": 7
+    },
+    {
+      "path": "intersect/normal03-19/normal-04-v034/fresh-process-readback/loaded-world.json",
+      "rawBytes": 21445,
+      "publicBytes": 21445
+    },
+    {
+      "path": "intersect/normal03-19/normal-04-v034/fresh-process-readback/result.txt",
+      "rawBytes": 588,
+      "publicBytes": 601
+    },
+    {
+      "path": "intersect/normal03-19/normal-04-v034/fresh-process-readback/state-audit-source.java",
+      "rawBytes": 3341,
+      "publicBytes": 3341
+    },
+    {
+      "path": "intersect/normal03-19/normal-04-v034/fresh-process-readback/world-differences.txt",
+      "rawBytes": 0,
+      "publicBytes": 0
+    },
+    {
+      "path": "intersect/normal03-19/normal-04-v034/inherited-aegis.txt",
+      "rawBytes": 56,
+      "publicBytes": 61
+    },
+    {
+      "path": "intersect/normal03-19/normal-04-v034/inherited-onset.txt",
+      "rawBytes": 29,
+      "publicBytes": 32
+    },
+    {
+      "path": "intersect/normal03-19/normal-04-v034/loaded-watch-version.txt",
+      "rawBytes": 7,
+      "publicBytes": 7
+    },
+    {
+      "path": "intersect/normal03-19/normal-04-v034/map.txt",
+      "rawBytes": 1692,
+      "publicBytes": 1727
+    },
+    {
+      "path": "intersect/normal03-19/normal-04-v034/mission-description.txt",
+      "rawBytes": 139,
+      "publicBytes": 140
+    },
+    {
+      "path": "intersect/normal03-19/normal-04-v034/mission-limits.txt",
+      "rawBytes": 110,
+      "publicBytes": 113
+    },
+    {
+      "path": "intersect/normal03-19/normal-04-v034/objectives.json",
+      "rawBytes": 2,
+      "publicBytes": 2
+    },
+    {
+      "path": "intersect/normal03-19/normal-04-v034/partial.msav",
+      "rawBytes": 44921,
+      "publicBytes": 44921
+    },
+    {
+      "path": "intersect/normal03-19/normal-04-v034/processor-256-307.mlog",
+      "rawBytes": 0,
+      "publicBytes": 0
+    },
+    {
+      "path": "intersect/normal03-19/normal-04-v034/processor-257-307.mlog",
+      "rawBytes": 161,
+      "publicBytes": 167
+    },
+    {
+      "path": "intersect/normal03-19/normal-04-v034/processor-258-307.mlog",
+      "rawBytes": 0,
+      "publicBytes": 0
+    },
+    {
+      "path": "intersect/normal03-19/normal-04-v034/result.txt",
+      "rawBytes": 860,
+      "publicBytes": 882
+    },
+    {
+      "path": "intersect/normal03-19/normal-04-v034/runtime.txt",
+      "rawBytes": 252,
+      "publicBytes": 247
+    },
+    {
+      "path": "intersect/normal03-19/normal-04-v034/scores-before.txt",
+      "rawBytes": 102,
+      "publicBytes": 101
+    },
+    {
+      "path": "intersect/normal03-19/normal-04-v034/state-audit-source.java",
+      "rawBytes": 3341,
+      "publicBytes": 3341
+    },
+    {
+      "path": "intersect/normal03-19/normal-04-v034/task-status.csv",
+      "rawBytes": 96,
+      "publicBytes": 98
+    },
+    {
+      "path": "intersect/normal03-19/normal-04-v034/terrain.txt",
+      "rawBytes": 1348,
+      "publicBytes": 1410
+    },
+    {
+      "path": "intersect/normal03-19/normal-04-v034/trial.csv",
+      "rawBytes": 208,
+      "publicBytes": 211
+    },
+    {
+      "path": "intersect/normal03-19/normal-05-v034/actions.txt",
+      "rawBytes": 3982,
+      "publicBytes": 4136
+    },
+    {
+      "path": "intersect/normal03-19/normal-05-v034/combat.csv",
+      "rawBytes": 36,
+      "publicBytes": 38
+    },
+    {
+      "path": "intersect/normal03-19/normal-05-v034/console.txt",
+      "rawBytes": 745,
+      "publicBytes": 745
+    },
+    {
+      "path": "intersect/normal03-19/normal-05-v034/core-health.csv",
+      "rawBytes": 38,
+      "publicBytes": 40
+    },
+    {
+      "path": "intersect/normal03-19/normal-05-v034/diagnostics.txt",
+      "rawBytes": 1192,
+      "publicBytes": 1204
+    },
+    {
+      "path": "intersect/normal03-19/normal-05-v034/driver-source.java",
+      "rawBytes": 43131,
+      "publicBytes": 43106
+    },
+    {
+      "path": "intersect/normal03-19/normal-05-v034/enemy-map.txt",
+      "rawBytes": 2280,
+      "publicBytes": 2396
+    },
+    {
+      "path": "intersect/normal03-19/normal-05-v034/failure.txt",
+      "rawBytes": 288,
+      "publicBytes": 289
+    },
+    {
+      "path": "intersect/normal03-19/normal-05-v034/fresh-process-readback/console.txt",
+      "rawBytes": 611,
+      "publicBytes": 601
+    },
+    {
+      "path": "intersect/normal03-19/normal-05-v034/fresh-process-readback/driver-source.java",
+      "rawBytes": 4900,
+      "publicBytes": 4919
+    },
+    {
+      "path": "intersect/normal03-19/normal-05-v034/fresh-process-readback/loaded-tags.json",
+      "rawBytes": 3056,
+      "publicBytes": 3056
+    },
+    {
+      "path": "intersect/normal03-19/normal-05-v034/fresh-process-readback/loaded-watch-version.txt",
+      "rawBytes": 7,
+      "publicBytes": 7
+    },
+    {
+      "path": "intersect/normal03-19/normal-05-v034/fresh-process-readback/loaded-world.json",
+      "rawBytes": 21445,
+      "publicBytes": 21445
+    },
+    {
+      "path": "intersect/normal03-19/normal-05-v034/fresh-process-readback/result.txt",
+      "rawBytes": 588,
+      "publicBytes": 601
+    },
+    {
+      "path": "intersect/normal03-19/normal-05-v034/fresh-process-readback/state-audit-source.java",
+      "rawBytes": 3341,
+      "publicBytes": 3341
+    },
+    {
+      "path": "intersect/normal03-19/normal-05-v034/fresh-process-readback/world-differences.txt",
+      "rawBytes": 0,
+      "publicBytes": 0
+    },
+    {
+      "path": "intersect/normal03-19/normal-05-v034/inherited-aegis.txt",
+      "rawBytes": 56,
+      "publicBytes": 61
+    },
+    {
+      "path": "intersect/normal03-19/normal-05-v034/inherited-onset.txt",
+      "rawBytes": 29,
+      "publicBytes": 32
+    },
+    {
+      "path": "intersect/normal03-19/normal-05-v034/loaded-watch-version.txt",
+      "rawBytes": 7,
+      "publicBytes": 7
+    },
+    {
+      "path": "intersect/normal03-19/normal-05-v034/map.txt",
+      "rawBytes": 1692,
+      "publicBytes": 1727
+    },
+    {
+      "path": "intersect/normal03-19/normal-05-v034/mission-description.txt",
+      "rawBytes": 139,
+      "publicBytes": 140
+    },
+    {
+      "path": "intersect/normal03-19/normal-05-v034/mission-limits.txt",
+      "rawBytes": 110,
+      "publicBytes": 113
+    },
+    {
+      "path": "intersect/normal03-19/normal-05-v034/objectives.json",
+      "rawBytes": 2,
+      "publicBytes": 2
+    },
+    {
+      "path": "intersect/normal03-19/normal-05-v034/partial.msav",
+      "rawBytes": 44887,
+      "publicBytes": 44887
+    },
+    {
+      "path": "intersect/normal03-19/normal-05-v034/processor-256-307.mlog",
+      "rawBytes": 0,
+      "publicBytes": 0
+    },
+    {
+      "path": "intersect/normal03-19/normal-05-v034/processor-257-307.mlog",
+      "rawBytes": 161,
+      "publicBytes": 167
+    },
+    {
+      "path": "intersect/normal03-19/normal-05-v034/processor-258-307.mlog",
+      "rawBytes": 0,
+      "publicBytes": 0
+    },
+    {
+      "path": "intersect/normal03-19/normal-05-v034/result.txt",
+      "rawBytes": 855,
+      "publicBytes": 877
+    },
+    {
+      "path": "intersect/normal03-19/normal-05-v034/runtime.txt",
+      "rawBytes": 252,
+      "publicBytes": 247
+    },
+    {
+      "path": "intersect/normal03-19/normal-05-v034/scores-before.txt",
+      "rawBytes": 102,
+      "publicBytes": 101
+    },
+    {
+      "path": "intersect/normal03-19/normal-05-v034/state-audit-source.java",
+      "rawBytes": 3341,
+      "publicBytes": 3341
+    },
+    {
+      "path": "intersect/normal03-19/normal-05-v034/task-status.csv",
+      "rawBytes": 96,
+      "publicBytes": 98
+    },
+    {
+      "path": "intersect/normal03-19/normal-05-v034/terrain.txt",
+      "rawBytes": 1348,
+      "publicBytes": 1410
+    },
+    {
+      "path": "intersect/normal03-19/normal-05-v034/trial.csv",
+      "rawBytes": 210,
+      "publicBytes": 213
+    },
+    {
+      "path": "intersect/normal03-19/normal-06-v034/actions.txt",
+      "rawBytes": 4011,
+      "publicBytes": 4166
+    },
+    {
+      "path": "intersect/normal03-19/normal-06-v034/combat.csv",
+      "rawBytes": 36,
+      "publicBytes": 38
+    },
+    {
+      "path": "intersect/normal03-19/normal-06-v034/console.txt",
+      "rawBytes": 737,
+      "publicBytes": 737
+    },
+    {
+      "path": "intersect/normal03-19/normal-06-v034/core-health.csv",
+      "rawBytes": 38,
+      "publicBytes": 40
+    },
+    {
+      "path": "intersect/normal03-19/normal-06-v034/diagnostics.txt",
+      "rawBytes": 1192,
+      "publicBytes": 1204
+    },
+    {
+      "path": "intersect/normal03-19/normal-06-v034/driver-source.java",
+      "rawBytes": 43132,
+      "publicBytes": 43107
+    },
+    {
+      "path": "intersect/normal03-19/normal-06-v034/enemy-map.txt",
+      "rawBytes": 2280,
+      "publicBytes": 2396
+    },
+    {
+      "path": "intersect/normal03-19/normal-06-v034/failure.txt",
+      "rawBytes": 288,
+      "publicBytes": 289
+    },
+    {
+      "path": "intersect/normal03-19/normal-06-v034/fresh-process-readback/console.txt",
+      "rawBytes": 611,
+      "publicBytes": 601
+    },
+    {
+      "path": "intersect/normal03-19/normal-06-v034/fresh-process-readback/driver-source.java",
+      "rawBytes": 4900,
+      "publicBytes": 4919
+    },
+    {
+      "path": "intersect/normal03-19/normal-06-v034/fresh-process-readback/loaded-tags.json",
+      "rawBytes": 3056,
+      "publicBytes": 3056
+    },
+    {
+      "path": "intersect/normal03-19/normal-06-v034/fresh-process-readback/loaded-watch-version.txt",
+      "rawBytes": 7,
+      "publicBytes": 7
+    },
+    {
+      "path": "intersect/normal03-19/normal-06-v034/fresh-process-readback/loaded-world.json",
+      "rawBytes": 21445,
+      "publicBytes": 21445
+    },
+    {
+      "path": "intersect/normal03-19/normal-06-v034/fresh-process-readback/result.txt",
+      "rawBytes": 588,
+      "publicBytes": 601
+    },
+    {
+      "path": "intersect/normal03-19/normal-06-v034/fresh-process-readback/state-audit-source.java",
+      "rawBytes": 3341,
+      "publicBytes": 3341
+    },
+    {
+      "path": "intersect/normal03-19/normal-06-v034/fresh-process-readback/world-differences.txt",
+      "rawBytes": 0,
+      "publicBytes": 0
+    },
+    {
+      "path": "intersect/normal03-19/normal-06-v034/inherited-aegis.txt",
+      "rawBytes": 56,
+      "publicBytes": 61
+    },
+    {
+      "path": "intersect/normal03-19/normal-06-v034/inherited-onset.txt",
+      "rawBytes": 29,
+      "publicBytes": 32
+    },
+    {
+      "path": "intersect/normal03-19/normal-06-v034/loaded-watch-version.txt",
+      "rawBytes": 7,
+      "publicBytes": 7
+    },
+    {
+      "path": "intersect/normal03-19/normal-06-v034/map.txt",
+      "rawBytes": 1692,
+      "publicBytes": 1727
+    },
+    {
+      "path": "intersect/normal03-19/normal-06-v034/mission-description.txt",
+      "rawBytes": 139,
+      "publicBytes": 140
+    },
+    {
+      "path": "intersect/normal03-19/normal-06-v034/mission-limits.txt",
+      "rawBytes": 110,
+      "publicBytes": 113
+    },
+    {
+      "path": "intersect/normal03-19/normal-06-v034/objectives.json",
+      "rawBytes": 2,
+      "publicBytes": 2
+    },
+    {
+      "path": "intersect/normal03-19/normal-06-v034/partial.msav",
+      "rawBytes": 44954,
+      "publicBytes": 44954
+    },
+    {
+      "path": "intersect/normal03-19/normal-06-v034/processor-256-307.mlog",
+      "rawBytes": 0,
+      "publicBytes": 0
+    },
+    {
+      "path": "intersect/normal03-19/normal-06-v034/processor-257-307.mlog",
+      "rawBytes": 161,
+      "publicBytes": 167
+    },
+    {
+      "path": "intersect/normal03-19/normal-06-v034/processor-258-307.mlog",
+      "rawBytes": 0,
+      "publicBytes": 0
+    },
+    {
+      "path": "intersect/normal03-19/normal-06-v034/result.txt",
+      "rawBytes": 855,
+      "publicBytes": 877
+    },
+    {
+      "path": "intersect/normal03-19/normal-06-v034/runtime.txt",
+      "rawBytes": 252,
+      "publicBytes": 247
+    },
+    {
+      "path": "intersect/normal03-19/normal-06-v034/scores-before.txt",
+      "rawBytes": 102,
+      "publicBytes": 101
+    },
+    {
+      "path": "intersect/normal03-19/normal-06-v034/state-audit-source.java",
+      "rawBytes": 3341,
+      "publicBytes": 3341
+    },
+    {
+      "path": "intersect/normal03-19/normal-06-v034/task-status.csv",
+      "rawBytes": 96,
+      "publicBytes": 98
+    },
+    {
+      "path": "intersect/normal03-19/normal-06-v034/terrain.txt",
+      "rawBytes": 1348,
+      "publicBytes": 1410
+    },
+    {
+      "path": "intersect/normal03-19/normal-06-v034/trial.csv",
+      "rawBytes": 209,
+      "publicBytes": 212
+    },
+    {
+      "path": "intersect/normal03-19/normal-07-v034/actions.txt",
+      "rawBytes": 5261,
+      "publicBytes": 5450
+    },
+    {
+      "path": "intersect/normal03-19/normal-07-v034/checkpoint-900-loaded-world.json",
+      "rawBytes": 57651,
+      "publicBytes": 57651
+    },
+    {
+      "path": "intersect/normal03-19/normal-07-v034/checkpoint-900-tags.json",
+      "rawBytes": 24762,
+      "publicBytes": 24762
+    },
+    {
+      "path": "intersect/normal03-19/normal-07-v034/checkpoint-900-world.json",
+      "rawBytes": 57651,
+      "publicBytes": 57651
+    },
+    {
+      "path": "intersect/normal03-19/normal-07-v034/checkpoint-900.msav",
+      "rawBytes": 49008,
+      "publicBytes": 49008
+    },
+    {
+      "path": "intersect/normal03-19/normal-07-v034/checkpoints.txt",
+      "rawBytes": 115,
+      "publicBytes": 116
+    },
+    {
+      "path": "intersect/normal03-19/normal-07-v034/combat.csv",
+      "rawBytes": 677,
+      "publicBytes": 700
+    },
+    {
+      "path": "intersect/normal03-19/normal-07-v034/console.txt",
+      "rawBytes": 1950,
+      "publicBytes": 1950
+    },
+    {
+      "path": "intersect/normal03-19/normal-07-v034/core-health.csv",
+      "rawBytes": 494,
+      "publicBytes": 516
+    },
+    {
+      "path": "intersect/normal03-19/normal-07-v034/diagnostics.txt",
+      "rawBytes": 38992,
+      "publicBytes": 39341
+    },
+    {
+      "path": "intersect/normal03-19/normal-07-v034/driver-source.java",
+      "rawBytes": 42657,
+      "publicBytes": 42632
+    },
+    {
+      "path": "intersect/normal03-19/normal-07-v034/end.msav",
+      "rawBytes": 49261,
+      "publicBytes": 49261
+    },
+    {
+      "path": "intersect/normal03-19/normal-07-v034/enemy-map.txt",
+      "rawBytes": 2280,
+      "publicBytes": 2396
+    },
+    {
+      "path": "intersect/normal03-19/normal-07-v034/final-tags.json",
+      "rawBytes": 24771,
+      "publicBytes": 24771
+    },
+    {
+      "path": "intersect/normal03-19/normal-07-v034/final-world.json",
+      "rawBytes": 58510,
+      "publicBytes": 58510
+    },
+    {
+      "path": "intersect/normal03-19/normal-07-v034/fresh-process-readback/console.txt",
+      "rawBytes": 538,
+      "publicBytes": 528
+    },
+    {
+      "path": "intersect/normal03-19/normal-07-v034/fresh-process-readback/driver-source.java",
+      "rawBytes": 4579,
+      "publicBytes": 4597
+    },
+    {
+      "path": "intersect/normal03-19/normal-07-v034/fresh-process-readback/loaded-tags.json",
+      "rawBytes": 24771,
+      "publicBytes": 24771
+    },
+    {
+      "path": "intersect/normal03-19/normal-07-v034/fresh-process-readback/loaded-watch-version.txt",
+      "rawBytes": 7,
+      "publicBytes": 7
+    },
+    {
+      "path": "intersect/normal03-19/normal-07-v034/fresh-process-readback/loaded-world.json",
+      "rawBytes": 58510,
+      "publicBytes": 58510
+    },
+    {
+      "path": "intersect/normal03-19/normal-07-v034/fresh-process-readback/result.txt",
+      "rawBytes": 515,
+      "publicBytes": 528
+    },
+    {
+      "path": "intersect/normal03-19/normal-07-v034/fresh-process-readback/state-audit-source.java",
+      "rawBytes": 3341,
+      "publicBytes": 3341
+    },
+    {
+      "path": "intersect/normal03-19/normal-07-v034/fresh-process-readback/world-differences.txt",
+      "rawBytes": 0,
+      "publicBytes": 0
+    },
+    {
+      "path": "intersect/normal03-19/normal-07-v034/inherited-aegis.txt",
+      "rawBytes": 56,
+      "publicBytes": 61
+    },
+    {
+      "path": "intersect/normal03-19/normal-07-v034/inherited-onset.txt",
+      "rawBytes": 29,
+      "publicBytes": 32
+    },
+    {
+      "path": "intersect/normal03-19/normal-07-v034/loaded-watch-version.txt",
+      "rawBytes": 7,
+      "publicBytes": 7
+    },
+    {
+      "path": "intersect/normal03-19/normal-07-v034/map.txt",
+      "rawBytes": 1692,
+      "publicBytes": 1727
+    },
+    {
+      "path": "intersect/normal03-19/normal-07-v034/mission-description.txt",
+      "rawBytes": 139,
+      "publicBytes": 140
+    },
+    {
+      "path": "intersect/normal03-19/normal-07-v034/mission-limits.txt",
+      "rawBytes": 110,
+      "publicBytes": 113
+    },
+    {
+      "path": "intersect/normal03-19/normal-07-v034/native-repairs.csv",
+      "rawBytes": 12573,
+      "publicBytes": 12823
+    },
+    {
+      "path": "intersect/normal03-19/normal-07-v034/objectives.json",
+      "rawBytes": 2,
+      "publicBytes": 2
+    },
+    {
+      "path": "intersect/normal03-19/normal-07-v034/player-losses.csv",
+      "rawBytes": 206,
+      "publicBytes": 213
+    },
+    {
+      "path": "intersect/normal03-19/normal-07-v034/processor-256-307.mlog",
+      "rawBytes": 0,
+      "publicBytes": 0
+    },
+    {
+      "path": "intersect/normal03-19/normal-07-v034/processor-257-307.mlog",
+      "rawBytes": 161,
+      "publicBytes": 167
+    },
+    {
+      "path": "intersect/normal03-19/normal-07-v034/processor-258-307.mlog",
+      "rawBytes": 0,
+      "publicBytes": 0
+    },
+    {
+      "path": "intersect/normal03-19/normal-07-v034/read-only-failure-audit/actual-tree.txt",
+      "rawBytes": 1101,
+      "publicBytes": 1119
+    },
+    {
+      "path": "intersect/normal03-19/normal-07-v034/read-only-failure-audit/build-details.txt",
+      "rawBytes": 21456,
+      "publicBytes": 21711
+    },
+    {
+      "path": "intersect/normal03-19/normal-07-v034/read-only-failure-audit/driver-source.java",
+      "rawBytes": 11907,
+      "publicBytes": 11887
+    },
+    {
+      "path": "intersect/normal03-19/normal-07-v034/read-only-failure-audit/gate.txt",
+      "rawBytes": 319,
+      "publicBytes": 322
+    },
+    {
+      "path": "intersect/normal03-19/normal-07-v034/read-only-failure-audit/loaded-watch-version.txt",
+      "rawBytes": 7,
+      "publicBytes": 7
+    },
+    {
+      "path": "intersect/normal03-19/normal-07-v034/read-only-failure-audit/native-defence-info.txt",
+      "rawBytes": 906,
+      "publicBytes": 927
+    },
+    {
+      "path": "intersect/normal03-19/normal-07-v034/read-only-failure-audit/native-map.png",
+      "rawBytes": 16158,
+      "publicBytes": 16158
+    },
+    {
+      "path": "intersect/normal03-19/normal-07-v034/read-only-failure-audit/objectives.json",
+      "rawBytes": 2,
+      "publicBytes": 2
+    },
+    {
+      "path": "intersect/normal03-19/normal-07-v034/read-only-failure-audit/rules.json",
+      "rawBytes": 28479,
+      "publicBytes": 28479
+    },
+    {
+      "path": "intersect/normal03-19/normal-07-v034/repair-health-ticks.csv",
+      "rawBytes": 1774553,
+      "publicBytes": 1788133
+    },
+    {
+      "path": "intersect/normal03-19/normal-07-v034/result.txt",
+      "rawBytes": 641,
+      "publicBytes": 663
+    },
+    {
+      "path": "intersect/normal03-19/normal-07-v034/rules-before-save.json",
+      "rawBytes": 28479,
+      "publicBytes": 28479
+    },
+    {
+      "path": "intersect/normal03-19/normal-07-v034/runtime.txt",
+      "rawBytes": 252,
+      "publicBytes": 247
+    },
+    {
+      "path": "intersect/normal03-19/normal-07-v034/save-status.txt",
+      "rawBytes": 64,
+      "publicBytes": 65
+    },
+    {
+      "path": "intersect/normal03-19/normal-07-v034/scores-before.txt",
+      "rawBytes": 102,
+      "publicBytes": 101
+    },
+    {
+      "path": "intersect/normal03-19/normal-07-v034/state-audit-source.java",
+      "rawBytes": 3341,
+      "publicBytes": 3341
+    },
+    {
+      "path": "intersect/normal03-19/normal-07-v034/task-status.csv",
+      "rawBytes": 1167,
+      "publicBytes": 1190
+    },
+    {
+      "path": "intersect/normal03-19/normal-07-v034/terrain.txt",
+      "rawBytes": 1348,
+      "publicBytes": 1410
+    },
+    {
+      "path": "intersect/normal03-19/normal-07-v034/trial.csv",
+      "rawBytes": 1356,
+      "publicBytes": 1380
+    },
+    {
+      "path": "intersect/normal03-19/normal-08-v034/actions.txt",
+      "rawBytes": 3580,
+      "publicBytes": 3706
+    },
+    {
+      "path": "intersect/normal03-19/normal-08-v034/combat.csv",
+      "rawBytes": 36,
+      "publicBytes": 38
+    },
+    {
+      "path": "intersect/normal03-19/normal-08-v034/console.txt",
+      "rawBytes": 680,
+      "publicBytes": 680
+    },
+    {
+      "path": "intersect/normal03-19/normal-08-v034/core-health.csv",
+      "rawBytes": 38,
+      "publicBytes": 40
+    },
+    {
+      "path": "intersect/normal03-19/normal-08-v034/diagnostics.txt",
+      "rawBytes": 1334,
+      "publicBytes": 1348
+    },
+    {
+      "path": "intersect/normal03-19/normal-08-v034/driver-source.java",
+      "rawBytes": 43343,
+      "publicBytes": 43318
+    },
+    {
+      "path": "intersect/normal03-19/normal-08-v034/enemy-map.txt",
+      "rawBytes": 2280,
+      "publicBytes": 2396
+    },
+    {
+      "path": "intersect/normal03-19/normal-08-v034/failure.txt",
+      "rawBytes": 286,
+      "publicBytes": 287
+    },
+    {
+      "path": "intersect/normal03-19/normal-08-v034/fresh-process-readback/console.txt",
+      "rawBytes": 611,
+      "publicBytes": 601
+    },
+    {
+      "path": "intersect/normal03-19/normal-08-v034/fresh-process-readback/driver-source.java",
+      "rawBytes": 4900,
+      "publicBytes": 4919
+    },
+    {
+      "path": "intersect/normal03-19/normal-08-v034/fresh-process-readback/loaded-tags.json",
+      "rawBytes": 3056,
+      "publicBytes": 3056
+    },
+    {
+      "path": "intersect/normal03-19/normal-08-v034/fresh-process-readback/loaded-watch-version.txt",
+      "rawBytes": 7,
+      "publicBytes": 7
+    },
+    {
+      "path": "intersect/normal03-19/normal-08-v034/fresh-process-readback/loaded-world.json",
+      "rawBytes": 21445,
+      "publicBytes": 21445
+    },
+    {
+      "path": "intersect/normal03-19/normal-08-v034/fresh-process-readback/result.txt",
+      "rawBytes": 588,
+      "publicBytes": 601
+    },
+    {
+      "path": "intersect/normal03-19/normal-08-v034/fresh-process-readback/state-audit-source.java",
+      "rawBytes": 3341,
+      "publicBytes": 3341
+    },
+    {
+      "path": "intersect/normal03-19/normal-08-v034/fresh-process-readback/world-differences.txt",
+      "rawBytes": 0,
+      "publicBytes": 0
+    },
+    {
+      "path": "intersect/normal03-19/normal-08-v034/inherited-aegis.txt",
+      "rawBytes": 56,
+      "publicBytes": 61
+    },
+    {
+      "path": "intersect/normal03-19/normal-08-v034/inherited-onset.txt",
+      "rawBytes": 29,
+      "publicBytes": 32
+    },
+    {
+      "path": "intersect/normal03-19/normal-08-v034/loaded-watch-version.txt",
+      "rawBytes": 7,
+      "publicBytes": 7
+    },
+    {
+      "path": "intersect/normal03-19/normal-08-v034/map.txt",
+      "rawBytes": 1692,
+      "publicBytes": 1727
+    },
+    {
+      "path": "intersect/normal03-19/normal-08-v034/mission-description.txt",
+      "rawBytes": 139,
+      "publicBytes": 140
+    },
+    {
+      "path": "intersect/normal03-19/normal-08-v034/mission-limits.txt",
+      "rawBytes": 110,
+      "publicBytes": 113
+    },
+    {
+      "path": "intersect/normal03-19/normal-08-v034/objectives.json",
+      "rawBytes": 2,
+      "publicBytes": 2
+    },
+    {
+      "path": "intersect/normal03-19/normal-08-v034/partial.msav",
+      "rawBytes": 44964,
+      "publicBytes": 44964
+    },
+    {
+      "path": "intersect/normal03-19/normal-08-v034/processor-256-307.mlog",
+      "rawBytes": 0,
+      "publicBytes": 0
+    },
+    {
+      "path": "intersect/normal03-19/normal-08-v034/processor-257-307.mlog",
+      "rawBytes": 161,
+      "publicBytes": 167
+    },
+    {
+      "path": "intersect/normal03-19/normal-08-v034/processor-258-307.mlog",
+      "rawBytes": 0,
+      "publicBytes": 0
+    },
+    {
+      "path": "intersect/normal03-19/normal-08-v034/result.txt",
+      "rawBytes": 853,
+      "publicBytes": 875
+    },
+    {
+      "path": "intersect/normal03-19/normal-08-v034/runtime.txt",
+      "rawBytes": 252,
+      "publicBytes": 247
+    },
+    {
+      "path": "intersect/normal03-19/normal-08-v034/scores-before.txt",
+      "rawBytes": 102,
+      "publicBytes": 101
+    },
+    {
+      "path": "intersect/normal03-19/normal-08-v034/state-audit-source.java",
+      "rawBytes": 3341,
+      "publicBytes": 3341
+    },
+    {
+      "path": "intersect/normal03-19/normal-08-v034/task-status.csv",
+      "rawBytes": 96,
+      "publicBytes": 98
+    },
+    {
+      "path": "intersect/normal03-19/normal-08-v034/terrain.txt",
+      "rawBytes": 1348,
+      "publicBytes": 1410
+    },
+    {
+      "path": "intersect/normal03-19/normal-08-v034/trial.csv",
+      "rawBytes": 210,
+      "publicBytes": 213
+    },
+    {
+      "path": "intersect/normal03-19/normal-09-v034/actions.txt",
+      "rawBytes": 4832,
+      "publicBytes": 5000
+    },
+    {
+      "path": "intersect/normal03-19/normal-09-v034/army.csv",
+      "rawBytes": 812,
+      "publicBytes": 826
+    },
+    {
+      "path": "intersect/normal03-19/normal-09-v034/checkpoint-900-loaded-world.json",
+      "rawBytes": 55268,
+      "publicBytes": 55268
+    },
+    {
+      "path": "intersect/normal03-19/normal-09-v034/checkpoint-900-tags.json",
+      "rawBytes": 22501,
+      "publicBytes": 22501
+    },
+    {
+      "path": "intersect/normal03-19/normal-09-v034/checkpoint-900-world.json",
+      "rawBytes": 55268,
+      "publicBytes": 55268
+    },
+    {
+      "path": "intersect/normal03-19/normal-09-v034/checkpoint-900.msav",
+      "rawBytes": 48806,
+      "publicBytes": 48806
+    },
+    {
+      "path": "intersect/normal03-19/normal-09-v034/checkpoints.txt",
+      "rawBytes": 113,
+      "publicBytes": 114
+    },
+    {
+      "path": "intersect/normal03-19/normal-09-v034/combat.csv",
+      "rawBytes": 665,
+      "publicBytes": 688
+    },
+    {
+      "path": "intersect/normal03-19/normal-09-v034/console.txt",
+      "rawBytes": 1932,
+      "publicBytes": 1932
+    },
+    {
+      "path": "intersect/normal03-19/normal-09-v034/core-health.csv",
+      "rawBytes": 497,
+      "publicBytes": 519
+    },
+    {
+      "path": "intersect/normal03-19/normal-09-v034/diagnostics.txt",
+      "rawBytes": 49257,
+      "publicBytes": 49737
+    },
+    {
+      "path": "intersect/normal03-19/normal-09-v034/driver-source.java",
+      "rawBytes": 43371,
+      "publicBytes": 43346
+    },
+    {
+      "path": "intersect/normal03-19/normal-09-v034/end.msav",
+      "rawBytes": 48966,
+      "publicBytes": 48966
+    },
+    {
+      "path": "intersect/normal03-19/normal-09-v034/enemy-map.txt",
+      "rawBytes": 2280,
+      "publicBytes": 2396
+    },
+    {
+      "path": "intersect/normal03-19/normal-09-v034/final-tags.json",
+      "rawBytes": 22397,
+      "publicBytes": 22397
+    },
+    {
+      "path": "intersect/normal03-19/normal-09-v034/final-world.json",
+      "rawBytes": 55656,
+      "publicBytes": 55656
+    },
+    {
+      "path": "intersect/normal03-19/normal-09-v034/fresh-process-readback/console.txt",
+      "rawBytes": 538,
+      "publicBytes": 528
+    },
+    {
+      "path": "intersect/normal03-19/normal-09-v034/fresh-process-readback/driver-source.java",
+      "rawBytes": 4579,
+      "publicBytes": 4597
+    },
+    {
+      "path": "intersect/normal03-19/normal-09-v034/fresh-process-readback/loaded-tags.json",
+      "rawBytes": 22397,
+      "publicBytes": 22397
+    },
+    {
+      "path": "intersect/normal03-19/normal-09-v034/fresh-process-readback/loaded-watch-version.txt",
+      "rawBytes": 7,
+      "publicBytes": 7
+    },
+    {
+      "path": "intersect/normal03-19/normal-09-v034/fresh-process-readback/loaded-world.json",
+      "rawBytes": 55422,
+      "publicBytes": 55422
+    },
+    {
+      "path": "intersect/normal03-19/normal-09-v034/fresh-process-readback/result.txt",
+      "rawBytes": 515,
+      "publicBytes": 528
+    },
+    {
+      "path": "intersect/normal03-19/normal-09-v034/fresh-process-readback/state-audit-source.java",
+      "rawBytes": 3341,
+      "publicBytes": 3341
+    },
+    {
+      "path": "intersect/normal03-19/normal-09-v034/fresh-process-readback/world-differences.txt",
+      "rawBytes": 203,
+      "publicBytes": 208
+    },
+    {
+      "path": "intersect/normal03-19/normal-09-v034/inherited-aegis.txt",
+      "rawBytes": 56,
+      "publicBytes": 61
+    },
+    {
+      "path": "intersect/normal03-19/normal-09-v034/inherited-onset.txt",
+      "rawBytes": 29,
+      "publicBytes": 32
+    },
+    {
+      "path": "intersect/normal03-19/normal-09-v034/loaded-watch-version.txt",
+      "rawBytes": 7,
+      "publicBytes": 7
+    },
+    {
+      "path": "intersect/normal03-19/normal-09-v034/map.txt",
+      "rawBytes": 1692,
+      "publicBytes": 1727
+    },
+    {
+      "path": "intersect/normal03-19/normal-09-v034/mission-description.txt",
+      "rawBytes": 139,
+      "publicBytes": 140
+    },
+    {
+      "path": "intersect/normal03-19/normal-09-v034/mission-limits.txt",
+      "rawBytes": 110,
+      "publicBytes": 113
+    },
+    {
+      "path": "intersect/normal03-19/normal-09-v034/native-repairs.csv",
+      "rawBytes": 6893,
+      "publicBytes": 7033
+    },
+    {
+      "path": "intersect/normal03-19/normal-09-v034/objectives.json",
+      "rawBytes": 2,
+      "publicBytes": 2
+    },
+    {
+      "path": "intersect/normal03-19/normal-09-v034/player-losses.csv",
+      "rawBytes": 234,
+      "publicBytes": 242
+    },
+    {
+      "path": "intersect/normal03-19/normal-09-v034/processor-256-307.mlog",
+      "rawBytes": 0,
+      "publicBytes": 0
+    },
+    {
+      "path": "intersect/normal03-19/normal-09-v034/processor-257-307.mlog",
+      "rawBytes": 161,
+      "publicBytes": 167
+    },
+    {
+      "path": "intersect/normal03-19/normal-09-v034/processor-258-307.mlog",
+      "rawBytes": 0,
+      "publicBytes": 0
+    },
+    {
+      "path": "intersect/normal03-19/normal-09-v034/read-only-checkpoint-audit/actual-tree.txt",
+      "rawBytes": 1101,
+      "publicBytes": 1119
+    },
+    {
+      "path": "intersect/normal03-19/normal-09-v034/read-only-checkpoint-audit/build-details.txt",
+      "rawBytes": 19763,
+      "publicBytes": 20009
+    },
+    {
+      "path": "intersect/normal03-19/normal-09-v034/read-only-checkpoint-audit/driver-source.java",
+      "rawBytes": 6047,
+      "publicBytes": 6027
+    },
+    {
+      "path": "intersect/normal03-19/normal-09-v034/read-only-checkpoint-audit/gate.txt",
+      "rawBytes": 319,
+      "publicBytes": 322
+    },
+    {
+      "path": "intersect/normal03-19/normal-09-v034/read-only-checkpoint-audit/loaded-watch-version.txt",
+      "rawBytes": 7,
+      "publicBytes": 7
+    },
+    {
+      "path": "intersect/normal03-19/normal-09-v034/repair-health-ticks.csv",
+      "rawBytes": 782607,
+      "publicBytes": 788686
+    },
+    {
+      "path": "intersect/normal03-19/normal-09-v034/result.txt",
+      "rawBytes": 644,
+      "publicBytes": 666
+    },
+    {
+      "path": "intersect/normal03-19/normal-09-v034/rules-before-save.json",
+      "rawBytes": 26105,
+      "publicBytes": 26105
+    },
+    {
+      "path": "intersect/normal03-19/normal-09-v034/runtime.txt",
+      "rawBytes": 252,
+      "publicBytes": 247
+    },
+    {
+      "path": "intersect/normal03-19/normal-09-v034/save-status.txt",
+      "rawBytes": 64,
+      "publicBytes": 65
+    },
+    {
+      "path": "intersect/normal03-19/normal-09-v034/scores-before.txt",
+      "rawBytes": 102,
+      "publicBytes": 101
+    },
+    {
+      "path": "intersect/normal03-19/normal-09-v034/state-audit-source.java",
+      "rawBytes": 3341,
+      "publicBytes": 3341
+    },
+    {
+      "path": "intersect/normal03-19/normal-09-v034/task-status.csv",
+      "rawBytes": 1167,
+      "publicBytes": 1190
+    },
+    {
+      "path": "intersect/normal03-19/normal-09-v034/terrain.txt",
+      "rawBytes": 1348,
+      "publicBytes": 1410
+    },
+    {
+      "path": "intersect/normal03-19/normal-09-v034/trial.csv",
+      "rawBytes": 1338,
+      "publicBytes": 1362
+    },
+    {
+      "path": "intersect/normal03-19/normal-10-v034/actions.txt",
+      "rawBytes": 4832,
+      "publicBytes": 5000
+    },
+    {
+      "path": "intersect/normal03-19/normal-10-v034/army.csv",
+      "rawBytes": 814,
+      "publicBytes": 828
+    },
+    {
+      "path": "intersect/normal03-19/normal-10-v034/checkpoint-900-loaded-world.json",
+      "rawBytes": 55272,
+      "publicBytes": 55272
+    },
+    {
+      "path": "intersect/normal03-19/normal-10-v034/checkpoint-900-tags.json",
+      "rawBytes": 22442,
+      "publicBytes": 22442
+    },
+    {
+      "path": "intersect/normal03-19/normal-10-v034/checkpoint-900-world.json",
+      "rawBytes": 55272,
+      "publicBytes": 55272
+    },
+    {
+      "path": "intersect/normal03-19/normal-10-v034/checkpoint-900.msav",
+      "rawBytes": 48779,
+      "publicBytes": 48779
+    },
+    {
+      "path": "intersect/normal03-19/normal-10-v034/checkpoints.txt",
+      "rawBytes": 115,
+      "publicBytes": 116
+    },
+    {
+      "path": "intersect/normal03-19/normal-10-v034/combat.csv",
+      "rawBytes": 672,
+      "publicBytes": 695
+    },
+    {
+      "path": "intersect/normal03-19/normal-10-v034/console.txt",
+      "rawBytes": 1935,
+      "publicBytes": 1935
+    },
+    {
+      "path": "intersect/normal03-19/normal-10-v034/core-health.csv",
+      "rawBytes": 484,
+      "publicBytes": 506
+    },
+    {
+      "path": "intersect/normal03-19/normal-10-v034/diagnostics.txt",
+      "rawBytes": 49166,
+      "publicBytes": 49645
+    },
+    {
+      "path": "intersect/normal03-19/normal-10-v034/driver-source.java",
+      "rawBytes": 43371,
+      "publicBytes": 43346
+    },
+    {
+      "path": "intersect/normal03-19/normal-10-v034/end.msav",
+      "rawBytes": 49067,
+      "publicBytes": 49067
+    },
+    {
+      "path": "intersect/normal03-19/normal-10-v034/enemy-map.txt",
+      "rawBytes": 2280,
+      "publicBytes": 2396
+    },
+    {
+      "path": "intersect/normal03-19/normal-10-v034/final-tags.json",
+      "rawBytes": 22342,
+      "publicBytes": 22342
+    },
+    {
+      "path": "intersect/normal03-19/normal-10-v034/final-world.json",
+      "rawBytes": 55892,
+      "publicBytes": 55892
+    },
+    {
+      "path": "intersect/normal03-19/normal-10-v034/fresh-process-readback/console.txt",
+      "rawBytes": 539,
+      "publicBytes": 529
+    },
+    {
+      "path": "intersect/normal03-19/normal-10-v034/fresh-process-readback/driver-source.java",
+      "rawBytes": 4579,
+      "publicBytes": 4597
+    },
+    {
+      "path": "intersect/normal03-19/normal-10-v034/fresh-process-readback/loaded-tags.json",
+      "rawBytes": 22342,
+      "publicBytes": 22342
+    },
+    {
+      "path": "intersect/normal03-19/normal-10-v034/fresh-process-readback/loaded-watch-version.txt",
+      "rawBytes": 7,
+      "publicBytes": 7
+    },
+    {
+      "path": "intersect/normal03-19/normal-10-v034/fresh-process-readback/loaded-world.json",
+      "rawBytes": 55657,
+      "publicBytes": 55657
+    },
+    {
+      "path": "intersect/normal03-19/normal-10-v034/fresh-process-readback/result.txt",
+      "rawBytes": 516,
+      "publicBytes": 529
+    },
+    {
+      "path": "intersect/normal03-19/normal-10-v034/fresh-process-readback/state-audit-source.java",
+      "rawBytes": 3341,
+      "publicBytes": 3341
+    },
+    {
+      "path": "intersect/normal03-19/normal-10-v034/fresh-process-readback/world-differences.txt",
+      "rawBytes": 204,
+      "publicBytes": 209
+    },
+    {
+      "path": "intersect/normal03-19/normal-10-v034/inherited-aegis.txt",
+      "rawBytes": 56,
+      "publicBytes": 61
+    },
+    {
+      "path": "intersect/normal03-19/normal-10-v034/inherited-onset.txt",
+      "rawBytes": 29,
+      "publicBytes": 32
+    },
+    {
+      "path": "intersect/normal03-19/normal-10-v034/loaded-watch-version.txt",
+      "rawBytes": 7,
+      "publicBytes": 7
+    },
+    {
+      "path": "intersect/normal03-19/normal-10-v034/map.txt",
+      "rawBytes": 1692,
+      "publicBytes": 1727
+    },
+    {
+      "path": "intersect/normal03-19/normal-10-v034/mission-description.txt",
+      "rawBytes": 139,
+      "publicBytes": 140
+    },
+    {
+      "path": "intersect/normal03-19/normal-10-v034/mission-limits.txt",
+      "rawBytes": 110,
+      "publicBytes": 113
+    },
+    {
+      "path": "intersect/normal03-19/normal-10-v034/native-repairs.csv",
+      "rawBytes": 7435,
+      "publicBytes": 7585
+    },
+    {
+      "path": "intersect/normal03-19/normal-10-v034/objectives.json",
+      "rawBytes": 2,
+      "publicBytes": 2
+    },
+    {
+      "path": "intersect/normal03-19/normal-10-v034/player-losses.csv",
+      "rawBytes": 268,
+      "publicBytes": 277
+    },
+    {
+      "path": "intersect/normal03-19/normal-10-v034/processor-256-307.mlog",
+      "rawBytes": 0,
+      "publicBytes": 0
+    },
+    {
+      "path": "intersect/normal03-19/normal-10-v034/processor-257-307.mlog",
+      "rawBytes": 161,
+      "publicBytes": 167
+    },
+    {
+      "path": "intersect/normal03-19/normal-10-v034/processor-258-307.mlog",
+      "rawBytes": 0,
+      "publicBytes": 0
+    },
+    {
+      "path": "intersect/normal03-19/normal-10-v034/repair-health-ticks.csv",
+      "rawBytes": 974553,
+      "publicBytes": 982121
+    },
+    {
+      "path": "intersect/normal03-19/normal-10-v034/result.txt",
+      "rawBytes": 642,
+      "publicBytes": 664
+    },
+    {
+      "path": "intersect/normal03-19/normal-10-v034/rules-before-save.json",
+      "rawBytes": 26050,
+      "publicBytes": 26050
+    },
+    {
+      "path": "intersect/normal03-19/normal-10-v034/runtime.txt",
+      "rawBytes": 252,
+      "publicBytes": 247
+    },
+    {
+      "path": "intersect/normal03-19/normal-10-v034/save-status.txt",
+      "rawBytes": 64,
+      "publicBytes": 65
+    },
+    {
+      "path": "intersect/normal03-19/normal-10-v034/scores-before.txt",
+      "rawBytes": 102,
+      "publicBytes": 101
+    },
+    {
+      "path": "intersect/normal03-19/normal-10-v034/state-audit-source.java",
+      "rawBytes": 3341,
+      "publicBytes": 3341
+    },
+    {
+      "path": "intersect/normal03-19/normal-10-v034/task-status.csv",
+      "rawBytes": 1165,
+      "publicBytes": 1188
+    },
+    {
+      "path": "intersect/normal03-19/normal-10-v034/terrain.txt",
+      "rawBytes": 1348,
+      "publicBytes": 1410
+    },
+    {
+      "path": "intersect/normal03-19/normal-10-v034/trial.csv",
+      "rawBytes": 1341,
+      "publicBytes": 1365
+    },
+    {
+      "path": "intersect/normal03-19/normal-11-v034/actions.txt",
+      "rawBytes": 3863,
+      "publicBytes": 3994
+    },
+    {
+      "path": "intersect/normal03-19/normal-11-v034/combat.csv",
+      "rawBytes": 36,
+      "publicBytes": 38
+    },
+    {
+      "path": "intersect/normal03-19/normal-11-v034/console.txt",
+      "rawBytes": 738,
+      "publicBytes": 738
+    },
+    {
+      "path": "intersect/normal03-19/normal-11-v034/core-health.csv",
+      "rawBytes": 38,
+      "publicBytes": 40
+    },
+    {
+      "path": "intersect/normal03-19/normal-11-v034/diagnostics.txt",
+      "rawBytes": 1334,
+      "publicBytes": 1348
+    },
+    {
+      "path": "intersect/normal03-19/normal-11-v034/driver-source.java",
+      "rawBytes": 43558,
+      "publicBytes": 43533
+    },
+    {
+      "path": "intersect/normal03-19/normal-11-v034/enemy-map.txt",
+      "rawBytes": 2280,
+      "publicBytes": 2396
+    },
+    {
+      "path": "intersect/normal03-19/normal-11-v034/failure.txt",
+      "rawBytes": 288,
+      "publicBytes": 289
+    },
+    {
+      "path": "intersect/normal03-19/normal-11-v034/fresh-process-readback/console.txt",
+      "rawBytes": 611,
+      "publicBytes": 601
+    },
+    {
+      "path": "intersect/normal03-19/normal-11-v034/fresh-process-readback/driver-source.java",
+      "rawBytes": 4900,
+      "publicBytes": 4919
+    },
+    {
+      "path": "intersect/normal03-19/normal-11-v034/fresh-process-readback/loaded-tags.json",
+      "rawBytes": 3056,
+      "publicBytes": 3056
+    },
+    {
+      "path": "intersect/normal03-19/normal-11-v034/fresh-process-readback/loaded-watch-version.txt",
+      "rawBytes": 7,
+      "publicBytes": 7
+    },
+    {
+      "path": "intersect/normal03-19/normal-11-v034/fresh-process-readback/loaded-world.json",
+      "rawBytes": 21445,
+      "publicBytes": 21445
+    },
+    {
+      "path": "intersect/normal03-19/normal-11-v034/fresh-process-readback/result.txt",
+      "rawBytes": 588,
+      "publicBytes": 601
+    },
+    {
+      "path": "intersect/normal03-19/normal-11-v034/fresh-process-readback/state-audit-source.java",
+      "rawBytes": 3341,
+      "publicBytes": 3341
+    },
+    {
+      "path": "intersect/normal03-19/normal-11-v034/fresh-process-readback/world-differences.txt",
+      "rawBytes": 0,
+      "publicBytes": 0
+    },
+    {
+      "path": "intersect/normal03-19/normal-11-v034/inherited-aegis.txt",
+      "rawBytes": 56,
+      "publicBytes": 61
+    },
+    {
+      "path": "intersect/normal03-19/normal-11-v034/inherited-onset.txt",
+      "rawBytes": 29,
+      "publicBytes": 32
+    },
+    {
+      "path": "intersect/normal03-19/normal-11-v034/loaded-watch-version.txt",
+      "rawBytes": 7,
+      "publicBytes": 7
+    },
+    {
+      "path": "intersect/normal03-19/normal-11-v034/map.txt",
+      "rawBytes": 1692,
+      "publicBytes": 1727
+    },
+    {
+      "path": "intersect/normal03-19/normal-11-v034/mission-description.txt",
+      "rawBytes": 139,
+      "publicBytes": 140
+    },
+    {
+      "path": "intersect/normal03-19/normal-11-v034/mission-limits.txt",
+      "rawBytes": 110,
+      "publicBytes": 113
+    },
+    {
+      "path": "intersect/normal03-19/normal-11-v034/objectives.json",
+      "rawBytes": 2,
+      "publicBytes": 2
+    },
+    {
+      "path": "intersect/normal03-19/normal-11-v034/partial.msav",
+      "rawBytes": 44926,
+      "publicBytes": 44926
+    },
+    {
+      "path": "intersect/normal03-19/normal-11-v034/processor-256-307.mlog",
+      "rawBytes": 0,
+      "publicBytes": 0
+    },
+    {
+      "path": "intersect/normal03-19/normal-11-v034/processor-257-307.mlog",
+      "rawBytes": 161,
+      "publicBytes": 167
+    },
+    {
+      "path": "intersect/normal03-19/normal-11-v034/processor-258-307.mlog",
+      "rawBytes": 0,
+      "publicBytes": 0
+    },
+    {
+      "path": "intersect/normal03-19/normal-11-v034/result.txt",
+      "rawBytes": 855,
+      "publicBytes": 877
+    },
+    {
+      "path": "intersect/normal03-19/normal-11-v034/runtime.txt",
+      "rawBytes": 252,
+      "publicBytes": 247
+    },
+    {
+      "path": "intersect/normal03-19/normal-11-v034/scores-before.txt",
+      "rawBytes": 102,
+      "publicBytes": 101
+    },
+    {
+      "path": "intersect/normal03-19/normal-11-v034/state-audit-source.java",
+      "rawBytes": 3341,
+      "publicBytes": 3341
+    },
+    {
+      "path": "intersect/normal03-19/normal-11-v034/task-status.csv",
+      "rawBytes": 96,
+      "publicBytes": 98
+    },
+    {
+      "path": "intersect/normal03-19/normal-11-v034/terrain.txt",
+      "rawBytes": 1348,
+      "publicBytes": 1410
+    },
+    {
+      "path": "intersect/normal03-19/normal-11-v034/trial.csv",
+      "rawBytes": 210,
+      "publicBytes": 213
+    },
+    {
+      "path": "intersect/normal03-19/normal-12-v034/actions.txt",
+      "rawBytes": 5916,
+      "publicBytes": 6123
+    },
+    {
+      "path": "intersect/normal03-19/normal-12-v034/combat.csv",
+      "rawBytes": 375,
+      "publicBytes": 389
+    },
+    {
+      "path": "intersect/normal03-19/normal-12-v034/console.txt",
+      "rawBytes": 1148,
+      "publicBytes": 1148
+    },
+    {
+      "path": "intersect/normal03-19/normal-12-v034/core-health.csv",
+      "rawBytes": 268,
+      "publicBytes": 281
+    },
+    {
+      "path": "intersect/normal03-19/normal-12-v034/diagnostics.txt",
+      "rawBytes": 22664,
+      "publicBytes": 22886
+    },
+    {
+      "path": "intersect/normal03-19/normal-12-v034/driver-source.java",
+      "rawBytes": 43671,
+      "publicBytes": 43646
+    },
+    {
+      "path": "intersect/normal03-19/normal-12-v034/end.msav",
+      "rawBytes": 49046,
+      "publicBytes": 49046
+    },
+    {
+      "path": "intersect/normal03-19/normal-12-v034/enemy-map.txt",
+      "rawBytes": 2280,
+      "publicBytes": 2396
+    },
+    {
+      "path": "intersect/normal03-19/normal-12-v034/final-tags.json",
+      "rawBytes": 25798,
+      "publicBytes": 25798
+    },
+    {
+      "path": "intersect/normal03-19/normal-12-v034/final-world.json",
+      "rawBytes": 58930,
+      "publicBytes": 58930
+    },
+    {
+      "path": "intersect/normal03-19/normal-12-v034/fresh-process-readback/console.txt",
+      "rawBytes": 527,
+      "publicBytes": 517
+    },
+    {
+      "path": "intersect/normal03-19/normal-12-v034/fresh-process-readback/driver-source.java",
+      "rawBytes": 4579,
+      "publicBytes": 4597
+    },
+    {
+      "path": "intersect/normal03-19/normal-12-v034/fresh-process-readback/loaded-tags.json",
+      "rawBytes": 25798,
+      "publicBytes": 25798
+    },
+    {
+      "path": "intersect/normal03-19/normal-12-v034/fresh-process-readback/loaded-watch-version.txt",
+      "rawBytes": 7,
+      "publicBytes": 7
+    },
+    {
+      "path": "intersect/normal03-19/normal-12-v034/fresh-process-readback/loaded-world.json",
+      "rawBytes": 58930,
+      "publicBytes": 58930
+    },
+    {
+      "path": "intersect/normal03-19/normal-12-v034/fresh-process-readback/result.txt",
+      "rawBytes": 504,
+      "publicBytes": 517
+    },
+    {
+      "path": "intersect/normal03-19/normal-12-v034/fresh-process-readback/state-audit-source.java",
+      "rawBytes": 3341,
+      "publicBytes": 3341
+    },
+    {
+      "path": "intersect/normal03-19/normal-12-v034/fresh-process-readback/world-differences.txt",
+      "rawBytes": 0,
+      "publicBytes": 0
+    },
+    {
+      "path": "intersect/normal03-19/normal-12-v034/inherited-aegis.txt",
+      "rawBytes": 56,
+      "publicBytes": 61
+    },
+    {
+      "path": "intersect/normal03-19/normal-12-v034/inherited-onset.txt",
+      "rawBytes": 29,
+      "publicBytes": 32
+    },
+    {
+      "path": "intersect/normal03-19/normal-12-v034/loaded-watch-version.txt",
+      "rawBytes": 7,
+      "publicBytes": 7
+    },
+    {
+      "path": "intersect/normal03-19/normal-12-v034/map.txt",
+      "rawBytes": 1692,
+      "publicBytes": 1727
+    },
+    {
+      "path": "intersect/normal03-19/normal-12-v034/mission-description.txt",
+      "rawBytes": 139,
+      "publicBytes": 140
+    },
+    {
+      "path": "intersect/normal03-19/normal-12-v034/mission-limits.txt",
+      "rawBytes": 110,
+      "publicBytes": 113
+    },
+    {
+      "path": "intersect/normal03-19/normal-12-v034/objectives.json",
+      "rawBytes": 2,
+      "publicBytes": 2
+    },
+    {
+      "path": "intersect/normal03-19/normal-12-v034/player-losses.csv",
+      "rawBytes": 90,
+      "publicBytes": 93
+    },
+    {
+      "path": "intersect/normal03-19/normal-12-v034/processor-256-307.mlog",
+      "rawBytes": 0,
+      "publicBytes": 0
+    },
+    {
+      "path": "intersect/normal03-19/normal-12-v034/processor-257-307.mlog",
+      "rawBytes": 161,
+      "publicBytes": 167
+    },
+    {
+      "path": "intersect/normal03-19/normal-12-v034/processor-258-307.mlog",
+      "rawBytes": 0,
+      "publicBytes": 0
+    },
+    {
+      "path": "intersect/normal03-19/normal-12-v034/result.txt",
+      "rawBytes": 636,
+      "publicBytes": 658
+    },
+    {
+      "path": "intersect/normal03-19/normal-12-v034/rules-before-save.json",
+      "rawBytes": 29506,
+      "publicBytes": 29506
+    },
+    {
+      "path": "intersect/normal03-19/normal-12-v034/runtime.txt",
+      "rawBytes": 252,
+      "publicBytes": 247
+    },
+    {
+      "path": "intersect/normal03-19/normal-12-v034/save-status.txt",
+      "rawBytes": 64,
+      "publicBytes": 65
+    },
+    {
+      "path": "intersect/normal03-19/normal-12-v034/scores-before.txt",
+      "rawBytes": 102,
+      "publicBytes": 101
+    },
+    {
+      "path": "intersect/normal03-19/normal-12-v034/state-audit-source.java",
+      "rawBytes": 3341,
+      "publicBytes": 3341
+    },
+    {
+      "path": "intersect/normal03-19/normal-12-v034/task-status.csv",
+      "rawBytes": 722,
+      "publicBytes": 736
+    },
+    {
+      "path": "intersect/normal03-19/normal-12-v034/terrain.txt",
+      "rawBytes": 1348,
+      "publicBytes": 1410
+    },
+    {
+      "path": "intersect/normal03-19/normal-12-v034/trial.csv",
+      "rawBytes": 828,
+      "publicBytes": 843
+    },
+    {
+      "path": "intersect/normal03-19/normal-13-v034/actions.txt",
+      "rawBytes": 7055,
+      "publicBytes": 7309
+    },
+    {
+      "path": "intersect/normal03-19/normal-13-v034/army.csv",
+      "rawBytes": 1375,
+      "publicBytes": 1400
+    },
+    {
+      "path": "intersect/normal03-19/normal-13-v034/checkpoint-900-loaded-world.json",
+      "rawBytes": 73014,
+      "publicBytes": 73014
+    },
+    {
+      "path": "intersect/normal03-19/normal-13-v034/checkpoint-900-tags.json",
+      "rawBytes": 32478,
+      "publicBytes": 32478
+    },
+    {
+      "path": "intersect/normal03-19/normal-13-v034/checkpoint-900-world.json",
+      "rawBytes": 73014,
+      "publicBytes": 73014
+    },
+    {
+      "path": "intersect/normal03-19/normal-13-v034/checkpoint-900.msav",
+      "rawBytes": 50239,
+      "publicBytes": 50239
+    },
+    {
+      "path": "intersect/normal03-19/normal-13-v034/checkpoints.txt",
+      "rawBytes": 115,
+      "publicBytes": 116
+    },
+    {
+      "path": "intersect/normal03-19/normal-13-v034/combat.csv",
+      "rawBytes": 712,
+      "publicBytes": 736
+    },
+    {
+      "path": "intersect/normal03-19/normal-13-v034/console.txt",
+      "rawBytes": 2020,
+      "publicBytes": 2020
+    },
+    {
+      "path": "intersect/normal03-19/normal-13-v034/core-health.csv",
+      "rawBytes": 512,
+      "publicBytes": 535
+    },
+    {
+      "path": "intersect/normal03-19/normal-13-v034/diagnostics.txt",
+      "rawBytes": 53168,
+      "publicBytes": 53697
+    },
+    {
+      "path": "intersect/normal03-19/normal-13-v034/driver-source.java",
+      "rawBytes": 44254,
+      "publicBytes": 44229
+    },
+    {
+      "path": "intersect/normal03-19/normal-13-v034/end.msav",
+      "rawBytes": 50274,
+      "publicBytes": 50274
+    },
+    {
+      "path": "intersect/normal03-19/normal-13-v034/enemy-map.txt",
+      "rawBytes": 2280,
+      "publicBytes": 2396
+    },
+    {
+      "path": "intersect/normal03-19/normal-13-v034/final-tags.json",
+      "rawBytes": 32153,
+      "publicBytes": 32153
+    },
+    {
+      "path": "intersect/normal03-19/normal-13-v034/final-world.json",
+      "rawBytes": 71342,
+      "publicBytes": 71342
+    },
+    {
+      "path": "intersect/normal03-19/normal-13-v034/fresh-process-readback/console.txt",
+      "rawBytes": 539,
+      "publicBytes": 529
+    },
+    {
+      "path": "intersect/normal03-19/normal-13-v034/fresh-process-readback/driver-source.java",
+      "rawBytes": 4579,
+      "publicBytes": 4597
+    },
+    {
+      "path": "intersect/normal03-19/normal-13-v034/fresh-process-readback/loaded-tags.json",
+      "rawBytes": 32153,
+      "publicBytes": 32153
+    },
+    {
+      "path": "intersect/normal03-19/normal-13-v034/fresh-process-readback/loaded-watch-version.txt",
+      "rawBytes": 7,
+      "publicBytes": 7
+    },
+    {
+      "path": "intersect/normal03-19/normal-13-v034/fresh-process-readback/loaded-world.json",
+      "rawBytes": 70860,
+      "publicBytes": 70860
+    },
+    {
+      "path": "intersect/normal03-19/normal-13-v034/fresh-process-readback/result.txt",
+      "rawBytes": 516,
+      "publicBytes": 529
+    },
+    {
+      "path": "intersect/normal03-19/normal-13-v034/fresh-process-readback/state-audit-source.java",
+      "rawBytes": 3341,
+      "publicBytes": 3341
+    },
+    {
+      "path": "intersect/normal03-19/normal-13-v034/fresh-process-readback/world-differences.txt",
+      "rawBytes": 397,
+      "publicBytes": 406
+    },
+    {
+      "path": "intersect/normal03-19/normal-13-v034/inherited-aegis.txt",
+      "rawBytes": 56,
+      "publicBytes": 61
+    },
+    {
+      "path": "intersect/normal03-19/normal-13-v034/inherited-onset.txt",
+      "rawBytes": 29,
+      "publicBytes": 32
+    },
+    {
+      "path": "intersect/normal03-19/normal-13-v034/loaded-watch-version.txt",
+      "rawBytes": 7,
+      "publicBytes": 7
+    },
+    {
+      "path": "intersect/normal03-19/normal-13-v034/map.txt",
+      "rawBytes": 1692,
+      "publicBytes": 1727
+    },
+    {
+      "path": "intersect/normal03-19/normal-13-v034/mission-description.txt",
+      "rawBytes": 139,
+      "publicBytes": 140
+    },
+    {
+      "path": "intersect/normal03-19/normal-13-v034/mission-limits.txt",
+      "rawBytes": 110,
+      "publicBytes": 113
+    },
+    {
+      "path": "intersect/normal03-19/normal-13-v034/native-repairs.csv",
+      "rawBytes": 22319,
+      "publicBytes": 22712
+    },
+    {
+      "path": "intersect/normal03-19/normal-13-v034/objectives.json",
+      "rawBytes": 2,
+      "publicBytes": 2
+    },
+    {
+      "path": "intersect/normal03-19/normal-13-v034/player-losses.csv",
+      "rawBytes": 399,
+      "publicBytes": 413
+    },
+    {
+      "path": "intersect/normal03-19/normal-13-v034/processor-256-307.mlog",
+      "rawBytes": 0,
+      "publicBytes": 0
+    },
+    {
+      "path": "intersect/normal03-19/normal-13-v034/processor-257-307.mlog",
+      "rawBytes": 161,
+      "publicBytes": 167
+    },
+    {
+      "path": "intersect/normal03-19/normal-13-v034/processor-258-307.mlog",
+      "rawBytes": 0,
+      "publicBytes": 0
+    },
+    {
+      "path": "intersect/normal03-19/normal-13-v034/repair-health-ticks.csv",
+      "rawBytes": 426345,
+      "publicBytes": 429709
+    },
+    {
+      "path": "intersect/normal03-19/normal-13-v034/result.txt",
+      "rawBytes": 648,
+      "publicBytes": 670
+    },
+    {
+      "path": "intersect/normal03-19/normal-13-v034/rules-before-save.json",
+      "rawBytes": 35861,
+      "publicBytes": 35861
+    },
+    {
+      "path": "intersect/normal03-19/normal-13-v034/runtime.txt",
+      "rawBytes": 252,
+      "publicBytes": 247
+    },
+    {
+      "path": "intersect/normal03-19/normal-13-v034/save-status.txt",
+      "rawBytes": 64,
+      "publicBytes": 65
+    },
+    {
+      "path": "intersect/normal03-19/normal-13-v034/scores-before.txt",
+      "rawBytes": 102,
+      "publicBytes": 101
+    },
+    {
+      "path": "intersect/normal03-19/normal-13-v034/state-audit-source.java",
+      "rawBytes": 3341,
+      "publicBytes": 3341
+    },
+    {
+      "path": "intersect/normal03-19/normal-13-v034/task-status.csv",
+      "rawBytes": 1217,
+      "publicBytes": 1241
+    },
+    {
+      "path": "intersect/normal03-19/normal-13-v034/terrain.txt",
+      "rawBytes": 1348,
+      "publicBytes": 1410
+    },
+    {
+      "path": "intersect/normal03-19/normal-13-v034/trial.csv",
+      "rawBytes": 1402,
+      "publicBytes": 1427
+    },
+    {
+      "path": "intersect/normal03-19/normal-14-v034/actions.txt",
+      "rawBytes": 4132,
+      "publicBytes": 4275
+    },
+    {
+      "path": "intersect/normal03-19/normal-14-v034/combat.csv",
+      "rawBytes": 36,
+      "publicBytes": 38
+    },
+    {
+      "path": "intersect/normal03-19/normal-14-v034/console.txt",
+      "rawBytes": 738,
+      "publicBytes": 738
+    },
+    {
+      "path": "intersect/normal03-19/normal-14-v034/core-health.csv",
+      "rawBytes": 38,
+      "publicBytes": 40
+    },
+    {
+      "path": "intersect/normal03-19/normal-14-v034/diagnostics.txt",
+      "rawBytes": 1334,
+      "publicBytes": 1348
+    },
+    {
+      "path": "intersect/normal03-19/normal-14-v034/driver-source.java",
+      "rawBytes": 45458,
+      "publicBytes": 45433
+    },
+    {
+      "path": "intersect/normal03-19/normal-14-v034/enemy-map.txt",
+      "rawBytes": 2280,
+      "publicBytes": 2396
+    },
+    {
+      "path": "intersect/normal03-19/normal-14-v034/failure.txt",
+      "rawBytes": 288,
+      "publicBytes": 289
+    },
+    {
+      "path": "intersect/normal03-19/normal-14-v034/fresh-process-readback/console.txt",
+      "rawBytes": 611,
+      "publicBytes": 601
+    },
+    {
+      "path": "intersect/normal03-19/normal-14-v034/fresh-process-readback/driver-source.java",
+      "rawBytes": 4900,
+      "publicBytes": 4919
+    },
+    {
+      "path": "intersect/normal03-19/normal-14-v034/fresh-process-readback/loaded-tags.json",
+      "rawBytes": 3056,
+      "publicBytes": 3056
+    },
+    {
+      "path": "intersect/normal03-19/normal-14-v034/fresh-process-readback/loaded-watch-version.txt",
+      "rawBytes": 7,
+      "publicBytes": 7
+    },
+    {
+      "path": "intersect/normal03-19/normal-14-v034/fresh-process-readback/loaded-world.json",
+      "rawBytes": 21445,
+      "publicBytes": 21445
+    },
+    {
+      "path": "intersect/normal03-19/normal-14-v034/fresh-process-readback/result.txt",
+      "rawBytes": 588,
+      "publicBytes": 601
+    },
+    {
+      "path": "intersect/normal03-19/normal-14-v034/fresh-process-readback/state-audit-source.java",
+      "rawBytes": 3341,
+      "publicBytes": 3341
+    },
+    {
+      "path": "intersect/normal03-19/normal-14-v034/fresh-process-readback/world-differences.txt",
+      "rawBytes": 0,
+      "publicBytes": 0
+    },
+    {
+      "path": "intersect/normal03-19/normal-14-v034/inherited-aegis.txt",
+      "rawBytes": 56,
+      "publicBytes": 61
+    },
+    {
+      "path": "intersect/normal03-19/normal-14-v034/inherited-onset.txt",
+      "rawBytes": 29,
+      "publicBytes": 32
+    },
+    {
+      "path": "intersect/normal03-19/normal-14-v034/loaded-watch-version.txt",
+      "rawBytes": 7,
+      "publicBytes": 7
+    },
+    {
+      "path": "intersect/normal03-19/normal-14-v034/map.txt",
+      "rawBytes": 1692,
+      "publicBytes": 1727
+    },
+    {
+      "path": "intersect/normal03-19/normal-14-v034/mission-description.txt",
+      "rawBytes": 139,
+      "publicBytes": 140
+    },
+    {
+      "path": "intersect/normal03-19/normal-14-v034/mission-limits.txt",
+      "rawBytes": 110,
+      "publicBytes": 113
+    },
+    {
+      "path": "intersect/normal03-19/normal-14-v034/objectives.json",
+      "rawBytes": 2,
+      "publicBytes": 2
+    },
+    {
+      "path": "intersect/normal03-19/normal-14-v034/partial.msav",
+      "rawBytes": 44754,
+      "publicBytes": 44754
+    },
+    {
+      "path": "intersect/normal03-19/normal-14-v034/processor-256-307.mlog",
+      "rawBytes": 0,
+      "publicBytes": 0
+    },
+    {
+      "path": "intersect/normal03-19/normal-14-v034/processor-257-307.mlog",
+      "rawBytes": 161,
+      "publicBytes": 167
+    },
+    {
+      "path": "intersect/normal03-19/normal-14-v034/processor-258-307.mlog",
+      "rawBytes": 0,
+      "publicBytes": 0
+    },
+    {
+      "path": "intersect/normal03-19/normal-14-v034/result.txt",
+      "rawBytes": 855,
+      "publicBytes": 877
+    },
+    {
+      "path": "intersect/normal03-19/normal-14-v034/runtime.txt",
+      "rawBytes": 252,
+      "publicBytes": 247
+    },
+    {
+      "path": "intersect/normal03-19/normal-14-v034/scores-before.txt",
+      "rawBytes": 102,
+      "publicBytes": 101
+    },
+    {
+      "path": "intersect/normal03-19/normal-14-v034/state-audit-source.java",
+      "rawBytes": 3341,
+      "publicBytes": 3341
+    },
+    {
+      "path": "intersect/normal03-19/normal-14-v034/task-status.csv",
+      "rawBytes": 96,
+      "publicBytes": 98
+    },
+    {
+      "path": "intersect/normal03-19/normal-14-v034/terrain.txt",
+      "rawBytes": 1348,
+      "publicBytes": 1410
+    },
+    {
+      "path": "intersect/normal03-19/normal-14-v034/trial.csv",
+      "rawBytes": 210,
+      "publicBytes": 213
+    },
+    {
+      "path": "intersect/normal03-19/normal-15-v034/actions.txt",
+      "rawBytes": 4132,
+      "publicBytes": 4275
+    },
+    {
+      "path": "intersect/normal03-19/normal-15-v034/combat.csv",
+      "rawBytes": 36,
+      "publicBytes": 38
+    },
+    {
+      "path": "intersect/normal03-19/normal-15-v034/console.txt",
+      "rawBytes": 738,
+      "publicBytes": 738
+    },
+    {
+      "path": "intersect/normal03-19/normal-15-v034/core-health.csv",
+      "rawBytes": 38,
+      "publicBytes": 40
+    },
+    {
+      "path": "intersect/normal03-19/normal-15-v034/diagnostics.txt",
+      "rawBytes": 1334,
+      "publicBytes": 1348
+    },
+    {
+      "path": "intersect/normal03-19/normal-15-v034/driver-source.java",
+      "rawBytes": 45458,
+      "publicBytes": 45433
+    },
+    {
+      "path": "intersect/normal03-19/normal-15-v034/enemy-map.txt",
+      "rawBytes": 2280,
+      "publicBytes": 2396
+    },
+    {
+      "path": "intersect/normal03-19/normal-15-v034/failure.txt",
+      "rawBytes": 288,
+      "publicBytes": 289
+    },
+    {
+      "path": "intersect/normal03-19/normal-15-v034/fresh-process-readback/console.txt",
+      "rawBytes": 611,
+      "publicBytes": 601
+    },
+    {
+      "path": "intersect/normal03-19/normal-15-v034/fresh-process-readback/driver-source.java",
+      "rawBytes": 4900,
+      "publicBytes": 4919
+    },
+    {
+      "path": "intersect/normal03-19/normal-15-v034/fresh-process-readback/loaded-tags.json",
+      "rawBytes": 3056,
+      "publicBytes": 3056
+    },
+    {
+      "path": "intersect/normal03-19/normal-15-v034/fresh-process-readback/loaded-watch-version.txt",
+      "rawBytes": 7,
+      "publicBytes": 7
+    },
+    {
+      "path": "intersect/normal03-19/normal-15-v034/fresh-process-readback/loaded-world.json",
+      "rawBytes": 21445,
+      "publicBytes": 21445
+    },
+    {
+      "path": "intersect/normal03-19/normal-15-v034/fresh-process-readback/result.txt",
+      "rawBytes": 588,
+      "publicBytes": 601
+    },
+    {
+      "path": "intersect/normal03-19/normal-15-v034/fresh-process-readback/state-audit-source.java",
+      "rawBytes": 3341,
+      "publicBytes": 3341
+    },
+    {
+      "path": "intersect/normal03-19/normal-15-v034/fresh-process-readback/world-differences.txt",
+      "rawBytes": 0,
+      "publicBytes": 0
+    },
+    {
+      "path": "intersect/normal03-19/normal-15-v034/inherited-aegis.txt",
+      "rawBytes": 56,
+      "publicBytes": 61
+    },
+    {
+      "path": "intersect/normal03-19/normal-15-v034/inherited-onset.txt",
+      "rawBytes": 29,
+      "publicBytes": 32
+    },
+    {
+      "path": "intersect/normal03-19/normal-15-v034/loaded-watch-version.txt",
+      "rawBytes": 7,
+      "publicBytes": 7
+    },
+    {
+      "path": "intersect/normal03-19/normal-15-v034/map.txt",
+      "rawBytes": 1692,
+      "publicBytes": 1727
+    },
+    {
+      "path": "intersect/normal03-19/normal-15-v034/mission-description.txt",
+      "rawBytes": 139,
+      "publicBytes": 140
+    },
+    {
+      "path": "intersect/normal03-19/normal-15-v034/mission-limits.txt",
+      "rawBytes": 110,
+      "publicBytes": 113
+    },
+    {
+      "path": "intersect/normal03-19/normal-15-v034/objectives.json",
+      "rawBytes": 2,
+      "publicBytes": 2
+    },
+    {
+      "path": "intersect/normal03-19/normal-15-v034/partial.msav",
+      "rawBytes": 44976,
+      "publicBytes": 44976
+    },
+    {
+      "path": "intersect/normal03-19/normal-15-v034/processor-256-307.mlog",
+      "rawBytes": 0,
+      "publicBytes": 0
+    },
+    {
+      "path": "intersect/normal03-19/normal-15-v034/processor-257-307.mlog",
+      "rawBytes": 161,
+      "publicBytes": 167
+    },
+    {
+      "path": "intersect/normal03-19/normal-15-v034/processor-258-307.mlog",
+      "rawBytes": 0,
+      "publicBytes": 0
+    },
+    {
+      "path": "intersect/normal03-19/normal-15-v034/result.txt",
+      "rawBytes": 855,
+      "publicBytes": 877
+    },
+    {
+      "path": "intersect/normal03-19/normal-15-v034/runtime.txt",
+      "rawBytes": 252,
+      "publicBytes": 247
+    },
+    {
+      "path": "intersect/normal03-19/normal-15-v034/scores-before.txt",
+      "rawBytes": 102,
+      "publicBytes": 101
+    },
+    {
+      "path": "intersect/normal03-19/normal-15-v034/state-audit-source.java",
+      "rawBytes": 3341,
+      "publicBytes": 3341
+    },
+    {
+      "path": "intersect/normal03-19/normal-15-v034/task-status.csv",
+      "rawBytes": 96,
+      "publicBytes": 98
+    },
+    {
+      "path": "intersect/normal03-19/normal-15-v034/terrain.txt",
+      "rawBytes": 1348,
+      "publicBytes": 1410
+    },
+    {
+      "path": "intersect/normal03-19/normal-15-v034/trial.csv",
+      "rawBytes": 210,
+      "publicBytes": 213
+    },
+    {
+      "path": "intersect/normal03-19/normal-16-v034/actions.txt",
+      "rawBytes": 4132,
+      "publicBytes": 4275
+    },
+    {
+      "path": "intersect/normal03-19/normal-16-v034/combat.csv",
+      "rawBytes": 36,
+      "publicBytes": 38
+    },
+    {
+      "path": "intersect/normal03-19/normal-16-v034/console.txt",
+      "rawBytes": 757,
+      "publicBytes": 757
+    },
+    {
+      "path": "intersect/normal03-19/normal-16-v034/core-health.csv",
+      "rawBytes": 38,
+      "publicBytes": 40
+    },
+    {
+      "path": "intersect/normal03-19/normal-16-v034/diagnostics.txt",
+      "rawBytes": 1334,
+      "publicBytes": 1348
+    },
+    {
+      "path": "intersect/normal03-19/normal-16-v034/driver-source.java",
+      "rawBytes": 45662,
+      "publicBytes": 45637
+    },
+    {
+      "path": "intersect/normal03-19/normal-16-v034/enemy-map.txt",
+      "rawBytes": 2280,
+      "publicBytes": 2396
+    },
+    {
+      "path": "intersect/normal03-19/normal-16-v034/failure.txt",
+      "rawBytes": 307,
+      "publicBytes": 308
+    },
+    {
+      "path": "intersect/normal03-19/normal-16-v034/fresh-process-readback/console.txt",
+      "rawBytes": 611,
+      "publicBytes": 601
+    },
+    {
+      "path": "intersect/normal03-19/normal-16-v034/fresh-process-readback/driver-source.java",
+      "rawBytes": 4900,
+      "publicBytes": 4919
+    },
+    {
+      "path": "intersect/normal03-19/normal-16-v034/fresh-process-readback/loaded-tags.json",
+      "rawBytes": 3056,
+      "publicBytes": 3056
+    },
+    {
+      "path": "intersect/normal03-19/normal-16-v034/fresh-process-readback/loaded-watch-version.txt",
+      "rawBytes": 7,
+      "publicBytes": 7
+    },
+    {
+      "path": "intersect/normal03-19/normal-16-v034/fresh-process-readback/loaded-world.json",
+      "rawBytes": 21445,
+      "publicBytes": 21445
+    },
+    {
+      "path": "intersect/normal03-19/normal-16-v034/fresh-process-readback/result.txt",
+      "rawBytes": 588,
+      "publicBytes": 601
+    },
+    {
+      "path": "intersect/normal03-19/normal-16-v034/fresh-process-readback/state-audit-source.java",
+      "rawBytes": 3341,
+      "publicBytes": 3341
+    },
+    {
+      "path": "intersect/normal03-19/normal-16-v034/fresh-process-readback/world-differences.txt",
+      "rawBytes": 0,
+      "publicBytes": 0
+    },
+    {
+      "path": "intersect/normal03-19/normal-16-v034/inherited-aegis.txt",
+      "rawBytes": 56,
+      "publicBytes": 61
+    },
+    {
+      "path": "intersect/normal03-19/normal-16-v034/inherited-onset.txt",
+      "rawBytes": 29,
+      "publicBytes": 32
+    },
+    {
+      "path": "intersect/normal03-19/normal-16-v034/loaded-watch-version.txt",
+      "rawBytes": 7,
+      "publicBytes": 7
+    },
+    {
+      "path": "intersect/normal03-19/normal-16-v034/map.txt",
+      "rawBytes": 1692,
+      "publicBytes": 1727
+    },
+    {
+      "path": "intersect/normal03-19/normal-16-v034/mission-description.txt",
+      "rawBytes": 139,
+      "publicBytes": 140
+    },
+    {
+      "path": "intersect/normal03-19/normal-16-v034/mission-limits.txt",
+      "rawBytes": 110,
+      "publicBytes": 113
+    },
+    {
+      "path": "intersect/normal03-19/normal-16-v034/objectives.json",
+      "rawBytes": 2,
+      "publicBytes": 2
+    },
+    {
+      "path": "intersect/normal03-19/normal-16-v034/partial.msav",
+      "rawBytes": 44950,
+      "publicBytes": 44950
+    },
+    {
+      "path": "intersect/normal03-19/normal-16-v034/processor-256-307.mlog",
+      "rawBytes": 0,
+      "publicBytes": 0
+    },
+    {
+      "path": "intersect/normal03-19/normal-16-v034/processor-257-307.mlog",
+      "rawBytes": 161,
+      "publicBytes": 167
+    },
+    {
+      "path": "intersect/normal03-19/normal-16-v034/processor-258-307.mlog",
+      "rawBytes": 0,
+      "publicBytes": 0
+    },
+    {
+      "path": "intersect/normal03-19/normal-16-v034/result.txt",
+      "rawBytes": 874,
+      "publicBytes": 896
+    },
+    {
+      "path": "intersect/normal03-19/normal-16-v034/runtime.txt",
+      "rawBytes": 252,
+      "publicBytes": 247
+    },
+    {
+      "path": "intersect/normal03-19/normal-16-v034/scores-before.txt",
+      "rawBytes": 102,
+      "publicBytes": 101
+    },
+    {
+      "path": "intersect/normal03-19/normal-16-v034/state-audit-source.java",
+      "rawBytes": 3341,
+      "publicBytes": 3341
+    },
+    {
+      "path": "intersect/normal03-19/normal-16-v034/task-status.csv",
+      "rawBytes": 96,
+      "publicBytes": 98
+    },
+    {
+      "path": "intersect/normal03-19/normal-16-v034/terrain.txt",
+      "rawBytes": 1348,
+      "publicBytes": 1410
+    },
+    {
+      "path": "intersect/normal03-19/normal-16-v034/trial.csv",
+      "rawBytes": 210,
+      "publicBytes": 213
+    },
+    {
+      "path": "intersect/normal03-19/normal-17-route-diagnostic-v034/actions.txt",
+      "rawBytes": 4132,
+      "publicBytes": 4275
+    },
+    {
+      "path": "intersect/normal03-19/normal-17-route-diagnostic-v034/combat.csv",
+      "rawBytes": 36,
+      "publicBytes": 38
+    },
+    {
+      "path": "intersect/normal03-19/normal-17-route-diagnostic-v034/console.txt",
+      "rawBytes": 757,
+      "publicBytes": 757
+    },
+    {
+      "path": "intersect/normal03-19/normal-17-route-diagnostic-v034/core-health.csv",
+      "rawBytes": 38,
+      "publicBytes": 40
+    },
+    {
+      "path": "intersect/normal03-19/normal-17-route-diagnostic-v034/diagnostics.txt",
+      "rawBytes": 1334,
+      "publicBytes": 1348
+    },
+    {
+      "path": "intersect/normal03-19/normal-17-route-diagnostic-v034/driver-source.java",
+      "rawBytes": 46405,
+      "publicBytes": 46380
+    },
+    {
+      "path": "intersect/normal03-19/normal-17-route-diagnostic-v034/enemy-map.txt",
+      "rawBytes": 2280,
+      "publicBytes": 2396
+    },
+    {
+      "path": "intersect/normal03-19/normal-17-route-diagnostic-v034/failure.txt",
+      "rawBytes": 307,
+      "publicBytes": 308
+    },
+    {
+      "path": "intersect/normal03-19/normal-17-route-diagnostic-v034/fresh-process-readback/console.txt",
+      "rawBytes": 628,
+      "publicBytes": 618
+    },
+    {
+      "path": "intersect/normal03-19/normal-17-route-diagnostic-v034/fresh-process-readback/driver-source.java",
+      "rawBytes": 4900,
+      "publicBytes": 4919
+    },
+    {
+      "path": "intersect/normal03-19/normal-17-route-diagnostic-v034/fresh-process-readback/loaded-tags.json",
+      "rawBytes": 3056,
+      "publicBytes": 3056
+    },
+    {
+      "path": "intersect/normal03-19/normal-17-route-diagnostic-v034/fresh-process-readback/loaded-watch-version.txt",
+      "rawBytes": 7,
+      "publicBytes": 7
+    },
+    {
+      "path": "intersect/normal03-19/normal-17-route-diagnostic-v034/fresh-process-readback/loaded-world.json",
+      "rawBytes": 21445,
+      "publicBytes": 21445
+    },
+    {
+      "path": "intersect/normal03-19/normal-17-route-diagnostic-v034/fresh-process-readback/result.txt",
+      "rawBytes": 605,
+      "publicBytes": 618
+    },
+    {
+      "path": "intersect/normal03-19/normal-17-route-diagnostic-v034/fresh-process-readback/state-audit-source.java",
+      "rawBytes": 3341,
+      "publicBytes": 3341
+    },
+    {
+      "path": "intersect/normal03-19/normal-17-route-diagnostic-v034/fresh-process-readback/world-differences.txt",
+      "rawBytes": 0,
+      "publicBytes": 0
+    },
+    {
+      "path": "intersect/normal03-19/normal-17-route-diagnostic-v034/inherited-aegis.txt",
+      "rawBytes": 56,
+      "publicBytes": 61
+    },
+    {
+      "path": "intersect/normal03-19/normal-17-route-diagnostic-v034/inherited-onset.txt",
+      "rawBytes": 29,
+      "publicBytes": 32
+    },
+    {
+      "path": "intersect/normal03-19/normal-17-route-diagnostic-v034/loaded-watch-version.txt",
+      "rawBytes": 7,
+      "publicBytes": 7
+    },
+    {
+      "path": "intersect/normal03-19/normal-17-route-diagnostic-v034/map.txt",
+      "rawBytes": 1692,
+      "publicBytes": 1727
+    },
+    {
+      "path": "intersect/normal03-19/normal-17-route-diagnostic-v034/mission-description.txt",
+      "rawBytes": 139,
+      "publicBytes": 140
+    },
+    {
+      "path": "intersect/normal03-19/normal-17-route-diagnostic-v034/mission-limits.txt",
+      "rawBytes": 110,
+      "publicBytes": 113
+    },
+    {
+      "path": "intersect/normal03-19/normal-17-route-diagnostic-v034/objectives.json",
+      "rawBytes": 2,
+      "publicBytes": 2
+    },
+    {
+      "path": "intersect/normal03-19/normal-17-route-diagnostic-v034/partial.msav",
+      "rawBytes": 44979,
+      "publicBytes": 44979
+    },
+    {
+      "path": "intersect/normal03-19/normal-17-route-diagnostic-v034/processor-256-307.mlog",
+      "rawBytes": 0,
+      "publicBytes": 0
+    },
+    {
+      "path": "intersect/normal03-19/normal-17-route-diagnostic-v034/processor-257-307.mlog",
+      "rawBytes": 161,
+      "publicBytes": 167
+    },
+    {
+      "path": "intersect/normal03-19/normal-17-route-diagnostic-v034/processor-258-307.mlog",
+      "rawBytes": 0,
+      "publicBytes": 0
+    },
+    {
+      "path": "intersect/normal03-19/normal-17-route-diagnostic-v034/result.txt",
+      "rawBytes": 874,
+      "publicBytes": 896
+    },
+    {
+      "path": "intersect/normal03-19/normal-17-route-diagnostic-v034/route-stop-diagnostic.txt",
+      "rawBytes": 921,
+      "publicBytes": 927
+    },
+    {
+      "path": "intersect/normal03-19/normal-17-route-diagnostic-v034/runtime.txt",
+      "rawBytes": 269,
+      "publicBytes": 264
+    },
+    {
+      "path": "intersect/normal03-19/normal-17-route-diagnostic-v034/scores-before.txt",
+      "rawBytes": 102,
+      "publicBytes": 101
+    },
+    {
+      "path": "intersect/normal03-19/normal-17-route-diagnostic-v034/state-audit-source.java",
+      "rawBytes": 3341,
+      "publicBytes": 3341
+    },
+    {
+      "path": "intersect/normal03-19/normal-17-route-diagnostic-v034/task-status.csv",
+      "rawBytes": 96,
+      "publicBytes": 98
+    },
+    {
+      "path": "intersect/normal03-19/normal-17-route-diagnostic-v034/terrain.txt",
+      "rawBytes": 1348,
+      "publicBytes": 1410
+    },
+    {
+      "path": "intersect/normal03-19/normal-17-route-diagnostic-v034/trial.csv",
+      "rawBytes": 210,
+      "publicBytes": 213
+    },
+    {
+      "path": "intersect/normal03-19/normal-18-v034/actions.txt",
+      "rawBytes": 6788,
+      "publicBytes": 7034
+    },
+    {
+      "path": "intersect/normal03-19/normal-18-v034/combat.csv",
+      "rawBytes": 36,
+      "publicBytes": 38
+    },
+    {
+      "path": "intersect/normal03-19/normal-18-v034/console.txt",
+      "rawBytes": 694,
+      "publicBytes": 694
+    },
+    {
+      "path": "intersect/normal03-19/normal-18-v034/core-health.csv",
+      "rawBytes": 38,
+      "publicBytes": 40
+    },
+    {
+      "path": "intersect/normal03-19/normal-18-v034/diagnostics.txt",
+      "rawBytes": 1334,
+      "publicBytes": 1348
+    },
+    {
+      "path": "intersect/normal03-19/normal-18-v034/driver-source.java",
+      "rawBytes": 46700,
+      "publicBytes": 46675
+    },
+    {
+      "path": "intersect/normal03-19/normal-18-v034/enemy-map.txt",
+      "rawBytes": 2280,
+      "publicBytes": 2396
+    },
+    {
+      "path": "intersect/normal03-19/normal-18-v034/failure.txt",
+      "rawBytes": 294,
+      "publicBytes": 295
+    },
+    {
+      "path": "intersect/normal03-19/normal-18-v034/fresh-process-readback/console.txt",
+      "rawBytes": 611,
+      "publicBytes": 601
+    },
+    {
+      "path": "intersect/normal03-19/normal-18-v034/fresh-process-readback/driver-source.java",
+      "rawBytes": 4900,
+      "publicBytes": 4919
+    },
+    {
+      "path": "intersect/normal03-19/normal-18-v034/fresh-process-readback/loaded-tags.json",
+      "rawBytes": 3056,
+      "publicBytes": 3056
+    },
+    {
+      "path": "intersect/normal03-19/normal-18-v034/fresh-process-readback/loaded-watch-version.txt",
+      "rawBytes": 7,
+      "publicBytes": 7
+    },
+    {
+      "path": "intersect/normal03-19/normal-18-v034/fresh-process-readback/loaded-world.json",
+      "rawBytes": 21445,
+      "publicBytes": 21445
+    },
+    {
+      "path": "intersect/normal03-19/normal-18-v034/fresh-process-readback/result.txt",
+      "rawBytes": 588,
+      "publicBytes": 601
+    },
+    {
+      "path": "intersect/normal03-19/normal-18-v034/fresh-process-readback/state-audit-source.java",
+      "rawBytes": 3341,
+      "publicBytes": 3341
+    },
+    {
+      "path": "intersect/normal03-19/normal-18-v034/fresh-process-readback/world-differences.txt",
+      "rawBytes": 0,
+      "publicBytes": 0
+    },
+    {
+      "path": "intersect/normal03-19/normal-18-v034/inherited-aegis.txt",
+      "rawBytes": 56,
+      "publicBytes": 61
+    },
+    {
+      "path": "intersect/normal03-19/normal-18-v034/inherited-onset.txt",
+      "rawBytes": 29,
+      "publicBytes": 32
+    },
+    {
+      "path": "intersect/normal03-19/normal-18-v034/loaded-watch-version.txt",
+      "rawBytes": 7,
+      "publicBytes": 7
+    },
+    {
+      "path": "intersect/normal03-19/normal-18-v034/map.txt",
+      "rawBytes": 1692,
+      "publicBytes": 1727
+    },
+    {
+      "path": "intersect/normal03-19/normal-18-v034/mission-description.txt",
+      "rawBytes": 139,
+      "publicBytes": 140
+    },
+    {
+      "path": "intersect/normal03-19/normal-18-v034/mission-limits.txt",
+      "rawBytes": 110,
+      "publicBytes": 113
+    },
+    {
+      "path": "intersect/normal03-19/normal-18-v034/objectives.json",
+      "rawBytes": 2,
+      "publicBytes": 2
+    },
+    {
+      "path": "intersect/normal03-19/normal-18-v034/partial.msav",
+      "rawBytes": 45019,
+      "publicBytes": 45019
+    },
+    {
+      "path": "intersect/normal03-19/normal-18-v034/processor-256-307.mlog",
+      "rawBytes": 0,
+      "publicBytes": 0
+    },
+    {
+      "path": "intersect/normal03-19/normal-18-v034/processor-257-307.mlog",
+      "rawBytes": 161,
+      "publicBytes": 167
+    },
+    {
+      "path": "intersect/normal03-19/normal-18-v034/processor-258-307.mlog",
+      "rawBytes": 0,
+      "publicBytes": 0
+    },
+    {
+      "path": "intersect/normal03-19/normal-18-v034/result.txt",
+      "rawBytes": 861,
+      "publicBytes": 883
+    },
+    {
+      "path": "intersect/normal03-19/normal-18-v034/runtime.txt",
+      "rawBytes": 252,
+      "publicBytes": 247
+    },
+    {
+      "path": "intersect/normal03-19/normal-18-v034/scores-before.txt",
+      "rawBytes": 102,
+      "publicBytes": 101
+    },
+    {
+      "path": "intersect/normal03-19/normal-18-v034/state-audit-source.java",
+      "rawBytes": 3341,
+      "publicBytes": 3341
+    },
+    {
+      "path": "intersect/normal03-19/normal-18-v034/task-status.csv",
+      "rawBytes": 96,
+      "publicBytes": 98
+    },
+    {
+      "path": "intersect/normal03-19/normal-18-v034/terrain.txt",
+      "rawBytes": 1348,
+      "publicBytes": 1410
+    },
+    {
+      "path": "intersect/normal03-19/normal-18-v034/trial.csv",
+      "rawBytes": 210,
+      "publicBytes": 213
+    },
+    {
+      "path": "intersect/normal03-19/normal-19-v034/actions.txt",
+      "rawBytes": 6788,
+      "publicBytes": 7034
+    },
+    {
+      "path": "intersect/normal03-19/normal-19-v034/army.csv",
+      "rawBytes": 58463,
+      "publicBytes": 59445
+    },
+    {
+      "path": "intersect/normal03-19/normal-19-v034/assault-stage.csv",
+      "rawBytes": 29353,
+      "publicBytes": 29952
+    },
+    {
+      "path": "intersect/normal03-19/normal-19-v034/assault.csv",
+      "rawBytes": 3498611,
+      "publicBytes": 3543536
+    },
+    {
+      "path": "intersect/normal03-19/normal-19-v034/checkpoint-2400-loaded-world.json",
+      "rawBytes": 73966,
+      "publicBytes": 73966
+    },
+    {
+      "path": "intersect/normal03-19/normal-19-v034/checkpoint-2400-tags.json",
+      "rawBytes": 32808,
+      "publicBytes": 32808
+    },
+    {
+      "path": "intersect/normal03-19/normal-19-v034/checkpoint-2400-world.json",
+      "rawBytes": 73966,
+      "publicBytes": 73966
+    },
+    {
+      "path": "intersect/normal03-19/normal-19-v034/checkpoint-2400.msav",
+      "rawBytes": 50878,
+      "publicBytes": 50878
+    },
+    {
+      "path": "intersect/normal03-19/normal-19-v034/checkpoint-900-loaded-world.json",
+      "rawBytes": 69533,
+      "publicBytes": 69533
+    },
+    {
+      "path": "intersect/normal03-19/normal-19-v034/checkpoint-900-tags.json",
+      "rawBytes": 31430,
+      "publicBytes": 31430
+    },
+    {
+      "path": "intersect/normal03-19/normal-19-v034/checkpoint-900-world.json",
+      "rawBytes": 69533,
+      "publicBytes": 69533
+    },
+    {
+      "path": "intersect/normal03-19/normal-19-v034/checkpoint-900.msav",
+      "rawBytes": 50170,
+      "publicBytes": 50170
+    },
+    {
+      "path": "intersect/normal03-19/normal-19-v034/checkpoints.txt",
+      "rawBytes": 232,
+      "publicBytes": 234
+    },
+    {
+      "path": "intersect/normal03-19/normal-19-v034/combat.csv",
+      "rawBytes": 2771,
+      "publicBytes": 2853
+    },
+    {
+      "path": "intersect/normal03-19/normal-19-v034/console.txt",
+      "rawBytes": 7248,
+      "publicBytes": 7248
+    },
+    {
+      "path": "intersect/normal03-19/normal-19-v034/core-health.csv",
+      "rawBytes": 1951,
+      "publicBytes": 2033
+    },
+    {
+      "path": "intersect/normal03-19/normal-19-v034/diagnostics.txt",
+      "rawBytes": 204781,
+      "publicBytes": 206879
+    },
+    {
+      "path": "intersect/normal03-19/normal-19-v034/driver-source.java",
+      "rawBytes": 46771,
+      "publicBytes": 46746
+    },
+    {
+      "path": "intersect/normal03-19/normal-19-v034/end.msav",
+      "rawBytes": 50744,
+      "publicBytes": 50744
+    },
+    {
+      "path": "intersect/normal03-19/normal-19-v034/enemy-map.txt",
+      "rawBytes": 2280,
+      "publicBytes": 2396
+    },
+    {
+      "path": "intersect/normal03-19/normal-19-v034/final-tags.json",
+      "rawBytes": 32809,
+      "publicBytes": 32809
+    },
+    {
+      "path": "intersect/normal03-19/normal-19-v034/final-world.json",
+      "rawBytes": 73720,
+      "publicBytes": 73720
+    },
+    {
+      "path": "intersect/normal03-19/normal-19-v034/fresh-process-readback/console.txt",
+      "rawBytes": 540,
+      "publicBytes": 530
+    },
+    {
+      "path": "intersect/normal03-19/normal-19-v034/fresh-process-readback/driver-source.java",
+      "rawBytes": 4579,
+      "publicBytes": 4597
+    },
+    {
+      "path": "intersect/normal03-19/normal-19-v034/fresh-process-readback/loaded-tags.json",
+      "rawBytes": 32809,
+      "publicBytes": 32809
+    },
+    {
+      "path": "intersect/normal03-19/normal-19-v034/fresh-process-readback/loaded-watch-version.txt",
+      "rawBytes": 7,
+      "publicBytes": 7
+    },
+    {
+      "path": "intersect/normal03-19/normal-19-v034/fresh-process-readback/loaded-world.json",
+      "rawBytes": 73720,
+      "publicBytes": 73720
+    },
+    {
+      "path": "intersect/normal03-19/normal-19-v034/fresh-process-readback/result.txt",
+      "rawBytes": 517,
+      "publicBytes": 530
+    },
+    {
+      "path": "intersect/normal03-19/normal-19-v034/fresh-process-readback/state-audit-source.java",
+      "rawBytes": 3341,
+      "publicBytes": 3341
+    },
+    {
+      "path": "intersect/normal03-19/normal-19-v034/fresh-process-readback/world-differences.txt",
+      "rawBytes": 0,
+      "publicBytes": 0
+    },
+    {
+      "path": "intersect/normal03-19/normal-19-v034/inherited-aegis.txt",
+      "rawBytes": 56,
+      "publicBytes": 61
+    },
+    {
+      "path": "intersect/normal03-19/normal-19-v034/inherited-onset.txt",
+      "rawBytes": 29,
+      "publicBytes": 32
+    },
+    {
+      "path": "intersect/normal03-19/normal-19-v034/loaded-watch-version.txt",
+      "rawBytes": 7,
+      "publicBytes": 7
+    },
+    {
+      "path": "intersect/normal03-19/normal-19-v034/map.txt",
+      "rawBytes": 1692,
+      "publicBytes": 1727
+    },
+    {
+      "path": "intersect/normal03-19/normal-19-v034/mission-description.txt",
+      "rawBytes": 139,
+      "publicBytes": 140
+    },
+    {
+      "path": "intersect/normal03-19/normal-19-v034/mission-limits.txt",
+      "rawBytes": 110,
+      "publicBytes": 113
+    },
+    {
+      "path": "intersect/normal03-19/normal-19-v034/native-repairs.csv",
+      "rawBytes": 15732,
+      "publicBytes": 16039
+    },
+    {
+      "path": "intersect/normal03-19/normal-19-v034/objectives.json",
+      "rawBytes": 2,
+      "publicBytes": 2
+    },
+    {
+      "path": "intersect/normal03-19/normal-19-v034/player-losses.csv",
+      "rawBytes": 668,
+      "publicBytes": 691
+    },
+    {
+      "path": "intersect/normal03-19/normal-19-v034/processor-256-307.mlog",
+      "rawBytes": 0,
+      "publicBytes": 0
+    },
+    {
+      "path": "intersect/normal03-19/normal-19-v034/processor-257-307.mlog",
+      "rawBytes": 161,
+      "publicBytes": 167
+    },
+    {
+      "path": "intersect/normal03-19/normal-19-v034/processor-258-307.mlog",
+      "rawBytes": 0,
+      "publicBytes": 0
+    },
+    {
+      "path": "intersect/normal03-19/normal-19-v034/repair-health-ticks.csv",
+      "rawBytes": 798418,
+      "publicBytes": 804574
+    },
+    {
+      "path": "intersect/normal03-19/normal-19-v034/result.txt",
+      "rawBytes": 505,
+      "publicBytes": 527
+    },
+    {
+      "path": "intersect/normal03-19/normal-19-v034/rules-before-save.json",
+      "rawBytes": 36522,
+      "publicBytes": 36522
+    },
+    {
+      "path": "intersect/normal03-19/normal-19-v034/runtime.txt",
+      "rawBytes": 252,
+      "publicBytes": 247
+    },
+    {
+      "path": "intersect/normal03-19/normal-19-v034/save-status.txt",
+      "rawBytes": 64,
+      "publicBytes": 65
+    },
+    {
+      "path": "intersect/normal03-19/normal-19-v034/scores-before.txt",
+      "rawBytes": 102,
+      "publicBytes": 101
+    },
+    {
+      "path": "intersect/normal03-19/normal-19-v034/state-audit-source.java",
+      "rawBytes": 3341,
+      "publicBytes": 3341
+    },
+    {
+      "path": "intersect/normal03-19/normal-19-v034/task-status.csv",
+      "rawBytes": 4087,
+      "publicBytes": 4169
+    },
+    {
+      "path": "intersect/normal03-19/normal-19-v034/terrain.txt",
+      "rawBytes": 1348,
+      "publicBytes": 1410
+    },
+    {
+      "path": "intersect/normal03-19/normal-19-v034/trial.csv",
+      "rawBytes": 5179,
+      "publicBytes": 5262
+    },
+    {
+      "path": "intersect/normal20-22/INDEX.md",
+      "rawBytes": 2944,
+      "publicBytes": 2939
+    },
+    {
+      "path": "intersect/normal20-22/normal-20-v034/actions.txt",
+      "rawBytes": 9720,
+      "publicBytes": 10088
+    },
+    {
+      "path": "intersect/normal20-22/normal-20-v034/army.csv",
+      "rawBytes": 58354,
+      "publicBytes": 59341
+    },
+    {
+      "path": "intersect/normal20-22/normal-20-v034/checkpoint-2400-loaded-world.json",
+      "rawBytes": 96066,
+      "publicBytes": 96066
+    },
+    {
+      "path": "intersect/normal20-22/normal-20-v034/checkpoint-2400-tags.json",
+      "rawBytes": 47798,
+      "publicBytes": 47798
+    },
+    {
+      "path": "intersect/normal20-22/normal-20-v034/checkpoint-2400-world.json",
+      "rawBytes": 96066,
+      "publicBytes": 96066
+    },
+    {
+      "path": "intersect/normal20-22/normal-20-v034/checkpoint-2400.msav",
+      "rawBytes": 52546,
+      "publicBytes": 52546
+    },
+    {
+      "path": "intersect/normal20-22/normal-20-v034/checkpoint-900-loaded-world.json",
+      "rawBytes": 91117,
+      "publicBytes": 91117
+    },
+    {
+      "path": "intersect/normal20-22/normal-20-v034/checkpoint-900-tags.json",
+      "rawBytes": 45709,
+      "publicBytes": 45709
+    },
+    {
+      "path": "intersect/normal20-22/normal-20-v034/checkpoint-900-world.json",
+      "rawBytes": 91117,
+      "publicBytes": 91117
+    },
+    {
+      "path": "intersect/normal20-22/normal-20-v034/checkpoint-900.msav",
+      "rawBytes": 51849,
+      "publicBytes": 51849
+    },
+    {
+      "path": "intersect/normal20-22/normal-20-v034/checkpoints.txt",
+      "rawBytes": 231,
+      "publicBytes": 233
+    },
+    {
+      "path": "intersect/normal20-22/normal-20-v034/combat.csv",
+      "rawBytes": 2726,
+      "publicBytes": 2808
+    },
+    {
+      "path": "intersect/normal20-22/normal-20-v034/console.txt",
+      "rawBytes": 7170,
+      "publicBytes": 7170
+    },
+    {
+      "path": "intersect/normal20-22/normal-20-v034/core-health.csv",
+      "rawBytes": 1958,
+      "publicBytes": 2040
+    },
+    {
+      "path": "intersect/normal20-22/normal-20-v034/diagnostics.txt",
+      "rawBytes": 224429,
+      "publicBytes": 226691
+    },
+    {
+      "path": "intersect/normal20-22/normal-20-v034/driver-source.java",
+      "rawBytes": 47555,
+      "publicBytes": 47530
+    },
+    {
+      "path": "intersect/normal20-22/normal-20-v034/end.msav",
+      "rawBytes": 52400,
+      "publicBytes": 52400
+    },
+    {
+      "path": "intersect/normal20-22/normal-20-v034/enemy-map.txt",
+      "rawBytes": 2280,
+      "publicBytes": 2396
+    },
+    {
+      "path": "intersect/normal20-22/normal-20-v034/final-tags.json",
+      "rawBytes": 47799,
+      "publicBytes": 47799
+    },
+    {
+      "path": "intersect/normal20-22/normal-20-v034/final-world.json",
+      "rawBytes": 95818,
+      "publicBytes": 95818
+    },
+    {
+      "path": "intersect/normal20-22/normal-20-v034/fresh-process-readback/console.txt",
+      "rawBytes": 584,
+      "publicBytes": 574
+    },
+    {
+      "path": "intersect/normal20-22/normal-20-v034/fresh-process-readback/driver-source.java",
+      "rawBytes": 5372,
+      "publicBytes": 5393
+    },
+    {
+      "path": "intersect/normal20-22/normal-20-v034/fresh-process-readback/loaded-tags.json",
+      "rawBytes": 47799,
+      "publicBytes": 47799
+    },
+    {
+      "path": "intersect/normal20-22/normal-20-v034/fresh-process-readback/loaded-watch-version.txt",
+      "rawBytes": 7,
+      "publicBytes": 7
+    },
+    {
+      "path": "intersect/normal20-22/normal-20-v034/fresh-process-readback/loaded-world.json",
+      "rawBytes": 95818,
+      "publicBytes": 95818
+    },
+    {
+      "path": "intersect/normal20-22/normal-20-v034/fresh-process-readback/result.txt",
+      "rawBytes": 558,
+      "publicBytes": 574
+    },
+    {
+      "path": "intersect/normal20-22/normal-20-v034/fresh-process-readback/state-audit-source.java",
+      "rawBytes": 3341,
+      "publicBytes": 3341
+    },
+    {
+      "path": "intersect/normal20-22/normal-20-v034/fresh-process-readback/world-differences.txt",
+      "rawBytes": 0,
+      "publicBytes": 0
+    },
+    {
+      "path": "intersect/normal20-22/normal-20-v034/inherited-aegis.txt",
+      "rawBytes": 56,
+      "publicBytes": 61
+    },
+    {
+      "path": "intersect/normal20-22/normal-20-v034/inherited-onset.txt",
+      "rawBytes": 29,
+      "publicBytes": 32
+    },
+    {
+      "path": "intersect/normal20-22/normal-20-v034/loaded-watch-version.txt",
+      "rawBytes": 7,
+      "publicBytes": 7
+    },
+    {
+      "path": "intersect/normal20-22/normal-20-v034/map.txt",
+      "rawBytes": 1692,
+      "publicBytes": 1727
+    },
+    {
+      "path": "intersect/normal20-22/normal-20-v034/mission-description.txt",
+      "rawBytes": 139,
+      "publicBytes": 140
+    },
+    {
+      "path": "intersect/normal20-22/normal-20-v034/mission-limits.txt",
+      "rawBytes": 110,
+      "publicBytes": 113
+    },
+    {
+      "path": "intersect/normal20-22/normal-20-v034/native-repairs.csv",
+      "rawBytes": 7613,
+      "publicBytes": 7766
+    },
+    {
+      "path": "intersect/normal20-22/normal-20-v034/objectives.json",
+      "rawBytes": 2,
+      "publicBytes": 2
+    },
+    {
+      "path": "intersect/normal20-22/normal-20-v034/player-losses.csv",
+      "rawBytes": 1006,
+      "publicBytes": 1043
+    },
+    {
+      "path": "intersect/normal20-22/normal-20-v034/processor-256-307.mlog",
+      "rawBytes": 0,
+      "publicBytes": 0
+    },
+    {
+      "path": "intersect/normal20-22/normal-20-v034/processor-257-307.mlog",
+      "rawBytes": 161,
+      "publicBytes": 167
+    },
+    {
+      "path": "intersect/normal20-22/normal-20-v034/processor-258-307.mlog",
+      "rawBytes": 0,
+      "publicBytes": 0
+    },
+    {
+      "path": "intersect/normal20-22/normal-20-v034/repair-health-ticks.csv",
+      "rawBytes": 899235,
+      "publicBytes": 906264
+    },
+    {
+      "path": "intersect/normal20-22/normal-20-v034/result.txt",
+      "rawBytes": 504,
+      "publicBytes": 526
+    },
+    {
+      "path": "intersect/normal20-22/normal-20-v034/rules-before-save.json",
+      "rawBytes": 51512,
+      "publicBytes": 51512
+    },
+    {
+      "path": "intersect/normal20-22/normal-20-v034/runtime.txt",
+      "rawBytes": 252,
+      "publicBytes": 247
+    },
+    {
+      "path": "intersect/normal20-22/normal-20-v034/save-status.txt",
+      "rawBytes": 64,
+      "publicBytes": 65
+    },
+    {
+      "path": "intersect/normal20-22/normal-20-v034/scores-before.txt",
+      "rawBytes": 102,
+      "publicBytes": 101
+    },
+    {
+      "path": "intersect/normal20-22/normal-20-v034/state-audit-source.java",
+      "rawBytes": 3341,
+      "publicBytes": 3341
+    },
+    {
+      "path": "intersect/normal20-22/normal-20-v034/task-status.csv",
+      "rawBytes": 4087,
+      "publicBytes": 4169
+    },
+    {
+      "path": "intersect/normal20-22/normal-20-v034/terrain.txt",
+      "rawBytes": 1348,
+      "publicBytes": 1410
+    },
+    {
+      "path": "intersect/normal20-22/normal-20-v034/trial.csv",
+      "rawBytes": 5091,
+      "publicBytes": 5174
+    },
+    {
+      "path": "intersect/normal20-22/normal-21-v034/actions.txt",
+      "rawBytes": 9757,
+      "publicBytes": 10127
+    },
+    {
+      "path": "intersect/normal20-22/normal-21-v034/army.csv",
+      "rawBytes": 30597,
+      "publicBytes": 31127
+    },
+    {
+      "path": "intersect/normal20-22/normal-21-v034/assault-stage.csv",
+      "rawBytes": 676,
+      "publicBytes": 689
+    },
+    {
+      "path": "intersect/normal20-22/normal-21-v034/assault.csv",
+      "rawBytes": 117239,
+      "publicBytes": 118770
+    },
+    {
+      "path": "intersect/normal20-22/normal-21-v034/checkpoint-2400-loaded-world.json",
+      "rawBytes": 97635,
+      "publicBytes": 97635
+    },
+    {
+      "path": "intersect/normal20-22/normal-21-v034/checkpoint-2400-tags.json",
+      "rawBytes": 48090,
+      "publicBytes": 48090
+    },
+    {
+      "path": "intersect/normal20-22/normal-21-v034/checkpoint-2400-world.json",
+      "rawBytes": 97635,
+      "publicBytes": 97635
+    },
+    {
+      "path": "intersect/normal20-22/normal-21-v034/checkpoint-2400.msav",
+      "rawBytes": 52887,
+      "publicBytes": 52887
+    },
+    {
+      "path": "intersect/normal20-22/normal-21-v034/checkpoint-900-loaded-world.json",
+      "rawBytes": 91775,
+      "publicBytes": 91775
+    },
+    {
+      "path": "intersect/normal20-22/normal-21-v034/checkpoint-900-tags.json",
+      "rawBytes": 46001,
+      "publicBytes": 46001
+    },
+    {
+      "path": "intersect/normal20-22/normal-21-v034/checkpoint-900-world.json",
+      "rawBytes": 91775,
+      "publicBytes": 91775
+    },
+    {
+      "path": "intersect/normal20-22/normal-21-v034/checkpoint-900.msav",
+      "rawBytes": 51898,
+      "publicBytes": 51898
+    },
+    {
+      "path": "intersect/normal20-22/normal-21-v034/checkpoints.txt",
+      "rawBytes": 231,
+      "publicBytes": 233
+    },
+    {
+      "path": "intersect/normal20-22/normal-21-v034/combat.csv",
+      "rawBytes": 1486,
+      "publicBytes": 1532
+    },
+    {
+      "path": "intersect/normal20-22/normal-21-v034/console.txt",
+      "rawBytes": 4031,
+      "publicBytes": 4031
+    },
+    {
+      "path": "intersect/normal20-22/normal-21-v034/core-health.csv",
+      "rawBytes": 1061,
+      "publicBytes": 1107
+    },
+    {
+      "path": "intersect/normal20-22/normal-21-v034/diagnostics.txt",
+      "rawBytes": 119669,
+      "publicBytes": 120865
+    },
+    {
+      "path": "intersect/normal20-22/normal-21-v034/driver-source.java",
+      "rawBytes": 48479,
+      "publicBytes": 48454
+    },
+    {
+      "path": "intersect/normal20-22/normal-21-v034/end.msav",
+      "rawBytes": 52869,
+      "publicBytes": 52869
+    },
+    {
+      "path": "intersect/normal20-22/normal-21-v034/enemy-map.txt",
+      "rawBytes": 2280,
+      "publicBytes": 2396
+    },
+    {
+      "path": "intersect/normal20-22/normal-21-v034/final-tags.json",
+      "rawBytes": 48089,
+      "publicBytes": 48089
+    },
+    {
+      "path": "intersect/normal20-22/normal-21-v034/final-world.json",
+      "rawBytes": 96423,
+      "publicBytes": 96423
+    },
+    {
+      "path": "intersect/normal20-22/normal-21-v034/fresh-process-readback/console.txt",
+      "rawBytes": 537,
+      "publicBytes": 527
+    },
+    {
+      "path": "intersect/normal20-22/normal-21-v034/fresh-process-readback/driver-source.java",
+      "rawBytes": 4900,
+      "publicBytes": 4919
+    },
+    {
+      "path": "intersect/normal20-22/normal-21-v034/fresh-process-readback/loaded-tags.json",
+      "rawBytes": 48089,
+      "publicBytes": 48089
+    },
+    {
+      "path": "intersect/normal20-22/normal-21-v034/fresh-process-readback/loaded-watch-version.txt",
+      "rawBytes": 7,
+      "publicBytes": 7
+    },
+    {
+      "path": "intersect/normal20-22/normal-21-v034/fresh-process-readback/loaded-world.json",
+      "rawBytes": 96423,
+      "publicBytes": 96423
+    },
+    {
+      "path": "intersect/normal20-22/normal-21-v034/fresh-process-readback/result.txt",
+      "rawBytes": 514,
+      "publicBytes": 527
+    },
+    {
+      "path": "intersect/normal20-22/normal-21-v034/fresh-process-readback/state-audit-source.java",
+      "rawBytes": 3341,
+      "publicBytes": 3341
+    },
+    {
+      "path": "intersect/normal20-22/normal-21-v034/fresh-process-readback/world-differences.txt",
+      "rawBytes": 0,
+      "publicBytes": 0
+    },
+    {
+      "path": "intersect/normal20-22/normal-21-v034/inherited-aegis.txt",
+      "rawBytes": 56,
+      "publicBytes": 61
+    },
+    {
+      "path": "intersect/normal20-22/normal-21-v034/inherited-onset.txt",
+      "rawBytes": 29,
+      "publicBytes": 32
+    },
+    {
+      "path": "intersect/normal20-22/normal-21-v034/loaded-watch-version.txt",
+      "rawBytes": 7,
+      "publicBytes": 7
+    },
+    {
+      "path": "intersect/normal20-22/normal-21-v034/map.txt",
+      "rawBytes": 1692,
+      "publicBytes": 1727
+    },
+    {
+      "path": "intersect/normal20-22/normal-21-v034/mission-description.txt",
+      "rawBytes": 139,
+      "publicBytes": 140
+    },
+    {
+      "path": "intersect/normal20-22/normal-21-v034/mission-limits.txt",
+      "rawBytes": 110,
+      "publicBytes": 113
+    },
+    {
+      "path": "intersect/normal20-22/normal-21-v034/native-repairs.csv",
+      "rawBytes": 7366,
+      "publicBytes": 7512
+    },
+    {
+      "path": "intersect/normal20-22/normal-21-v034/objectives.json",
+      "rawBytes": 2,
+      "publicBytes": 2
+    },
+    {
+      "path": "intersect/normal20-22/normal-21-v034/player-losses.csv",
+      "rawBytes": 1051,
+      "publicBytes": 1089
+    },
+    {
+      "path": "intersect/normal20-22/normal-21-v034/processor-256-307.mlog",
+      "rawBytes": 0,
+      "publicBytes": 0
+    },
+    {
+      "path": "intersect/normal20-22/normal-21-v034/processor-257-307.mlog",
+      "rawBytes": 161,
+      "publicBytes": 167
+    },
+    {
+      "path": "intersect/normal20-22/normal-21-v034/processor-258-307.mlog",
+      "rawBytes": 0,
+      "publicBytes": 0
+    },
+    {
+      "path": "intersect/normal20-22/normal-21-v034/repair-health-ticks.csv",
+      "rawBytes": 731670,
+      "publicBytes": 737349
+    },
+    {
+      "path": "intersect/normal20-22/normal-21-v034/result.txt",
+      "rawBytes": 508,
+      "publicBytes": 530
+    },
+    {
+      "path": "intersect/normal20-22/normal-21-v034/rules-before-save.json",
+      "rawBytes": 51802,
+      "publicBytes": 51802
+    },
+    {
+      "path": "intersect/normal20-22/normal-21-v034/runtime.txt",
+      "rawBytes": 252,
+      "publicBytes": 247
+    },
+    {
+      "path": "intersect/normal20-22/normal-21-v034/save-status.txt",
+      "rawBytes": 64,
+      "publicBytes": 65
+    },
+    {
+      "path": "intersect/normal20-22/normal-21-v034/scores-before.txt",
+      "rawBytes": 102,
+      "publicBytes": 101
+    },
+    {
+      "path": "intersect/normal20-22/normal-21-v034/state-audit-source.java",
+      "rawBytes": 3341,
+      "publicBytes": 3341
+    },
+    {
+      "path": "intersect/normal20-22/normal-21-v034/task-status.csv",
+      "rawBytes": 2290,
+      "publicBytes": 2336
+    },
+    {
+      "path": "intersect/normal20-22/normal-21-v034/terrain.txt",
+      "rawBytes": 1348,
+      "publicBytes": 1410
+    },
+    {
+      "path": "intersect/normal20-22/normal-21-v034/trial.csv",
+      "rawBytes": 2816,
+      "publicBytes": 2863
+    },
+    {
+      "path": "intersect/normal20-22/normal-22-v034/actions.txt",
+      "rawBytes": 9757,
+      "publicBytes": 10127
+    },
+    {
+      "path": "intersect/normal20-22/normal-22-v034/army.csv",
+      "rawBytes": 30969,
+      "publicBytes": 31501
+    },
+    {
+      "path": "intersect/normal20-22/normal-22-v034/assault-stage.csv",
+      "rawBytes": 678,
+      "publicBytes": 691
+    },
+    {
+      "path": "intersect/normal20-22/normal-22-v034/assault.csv",
+      "rawBytes": 116838,
+      "publicBytes": 118364
+    },
+    {
+      "path": "intersect/normal20-22/normal-22-v034/checkpoint-2400-loaded-world.json",
+      "rawBytes": 97423,
+      "publicBytes": 97423
+    },
+    {
+      "path": "intersect/normal20-22/normal-22-v034/checkpoint-2400-tags.json",
+      "rawBytes": 48090,
+      "publicBytes": 48090
+    },
+    {
+      "path": "intersect/normal20-22/normal-22-v034/checkpoint-2400-world.json",
+      "rawBytes": 97423,
+      "publicBytes": 97423
+    },
+    {
+      "path": "intersect/normal20-22/normal-22-v034/checkpoint-2400.msav",
+      "rawBytes": 52810,
+      "publicBytes": 52810
+    },
+    {
+      "path": "intersect/normal20-22/normal-22-v034/checkpoint-900-loaded-world.json",
+      "rawBytes": 92141,
+      "publicBytes": 92141
+    },
+    {
+      "path": "intersect/normal20-22/normal-22-v034/checkpoint-900-tags.json",
+      "rawBytes": 45880,
+      "publicBytes": 45880
+    },
+    {
+      "path": "intersect/normal20-22/normal-22-v034/checkpoint-900-world.json",
+      "rawBytes": 92141,
+      "publicBytes": 92141
+    },
+    {
+      "path": "intersect/normal20-22/normal-22-v034/checkpoint-900.msav",
+      "rawBytes": 51842,
+      "publicBytes": 51842
+    },
+    {
+      "path": "intersect/normal20-22/normal-22-v034/checkpoints.txt",
+      "rawBytes": 230,
+      "publicBytes": 232
+    },
+    {
+      "path": "intersect/normal20-22/normal-22-v034/combat.csv",
+      "rawBytes": 1488,
+      "publicBytes": 1534
+    },
+    {
+      "path": "intersect/normal20-22/normal-22-v034/console.txt",
+      "rawBytes": 3999,
+      "publicBytes": 3999
+    },
+    {
+      "path": "intersect/normal20-22/normal-22-v034/core-health.csv",
+      "rawBytes": 1077,
+      "publicBytes": 1123
+    },
+    {
+      "path": "intersect/normal20-22/normal-22-v034/diagnostics.txt",
+      "rawBytes": 119205,
+      "publicBytes": 120401
+    },
+    {
+      "path": "intersect/normal20-22/normal-22-v034/driver-source.java",
+      "rawBytes": 48505,
+      "publicBytes": 48480
+    },
+    {
+      "path": "intersect/normal20-22/normal-22-v034/end.msav",
+      "rawBytes": 52754,
+      "publicBytes": 52754
+    },
+    {
+      "path": "intersect/normal20-22/normal-22-v034/enemy-map.txt",
+      "rawBytes": 2280,
+      "publicBytes": 2396
+    },
+    {
+      "path": "intersect/normal20-22/normal-22-v034/final-tags.json",
+      "rawBytes": 48090,
+      "publicBytes": 48090
+    },
+    {
+      "path": "intersect/normal20-22/normal-22-v034/final-world.json",
+      "rawBytes": 96636,
+      "publicBytes": 96636
+    },
+    {
+      "path": "intersect/normal20-22/normal-22-v034/fresh-process-readback/console.txt",
+      "rawBytes": 538,
+      "publicBytes": 528
+    },
+    {
+      "path": "intersect/normal20-22/normal-22-v034/fresh-process-readback/driver-source.java",
+      "rawBytes": 4900,
+      "publicBytes": 4919
+    },
+    {
+      "path": "intersect/normal20-22/normal-22-v034/fresh-process-readback/loaded-tags.json",
+      "rawBytes": 48090,
+      "publicBytes": 48090
+    },
+    {
+      "path": "intersect/normal20-22/normal-22-v034/fresh-process-readback/loaded-watch-version.txt",
+      "rawBytes": 7,
+      "publicBytes": 7
+    },
+    {
+      "path": "intersect/normal20-22/normal-22-v034/fresh-process-readback/loaded-world.json",
+      "rawBytes": 96636,
+      "publicBytes": 96636
+    },
+    {
+      "path": "intersect/normal20-22/normal-22-v034/fresh-process-readback/result.txt",
+      "rawBytes": 515,
+      "publicBytes": 528
+    },
+    {
+      "path": "intersect/normal20-22/normal-22-v034/fresh-process-readback/state-audit-source.java",
+      "rawBytes": 3341,
+      "publicBytes": 3341
+    },
+    {
+      "path": "intersect/normal20-22/normal-22-v034/fresh-process-readback/world-differences.txt",
+      "rawBytes": 0,
+      "publicBytes": 0
+    },
+    {
+      "path": "intersect/normal20-22/normal-22-v034/inherited-aegis.txt",
+      "rawBytes": 56,
+      "publicBytes": 61
+    },
+    {
+      "path": "intersect/normal20-22/normal-22-v034/inherited-onset.txt",
+      "rawBytes": 29,
+      "publicBytes": 32
+    },
+    {
+      "path": "intersect/normal20-22/normal-22-v034/loaded-watch-version.txt",
+      "rawBytes": 7,
+      "publicBytes": 7
+    },
+    {
+      "path": "intersect/normal20-22/normal-22-v034/map.txt",
+      "rawBytes": 1692,
+      "publicBytes": 1727
+    },
+    {
+      "path": "intersect/normal20-22/normal-22-v034/mission-description.txt",
+      "rawBytes": 139,
+      "publicBytes": 140
+    },
+    {
+      "path": "intersect/normal20-22/normal-22-v034/mission-limits.txt",
+      "rawBytes": 110,
+      "publicBytes": 113
+    },
+    {
+      "path": "intersect/normal20-22/normal-22-v034/native-repairs.csv",
+      "rawBytes": 49188,
+      "publicBytes": 50141
+    },
+    {
+      "path": "intersect/normal20-22/normal-22-v034/objectives.json",
+      "rawBytes": 2,
+      "publicBytes": 2
+    },
+    {
+      "path": "intersect/normal20-22/normal-22-v034/player-losses.csv",
+      "rawBytes": 1034,
+      "publicBytes": 1072
+    },
+    {
+      "path": "intersect/normal20-22/normal-22-v034/processor-256-307.mlog",
+      "rawBytes": 0,
+      "publicBytes": 0
+    },
+    {
+      "path": "intersect/normal20-22/normal-22-v034/processor-257-307.mlog",
+      "rawBytes": 161,
+      "publicBytes": 167
+    },
+    {
+      "path": "intersect/normal20-22/normal-22-v034/processor-258-307.mlog",
+      "rawBytes": 0,
+      "publicBytes": 0
+    },
+    {
+      "path": "intersect/normal20-22/normal-22-v034/repair-health-ticks.csv",
+      "rawBytes": 994592,
+      "publicBytes": 1002274
+    },
+    {
+      "path": "intersect/normal20-22/normal-22-v034/result.txt",
+      "rawBytes": 510,
+      "publicBytes": 532
+    },
+    {
+      "path": "intersect/normal20-22/normal-22-v034/rules-before-save.json",
+      "rawBytes": 51803,
+      "publicBytes": 51803
+    },
+    {
+      "path": "intersect/normal20-22/normal-22-v034/runtime.txt",
+      "rawBytes": 252,
+      "publicBytes": 247
+    },
+    {
+      "path": "intersect/normal20-22/normal-22-v034/save-status.txt",
+      "rawBytes": 64,
+      "publicBytes": 65
+    },
+    {
+      "path": "intersect/normal20-22/normal-22-v034/scores-before.txt",
+      "rawBytes": 105,
+      "publicBytes": 104
+    },
+    {
+      "path": "intersect/normal20-22/normal-22-v034/state-audit-source.java",
+      "rawBytes": 3341,
+      "publicBytes": 3341
+    },
+    {
+      "path": "intersect/normal20-22/normal-22-v034/task-status.csv",
+      "rawBytes": 2291,
+      "publicBytes": 2337
+    },
+    {
+      "path": "intersect/normal20-22/normal-22-v034/terrain.txt",
+      "rawBytes": 1348,
+      "publicBytes": 1410
+    },
+    {
+      "path": "intersect/normal20-22/normal-22-v034/trial.csv",
+      "rawBytes": 2784,
+      "publicBytes": 2831
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-32/core-bullet-damage.csv",
+      "rawBytes": 10577,
+      "publicBytes": 10807
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-32/core-damage-nearby-enemies.csv",
+      "rawBytes": 25407,
+      "publicBytes": 26032
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-32/core-minimum-changes.csv",
+      "rawBytes": 1670,
+      "publicBytes": 1722
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-32/destroyed.csv",
+      "rawBytes": 4881,
+      "publicBytes": 5064
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-32/driver-source.java",
+      "rawBytes": 56430,
+      "publicBytes": 56590
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-32/end.msav",
+      "rawBytes": 28038,
+      "publicBytes": 28038
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-32/enemies.csv",
+      "rawBytes": 9285,
+      "publicBytes": 9525
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-32/final-core.txt",
+      "rawBytes": 4,
+      "publicBytes": 4
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-32/final-tags.json",
+      "rawBytes": 32710,
+      "publicBytes": 32710
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-32/final-world.json",
+      "rawBytes": 6869114,
+      "publicBytes": 6869114
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-32/gun-ammo.csv",
+      "rawBytes": 29694,
+      "publicBytes": 30633
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-32/result.txt",
+      "rawBytes": 1140,
+      "publicBytes": 1167
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-32/runtime.txt",
+      "rawBytes": 326,
+      "publicBytes": 311
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-32/trial.csv",
+      "rawBytes": 3431,
+      "publicBytes": 3487
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-32/turret-shots.csv",
+      "rawBytes": 35712,
+      "publicBytes": 36785
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-33/core-bullet-damage.csv",
+      "rawBytes": 1746,
+      "publicBytes": 1785
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-33/core-damage-nearby-enemies.csv",
+      "rawBytes": 12306,
+      "publicBytes": 12613
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-33/core-minimum-changes.csv",
+      "rawBytes": 828,
+      "publicBytes": 854
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-33/destroyed.csv",
+      "rawBytes": 4317,
+      "publicBytes": 4473
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-33/driver-source.java",
+      "rawBytes": 56333,
+      "publicBytes": 56493
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-33/end.msav",
+      "rawBytes": 27809,
+      "publicBytes": 27809
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-33/enemies.csv",
+      "rawBytes": 18720,
+      "publicBytes": 19202
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-33/final-core.txt",
+      "rawBytes": 87,
+      "publicBytes": 87
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-33/final-tags.json",
+      "rawBytes": 34742,
+      "publicBytes": 34742
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-33/final-world.json",
+      "rawBytes": 6921925,
+      "publicBytes": 6921925
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-33/gun-ammo.csv",
+      "rawBytes": 46749,
+      "publicBytes": 48212
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-33/result.txt",
+      "rawBytes": 1118,
+      "publicBytes": 1145
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-33/runtime.txt",
+      "rawBytes": 326,
+      "publicBytes": 311
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-33/trial.csv",
+      "rawBytes": 4894,
+      "publicBytes": 4970
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-33/turret-shots.csv",
+      "rawBytes": 57520,
+      "publicBytes": 59238
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-34/core-bullet-damage.csv",
+      "rawBytes": 7694,
+      "publicBytes": 7863
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-34/core-damage-nearby-enemies.csv",
+      "rawBytes": 34779,
+      "publicBytes": 35611
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-34/core-minimum-changes.csv",
+      "rawBytes": 2384,
+      "publicBytes": 2457
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-34/destroyed.csv",
+      "rawBytes": 4825,
+      "publicBytes": 5002
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-34/driver-source.java",
+      "rawBytes": 56504,
+      "publicBytes": 56664
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-34/end.msav",
+      "rawBytes": 27538,
+      "publicBytes": 27538
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-34/enemies.csv",
+      "rawBytes": 10520,
+      "publicBytes": 10790
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-34/final-core.txt",
+      "rawBytes": 4,
+      "publicBytes": 4
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-34/final-tags.json",
+      "rawBytes": 29682,
+      "publicBytes": 29682
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-34/final-world.json",
+      "rawBytes": 6859397,
+      "publicBytes": 6859397
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-34/gun-ammo.csv",
+      "rawBytes": 31342,
+      "publicBytes": 32340
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-34/result.txt",
+      "rawBytes": 1165,
+      "publicBytes": 1192
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-34/runtime.txt",
+      "rawBytes": 326,
+      "publicBytes": 311
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-34/trial.csv",
+      "rawBytes": 3584,
+      "publicBytes": 3642
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-34/turret-shots.csv",
+      "rawBytes": 38710,
+      "publicBytes": 39875
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-35/core-bullet-damage.csv",
+      "rawBytes": 26216,
+      "publicBytes": 26785
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-35/core-damage-nearby-enemies.csv",
+      "rawBytes": 22433,
+      "publicBytes": 22997
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-35/core-minimum-changes.csv",
+      "rawBytes": 1407,
+      "publicBytes": 1450
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-35/destroyed.csv",
+      "rawBytes": 9009,
+      "publicBytes": 9339
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-35/driver-source.java",
+      "rawBytes": 56450,
+      "publicBytes": 56610
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-35/end.msav",
+      "rawBytes": 28111,
+      "publicBytes": 28111
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-35/enemies.csv",
+      "rawBytes": 20333,
+      "publicBytes": 20856
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-35/final-core.txt",
+      "rawBytes": 4,
+      "publicBytes": 4
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-35/final-tags.json",
+      "rawBytes": 37998,
+      "publicBytes": 37998
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-35/final-world.json",
+      "rawBytes": 6839775,
+      "publicBytes": 6839775
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-35/gun-ammo.csv",
+      "rawBytes": 41737,
+      "publicBytes": 43065
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-35/result.txt",
+      "rawBytes": 1127,
+      "publicBytes": 1154
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-35/runtime.txt",
+      "rawBytes": 326,
+      "publicBytes": 311
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-35/trial.csv",
+      "rawBytes": 4654,
+      "publicBytes": 4729
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-35/turret-shots.csv",
+      "rawBytes": 51326,
+      "publicBytes": 52855
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-36/core-bullet-damage.csv",
+      "rawBytes": 1045,
+      "publicBytes": 1068
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-36/core-damage-nearby-enemies.csv",
+      "rawBytes": 2549,
+      "publicBytes": 2610
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-36/core-minimum-changes.csv",
+      "rawBytes": 321,
+      "publicBytes": 331
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-36/destroyed.csv",
+      "rawBytes": 2003,
+      "publicBytes": 2080
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-36/driver-source.java",
+      "rawBytes": 57393,
+      "publicBytes": 57553
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-36/end.msav",
+      "rawBytes": 28023,
+      "publicBytes": 28023
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-36/enemies.csv",
+      "rawBytes": 17439,
+      "publicBytes": 17883
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-36/final-core.txt",
+      "rawBytes": 86,
+      "publicBytes": 86
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-36/final-tags.json",
+      "rawBytes": 32283,
+      "publicBytes": 32283
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-36/final-world.json",
+      "rawBytes": 6957953,
+      "publicBytes": 6957953
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-36/gun-ammo.csv",
+      "rawBytes": 47658,
+      "publicBytes": 49140
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-36/result.txt",
+      "rawBytes": 984,
+      "publicBytes": 1010
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-36/runtime.txt",
+      "rawBytes": 326,
+      "publicBytes": 311
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-36/trial.csv",
+      "rawBytes": 4878,
+      "publicBytes": 4954
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-36/turret-shots.csv",
+      "rawBytes": 58375,
+      "publicBytes": 60112
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-33-read/driver-source.java",
+      "rawBytes": 3716,
+      "publicBytes": 3752
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-33-read/result.txt",
+      "rawBytes": 517,
+      "publicBytes": 535
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-36-read/driver-source.java",
+      "rawBytes": 3716,
+      "publicBytes": 3752
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-36-read/result.txt",
+      "rawBytes": 516,
+      "publicBytes": 534
+    },
+    {
+      "path": "biomass/NORMAL-20/compile.txt",
+      "rawBytes": 0,
+      "publicBytes": 0
+    },
+    {
+      "path": "biomass/NORMAL-20/destroyed.csv",
+      "rawBytes": 1275,
+      "publicBytes": 1327
+    },
+    {
+      "path": "biomass/NORMAL-20/driver-source.java",
+      "rawBytes": 39982,
+      "publicBytes": 39972
+    },
+    {
+      "path": "biomass/NORMAL-20/end.msav",
+      "rawBytes": 27859,
+      "publicBytes": 27859
+    },
+    {
+      "path": "biomass/NORMAL-20/result.txt",
+      "rawBytes": 1122,
+      "publicBytes": 1148
+    },
+    {
+      "path": "biomass/NORMAL-20/trial.csv",
+      "rawBytes": 1332,
+      "publicBytes": 1354
+    },
+    {
+      "path": "biomass/NORMAL-21/destroyed.csv",
+      "rawBytes": 21,
+      "publicBytes": 22
+    },
+    {
+      "path": "biomass/NORMAL-21/driver-source.java",
+      "rawBytes": 39889,
+      "publicBytes": 39879
+    },
+    {
+      "path": "biomass/NORMAL-21/FIXTURE_FAILURE.md",
+      "rawBytes": 436,
+      "publicBytes": 441
+    },
+    {
+      "path": "biomass/NORMAL-21/trial.csv",
+      "rawBytes": 119,
+      "publicBytes": 120
+    },
+    {
+      "path": "biomass/NORMAL-22/destroyed.csv",
+      "rawBytes": 1994,
+      "publicBytes": 2075
+    },
+    {
+      "path": "biomass/NORMAL-22/driver-source.java",
+      "rawBytes": 39980,
+      "publicBytes": 39970
+    },
+    {
+      "path": "biomass/NORMAL-22/end.msav",
+      "rawBytes": 27504,
+      "publicBytes": 27504
+    },
+    {
+      "path": "biomass/NORMAL-22/QA_REPORT.md",
+      "rawBytes": 1004,
+      "publicBytes": 1011
+    },
+    {
+      "path": "biomass/NORMAL-22/result.txt",
+      "rawBytes": 992,
+      "publicBytes": 1017
+    },
+    {
+      "path": "biomass/NORMAL-22/trial.csv",
+      "rawBytes": 1710,
+      "publicBytes": 1739
+    },
+    {
+      "path": "biomass/NORMAL-23/destroyed.csv",
+      "rawBytes": 3790,
+      "publicBytes": 3943
+    },
+    {
+      "path": "biomass/NORMAL-23/driver-source.java",
+      "rawBytes": 40646,
+      "publicBytes": 40636
+    },
+    {
+      "path": "biomass/NORMAL-23/end.msav",
+      "rawBytes": 28311,
+      "publicBytes": 28311
+    },
+    {
+      "path": "biomass/NORMAL-23/result.txt",
+      "rawBytes": 1124,
+      "publicBytes": 1150
+    },
+    {
+      "path": "biomass/NORMAL-23/trial.csv",
+      "rawBytes": 2147,
+      "publicBytes": 2183
+    },
+    {
+      "path": "biomass/NORMAL-24/destroyed.csv",
+      "rawBytes": 344,
+      "publicBytes": 359
+    },
+    {
+      "path": "biomass/NORMAL-24/driver-source.java",
+      "rawBytes": 43228,
+      "publicBytes": 43218
+    },
+    {
+      "path": "biomass/NORMAL-24/end.msav",
+      "rawBytes": 27580,
+      "publicBytes": 27580
+    },
+    {
+      "path": "biomass/NORMAL-24/result.txt",
+      "rawBytes": 1122,
+      "publicBytes": 1148
+    },
+    {
+      "path": "biomass/NORMAL-24/trial.csv",
+      "rawBytes": 1038,
+      "publicBytes": 1056
+    },
+    {
+      "path": "biomass/NORMAL-25/destroyed.csv",
+      "rawBytes": 925,
+      "publicBytes": 963
+    },
+    {
+      "path": "biomass/NORMAL-25/driver-source.java",
+      "rawBytes": 44453,
+      "publicBytes": 44443
+    },
+    {
+      "path": "biomass/NORMAL-25/end.msav",
+      "rawBytes": 27563,
+      "publicBytes": 27563
+    },
+    {
+      "path": "biomass/NORMAL-25/result.txt",
+      "rawBytes": 1126,
+      "publicBytes": 1152
+    },
+    {
+      "path": "biomass/NORMAL-25/trial.csv",
+      "rawBytes": 1304,
+      "publicBytes": 1326
+    },
+    {
+      "path": "biomass/NORMAL-26/destroyed.csv",
+      "rawBytes": 1836,
+      "publicBytes": 1907
+    },
+    {
+      "path": "biomass/NORMAL-26/driver-source.java",
+      "rawBytes": 44938,
+      "publicBytes": 44928
+    },
+    {
+      "path": "biomass/NORMAL-26/end.msav",
+      "rawBytes": 28058,
+      "publicBytes": 28058
+    },
+    {
+      "path": "biomass/NORMAL-26/result.txt",
+      "rawBytes": 1126,
+      "publicBytes": 1152
+    },
+    {
+      "path": "biomass/NORMAL-26/trial.csv",
+      "rawBytes": 1681,
+      "publicBytes": 1710
+    },
+    {
+      "path": "biomass/NORMAL-27/bullet-destroy.csv",
+      "rawBytes": 2945,
+      "publicBytes": 3003
+    },
+    {
+      "path": "biomass/NORMAL-27/destroyed.csv",
+      "rawBytes": 1727,
+      "publicBytes": 1796
+    },
+    {
+      "path": "biomass/NORMAL-27/driver-source.java",
+      "rawBytes": 45823,
+      "publicBytes": 45813
+    },
+    {
+      "path": "biomass/NORMAL-27/end.msav",
+      "rawBytes": 27578,
+      "publicBytes": 27578
+    },
+    {
+      "path": "biomass/NORMAL-27/result.txt",
+      "rawBytes": 1119,
+      "publicBytes": 1145
+    },
+    {
+      "path": "biomass/NORMAL-27/trial.csv",
+      "rawBytes": 1955,
+      "publicBytes": 1988
+    },
+    {
+      "path": "biomass/NORMAL-28/bullet-destroy.csv",
+      "rawBytes": 3011,
+      "publicBytes": 3070
+    },
+    {
+      "path": "biomass/NORMAL-28/destroyed.csv",
+      "rawBytes": 1839,
+      "publicBytes": 1912
+    },
+    {
+      "path": "biomass/NORMAL-28/driver-source.java",
+      "rawBytes": 46504,
+      "publicBytes": 46494
+    },
+    {
+      "path": "biomass/NORMAL-28/end.msav",
+      "rawBytes": 27602,
+      "publicBytes": 27602
+    },
+    {
+      "path": "biomass/NORMAL-28/result.txt",
+      "rawBytes": 1119,
+      "publicBytes": 1145
+    },
+    {
+      "path": "biomass/NORMAL-28/trial.csv",
+      "rawBytes": 1971,
+      "publicBytes": 2004
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-32-console.txt",
+      "rawBytes": 48361,
+      "publicBytes": 48351
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-33-console.txt",
+      "rawBytes": 66875,
+      "publicBytes": 66865
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-34-console.txt",
+      "rawBytes": 51734,
+      "publicBytes": 51724
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-35-console.txt",
+      "rawBytes": 64498,
+      "publicBytes": 64488
+    },
+    {
+      "path": "next-serpulo033/ruinousShores-NORMAL-36-console.txt",
+      "rawBytes": 67904,
+      "publicBytes": 67894
+    },
+    {
+      "path": "biomass/NORMAL-20/console.txt",
+      "rawBytes": 29253,
+      "publicBytes": 29243
+    },
+    {
+      "path": "biomass/NORMAL-21/console.txt",
+      "rawBytes": 2221,
+      "publicBytes": 2221
+    },
+    {
+      "path": "biomass/NORMAL-21/compile.txt",
+      "rawBytes": 0,
+      "publicBytes": 0
+    },
+    {
+      "path": "biomass/NORMAL-22/console.txt",
+      "rawBytes": 40301,
+      "publicBytes": 40291
+    },
+    {
+      "path": "biomass/NORMAL-22/compile.txt",
+      "rawBytes": 0,
+      "publicBytes": 0
+    },
+    {
+      "path": "biomass/NORMAL-23/console.txt",
+      "rawBytes": 51362,
+      "publicBytes": 51352
+    },
+    {
+      "path": "biomass/NORMAL-23/compile.txt",
+      "rawBytes": 0,
+      "publicBytes": 0
+    },
+    {
+      "path": "biomass/NORMAL-24/console.txt",
+      "rawBytes": 22187,
+      "publicBytes": 22177
+    },
+    {
+      "path": "biomass/NORMAL-24/compile.txt",
+      "rawBytes": 0,
+      "publicBytes": 0
+    },
+    {
+      "path": "biomass/NORMAL-25/console.txt",
+      "rawBytes": 28226,
+      "publicBytes": 28216
+    },
+    {
+      "path": "biomass/NORMAL-25/compile.txt",
+      "rawBytes": 0,
+      "publicBytes": 0
+    },
+    {
+      "path": "biomass/NORMAL-26/console.txt",
+      "rawBytes": 40076,
+      "publicBytes": 40066
+    },
+    {
+      "path": "biomass/NORMAL-26/compile.txt",
+      "rawBytes": 0,
+      "publicBytes": 0
+    },
+    {
+      "path": "biomass/NORMAL-27/console.txt",
+      "rawBytes": 44901,
+      "publicBytes": 44891
+    },
+    {
+      "path": "biomass/NORMAL-27/compile.txt",
+      "rawBytes": 0,
+      "publicBytes": 0
+    },
+    {
+      "path": "biomass/NORMAL-28/console.txt",
+      "rawBytes": 34080,
+      "publicBytes": 34070
+    },
+    {
+      "path": "biomass/NORMAL-28/compile.txt",
+      "rawBytes": 0,
+      "publicBytes": 0
+    },
+    {
+      "path": "RUINOUS_V033_SNAPSHOT_02.md",
+      "rawBytes": 3177,
+      "publicBytes": 3177
+    },
+    {
+      "path": "ruinous-v033-snapshot-02-cases.csv",
+      "rawBytes": 2859,
+      "publicBytes": 2859
+    },
+    {
+      "path": "biomass/INDEX.md",
+      "rawBytes": 2103,
+      "publicBytes": 2103
+    }
+  ]
+}

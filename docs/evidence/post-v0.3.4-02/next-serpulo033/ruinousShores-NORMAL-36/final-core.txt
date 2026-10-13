@@ -1,0 +1,1 @@
+ItemModule{copper:3606,lead:16,graphite:382,sand:1,coal:2069,titanium:103,silicon:255}

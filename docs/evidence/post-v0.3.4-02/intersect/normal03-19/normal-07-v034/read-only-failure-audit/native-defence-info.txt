@@ -1,0 +1,21 @@
+nativeWinWave=0
+waveSpacing=180.0
+initialWaveSpacing=500.0
+waveTime=150.11667
+spawn stell begin=0 end=8 spacing=1 amount=3 scaling=4.0
+spawn merui begin=1 end=8 spacing=1 amount=2 scaling=4.0
+spawn merui begin=3 end=8 spacing=1 amount=3 scaling=4.0
+spawn merui begin=4 end=8 spacing=1 amount=2 scaling=4.0
+spawn merui begin=6 end=8 spacing=1 amount=4 scaling=1.0
+spawn avert begin=7 end=8 spacing=1 amount=1 scaling=1.0
+spawnPoint 170,240
+spawnPoint 362,271
+spawnPoint 242,367
+nativeBore 275,309 r=2 actualBeamMaterials=铍 铍 
+nativeBore 269,311 r=3 actualBeamMaterials=铍 铍 
+nativeBore 271,311 r=3 actualBeamMaterials=铍 铍 
+nativeBore 273,311 r=3 actualBeamMaterials=铍 铍 
+nativeBore 279,322 r=0 actualBeamMaterials=石墨 石墨 
+nativeBore 279,326 r=0 actualBeamMaterials=石墨 石墨 
+nativeBore 278,341 r=2 actualBeamMaterials=null 铍 
+nativeBore 275,343 r=3 actualBeamMaterials=铍 铍 

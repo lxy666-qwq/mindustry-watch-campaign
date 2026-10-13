@@ -1,0 +1,1 @@
+java.lang.IllegalStateException: Native ground command point is solid: [284, 307]

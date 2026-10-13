@@ -1,0 +1,363 @@
+profileScope=independent-copy-of-genuine-main12-chain gateVerified=true starsBefore=0 mainStarsBefore=12
+Native biomass power start: core=138,56 inventory=ItemModule{copper:100} refund=0.53
+planned native salvage container at 52,115
+planned native salvage container at 74,124
+planned native salvage container at 74,126
+planned native salvage air-factory at 76,143
+planned native salvage additive-reconstructor at 76,146
+planned native salvage door-large at 92,87
+planned native salvage door-large at 81,156
+planned native salvage door-large at 83,156
+planned native salvage cultivator at 77,87
+planned native salvage cultivator at 82,90
+planned native salvage cultivator at 78,92
+planned native salvage cultivator at 80,92
+planned copper output 157,56 with 17 native resource-to-core conveyors
+planned lead output 143,84 with 30 native resource-to-core conveyors
+native large node plan (137, 59) links=[(-3, -1), (5, -1), (-1, 7), (6, 7), (-5, 6), (8, 6), (0, 5), (5, 5), (-7, -10)]
+planned silicon output 150,49 with 15 native resource-to-core conveyors
+planned sand output 142,120 with 70 native resource-to-core conveyors
+planned actual coal drill 176,68; native Alpha can carry its real output if the conveyor is cut
+planned coal output 176,68 with 63 native resource-to-core conveyors
+planned actual coal drill 177,65; native Alpha can carry its real output if the conveyor is cut
+planned coal output 177,65 with 64 native resource-to-core conveyors
+planned actual coal drill 97,67; native Alpha can carry its real output if the conveyor is cut
+planned coal output 97,67 with 48 native resource-to-core conveyors
+planned actual coal drill 176,70; native Alpha can carry its real output if the conveyor is cut
+planned coal output 176,70 with 76 native resource-to-core conveyors
+planned actual coal drill 96,65; native Alpha can carry its real output if the conveyor is cut
+planned coal output 96,65 with 47 native resource-to-core conveyors
+final native node plan (137, 59) links=[(-3, -1), (5, -1), (-1, 7), (6, 7), (-5, 6), (8, 6), (0, 5), (5, 5), (-7, -10), (-3, 8), (9, 5), (-4, -10), (0, -10), (11, -10)]
+native steam plan=(141, 122) pump=143,123 researched=true
+native steam plan=(144, 123) pump=145,125 researched=true
+native planned blocks=496 counter costs=[铜: 60, 铅: 70, 钛: 30, 硅: 60]
+driver: added=true dead=false unit=Unit#277:alpha (1103.753, 448.18527) plans=1 next=BuildPlan{x=157, y=56, rotation=0, block=mechanical-drill, breaking=false, progress=0.0, initialized=false, config=null} tile=air valid=true unlocked=true env=true placeable=true dist=156.29352
+0.0,1.180299,1,0,1.0,100,0,0,0,0,0,0,0.0,0.0
+tutorial objectives=0/0 flags={} coreStats={} queue=496 gather=null pending=BuildPlan{x=157, y=56, rotation=0, block=mechanical-drill, breaking=false, progress=0.0, initialized=false, config=null}
+native demolition completed at 52,115 t=7.366667 coreItems=ItemModule{copper:100,titanium:53}
+native demolition completed at 74,124 t=10.65 coreItems=ItemModule{copper:100,titanium:106}
+native demolition completed at 74,126 t=13.933333 coreItems=ItemModule{copper:100,titanium:159}
+native demolition completed at 76,143 t=18.683332 coreItems=ItemModule{copper:132,lead:37,titanium:159,silicon:32}
+native demolition completed at 76,146 t=27.05 coreItems=ItemModule{copper:238,lead:101,titanium:159,silicon:80}
+native demolition completed at 92,87 t=35.8 coreItems=ItemModule{copper:238,lead:101,titanium:172,silicon:88}
+native demolition completed at 81,156 t=44.266666 coreItems=ItemModule{copper:238,lead:101,titanium:185,silicon:96}
+native demolition completed at 83,156 t=51.483334 coreItems=ItemModule{copper:238,lead:101,titanium:198,silicon:104}
+native demolition completed at 77,87 t=55.166668 coreItems=ItemModule{copper:251,lead:114,titanium:198,silicon:109}
+native demolition completed at 82,90 t=56.416668 coreItems=ItemModule{copper:264,lead:127,titanium:198,silicon:114}
+native demolition completed at 78,92 t=57.666668 coreItems=ItemModule{copper:277,lead:140,titanium:198,silicon:119}
+native demolition completed at 80,92 t=58.916668 coreItems=ItemModule{copper:290,lead:153,titanium:198,silicon:124}
+60.0,1.5573744,1,0,1.0,290,153,0,0,0,0,0,0.0,0.0
+tutorial objectives=0/0 flags={} coreStats={} queue=496 gather=null pending=BuildPlan{x=157, y=56, rotation=0, block=mechanical-drill, breaking=false, progress=0.0, initialized=false, config=null}
+120.0,2.2835946,1,0,1.0,60,96,0,59,4,8,8,240.0,0.0
+tutorial objectives=0/0 flags={} coreStats={铜=17, 铅=15} queue=437 gather=铜 pending=BuildPlan{x=136, y=66, rotation=0, block=mender, breaking=false, progress=0.41104484, initialized=true, config=null}
+180.0,2.930944,1,0,1.0,58,3,0,63,4,11,8,240.0,0.0
+real counter arc pos=(132, 65) power=0.0 graph=-3.3000019
+real counter arc pos=(145, 65) power=0.0 graph=-3.3000019
+tutorial objectives=0/0 flags={} coreStats={铜=39, 铅=37} queue=433 gather=铅 pending=BuildPlan{x=137, y=64, rotation=0, block=lancer, breaking=false, progress=0.9160481, initialized=true, config=null}
+240.0,4.4681444,2,2,1.0,41,85,0,66,5,19,9,240.0,0.0
+real counter arc pos=(132, 65) power=0.0 graph=-3.3000019
+real counter arc pos=(145, 65) power=0.0 graph=-3.3000019
+real counter lancer pos=(137, 64) power=0.0 graph=-6.0
+real counter lancer pos=(142, 64) power=0.0 graph=-6.0
+tutorial objectives=0/0 flags={} coreStats={铜=62, 铅=59} queue=430 gather=铜 pending=BuildPlan{x=145, y=60, rotation=0, block=scatter, breaking=false, progress=0.027567567, initialized=true, config=null}
+300.0,6.0116353,2,0,0.9027257,48,29,0,73,6,23,10,191.0,0.0
+actual generator pos=(130, 49) coal=0 eff=0.0 graph=14 input=0.0 stored=0.0
+actual generator pos=(131, 49) coal=0 eff=0.0 graph=14 input=0.0 stored=0.0
+actual generator pos=(132, 49) coal=0 eff=0.0 graph=14 input=0.0 stored=0.0
+actual generator pos=(133, 49) coal=0 eff=0.0 graph=14 input=0.0 stored=0.0
+actual generator pos=(134, 49) coal=0 eff=0.0 graph=14 input=0.0 stored=0.0
+actual generator pos=(135, 49) coal=0 eff=0.0 graph=14 input=0.0 stored=0.0
+real counter arc pos=(132, 65) power=0.0 graph=-3.3000019
+real counter arc pos=(145, 65) power=0.0 graph=-3.3000019
+real counter lancer pos=(137, 64) power=0.0 graph=-6.0
+real counter lancer pos=(142, 64) power=0.0 graph=-6.0
+tutorial objectives=0/0 flags={} coreStats={铜=84, 铅=81} queue=423 gather=铜 pending=BuildPlan{x=136, y=49, rotation=0, block=combustion-generator, breaking=false, progress=0.6208697, initialized=true, config=null}
+360.0,7.1858726,3,0,0.8054516,76,30,0,84,6,29,10,137.0,0.0
+actual generator pos=(130, 49) coal=0 eff=0.0 graph=31 input=0.0 stored=0.0
+actual generator pos=(131, 49) coal=0 eff=0.0 graph=31 input=0.0 stored=0.0
+actual generator pos=(132, 49) coal=0 eff=0.0 graph=31 input=0.0 stored=0.0
+actual generator pos=(133, 49) coal=0 eff=0.0 graph=31 input=0.0 stored=0.0
+actual generator pos=(134, 49) coal=0 eff=0.0 graph=31 input=0.0 stored=0.0
+actual generator pos=(135, 49) coal=0 eff=0.0 graph=31 input=0.0 stored=0.0
+actual generator pos=(136, 49) coal=0 eff=0.0 graph=31 input=0.0 stored=0.0
+actual generator pos=(137, 49) coal=0 eff=0.0 graph=31 input=0.0 stored=0.0
+real counter arc pos=(132, 65) power=0.0 graph=-19.5
+real counter arc pos=(145, 65) power=0.0 graph=-19.5
+real counter lancer pos=(137, 64) power=0.0 graph=-19.5
+real counter lancer pos=(142, 64) power=0.0 graph=-19.5
+tutorial objectives=0/0 flags={} coreStats={铜=106, 铅=103} queue=412 gather=null pending=BuildPlan{x=150, y=49, rotation=0, block=silicon-smelter, breaking=false, progress=0.8316918, initialized=true, config=null}
+420.0,8.433867,3,0,0.8054516,6,41,3,350,6,30,10,137.0,0.0
+actual silicon producer items=ItemModule{} power=0.0 coreSi=1
+actual generator pos=(130, 49) coal=0 eff=0.0 graph=31 input=0.0 stored=0.0
+actual generator pos=(131, 49) coal=0 eff=0.0 graph=31 input=0.0 stored=0.0
+actual generator pos=(132, 49) coal=0 eff=0.0 graph=31 input=0.0 stored=0.0
+actual generator pos=(133, 49) coal=0 eff=0.0 graph=31 input=0.0 stored=0.0
+actual generator pos=(134, 49) coal=0 eff=0.0 graph=31 input=0.0 stored=0.0
+actual generator pos=(135, 49) coal=0 eff=0.0 graph=31 input=0.0 stored=0.0
+actual generator pos=(136, 49) coal=0 eff=0.0 graph=31 input=0.0 stored=0.0
+actual generator pos=(137, 49) coal=0 eff=0.0 graph=31 input=0.0 stored=0.0
+real counter arc pos=(132, 65) power=0.0 graph=-19.5
+real counter arc pos=(145, 65) power=0.0 graph=-19.5
+real counter lancer pos=(137, 64) power=0.0 graph=-19.5
+real counter lancer pos=(142, 64) power=0.0 graph=-19.5
+tutorial objectives=0/0 flags={} coreStats={铜=125, 铅=125, 煤炭=3, 沙=10} queue=146 gather=铜 pending=BuildPlan{x=176, y=70, rotation=0, block=mechanical-drill, breaking=false, progress=0.34, initialized=true, config=null}
+480.0,9.763277,4,0,0.88269335,51,62,20,475,21,52,10,149.0,0.0
+actual silicon producer items=ItemModule{sand:1,coal:1} power=0.0 coreSi=13
+actual generator pos=(130, 49) coal=0 eff=0.0 graph=31 input=0.0 stored=0.0
+actual generator pos=(131, 49) coal=0 eff=0.0 graph=31 input=0.0 stored=0.0
+actual generator pos=(132, 49) coal=0 eff=0.0 graph=31 input=0.0 stored=0.0
+actual generator pos=(133, 49) coal=0 eff=0.0 graph=31 input=0.0 stored=0.0
+actual generator pos=(134, 49) coal=0 eff=0.0 graph=31 input=0.0 stored=0.0
+actual generator pos=(135, 49) coal=0 eff=0.0 graph=31 input=0.0 stored=0.0
+actual generator pos=(136, 49) coal=0 eff=0.0 graph=31 input=0.0 stored=0.0
+actual generator pos=(137, 49) coal=0 eff=0.0 graph=31 input=0.0 stored=0.0
+real counter arc pos=(132, 65) power=0.0 graph=-0.90000045
+real counter arc pos=(145, 65) power=0.0 graph=-0.90000045
+real counter lancer pos=(137, 64) power=0.0 graph=-0.90000045
+real counter lancer pos=(142, 64) power=0.0 graph=-0.90000045
+tutorial objectives=0/0 flags={} coreStats={铜=148, 铅=147, 煤炭=59, 沙=34, 硅=13} queue=21 gather=null pending=BuildPlan{x=134, y=67, rotation=0, block=lancer, breaking=false, progress=0.019490447, initialized=true, config=null}
+540.0,10.8413,4,0,1.0,34,34,0,475,76,128,10,175.0,0.0
+actual silicon producer items=ItemModule{sand:8,coal:5} power=1.0 coreSi=0
+actual generator pos=(130, 49) coal=1 eff=1.0 graph=31 input=1.4000001 stored=3659.2715
+actual generator pos=(131, 49) coal=0 eff=0.0 graph=31 input=1.4000001 stored=3659.2715
+actual generator pos=(132, 49) coal=0 eff=0.0 graph=31 input=1.4000001 stored=3659.2715
+actual generator pos=(133, 49) coal=0 eff=0.0 graph=31 input=1.4000001 stored=3659.2715
+actual generator pos=(134, 49) coal=0 eff=0.0 graph=31 input=1.4000001 stored=3659.2715
+actual generator pos=(135, 49) coal=0 eff=0.0 graph=31 input=1.4000001 stored=3659.2715
+actual generator pos=(136, 49) coal=0 eff=0.0 graph=31 input=1.4000001 stored=3659.2715
+actual generator pos=(137, 49) coal=0 eff=0.0 graph=31 input=1.4000001 stored=3659.2715
+real counter arc pos=(132, 65) power=1.0 graph=-0.22499977
+real counter arc pos=(145, 65) power=1.0 graph=-0.22499977
+real counter lancer pos=(137, 64) power=1.0 graph=-0.22499977
+real counter lancer pos=(142, 64) power=1.0 graph=-0.22499977
+tutorial objectives=0/0 flags={} coreStats={铜=170, 铅=170, 煤炭=148, 沙=58, 硅=44} queue=21 gather=硅 pending=BuildPlan{x=134, y=67, rotation=0, block=lancer, breaking=false, progress=0.75038004, initialized=true, config=null}
+600.0,11.9961195,5,0,1.0,87,17,1,476,129,195,9,151.0,0.0
+actual silicon producer items=ItemModule{sand:1,coal:9} power=0.6428572 coreSi=0
+actual generator pos=(130, 49) coal=5 eff=1.0 graph=31 input=3.0 stored=1552.6503
+actual generator pos=(131, 49) coal=2 eff=1.0 graph=31 input=3.0 stored=1552.6503
+actual generator pos=(132, 49) coal=0 eff=1.0 graph=31 input=3.0 stored=1552.6503
+actual generator pos=(133, 49) coal=0 eff=0.0 graph=31 input=3.0 stored=1552.6503
+actual generator pos=(134, 49) coal=0 eff=0.0 graph=31 input=3.0 stored=1552.6503
+actual generator pos=(135, 49) coal=0 eff=0.0 graph=31 input=3.0 stored=1552.6503
+actual generator pos=(136, 49) coal=0 eff=0.0 graph=31 input=3.0 stored=1552.6503
+actual generator pos=(137, 49) coal=0 eff=0.0 graph=31 input=3.0 stored=1552.6503
+real counter arc pos=(132, 65) power=1.0 graph=2.0583322
+real counter arc pos=(145, 65) power=1.0 graph=2.0583322
+real counter lancer pos=(137, 64) power=1.0 graph=2.0583322
+real counter lancer pos=(142, 64) power=1.0 graph=2.0583322
+real counter lancer pos=(134, 67) power=1.0 graph=2.0583322
+tutorial objectives=0/0 flags={} coreStats={铜=193, 铅=192, 煤炭=235, 沙=82, 硅=77} queue=20 gather=沙 pending=BuildPlan{x=146, y=64, rotation=0, block=lancer, breaking=false, progress=0.30210173, initialized=true, config=null}
+660.0,13.200564,6,6,1.0,81,102,18,476,154,236,9,151.0,0.0
+actual silicon producer items=ItemModule{sand:10,coal:4} power=1.0 coreSi=0
+actual generator pos=(130, 49) coal=9 eff=1.0 graph=31 input=3.0 stored=2233.6155
+actual generator pos=(131, 49) coal=9 eff=1.0 graph=31 input=3.0 stored=2233.6155
+actual generator pos=(132, 49) coal=9 eff=1.0 graph=31 input=3.0 stored=2233.6155
+actual generator pos=(133, 49) coal=0 eff=0.0 graph=31 input=3.0 stored=2233.6155
+actual generator pos=(134, 49) coal=0 eff=0.0 graph=31 input=3.0 stored=2233.6155
+actual generator pos=(135, 49) coal=0 eff=0.0 graph=31 input=3.0 stored=2233.6155
+actual generator pos=(136, 49) coal=0 eff=0.0 graph=31 input=3.0 stored=2233.6155
+actual generator pos=(137, 49) coal=0 eff=0.0 graph=31 input=3.0 stored=2233.6155
+real counter arc pos=(132, 65) power=1.0 graph=1.6666659
+real counter arc pos=(145, 65) power=1.0 graph=1.6666659
+real counter lancer pos=(137, 64) power=1.0 graph=1.6666659
+real counter lancer pos=(142, 64) power=1.0 graph=1.6666659
+real counter lancer pos=(134, 67) power=1.0 graph=1.6666659
+tutorial objectives=0/0 flags={} coreStats={铜=216, 铅=214, 煤炭=323, 沙=106, 硅=106} queue=20 gather=硅 pending=BuildPlan{x=146, y=64, rotation=0, block=lancer, breaking=false, progress=0.78611237, initialized=true, config=null}
+720.0,14.557758,6,0,0.5890911,45,79,14,478,195,299,8,156.0,0.0
+actual silicon producer items=ItemModule{coal:6} power=0.0 coreSi=12
+actual generator pos=(130, 49) coal=0 eff=0.0 graph=31 input=0.0 stored=0.0
+actual generator pos=(131, 49) coal=0 eff=0.0 graph=31 input=0.0 stored=0.0
+actual generator pos=(132, 49) coal=0 eff=0.0 graph=31 input=0.0 stored=0.0
+actual generator pos=(133, 49) coal=0 eff=0.0 graph=31 input=0.0 stored=0.0
+actual generator pos=(134, 49) coal=0 eff=0.0 graph=31 input=0.0 stored=0.0
+actual generator pos=(135, 49) coal=0 eff=0.0 graph=31 input=0.0 stored=0.0
+actual generator pos=(136, 49) coal=0 eff=0.0 graph=31 input=0.0 stored=0.0
+actual generator pos=(137, 49) coal=0 eff=0.0 graph=31 input=0.0 stored=0.0
+real counter arc pos=(132, 65) power=0.0 graph=-22.199995
+real counter arc pos=(145, 65) power=0.0 graph=-22.199995
+real counter lancer pos=(137, 64) power=0.0 graph=-22.199995
+real counter lancer pos=(142, 64) power=0.0 graph=-22.199995
+real counter lancer pos=(134, 67) power=0.0 graph=-22.199995
+real counter lancer pos=(146, 64) power=0.0 graph=-22.199995
+tutorial objectives=0/0 flags={} coreStats={铜=236, 铅=236, 煤炭=408, 沙=130, 硅=131} queue=18 gather=铜 pending=BuildPlan{x=151, y=44, rotation=0, block=kiln, breaking=false, progress=0.018888889, initialized=true, config=null}
+780.0,15.567668,7,4,0.6065658,46,25,0,484,271,394,8,156.0,0.0
+actual silicon producer items=ItemModule{coal:10} power=0.6428572 coreSi=0
+native kiln items=ItemModule{} power=0.6000001 graph=31
+actual generator pos=(130, 49) coal=2 eff=1.0 graph=31 input=2.0 stored=49.5
+actual generator pos=(131, 49) coal=1 eff=1.0 graph=31 input=2.0 stored=49.5
+actual generator pos=(132, 49) coal=0 eff=0.0 graph=31 input=2.0 stored=49.5
+actual generator pos=(133, 49) coal=0 eff=0.0 graph=31 input=2.0 stored=49.5
+actual generator pos=(134, 49) coal=0 eff=0.0 graph=31 input=2.0 stored=49.5
+actual generator pos=(135, 49) coal=0 eff=0.0 graph=31 input=2.0 stored=49.5
+actual generator pos=(136, 49) coal=0 eff=0.0 graph=31 input=2.0 stored=49.5
+actual generator pos=(137, 49) coal=0 eff=0.0 graph=31 input=2.0 stored=49.5
+real counter arc pos=(132, 65) power=1.0 graph=-2.899995
+real counter arc pos=(145, 65) power=1.0 graph=-2.899995
+real counter lancer pos=(137, 64) power=1.0 graph=-2.899995
+real counter lancer pos=(142, 64) power=1.0 graph=-2.899995
+real counter lancer pos=(134, 67) power=1.0 graph=-2.899995
+real counter lancer pos=(146, 64) power=1.0 graph=-2.899995
+tutorial objectives=0/0 flags={} coreStats={铜=254, 铅=258, 煤炭=464, 沙=154, 硅=131} queue=12 gather=硅 pending=BuildPlan{x=141, y=122, rotation=0, block=steam-generator, breaking=false, progress=0.0, initialized=false, config=null}
+840.0,16.493406,7,0,1.0,64,47,0,484,391,514,8,122.0,0.0
+actual silicon producer items=ItemModule{coal:10} power=0.6428572 coreSi=0
+native kiln items=ItemModule{} power=0.6000001 graph=31
+actual generator pos=(130, 49) coal=2 eff=1.0 graph=31 input=2.0 stored=2109.5608
+actual generator pos=(131, 49) coal=0 eff=1.0 graph=31 input=2.0 stored=2109.5608
+actual generator pos=(132, 49) coal=0 eff=0.0 graph=31 input=2.0 stored=2109.5608
+actual generator pos=(133, 49) coal=0 eff=0.0 graph=31 input=2.0 stored=2109.5608
+actual generator pos=(134, 49) coal=0 eff=0.0 graph=31 input=2.0 stored=2109.5608
+actual generator pos=(135, 49) coal=0 eff=0.0 graph=31 input=2.0 stored=2109.5608
+actual generator pos=(136, 49) coal=0 eff=0.0 graph=31 input=2.0 stored=2109.5608
+actual generator pos=(137, 49) coal=0 eff=0.0 graph=31 input=2.0 stored=2109.5608
+real counter arc pos=(132, 65) power=1.0 graph=1.0999993
+real counter arc pos=(145, 65) power=1.0 graph=1.0999993
+real counter lancer pos=(137, 64) power=1.0 graph=1.0999993
+real counter lancer pos=(142, 64) power=1.0 graph=1.0999993
+real counter lancer pos=(134, 67) power=1.0 graph=1.0999993
+real counter lancer pos=(146, 64) power=1.0 graph=1.0999993
+tutorial objectives=0/0 flags={} coreStats={铜=272, 铅=280, 煤炭=520, 沙=178, 硅=131} queue=12 gather=硅 pending=BuildPlan{x=141, y=122, rotation=0, block=steam-generator, breaking=false, progress=0.0, initialized=false, config=null}
+900.0,17.423223,8,6,1.0,81,70,0,484,511,634,8,122.0,0.0
+actual silicon producer items=ItemModule{coal:10} power=0.6428572 coreSi=0
+native kiln items=ItemModule{} power=0.6000001 graph=31
+actual generator pos=(130, 49) coal=1 eff=1.0 graph=31 input=2.0 stored=5638.7734
+actual generator pos=(131, 49) coal=1 eff=1.0 graph=31 input=2.0 stored=5638.7734
+actual generator pos=(132, 49) coal=0 eff=0.0 graph=31 input=2.0 stored=5638.7734
+actual generator pos=(133, 49) coal=0 eff=0.0 graph=31 input=2.0 stored=5638.7734
+actual generator pos=(134, 49) coal=0 eff=0.0 graph=31 input=2.0 stored=5638.7734
+actual generator pos=(135, 49) coal=0 eff=0.0 graph=31 input=2.0 stored=5638.7734
+actual generator pos=(136, 49) coal=0 eff=0.0 graph=31 input=2.0 stored=5638.7734
+actual generator pos=(137, 49) coal=0 eff=0.0 graph=31 input=2.0 stored=5638.7734
+real counter arc pos=(132, 65) power=1.0 graph=1.0999993
+real counter arc pos=(145, 65) power=1.0 graph=1.0999993
+real counter lancer pos=(137, 64) power=1.0 graph=1.0999993
+real counter lancer pos=(142, 64) power=1.0 graph=1.0999993
+real counter lancer pos=(134, 67) power=1.0 graph=1.0999993
+real counter lancer pos=(146, 64) power=1.0 graph=1.0999993
+tutorial objectives=0/0 flags={} coreStats={铜=289, 铅=303, 煤炭=576, 沙=202, 硅=131} queue=12 gather=硅 pending=BuildPlan{x=141, y=122, rotation=0, block=steam-generator, breaking=false, progress=0.0, initialized=false, config=null}
+960.0,18.356627,8,0,1.0,98,92,0,484,631,754,8,55.0,0.0
+actual silicon producer items=ItemModule{coal:10} power=0.6428572 coreSi=0
+native kiln items=ItemModule{} power=0.6000001 graph=31
+actual generator pos=(130, 49) coal=1 eff=1.0 graph=31 input=2.0 stored=1380.8816
+actual generator pos=(131, 49) coal=2 eff=1.0 graph=31 input=2.0 stored=1380.8816
+actual generator pos=(132, 49) coal=0 eff=0.0 graph=31 input=2.0 stored=1380.8816
+actual generator pos=(133, 49) coal=0 eff=0.0 graph=31 input=2.0 stored=1380.8816
+actual generator pos=(134, 49) coal=0 eff=0.0 graph=31 input=2.0 stored=1380.8816
+actual generator pos=(135, 49) coal=0 eff=0.0 graph=31 input=2.0 stored=1380.8816
+actual generator pos=(136, 49) coal=0 eff=0.0 graph=31 input=2.0 stored=1380.8816
+actual generator pos=(137, 49) coal=0 eff=0.0 graph=31 input=2.0 stored=1380.8816
+real counter arc pos=(132, 65) power=1.0 graph=1.0999993
+real counter arc pos=(145, 65) power=1.0 graph=1.0999993
+real counter lancer pos=(137, 64) power=1.0 graph=1.0999993
+real counter lancer pos=(142, 64) power=1.0 graph=1.0999993
+real counter lancer pos=(134, 67) power=1.0 graph=1.0999993
+real counter lancer pos=(146, 64) power=1.0 graph=1.0999993
+tutorial objectives=0/0 flags={} coreStats={铜=306, 铅=325, 煤炭=634, 沙=226, 硅=131} queue=12 gather=硅 pending=BuildPlan{x=141, y=122, rotation=0, block=steam-generator, breaking=false, progress=0.0, initialized=false, config=null}
+1020.0,19.2842,9,1,0.84545153,116,114,0,484,751,874,8,41.0,0.0
+actual silicon producer items=ItemModule{coal:10} power=0.6428572 coreSi=0
+native kiln items=ItemModule{} power=0.6000001 graph=31
+actual generator pos=(130, 49) coal=2 eff=1.0 graph=31 input=2.0 stored=651.9788
+actual generator pos=(131, 49) coal=0 eff=1.0 graph=31 input=2.0 stored=651.9788
+actual generator pos=(132, 49) coal=0 eff=0.0 graph=31 input=2.0 stored=651.9788
+actual generator pos=(133, 49) coal=0 eff=0.0 graph=31 input=2.0 stored=651.9788
+actual generator pos=(134, 49) coal=0 eff=0.0 graph=31 input=2.0 stored=651.9788
+actual generator pos=(135, 49) coal=0 eff=0.0 graph=31 input=2.0 stored=651.9788
+actual generator pos=(136, 49) coal=0 eff=0.0 graph=31 input=2.0 stored=651.9788
+actual generator pos=(137, 49) coal=0 eff=0.0 graph=31 input=2.0 stored=651.9788
+real counter arc pos=(132, 65) power=1.0 graph=1.0999993
+real counter arc pos=(145, 65) power=1.0 graph=1.0999993
+real counter lancer pos=(137, 64) power=1.0 graph=1.0999993
+real counter lancer pos=(142, 64) power=1.0 graph=1.0999993
+real counter lancer pos=(134, 67) power=1.0 graph=1.0999993
+real counter lancer pos=(146, 64) power=1.0 graph=1.0999993
+tutorial objectives=0/0 flags={} coreStats={铜=324, 铅=347, 煤炭=690, 沙=250, 硅=131} queue=12 gather=硅 pending=BuildPlan{x=141, y=122, rotation=0, block=steam-generator, breaking=false, progress=0.0, initialized=false, config=null}
+1080.0,20.212383,9,0,1.0,133,136,0,484,870,992,8,41.0,0.0
+actual silicon producer items=ItemModule{coal:10} power=0.6428572 coreSi=0
+native kiln items=ItemModule{} power=0.6000001 graph=31
+actual generator pos=(130, 49) coal=2 eff=1.0 graph=31 input=2.0 stored=2543.7874
+actual generator pos=(131, 49) coal=1 eff=1.0 graph=31 input=2.0 stored=2543.7874
+actual generator pos=(132, 49) coal=0 eff=0.0 graph=31 input=2.0 stored=2543.7874
+actual generator pos=(133, 49) coal=0 eff=0.0 graph=31 input=2.0 stored=2543.7874
+actual generator pos=(134, 49) coal=0 eff=0.0 graph=31 input=2.0 stored=2543.7874
+actual generator pos=(135, 49) coal=0 eff=0.0 graph=31 input=2.0 stored=2543.7874
+actual generator pos=(136, 49) coal=0 eff=0.0 graph=31 input=2.0 stored=2543.7874
+actual generator pos=(137, 49) coal=0 eff=0.0 graph=31 input=2.0 stored=2543.7874
+real counter arc pos=(132, 65) power=1.0 graph=1.0999993
+real counter arc pos=(145, 65) power=1.0 graph=1.0999993
+real counter lancer pos=(137, 64) power=1.0 graph=1.0999993
+real counter lancer pos=(142, 64) power=1.0 graph=1.0999993
+real counter lancer pos=(134, 67) power=1.0 graph=1.0999993
+real counter lancer pos=(146, 64) power=1.0 graph=1.0999993
+tutorial objectives=0/0 flags={} coreStats={铜=341, 铅=369, 煤炭=747, 沙=274, 硅=131} queue=12 gather=硅 pending=BuildPlan{x=141, y=122, rotation=0, block=steam-generator, breaking=false, progress=0.0, initialized=false, config=null}
+1140.0,21.14403,10,2,1.0,151,158,1,484,990,1112,7,30.0,0.0
+actual silicon producer items=ItemModule{coal:10} power=0.96268654 coreSi=0
+native kiln items=ItemModule{} power=0.9555555 graph=31
+actual generator pos=(130, 49) coal=2 eff=1.0 graph=31 input=12.9 stored=757.8204
+actual generator pos=(131, 49) coal=1 eff=1.0 graph=31 input=12.9 stored=757.8204
+actual generator pos=(132, 49) coal=0 eff=0.0 graph=31 input=12.9 stored=757.8204
+actual generator pos=(133, 49) coal=0 eff=0.0 graph=31 input=12.9 stored=757.8204
+actual generator pos=(134, 49) coal=0 eff=0.0 graph=31 input=12.9 stored=757.8204
+actual generator pos=(135, 49) coal=0 eff=0.0 graph=31 input=12.9 stored=757.8204
+actual generator pos=(136, 49) coal=0 eff=0.0 graph=31 input=12.9 stored=757.8204
+actual generator pos=(137, 49) coal=0 eff=0.0 graph=31 input=12.9 stored=757.8204
+real counter arc pos=(132, 65) power=1.0 graph=-6.8999963
+real counter arc pos=(145, 65) power=1.0 graph=-6.8999963
+real counter lancer pos=(137, 64) power=1.0 graph=-6.8999963
+real counter lancer pos=(142, 64) power=1.0 graph=-6.8999963
+real counter lancer pos=(134, 67) power=1.0 graph=-6.8999963
+real counter lancer pos=(146, 64) power=1.0 graph=-6.8999963
+tutorial objectives=0/0 flags={} coreStats={铜=359, 铅=391, 煤炭=804, 沙=298, 硅=131} queue=12 gather=硅 pending=BuildPlan{x=141, y=122, rotation=0, block=steam-generator, breaking=false, progress=0.0, initialized=false, config=null}
+1153.7667,21.363655,10,1,0.0,0,0,0,484,1018,1140,7,0.0,0.0
+actual silicon producer items=ItemModule{coal:10} power=0.06968641 coreSi=0
+native kiln items=ItemModule{} power=0.06944444 graph=31
+actual generator pos=(130, 49) coal=2 eff=1.0 graph=31 input=2.0 stored=0.0
+actual generator pos=(131, 49) coal=0 eff=1.0 graph=31 input=2.0 stored=0.0
+actual generator pos=(132, 49) coal=0 eff=0.0 graph=31 input=2.0 stored=0.0
+actual generator pos=(133, 49) coal=0 eff=0.0 graph=31 input=2.0 stored=0.0
+actual generator pos=(134, 49) coal=0 eff=0.0 graph=31 input=2.0 stored=0.0
+actual generator pos=(135, 49) coal=0 eff=0.0 graph=31 input=2.0 stored=0.0
+actual generator pos=(136, 49) coal=0 eff=0.0 graph=31 input=2.0 stored=0.0
+actual generator pos=(137, 49) coal=0 eff=0.0 graph=31 input=2.0 stored=0.0
+real counter arc pos=(132, 65) power=0.07092199 graph=-26.19999
+real counter arc pos=(145, 65) power=0.07092199 graph=-26.19999
+real counter lancer pos=(137, 64) power=0.07092199 graph=-26.19999
+real counter lancer pos=(142, 64) power=0.07092199 graph=-26.19999
+real counter lancer pos=(134, 67) power=0.07092199 graph=-26.19999
+real counter lancer pos=(146, 64) power=0.07092199 graph=-26.19999
+tutorial objectives=0/0 flags={} coreStats={铜=363, 铅=397, 煤炭=816, 沙=303, 硅=131} queue=12 gather=硅 pending=BuildPlan{x=141, y=122, rotation=0, block=steam-generator, breaking=false, progress=0.0, initialized=false, config=null}
+trial=legal-build
+selection=campaign-progression-gates-verified
+mission=biomassFacility
+mode=NORMAL
+finished=true
+winner=crux
+wave=10
+actualSpawnWaves=9
+simSeconds=1153.7667
+wallSeconds=21.365517
+placedBuildings=484
+withdraws=1018
+deposits=1140
+coreMinimum=-5.8023975E-4
+buildingsDestroyed=37
+pendingPlans=12
+nextPlan=BuildPlan{x=141, y=122, rotation=0, block=steam-generator, breaking=false, progress=0.0, initialized=false, config=null}
+codeLocation=file:/local-work/mindustry-star-work/star034-runtime/Mindustry.jar
+CampaignStars.classModifiedAtStart=1791887228434
+WatchMapGenerator.classModifiedAtStart=1791887228434
+runtimeWatchVersion=0.3.4
+CoreBlock.classModifiedAtStart=1791887228434
+sourceJarModifiedAtStart=1791887228434
+assetsLocation=local-work/mindustry-star-work/star034-runtime/assets
+profileScope=independent-copy-of-genuine-main12-chain
+gateVerified=true
+starsAfter=0
+mainStarsAfter=12
+branch0RewardAfter=true
+settingsFileExists=true
+waveTimer=true
+objectives=0
+objectiveFlags={}
+frozenForestOpen=true
+objectivesCompleted=0
+status=挑战条件未达成；本次获得 0 / 3 星；本关累计 0 / 5
+

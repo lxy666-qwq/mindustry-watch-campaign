@@ -1,0 +1,8 @@
+0.0,1.261539,1,0,1.0,300,200,0,0,0,0,0,"{}"
+running objectives=[]
+0.0,1.2834773,1,0,1.0,300,200,0,0,0,0,0,"{}"
+running objectives=[]
+Exception in thread "main" java.lang.IllegalStateException: Native ground command point is solid: [284, 307]
+	at Intersect034Trial.plan(Intersect034Trial.java:485)
+	at Intersect034Trial.command(Intersect034Trial.java:174)
+	at Intersect034Trial.main(Intersect034Trial.java:122)

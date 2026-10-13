@@ -1,0 +1,27 @@
+mission=intersect
+mode=NORMAL
+scope=native tick driver
+gateVerified=true
+finished=true
+winner=malis
+simSeconds=715.81665
+built=199
+commands=0
+deposits=2
+pendingPlans=9
+next=BuildPlan{x=267, y=319, rotation=2, block=plasma-bore, breaking=false, progress=0.0, initialized=false, config=null}
+stars=0
+minimumCore=0.0
+losses=3
+elapsed=715.68604
+normalBefore=0
+heroBefore=0
+tacticalBefore=0
+normalAfter=0
+tacticalAfter=0
+earned=0
+runtimeWatchVersion=0.3.4
+objectives=0/0
+flags={}
+status=挑战条件未达成；本次获得 0 / 3 星；本关累计 0 / 5
+classLocation=file:/local-work/mindustry-star-work/star034-runtime/Mindustry.jar

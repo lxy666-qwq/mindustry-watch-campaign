@@ -1,0 +1,10 @@
+0.0,1.3001015,1,0,1.0,300,200,0,0,0,0,0,"{}"
+running objectives=[]
+0.0,1.7871802,1,0,1.0,300,200,0,0,0,0,0,"{}"
+running objectives=[]
+Exception in thread "main" java.lang.IllegalStateException: No native directional duct route BuildPlan{x=269, y=322, rotation=0, block=duct-router, breaking=false, progress=0.0, initialized=false, config=null} -> BuildPlan{x=276, y=329, rotation=2, block=tank-fabricator, breaking=false, progress=0.0, initialized=false, config=null}
+	at Intersect034Trial.route(Intersect034Trial.java:398)
+	at Intersect034Trial.fork(Intersect034Trial.java:461)
+	at Intersect034Trial.plan(Intersect034Trial.java:538)
+	at Intersect034Trial.command(Intersect034Trial.java:174)
+	at Intersect034Trial.main(Intersect034Trial.java:122)

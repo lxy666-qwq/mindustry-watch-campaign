@@ -1,0 +1,1196 @@
+seconds=0.0 pilot=271.5,321.5 cargo=铜: 0 onlyDepositCore=true pending=none
+plasma-bore 275,309 eff=0.0 enabled=true items=ItemModule{} power=0.0 produced=0.0 need=0.0
+plasma-bore 269,311 eff=0.0 enabled=true items=ItemModule{} power=0.0 produced=0.0 need=0.0
+plasma-bore 271,311 eff=0.0 enabled=true items=ItemModule{} power=0.0 produced=0.0 need=0.0
+plasma-bore 273,311 eff=0.0 enabled=true items=ItemModule{} power=0.0 produced=0.0 need=0.0
+plasma-bore 279,322 eff=0.0 enabled=true items=ItemModule{} power=0.0 produced=0.0 need=0.0
+actual supply Building#357[278,310]:turbine-condenser water=0.0 ammo=0
+seconds=0.0 pilot=271.5,321.50146 cargo=铜: 0 onlyDepositCore=true pending=BuildPlan{x=267, y=315, rotation=0, block=turbine-condenser, breaking=false, progress=0.016666668, initialized=true, config=null}
+plasma-bore 275,309 eff=0.0 enabled=true items=ItemModule{} power=0.0 produced=0.0 need=0.0
+plasma-bore 269,311 eff=0.0 enabled=true items=ItemModule{} power=0.0 produced=0.0 need=0.0
+plasma-bore 271,311 eff=0.0 enabled=true items=ItemModule{} power=0.0 produced=0.0 need=0.0
+plasma-bore 273,311 eff=0.0 enabled=true items=ItemModule{} power=0.0 produced=0.0 need=0.0
+plasma-bore 279,322 eff=0.0 enabled=true items=ItemModule{} power=0.0 produced=0.0 need=0.0
+actual supply Building#357[278,310]:turbine-condenser water=0.083333336 ammo=0
+seconds=60.0 pilot=274.42096,318.2274 cargo=铜: 0 onlyDepositCore=true pending=BuildPlan{x=272, y=338, rotation=0, block=breach, breaking=false, progress=0.0, initialized=false, config=null}
+plasma-bore 275,309 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=9.0 need=6.2666674
+plasma-bore 269,311 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=9.0 need=6.2666674
+plasma-bore 271,311 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=9.0 need=6.2666674
+plasma-bore 273,311 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=9.0 need=6.2666674
+plasma-bore 279,322 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=9.0 need=6.2666674
+silicon-arc-furnace 267,323 eff=1.0 enabled=true items=ItemModule{graphite:1,sand:30} power=1.0 produced=9.0 need=6.2666674
+cliff-crusher 262,322 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=9.0 need=6.2666674
+cliff-crusher 261,326 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=9.0 need=6.2666674
+cliff-crusher 259,329 eff=1.0 enabled=true items=ItemModule{sand:4} power=1.0 produced=9.0 need=6.2666674
+cliff-crusher 257,331 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=9.0 need=6.2666674
+plasma-bore 275,343 eff=1.0 enabled=true items=ItemModule{beryllium:4} power=1.0 produced=9.0 need=6.2666674
+actual supply Building#357[278,310]:turbine-condenser water=20.0 ammo=0
+actual supply Building#400[267,315]:turbine-condenser water=20.0 ammo=0
+actual supply Building#507[282,342]:turbine-condenser water=0.09712551 ammo=0
+seconds=120.0 pilot=273.24484,310.5354 cargo=铜: 0 onlyDepositCore=true pending=BuildPlan{x=272, y=338, rotation=0, block=breach, breaking=false, progress=0.0, initialized=false, config=null}
+plasma-bore 275,309 eff=1.0 enabled=true items=ItemModule{beryllium:2} power=1.0 produced=9.0 need=1.4833332
+plasma-bore 269,311 eff=1.0 enabled=true items=ItemModule{beryllium:2} power=1.0 produced=9.0 need=1.4833332
+plasma-bore 271,311 eff=1.0 enabled=true items=ItemModule{beryllium:2} power=1.0 produced=9.0 need=1.4833332
+plasma-bore 273,311 eff=1.0 enabled=true items=ItemModule{beryllium:2} power=1.0 produced=9.0 need=1.4833332
+plasma-bore 279,322 eff=1.0 enabled=true items=ItemModule{graphite:2} power=1.0 produced=9.0 need=1.4833332
+silicon-arc-furnace 267,323 eff=0.0 enabled=true items=ItemModule{sand:30} power=1.0 produced=9.0 need=1.4833332
+cliff-crusher 262,322 eff=1.0 enabled=true items=ItemModule{sand:9} power=1.0 produced=9.0 need=1.4833332
+cliff-crusher 261,326 eff=1.0 enabled=true items=ItemModule{sand:9} power=1.0 produced=9.0 need=1.4833332
+cliff-crusher 259,329 eff=1.0 enabled=true items=ItemModule{sand:9} power=1.0 produced=9.0 need=1.4833332
+cliff-crusher 257,331 eff=1.0 enabled=true items=ItemModule{sand:9} power=1.0 produced=9.0 need=1.4833332
+plasma-bore 275,343 eff=0.0 enabled=true items=ItemModule{beryllium:10} power=1.0 produced=9.0 need=1.4833332
+actual supply Building#357[278,310]:turbine-condenser water=0.100000024 ammo=0
+actual supply Building#400[267,315]:turbine-condenser water=0.09575708 ammo=0
+actual supply Building#507[282,342]:turbine-condenser water=0.0971298 ammo=0
+seconds=180.0 pilot=283.143,325.0744 cargo=铜: 0 onlyDepositCore=true pending=BuildPlan{x=259, y=337, rotation=0, block=breach, breaking=false, progress=0.0, initialized=false, config=null}
+plasma-bore 275,309 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=9.0 need=5.9000006
+plasma-bore 269,311 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=9.0 need=5.9000006
+plasma-bore 271,311 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=9.0 need=5.9000006
+plasma-bore 273,311 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=9.0 need=5.9000006
+plasma-bore 279,322 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=9.0 need=5.9000006
+silicon-arc-furnace 267,323 eff=1.0 enabled=true items=ItemModule{graphite:1,sand:30} power=1.0 produced=9.0 need=5.9000006
+cliff-crusher 262,322 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=9.0 need=5.9000006
+cliff-crusher 261,326 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=9.0 need=5.9000006
+cliff-crusher 259,329 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=9.0 need=5.9000006
+cliff-crusher 257,331 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=9.0 need=5.9000006
+plasma-bore 275,343 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=9.0 need=5.9000006
+actual supply Building#357[278,310]:turbine-condenser water=0.100000024 ammo=0
+actual supply Building#400[267,315]:turbine-condenser water=0.09575708 ammo=0
+actual supply Building#507[282,342]:turbine-condenser water=1.8659894 ammo=0
+actual supply Building#1009[272,338]:breach water=2.8218234 ammo=30
+seconds=240.0 pilot=276.5144,341.99387 cargo=铜: 0 onlyDepositCore=true pending=BuildPlan{x=259, y=337, rotation=0, block=breach, breaking=false, progress=0.0, initialized=false, config=null}
+plasma-bore 275,309 eff=1.0 enabled=true items=ItemModule{beryllium:2} power=1.0 produced=9.0 need=1.6333332
+plasma-bore 269,311 eff=1.0 enabled=true items=ItemModule{beryllium:2} power=1.0 produced=9.0 need=1.6333332
+plasma-bore 271,311 eff=1.0 enabled=true items=ItemModule{beryllium:2} power=1.0 produced=9.0 need=1.6333332
+plasma-bore 273,311 eff=1.0 enabled=true items=ItemModule{beryllium:2} power=1.0 produced=9.0 need=1.6333332
+plasma-bore 279,322 eff=1.0 enabled=true items=ItemModule{graphite:2} power=1.0 produced=9.0 need=1.6333332
+silicon-arc-furnace 267,323 eff=0.0 enabled=true items=ItemModule{sand:30} power=1.0 produced=9.0 need=1.6333332
+cliff-crusher 262,322 eff=1.0 enabled=true items=ItemModule{sand:9} power=1.0 produced=9.0 need=1.6333332
+cliff-crusher 261,326 eff=1.0 enabled=true items=ItemModule{sand:9} power=1.0 produced=9.0 need=1.6333332
+cliff-crusher 259,329 eff=1.0 enabled=true items=ItemModule{sand:9} power=1.0 produced=9.0 need=1.6333332
+cliff-crusher 257,331 eff=1.0 enabled=true items=ItemModule{sand:9} power=1.0 produced=9.0 need=1.6333332
+plasma-bore 275,343 eff=0.0 enabled=true items=ItemModule{beryllium:10} power=1.0 produced=9.0 need=1.6333332
+plasma-bore 263,319 eff=1.0 enabled=true items=ItemModule{beryllium:9} power=1.0 produced=9.0 need=1.6333332
+actual supply Building#357[278,310]:turbine-condenser water=0.100000024 ammo=0
+actual supply Building#400[267,315]:turbine-condenser water=19.999998 ammo=0
+actual supply Building#507[282,342]:turbine-condenser water=8.495038 ammo=0
+actual supply Building#1009[272,338]:breach water=9.507483 ammo=30
+seconds=300.0 pilot=278.691,345.46436 cargo=石墨: 51 onlyDepositCore=true pending=BuildPlan{x=281, y=320, rotation=0, block=breach, breaking=false, progress=0.0, initialized=false, config=null}
+plasma-bore 275,309 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=9.0 need=5.7500005
+plasma-bore 269,311 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=9.0 need=5.7500005
+plasma-bore 271,311 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=9.0 need=5.7500005
+plasma-bore 273,311 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=9.0 need=5.7500005
+plasma-bore 279,322 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=9.0 need=5.7500005
+silicon-arc-furnace 267,323 eff=1.0 enabled=true items=ItemModule{graphite:1,sand:30} power=1.0 produced=9.0 need=5.7500005
+cliff-crusher 262,322 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=9.0 need=5.7500005
+cliff-crusher 261,326 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=9.0 need=5.7500005
+cliff-crusher 259,329 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=9.0 need=5.7500005
+cliff-crusher 257,331 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=9.0 need=5.7500005
+plasma-bore 275,343 eff=0.0 enabled=true items=ItemModule{beryllium:10} power=1.0 produced=9.0 need=5.7500005
+plasma-bore 263,319 eff=0.0 enabled=true items=ItemModule{beryllium:10} power=1.0 produced=9.0 need=5.7500005
+actual supply Building#357[278,310]:turbine-condenser water=0.100000024 ammo=0
+actual supply Building#400[267,315]:turbine-condenser water=4.6016173 ammo=0
+actual supply Building#507[282,342]:turbine-condenser water=15.1097355 ammo=0
+actual supply Building#1009[272,338]:breach water=16.944183 ammo=30
+actual supply Building#1069[259,337]:breach water=20.0 ammo=30
+seconds=360.0 pilot=264.1,329.0545 cargo=石墨: 0 onlyDepositCore=true pending=BuildPlan{x=276, y=329, rotation=2, block=tank-fabricator, breaking=false, progress=0.0, initialized=false, config=null}
+plasma-bore 275,309 eff=1.0 enabled=true items=ItemModule{beryllium:2} power=1.0 produced=9.0 need=1.6333332
+plasma-bore 269,311 eff=1.0 enabled=true items=ItemModule{beryllium:2} power=1.0 produced=9.0 need=1.6333332
+plasma-bore 271,311 eff=1.0 enabled=true items=ItemModule{beryllium:2} power=1.0 produced=9.0 need=1.6333332
+plasma-bore 273,311 eff=1.0 enabled=true items=ItemModule{beryllium:2} power=1.0 produced=9.0 need=1.6333332
+plasma-bore 279,322 eff=1.0 enabled=true items=ItemModule{graphite:2} power=1.0 produced=9.0 need=1.6333332
+silicon-arc-furnace 267,323 eff=0.0 enabled=true items=ItemModule{sand:30} power=1.0 produced=9.0 need=1.6333332
+cliff-crusher 262,322 eff=1.0 enabled=true items=ItemModule{sand:9} power=1.0 produced=9.0 need=1.6333332
+cliff-crusher 261,326 eff=1.0 enabled=true items=ItemModule{sand:9} power=1.0 produced=9.0 need=1.6333332
+cliff-crusher 259,329 eff=1.0 enabled=true items=ItemModule{sand:9} power=1.0 produced=9.0 need=1.6333332
+cliff-crusher 257,331 eff=1.0 enabled=true items=ItemModule{sand:9} power=1.0 produced=9.0 need=1.6333332
+plasma-bore 275,343 eff=0.0 enabled=true items=ItemModule{beryllium:10} power=1.0 produced=9.0 need=1.6333332
+plasma-bore 263,319 eff=0.0 enabled=true items=ItemModule{beryllium:10} power=1.0 produced=9.0 need=1.6333332
+plasma-bore 287,299 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=9.0 need=1.6333332
+actual supply Building#357[278,310]:turbine-condenser water=1.8229554 ammo=0
+actual supply Building#400[267,315]:turbine-condenser water=9.18552 ammo=0
+actual supply Building#507[282,342]:turbine-condenser water=19.999998 ammo=0
+actual supply Building#1009[272,338]:breach water=20.0 ammo=30
+actual supply Building#1069[259,337]:breach water=20.0 ammo=30
+actual supply Building#1115[281,320]:breach water=3.0095353 ammo=30
+seconds=420.0 pilot=281.54428,313.85263 cargo=石墨: 0 onlyDepositCore=true pending=BuildPlan{x=280, y=344, rotation=1, block=plasma-bore, breaking=false, progress=0.0, initialized=false, config=null}
+plasma-bore 275,309 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=9.0 need=5.9000006
+plasma-bore 269,311 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=9.0 need=5.9000006
+plasma-bore 271,311 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=9.0 need=5.9000006
+plasma-bore 273,311 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=9.0 need=5.9000006
+plasma-bore 279,322 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=9.0 need=5.9000006
+silicon-arc-furnace 267,323 eff=1.0 enabled=true items=ItemModule{graphite:1,sand:30} power=1.0 produced=9.0 need=5.9000006
+cliff-crusher 262,322 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=9.0 need=5.9000006
+cliff-crusher 261,326 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=9.0 need=5.9000006
+cliff-crusher 259,329 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=9.0 need=5.9000006
+cliff-crusher 257,331 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=9.0 need=5.9000006
+plasma-bore 275,343 eff=0.0 enabled=true items=ItemModule{beryllium:10} power=1.0 produced=9.0 need=5.9000006
+plasma-bore 263,319 eff=0.0 enabled=true items=ItemModule{beryllium:10} power=1.0 produced=9.0 need=5.9000006
+plasma-bore 287,299 eff=0.0 enabled=true items=ItemModule{beryllium:10} power=1.0 produced=9.0 need=5.9000006
+plasma-bore 289,299 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=9.0 need=5.9000006
+actual supply Building#357[278,310]:turbine-condenser water=12.707008 ammo=0
+actual supply Building#400[267,315]:turbine-condenser water=13.526629 ammo=0
+actual supply Building#507[282,342]:turbine-condenser water=19.999998 ammo=0
+actual supply Building#1009[272,338]:breach water=20.0 ammo=30
+actual supply Building#1069[259,337]:breach water=20.0 ammo=30
+actual supply Building#1115[281,320]:breach water=14.667094 ammo=30
+seconds=480.0 pilot=281.94604,302.33804 cargo=石墨: 0 onlyDepositCore=true pending=BuildPlan{x=276, y=329, rotation=2, block=tank-fabricator, breaking=false, progress=0.0, initialized=false, config=null}
+plasma-bore 275,309 eff=1.0 enabled=true items=ItemModule{beryllium:2} power=1.0 produced=12.0 need=4.6
+plasma-bore 269,311 eff=1.0 enabled=true items=ItemModule{beryllium:2} power=1.0 produced=12.0 need=4.6
+plasma-bore 271,311 eff=1.0 enabled=true items=ItemModule{beryllium:2} power=1.0 produced=12.0 need=4.6
+plasma-bore 273,311 eff=1.0 enabled=true items=ItemModule{beryllium:2} power=1.0 produced=12.0 need=4.6
+plasma-bore 279,322 eff=1.0 enabled=true items=ItemModule{graphite:2} power=1.0 produced=12.0 need=4.6
+silicon-arc-furnace 267,323 eff=0.0 enabled=true items=ItemModule{sand:30} power=1.0 produced=12.0 need=4.6
+cliff-crusher 262,322 eff=1.0 enabled=true items=ItemModule{sand:9} power=1.0 produced=12.0 need=4.6
+cliff-crusher 261,326 eff=1.0 enabled=true items=ItemModule{sand:9} power=1.0 produced=12.0 need=4.6
+cliff-crusher 259,329 eff=1.0 enabled=true items=ItemModule{sand:9} power=1.0 produced=12.0 need=4.6
+cliff-crusher 257,331 eff=1.0 enabled=true items=ItemModule{sand:9} power=1.0 produced=12.0 need=4.6
+plasma-bore 275,343 eff=0.0 enabled=true items=ItemModule{beryllium:10} power=1.0 produced=12.0 need=4.6
+plasma-bore 263,319 eff=0.0 enabled=true items=ItemModule{beryllium:10} power=1.0 produced=12.0 need=4.6
+plasma-bore 287,299 eff=0.0 enabled=true items=ItemModule{beryllium:10} power=1.0 produced=12.0 need=4.6
+plasma-bore 289,299 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=4.6
+plasma-bore 280,344 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=4.6
+plasma-bore 291,299 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=4.6
+impact-drill 283,284 eff=0.50000006 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=4.6
+actual supply Building#357[278,310]:turbine-condenser water=19.999998 ammo=0
+actual supply Building#400[267,315]:turbine-condenser water=17.758648 ammo=0
+actual supply Building#507[282,342]:turbine-condenser water=19.999998 ammo=0
+actual supply Building#1009[272,338]:breach water=20.0 ammo=30
+actual supply Building#1069[259,337]:breach water=20.0 ammo=30
+actual supply Building#1115[281,320]:breach water=20.0 ammo=30
+actual supply Building#1179[277,281]:turbine-condenser water=0.08333334 ammo=0
+actual supply Building#1182[283,284]:impact-drill water=0.0 ammo=0
+seconds=540.0 pilot=278.56665,344.5494 cargo=石墨: 0 onlyDepositCore=true pending=BuildPlan{x=280, y=325, rotation=0, block=diffuse, breaking=false, progress=0.0, initialized=false, config=null}
+plasma-bore 275,309 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=9.016667
+plasma-bore 269,311 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=9.016667
+plasma-bore 271,311 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=9.016667
+plasma-bore 273,311 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=9.016667
+plasma-bore 279,322 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=9.016667
+silicon-arc-furnace 267,323 eff=1.0 enabled=true items=ItemModule{graphite:1,sand:30} power=1.0 produced=12.0 need=9.016667
+cliff-crusher 262,322 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=12.0 need=9.016667
+cliff-crusher 261,326 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=12.0 need=9.016667
+cliff-crusher 259,329 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=12.0 need=9.016667
+cliff-crusher 257,331 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=12.0 need=9.016667
+plasma-bore 275,343 eff=1.0 enabled=true items=ItemModule{beryllium:6} power=1.0 produced=12.0 need=9.016667
+plasma-bore 263,319 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=9.016667
+plasma-bore 287,299 eff=0.0 enabled=true items=ItemModule{beryllium:10} power=1.0 produced=12.0 need=9.016667
+impact-drill 283,284 eff=0.50000006 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=9.016667
+plasma-bore 289,299 eff=0.0 enabled=true items=ItemModule{beryllium:10} power=1.0 produced=12.0 need=9.016667
+plasma-bore 280,344 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=9.016667
+plasma-bore 291,299 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=9.016667
+tank-fabricator 276,329 eff=0.0 enabled=true items=ItemModule{silicon:5,beryllium:5} power=1.0 produced=12.0 need=9.016667 payload=null front=null progress=0.0
+actual supply Building#357[278,310]:turbine-condenser water=19.999998 ammo=0
+actual supply Building#400[267,315]:turbine-condenser water=19.999998 ammo=0
+actual supply Building#507[282,342]:turbine-condenser water=19.999998 ammo=0
+actual supply Building#1179[277,281]:turbine-condenser water=0.08333334 ammo=0
+actual supply Building#1009[272,338]:breach water=20.0 ammo=30
+actual supply Building#1069[259,337]:breach water=20.0 ammo=30
+actual supply Building#1182[283,284]:impact-drill water=0.08333334 ammo=0
+actual supply Building#1115[281,320]:breach water=20.0 ammo=30
+seconds=600.0 pilot=279.77692,345.7683 cargo=石墨: 0 onlyDepositCore=true pending=BuildPlan{x=280, y=325, rotation=0, block=diffuse, breaking=false, progress=0.0, initialized=false, config=null}
+plasma-bore 275,309 eff=1.0 enabled=true items=ItemModule{beryllium:2} power=1.0 produced=12.0 need=4.45
+plasma-bore 269,311 eff=1.0 enabled=true items=ItemModule{beryllium:2} power=1.0 produced=12.0 need=4.45
+plasma-bore 271,311 eff=1.0 enabled=true items=ItemModule{beryllium:2} power=1.0 produced=12.0 need=4.45
+plasma-bore 273,311 eff=1.0 enabled=true items=ItemModule{beryllium:2} power=1.0 produced=12.0 need=4.45
+plasma-bore 279,322 eff=1.0 enabled=true items=ItemModule{graphite:2} power=1.0 produced=12.0 need=4.45
+silicon-arc-furnace 267,323 eff=0.0 enabled=true items=ItemModule{sand:30} power=1.0 produced=12.0 need=4.45
+cliff-crusher 262,322 eff=1.0 enabled=true items=ItemModule{sand:9} power=1.0 produced=12.0 need=4.45
+cliff-crusher 261,326 eff=1.0 enabled=true items=ItemModule{sand:9} power=1.0 produced=12.0 need=4.45
+cliff-crusher 259,329 eff=1.0 enabled=true items=ItemModule{sand:9} power=1.0 produced=12.0 need=4.45
+cliff-crusher 257,331 eff=1.0 enabled=true items=ItemModule{sand:9} power=1.0 produced=12.0 need=4.45
+plasma-bore 275,343 eff=0.0 enabled=true items=ItemModule{beryllium:10} power=1.0 produced=12.0 need=4.45
+plasma-bore 263,319 eff=0.0 enabled=true items=ItemModule{beryllium:10} power=1.0 produced=12.0 need=4.45
+plasma-bore 287,299 eff=0.0 enabled=true items=ItemModule{beryllium:10} power=1.0 produced=12.0 need=4.45
+impact-drill 283,284 eff=0.50000006 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=4.45
+plasma-bore 289,299 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=4.45
+plasma-bore 280,344 eff=1.0 enabled=true items=ItemModule{graphite:3} power=1.0 produced=12.0 need=4.45
+plasma-bore 291,299 eff=0.0 enabled=true items=ItemModule{beryllium:10} power=1.0 produced=12.0 need=4.45
+tank-fabricator 276,329 eff=0.0 enabled=true items=ItemModule{silicon:47,beryllium:45} power=1.0 produced=12.0 need=4.45 payload=mindustry.world.blocks.payloads.UnitPayload@1f1ff879 front=null progress=0.0
+actual supply Building#357[278,310]:turbine-condenser water=19.999998 ammo=0
+actual supply Building#400[267,315]:turbine-condenser water=19.999998 ammo=0
+actual supply Building#507[282,342]:turbine-condenser water=19.999998 ammo=0
+actual supply Building#1179[277,281]:turbine-condenser water=0.08333334 ammo=0
+actual supply Building#1009[272,338]:breach water=20.0 ammo=30
+actual supply Building#1069[259,337]:breach water=20.0 ammo=30
+actual supply Building#1182[283,284]:impact-drill water=0.08333334 ammo=0
+actual supply Building#1115[281,320]:breach water=20.0 ammo=30
+seconds=660.0 pilot=279.77692,345.7683 cargo=石墨: 0 onlyDepositCore=true pending=BuildPlan{x=280, y=325, rotation=0, block=diffuse, breaking=false, progress=0.0, initialized=false, config=null}
+plasma-bore 275,309 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=10.066668
+plasma-bore 269,311 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=10.066668
+plasma-bore 271,311 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=10.066668
+plasma-bore 273,311 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=10.066668
+plasma-bore 279,322 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=10.066668
+silicon-arc-furnace 267,323 eff=1.0 enabled=true items=ItemModule{graphite:1,sand:30} power=1.0 produced=12.0 need=10.066668
+cliff-crusher 262,322 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=12.0 need=10.066668
+cliff-crusher 261,326 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=12.0 need=10.066668
+cliff-crusher 259,329 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=12.0 need=10.066668
+cliff-crusher 257,331 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=12.0 need=10.066668
+plasma-bore 275,343 eff=0.0 enabled=true items=ItemModule{beryllium:10} power=1.0 produced=12.0 need=10.066668
+plasma-bore 263,319 eff=0.0 enabled=true items=ItemModule{beryllium:10} power=1.0 produced=12.0 need=10.066668
+plasma-bore 287,299 eff=0.0 enabled=true items=ItemModule{beryllium:10} power=1.0 produced=12.0 need=10.066668
+impact-drill 283,284 eff=0.50000006 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=10.066668
+plasma-bore 289,299 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=10.066668
+plasma-bore 280,344 eff=0.0 enabled=true items=ItemModule{graphite:10} power=1.0 produced=12.0 need=10.066668
+plasma-bore 291,299 eff=0.0 enabled=true items=ItemModule{beryllium:10} power=1.0 produced=12.0 need=10.066668
+tank-fabricator 276,329 eff=1.0 enabled=true items=ItemModule{silicon:74,beryllium:76} power=1.0 produced=12.0 need=10.066668 payload=null front=null progress=1081.0
+actual supply Building#357[278,310]:turbine-condenser water=19.999998 ammo=0
+actual supply Building#400[267,315]:turbine-condenser water=19.999998 ammo=0
+actual supply Building#507[282,342]:turbine-condenser water=19.999998 ammo=0
+actual supply Building#1179[277,281]:turbine-condenser water=0.08333334 ammo=0
+actual supply Building#1009[272,338]:breach water=20.0 ammo=30
+actual supply Building#1069[259,337]:breach water=20.0 ammo=30
+actual supply Building#1182[283,284]:impact-drill water=0.08333334 ammo=0
+actual supply Building#1115[281,320]:breach water=20.0 ammo=30
+seconds=720.0 pilot=252.46124,351.77838 cargo=石墨: 0 onlyDepositCore=true pending=BuildPlan{x=280, y=325, rotation=0, block=diffuse, breaking=false, progress=0.0, initialized=false, config=null}
+plasma-bore 275,309 eff=1.0 enabled=true items=ItemModule{beryllium:2} power=1.0 produced=12.0 need=6.1
+plasma-bore 269,311 eff=1.0 enabled=true items=ItemModule{beryllium:2} power=1.0 produced=12.0 need=6.1
+plasma-bore 271,311 eff=1.0 enabled=true items=ItemModule{beryllium:2} power=1.0 produced=12.0 need=6.1
+plasma-bore 273,311 eff=1.0 enabled=true items=ItemModule{beryllium:2} power=1.0 produced=12.0 need=6.1
+plasma-bore 279,322 eff=1.0 enabled=true items=ItemModule{graphite:2} power=1.0 produced=12.0 need=6.1
+silicon-arc-furnace 267,323 eff=0.0 enabled=true items=ItemModule{sand:30} power=1.0 produced=12.0 need=6.1
+cliff-crusher 262,322 eff=1.0 enabled=true items=ItemModule{sand:9} power=1.0 produced=12.0 need=6.1
+cliff-crusher 261,326 eff=1.0 enabled=true items=ItemModule{sand:9} power=1.0 produced=12.0 need=6.1
+cliff-crusher 259,329 eff=1.0 enabled=true items=ItemModule{sand:9} power=1.0 produced=12.0 need=6.1
+cliff-crusher 257,331 eff=1.0 enabled=true items=ItemModule{sand:9} power=1.0 produced=12.0 need=6.1
+plasma-bore 275,343 eff=1.0 enabled=true items=ItemModule{beryllium:2} power=1.0 produced=12.0 need=6.1
+plasma-bore 291,299 eff=0.0 enabled=true items=ItemModule{beryllium:10} power=1.0 produced=12.0 need=6.1
+tank-fabricator 276,329 eff=1.0 enabled=true items=ItemModule{silicon:54,beryllium:40} power=1.0 produced=12.0 need=6.1 payload=null front=null progress=127.0
+plasma-bore 263,319 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=6.1
+plasma-bore 287,299 eff=0.0 enabled=true items=ItemModule{beryllium:10} power=1.0 produced=12.0 need=6.1
+impact-drill 283,284 eff=0.50000006 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=6.1
+plasma-bore 289,299 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=6.1
+plasma-bore 280,344 eff=0.0 enabled=true items=ItemModule{graphite:10} power=1.0 produced=12.0 need=6.1
+actual supply Building#357[278,310]:turbine-condenser water=19.999998 ammo=0
+actual supply Building#400[267,315]:turbine-condenser water=19.999998 ammo=0
+actual supply Building#507[282,342]:turbine-condenser water=19.999998 ammo=0
+actual supply Building#1179[277,281]:turbine-condenser water=0.08333334 ammo=0
+actual supply Building#1009[272,338]:breach water=20.0 ammo=30
+actual supply Building#1069[259,337]:breach water=20.0 ammo=30
+actual supply Building#1182[283,284]:impact-drill water=0.08333334 ammo=0
+actual supply Building#1115[281,320]:breach water=20.0 ammo=30
+seconds=780.0 pilot=252.46124,351.77838 cargo=石墨: 0 onlyDepositCore=true pending=BuildPlan{x=280, y=325, rotation=0, block=diffuse, breaking=false, progress=0.0, initialized=false, config=null}
+plasma-bore 275,309 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=10.066668
+plasma-bore 269,311 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=10.066668
+plasma-bore 271,311 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=10.066668
+plasma-bore 273,311 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=10.066668
+plasma-bore 279,322 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=10.066668
+silicon-arc-furnace 267,323 eff=1.0 enabled=true items=ItemModule{graphite:1,sand:30} power=1.0 produced=12.0 need=10.066668
+cliff-crusher 262,322 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=12.0 need=10.066668
+cliff-crusher 261,326 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=12.0 need=10.066668
+cliff-crusher 259,329 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=12.0 need=10.066668
+cliff-crusher 257,331 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=12.0 need=10.066668
+plasma-bore 275,343 eff=0.0 enabled=true items=ItemModule{beryllium:10} power=1.0 produced=12.0 need=10.066668
+plasma-bore 291,299 eff=0.0 enabled=true items=ItemModule{beryllium:10} power=1.0 produced=12.0 need=10.066668
+tank-fabricator 276,329 eff=1.0 enabled=true items=ItemModule{silicon:81,beryllium:46} power=1.0 produced=12.0 need=10.066668 payload=null front=null progress=527.0
+plasma-bore 263,319 eff=0.0 enabled=true items=ItemModule{beryllium:10} power=1.0 produced=12.0 need=10.066668
+plasma-bore 287,299 eff=0.0 enabled=true items=ItemModule{beryllium:10} power=1.0 produced=12.0 need=10.066668
+impact-drill 283,284 eff=0.50000006 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=10.066668
+plasma-bore 289,299 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=10.066668
+plasma-bore 280,344 eff=0.0 enabled=true items=ItemModule{graphite:10} power=1.0 produced=12.0 need=10.066668
+actual supply Building#357[278,310]:turbine-condenser water=19.999998 ammo=0
+actual supply Building#400[267,315]:turbine-condenser water=19.999998 ammo=0
+actual supply Building#507[282,342]:turbine-condenser water=19.999998 ammo=0
+actual supply Building#1179[277,281]:turbine-condenser water=0.08333334 ammo=0
+actual supply Building#1009[272,338]:breach water=20.0 ammo=30
+actual supply Building#1069[259,337]:breach water=20.0 ammo=30
+actual supply Building#1182[283,284]:impact-drill water=0.08333334 ammo=0
+actual supply Building#1115[281,320]:breach water=20.0 ammo=30
+seconds=840.0 pilot=252.46124,351.77838 cargo=石墨: 0 onlyDepositCore=true pending=BuildPlan{x=280, y=325, rotation=0, block=diffuse, breaking=false, progress=0.0, initialized=false, config=null}
+plasma-bore 275,309 eff=1.0 enabled=true items=ItemModule{beryllium:2} power=1.0 produced=12.0 need=5.8
+plasma-bore 269,311 eff=1.0 enabled=true items=ItemModule{beryllium:2} power=1.0 produced=12.0 need=5.8
+plasma-bore 271,311 eff=1.0 enabled=true items=ItemModule{beryllium:2} power=1.0 produced=12.0 need=5.8
+plasma-bore 273,311 eff=1.0 enabled=true items=ItemModule{beryllium:2} power=1.0 produced=12.0 need=5.8
+plasma-bore 279,322 eff=1.0 enabled=true items=ItemModule{graphite:2} power=1.0 produced=12.0 need=5.8
+silicon-arc-furnace 267,323 eff=0.0 enabled=true items=ItemModule{sand:30} power=1.0 produced=12.0 need=5.8
+cliff-crusher 262,322 eff=1.0 enabled=true items=ItemModule{sand:9} power=1.0 produced=12.0 need=5.8
+cliff-crusher 261,326 eff=1.0 enabled=true items=ItemModule{sand:9} power=1.0 produced=12.0 need=5.8
+cliff-crusher 259,329 eff=1.0 enabled=true items=ItemModule{sand:9} power=1.0 produced=12.0 need=5.8
+cliff-crusher 257,331 eff=1.0 enabled=true items=ItemModule{sand:9} power=1.0 produced=12.0 need=5.8
+plasma-bore 275,343 eff=0.0 enabled=true items=ItemModule{beryllium:10} power=1.0 produced=12.0 need=5.8
+plasma-bore 291,299 eff=0.0 enabled=true items=ItemModule{beryllium:10} power=1.0 produced=12.0 need=5.8
+tank-fabricator 276,329 eff=1.0 enabled=true items=ItemModule{silicon:100,beryllium:50} power=1.0 produced=12.0 need=5.8 payload=null front=null progress=927.0
+plasma-bore 263,319 eff=0.0 enabled=true items=ItemModule{beryllium:10} power=1.0 produced=12.0 need=5.8
+plasma-bore 287,299 eff=0.0 enabled=true items=ItemModule{beryllium:10} power=1.0 produced=12.0 need=5.8
+impact-drill 283,284 eff=0.50000006 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=5.8
+plasma-bore 289,299 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=5.8
+plasma-bore 280,344 eff=0.0 enabled=true items=ItemModule{graphite:10} power=1.0 produced=12.0 need=5.8
+actual supply Building#357[278,310]:turbine-condenser water=19.999998 ammo=0
+actual supply Building#400[267,315]:turbine-condenser water=19.999998 ammo=0
+actual supply Building#507[282,342]:turbine-condenser water=19.999998 ammo=0
+actual supply Building#1179[277,281]:turbine-condenser water=0.08333334 ammo=0
+actual supply Building#1009[272,338]:breach water=20.0 ammo=30
+actual supply Building#1069[259,337]:breach water=20.0 ammo=30
+actual supply Building#1182[283,284]:impact-drill water=0.08333334 ammo=0
+actual supply Building#1115[281,320]:breach water=20.0 ammo=30
+seconds=900.0 pilot=260.5755,333.43954 cargo=石墨: 0 onlyDepositCore=true pending=BuildPlan{x=280, y=325, rotation=0, block=diffuse, breaking=false, progress=0.0, initialized=false, config=null}
+plasma-bore 275,309 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=10.366668
+plasma-bore 269,311 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=10.366668
+plasma-bore 271,311 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=10.366668
+plasma-bore 273,311 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=10.366668
+plasma-bore 279,322 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=10.366668
+silicon-arc-furnace 267,323 eff=1.0 enabled=true items=ItemModule{graphite:1,sand:30} power=1.0 produced=12.0 need=10.366668
+cliff-crusher 262,322 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=12.0 need=10.366668
+cliff-crusher 261,326 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=12.0 need=10.366668
+cliff-crusher 259,329 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=12.0 need=10.366668
+cliff-crusher 257,331 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=12.0 need=10.366668
+plasma-bore 275,343 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=10.366668
+plasma-bore 291,299 eff=0.0 enabled=true items=ItemModule{beryllium:10} power=1.0 produced=12.0 need=10.366668
+tank-fabricator 276,329 eff=1.0 enabled=true items=ItemModule{silicon:100,beryllium:56} power=1.0 produced=12.0 need=10.366668 payload=null front=null progress=1327.0
+plasma-bore 263,319 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=10.366668
+plasma-bore 287,299 eff=0.0 enabled=true items=ItemModule{beryllium:10} power=1.0 produced=12.0 need=10.366668
+impact-drill 283,284 eff=0.50000006 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=10.366668
+plasma-bore 289,299 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=10.366668
+plasma-bore 280,344 eff=0.0 enabled=true items=ItemModule{graphite:10} power=1.0 produced=12.0 need=10.366668
+actual supply Building#357[278,310]:turbine-condenser water=19.999998 ammo=0
+actual supply Building#400[267,315]:turbine-condenser water=19.999998 ammo=0
+actual supply Building#507[282,342]:turbine-condenser water=19.999998 ammo=0
+actual supply Building#1179[277,281]:turbine-condenser water=0.08333334 ammo=0
+actual supply Building#1009[272,338]:breach water=20.0 ammo=30
+actual supply Building#1069[259,337]:breach water=20.0 ammo=30
+actual supply Building#1182[283,284]:impact-drill water=0.08333334 ammo=0
+actual supply Building#1115[281,320]:breach water=20.0 ammo=30
+seconds=960.0 pilot=260.5755,333.43954 cargo=石墨: 0 onlyDepositCore=true pending=BuildPlan{x=280, y=325, rotation=0, block=diffuse, breaking=false, progress=0.0, initialized=false, config=null}
+impact-drill 283,284 eff=0.50000006 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=5.6166673
+plasma-bore 287,299 eff=0.0 enabled=true items=ItemModule{beryllium:10} power=1.0 produced=12.0 need=5.6166673
+plasma-bore 289,299 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=5.6166673
+plasma-bore 291,299 eff=0.0 enabled=true items=ItemModule{beryllium:10} power=1.0 produced=12.0 need=5.6166673
+plasma-bore 275,309 eff=1.0 enabled=true items=ItemModule{beryllium:2} power=1.0 produced=12.0 need=5.6166673
+plasma-bore 269,311 eff=1.0 enabled=true items=ItemModule{beryllium:2} power=1.0 produced=12.0 need=5.6166673
+plasma-bore 271,311 eff=1.0 enabled=true items=ItemModule{beryllium:2} power=1.0 produced=12.0 need=5.6166673
+plasma-bore 273,311 eff=1.0 enabled=true items=ItemModule{beryllium:2} power=1.0 produced=12.0 need=5.6166673
+plasma-bore 263,319 eff=0.0 enabled=true items=ItemModule{beryllium:10} power=1.0 produced=12.0 need=5.6166673
+cliff-crusher 262,322 eff=1.0 enabled=true items=ItemModule{sand:8} power=1.0 produced=12.0 need=5.6166673
+plasma-bore 279,322 eff=1.0 enabled=true items=ItemModule{graphite:2} power=1.0 produced=12.0 need=5.6166673
+silicon-arc-furnace 267,323 eff=0.0 enabled=true items=ItemModule{sand:30} power=1.0 produced=12.0 need=5.6166673
+cliff-crusher 261,326 eff=1.0 enabled=true items=ItemModule{sand:9} power=1.0 produced=12.0 need=5.6166673
+cliff-crusher 259,329 eff=1.0 enabled=true items=ItemModule{sand:9} power=1.0 produced=12.0 need=5.6166673
+tank-fabricator 276,329 eff=1.0 enabled=true items=ItemModule{silicon:100,beryllium:60} power=1.0 produced=12.0 need=5.6166673 payload=null front=null progress=1721.0
+cliff-crusher 257,331 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=12.0 need=5.6166673
+plasma-bore 275,343 eff=0.0 enabled=true items=ItemModule{beryllium:10} power=1.0 produced=12.0 need=5.6166673
+plasma-bore 280,344 eff=0.0 enabled=true items=ItemModule{graphite:10} power=1.0 produced=12.0 need=5.6166673
+actual supply Building#1592[277,281]:turbine-condenser water=0.08333334 ammo=0
+actual supply Building#1615[283,284]:impact-drill water=0.0 ammo=0
+actual supply Building#1748[278,310]:turbine-condenser water=19.999998 ammo=0
+actual supply Building#1796[267,315]:turbine-condenser water=19.999998 ammo=0
+actual supply Building#1831[281,320]:breach water=20.0 ammo=30
+actual supply Building#1992[259,337]:breach water=20.0 ammo=30
+actual supply Building#1999[272,338]:breach water=20.0 ammo=30
+actual supply Building#2025[282,342]:turbine-condenser water=19.999998 ammo=0
+seconds=1020.0 pilot=260.5755,333.43954 cargo=石墨: 0 onlyDepositCore=true pending=BuildPlan{x=280, y=325, rotation=0, block=diffuse, breaking=false, progress=0.0, initialized=false, config=null}
+impact-drill 283,284 eff=0.50000006 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=8.750001
+plasma-bore 287,299 eff=0.0 enabled=true items=ItemModule{beryllium:10} power=1.0 produced=12.0 need=8.750001
+plasma-bore 289,299 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=8.750001
+plasma-bore 291,299 eff=0.0 enabled=true items=ItemModule{beryllium:10} power=1.0 produced=12.0 need=8.750001
+plasma-bore 275,309 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=8.750001
+plasma-bore 269,311 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=8.750001
+plasma-bore 271,311 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=8.750001
+plasma-bore 273,311 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=8.750001
+plasma-bore 263,319 eff=0.0 enabled=true items=ItemModule{beryllium:10} power=1.0 produced=12.0 need=8.750001
+cliff-crusher 262,322 eff=1.0 enabled=true items=ItemModule{sand:9} power=1.0 produced=12.0 need=8.750001
+plasma-bore 279,322 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=8.750001
+silicon-arc-furnace 267,323 eff=1.0 enabled=true items=ItemModule{graphite:1,sand:30} power=1.0 produced=12.0 need=8.750001
+cliff-crusher 261,326 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=12.0 need=8.750001
+cliff-crusher 259,329 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=12.0 need=8.750001
+tank-fabricator 276,329 eff=0.0 enabled=true items=ItemModule{silicon:56,beryllium:26} power=1.0 produced=12.0 need=8.750001 payload=null front=null progress=0.0
+cliff-crusher 257,331 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=12.0 need=8.750001
+plasma-bore 275,343 eff=0.0 enabled=true items=ItemModule{beryllium:10} power=1.0 produced=12.0 need=8.750001
+plasma-bore 280,344 eff=0.0 enabled=true items=ItemModule{graphite:10} power=1.0 produced=12.0 need=8.750001
+actual supply Building#1592[277,281]:turbine-condenser water=0.08333334 ammo=0
+actual supply Building#1615[283,284]:impact-drill water=0.0 ammo=0
+actual supply Building#1748[278,310]:turbine-condenser water=19.999998 ammo=0
+actual supply Building#1796[267,315]:turbine-condenser water=19.999998 ammo=0
+actual supply Building#1831[281,320]:breach water=20.0 ammo=30
+actual supply Building#1992[259,337]:breach water=20.0 ammo=30
+actual supply Building#1999[272,338]:breach water=20.0 ammo=30
+actual supply Building#2025[282,342]:turbine-condenser water=19.999998 ammo=0
+seconds=1080.0 pilot=283.9984,322.66174 cargo=石墨: 0 onlyDepositCore=true pending=BuildPlan{x=263, y=332, rotation=0, block=diffuse, breaking=false, progress=0.0, initialized=false, config=null}
+impact-drill 283,284 eff=0.50000006 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=4.8666673
+plasma-bore 287,299 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=4.8666673
+plasma-bore 289,299 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=4.8666673
+plasma-bore 275,309 eff=1.0 enabled=true items=ItemModule{beryllium:2} power=1.0 produced=12.0 need=4.8666673
+plasma-bore 269,311 eff=1.0 enabled=true items=ItemModule{beryllium:2} power=1.0 produced=12.0 need=4.8666673
+plasma-bore 271,311 eff=1.0 enabled=true items=ItemModule{beryllium:2} power=1.0 produced=12.0 need=4.8666673
+plasma-bore 273,311 eff=1.0 enabled=true items=ItemModule{beryllium:2} power=1.0 produced=12.0 need=4.8666673
+plasma-bore 263,319 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=4.8666673
+cliff-crusher 262,322 eff=1.0 enabled=true items=ItemModule{sand:8} power=1.0 produced=12.0 need=4.8666673
+plasma-bore 279,322 eff=1.0 enabled=true items=ItemModule{graphite:2} power=1.0 produced=12.0 need=4.8666673
+silicon-arc-furnace 267,323 eff=0.0 enabled=true items=ItemModule{sand:30} power=1.0 produced=12.0 need=4.8666673
+cliff-crusher 261,326 eff=1.0 enabled=true items=ItemModule{sand:9} power=1.0 produced=12.0 need=4.8666673
+cliff-crusher 259,329 eff=1.0 enabled=true items=ItemModule{sand:9} power=1.0 produced=12.0 need=4.8666673
+tank-fabricator 276,329 eff=0.0 enabled=true items=ItemModule{silicon:77,beryllium:30} power=1.0 produced=12.0 need=4.8666673 payload=null front=null progress=0.0
+cliff-crusher 257,331 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=12.0 need=4.8666673
+plasma-bore 275,343 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=4.8666673
+plasma-bore 280,344 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=4.8666673
+plasma-bore 291,299 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=4.8666673
+actual supply Building#1592[277,281]:turbine-condenser water=0.08333334 ammo=0
+actual supply Building#1615[283,284]:impact-drill water=0.0 ammo=0
+actual supply Building#1748[278,310]:turbine-condenser water=19.999998 ammo=0
+actual supply Building#1796[267,315]:turbine-condenser water=19.999998 ammo=0
+actual supply Building#1831[281,320]:breach water=20.0 ammo=30
+actual supply Building#1992[259,337]:breach water=20.0 ammo=30
+actual supply Building#1999[272,338]:breach water=20.0 ammo=24
+actual supply Building#2025[282,342]:turbine-condenser water=19.999998 ammo=0
+actual supply Building#2312[280,325]:diffuse water=0.0 ammo=30
+seconds=1140.0 pilot=283.9984,322.66187 cargo=石墨: 0 onlyDepositCore=true pending=BuildPlan{x=263, y=332, rotation=0, block=diffuse, breaking=false, progress=0.0, initialized=false, config=null}
+impact-drill 283,284 eff=0.50000006 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=8.750001
+plasma-bore 287,299 eff=0.0 enabled=true items=ItemModule{beryllium:10} power=1.0 produced=12.0 need=8.750001
+plasma-bore 289,299 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=8.750001
+plasma-bore 275,309 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=8.750001
+plasma-bore 269,311 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=8.750001
+plasma-bore 271,311 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=8.750001
+plasma-bore 273,311 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=8.750001
+plasma-bore 263,319 eff=0.0 enabled=true items=ItemModule{beryllium:10} power=1.0 produced=12.0 need=8.750001
+cliff-crusher 262,322 eff=1.0 enabled=true items=ItemModule{sand:9} power=1.0 produced=12.0 need=8.750001
+plasma-bore 279,322 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=8.750001
+silicon-arc-furnace 267,323 eff=1.0 enabled=true items=ItemModule{graphite:1,sand:30} power=1.0 produced=12.0 need=8.750001
+cliff-crusher 261,326 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=12.0 need=8.750001
+cliff-crusher 259,329 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=12.0 need=8.750001
+tank-fabricator 276,329 eff=0.0 enabled=true items=ItemModule{silicon:84,beryllium:36} power=1.0 produced=12.0 need=8.750001 payload=null front=null progress=0.0
+cliff-crusher 257,331 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=12.0 need=8.750001
+plasma-bore 275,343 eff=0.0 enabled=true items=ItemModule{beryllium:10} power=1.0 produced=12.0 need=8.750001
+plasma-bore 280,344 eff=0.0 enabled=true items=ItemModule{graphite:10} power=1.0 produced=12.0 need=8.750001
+plasma-bore 291,299 eff=0.0 enabled=true items=ItemModule{beryllium:10} power=1.0 produced=12.0 need=8.750001
+actual supply Building#1592[277,281]:turbine-condenser water=0.08333334 ammo=0
+actual supply Building#1615[283,284]:impact-drill water=0.0 ammo=0
+actual supply Building#1748[278,310]:turbine-condenser water=19.999998 ammo=0
+actual supply Building#1796[267,315]:turbine-condenser water=19.999998 ammo=0
+actual supply Building#1831[281,320]:breach water=20.0 ammo=30
+actual supply Building#1992[259,337]:breach water=20.0 ammo=30
+actual supply Building#1999[272,338]:breach water=20.0 ammo=30
+actual supply Building#2025[282,342]:turbine-condenser water=19.999998 ammo=0
+actual supply Building#2312[280,325]:diffuse water=0.0 ammo=30
+seconds=1200.0 pilot=283.9984,322.66187 cargo=石墨: 0 onlyDepositCore=true pending=BuildPlan{x=263, y=332, rotation=0, block=diffuse, breaking=false, progress=0.0, initialized=false, config=null}
+impact-drill 283,284 eff=0.50000006 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=5.6166673
+plasma-bore 287,299 eff=0.0 enabled=true items=ItemModule{beryllium:10} power=1.0 produced=12.0 need=5.6166673
+plasma-bore 289,299 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=5.6166673
+plasma-bore 275,309 eff=1.0 enabled=true items=ItemModule{beryllium:2} power=1.0 produced=12.0 need=5.6166673
+plasma-bore 269,311 eff=1.0 enabled=true items=ItemModule{beryllium:2} power=1.0 produced=12.0 need=5.6166673
+plasma-bore 271,311 eff=1.0 enabled=true items=ItemModule{beryllium:2} power=1.0 produced=12.0 need=5.6166673
+plasma-bore 273,311 eff=1.0 enabled=true items=ItemModule{beryllium:2} power=1.0 produced=12.0 need=5.6166673
+plasma-bore 263,319 eff=0.0 enabled=true items=ItemModule{beryllium:10} power=1.0 produced=12.0 need=5.6166673
+cliff-crusher 262,322 eff=1.0 enabled=true items=ItemModule{sand:8} power=1.0 produced=12.0 need=5.6166673
+plasma-bore 279,322 eff=1.0 enabled=true items=ItemModule{graphite:2} power=1.0 produced=12.0 need=5.6166673
+silicon-arc-furnace 267,323 eff=0.0 enabled=true items=ItemModule{sand:30} power=1.0 produced=12.0 need=5.6166673
+cliff-crusher 261,326 eff=1.0 enabled=true items=ItemModule{sand:9} power=1.0 produced=12.0 need=5.6166673
+cliff-crusher 259,329 eff=1.0 enabled=true items=ItemModule{sand:9} power=1.0 produced=12.0 need=5.6166673
+tank-fabricator 276,329 eff=1.0 enabled=true items=ItemModule{silicon:94,beryllium:40} power=1.0 produced=12.0 need=5.6166673 payload=null front=null progress=121.0
+cliff-crusher 257,331 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=12.0 need=5.6166673
+plasma-bore 275,343 eff=0.0 enabled=true items=ItemModule{beryllium:10} power=1.0 produced=12.0 need=5.6166673
+plasma-bore 280,344 eff=0.0 enabled=true items=ItemModule{graphite:10} power=1.0 produced=12.0 need=5.6166673
+plasma-bore 291,299 eff=0.0 enabled=true items=ItemModule{beryllium:10} power=1.0 produced=12.0 need=5.6166673
+actual supply Building#1592[277,281]:turbine-condenser water=0.08333334 ammo=0
+actual supply Building#1615[283,284]:impact-drill water=0.0 ammo=0
+actual supply Building#1748[278,310]:turbine-condenser water=19.999998 ammo=0
+actual supply Building#1796[267,315]:turbine-condenser water=19.999998 ammo=0
+actual supply Building#1831[281,320]:breach water=20.0 ammo=30
+actual supply Building#1992[259,337]:breach water=20.0 ammo=30
+actual supply Building#1999[272,338]:breach water=20.0 ammo=30
+actual supply Building#2025[282,342]:turbine-condenser water=19.999998 ammo=0
+actual supply Building#2312[280,325]:diffuse water=0.0 ammo=30
+seconds=1260.0 pilot=282.70822,308.43536 cargo=石墨: 0 onlyDepositCore=true pending=BuildPlan{x=263, y=332, rotation=0, block=diffuse, breaking=false, progress=0.0, initialized=false, config=null}
+impact-drill 283,284 eff=0.50000006 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=10.999999
+plasma-bore 287,299 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=10.999999
+plasma-bore 289,299 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=10.999999
+plasma-bore 275,309 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=10.999999
+plasma-bore 269,311 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=10.999999
+plasma-bore 271,311 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=10.999999
+plasma-bore 273,311 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=10.999999
+plasma-bore 263,319 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=10.999999
+cliff-crusher 262,322 eff=1.0 enabled=true items=ItemModule{sand:9} power=1.0 produced=12.0 need=10.999999
+plasma-bore 279,322 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=10.999999
+silicon-arc-furnace 267,323 eff=1.0 enabled=true items=ItemModule{graphite:1,sand:30} power=1.0 produced=12.0 need=10.999999
+cliff-crusher 261,326 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=12.0 need=10.999999
+cliff-crusher 259,329 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=12.0 need=10.999999
+tank-fabricator 276,329 eff=1.0 enabled=true items=ItemModule{silicon:100,beryllium:46} power=1.0 produced=12.0 need=10.999999 payload=null front=null progress=520.75
+cliff-crusher 257,331 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=12.0 need=10.999999
+plasma-bore 275,343 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=10.999999
+plasma-bore 280,344 eff=1.0 enabled=true items=ItemModule{graphite:3} power=1.0 produced=12.0 need=10.999999
+plasma-bore 291,299 eff=1.0 enabled=true items=ItemModule{beryllium:5} power=1.0 produced=12.0 need=10.999999
+actual supply Building#1592[277,281]:turbine-condenser water=0.08333334 ammo=0
+actual supply Building#1615[283,284]:impact-drill water=0.0 ammo=0
+actual supply Building#2312[280,325]:diffuse water=0.0 ammo=30
+actual supply Building#1748[278,310]:turbine-condenser water=19.999998 ammo=0
+actual supply Building#1796[267,315]:turbine-condenser water=19.999998 ammo=0
+actual supply Building#1831[281,320]:breach water=20.0 ammo=30
+actual supply Building#1992[259,337]:breach water=20.0 ammo=30
+actual supply Building#1999[272,338]:breach water=20.0 ammo=26
+actual supply Building#2025[282,342]:turbine-condenser water=19.999998 ammo=0
+seconds=1320.0 pilot=282.70822,308.43536 cargo=石墨: 0 onlyDepositCore=true pending=BuildPlan{x=263, y=332, rotation=0, block=diffuse, breaking=false, progress=0.0, initialized=false, config=null}
+impact-drill 283,284 eff=0.50000006 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=5.6166673
+plasma-bore 287,299 eff=0.0 enabled=true items=ItemModule{beryllium:10} power=1.0 produced=12.0 need=5.6166673
+plasma-bore 289,299 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=5.6166673
+plasma-bore 275,309 eff=1.0 enabled=true items=ItemModule{beryllium:2} power=1.0 produced=12.0 need=5.6166673
+plasma-bore 269,311 eff=1.0 enabled=true items=ItemModule{beryllium:2} power=1.0 produced=12.0 need=5.6166673
+plasma-bore 271,311 eff=1.0 enabled=true items=ItemModule{beryllium:2} power=1.0 produced=12.0 need=5.6166673
+plasma-bore 273,311 eff=1.0 enabled=true items=ItemModule{beryllium:2} power=1.0 produced=12.0 need=5.6166673
+plasma-bore 263,319 eff=0.0 enabled=true items=ItemModule{beryllium:10} power=1.0 produced=12.0 need=5.6166673
+cliff-crusher 262,322 eff=1.0 enabled=true items=ItemModule{sand:8} power=1.0 produced=12.0 need=5.6166673
+plasma-bore 279,322 eff=1.0 enabled=true items=ItemModule{graphite:2} power=1.0 produced=12.0 need=5.6166673
+silicon-arc-furnace 267,323 eff=0.0 enabled=true items=ItemModule{sand:30} power=1.0 produced=12.0 need=5.6166673
+cliff-crusher 261,326 eff=1.0 enabled=true items=ItemModule{sand:9} power=1.0 produced=12.0 need=5.6166673
+cliff-crusher 259,329 eff=1.0 enabled=true items=ItemModule{sand:9} power=1.0 produced=12.0 need=5.6166673
+tank-fabricator 276,329 eff=1.0 enabled=true items=ItemModule{silicon:100,beryllium:50} power=1.0 produced=12.0 need=5.6166673 payload=null front=null progress=921.0
+cliff-crusher 257,331 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=12.0 need=5.6166673
+plasma-bore 275,343 eff=0.0 enabled=true items=ItemModule{beryllium:10} power=1.0 produced=12.0 need=5.6166673
+plasma-bore 280,344 eff=0.0 enabled=true items=ItemModule{graphite:10} power=1.0 produced=12.0 need=5.6166673
+plasma-bore 291,299 eff=0.0 enabled=true items=ItemModule{beryllium:10} power=1.0 produced=12.0 need=5.6166673
+actual supply Building#1592[277,281]:turbine-condenser water=0.08333334 ammo=0
+actual supply Building#1615[283,284]:impact-drill water=0.0 ammo=0
+actual supply Building#2312[280,325]:diffuse water=0.0 ammo=30
+actual supply Building#1748[278,310]:turbine-condenser water=19.999998 ammo=0
+actual supply Building#1796[267,315]:turbine-condenser water=19.999998 ammo=0
+actual supply Building#1831[281,320]:breach water=20.0 ammo=30
+actual supply Building#1992[259,337]:breach water=20.0 ammo=30
+actual supply Building#1999[272,338]:breach water=20.0 ammo=30
+actual supply Building#2025[282,342]:turbine-condenser water=19.999998 ammo=0
+seconds=1380.0 pilot=282.70822,308.43536 cargo=石墨: 0 onlyDepositCore=true pending=BuildPlan{x=263, y=332, rotation=0, block=diffuse, breaking=false, progress=0.0, initialized=false, config=null}
+impact-drill 283,284 eff=0.50000006 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=8.750001
+plasma-bore 287,299 eff=0.0 enabled=true items=ItemModule{beryllium:10} power=1.0 produced=12.0 need=8.750001
+plasma-bore 289,299 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=8.750001
+plasma-bore 275,309 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=8.750001
+plasma-bore 269,311 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=8.750001
+plasma-bore 271,311 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=8.750001
+plasma-bore 273,311 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=8.750001
+plasma-bore 263,319 eff=0.0 enabled=true items=ItemModule{beryllium:10} power=1.0 produced=12.0 need=8.750001
+cliff-crusher 262,322 eff=1.0 enabled=true items=ItemModule{sand:9} power=1.0 produced=12.0 need=8.750001
+plasma-bore 279,322 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=8.750001
+silicon-arc-furnace 267,323 eff=1.0 enabled=true items=ItemModule{graphite:1,sand:30} power=1.0 produced=12.0 need=8.750001
+cliff-crusher 261,326 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=12.0 need=8.750001
+cliff-crusher 259,329 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=12.0 need=8.750001
+tank-fabricator 276,329 eff=0.0 enabled=true items=ItemModule{silicon:100,beryllium:56} power=1.0 produced=12.0 need=8.750001 payload=mindustry.world.blocks.payloads.UnitPayload@50448409 front=null progress=0.0
+cliff-crusher 257,331 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=12.0 need=8.750001
+plasma-bore 275,343 eff=0.0 enabled=true items=ItemModule{beryllium:10} power=1.0 produced=12.0 need=8.750001
+plasma-bore 280,344 eff=0.0 enabled=true items=ItemModule{graphite:10} power=1.0 produced=12.0 need=8.750001
+plasma-bore 291,299 eff=0.0 enabled=true items=ItemModule{beryllium:10} power=1.0 produced=12.0 need=8.750001
+actual supply Building#1592[277,281]:turbine-condenser water=0.08333334 ammo=0
+actual supply Building#1615[283,284]:impact-drill water=0.0 ammo=0
+actual supply Building#2312[280,325]:diffuse water=0.0 ammo=30
+actual supply Building#1748[278,310]:turbine-condenser water=19.999998 ammo=0
+actual supply Building#1796[267,315]:turbine-condenser water=19.999998 ammo=0
+actual supply Building#1831[281,320]:breach water=20.0 ammo=30
+actual supply Building#1992[259,337]:breach water=20.0 ammo=30
+actual supply Building#1999[272,338]:breach water=20.0 ammo=30
+actual supply Building#2025[282,342]:turbine-condenser water=19.999998 ammo=0
+seconds=1440.0 pilot=271.208,344.43958 cargo=石墨: 0 onlyDepositCore=true pending=BuildPlan{x=265, y=340, rotation=1, block=mech-fabricator, breaking=false, progress=0.0, initialized=false, config=null}
+impact-drill 283,284 eff=0.50000006 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=4.8666673
+plasma-bore 287,299 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=4.8666673
+plasma-bore 289,299 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=4.8666673
+plasma-bore 275,309 eff=1.0 enabled=true items=ItemModule{beryllium:2} power=1.0 produced=12.0 need=4.8666673
+plasma-bore 269,311 eff=1.0 enabled=true items=ItemModule{beryllium:2} power=1.0 produced=12.0 need=4.8666673
+plasma-bore 271,311 eff=1.0 enabled=true items=ItemModule{beryllium:2} power=1.0 produced=12.0 need=4.8666673
+plasma-bore 273,311 eff=1.0 enabled=true items=ItemModule{beryllium:2} power=1.0 produced=12.0 need=4.8666673
+plasma-bore 263,319 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=4.8666673
+cliff-crusher 262,322 eff=1.0 enabled=true items=ItemModule{sand:8} power=1.0 produced=12.0 need=4.8666673
+plasma-bore 279,322 eff=1.0 enabled=true items=ItemModule{graphite:2} power=1.0 produced=12.0 need=4.8666673
+silicon-arc-furnace 267,323 eff=0.0 enabled=true items=ItemModule{sand:30} power=1.0 produced=12.0 need=4.8666673
+cliff-crusher 261,326 eff=1.0 enabled=true items=ItemModule{sand:9} power=1.0 produced=12.0 need=4.8666673
+cliff-crusher 259,329 eff=1.0 enabled=true items=ItemModule{sand:9} power=1.0 produced=12.0 need=4.8666673
+tank-fabricator 276,329 eff=0.0 enabled=true items=ItemModule{silicon:100,beryllium:80} power=1.0 produced=12.0 need=4.8666673 payload=mindustry.world.blocks.payloads.UnitPayload@50448409 front=null progress=0.0
+cliff-crusher 257,331 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=12.0 need=4.8666673
+plasma-bore 275,343 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=4.8666673
+plasma-bore 280,344 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=4.8666673
+plasma-bore 291,299 eff=1.0 enabled=true items=ItemModule{beryllium:6} power=1.0 produced=12.0 need=4.8666673
+actual supply Building#1592[277,281]:turbine-condenser water=0.08333334 ammo=0
+actual supply Building#1615[283,284]:impact-drill water=0.0 ammo=0
+actual supply Building#2312[280,325]:diffuse water=0.0 ammo=30
+actual supply Building#1748[278,310]:turbine-condenser water=19.999998 ammo=0
+actual supply Building#1796[267,315]:turbine-condenser water=19.999998 ammo=0
+actual supply Building#1831[281,320]:breach water=20.0 ammo=30
+actual supply Building#1992[259,337]:breach water=20.0 ammo=30
+actual supply Building#1999[272,338]:breach water=20.0 ammo=30
+actual supply Building#2025[282,342]:turbine-condenser water=19.999998 ammo=0
+actual supply Building#2891[263,332]:diffuse water=0.0 ammo=30
+seconds=1500.0 pilot=271.208,344.43958 cargo=石墨: 0 onlyDepositCore=true pending=BuildPlan{x=265, y=340, rotation=1, block=mech-fabricator, breaking=false, progress=0.0, initialized=false, config=null}
+impact-drill 283,284 eff=0.50000006 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=8.900001
+plasma-bore 287,299 eff=0.0 enabled=true items=ItemModule{beryllium:10} power=1.0 produced=12.0 need=8.900001
+plasma-bore 289,299 eff=1.0 enabled=true items=ItemModule{beryllium:8} power=1.0 produced=12.0 need=8.900001
+plasma-bore 275,309 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=8.900001
+plasma-bore 269,311 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=8.900001
+plasma-bore 271,311 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=8.900001
+plasma-bore 273,311 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=8.900001
+plasma-bore 263,319 eff=0.0 enabled=true items=ItemModule{beryllium:10} power=1.0 produced=12.0 need=8.900001
+cliff-crusher 262,322 eff=1.0 enabled=true items=ItemModule{sand:9} power=1.0 produced=12.0 need=8.900001
+plasma-bore 279,322 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=8.900001
+silicon-arc-furnace 267,323 eff=1.0 enabled=true items=ItemModule{graphite:1,sand:30} power=1.0 produced=12.0 need=8.900001
+cliff-crusher 261,326 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=12.0 need=8.900001
+cliff-crusher 259,329 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=12.0 need=8.900001
+tank-fabricator 276,329 eff=0.0 enabled=true items=ItemModule{silicon:100,beryllium:80} power=1.0 produced=12.0 need=8.900001 payload=mindustry.world.blocks.payloads.UnitPayload@50448409 front=null progress=0.0
+cliff-crusher 257,331 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=12.0 need=8.900001
+plasma-bore 275,343 eff=0.0 enabled=true items=ItemModule{beryllium:10} power=1.0 produced=12.0 need=8.900001
+plasma-bore 280,344 eff=1.0 enabled=true items=ItemModule{graphite:9} power=1.0 produced=12.0 need=8.900001
+plasma-bore 291,299 eff=0.0 enabled=true items=ItemModule{beryllium:10} power=1.0 produced=12.0 need=8.900001
+actual supply Building#1592[277,281]:turbine-condenser water=0.08333334 ammo=0
+actual supply Building#1615[283,284]:impact-drill water=0.0 ammo=0
+actual supply Building#2312[280,325]:diffuse water=0.0 ammo=30
+actual supply Building#1748[278,310]:turbine-condenser water=19.999998 ammo=0
+actual supply Building#1796[267,315]:turbine-condenser water=19.999998 ammo=0
+actual supply Building#1831[281,320]:breach water=20.0 ammo=30
+actual supply Building#1992[259,337]:breach water=20.0 ammo=30
+actual supply Building#1999[272,338]:breach water=20.0 ammo=30
+actual supply Building#2025[282,342]:turbine-condenser water=19.999998 ammo=0
+actual supply Building#2891[263,332]:diffuse water=0.0 ammo=30
+seconds=1560.0 pilot=271.208,344.43958 cargo=石墨: 0 onlyDepositCore=true pending=none
+impact-drill 283,284 eff=0.50000006 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=4.116667
+plasma-bore 287,299 eff=0.0 enabled=true items=ItemModule{beryllium:10} power=1.0 produced=12.0 need=4.116667
+plasma-bore 289,299 eff=0.0 enabled=true items=ItemModule{beryllium:10} power=1.0 produced=12.0 need=4.116667
+plasma-bore 275,309 eff=1.0 enabled=true items=ItemModule{beryllium:2} power=1.0 produced=12.0 need=4.116667
+plasma-bore 269,311 eff=1.0 enabled=true items=ItemModule{beryllium:2} power=1.0 produced=12.0 need=4.116667
+plasma-bore 271,311 eff=1.0 enabled=true items=ItemModule{beryllium:2} power=1.0 produced=12.0 need=4.116667
+plasma-bore 273,311 eff=1.0 enabled=true items=ItemModule{beryllium:2} power=1.0 produced=12.0 need=4.116667
+plasma-bore 263,319 eff=0.0 enabled=true items=ItemModule{beryllium:10} power=1.0 produced=12.0 need=4.116667
+cliff-crusher 262,322 eff=1.0 enabled=true items=ItemModule{sand:8} power=1.0 produced=12.0 need=4.116667
+plasma-bore 279,322 eff=1.0 enabled=true items=ItemModule{graphite:2} power=1.0 produced=12.0 need=4.116667
+silicon-arc-furnace 267,323 eff=0.0 enabled=true items=ItemModule{sand:30} power=1.0 produced=12.0 need=4.116667
+cliff-crusher 261,326 eff=1.0 enabled=true items=ItemModule{sand:9} power=1.0 produced=12.0 need=4.116667
+cliff-crusher 259,329 eff=1.0 enabled=true items=ItemModule{sand:9} power=1.0 produced=12.0 need=4.116667
+tank-fabricator 276,329 eff=0.0 enabled=true items=ItemModule{silicon:100,beryllium:80} power=1.0 produced=12.0 need=4.116667 payload=mindustry.world.blocks.payloads.UnitPayload@50448409 front=null progress=0.0
+cliff-crusher 257,331 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=12.0 need=4.116667
+plasma-bore 275,343 eff=0.0 enabled=true items=ItemModule{beryllium:10} power=1.0 produced=12.0 need=4.116667
+plasma-bore 280,344 eff=0.0 enabled=true items=ItemModule{graphite:10} power=1.0 produced=12.0 need=4.116667
+plasma-bore 291,299 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=4.116667
+mech-fabricator 265,340 eff=0.0 enabled=true items=ItemModule{silicon:48,beryllium:100} power=1.0 produced=12.0 need=4.116667 payload=null front=null progress=0.0
+actual supply Building#1592[277,281]:turbine-condenser water=0.08333334 ammo=0
+actual supply Building#1615[283,284]:impact-drill water=0.0 ammo=0
+actual supply Building#2312[280,325]:diffuse water=0.0 ammo=30
+actual supply Building#1748[278,310]:turbine-condenser water=19.999998 ammo=0
+actual supply Building#1796[267,315]:turbine-condenser water=19.999998 ammo=0
+actual supply Building#1831[281,320]:breach water=20.0 ammo=30
+actual supply Building#1992[259,337]:breach water=20.0 ammo=30
+actual supply Building#1999[272,338]:breach water=20.0 ammo=30
+actual supply Building#2025[282,342]:turbine-condenser water=19.999998 ammo=0
+actual supply Building#2891[263,332]:diffuse water=0.0 ammo=30
+seconds=1620.0 pilot=263.56473,338.33942 cargo=石墨: 0 onlyDepositCore=true pending=BuildPlan{x=292, y=298, rotation=0, block=beam-node, breaking=false, progress=0.0, initialized=false, config=null}
+impact-drill 283,284 eff=0.50000006 enabled=true items=ItemModule{} power=1.0 produced=12.2 need=12.2
+plasma-bore 287,299 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.2 need=12.2
+plasma-bore 275,309 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.2 need=12.2
+plasma-bore 269,311 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.2 need=12.2
+plasma-bore 271,311 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.2 need=12.2
+plasma-bore 273,311 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.2 need=12.2
+plasma-bore 263,319 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.2 need=12.2
+cliff-crusher 262,322 eff=1.0 enabled=true items=ItemModule{sand:9} power=1.0 produced=12.2 need=12.2
+plasma-bore 279,322 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.2 need=12.2
+silicon-arc-furnace 267,323 eff=1.0 enabled=true items=ItemModule{graphite:1,sand:30} power=1.0 produced=12.2 need=12.2
+cliff-crusher 261,326 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=12.2 need=12.2
+cliff-crusher 259,329 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=12.2 need=12.2
+tank-fabricator 276,329 eff=1.0 enabled=true items=ItemModule{silicon:100,beryllium:80} power=1.0 produced=12.2 need=12.2 payload=null front=null progress=2076.0
+cliff-crusher 257,331 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=12.2 need=12.2
+plasma-bore 275,343 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.2 need=12.2
+plasma-bore 280,344 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.2 need=12.2
+mech-fabricator 265,340 eff=1.0 enabled=true items=ItemModule{silicon:91,beryllium:100} power=1.0 produced=12.2 need=12.2 payload=null front=null progress=1849.0
+actual supply Building#1592[277,281]:turbine-condenser water=0.08333334 ammo=0
+actual supply Building#1615[283,284]:impact-drill water=0.0 ammo=0
+actual supply Building#2312[280,325]:diffuse water=0.0 ammo=30
+actual supply Building#1748[278,310]:turbine-condenser water=17.896692 ammo=0
+actual supply Building#1796[267,315]:turbine-condenser water=19.999998 ammo=0
+actual supply Building#1831[281,320]:breach water=20.0 ammo=7
+actual supply Building#1992[259,337]:breach water=20.0 ammo=30
+actual supply Building#1999[272,338]:breach water=20.0 ammo=20
+actual supply Building#2025[282,342]:turbine-condenser water=19.999998 ammo=0
+actual supply Building#2891[263,332]:diffuse water=0.0 ammo=30
+seconds=1680.0 pilot=282.8955,311.12375 cargo=石墨: 0 onlyDepositCore=true pending=none
+impact-drill 283,284 eff=0.50000006 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=4.5666676
+plasma-bore 287,299 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=4.5666676
+plasma-bore 275,309 eff=1.0 enabled=true items=ItemModule{beryllium:2} power=1.0 produced=12.0 need=4.5666676
+plasma-bore 269,311 eff=1.0 enabled=true items=ItemModule{beryllium:2} power=1.0 produced=12.0 need=4.5666676
+plasma-bore 271,311 eff=1.0 enabled=true items=ItemModule{beryllium:2} power=1.0 produced=12.0 need=4.5666676
+plasma-bore 273,311 eff=1.0 enabled=true items=ItemModule{beryllium:2} power=1.0 produced=12.0 need=4.5666676
+plasma-bore 263,319 eff=0.0 enabled=true items=ItemModule{beryllium:10} power=1.0 produced=12.0 need=4.5666676
+cliff-crusher 262,322 eff=1.0 enabled=true items=ItemModule{sand:8} power=1.0 produced=12.0 need=4.5666676
+plasma-bore 279,322 eff=1.0 enabled=true items=ItemModule{graphite:2} power=1.0 produced=12.0 need=4.5666676
+silicon-arc-furnace 267,323 eff=0.0 enabled=true items=ItemModule{sand:30} power=1.0 produced=12.0 need=4.5666676
+cliff-crusher 261,326 eff=1.0 enabled=true items=ItemModule{sand:9} power=1.0 produced=12.0 need=4.5666676
+cliff-crusher 259,329 eff=1.0 enabled=true items=ItemModule{sand:9} power=1.0 produced=12.0 need=4.5666676
+tank-fabricator 276,329 eff=0.0 enabled=true items=ItemModule{silicon:100,beryllium:80} power=1.0 produced=12.0 need=4.5666676 payload=mindustry.world.blocks.payloads.UnitPayload@3bec5821 front=null progress=0.0
+cliff-crusher 257,331 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=12.0 need=4.5666676
+plasma-bore 275,343 eff=0.0 enabled=true items=ItemModule{beryllium:10} power=1.0 produced=12.0 need=4.5666676
+plasma-bore 280,344 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=4.5666676
+mech-fabricator 265,340 eff=0.0 enabled=true items=ItemModule{silicon:41,beryllium:100} power=1.0 produced=12.0 need=4.5666676 payload=null front=null progress=0.0
+plasma-bore 291,299 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=4.5666676
+plasma-bore 289,299 eff=1.0 enabled=true items=ItemModule{beryllium:2} power=1.0 produced=12.0 need=4.5666676
+actual supply Building#1592[277,281]:turbine-condenser water=0.08333334 ammo=0
+actual supply Building#1615[283,284]:impact-drill water=0.0 ammo=0
+actual supply Building#2312[280,325]:diffuse water=0.0 ammo=30
+actual supply Building#1748[278,310]:turbine-condenser water=19.999998 ammo=0
+actual supply Building#1796[267,315]:turbine-condenser water=19.999998 ammo=0
+actual supply Building#1831[281,320]:breach water=20.0 ammo=30
+actual supply Building#1992[259,337]:breach water=20.0 ammo=30
+actual supply Building#1999[272,338]:breach water=20.0 ammo=30
+actual supply Building#2025[282,342]:turbine-condenser water=19.999998 ammo=0
+actual supply Building#2891[263,332]:diffuse water=0.0 ammo=30
+seconds=1740.0 pilot=282.8955,311.12375 cargo=石墨: 0 onlyDepositCore=true pending=none
+impact-drill 283,284 eff=0.50000006 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=10.25
+plasma-bore 287,299 eff=0.0 enabled=true items=ItemModule{beryllium:10} power=1.0 produced=12.0 need=10.25
+plasma-bore 275,309 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=10.25
+plasma-bore 269,311 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=10.25
+plasma-bore 271,311 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=10.25
+plasma-bore 273,311 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=10.25
+plasma-bore 263,319 eff=0.0 enabled=true items=ItemModule{beryllium:10} power=1.0 produced=12.0 need=10.25
+cliff-crusher 262,322 eff=1.0 enabled=true items=ItemModule{sand:9} power=1.0 produced=12.0 need=10.25
+plasma-bore 279,322 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=10.25
+silicon-arc-furnace 267,323 eff=1.0 enabled=true items=ItemModule{graphite:1,sand:30} power=1.0 produced=12.0 need=10.25
+cliff-crusher 261,326 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=12.0 need=10.25
+cliff-crusher 259,329 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=12.0 need=10.25
+tank-fabricator 276,329 eff=0.0 enabled=true items=ItemModule{silicon:100,beryllium:80} power=1.0 produced=12.0 need=10.25 payload=mindustry.world.blocks.payloads.UnitPayload@3bec5821 front=null progress=0.0
+cliff-crusher 257,331 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=12.0 need=10.25
+plasma-bore 275,343 eff=0.0 enabled=true items=ItemModule{beryllium:10} power=1.0 produced=12.0 need=10.25
+plasma-bore 280,344 eff=0.0 enabled=true items=ItemModule{graphite:10} power=1.0 produced=12.0 need=10.25
+mech-fabricator 265,340 eff=1.0 enabled=true items=ItemModule{silicon:86,beryllium:100} power=1.0 produced=12.0 need=10.25 payload=null front=null progress=1356.0
+plasma-bore 291,299 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=10.25
+plasma-bore 289,299 eff=0.0 enabled=true items=ItemModule{beryllium:10} power=1.0 produced=12.0 need=10.25
+actual supply Building#1592[277,281]:turbine-condenser water=0.08333334 ammo=0
+actual supply Building#1615[283,284]:impact-drill water=0.0 ammo=0
+actual supply Building#2312[280,325]:diffuse water=0.0 ammo=30
+actual supply Building#1748[278,310]:turbine-condenser water=19.999998 ammo=0
+actual supply Building#1796[267,315]:turbine-condenser water=19.999998 ammo=0
+actual supply Building#1831[281,320]:breach water=20.0 ammo=30
+actual supply Building#1992[259,337]:breach water=20.0 ammo=30
+actual supply Building#1999[272,338]:breach water=20.0 ammo=30
+actual supply Building#2025[282,342]:turbine-condenser water=19.999998 ammo=0
+actual supply Building#2891[263,332]:diffuse water=0.0 ammo=30
+seconds=1800.0 pilot=273.42682,321.4053 cargo=石墨: 0 onlyDepositCore=true pending=BuildPlan{x=292, y=298, rotation=0, block=beam-node, breaking=false, progress=0.0, initialized=false, config=null}
+impact-drill 283,284 eff=0.50000006 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=4.416667
+plasma-bore 287,299 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=4.416667
+plasma-bore 269,311 eff=1.0 enabled=true items=ItemModule{beryllium:2} power=1.0 produced=12.0 need=4.416667
+plasma-bore 271,311 eff=1.0 enabled=true items=ItemModule{beryllium:2} power=1.0 produced=12.0 need=4.416667
+plasma-bore 273,311 eff=1.0 enabled=true items=ItemModule{beryllium:2} power=1.0 produced=12.0 need=4.416667
+plasma-bore 263,319 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=4.416667
+cliff-crusher 262,322 eff=1.0 enabled=true items=ItemModule{sand:8} power=1.0 produced=12.0 need=4.416667
+plasma-bore 279,322 eff=1.0 enabled=true items=ItemModule{graphite:2} power=1.0 produced=12.0 need=4.416667
+silicon-arc-furnace 267,323 eff=0.0 enabled=true items=ItemModule{sand:30} power=1.0 produced=12.0 need=4.416667
+cliff-crusher 261,326 eff=1.0 enabled=true items=ItemModule{sand:9} power=1.0 produced=12.0 need=4.416667
+cliff-crusher 259,329 eff=1.0 enabled=true items=ItemModule{sand:9} power=1.0 produced=12.0 need=4.416667
+tank-fabricator 276,329 eff=0.0 enabled=true items=ItemModule{silicon:100,beryllium:80} power=1.0 produced=12.0 need=4.416667 payload=mindustry.world.blocks.payloads.UnitPayload@3bec5821 front=null progress=0.0
+cliff-crusher 257,331 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=12.0 need=4.416667
+plasma-bore 275,343 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=4.416667
+plasma-bore 280,344 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=4.416667
+mech-fabricator 265,340 eff=0.0 enabled=true items=ItemModule{silicon:55,beryllium:100} power=1.0 produced=12.0 need=4.416667 payload=null front=null progress=0.0
+actual supply Building#1592[277,281]:turbine-condenser water=0.08333334 ammo=0
+actual supply Building#1615[283,284]:impact-drill water=0.0 ammo=0
+actual supply Building#2312[280,325]:diffuse water=0.0 ammo=10
+actual supply Building#2891[263,332]:diffuse water=0.0 ammo=30
+actual supply Building#1748[278,310]:turbine-condenser water=17.907244 ammo=0
+actual supply Building#1796[267,315]:turbine-condenser water=19.999998 ammo=0
+actual supply Building#1831[281,320]:breach water=20.0 ammo=5
+actual supply Building#1992[259,337]:breach water=20.0 ammo=13
+actual supply Building#1999[272,338]:breach water=20.0 ammo=6
+actual supply Building#2025[282,342]:turbine-condenser water=19.999998 ammo=0
+seconds=1860.0 pilot=269.06305,326.91293 cargo=石墨: 0 onlyDepositCore=true pending=none
+impact-drill 283,284 eff=0.50000006 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=10.699999
+plasma-bore 287,299 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=10.699999
+plasma-bore 269,311 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=10.699999
+plasma-bore 271,311 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=10.699999
+plasma-bore 273,311 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=10.699999
+plasma-bore 263,319 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=10.699999
+cliff-crusher 262,322 eff=1.0 enabled=true items=ItemModule{sand:9} power=1.0 produced=12.0 need=10.699999
+plasma-bore 279,322 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=10.699999
+silicon-arc-furnace 267,323 eff=1.0 enabled=true items=ItemModule{graphite:1,sand:30} power=1.0 produced=12.0 need=10.699999
+cliff-crusher 261,326 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=12.0 need=10.699999
+cliff-crusher 259,329 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=12.0 need=10.699999
+tank-fabricator 276,329 eff=0.0 enabled=true items=ItemModule{silicon:100,beryllium:80} power=1.0 produced=12.0 need=10.699999 payload=mindustry.world.blocks.payloads.UnitPayload@3bec5821 front=null progress=0.0
+cliff-crusher 257,331 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=12.0 need=10.699999
+plasma-bore 275,343 eff=0.0 enabled=true items=ItemModule{beryllium:10} power=1.0 produced=12.0 need=10.699999
+plasma-bore 280,344 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=10.699999
+mech-fabricator 265,340 eff=1.0 enabled=true items=ItemModule{silicon:90,beryllium:100} power=1.0 produced=12.0 need=10.699999 payload=null front=null progress=1676.0
+plasma-bore 291,299 eff=1.0 enabled=true items=ItemModule{beryllium:6} power=1.0 produced=12.0 need=10.699999
+plasma-bore 289,299 eff=0.0 enabled=true items=ItemModule{beryllium:10} power=1.0 produced=12.0 need=10.699999
+plasma-bore 275,309 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=10.699999
+actual supply Building#1592[277,281]:turbine-condenser water=0.08333334 ammo=0
+actual supply Building#1615[283,284]:impact-drill water=0.0 ammo=0
+actual supply Building#2312[280,325]:diffuse water=0.0 ammo=30
+actual supply Building#2891[263,332]:diffuse water=0.0 ammo=30
+actual supply Building#1748[278,310]:turbine-condenser water=19.999998 ammo=0
+actual supply Building#1796[267,315]:turbine-condenser water=19.999998 ammo=0
+actual supply Building#1831[281,320]:breach water=20.0 ammo=30
+actual supply Building#1992[259,337]:breach water=20.0 ammo=30
+actual supply Building#1999[272,338]:breach water=20.0 ammo=30
+actual supply Building#2025[282,342]:turbine-condenser water=19.999998 ammo=0
+seconds=1920.0 pilot=269.06305,326.91293 cargo=石墨: 0 onlyDepositCore=true pending=none
+impact-drill 283,284 eff=0.50000006 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=4.2666674
+plasma-bore 287,299 eff=0.0 enabled=true items=ItemModule{beryllium:10} power=1.0 produced=12.0 need=4.2666674
+plasma-bore 269,311 eff=1.0 enabled=true items=ItemModule{beryllium:2} power=1.0 produced=12.0 need=4.2666674
+plasma-bore 271,311 eff=1.0 enabled=true items=ItemModule{beryllium:2} power=1.0 produced=12.0 need=4.2666674
+plasma-bore 273,311 eff=1.0 enabled=true items=ItemModule{beryllium:2} power=1.0 produced=12.0 need=4.2666674
+plasma-bore 263,319 eff=0.0 enabled=true items=ItemModule{beryllium:10} power=1.0 produced=12.0 need=4.2666674
+cliff-crusher 262,322 eff=1.0 enabled=true items=ItemModule{sand:8} power=1.0 produced=12.0 need=4.2666674
+plasma-bore 279,322 eff=1.0 enabled=true items=ItemModule{graphite:2} power=1.0 produced=12.0 need=4.2666674
+silicon-arc-furnace 267,323 eff=0.0 enabled=true items=ItemModule{sand:30} power=1.0 produced=12.0 need=4.2666674
+cliff-crusher 261,326 eff=1.0 enabled=true items=ItemModule{sand:9} power=1.0 produced=12.0 need=4.2666674
+cliff-crusher 259,329 eff=1.0 enabled=true items=ItemModule{sand:9} power=1.0 produced=12.0 need=4.2666674
+tank-fabricator 276,329 eff=0.0 enabled=true items=ItemModule{silicon:100,beryllium:80} power=1.0 produced=12.0 need=4.2666674 payload=mindustry.world.blocks.payloads.UnitPayload@3bec5821 front=null progress=0.0
+cliff-crusher 257,331 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=12.0 need=4.2666674
+plasma-bore 275,343 eff=0.0 enabled=true items=ItemModule{beryllium:10} power=1.0 produced=12.0 need=4.2666674
+plasma-bore 280,344 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=4.2666674
+mech-fabricator 265,340 eff=0.0 enabled=true items=ItemModule{silicon:65,beryllium:100} power=1.0 produced=12.0 need=4.2666674 payload=null front=null progress=0.0
+plasma-bore 291,299 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=4.2666674
+plasma-bore 289,299 eff=0.0 enabled=true items=ItemModule{beryllium:10} power=1.0 produced=12.0 need=4.2666674
+plasma-bore 275,309 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=4.2666674
+actual supply Building#1592[277,281]:turbine-condenser water=0.08333334 ammo=0
+actual supply Building#1615[283,284]:impact-drill water=0.0 ammo=0
+actual supply Building#2312[280,325]:diffuse water=0.0 ammo=30
+actual supply Building#2891[263,332]:diffuse water=0.0 ammo=30
+actual supply Building#1748[278,310]:turbine-condenser water=19.999998 ammo=0
+actual supply Building#1796[267,315]:turbine-condenser water=19.999998 ammo=0
+actual supply Building#1831[281,320]:breach water=20.0 ammo=30
+actual supply Building#1992[259,337]:breach water=20.0 ammo=30
+actual supply Building#1999[272,338]:breach water=20.0 ammo=30
+actual supply Building#2025[282,342]:turbine-condenser water=19.999998 ammo=0
+seconds=1980.0 pilot=269.06305,326.91293 cargo=石墨: 0 onlyDepositCore=true pending=none
+impact-drill 283,284 eff=0.50000006 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=8.749999
+plasma-bore 287,299 eff=0.0 enabled=true items=ItemModule{beryllium:10} power=1.0 produced=12.0 need=8.749999
+plasma-bore 269,311 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=8.749999
+plasma-bore 271,311 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=8.749999
+plasma-bore 273,311 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=8.749999
+plasma-bore 263,319 eff=0.0 enabled=true items=ItemModule{beryllium:10} power=1.0 produced=12.0 need=8.749999
+cliff-crusher 262,322 eff=1.0 enabled=true items=ItemModule{sand:9} power=1.0 produced=12.0 need=8.749999
+plasma-bore 279,322 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=8.749999
+silicon-arc-furnace 267,323 eff=1.0 enabled=true items=ItemModule{graphite:1,sand:30} power=1.0 produced=12.0 need=8.749999
+cliff-crusher 261,326 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=12.0 need=8.749999
+cliff-crusher 259,329 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=12.0 need=8.749999
+tank-fabricator 276,329 eff=0.0 enabled=true items=ItemModule{silicon:100,beryllium:80} power=1.0 produced=12.0 need=8.749999 payload=mindustry.world.blocks.payloads.UnitPayload@3bec5821 front=null progress=0.0
+cliff-crusher 257,331 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=12.0 need=8.749999
+plasma-bore 275,343 eff=0.0 enabled=true items=ItemModule{beryllium:10} power=1.0 produced=12.0 need=8.749999
+plasma-bore 280,344 eff=0.0 enabled=true items=ItemModule{graphite:10} power=1.0 produced=12.0 need=8.749999
+mech-fabricator 265,340 eff=0.0 enabled=true items=ItemModule{silicon:40,beryllium:100} power=1.0 produced=12.0 need=8.749999 payload=null front=null progress=0.0
+plasma-bore 291,299 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=8.749999
+plasma-bore 289,299 eff=0.0 enabled=true items=ItemModule{beryllium:10} power=1.0 produced=12.0 need=8.749999
+plasma-bore 275,309 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=8.749999
+actual supply Building#1592[277,281]:turbine-condenser water=0.08333334 ammo=0
+actual supply Building#1615[283,284]:impact-drill water=0.0 ammo=0
+actual supply Building#2312[280,325]:diffuse water=0.0 ammo=30
+actual supply Building#2891[263,332]:diffuse water=0.0 ammo=30
+actual supply Building#1748[278,310]:turbine-condenser water=19.999998 ammo=0
+actual supply Building#1796[267,315]:turbine-condenser water=19.999998 ammo=0
+actual supply Building#1831[281,320]:breach water=20.0 ammo=30
+actual supply Building#1992[259,337]:breach water=20.0 ammo=30
+actual supply Building#1999[272,338]:breach water=20.0 ammo=30
+actual supply Building#2025[282,342]:turbine-condenser water=19.999998 ammo=0
+seconds=2040.0 pilot=269.06305,326.91293 cargo=石墨: 0 onlyDepositCore=true pending=none
+impact-drill 283,284 eff=0.50000006 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=5.466667
+plasma-bore 287,299 eff=0.0 enabled=true items=ItemModule{beryllium:10} power=1.0 produced=12.0 need=5.466667
+plasma-bore 269,311 eff=1.0 enabled=true items=ItemModule{beryllium:2} power=1.0 produced=12.0 need=5.466667
+plasma-bore 271,311 eff=1.0 enabled=true items=ItemModule{beryllium:2} power=1.0 produced=12.0 need=5.466667
+plasma-bore 273,311 eff=1.0 enabled=true items=ItemModule{beryllium:2} power=1.0 produced=12.0 need=5.466667
+plasma-bore 263,319 eff=0.0 enabled=true items=ItemModule{beryllium:10} power=1.0 produced=12.0 need=5.466667
+cliff-crusher 262,322 eff=1.0 enabled=true items=ItemModule{sand:8} power=1.0 produced=12.0 need=5.466667
+plasma-bore 279,322 eff=1.0 enabled=true items=ItemModule{graphite:2} power=1.0 produced=12.0 need=5.466667
+silicon-arc-furnace 267,323 eff=0.0 enabled=true items=ItemModule{sand:30} power=1.0 produced=12.0 need=5.466667
+cliff-crusher 261,326 eff=1.0 enabled=true items=ItemModule{sand:9} power=1.0 produced=12.0 need=5.466667
+cliff-crusher 259,329 eff=1.0 enabled=true items=ItemModule{sand:9} power=1.0 produced=12.0 need=5.466667
+tank-fabricator 276,329 eff=0.0 enabled=true items=ItemModule{silicon:100,beryllium:80} power=1.0 produced=12.0 need=5.466667 payload=mindustry.world.blocks.payloads.UnitPayload@3bec5821 front=null progress=0.0
+cliff-crusher 257,331 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=12.0 need=5.466667
+plasma-bore 275,343 eff=0.0 enabled=true items=ItemModule{beryllium:10} power=1.0 produced=12.0 need=5.466667
+plasma-bore 280,344 eff=0.0 enabled=true items=ItemModule{graphite:10} power=1.0 produced=12.0 need=5.466667
+mech-fabricator 265,340 eff=1.0 enabled=true items=ItemModule{silicon:85,beryllium:100} power=1.0 produced=12.0 need=5.466667 payload=null front=null progress=1276.0
+plasma-bore 291,299 eff=0.0 enabled=true items=ItemModule{beryllium:10} power=1.0 produced=12.0 need=5.466667
+plasma-bore 289,299 eff=0.0 enabled=true items=ItemModule{beryllium:10} power=1.0 produced=12.0 need=5.466667
+plasma-bore 275,309 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=5.466667
+actual supply Building#1592[277,281]:turbine-condenser water=0.08333334 ammo=0
+actual supply Building#1615[283,284]:impact-drill water=0.0 ammo=0
+actual supply Building#2312[280,325]:diffuse water=0.0 ammo=30
+actual supply Building#2891[263,332]:diffuse water=0.0 ammo=30
+actual supply Building#1748[278,310]:turbine-condenser water=19.999998 ammo=0
+actual supply Building#1796[267,315]:turbine-condenser water=19.999998 ammo=0
+actual supply Building#1831[281,320]:breach water=20.0 ammo=30
+actual supply Building#1992[259,337]:breach water=20.0 ammo=30
+actual supply Building#1999[272,338]:breach water=20.0 ammo=30
+actual supply Building#2025[282,342]:turbine-condenser water=19.999998 ammo=0
+seconds=2100.0 pilot=269.06305,326.91293 cargo=石墨: 0 onlyDepositCore=true pending=none
+impact-drill 283,284 eff=0.50000006 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=8.749999
+plasma-bore 287,299 eff=0.0 enabled=true items=ItemModule{beryllium:10} power=1.0 produced=12.0 need=8.749999
+plasma-bore 269,311 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=8.749999
+plasma-bore 271,311 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=8.749999
+plasma-bore 273,311 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=8.749999
+plasma-bore 263,319 eff=0.0 enabled=true items=ItemModule{beryllium:10} power=1.0 produced=12.0 need=8.749999
+cliff-crusher 262,322 eff=1.0 enabled=true items=ItemModule{sand:9} power=1.0 produced=12.0 need=8.749999
+plasma-bore 279,322 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=8.749999
+silicon-arc-furnace 267,323 eff=1.0 enabled=true items=ItemModule{graphite:1,sand:30} power=1.0 produced=12.0 need=8.749999
+cliff-crusher 261,326 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=12.0 need=8.749999
+cliff-crusher 259,329 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=12.0 need=8.749999
+tank-fabricator 276,329 eff=0.0 enabled=true items=ItemModule{silicon:100,beryllium:80} power=1.0 produced=12.0 need=8.749999 payload=mindustry.world.blocks.payloads.UnitPayload@3bec5821 front=null progress=0.0
+cliff-crusher 257,331 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=12.0 need=8.749999
+plasma-bore 275,343 eff=0.0 enabled=true items=ItemModule{beryllium:10} power=1.0 produced=12.0 need=8.749999
+plasma-bore 280,344 eff=0.0 enabled=true items=ItemModule{graphite:10} power=1.0 produced=12.0 need=8.749999
+mech-fabricator 265,340 eff=0.0 enabled=true items=ItemModule{silicon:60,beryllium:100} power=1.0 produced=12.0 need=8.749999 payload=null front=null progress=0.0
+plasma-bore 291,299 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=8.749999
+plasma-bore 289,299 eff=0.0 enabled=true items=ItemModule{beryllium:10} power=1.0 produced=12.0 need=8.749999
+plasma-bore 275,309 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=8.749999
+actual supply Building#1592[277,281]:turbine-condenser water=0.08333334 ammo=0
+actual supply Building#1615[283,284]:impact-drill water=0.0 ammo=0
+actual supply Building#2312[280,325]:diffuse water=0.0 ammo=30
+actual supply Building#2891[263,332]:diffuse water=0.0 ammo=30
+actual supply Building#1748[278,310]:turbine-condenser water=19.999998 ammo=0
+actual supply Building#1796[267,315]:turbine-condenser water=19.999998 ammo=0
+actual supply Building#1831[281,320]:breach water=20.0 ammo=30
+actual supply Building#1992[259,337]:breach water=20.0 ammo=30
+actual supply Building#1999[272,338]:breach water=20.0 ammo=30
+actual supply Building#2025[282,342]:turbine-condenser water=19.999998 ammo=0
+seconds=2160.0 pilot=269.06305,326.91293 cargo=石墨: 0 onlyDepositCore=true pending=none
+impact-drill 283,284 eff=0.50000006 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=4.1166673
+plasma-bore 287,299 eff=0.0 enabled=true items=ItemModule{beryllium:10} power=1.0 produced=12.0 need=4.1166673
+plasma-bore 269,311 eff=1.0 enabled=true items=ItemModule{beryllium:2} power=1.0 produced=12.0 need=4.1166673
+plasma-bore 271,311 eff=1.0 enabled=true items=ItemModule{beryllium:2} power=1.0 produced=12.0 need=4.1166673
+plasma-bore 273,311 eff=1.0 enabled=true items=ItemModule{beryllium:2} power=1.0 produced=12.0 need=4.1166673
+plasma-bore 263,319 eff=0.0 enabled=true items=ItemModule{beryllium:10} power=1.0 produced=12.0 need=4.1166673
+cliff-crusher 262,322 eff=1.0 enabled=true items=ItemModule{sand:8} power=1.0 produced=12.0 need=4.1166673
+plasma-bore 279,322 eff=1.0 enabled=true items=ItemModule{graphite:2} power=1.0 produced=12.0 need=4.1166673
+silicon-arc-furnace 267,323 eff=0.0 enabled=true items=ItemModule{sand:30} power=1.0 produced=12.0 need=4.1166673
+cliff-crusher 261,326 eff=1.0 enabled=true items=ItemModule{sand:9} power=1.0 produced=12.0 need=4.1166673
+cliff-crusher 259,329 eff=1.0 enabled=true items=ItemModule{sand:9} power=1.0 produced=12.0 need=4.1166673
+tank-fabricator 276,329 eff=0.0 enabled=true items=ItemModule{silicon:100,beryllium:80} power=1.0 produced=12.0 need=4.1166673 payload=mindustry.world.blocks.payloads.UnitPayload@3bec5821 front=null progress=0.0
+cliff-crusher 257,331 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=12.0 need=4.1166673
+plasma-bore 275,343 eff=0.0 enabled=true items=ItemModule{beryllium:10} power=1.0 produced=12.0 need=4.1166673
+plasma-bore 280,344 eff=0.0 enabled=true items=ItemModule{graphite:10} power=1.0 produced=12.0 need=4.1166673
+mech-fabricator 265,340 eff=0.0 enabled=true items=ItemModule{silicon:35,beryllium:100} power=1.0 produced=12.0 need=4.1166673 payload=null front=null progress=0.0
+plasma-bore 291,299 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=4.1166673
+plasma-bore 289,299 eff=0.0 enabled=true items=ItemModule{beryllium:10} power=1.0 produced=12.0 need=4.1166673
+plasma-bore 275,309 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=4.1166673
+actual supply Building#1592[277,281]:turbine-condenser water=0.08333334 ammo=0
+actual supply Building#1615[283,284]:impact-drill water=0.0 ammo=0
+actual supply Building#2312[280,325]:diffuse water=0.0 ammo=30
+actual supply Building#2891[263,332]:diffuse water=0.0 ammo=30
+actual supply Building#1748[278,310]:turbine-condenser water=19.999998 ammo=0
+actual supply Building#1796[267,315]:turbine-condenser water=19.999998 ammo=0
+actual supply Building#1831[281,320]:breach water=20.0 ammo=30
+actual supply Building#1992[259,337]:breach water=20.0 ammo=30
+actual supply Building#1999[272,338]:breach water=20.0 ammo=30
+actual supply Building#2025[282,342]:turbine-condenser water=19.999998 ammo=0
+seconds=2220.0 pilot=269.06305,326.91293 cargo=石墨: 0 onlyDepositCore=true pending=none
+impact-drill 283,284 eff=0.50000006 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=10.099999
+plasma-bore 287,299 eff=0.0 enabled=true items=ItemModule{beryllium:10} power=1.0 produced=12.0 need=10.099999
+plasma-bore 269,311 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=10.099999
+plasma-bore 271,311 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=10.099999
+plasma-bore 273,311 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=10.099999
+plasma-bore 263,319 eff=0.0 enabled=true items=ItemModule{beryllium:10} power=1.0 produced=12.0 need=10.099999
+cliff-crusher 262,322 eff=1.0 enabled=true items=ItemModule{sand:9} power=1.0 produced=12.0 need=10.099999
+plasma-bore 279,322 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=10.099999
+silicon-arc-furnace 267,323 eff=1.0 enabled=true items=ItemModule{graphite:1,sand:30} power=1.0 produced=12.0 need=10.099999
+cliff-crusher 261,326 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=12.0 need=10.099999
+cliff-crusher 259,329 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=12.0 need=10.099999
+tank-fabricator 276,329 eff=0.0 enabled=true items=ItemModule{silicon:100,beryllium:80} power=1.0 produced=12.0 need=10.099999 payload=mindustry.world.blocks.payloads.UnitPayload@3bec5821 front=null progress=0.0
+cliff-crusher 257,331 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=12.0 need=10.099999
+plasma-bore 275,343 eff=0.0 enabled=true items=ItemModule{beryllium:10} power=1.0 produced=12.0 need=10.099999
+plasma-bore 280,344 eff=0.0 enabled=true items=ItemModule{graphite:10} power=1.0 produced=12.0 need=10.099999
+mech-fabricator 265,340 eff=1.0 enabled=true items=ItemModule{silicon:80,beryllium:100} power=1.0 produced=12.0 need=10.099999 payload=null front=null progress=876.0
+plasma-bore 291,299 eff=0.0 enabled=true items=ItemModule{beryllium:10} power=1.0 produced=12.0 need=10.099999
+plasma-bore 289,299 eff=0.0 enabled=true items=ItemModule{beryllium:10} power=1.0 produced=12.0 need=10.099999
+plasma-bore 275,309 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=10.099999
+actual supply Building#1592[277,281]:turbine-condenser water=0.08333334 ammo=0
+actual supply Building#1615[283,284]:impact-drill water=0.0 ammo=0
+actual supply Building#2312[280,325]:diffuse water=0.0 ammo=30
+actual supply Building#2891[263,332]:diffuse water=0.0 ammo=30
+actual supply Building#1748[278,310]:turbine-condenser water=19.999998 ammo=0
+actual supply Building#1796[267,315]:turbine-condenser water=19.999998 ammo=0
+actual supply Building#1831[281,320]:breach water=20.0 ammo=30
+actual supply Building#1992[259,337]:breach water=20.0 ammo=30
+actual supply Building#1999[272,338]:breach water=20.0 ammo=30
+actual supply Building#2025[282,342]:turbine-condenser water=19.999998 ammo=0
+seconds=2280.0 pilot=269.06305,326.91293 cargo=石墨: 0 onlyDepositCore=true pending=none
+impact-drill 283,284 eff=0.50000006 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=4.1166673
+plasma-bore 287,299 eff=0.0 enabled=true items=ItemModule{beryllium:10} power=1.0 produced=12.0 need=4.1166673
+plasma-bore 269,311 eff=1.0 enabled=true items=ItemModule{beryllium:2} power=1.0 produced=12.0 need=4.1166673
+plasma-bore 271,311 eff=1.0 enabled=true items=ItemModule{beryllium:2} power=1.0 produced=12.0 need=4.1166673
+plasma-bore 273,311 eff=1.0 enabled=true items=ItemModule{beryllium:2} power=1.0 produced=12.0 need=4.1166673
+plasma-bore 263,319 eff=0.0 enabled=true items=ItemModule{beryllium:10} power=1.0 produced=12.0 need=4.1166673
+cliff-crusher 262,322 eff=1.0 enabled=true items=ItemModule{sand:8} power=1.0 produced=12.0 need=4.1166673
+plasma-bore 279,322 eff=1.0 enabled=true items=ItemModule{graphite:2} power=1.0 produced=12.0 need=4.1166673
+silicon-arc-furnace 267,323 eff=0.0 enabled=true items=ItemModule{sand:30} power=1.0 produced=12.0 need=4.1166673
+cliff-crusher 261,326 eff=1.0 enabled=true items=ItemModule{sand:9} power=1.0 produced=12.0 need=4.1166673
+cliff-crusher 259,329 eff=1.0 enabled=true items=ItemModule{sand:9} power=1.0 produced=12.0 need=4.1166673
+tank-fabricator 276,329 eff=0.0 enabled=true items=ItemModule{silicon:100,beryllium:80} power=1.0 produced=12.0 need=4.1166673 payload=mindustry.world.blocks.payloads.UnitPayload@3bec5821 front=null progress=0.0
+cliff-crusher 257,331 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=12.0 need=4.1166673
+plasma-bore 275,343 eff=0.0 enabled=true items=ItemModule{beryllium:10} power=1.0 produced=12.0 need=4.1166673
+plasma-bore 280,344 eff=0.0 enabled=true items=ItemModule{graphite:10} power=1.0 produced=12.0 need=4.1166673
+mech-fabricator 265,340 eff=0.0 enabled=true items=ItemModule{silicon:55,beryllium:100} power=1.0 produced=12.0 need=4.1166673 payload=null front=null progress=0.0
+plasma-bore 291,299 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=4.1166673
+plasma-bore 289,299 eff=0.0 enabled=true items=ItemModule{beryllium:10} power=1.0 produced=12.0 need=4.1166673
+plasma-bore 275,309 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=4.1166673
+actual supply Building#1592[277,281]:turbine-condenser water=0.08333334 ammo=0
+actual supply Building#1615[283,284]:impact-drill water=0.0 ammo=0
+actual supply Building#2312[280,325]:diffuse water=0.0 ammo=30
+actual supply Building#2891[263,332]:diffuse water=0.0 ammo=30
+actual supply Building#1748[278,310]:turbine-condenser water=19.999998 ammo=0
+actual supply Building#1796[267,315]:turbine-condenser water=19.999998 ammo=0
+actual supply Building#1831[281,320]:breach water=20.0 ammo=30
+actual supply Building#1992[259,337]:breach water=20.0 ammo=30
+actual supply Building#1999[272,338]:breach water=20.0 ammo=30
+actual supply Building#2025[282,342]:turbine-condenser water=19.999998 ammo=0
+seconds=2340.0 pilot=269.06305,326.91293 cargo=石墨: 0 onlyDepositCore=true pending=none
+impact-drill 283,284 eff=0.50000006 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=8.749999
+plasma-bore 287,299 eff=0.0 enabled=true items=ItemModule{beryllium:10} power=1.0 produced=12.0 need=8.749999
+plasma-bore 269,311 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=8.749999
+plasma-bore 271,311 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=8.749999
+plasma-bore 273,311 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=8.749999
+plasma-bore 263,319 eff=0.0 enabled=true items=ItemModule{beryllium:10} power=1.0 produced=12.0 need=8.749999
+cliff-crusher 262,322 eff=1.0 enabled=true items=ItemModule{sand:9} power=1.0 produced=12.0 need=8.749999
+plasma-bore 279,322 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=8.749999
+silicon-arc-furnace 267,323 eff=1.0 enabled=true items=ItemModule{graphite:1,sand:30} power=1.0 produced=12.0 need=8.749999
+cliff-crusher 261,326 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=12.0 need=8.749999
+cliff-crusher 259,329 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=12.0 need=8.749999
+tank-fabricator 276,329 eff=0.0 enabled=true items=ItemModule{silicon:100,beryllium:80} power=1.0 produced=12.0 need=8.749999 payload=mindustry.world.blocks.payloads.UnitPayload@3bec5821 front=null progress=0.0
+cliff-crusher 257,331 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=12.0 need=8.749999
+plasma-bore 275,343 eff=0.0 enabled=true items=ItemModule{beryllium:10} power=1.0 produced=12.0 need=8.749999
+plasma-bore 280,344 eff=0.0 enabled=true items=ItemModule{graphite:10} power=1.0 produced=12.0 need=8.749999
+mech-fabricator 265,340 eff=0.0 enabled=true items=ItemModule{silicon:30,beryllium:69} power=1.0 produced=12.0 need=8.749999 payload=null front=null progress=0.0
+plasma-bore 291,299 eff=1.0 enabled=true items=ItemModule{beryllium:6} power=1.0 produced=12.0 need=8.749999
+plasma-bore 289,299 eff=0.0 enabled=true items=ItemModule{beryllium:10} power=1.0 produced=12.0 need=8.749999
+plasma-bore 275,309 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=8.749999
+actual supply Building#1592[277,281]:turbine-condenser water=0.08333334 ammo=0
+actual supply Building#1615[283,284]:impact-drill water=0.0 ammo=0
+actual supply Building#2312[280,325]:diffuse water=0.0 ammo=30
+actual supply Building#2891[263,332]:diffuse water=0.0 ammo=30
+actual supply Building#1748[278,310]:turbine-condenser water=19.999998 ammo=0
+actual supply Building#1796[267,315]:turbine-condenser water=19.999998 ammo=0
+actual supply Building#1831[281,320]:breach water=20.0 ammo=30
+actual supply Building#1992[259,337]:breach water=20.0 ammo=30
+actual supply Building#1999[272,338]:breach water=20.0 ammo=30
+actual supply Building#2025[282,342]:turbine-condenser water=19.999998 ammo=0
+seconds=2400.0 pilot=269.06305,326.91293 cargo=石墨: 0 onlyDepositCore=true pending=none
+impact-drill 283,284 eff=0.50000006 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=5.6166673
+plasma-bore 287,299 eff=0.0 enabled=true items=ItemModule{beryllium:10} power=1.0 produced=12.0 need=5.6166673
+plasma-bore 269,311 eff=1.0 enabled=true items=ItemModule{beryllium:2} power=1.0 produced=12.0 need=5.6166673
+plasma-bore 271,311 eff=1.0 enabled=true items=ItemModule{beryllium:2} power=1.0 produced=12.0 need=5.6166673
+plasma-bore 273,311 eff=1.0 enabled=true items=ItemModule{beryllium:2} power=1.0 produced=12.0 need=5.6166673
+plasma-bore 263,319 eff=0.0 enabled=true items=ItemModule{beryllium:10} power=1.0 produced=12.0 need=5.6166673
+cliff-crusher 262,322 eff=1.0 enabled=true items=ItemModule{sand:8} power=1.0 produced=12.0 need=5.6166673
+plasma-bore 279,322 eff=1.0 enabled=true items=ItemModule{graphite:2} power=1.0 produced=12.0 need=5.6166673
+silicon-arc-furnace 267,323 eff=0.0 enabled=true items=ItemModule{sand:30} power=1.0 produced=12.0 need=5.6166673
+cliff-crusher 261,326 eff=1.0 enabled=true items=ItemModule{sand:9} power=1.0 produced=12.0 need=5.6166673
+cliff-crusher 259,329 eff=1.0 enabled=true items=ItemModule{sand:9} power=1.0 produced=12.0 need=5.6166673
+tank-fabricator 276,329 eff=0.0 enabled=true items=ItemModule{silicon:100,beryllium:80} power=1.0 produced=12.0 need=5.6166673 payload=mindustry.world.blocks.payloads.UnitPayload@3bec5821 front=null progress=0.0
+cliff-crusher 257,331 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=12.0 need=5.6166673
+plasma-bore 275,343 eff=0.0 enabled=true items=ItemModule{beryllium:10} power=1.0 produced=12.0 need=5.6166673
+plasma-bore 280,344 eff=0.0 enabled=true items=ItemModule{graphite:10} power=1.0 produced=12.0 need=5.6166673
+mech-fabricator 265,340 eff=1.0 enabled=true items=ItemModule{silicon:75,beryllium:100} power=1.0 produced=12.0 need=5.6166673 payload=null front=null progress=476.0
+plasma-bore 291,299 eff=1.0 enabled=true items=ItemModule{beryllium:4} power=1.0 produced=12.0 need=5.6166673
+plasma-bore 289,299 eff=0.0 enabled=true items=ItemModule{beryllium:10} power=1.0 produced=12.0 need=5.6166673
+plasma-bore 275,309 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=5.6166673
+actual supply Building#1592[277,281]:turbine-condenser water=0.08333334 ammo=0
+actual supply Building#1615[283,284]:impact-drill water=0.0 ammo=0
+actual supply Building#2312[280,325]:diffuse water=0.0 ammo=30
+actual supply Building#2891[263,332]:diffuse water=0.0 ammo=30
+actual supply Building#1748[278,310]:turbine-condenser water=19.999998 ammo=0
+actual supply Building#1796[267,315]:turbine-condenser water=19.999998 ammo=0
+actual supply Building#1831[281,320]:breach water=20.0 ammo=30
+actual supply Building#1992[259,337]:breach water=20.0 ammo=30
+actual supply Building#1999[272,338]:breach water=20.0 ammo=30
+actual supply Building#2025[282,342]:turbine-condenser water=19.999998 ammo=0
+seconds=2460.0 pilot=269.06305,326.91293 cargo=石墨: 0 onlyDepositCore=true pending=none
+impact-drill 283,284 eff=0.50000006 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=8.750001
+plasma-bore 287,299 eff=0.0 enabled=true items=ItemModule{beryllium:10} power=1.0 produced=12.0 need=8.750001
+plasma-bore 289,299 eff=0.0 enabled=true items=ItemModule{beryllium:10} power=1.0 produced=12.0 need=8.750001
+plasma-bore 291,299 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=8.750001
+plasma-bore 275,309 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=8.750001
+plasma-bore 269,311 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=8.750001
+plasma-bore 271,311 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=8.750001
+plasma-bore 273,311 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=8.750001
+plasma-bore 263,319 eff=0.0 enabled=true items=ItemModule{beryllium:10} power=1.0 produced=12.0 need=8.750001
+cliff-crusher 262,322 eff=1.0 enabled=true items=ItemModule{sand:9} power=1.0 produced=12.0 need=8.750001
+plasma-bore 279,322 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=8.750001
+silicon-arc-furnace 267,323 eff=1.0 enabled=true items=ItemModule{graphite:1,sand:30} power=1.0 produced=12.0 need=8.750001
+cliff-crusher 261,326 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=12.0 need=8.750001
+cliff-crusher 259,329 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=12.0 need=8.750001
+tank-fabricator 276,329 eff=0.0 enabled=true items=ItemModule{silicon:100,beryllium:80} power=1.0 produced=12.0 need=8.750001 payload=mindustry.world.blocks.payloads.UnitPayload@5b5dce5c front=null progress=0.0
+cliff-crusher 257,331 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=12.0 need=8.750001
+mech-fabricator 265,340 eff=0.0 enabled=true items=ItemModule{silicon:50,beryllium:100} power=1.0 produced=12.0 need=8.750001 payload=null front=null progress=0.0
+plasma-bore 275,343 eff=0.0 enabled=true items=ItemModule{beryllium:10} power=1.0 produced=12.0 need=8.750001
+plasma-bore 280,344 eff=0.0 enabled=true items=ItemModule{graphite:10} power=1.0 produced=12.0 need=8.750001
+actual supply Building#5140[277,281]:turbine-condenser water=0.08333334 ammo=0
+actual supply Building#5163[283,284]:impact-drill water=0.0 ammo=0
+actual supply Building#5296[278,310]:turbine-condenser water=19.999998 ammo=0
+actual supply Building#5344[267,315]:turbine-condenser water=19.999998 ammo=0
+actual supply Building#5379[281,320]:breach water=20.0 ammo=30
+actual supply Building#5446[280,325]:diffuse water=0.0 ammo=30
+actual supply Building#5515[263,332]:diffuse water=0.0 ammo=30
+actual supply Building#5545[259,337]:breach water=20.0 ammo=30
+actual supply Building#5552[272,338]:breach water=20.0 ammo=30
+actual supply Building#5580[282,342]:turbine-condenser water=19.999998 ammo=0
+seconds=2520.0 pilot=269.06305,326.91293 cargo=石墨: 0 onlyDepositCore=true pending=none
+impact-drill 283,284 eff=0.50000006 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=5.466667
+plasma-bore 287,299 eff=0.0 enabled=true items=ItemModule{beryllium:10} power=1.0 produced=12.0 need=5.466667
+plasma-bore 289,299 eff=0.0 enabled=true items=ItemModule{beryllium:10} power=1.0 produced=12.0 need=5.466667
+plasma-bore 291,299 eff=0.0 enabled=true items=ItemModule{beryllium:10} power=1.0 produced=12.0 need=5.466667
+plasma-bore 275,309 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=5.466667
+plasma-bore 269,311 eff=1.0 enabled=true items=ItemModule{beryllium:2} power=1.0 produced=12.0 need=5.466667
+plasma-bore 271,311 eff=1.0 enabled=true items=ItemModule{beryllium:2} power=1.0 produced=12.0 need=5.466667
+plasma-bore 273,311 eff=1.0 enabled=true items=ItemModule{beryllium:2} power=1.0 produced=12.0 need=5.466667
+plasma-bore 263,319 eff=0.0 enabled=true items=ItemModule{beryllium:10} power=1.0 produced=12.0 need=5.466667
+cliff-crusher 262,322 eff=1.0 enabled=true items=ItemModule{sand:8} power=1.0 produced=12.0 need=5.466667
+plasma-bore 279,322 eff=1.0 enabled=true items=ItemModule{graphite:2} power=1.0 produced=12.0 need=5.466667
+silicon-arc-furnace 267,323 eff=0.0 enabled=true items=ItemModule{sand:30} power=1.0 produced=12.0 need=5.466667
+cliff-crusher 261,326 eff=1.0 enabled=true items=ItemModule{sand:9} power=1.0 produced=12.0 need=5.466667
+cliff-crusher 259,329 eff=1.0 enabled=true items=ItemModule{sand:9} power=1.0 produced=12.0 need=5.466667
+tank-fabricator 276,329 eff=0.0 enabled=true items=ItemModule{silicon:100,beryllium:80} power=1.0 produced=12.0 need=5.466667 payload=mindustry.world.blocks.payloads.UnitPayload@5b5dce5c front=null progress=0.0
+cliff-crusher 257,331 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=12.0 need=5.466667
+mech-fabricator 265,340 eff=1.0 enabled=true items=ItemModule{silicon:95,beryllium:100} power=1.0 produced=12.0 need=5.466667 payload=null front=null progress=2076.0
+plasma-bore 275,343 eff=0.0 enabled=true items=ItemModule{beryllium:10} power=1.0 produced=12.0 need=5.466667
+plasma-bore 280,344 eff=0.0 enabled=true items=ItemModule{graphite:10} power=1.0 produced=12.0 need=5.466667
+actual supply Building#5140[277,281]:turbine-condenser water=0.08333334 ammo=0
+actual supply Building#5163[283,284]:impact-drill water=0.0 ammo=0
+actual supply Building#5296[278,310]:turbine-condenser water=19.999998 ammo=0
+actual supply Building#5344[267,315]:turbine-condenser water=19.999998 ammo=0
+actual supply Building#5379[281,320]:breach water=20.0 ammo=30
+actual supply Building#5446[280,325]:diffuse water=0.0 ammo=30
+actual supply Building#5515[263,332]:diffuse water=0.0 ammo=30
+actual supply Building#5545[259,337]:breach water=20.0 ammo=30
+actual supply Building#5552[272,338]:breach water=20.0 ammo=30
+actual supply Building#5580[282,342]:turbine-condenser water=19.999998 ammo=0
+seconds=2580.0 pilot=269.06305,326.91293 cargo=石墨: 0 onlyDepositCore=true pending=none
+impact-drill 283,284 eff=0.50000006 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=10.250001
+plasma-bore 287,299 eff=0.0 enabled=true items=ItemModule{beryllium:10} power=1.0 produced=12.0 need=10.250001
+plasma-bore 289,299 eff=0.0 enabled=true items=ItemModule{beryllium:10} power=1.0 produced=12.0 need=10.250001
+plasma-bore 291,299 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=10.250001
+plasma-bore 275,309 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=10.250001
+plasma-bore 269,311 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=10.250001
+plasma-bore 271,311 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=10.250001
+plasma-bore 273,311 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=10.250001
+plasma-bore 263,319 eff=0.0 enabled=true items=ItemModule{beryllium:10} power=1.0 produced=12.0 need=10.250001
+cliff-crusher 262,322 eff=1.0 enabled=true items=ItemModule{sand:9} power=1.0 produced=12.0 need=10.250001
+plasma-bore 279,322 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=10.250001
+silicon-arc-furnace 267,323 eff=1.0 enabled=true items=ItemModule{graphite:1,sand:30} power=1.0 produced=12.0 need=10.250001
+cliff-crusher 261,326 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=12.0 need=10.250001
+cliff-crusher 259,329 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=12.0 need=10.250001
+tank-fabricator 276,329 eff=0.0 enabled=true items=ItemModule{silicon:100,beryllium:80} power=1.0 produced=12.0 need=10.250001 payload=mindustry.world.blocks.payloads.UnitPayload@5b5dce5c front=null progress=0.0
+cliff-crusher 257,331 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=12.0 need=10.250001
+mech-fabricator 265,340 eff=1.0 enabled=true items=ItemModule{silicon:70,beryllium:100} power=1.0 produced=12.0 need=10.250001 payload=null front=null progress=76.0
+plasma-bore 275,343 eff=0.0 enabled=true items=ItemModule{beryllium:10} power=1.0 produced=12.0 need=10.250001
+plasma-bore 280,344 eff=0.0 enabled=true items=ItemModule{graphite:10} power=1.0 produced=12.0 need=10.250001
+actual supply Building#5140[277,281]:turbine-condenser water=0.08333334 ammo=0
+actual supply Building#5163[283,284]:impact-drill water=0.0 ammo=0
+actual supply Building#5296[278,310]:turbine-condenser water=19.999998 ammo=0
+actual supply Building#5344[267,315]:turbine-condenser water=19.999998 ammo=0
+actual supply Building#5379[281,320]:breach water=20.0 ammo=30
+actual supply Building#5446[280,325]:diffuse water=0.0 ammo=30
+actual supply Building#5515[263,332]:diffuse water=0.0 ammo=30
+actual supply Building#5545[259,337]:breach water=20.0 ammo=30
+actual supply Building#5552[272,338]:breach water=20.0 ammo=30
+actual supply Building#5580[282,342]:turbine-condenser water=19.999998 ammo=0
+seconds=2591.8 pilot=269.06305,326.91293 cargo=石墨: 0 onlyDepositCore=true pending=none
+impact-drill 283,284 eff=0.50000006 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=5.6166673
+plasma-bore 287,299 eff=0.0 enabled=true items=ItemModule{beryllium:10} power=1.0 produced=12.0 need=5.6166673
+plasma-bore 289,299 eff=0.0 enabled=true items=ItemModule{beryllium:10} power=1.0 produced=12.0 need=5.6166673
+plasma-bore 291,299 eff=1.0 enabled=true items=ItemModule{beryllium:8} power=1.0 produced=12.0 need=5.6166673
+plasma-bore 275,309 eff=1.0 enabled=true items=ItemModule{beryllium:1} power=1.0 produced=12.0 need=5.6166673
+plasma-bore 269,311 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=5.6166673
+plasma-bore 271,311 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=5.6166673
+plasma-bore 273,311 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=5.6166673
+plasma-bore 263,319 eff=0.0 enabled=true items=ItemModule{beryllium:10} power=1.0 produced=12.0 need=5.6166673
+cliff-crusher 262,322 eff=1.0 enabled=true items=ItemModule{sand:8} power=1.0 produced=12.0 need=5.6166673
+plasma-bore 279,322 eff=1.0 enabled=true items=ItemModule{} power=1.0 produced=12.0 need=5.6166673
+silicon-arc-furnace 267,323 eff=0.0 enabled=true items=ItemModule{sand:30} power=1.0 produced=12.0 need=5.6166673
+cliff-crusher 261,326 eff=1.0 enabled=true items=ItemModule{sand:9} power=1.0 produced=12.0 need=5.6166673
+cliff-crusher 259,329 eff=1.0 enabled=true items=ItemModule{sand:9} power=1.0 produced=12.0 need=5.6166673
+tank-fabricator 276,329 eff=0.0 enabled=true items=ItemModule{silicon:100,beryllium:80} power=1.0 produced=12.0 need=5.6166673 payload=mindustry.world.blocks.payloads.UnitPayload@5b5dce5c front=null progress=0.0
+cliff-crusher 257,331 eff=0.0 enabled=true items=ItemModule{sand:10} power=1.0 produced=12.0 need=5.6166673
+mech-fabricator 265,340 eff=1.0 enabled=true items=ItemModule{silicon:78,beryllium:100} power=1.0 produced=12.0 need=5.6166673 payload=null front=null progress=783.0
+plasma-bore 275,343 eff=0.0 enabled=true items=ItemModule{beryllium:10} power=1.0 produced=12.0 need=5.6166673
+plasma-bore 280,344 eff=0.0 enabled=true items=ItemModule{graphite:10} power=1.0 produced=12.0 need=5.6166673
+actual supply Building#5140[277,281]:turbine-condenser water=0.08333334 ammo=0
+actual supply Building#5163[283,284]:impact-drill water=0.0 ammo=0
+actual supply Building#5296[278,310]:turbine-condenser water=19.999998 ammo=0
+actual supply Building#5344[267,315]:turbine-condenser water=19.999998 ammo=0
+actual supply Building#5379[281,320]:breach water=20.0 ammo=30
+actual supply Building#5446[280,325]:diffuse water=0.0 ammo=30
+actual supply Building#5515[263,332]:diffuse water=0.0 ammo=30
+actual supply Building#5545[259,337]:breach water=20.0 ammo=30
+actual supply Building#5552[272,338]:breach water=20.0 ammo=30
+actual supply Building#5580[282,342]:turbine-condenser water=19.999998 ammo=0

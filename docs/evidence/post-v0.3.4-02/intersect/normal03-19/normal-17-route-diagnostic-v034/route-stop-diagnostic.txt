@@ -1,0 +1,6 @@
+source=BuildPlan{x=269, y=322, rotation=0, block=duct-router, breaking=false, progress=0.0, initialized=false, config=null} target=BuildPlan{x=276, y=329, rotation=2, block=tank-fabricator, breaking=false, progress=0.0, initialized=false, config=null}
+yellow-stone-plates:air:air[268,322] entity=null:derelict reserved=true native=true routeTile=false
+yellow-stone-plates:air:air[269,321] entity=null:derelict reserved=true native=true routeTile=false
+yellow-stone-plates:air:air[269,323] entity=null:derelict reserved=false native=true routeTile=true
+ adjacent producer BuildPlan{x=267, y=323, rotation=0, block=silicon-arc-furnace, breaking=false, progress=0.0, initialized=false, config=null} suppliedBy=BuildPlan{x=269, y=322, rotation=0, block=duct, breaking=false, progress=0.0, initialized=false, config=null}
+core-zone:core-bastion:air[270,322] entity=CoreBuild:sharded reserved=true native=false routeTile=false

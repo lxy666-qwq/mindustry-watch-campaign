@@ -1,0 +1,18 @@
+Actual Erekir named mainline gates from the genuine Onset/Aegis/Lake15-star settings; no direct later-map load.
+onset 始发地区 gate=true parents=[] normal=3
+aegis 庇护前哨 gate=true parents=[onset] normal=3
+lake 岩浆湖 gate=true parents=[aegis] normal=3
+intersect 交错丘陵 gate=true parents=[aegis, lake] normal=0
+atlas 风化山脉 gate=false parents=[intersect] normal=0
+split 横断山谷 gate=false parents=[atlas] normal=0
+basin 风蚀盆地 gate=false parents=[atlas] normal=0
+marsh 芳油湿地 gate=false parents=[basin] normal=0
+peaks 横堑峰峦 gate=false parents=[marsh, split] normal=0
+ravine 贫瘠峡谷 gate=false parents=[marsh] normal=0
+caldera-erekir 破碎火山 gate=false parents=[ravine, peaks] normal=0
+stronghold 晶石要塞 gate=false parents=[caldera-erekir] normal=0
+crevice 碳岩裂隙 gate=false parents=[stronghold] normal=0
+siege 平行岭谷 gate=false parents=[crevice] normal=0
+crossroads 十字路口 gate=false parents=[siege] normal=0
+karst 岩溶洞穴 gate=false parents=[crossroads] normal=0
+origin 起源 gate=false parents=[karst] normal=0

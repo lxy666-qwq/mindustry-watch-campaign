@@ -1,0 +1,255 @@
+READ ONLY native saved failure, no simulation; load may apply original zero-core unit cap.
+beam-node @279,280 r=0 eff=1.0 items=null liquid=null power=1.0 prod=0.0 demand=0.0 links=[18284833, 18153753]
+turbine-condenser @277,281 r=0 eff=1.0 items=null liquid=mindustry.world.modules.LiquidModule@42714a7 power=0.0 prod=0.0 demand=0.0 links=[18284824, 18481434]
+beam-node @282,282 r=0 eff=1.0 items=null liquid=null power=1.0 prod=0.0 demand=0.0 links=[18153753, 18546972]
+reinforced-conduit @278,283 r=0 eff=1.0 items=null liquid=mindustry.world.modules.LiquidModule@19650aa6 power=none
+reinforced-conduit @279,283 r=0 eff=1.0 items=null liquid=mindustry.world.modules.LiquidModule@3ce53f6a power=none
+reinforced-conduit @280,283 r=0 eff=1.0 items=null liquid=mindustry.world.modules.LiquidModule@2d82408 power=none
+reinforced-conduit @281,283 r=0 eff=1.0 items=null liquid=mindustry.world.modules.LiquidModule@3ee69ad8 power=none
+impact-drill @283,284 r=0 eff=0.0 items=ItemModule{} liquid=mindustry.world.modules.LiquidModule@f679798 power=1.0 prod=0.0 demand=0.0 links=[18481434]
+duct @283,287 r=1 eff=1.0 items=ItemModule{} liquid=null power=none
+duct @283,288 r=1 eff=1.0 items=ItemModule{} liquid=null power=none
+beam-node @279,289 r=0 eff=1.0 items=null liquid=null power=1.0 prod=0.0 demand=0.0 links=[18284843, 18284824]
+duct @283,289 r=1 eff=1.0 items=ItemModule{} liquid=null power=none
+duct @283,290 r=1 eff=1.0 items=ItemModule{} liquid=null power=none
+duct @283,291 r=1 eff=1.0 items=ItemModule{} liquid=null power=none
+duct @283,292 r=1 eff=1.0 items=ItemModule{} liquid=null power=none
+duct @283,293 r=1 eff=1.0 items=ItemModule{} liquid=null power=none
+duct @283,294 r=1 eff=1.0 items=ItemModule{} liquid=null power=none
+duct @283,295 r=1 eff=1.0 items=ItemModule{} liquid=null power=none
+duct @283,296 r=1 eff=1.0 items=ItemModule{} liquid=null power=none
+duct @283,297 r=1 eff=1.0 items=ItemModule{} liquid=null power=none
+duct @283,298 r=1 eff=1.0 items=ItemModule{} liquid=null power=none
+beam-node @279,299 r=0 eff=1.0 items=null liquid=null power=1.0 prod=0.0 demand=0.0 links=[18219318, 18743595, 18284833]
+duct @283,299 r=1 eff=1.0 items=ItemModule{} liquid=null power=none
+beam-node @286,299 r=0 eff=1.0 items=null liquid=null power=1.0 prod=0.0 demand=0.0 links=[18284843]
+duct-bridge @283,300 r=1 eff=1.0 items=ItemModule{} liquid=null power=none
+  actualLink=Building#388[283,303]:duct-bridge
+duct @284,300 r=1 eff=1.0 items=ItemModule{} liquid=null power=none
+duct @285,300 r=2 eff=1.0 items=ItemModule{} liquid=null power=none
+duct @286,300 r=2 eff=1.0 items=ItemModule{} liquid=null power=none
+duct @283,301 r=1 eff=1.0 items=ItemModule{} liquid=null power=none
+duct @284,301 r=2 eff=1.0 items=ItemModule{} liquid=null power=none
+duct @283,302 r=2 eff=1.0 items=ItemModule{} liquid=null power=none
+duct-bridge @278,303 r=1 eff=1.0 items=ItemModule{} liquid=null power=none
+  actualLink=Building#390[278,306]:duct-bridge
+duct-bridge @279,303 r=2 eff=1.0 items=ItemModule{} liquid=null power=none
+  actualLink=Building#384[278,303]:duct-bridge
+breach @281,303 r=1 eff=0.0 items=ItemModule{} liquid=mindustry.world.modules.LiquidModule@6631cb64 power=none
+duct-bridge @283,303 r=2 eff=1.0 items=ItemModule{} liquid=null power=none
+  actualLink=Building#385[279,303]:duct-bridge
+reinforced-bridge-conduit @279,304 r=0 eff=1.0 items=null liquid=mindustry.world.modules.LiquidModule@19962194 power=none
+  actualLink=null
+duct-bridge @278,306 r=1 eff=1.0 items=ItemModule{} liquid=null power=none
+  actualLink=Building#397[278,308]:duct-bridge
+reinforced-bridge-conduit @279,306 r=3 eff=1.0 items=null liquid=mindustry.world.modules.LiquidModule@481e91b6 power=none
+  actualLink=Building#389[279,304]:reinforced-bridge-conduit
+world-processor @256,307 r=0 eff=1.0 items=null liquid=null power=none
+world-processor @257,307 r=0 eff=1.0 items=null liquid=null power=none
+world-processor @258,307 r=0 eff=1.0 items=null liquid=null power=none
+duct @278,307 r=1 eff=1.0 items=ItemModule{} liquid=null power=none
+reinforced-conduit @279,307 r=3 eff=1.0 items=null liquid=mindustry.world.modules.LiquidModule@7c8f9c2e power=none
+duct-bridge @278,308 r=1 eff=1.0 items=ItemModule{} liquid=null power=none
+  actualLink=Building#411[278,312]:duct-bridge
+reinforced-conduit @279,308 r=3 eff=1.0 items=null liquid=mindustry.world.modules.LiquidModule@140d1230 power=none
+plasma-bore @275,309 r=2 eff=1.0 items=ItemModule{} liquid=mindustry.world.modules.LiquidModule@3cbf1ba4 power=1.0 prod=0.0 demand=0.0 links=[18022714]
+turbine-condenser @278,310 r=3 eff=1.0 items=null liquid=mindustry.world.modules.LiquidModule@10bea4 power=0.0 prod=0.0 demand=0.0 links=[18284858, 18284843]
+plasma-bore @269,311 r=3 eff=1.0 items=ItemModule{} liquid=mindustry.world.modules.LiquidModule@7e2c64 power=1.0 prod=0.0 demand=0.0 links=[17629498]
+plasma-bore @271,311 r=3 eff=1.0 items=ItemModule{} liquid=mindustry.world.modules.LiquidModule@7c1e32c9 power=1.0 prod=0.0 demand=0.0 links=[17760570]
+plasma-bore @273,311 r=3 eff=1.0 items=ItemModule{} liquid=mindustry.world.modules.LiquidModule@383864d5 power=1.0 prod=0.0 demand=0.0 links=[17891642]
+duct @275,311 r=1 eff=1.0 items=ItemModule{} liquid=null power=none
+duct @275,312 r=1 eff=1.0 items=ItemModule{} liquid=null power=none
+duct-bridge @278,312 r=1 eff=1.0 items=ItemModule{} liquid=null power=none
+  actualLink=null
+duct @270,313 r=0 eff=1.0 items=ItemModule{} liquid=null power=none
+duct @271,313 r=0 eff=1.0 items=ItemModule{} liquid=null power=none
+duct @272,313 r=1 eff=1.0 items=ItemModule{} liquid=null power=none
+duct @273,313 r=2 eff=1.0 items=ItemModule{} liquid=null power=none
+duct @274,313 r=2 eff=1.0 items=ItemModule{} liquid=null power=none
+duct @275,313 r=2 eff=1.0 items=ItemModule{} liquid=null power=none
+duct @278,313 r=1 eff=1.0 items=ItemModule{} liquid=null power=none
+beam-node @269,314 r=3 eff=1.0 items=null liquid=null power=1.0 prod=0.0 demand=0.0 links=[17760570, 17629495, 17498427]
+beam-node @271,314 r=3 eff=1.0 items=null liquid=null power=1.0 prod=0.0 demand=0.0 links=[17629498, 17891642, 17760567]
+duct @272,314 r=1 eff=1.0 items=ItemModule{} liquid=null power=none
+beam-node @273,314 r=3 eff=1.0 items=null liquid=null power=1.0 prod=0.0 demand=0.0 links=[17760570, 18022714, 17891639]
+beam-node @275,314 r=3 eff=1.0 items=null liquid=null power=1.0 prod=0.0 demand=0.0 links=[17891642, 18284858, 18022709, 18022715]
+duct @278,314 r=1 eff=1.0 items=ItemModule{} liquid=null power=none
+beam-node @279,314 r=3 eff=1.0 items=null liquid=null power=1.0 prod=0.0 demand=0.0 links=[18022714, 18284866, 18219318]
+beam-node @265,315 r=0 eff=1.0 items=null liquid=null power=1.0 prod=0.0 demand=0.0 links=[17498427, 17367362]
+turbine-condenser @267,315 r=0 eff=1.0 items=null liquid=mindustry.world.modules.LiquidModule@3dd818e8 power=0.0 prod=0.0 demand=0.0 links=[17629498, 18022715, 17367355]
+duct @272,315 r=1 eff=1.0 items=ItemModule{} liquid=null power=none
+duct-bridge @274,315 r=1 eff=1.0 items=ItemModule{} liquid=null power=none
+  actualLink=null
+beam-node @275,315 r=0 eff=1.0 items=null liquid=null power=1.0 prod=0.0 demand=0.0 links=[18022714, 17498427]
+duct-bridge @276,315 r=2 eff=1.0 items=ItemModule{} liquid=null power=none
+  actualLink=Building#436[274,315]:duct-bridge
+duct @277,315 r=2 eff=1.0 items=ItemModule{} liquid=null power=none
+duct @278,315 r=2 eff=1.0 items=ItemModule{} liquid=null power=none
+duct @272,316 r=1 eff=1.0 items=ItemModule{} liquid=null power=none
+duct @274,316 r=1 eff=1.0 items=ItemModule{} liquid=null power=none
+reinforced-conduit @268,317 r=0 eff=1.0 items=null liquid=mindustry.world.modules.LiquidModule@4cb40e3b power=none
+reinforced-conduit @269,317 r=0 eff=1.0 items=null liquid=mindustry.world.modules.LiquidModule@41b1f51e power=none
+reinforced-conduit @270,317 r=0 eff=1.0 items=null liquid=mindustry.world.modules.LiquidModule@3a543f31 power=none
+reinforced-bridge-conduit @271,317 r=0 eff=1.0 items=null liquid=mindustry.world.modules.LiquidModule@47b67fcb power=none
+  actualLink=Building#449[273,317]:reinforced-bridge-conduit
+duct @272,317 r=1 eff=1.0 items=ItemModule{} liquid=null power=none
+reinforced-bridge-conduit @273,317 r=0 eff=1.0 items=null liquid=mindustry.world.modules.LiquidModule@2b9f74d0 power=none
+  actualLink=Building#451[275,317]:reinforced-bridge-conduit
+duct @274,317 r=1 eff=1.0 items=ItemModule{} liquid=null power=none
+reinforced-bridge-conduit @275,317 r=0 eff=1.0 items=null liquid=mindustry.world.modules.LiquidModule@65c86db8 power=none
+  actualLink=null
+reinforced-conduit @276,317 r=0 eff=1.0 items=null liquid=mindustry.world.modules.LiquidModule@7efe7b87 power=none
+reinforced-conduit @277,317 r=0 eff=1.0 items=null liquid=mindustry.world.modules.LiquidModule@ac20bb4 power=none
+reinforced-conduit @278,317 r=1 eff=1.0 items=null liquid=mindustry.world.modules.LiquidModule@5a2bd7c8 power=none
+duct @272,318 r=1 eff=1.0 items=ItemModule{} liquid=null power=none
+duct @274,318 r=1 eff=1.0 items=ItemModule{} liquid=null power=none
+reinforced-conduit @278,318 r=1 eff=1.0 items=null liquid=mindustry.world.modules.LiquidModule@7ca8d498 power=none
+duct @272,319 r=1 eff=1.0 items=ItemModule{} liquid=null power=none
+duct @274,319 r=1 eff=1.0 items=ItemModule{} liquid=null power=none
+reinforced-conduit @278,319 r=1 eff=1.0 items=null liquid=mindustry.world.modules.LiquidModule@7187bac9 power=none
+duct @274,320 r=2 eff=1.0 items=ItemModule{} liquid=null power=none
+reinforced-conduit @278,320 r=1 eff=1.0 items=null liquid=mindustry.world.modules.LiquidModule@6b8280e6 power=none
+duct-bridge @269,321 r=1 eff=1.0 items=ItemModule{} liquid=null power=none
+  actualLink=Building#506[269,325]:duct-bridge
+reinforced-conduit @278,321 r=1 eff=1.0 items=null liquid=mindustry.world.modules.LiquidModule@6f139fc9 power=none
+cliff-crusher @262,322 r=2 eff=1.0 items=ItemModule{sand:8} liquid=null power=1.0 prod=0.0 demand=0.0 links=[17367362, 17105219]
+beam-node @265,322 r=0 eff=1.0 items=null liquid=null power=1.0 prod=0.0 demand=0.0 links=[17367355, 17498435, 17170754]
+duct-router @269,322 r=0 eff=1.0 items=ItemModule{silicon:1} liquid=null power=none
+reinforced-bridge-conduit @278,322 r=1 eff=1.0 items=null liquid=mindustry.world.modules.LiquidModule@55259aa7 power=none
+  actualLink=Building#497[278,324]:reinforced-bridge-conduit
+plasma-bore @279,322 r=0 eff=1.0 items=ItemModule{} liquid=mindustry.world.modules.LiquidModule@19382338 power=1.0 prod=0.0 demand=0.0 links=[18284858]
+beam-node @261,323 r=0 eff=1.0 items=null liquid=null power=1.0 prod=0.0 demand=0.0 links=[17170754, 17105221]
+duct @264,323 r=0 eff=1.0 items=ItemModule{sand:1} liquid=null power=none
+duct @265,323 r=0 eff=1.0 items=ItemModule{sand:1} liquid=null power=none
+silicon-arc-furnace @267,323 r=0 eff=0.0 items=ItemModule{sand:30,silicon:1} liquid=null power=1.0 prod=0.0 demand=0.0 links=[17367362]
+duct @274,323 r=2 eff=1.0 items=ItemModule{} liquid=null power=none
+duct @275,323 r=2 eff=1.0 items=ItemModule{} liquid=null power=none
+duct @276,323 r=2 eff=1.0 items=ItemModule{} liquid=null power=none
+duct-router @277,323 r=2 eff=1.0 items=ItemModule{} liquid=null power=none
+duct @278,323 r=2 eff=1.0 items=ItemModule{} liquid=null power=none
+duct-bridge @262,324 r=0 eff=1.0 items=ItemModule{sand:4} liquid=null power=none
+  actualLink=null
+duct @263,324 r=0 eff=1.0 items=ItemModule{sand:1} liquid=null power=none
+duct @264,324 r=0 eff=1.0 items=ItemModule{sand:1} liquid=null power=none
+duct @265,324 r=0 eff=1.0 items=ItemModule{sand:1} liquid=null power=none
+duct @269,324 r=2 eff=1.0 items=ItemModule{} liquid=null power=none
+duct @270,324 r=2 eff=1.0 items=ItemModule{} liquid=null power=none
+duct @271,324 r=2 eff=1.0 items=ItemModule{} liquid=null power=none
+duct @272,324 r=2 eff=1.0 items=ItemModule{} liquid=null power=none
+duct @273,324 r=2 eff=1.0 items=ItemModule{} liquid=null power=none
+duct @274,324 r=2 eff=1.0 items=ItemModule{} liquid=null power=none
+duct @275,324 r=2 eff=1.0 items=ItemModule{} liquid=null power=none
+duct @276,324 r=2 eff=1.0 items=ItemModule{} liquid=null power=none
+duct @277,324 r=2 eff=1.0 items=ItemModule{} liquid=null power=none
+reinforced-bridge-conduit @278,324 r=1 eff=1.0 items=null liquid=mindustry.world.modules.LiquidModule@66420549 power=none
+  actualLink=null
+beam-node @261,325 r=0 eff=1.0 items=null liquid=null power=1.0 prod=0.0 demand=0.0 links=[17105219, 17105222]
+duct @262,325 r=0 eff=1.0 items=ItemModule{sand:1} liquid=null power=none
+duct @263,325 r=0 eff=1.0 items=ItemModule{sand:1} liquid=null power=none
+duct @264,325 r=0 eff=1.0 items=ItemModule{sand:1} liquid=null power=none
+duct @265,325 r=0 eff=1.0 items=ItemModule{sand:1} liquid=null power=none
+duct @266,325 r=3 eff=1.0 items=ItemModule{sand:1} liquid=null power=none
+duct @267,325 r=3 eff=1.0 items=ItemModule{sand:1} liquid=null power=none
+duct-bridge @269,325 r=0 eff=1.0 items=ItemModule{} liquid=null power=none
+  actualLink=null
+duct @270,325 r=0 eff=1.0 items=ItemModule{} liquid=null power=none
+duct @271,325 r=0 eff=1.0 items=ItemModule{} liquid=null power=none
+duct @272,325 r=0 eff=1.0 items=ItemModule{} liquid=null power=none
+duct @273,325 r=0 eff=1.0 items=ItemModule{} liquid=null power=none
+duct @274,325 r=0 eff=1.0 items=ItemModule{} liquid=null power=none
+duct @275,325 r=1 eff=1.0 items=ItemModule{} liquid=null power=none
+duct @279,325 r=2 eff=1.0 items=ItemModule{graphite:1} liquid=null power=none
+cliff-crusher @261,326 r=2 eff=1.0 items=ItemModule{sand:9} liquid=null power=1.0 prod=0.0 demand=0.0 links=[17105221, 17105225]
+duct @267,326 r=3 eff=1.0 items=ItemModule{sand:1} liquid=null power=none
+duct @275,326 r=1 eff=1.0 items=ItemModule{} liquid=null power=none
+plasma-bore @279,326 r=0 eff=0.0 items=ItemModule{graphite:10} liquid=mindustry.world.modules.LiquidModule@15dc339f power=0.0 prod=0.0 demand=0.0 links=[18284872]
+duct-bridge @260,327 r=0 eff=1.0 items=ItemModule{sand:4} liquid=null power=none
+  actualLink=Building#521[263,327]:duct-bridge
+duct-bridge @263,327 r=0 eff=1.0 items=ItemModule{sand:4} liquid=null power=none
+  actualLink=null
+duct @264,327 r=0 eff=1.0 items=ItemModule{sand:1} liquid=null power=none
+duct @265,327 r=0 eff=1.0 items=ItemModule{sand:1} liquid=null power=none
+duct @266,327 r=0 eff=1.0 items=ItemModule{sand:1} liquid=null power=none
+duct @267,327 r=3 eff=1.0 items=ItemModule{sand:1} liquid=null power=none
+duct @275,327 r=1 eff=1.0 items=ItemModule{} liquid=null power=none
+duct @260,328 r=0 eff=1.0 items=ItemModule{sand:1} liquid=null power=none
+duct @261,328 r=0 eff=1.0 items=ItemModule{sand:1} liquid=null power=none
+duct-bridge @262,328 r=3 eff=1.0 items=ItemModule{sand:4} liquid=null power=none
+  actualLink=Building#484[262,324]:duct-bridge
+beam-node @274,328 r=0 eff=1.0 items=null liquid=null power=0.0 prod=0.0 demand=0.0 links=[17957199, 18088265]
+beam-node @279,328 r=0 eff=1.0 items=null liquid=null power=0.0 prod=0.0 demand=0.0 links=[18284870, 18088265]
+cliff-crusher @259,329 r=2 eff=1.0 items=ItemModule{sand:9} liquid=null power=1.0 prod=0.0 demand=0.0 links=[17105225, 16908618]
+beam-node @261,329 r=0 eff=1.0 items=null liquid=null power=1.0 prod=0.0 demand=0.0 links=[16974153, 17105222]
+tank-fabricator @276,329 r=1 eff=0.0 items=ItemModule{beryllium:80} liquid=null power=0.0 prod=0.0 demand=0.0 links=[17957192, 18284872]
+beam-node @258,330 r=0 eff=1.0 items=null liquid=null power=1.0 prod=0.0 demand=0.0 links=[16974153, 16843083]
+duct @274,330 r=0 eff=1.0 items=ItemModule{beryllium:1} liquid=null power=none
+cliff-crusher @257,331 r=3 eff=0.0 items=ItemModule{sand:10} liquid=null power=1.0 prod=0.0 demand=0.0 links=[16908618]
+duct @259,331 r=0 eff=1.0 items=ItemModule{sand:1} liquid=null power=none
+duct-bridge @260,331 r=3 eff=1.0 items=ItemModule{sand:4} liquid=null power=none
+  actualLink=Building#520[260,327]:duct-bridge
+duct @274,331 r=3 eff=1.0 items=ItemModule{beryllium:1} liquid=null power=none
+duct @273,332 r=0 eff=1.0 items=ItemModule{beryllium:1} liquid=null power=none
+duct @274,332 r=3 eff=1.0 items=ItemModule{beryllium:1} liquid=null power=none
+duct @273,333 r=3 eff=1.0 items=ItemModule{beryllium:1} liquid=null power=none
+duct @273,334 r=3 eff=1.0 items=ItemModule{beryllium:1} liquid=null power=none
+duct @273,335 r=3 eff=1.0 items=ItemModule{beryllium:1} liquid=null power=none
+beam-node @274,335 r=0 eff=1.0 items=null liquid=null power=0.0 prod=0.0 demand=0.0 links=[17957207, 17957192]
+duct @270,336 r=0 eff=1.0 items=ItemModule{beryllium:1} liquid=null power=none
+duct @271,336 r=0 eff=1.0 items=ItemModule{beryllium:1} liquid=null power=none
+duct @272,336 r=0 eff=1.0 items=ItemModule{beryllium:1} liquid=null power=none
+duct @273,336 r=3 eff=1.0 items=ItemModule{beryllium:1} liquid=null power=none
+duct @270,337 r=3 eff=1.0 items=ItemModule{beryllium:1} liquid=null power=none
+duct @270,338 r=3 eff=1.0 items=ItemModule{beryllium:1} liquid=null power=none
+breach @272,338 r=3 eff=0.0 items=ItemModule{} liquid=mindustry.world.modules.LiquidModule@6cd56321 power=none
+duct @270,339 r=3 eff=1.0 items=ItemModule{beryllium:1} liquid=null power=none
+duct @270,340 r=3 eff=1.0 items=ItemModule{beryllium:1} liquid=null power=none
+reinforced-conduit @271,340 r=3 eff=1.0 items=null liquid=mindustry.world.modules.LiquidModule@34acbc60 power=none
+duct-bridge @272,340 r=3 eff=1.0 items=ItemModule{} liquid=null power=none
+  actualLink=null
+beam-node @279,340 r=0 eff=1.0 items=null liquid=null power=1.0 prod=0.0 demand=0.0 links=[18350420, 18219349]
+beam-node @280,340 r=0 eff=1.0 items=null liquid=null power=1.0 prod=0.0 demand=0.0 links=[18350421, 18284884]
+beam-node @267,341 r=0 eff=1.0 items=null liquid=null power=1.0 prod=0.0 demand=0.0 links=[18153813]
+duct @270,341 r=3 eff=1.0 items=ItemModule{beryllium:1} liquid=null power=none
+reinforced-bridge-conduit @271,341 r=3 eff=1.0 items=null liquid=mindustry.world.modules.LiquidModule@42b28ff1 power=none
+  actualLink=null
+beam-node @277,341 r=0 eff=1.0 items=null liquid=null power=1.0 prod=0.0 demand=0.0 links=[17498453, 18219349]
+plasma-bore @278,341 r=2 eff=0.0 items=ItemModule{beryllium:10} liquid=mindustry.world.modules.LiquidModule@36061cf3 power=1.0 prod=0.0 demand=0.0 links=[18153813, 18350421, 18284884]
+beam-node @280,341 r=0 eff=1.0 items=null liquid=null power=1.0 prod=0.0 demand=0.0 links=[18481494, 18350420, 18219349]
+duct-bridge @270,342 r=3 eff=1.0 items=ItemModule{beryllium:4} liquid=null power=none
+  actualLink=null
+duct-bridge @280,342 r=1 eff=1.0 items=ItemModule{beryllium:4} liquid=null power=none
+  actualLink=Building#597[280,344]:duct-bridge
+turbine-condenser @282,342 r=0 eff=1.0 items=null liquid=mindustry.world.modules.LiquidModule@718dbd79 power=0.0 prod=0.0 demand=0.0 links=[18350421]
+reinforced-bridge-conduit @273,343 r=1 eff=1.0 items=null liquid=mindustry.world.modules.LiquidModule@20134094 power=none
+  actualLink=Building#600[273,345]:reinforced-bridge-conduit
+beam-node @274,343 r=0 eff=1.0 items=null liquid=null power=0.0 prod=0.0 demand=0.0 links=[18022743, 17957199]
+plasma-bore @275,343 r=3 eff=0.0 items=ItemModule{} liquid=mindustry.world.modules.LiquidModule@76889e60 power=0.0 prod=0.0 demand=0.0 links=[17957207]
+reinforced-bridge-conduit @277,343 r=2 eff=1.0 items=null liquid=mindustry.world.modules.LiquidModule@706fe5c6 power=none
+  actualLink=Building#585[273,343]:reinforced-bridge-conduit
+reinforced-conduit @278,343 r=2 eff=1.0 items=null liquid=mindustry.world.modules.LiquidModule@6c15e8c7 power=none
+reinforced-conduit @279,343 r=2 eff=1.0 items=null liquid=mindustry.world.modules.LiquidModule@56380231 power=none
+reinforced-conduit @280,343 r=2 eff=1.0 items=null liquid=mindustry.world.modules.LiquidModule@64f1fd08 power=none
+duct-bridge @272,344 r=3 eff=1.0 items=ItemModule{} liquid=null power=none
+  actualLink=Building#566[272,340]:duct-bridge
+duct @273,344 r=2 eff=1.0 items=ItemModule{} liquid=null power=none
+duct @274,344 r=2 eff=1.0 items=ItemModule{} liquid=null power=none
+duct-bridge @280,344 r=1 eff=1.0 items=ItemModule{beryllium:4} liquid=null power=none
+  actualLink=null
+reinforced-bridge-conduit @271,345 r=3 eff=1.0 items=null liquid=mindustry.world.modules.LiquidModule@6b3f6585 power=none
+  actualLink=Building#574[271,341]:reinforced-bridge-conduit
+reinforced-conduit @272,345 r=2 eff=1.0 items=null liquid=mindustry.world.modules.LiquidModule@282ffbf5 power=none
+reinforced-bridge-conduit @273,345 r=2 eff=1.0 items=null liquid=mindustry.world.modules.LiquidModule@3e104d4b power=none
+  actualLink=Building#598[271,345]:reinforced-bridge-conduit
+duct-bridge @274,345 r=1 eff=1.0 items=ItemModule{beryllium:4} liquid=null power=none
+  actualLink=null
+duct-bridge @277,345 r=2 eff=1.0 items=ItemModule{beryllium:4} liquid=null power=none
+  actualLink=Building#601[274,345]:duct-bridge
+duct @278,345 r=2 eff=1.0 items=ItemModule{beryllium:1} liquid=null power=none
+duct @279,345 r=2 eff=1.0 items=ItemModule{beryllium:1} liquid=null power=none
+duct @280,345 r=2 eff=1.0 items=ItemModule{beryllium:1} liquid=null power=none
+duct-bridge @270,346 r=3 eff=1.0 items=ItemModule{beryllium:4} liquid=null power=none
+  actualLink=Building#581[270,342]:duct-bridge
+duct @271,346 r=2 eff=1.0 items=ItemModule{beryllium:1} liquid=null power=none
+duct @272,346 r=2 eff=1.0 items=ItemModule{beryllium:1} liquid=null power=none
+duct @273,346 r=2 eff=1.0 items=ItemModule{beryllium:1} liquid=null power=none
+duct @274,346 r=2 eff=1.0 items=ItemModule{beryllium:1} liquid=null power=none

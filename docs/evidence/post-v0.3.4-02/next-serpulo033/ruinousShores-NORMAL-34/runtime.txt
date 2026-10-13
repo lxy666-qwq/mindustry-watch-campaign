@@ -1,0 +1,5 @@
+watchVersion=0.3.3
+codeLocation=file:/local-work/mindustry-star-work/star033-runtime/Mindustry.jar
+jarModifiedAtStart=1791877212532
+assets=local-work/mindustry-star-work/star033-runtime/assets
+classPath=local-work/mindustry-star-work/star033-runtime/Mindustry.jar;local-work/stars-ui-check/classes-current

@@ -1,0 +1,9 @@
+unit.1046.identity saved=stell:1 loaded=null
+unit.1046.position saved=2192.1,2752.11 loaded=null
+unit.1045.identity saved=stell:1 loaded=null
+unit.1046.health saved=679.3552 loaded=null
+unit.1045.health saved=63.988083 loaded=null
+units saved=7 loaded=5
+unit.1046.cargo saved=copper:0 loaded=null
+unit.1045.cargo saved=copper:0 loaded=null
+unit.1045.position saved=2177.7014,2751.9233 loaded=null

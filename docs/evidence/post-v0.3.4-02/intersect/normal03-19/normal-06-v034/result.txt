@@ -1,0 +1,27 @@
+mission=intersect
+mode=NORMAL
+scope=driver failed: No duct route BuildPlan{x=278, y=341, rotation=2, block=plasma-bore, breaking=false, progress=0.0, initialized=false, config=null} -> BuildPlan{x=276, y=329, rotation=1, block=tank-fabricator, breaking=false, progress=0.0, initialized=false, config=null}
+gateVerified=true
+finished=false
+winner=null
+simSeconds=0.0
+built=0
+commands=0
+deposits=0
+pendingPlans=155
+next=BuildPlan{x=267, y=315, rotation=0, block=turbine-condenser, breaking=false, progress=0.0, initialized=false, config=null}
+stars=0
+minimumCore=1.0
+losses=0
+elapsed=0.0
+normalBefore=0
+heroBefore=0
+tacticalBefore=0
+normalAfter=0
+tacticalAfter=0
+earned=0
+runtimeWatchVersion=0.3.4
+objectives=0/0
+flags={}
+status=核心最低生命 100% · 核心损失 0
+classLocation=file:/local-work/mindustry-star-work/star034-runtime/Mindustry.jar
