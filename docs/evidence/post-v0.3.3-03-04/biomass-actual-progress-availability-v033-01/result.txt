@@ -1,0 +1,40 @@
+version=0.3.3
+jar=local-work/mindustry-star-work/star033-runtime/Mindustry.jar
+jarModified=1791877212532
+assets=local-work/mindustry-star-work/star033-runtime/assets
+settingsScope=isolated copy of genuinely earned shared progress; original not opened by Settings
+noTicks=true
+noBuildOrBreak=true
+noScoreSeeding=true
+mainStars=12
+totalStarsBefore=22
+W1Reward=true
+W2Reward=true
+unlocked=true
+normalGate=true
+core=138,56
+refundMultiplier=0.53
+buildCostMultiplier=1.0
+block=arc researchedInStarMission=true nativePlaceable=true costs=[铜: 50, 铅: 50]
+block=lancer researchedInStarMission=true nativePlaceable=true costs=[铜: 60, 铅: 70, 钛: 30, 硅: 60]
+block=silicon-smelter researchedInStarMission=true nativePlaceable=true costs=[铜: 30, 铅: 25]
+block=pulverizer researchedInStarMission=true nativePlaceable=true costs=[铜: 30, 铅: 25]
+block=combustion-generator researchedInStarMission=true nativePlaceable=true costs=[铜: 25, 铅: 15]
+block=steam-generator researchedInStarMission=true nativePlaceable=true costs=[铜: 35, 铅: 40, 石墨: 25, 硅: 30]
+block=graphite-press researchedInStarMission=true nativePlaceable=true costs=[铜: 75, 铅: 30]
+block=pneumatic-drill researchedInStarMission=true nativePlaceable=true costs=[铜: 18, 石墨: 10]
+block=battery researchedInStarMission=true nativePlaceable=true costs=[铜: 5, 铅: 20]
+block=power-node researchedInStarMission=true nativePlaceable=true costs=[铜: 2, 铅: 6]
+block=mechanical-drill researchedInStarMission=true nativePlaceable=true costs=[铜: 12]
+block=conveyor researchedInStarMission=true nativePlaceable=true costs=[铜: 1]
+block=bridge-conveyor researchedInStarMission=true nativePlaceable=true costs=[铜: 6, 铅: 6]
+site=52,115 block=container team=derelict validBreak=true theoreticalCompleteRefund=titanium:53,
+site=74,124 block=container team=derelict validBreak=true theoreticalCompleteRefund=titanium:53,
+site=74,126 block=container team=derelict validBreak=true theoreticalCompleteRefund=titanium:53,
+site=76,143 block=air-factory team=derelict validBreak=true theoreticalCompleteRefund=copper:32,lead:37,silicon:32,
+site=76,146 block=additive-reconstructor team=derelict validBreak=true theoreticalCompleteRefund=copper:106,lead:64,silicon:48,
+site=92,87 block=door-large team=derelict validBreak=true theoreticalCompleteRefund=titanium:13,silicon:8,
+site=81,156 block=door-large team=derelict validBreak=true theoreticalCompleteRefund=titanium:13,silicon:8,
+site=83,156 block=door-large team=derelict validBreak=true theoreticalCompleteRefund=titanium:13,silicon:8,
+totalStarsAfter=22
+noCombatOrVictory=true

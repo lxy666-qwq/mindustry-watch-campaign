@@ -1,0 +1,6 @@
+op mod period @minute 3
+op lessThan open period 1
+op add i i 1
+op mod i i @links
+getlink door i
+control enabled door open 0 0 0

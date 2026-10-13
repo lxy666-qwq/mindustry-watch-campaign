@@ -1,0 +1,4 @@
+getflag openMap "openMap"
+jump 0 equal openMap false
+setrule mapArea 10 224 67 119 293
+setflag "openMap" false

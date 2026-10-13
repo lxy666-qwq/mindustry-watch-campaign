@@ -1,0 +1,2 @@
+seconds=0.0 pilot=276.5,107.5 cargo=铜: 0 onlyDepositCore=true pending=none
+seconds=0.0 pilot=276.5,107.5 cargo=铜: 0 onlyDepositCore=true pending=BuildPlan{x=289, y=116, rotation=0, block=turbine-condenser, breaking=false, progress=0.0, initialized=false, config=null}

@@ -1,0 +1,4 @@
+getflag defDone "defDone"
+jump 0 equal defDone false
+setrule mapArea 10 224 67 119 144
+setflag "defDone" false

@@ -1,0 +1,2 @@
+op greaterThanEq isTimer @minute 9
+control enabled fabricator1 isTimer 0 0 0

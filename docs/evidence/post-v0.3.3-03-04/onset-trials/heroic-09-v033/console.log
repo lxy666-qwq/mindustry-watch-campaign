@@ -1,0 +1,60 @@
+0.0,1.6595166,1,0,1.0,0,0,0,0,0,0,0,"{}"
+running objectives=[ItemObjective:[accent]��ã�[][lightgray]0[]/60
+ [lightgray]��:null]
+planned=261 vents=3 factory=BuildPlan{x=263, y=116, rotation=0, block=tank-fabricator, breaking=false, progress=0.0, initialized=false, config=null} limits=MissionLimits[deadline=1860.0, buildBudget=593, lossBudget=16]
+0.0,2.0633872,1,0,1.0,0,0,0,0,0,1,0,"{}"
+running objectives=[ItemObjective:[accent]��ã�[][lightgray]0[]/60
+ [lightgray]��:null]
+60.0,4.896005,1,0,1.0,2,0,0,0,19,1,5,"{}"
+running objectives=[CoreItemObjective:[accent]�ƶ������ģ�
+[][lightgray]26[]/200
+ [lightgray]��:null]
+120.0,8.085601,1,0,1.0,0,16,0,0,69,1,5,"{}"
+running objectives=[CoreItemObjective:[accent]�ƶ������ģ�
+[][lightgray]106[]/200
+ [lightgray]��:null]
+180.0,11.305793,1,0,1.0,204,32,88,0,119,1,5,"{}"
+running objectives=[CoreItemObjective:[accent]�ƶ������ģ�
+[][lightgray]198[]/200
+ [lightgray]��:null]
+240.0,14.355489,1,0,1.0,210,78,14,0,163,1,10,"{}"
+running objectives=[UnitCountObjective:[accent]������λ��[][lightgray]1[]x
+ [lightgray]Χ��:null]
+300.0,17.921196,1,0,1.0,386,184,80,0,190,1,10,"{}"
+running objectives=[UnitCountObjective:[accent]������λ��[][lightgray]1[]x
+ [lightgray]Χ��:null]
+360.0,19.640333,1,0,1.0,564,230,146,0,190,2,12,"{}"
+running objectives=[BuildCountObjective:[accent]���죺[][lightgray]1[]x
+ [lightgray]˺��:null]
+420.0,22.647945,1,2,1.0,477,149,62,0,261,4,16,"{breachAmmo}"
+running objectives=[DestroyUnitsObjective:[accent]�ݻٵ�λ��[][lightgray]2[]x:null]
+480.0,23.776703,1,0,0.9737778,584,195,126,0,261,5,17,"{breachAmmo}"
+running objectives=[DestroyBlockObjective:[accent]�ݻ٣�
+[] [lightgray]�Ǳ�����:null]
+540.0,24.707739,1,0,0.9737778,676,239,192,0,261,6,17,"{breachAmmo}"
+running objectives=[DestroyBlockObjective:[accent]�ݻ٣�
+[] [lightgray]�Ǳ�����:null]
+600.0,25.639389,1,0,0.9737778,764,285,258,0,261,8,17,"{breachAmmo}"
+running objectives=[DestroyBlockObjective:[accent]�ݻ٣�
+[] [lightgray]�Ǳ�����:null]
+660.0,26.572817,1,0,0.9737778,856,329,323,0,261,9,17,"{breachAmmo}"
+running objectives=[DestroyBlockObjective:[accent]�ݻ٣�
+[] [lightgray]�Ǳ�����:null]
+720.0,27.502205,1,0,0.9737778,944,375,388,0,261,10,17,"{breachAmmo}"
+running objectives=[DestroyBlockObjective:[accent]�ݻ٣�
+[] [lightgray]�Ǳ�����:null]
+780.0,28.953907,1,0,0.9737778,1036,420,454,0,261,12,18,"{breachAmmo}"
+running objectives=[BuildCountObjective:[accent]���죺[][lightgray]1[]x
+ [lightgray]�Ǳ�����:null]
+840.0,32.875027,1,0,0.9737778,1124,821,520,0,261,13,18,"{breachAmmo}"
+running objectives=[BuildCountObjective:[accent]���죺[][lightgray]1[]x
+ [lightgray]�Ǳ�����:null]
+900.0,35.23965,1,0,0.9737778,1216,1024,584,0,261,14,18,"{breachAmmo}"
+running objectives=[BuildCountObjective:[accent]���죺[][lightgray]1[]x
+ [lightgray]�Ǳ�����:null]
+900.0,35.712177,1,0,0.9737778,1216,1024,584,0,261,0,18,"{breachAmmo}"
+running objectives=[BuildCountObjective:[accent]���죺[][lightgray]1[]x
+ [lightgray]�Ǳ�����:null]
+Exception in thread "main" java.lang.NullPointerException: Cannot read field "x" because the return value of "mindustry.gen.Player.unit()" is null
+	at OnsetHeroic033Trial.snapshot(OnsetHeroic033Trial.java:431)
+	at OnsetHeroic033Trial.main(OnsetHeroic033Trial.java:118)

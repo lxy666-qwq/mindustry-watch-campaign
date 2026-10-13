@@ -1,0 +1,4 @@
+map	mode	rewardIndex	planet	width	height	coreInventoryAfterPlay	loadout	playerBuildingInventory	playerBuildings	availableEquipmentBaseline
+biomassFacility	NORMAL	1	serpulo	250	250	{copper=100}	[铜: 100]	{copper=100}	{core-shard=1}	arc:false,lancer:false
+biomassFacility	HEROIC	1	serpulo	250	250	{copper=100}	[铜: 100]	{copper=100}	{core-shard=1}	arc:false,lancer:false
+biomassFacility	TACTICAL	1	serpulo	250	250	{copper=100}	[铜: 100]	{copper=100}	{core-shard=1}	arc:false,lancer:false

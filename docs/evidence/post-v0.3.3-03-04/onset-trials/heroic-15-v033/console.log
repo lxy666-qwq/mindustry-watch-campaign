@@ -1,0 +1,115 @@
+0.0,1.7873801,1,0,1.0,0,0,0,0,0,0,0,"{}"
+running objectives=[ItemObjective:[accent]��ã�[][lightgray]0[]/60
+ [lightgray]��:null]
+planned=260 vents=3 factory=BuildPlan{x=263, y=116, rotation=0, block=tank-fabricator, breaking=false, progress=0.0, initialized=false, config=null} limits=MissionLimits[deadline=1860.0, buildBudget=593, lossBudget=16]
+0.0,2.2406113,1,0,1.0,0,0,0,0,0,1,0,"{}"
+running objectives=[ItemObjective:[accent]��ã�[][lightgray]0[]/60
+ [lightgray]��:null]
+60.0,5.7193723,1,0,1.0,2,0,0,0,19,1,5,"{}"
+running objectives=[CoreItemObjective:[accent]�ƶ������ģ�
+[][lightgray]26[]/200
+ [lightgray]��:null]
+120.0,9.022584,1,0,1.0,0,16,0,0,69,1,5,"{}"
+running objectives=[CoreItemObjective:[accent]�ƶ������ģ�
+[][lightgray]106[]/200
+ [lightgray]��:null]
+180.0,12.569264,1,0,1.0,204,32,88,0,119,1,5,"{}"
+running objectives=[CoreItemObjective:[accent]�ƶ������ģ�
+[][lightgray]198[]/200
+ [lightgray]��:null]
+240.0,15.736523,1,0,1.0,210,78,14,0,163,1,10,"{}"
+running objectives=[UnitCountObjective:[accent]������λ��[][lightgray]1[]x
+ [lightgray]Χ��:null]
+300.0,19.166065,1,0,1.0,386,184,80,0,190,1,10,"{}"
+running objectives=[UnitCountObjective:[accent]������λ��[][lightgray]1[]x
+ [lightgray]Χ��:null]
+360.0,20.971865,1,0,1.0,564,230,146,0,190,2,12,"{}"
+running objectives=[BuildCountObjective:[accent]���죺[][lightgray]1[]x
+ [lightgray]˺��:null]
+420.0,24.021296,1,2,1.0,485,149,62,0,260,4,16,"{breachAmmo}"
+running objectives=[DestroyUnitsObjective:[accent]�ݻٵ�λ��[][lightgray]2[]x:null]
+480.0,25.134987,1,0,0.9672222,586,195,126,0,260,5,17,"{breachAmmo}"
+running objectives=[DestroyBlockObjective:[accent]�ݻ٣�
+[] [lightgray]�Ǳ�����:null]
+540.0,26.055817,1,0,0.9672222,678,239,192,0,260,6,17,"{breachAmmo}"
+running objectives=[DestroyBlockObjective:[accent]�ݻ٣�
+[] [lightgray]�Ǳ�����:null]
+600.0,26.97808,1,0,0.9672222,766,285,258,0,260,8,17,"{breachAmmo}"
+running objectives=[DestroyBlockObjective:[accent]�ݻ٣�
+[] [lightgray]�Ǳ�����:null]
+660.0,27.901567,1,0,0.9672222,858,329,323,0,260,9,17,"{breachAmmo}"
+running objectives=[DestroyBlockObjective:[accent]�ݻ٣�
+[] [lightgray]�Ǳ�����:null]
+720.0,28.829071,1,0,0.9672222,946,375,388,0,260,10,17,"{breachAmmo}"
+running objectives=[DestroyBlockObjective:[accent]�ݻ٣�
+[] [lightgray]�Ǳ�����:null]
+780.0,29.820845,1,0,0.9672222,1038,419,454,0,260,11,17,"{breachAmmo}"
+running objectives=[DestroyBlockObjective:[accent]�ݻ٣�
+[] [lightgray]�Ǳ�����:null]
+840.0,32.631287,1,0,0.9672222,1126,638,520,0,260,12,18,"{breachAmmo}"
+running objectives=[BuildCountObjective:[accent]���죺[][lightgray]1[]x
+ [lightgray]�Ǳ�����:null]
+900.0,36.407825,1,0,0.9672222,1218,1001,584,0,260,13,18,"{breachAmmo}"
+running objectives=[BuildCountObjective:[accent]���죺[][lightgray]1[]x
+ [lightgray]�Ǳ�����:null]
+NATIVE SAVE/LOAD CHECKPOINT PASSED 900 seconds, 546 tags
+960.0,37.820667,1,0,0.9672222,1306,1047,650,0,260,14,18,"{breachAmmo}"
+running objectives=[BuildCountObjective:[accent]���죺[][lightgray]1[]x
+ [lightgray]�Ǳ�����:null]
+1020.0,38.744606,1,0,0.9672222,1398,1091,714,0,260,16,18,"{breachAmmo}"
+running objectives=[BuildCountObjective:[accent]���죺[][lightgray]1[]x
+ [lightgray]�Ǳ�����:null]
+1080.0,39.668514,1,0,0.9672222,1486,1137,780,0,260,16,18,"{breachAmmo}"
+running objectives=[BuildCountObjective:[accent]���죺[][lightgray]1[]x
+ [lightgray]�Ǳ�����:null]
+1140.0,40.606133,1,0,0.9672222,1578,1181,860,0,260,16,18,"{breachAmmo}"
+running objectives=[BuildCountObjective:[accent]���죺[][lightgray]1[]x
+ [lightgray]�Ǳ�����:null]
+1200.0,41.535877,1,0,0.9672222,1666,1227,990,0,260,16,18,"{breachAmmo}"
+running objectives=[BuildCountObjective:[accent]���죺[][lightgray]1[]x
+ [lightgray]�Ǳ�����:null]
+1260.0,42.46549,1,0,0.9672222,958,271,120,0,261,17,19,"{breachAmmo}"
+running objectives=[TimerObjective:[accent]����������[lightgray] 1:32:null]
+1320.0,43.393753,1,0,0.9672222,744,192,46,0,319,19,19,"{breachAmmo}"
+running objectives=[TimerObjective:[accent]����������[lightgray] 32:null]
+1380.0,44.318207,1,0,0.9672222,836,236,112,0,319,20,20,"{breachAmmo}"
+running objectives=[]
+1440.0,45.24661,1,2,0.9672222,924,282,176,0,319,12,20,"{breachAmmo}"
+running objectives=[]
+1500.0,46.185318,1,4,0.9672222,1016,326,242,0,319,13,20,"{breachAmmo}"
+running objectives=[]
+1560.0,47.127453,1,2,0.9672222,964,372,308,0,326,14,20,"{breachAmmo}"
+running objectives=[]
+1620.0,48.05293,1,2,0.9672222,976,416,374,0,328,13,20,"{breachAmmo}"
+running objectives=[]
+1680.0,48.974514,1,2,0.9672222,984,462,438,0,330,14,20,"{breachAmmo}"
+running objectives=[]
+1740.0,49.90586,1,2,0.9672222,1036,506,504,0,331,15,20,"{breachAmmo}"
+running objectives=[]
+1800.0,50.82979,1,2,0.9672222,724,360,340,0,343,16,20,"{breachAmmo}"
+running objectives=[]
+1860.0,51.75543,1,2,0.9672222,736,404,405,0,345,15,20,"{breachAmmo}"
+running objectives=[]
+1920.0,52.718273,1,4,0.9672222,508,266,248,0,361,16,20,"{breachAmmo}"
+running objectives=[]
+1980.0,53.861355,1,4,0.9672222,539,310,314,0,366,16,20,"{breachAmmo}"
+running objectives=[]
+2040.0,56.45656,1,5,0.9672222,455,177,168,0,385,15,20,"{breachAmmo}"
+running objectives=[]
+2100.0,59.12613,1,5,0.9672222,422,76,57,0,394,16,20,"{breachAmmo}"
+running objectives=[]
+2160.0,61.31625,1,0,0.9672222,564,184,141,0,394,16,20,"{breachAmmo}"
+running objectives=[]
+2220.0,63.516693,1,1,0.9672222,478,103,119,0,405,16,20,"{breachAmmo}"
+running objectives=[]
+2280.0,66.679344,1,2,0.9672222,479,26,69,0,409,16,20,"{breachAmmo}"
+running objectives=[]
+2340.0,67.75529,1,0,0.9672222,588,70,151,0,409,16,20,"{breachAmmo}"
+running objectives=[]
+2400.0,68.68443,1,0,0.9672222,676,116,273,0,409,16,20,"{breachAmmo}"
+running objectives=[]
+NATIVE SAVE/LOAD CHECKPOINT PASSED 2400 seconds, 753 tags
+2460.0,69.83916,1,2,0.9672222,768,160,361,0,409,15,20,"{breachAmmo}"
+running objectives=[]
+2500.0,70.45424,1,2,0.9672222,828,190,409,0,409,16,20,"{breachAmmo}"
+running objectives=[]

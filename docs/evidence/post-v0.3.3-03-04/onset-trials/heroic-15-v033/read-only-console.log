@@ -1,0 +1,25 @@
+version=0.3.3 class=file:/local-work/mindustry-star-work/star033-runtime/Mindustry.jar
+sharded evoke id=1055 pos=290.797,105.72781 hp=300.0 target=null move=null
+malis evoke id=1056 pos=293.2548,287.84628 hp=300.0 target=null move=null
+malis evoke id=1060 pos=295.385,286.65616 hp=300.0 target=null move=null
+sharded stell id=6542 pos=279.74866,249.66092 hp=536.5 target=null move=(2480.0,1920.0)
+sharded stell id=10739 pos=266.98434,117.737404 hp=850.0 target=null move=(2480.0,1920.0)
+sharded stell id=7277 pos=284.19498,248.35477 hp=821.5 target=null move=(2480.0,1920.0)
+sharded stell id=8873 pos=282.63046,249.24498 hp=764.5 target=null move=(2480.0,1920.0)
+sharded stell id=7647 pos=281.18878,250.7407 hp=308.5 target=null move=(2480.0,1920.0)
+sharded stell id=6686 pos=282.37646,247.46298 hp=622.0 target=null move=(2480.0,1920.0)
+sharded stell id=8493 pos=280.6823,248.12201 hp=223.0 target=null move=(2480.0,1920.0)
+sharded stell id=5917 pos=282.96802,251.01334 hp=536.5 target=null move=(2480.0,1920.0)
+sharded stell id=6893 pos=285.9795,247.49835 hp=821.5 target=null move=(2480.0,1920.0)
+sharded stell id=11323 pos=266.91638,114.41995 hp=850.0 target=null move=(2480.0,1920.0)
+sharded stell id=7162 pos=286.50812,250.38187 hp=471.2798 target=null move=(2480.0,1920.0)
+sharded stell id=8140 pos=287.2714,248.75172 hp=739.83936 target=null move=(2480.0,1920.0)
+sharded stell id=9208 pos=268.0125,116.00642 hp=850.0 target=null move=(2480.0,1920.0)
+sharded stell id=8027 pos=284.7529,250.78076 hp=793.0 target=null move=(2480.0,1920.0)
+sharded stell id=12251 pos=266.2148,116.09671 hp=850.0 target=null move=(2480.0,1920.0)
+malis stell id=12315 pos=275.66037,250.25742 hp=677.1999 target=Building#579[286,177]:plasma-bore move=(2288.0,1432.0)
+malis stell id=12316 pos=275.17538,248.52466 hp=197.19965 target=Building#579[286,177]:plasma-bore move=(2288.0,1432.0)
+sharded turret breach 275,130 hp=1482.0 ammo=30
+sharded turret breach 292,189 hp=1516.5 ammo=30
+malis turret breach 310,267 hp=1620.0 ammo=30
+malis turret breach 271,277 hp=1620.0 ammo=30

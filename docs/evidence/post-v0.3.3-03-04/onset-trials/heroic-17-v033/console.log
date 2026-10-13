@@ -1,0 +1,53 @@
+0.0,1.8517779,1,0,1.0,0,0,0,0,0,0,0,"{}"
+running objectives=[ItemObjective:[accent]��ã�[][lightgray]0[]/60
+ [lightgray]��:null]
+planned=260 vents=3 factory=BuildPlan{x=263, y=116, rotation=0, block=tank-fabricator, breaking=false, progress=0.0, initialized=false, config=null} limits=MissionLimits[deadline=1860.0, buildBudget=593, lossBudget=16]
+0.0,2.307061,1,0,1.0,0,0,0,0,0,1,0,"{}"
+running objectives=[ItemObjective:[accent]��ã�[][lightgray]0[]/60
+ [lightgray]��:null]
+60.0,5.7167053,1,0,1.0,2,0,0,0,19,1,5,"{}"
+running objectives=[CoreItemObjective:[accent]�ƶ������ģ�
+[][lightgray]26[]/200
+ [lightgray]��:null]
+120.0,9.136882,1,0,1.0,0,16,0,0,69,1,5,"{}"
+running objectives=[CoreItemObjective:[accent]�ƶ������ģ�
+[][lightgray]106[]/200
+ [lightgray]��:null]
+180.0,12.732992,1,0,1.0,204,32,88,0,119,1,5,"{}"
+running objectives=[CoreItemObjective:[accent]�ƶ������ģ�
+[][lightgray]198[]/200
+ [lightgray]��:null]
+240.0,15.770947,1,0,1.0,210,78,14,0,163,1,10,"{}"
+running objectives=[UnitCountObjective:[accent]������λ��[][lightgray]1[]x
+ [lightgray]Χ��:null]
+300.0,19.52168,1,0,1.0,386,184,80,0,190,1,10,"{}"
+running objectives=[UnitCountObjective:[accent]������λ��[][lightgray]1[]x
+ [lightgray]Χ��:null]
+360.0,22.077028,1,0,1.0,564,230,146,0,190,2,12,"{}"
+running objectives=[BuildCountObjective:[accent]���죺[][lightgray]1[]x
+ [lightgray]˺��:null]
+420.0,25.855057,1,2,1.0,485,149,62,0,260,4,16,"{breachAmmo}"
+running objectives=[DestroyUnitsObjective:[accent]�ݻٵ�λ��[][lightgray]2[]x:null]
+480.0,26.994843,1,0,1.0,586,195,126,0,260,5,17,"{breachAmmo}"
+running objectives=[DestroyBlockObjective:[accent]�ݻ٣�
+[] [lightgray]�Ǳ�����:null]
+540.0,27.934261,1,0,1.0,678,239,192,0,260,6,17,"{breachAmmo}"
+running objectives=[DestroyBlockObjective:[accent]�ݻ٣�
+[] [lightgray]�Ǳ�����:null]
+600.0,28.857431,1,0,1.0,766,285,258,0,260,8,17,"{breachAmmo}"
+running objectives=[DestroyBlockObjective:[accent]�ݻ٣�
+[] [lightgray]�Ǳ�����:null]
+660.0,29.781729,1,0,1.0,858,329,323,0,260,9,17,"{breachAmmo}"
+running objectives=[DestroyBlockObjective:[accent]�ݻ٣�
+[] [lightgray]�Ǳ�����:null]
+720.0,30.704056,1,0,1.0,946,375,388,0,260,10,17,"{breachAmmo}"
+running objectives=[DestroyBlockObjective:[accent]�ݻ٣�
+[] [lightgray]�Ǳ�����:null]
+775.01666,31.751484,1,0,1.0,1030,415,448,0,260,11,18,"{breachAmmo}"
+running objectives=[BuildCountObjective:[accent]���죺[][lightgray]1[]x
+ [lightgray]�Ǳ�����:null]
+Exception in thread "main" java.lang.IllegalStateException: No duct route BuildPlan{x=286, y=177, rotation=3, block=plasma-bore, breaking=false, progress=0.0, initialized=false, config=null} -> BuildPlan{x=278, y=197, rotation=0, block=breach, breaking=false, progress=0.0, initialized=false, config=null}
+	at OnsetHeroic033Trial.route(OnsetHeroic033Trial.java:345)
+	at OnsetHeroic033Trial.bore(OnsetHeroic033Trial.java:392)
+	at OnsetHeroic033Trial.command(OnsetHeroic033Trial.java:187)
+	at OnsetHeroic033Trial.main(OnsetHeroic033Trial.java:112)

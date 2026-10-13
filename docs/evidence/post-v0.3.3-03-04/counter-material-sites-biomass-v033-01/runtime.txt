@@ -1,0 +1,14 @@
+watchVersion=0.3.3
+jar=local-work/mindustry-star-work/star033-runtime/Mindustry.jar
+jarModified=1791877212532
+assets=local-work/mindustry-star-work/star033-runtime/assets
+noTicks=true
+noCombat=true
+noScoreSeeding=true
+noSharedProfile=true
+loadGatesBypassedForInspection=true
+loadoutBaseline=no earned-branch rewards
+maps=1
+modeVariants=3
+finalStars=0
+gameOver=false

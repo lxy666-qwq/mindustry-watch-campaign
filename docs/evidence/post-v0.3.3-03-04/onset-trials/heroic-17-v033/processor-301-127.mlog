@@ -1,0 +1,5 @@
+fetch build turret @sharded 0 @breach
+sensor result turret @ammo
+jump 0 equal result 0
+setflag "breachAmmo" true
+stop

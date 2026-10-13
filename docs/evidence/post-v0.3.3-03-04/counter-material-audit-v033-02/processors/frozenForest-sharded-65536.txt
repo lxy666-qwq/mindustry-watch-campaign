@@ -1,0 +1,3 @@
+setrate 1
+getflag result "done"
+setrule waveTimer result 0 0 100 100

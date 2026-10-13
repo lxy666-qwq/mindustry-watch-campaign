@@ -1,0 +1,8 @@
+sensor type conveyor1 @payloadType
+jump 5 equal type @retusa
+control enabled factory1 1 0 0 0
+control enabled factory2 0 0 0 0
+end
+control enabled factory1 0 0 0 0
+control enabled factory2 1 0 0 0
+end

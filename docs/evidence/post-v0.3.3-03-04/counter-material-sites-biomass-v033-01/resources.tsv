@@ -1,0 +1,8 @@
+map	source	resource	rawTiles	clearAccessibleTiles	nearestCoreTiles
+biomassFacility	floor-ore	copper	193	189	8.944272
+biomassFacility	floor-ore	lead	219	201	28.442924
+biomassFacility	floor-ore	sand	104	104	62.681736
+biomassFacility	floor-ore	coal	94	93	39.849716
+biomassFacility	floor-ore	scrap	188	163	62.177166
+biomassFacility	liquid-floor	water	84	84	67.18631
+biomassFacility	floor-attribute	oil	104	-1	-1

@@ -1,0 +1,9 @@
+getflag escalation "naval"
+jump 0 notEqual escalation true
+fetch buildCount count @crux 0 @naval-factory
+op add i i 1
+op mod i i count
+fetch build build @crux i @naval-factory
+jump 2 equal build factory1
+control enabled build 1 0 0 0
+control enabled processor1 1 0 0 0

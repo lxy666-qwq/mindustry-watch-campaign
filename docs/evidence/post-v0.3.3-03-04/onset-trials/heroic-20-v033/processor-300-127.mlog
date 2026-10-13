@@ -1,0 +1,5 @@
+getflag defStart "defStart"
+jump 0 equal defStart false
+spawn @stell 290 147 90 @malis result
+spawn @stell 290 147 90 @malis result
+setflag "defStart" false

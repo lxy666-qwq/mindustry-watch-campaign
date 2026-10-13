@@ -1,0 +1,13 @@
+map	team	block	count	items	liquids	breakableByPlayer	baselineRefundItems	fillItems	infiniteResources
+biomassFacility	derelict	additive-reconstructor	1	{}	{}	1	{copper=100, lead=60, silicon=45}	false	false
+biomassFacility	derelict	air-factory	1	{}	{}	1	{copper=30, lead=35, silicon=30}	false	false
+biomassFacility	derelict	container	3	{}	{}	3	{titanium=150}	false	false
+biomassFacility	derelict	cultivator	4	{}	{}	4	{copper=52, lead=52, silicon=20}	false	false
+biomassFacility	derelict	distributor	1	{}	{}	1	{copper=2, lead=2}	false	false
+biomassFacility	derelict	door-large	3	{}	{}	3	{silicon=24, titanium=36}	false	false
+biomassFacility	derelict	junction	2	{}	{}	2	{copper=4}	false	false
+biomassFacility	derelict	router	1	{}	{}	1	{copper=2}	false	false
+biomassFacility	derelict	scrap-wall	17	{}	{}	17	{scrap=51}	false	false
+biomassFacility	derelict	scrap-wall-large	5	{}	{}	5	{scrap=60}	false	false
+biomassFacility	derelict	titanium-conveyor	21	{}	{}	21	{copper=21, lead=21, titanium=21}	false	false
+biomassFacility	sharded	core-shard	1	{copper=100}	{}	0	{}	false	false

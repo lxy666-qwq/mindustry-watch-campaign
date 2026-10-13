@@ -1,0 +1,2 @@
+end.msav SaveIO.write completed; fresh-process readback pending
+fresh process readback completed: 562 tags and 2075 world fields equal; NORMAL3/HEROIC1/TACTICAL1 unchanged by load. See fresh-readback/result.txt.

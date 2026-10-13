@@ -1,0 +1,27 @@
+mission=onset
+mode=HEROIC
+scope=native tick driver
+gateVerified=true
+finished=true
+winner=malis
+simSeconds=2348.2666
+built=277
+commands=406
+deposits=5
+pendingPlans=1
+next=BuildPlan{x=275, y=130, rotation=0, block=breach, breaking=false, progress=0.0, initialized=false, config=null}
+stars=0
+minimumCore=-0.003
+losses=62
+elapsed=2350.363
+normalBefore=3
+heroBefore=0
+tacticalBefore=1
+normalAfter=3
+tacticalAfter=1
+earned=0
+runtimeWatchVersion=0.3.3
+objectives=20/20
+flags={breachAmmo}
+status=挑战条件未达成；本次获得 0 / 1 星；本关累计 4 / 5
+classLocation=file:/local-work/mindustry-star-work/star033-runtime/Mindustry.jar

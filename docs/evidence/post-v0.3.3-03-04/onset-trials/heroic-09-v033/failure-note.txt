@@ -1,0 +1,1 @@
+未完成英雄挑战。900秒存档读回使 Groups.build 从772变773：新增项为同一敌队reinforced-conduit的锚点建筑，原生地图按world.tiles保存，后续审计改用实际保存的tile建筑集合。原始异常记录被驾驶器catch中对SaveIO清除的Player.unit访问引发NPE覆盖；完整原始CSV/存档/源保留，未授英雄星。

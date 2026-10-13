@@ -1,0 +1,4 @@
+NORMAL=3
+HEROIC=0
+TACTICAL=1
+source=local-work/onset-trials/normal-12/profile/settings.bin

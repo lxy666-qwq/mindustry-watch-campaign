@@ -1,0 +1,8 @@
+getflag escalation "air"
+jump 0 notEqual escalation true
+fetch buildCount count @crux 0 @air-factory
+op add i i 1
+op mod i i count
+fetch build build @crux i @air-factory
+jump 2 equal build factory1
+control enabled build 1 0 0 0

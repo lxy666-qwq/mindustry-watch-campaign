@@ -1,0 +1,27 @@
+limit=224,67,89,79
+vent 272,86
+wall 249,90 graphite
+wall 249,91 graphite
+wall 250,95 graphite
+wall 250,96 graphite
+wall 247,97 graphite
+wall 248,97 graphite
+wall 249,97 graphite
+wall 245,98 graphite
+wall 246,98 graphite
+wall 241,99 graphite
+wall 240,100 graphite
+wall 290,105 beryllium
+wall 290,106 beryllium
+wall 291,107 beryllium
+wall 292,108 beryllium
+wall 293,109 beryllium
+wall 294,110 beryllium
+wall 298,113 beryllium
+wall 298,114 beryllium
+wall 299,115 beryllium
+vent 289,116
+wall 299,116 beryllium
+wall 299,117 beryllium
+wall 300,118 beryllium
+vent 243,121

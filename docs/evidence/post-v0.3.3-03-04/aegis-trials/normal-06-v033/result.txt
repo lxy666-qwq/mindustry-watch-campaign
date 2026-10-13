@@ -1,0 +1,27 @@
+mission=aegis
+mode=NORMAL
+scope=native tick driver
+gateVerified=true
+finished=true
+winner=malis
+simSeconds=2045.0
+built=232
+commands=340
+deposits=86
+pendingPlans=1
+next=BuildPlan{x=184, y=128, rotation=0, block=tank-fabricator, breaking=false, progress=0.25058836, initialized=true, config=null}
+stars=0
+minimumCore=0.0
+losses=189
+elapsed=2048.281
+normalBefore=0
+heroBefore=0
+tacticalBefore=0
+normalAfter=0
+tacticalAfter=0
+earned=0
+runtimeWatchVersion=0.3.3
+objectives=1/1
+flags={beginBuild}
+status=挑战条件未达成；本次获得 0 / 3 星；本关累计 0 / 5
+classLocation=file:/local-work/mindustry-star-work/star033-runtime/Mindustry.jar

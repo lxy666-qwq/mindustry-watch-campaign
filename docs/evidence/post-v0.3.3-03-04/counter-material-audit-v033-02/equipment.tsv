@@ -1,0 +1,80 @@
+map	mode	rewardIndex	block	localizedName	cost	consumption	outputOrAmmo	initialMaterialShortfall
+frozenForest	NORMAL	0	scatter	分裂	{copper=85, lead=45}	[[water, cryofluid]/s=12.0 optional booster, [lead, metaglass, scrap] required]	[itemAmmo=scrap,lead,metaglass, heatRequired=-1.0 rangeTiles=27.5]	{lead=45}
+frozenForest	NORMAL	0	field-bandage	战地绷带塔	{graphite=50, silicon=40}	[power/s=42.0 buffer=0.0 required, [石墨: 2] required]	[]	{graphite=50, silicon=40}
+frozenForest	HEROIC	0	scatter	分裂	{copper=85, lead=45}	[[water, cryofluid]/s=12.0 optional booster, [lead, metaglass, scrap] required]	[itemAmmo=scrap,lead,metaglass, heatRequired=-1.0 rangeTiles=27.5]	{lead=45}
+frozenForest	HEROIC	0	field-bandage	战地绷带塔	{graphite=50, silicon=40}	[power/s=42.0 buffer=0.0 required, [石墨: 2] required]	[]	{graphite=50, silicon=40}
+frozenForest	TACTICAL	0	scatter	分裂	{copper=85, lead=45}	[[water, cryofluid]/s=12.0 optional booster, [lead, metaglass, scrap] required]	[itemAmmo=scrap,lead,metaglass, heatRequired=-1.0 rangeTiles=27.5]	{lead=45}
+frozenForest	TACTICAL	0	field-bandage	战地绷带塔	{graphite=50, silicon=40}	[power/s=42.0 buffer=0.0 required, [石墨: 2] required]	[]	{graphite=50, silicon=40}
+biomassFacility	NORMAL	1	arc	电弧	{copper=50, lead=50}	[power/s=198.0 buffer=0.0 required, [water, cryofluid]/s=6.0 optional booster]	[heatRequired=-1.0 rangeTiles=11.25]	{lead=50}
+biomassFacility	NORMAL	1	lancer	蓝瑟	{copper=60, lead=70, silicon=60, titanium=30}	[[water, cryofluid]/s=12.0 optional booster, power/s=360.0 buffer=0.0 required]	[heatRequired=-1.0 rangeTiles=20.625]	{lead=70, silicon=60, titanium=30}
+biomassFacility	HEROIC	1	arc	电弧	{copper=50, lead=50}	[power/s=198.0 buffer=0.0 required, [water, cryofluid]/s=6.0 optional booster]	[heatRequired=-1.0 rangeTiles=11.25]	{lead=50}
+biomassFacility	HEROIC	1	lancer	蓝瑟	{copper=60, lead=70, silicon=60, titanium=30}	[[water, cryofluid]/s=12.0 optional booster, power/s=360.0 buffer=0.0 required]	[heatRequired=-1.0 rangeTiles=20.625]	{lead=70, silicon=60, titanium=30}
+biomassFacility	TACTICAL	1	arc	电弧	{copper=50, lead=50}	[power/s=198.0 buffer=0.0 required, [water, cryofluid]/s=6.0 optional booster]	[heatRequired=-1.0 rangeTiles=11.25]	{lead=50}
+biomassFacility	TACTICAL	1	lancer	蓝瑟	{copper=60, lead=70, silicon=60, titanium=30}	[[water, cryofluid]/s=12.0 optional booster, power/s=360.0 buffer=0.0 required]	[heatRequired=-1.0 rangeTiles=20.625]	{lead=70, silicon=60, titanium=30}
+ruinousShores	NORMAL	1	arc	电弧	{copper=50, lead=50}	[power/s=198.0 buffer=0.0 required, [water, cryofluid]/s=6.0 optional booster]	[heatRequired=-1.0 rangeTiles=11.25]	{lead=50}
+ruinousShores	NORMAL	1	lancer	蓝瑟	{copper=60, lead=70, silicon=60, titanium=30}	[[water, cryofluid]/s=12.0 optional booster, power/s=360.0 buffer=0.0 required]	[heatRequired=-1.0 rangeTiles=20.625]	{lead=70, silicon=60, titanium=30}
+ruinousShores	HEROIC	1	arc	电弧	{copper=50, lead=50}	[power/s=198.0 buffer=0.0 required, [water, cryofluid]/s=6.0 optional booster]	[heatRequired=-1.0 rangeTiles=11.25]	{lead=50}
+ruinousShores	HEROIC	1	lancer	蓝瑟	{copper=60, lead=70, silicon=60, titanium=30}	[[water, cryofluid]/s=12.0 optional booster, power/s=360.0 buffer=0.0 required]	[heatRequired=-1.0 rangeTiles=20.625]	{lead=70, silicon=60, titanium=30}
+ruinousShores	TACTICAL	1	arc	电弧	{copper=50, lead=50}	[power/s=198.0 buffer=0.0 required, [water, cryofluid]/s=6.0 optional booster]	[heatRequired=-1.0 rangeTiles=11.25]	{lead=50}
+ruinousShores	TACTICAL	1	lancer	蓝瑟	{copper=60, lead=70, silicon=60, titanium=30}	[[water, cryofluid]/s=12.0 optional booster, power/s=360.0 buffer=0.0 required]	[heatRequired=-1.0 rangeTiles=20.625]	{lead=70, silicon=60, titanium=30}
+windsweptIslands	NORMAL	3	hail	冰雹	{copper=40, graphite=17}	[[water, cryofluid]/s=6.0 optional booster, [graphite, silicon, pyratite] required]	[itemAmmo=graphite,silicon,pyratite, heatRequired=-1.0 rangeTiles=29.375]	{graphite=17}
+windsweptIslands	NORMAL	3	ripple	浪涌	{copper=150, graphite=135, titanium=60}	[[water, cryofluid]/s=18.0 optional booster, [graphite, silicon, plastanium, blast-compound, pyratite] required]	[itemAmmo=graphite,silicon,pyratite,blast-compound,plastanium, heatRequired=-1.0 rangeTiles=36.25]	{copper=50, graphite=135, titanium=60}
+windsweptIslands	HEROIC	3	hail	冰雹	{copper=40, graphite=17}	[[water, cryofluid]/s=6.0 optional booster, [graphite, silicon, pyratite] required]	[itemAmmo=graphite,silicon,pyratite, heatRequired=-1.0 rangeTiles=29.375]	{graphite=17}
+windsweptIslands	HEROIC	3	ripple	浪涌	{copper=150, graphite=135, titanium=60}	[[water, cryofluid]/s=18.0 optional booster, [graphite, silicon, plastanium, blast-compound, pyratite] required]	[itemAmmo=graphite,silicon,pyratite,blast-compound,plastanium, heatRequired=-1.0 rangeTiles=36.25]	{copper=50, graphite=135, titanium=60}
+windsweptIslands	TACTICAL	3	hail	冰雹	{copper=40, graphite=17}	[[water, cryofluid]/s=6.0 optional booster, [graphite, silicon, pyratite] required]	[itemAmmo=graphite,silicon,pyratite, heatRequired=-1.0 rangeTiles=29.375]	{graphite=17}
+windsweptIslands	TACTICAL	3	ripple	浪涌	{copper=150, graphite=135, titanium=60}	[[water, cryofluid]/s=18.0 optional booster, [graphite, silicon, plastanium, blast-compound, pyratite] required]	[itemAmmo=graphite,silicon,pyratite,blast-compound,plastanium, heatRequired=-1.0 rangeTiles=36.25]	{copper=50, graphite=135, titanium=60}
+stainedMountains	NORMAL	2	wave	波浪	{copper=25, lead=75, metaglass=45}	[[water, slag, oil, cryofluid]/s=60.0 required]	[liquidAmmo=oil,cryofluid,water,slag, heatRequired=-1.0 rangeTiles=13.75]	{lead=75, metaglass=45}
+stainedMountains	NORMAL	2	mechanical-pump	机械泵	{copper=15, metaglass=10}	[]	[]	{metaglass=10}
+stainedMountains	NORMAL	2	conduit	导管	{metaglass=1}	[]	[]	{metaglass=1}
+stainedMountains	HEROIC	2	wave	波浪	{copper=25, lead=75, metaglass=45}	[[water, slag, oil, cryofluid]/s=60.0 required]	[liquidAmmo=oil,cryofluid,water,slag, heatRequired=-1.0 rangeTiles=13.75]	{lead=75, metaglass=45}
+stainedMountains	HEROIC	2	mechanical-pump	机械泵	{copper=15, metaglass=10}	[]	[]	{metaglass=10}
+stainedMountains	HEROIC	2	conduit	导管	{metaglass=1}	[]	[]	{metaglass=1}
+stainedMountains	TACTICAL	2	wave	波浪	{copper=25, lead=75, metaglass=45}	[[water, slag, oil, cryofluid]/s=60.0 required]	[liquidAmmo=oil,cryofluid,water,slag, heatRequired=-1.0 rangeTiles=13.75]	{lead=75, metaglass=45}
+stainedMountains	TACTICAL	2	mechanical-pump	机械泵	{copper=15, metaglass=10}	[]	[]	{metaglass=10}
+stainedMountains	TACTICAL	2	conduit	导管	{metaglass=1}	[]	[]	{metaglass=1}
+navalFortress	NORMAL	5	tsunami	海啸	{lead=400, metaglass=100, thorium=100, titanium=250}	[[water, slag, oil, cryofluid]/s=60.0 required]	[liquidAmmo=oil,cryofluid,water,slag, heatRequired=-1.0 rangeTiles=23.75]	{thorium=100, titanium=250}
+navalFortress	NORMAL	5	air-factory	空军工厂	{copper=60, lead=70, silicon=60}	[ConsumeItemDynamic required, power/s=72.0 buffer=0.0 required]	[]	{}
+navalFortress	HEROIC	5	tsunami	海啸	{lead=400, metaglass=100, thorium=100, titanium=250}	[[water, slag, oil, cryofluid]/s=60.0 required]	[liquidAmmo=oil,cryofluid,water,slag, heatRequired=-1.0 rangeTiles=23.75]	{thorium=100, titanium=250}
+navalFortress	HEROIC	5	air-factory	空军工厂	{copper=60, lead=70, silicon=60}	[ConsumeItemDynamic required, power/s=72.0 buffer=0.0 required]	[]	{}
+navalFortress	TACTICAL	5	tsunami	海啸	{lead=400, metaglass=100, thorium=100, titanium=250}	[[water, slag, oil, cryofluid]/s=60.0 required]	[liquidAmmo=oil,cryofluid,water,slag, heatRequired=-1.0 rangeTiles=23.75]	{thorium=100, titanium=250}
+navalFortress	TACTICAL	5	air-factory	空军工厂	{copper=60, lead=70, silicon=60}	[ConsumeItemDynamic required, power/s=72.0 buffer=0.0 required]	[]	{}
+impact0078	NORMAL	4	swarmer	蜂群	{graphite=35, plastanium=45, silicon=30, titanium=35}	[[water, cryofluid]/s=18.0 optional booster, [surge-alloy, blast-compound, pyratite] required]	[itemAmmo=blast-compound,pyratite,surge-alloy, heatRequired=-1.0 rangeTiles=30.0]	{graphite=35, plastanium=45, silicon=30, titanium=35}
+impact0078	NORMAL	4	segment	裂解	{phase-fabric=40, silicon=130, thorium=80, titanium=40}	[power/s=480.0 buffer=0.0 required]	[]	{phase-fabric=40, silicon=130, thorium=80, titanium=40}
+impact0078	HEROIC	4	swarmer	蜂群	{graphite=35, plastanium=45, silicon=30, titanium=35}	[[water, cryofluid]/s=18.0 optional booster, [surge-alloy, blast-compound, pyratite] required]	[itemAmmo=blast-compound,pyratite,surge-alloy, heatRequired=-1.0 rangeTiles=30.0]	{graphite=35, plastanium=45, silicon=30, titanium=35}
+impact0078	HEROIC	4	segment	裂解	{phase-fabric=40, silicon=130, thorium=80, titanium=40}	[power/s=480.0 buffer=0.0 required]	[]	{phase-fabric=40, silicon=130, thorium=80, titanium=40}
+impact0078	TACTICAL	4	swarmer	蜂群	{graphite=35, plastanium=45, silicon=30, titanium=35}	[[water, cryofluid]/s=18.0 optional booster, [surge-alloy, blast-compound, pyratite] required]	[itemAmmo=blast-compound,pyratite,surge-alloy, heatRequired=-1.0 rangeTiles=30.0]	{graphite=35, plastanium=45, silicon=30, titanium=35}
+impact0078	TACTICAL	4	segment	裂解	{phase-fabric=40, silicon=130, thorium=80, titanium=40}	[power/s=480.0 buffer=0.0 required]	[]	{phase-fabric=40, silicon=130, thorium=80, titanium=40}
+planetaryTerminal	HEROIC	9	repair-point	维修点	{copper=30, lead=30, silicon=20}	[power/s=60.0 buffer=0.0 required]	[]	{}
+planetaryTerminal	TACTICAL	9	repair-point	维修点	{copper=30, lead=30, silicon=20}	[power/s=60.0 buffer=0.0 required]	[]	{}
+peaks	NORMAL	6	sublimate	升华	{beryllium=400, oxide=40, silicon=200, tungsten=150}	[[ozone, cyanogen]/s=18.0 required]	[heatRequired=-1.0 rangeTiles=16.25]	{beryllium=300, oxide=40, silicon=100}
+peaks	NORMAL	6	reinforced-pump	强化泵	{beryllium=40, silicon=20, tungsten=30}	[hydrogen/s=1.5 required]	[]	{}
+peaks	HEROIC	6	sublimate	升华	{beryllium=400, oxide=40, silicon=200, tungsten=150}	[[ozone, cyanogen]/s=18.0 required]	[heatRequired=-1.0 rangeTiles=16.25]	{beryllium=300, oxide=40, silicon=100}
+peaks	HEROIC	6	reinforced-pump	强化泵	{beryllium=40, silicon=20, tungsten=30}	[hydrogen/s=1.5 required]	[]	{}
+peaks	TACTICAL	6	sublimate	升华	{beryllium=400, oxide=40, silicon=200, tungsten=150}	[[ozone, cyanogen]/s=18.0 required]	[heatRequired=-1.0 rangeTiles=16.25]	{beryllium=300, oxide=40, silicon=100}
+peaks	TACTICAL	6	reinforced-pump	强化泵	{beryllium=40, silicon=20, tungsten=30}	[hydrogen/s=1.5 required]	[]	{}
+ravine	NORMAL	6	sublimate	升华	{beryllium=400, oxide=40, silicon=200, tungsten=150}	[[ozone, cyanogen]/s=18.0 required]	[heatRequired=-1.0 rangeTiles=16.25]	{oxide=40, tungsten=150}
+ravine	NORMAL	6	reinforced-pump	强化泵	{beryllium=40, silicon=20, tungsten=30}	[hydrogen/s=1.5 required]	[]	{tungsten=30}
+ravine	HEROIC	6	sublimate	升华	{beryllium=400, oxide=40, silicon=200, tungsten=150}	[[ozone, cyanogen]/s=18.0 required]	[heatRequired=-1.0 rangeTiles=16.25]	{oxide=40, tungsten=150}
+ravine	HEROIC	6	reinforced-pump	强化泵	{beryllium=40, silicon=20, tungsten=30}	[hydrogen/s=1.5 required]	[]	{tungsten=30}
+ravine	TACTICAL	6	sublimate	升华	{beryllium=400, oxide=40, silicon=200, tungsten=150}	[[ozone, cyanogen]/s=18.0 required]	[heatRequired=-1.0 rangeTiles=16.25]	{oxide=40, tungsten=150}
+ravine	TACTICAL	6	reinforced-pump	强化泵	{beryllium=40, silicon=20, tungsten=30}	[hydrogen/s=1.5 required]	[]	{tungsten=30}
+stronghold	NORMAL	7	afflict	劫难	{graphite=250, oxide=40, silicon=200, surge-alloy=100}	[power/s=300.0 buffer=0.0 required]	[heatRequired=20.0 rangeTiles=46.0]	{surge-alloy=100}
+stronghold	NORMAL	7	heat-router	热量路由器	{graphite=10, tungsten=15}	[]	[]	{}
+stronghold	HEROIC	7	afflict	劫难	{graphite=250, oxide=40, silicon=200, surge-alloy=100}	[power/s=300.0 buffer=0.0 required]	[heatRequired=20.0 rangeTiles=46.0]	{surge-alloy=100}
+stronghold	HEROIC	7	heat-router	热量路由器	{graphite=10, tungsten=15}	[]	[]	{}
+stronghold	TACTICAL	7	afflict	劫难	{graphite=250, oxide=40, silicon=200, surge-alloy=100}	[power/s=300.0 buffer=0.0 required]	[heatRequired=20.0 rangeTiles=46.0]	{surge-alloy=100}
+stronghold	TACTICAL	7	heat-router	热量路由器	{graphite=10, tungsten=15}	[]	[]	{}
+crevice	NORMAL	8	lustre	光辉	{carbide=90, graphite=200, oxide=50, silicon=250}	[nitrogen/s=6.0 required, power/s=200.0 buffer=0.0 required]	[heatRequired=-1.0 rangeTiles=31.25]	{carbide=90}
+crevice	NORMAL	8	regen-projector	再生投影器	{beryllium=80, oxide=40, silicon=80, tungsten=60}	[power/s=60.0 buffer=0.0 required, hydrogen/s=1.0 required, [相织布: 1] optional booster]	[]	{}
+crevice	HEROIC	8	lustre	光辉	{carbide=90, graphite=200, oxide=50, silicon=250}	[nitrogen/s=6.0 required, power/s=200.0 buffer=0.0 required]	[heatRequired=-1.0 rangeTiles=31.25]	{carbide=90}
+crevice	HEROIC	8	regen-projector	再生投影器	{beryllium=80, oxide=40, silicon=80, tungsten=60}	[power/s=60.0 buffer=0.0 required, hydrogen/s=1.0 required, [相织布: 1] optional booster]	[]	{}
+crevice	TACTICAL	8	lustre	光辉	{carbide=90, graphite=200, oxide=50, silicon=250}	[nitrogen/s=6.0 required, power/s=200.0 buffer=0.0 required]	[heatRequired=-1.0 rangeTiles=31.25]	{carbide=90}
+crevice	TACTICAL	8	regen-projector	再生投影器	{beryllium=80, oxide=40, silicon=80, tungsten=60}	[power/s=60.0 buffer=0.0 required, hydrogen/s=1.0 required, [相织布: 1] optional booster]	[]	{}
+origin	HEROIC	9	unit-repair-tower	单位维修塔	{graphite=90, silicon=90, tungsten=80}	[power/s=60.0 buffer=0.0 required, ozone/s=3.0 required]	[]	{}
+origin	TACTICAL	9	unit-repair-tower	单位维修塔	{graphite=90, silicon=90, tungsten=80}	[power/s=60.0 buffer=0.0 required, ozone/s=3.0 required]	[]	{}
+watch-6	NORMAL	4	swarmer	蜂群	{graphite=35, plastanium=45, silicon=30, titanium=35}	[[water, cryofluid]/s=18.0 optional booster, [surge-alloy, blast-compound, pyratite] required]	[itemAmmo=blast-compound,pyratite,surge-alloy, heatRequired=-1.0 rangeTiles=30.0]	{}
+watch-6	NORMAL	4	segment	裂解	{phase-fabric=40, silicon=130, thorium=80, titanium=40}	[power/s=480.0 buffer=0.0 required]	[]	{phase-fabric=40, thorium=80}
+watch-6	HEROIC	4	swarmer	蜂群	{graphite=35, plastanium=45, silicon=30, titanium=35}	[[water, cryofluid]/s=18.0 optional booster, [surge-alloy, blast-compound, pyratite] required]	[itemAmmo=blast-compound,pyratite,surge-alloy, heatRequired=-1.0 rangeTiles=30.0]	{}
+watch-6	HEROIC	4	segment	裂解	{phase-fabric=40, silicon=130, thorium=80, titanium=40}	[power/s=480.0 buffer=0.0 required]	[]	{phase-fabric=40, thorium=80}
+watch-6	TACTICAL	4	swarmer	蜂群	{graphite=35, plastanium=45, silicon=30, titanium=35}	[[water, cryofluid]/s=18.0 optional booster, [surge-alloy, blast-compound, pyratite] required]	[itemAmmo=blast-compound,pyratite,surge-alloy, heatRequired=-1.0 rangeTiles=30.0]	{}
+watch-6	TACTICAL	4	segment	裂解	{phase-fabric=40, silicon=130, thorium=80, titanium=40}	[power/s=480.0 buffer=0.0 required]	[]	{phase-fabric=40, thorium=80}

@@ -1,0 +1,7 @@
+map	mode	rewardIndex	block	localizedName	cost	consumption	outputOrAmmo	initialMaterialShortfall
+biomassFacility	NORMAL	1	arc	电弧	{copper=50, lead=50}	[power/s=198.0 buffer=0.0 required, [water, cryofluid]/s=6.0 optional booster]	[heatRequired=-1.0 rangeTiles=11.25]	{lead=50}
+biomassFacility	NORMAL	1	lancer	蓝瑟	{copper=60, lead=70, silicon=60, titanium=30}	[[water, cryofluid]/s=12.0 optional booster, power/s=360.0 buffer=0.0 required]	[heatRequired=-1.0 rangeTiles=20.625]	{lead=70, silicon=60, titanium=30}
+biomassFacility	HEROIC	1	arc	电弧	{copper=50, lead=50}	[power/s=198.0 buffer=0.0 required, [water, cryofluid]/s=6.0 optional booster]	[heatRequired=-1.0 rangeTiles=11.25]	{lead=50}
+biomassFacility	HEROIC	1	lancer	蓝瑟	{copper=60, lead=70, silicon=60, titanium=30}	[[water, cryofluid]/s=12.0 optional booster, power/s=360.0 buffer=0.0 required]	[heatRequired=-1.0 rangeTiles=20.625]	{lead=70, silicon=60, titanium=30}
+biomassFacility	TACTICAL	1	arc	电弧	{copper=50, lead=50}	[power/s=198.0 buffer=0.0 required, [water, cryofluid]/s=6.0 optional booster]	[heatRequired=-1.0 rangeTiles=11.25]	{lead=50}
+biomassFacility	TACTICAL	1	lancer	蓝瑟	{copper=60, lead=70, silicon=60, titanium=30}	[[water, cryofluid]/s=12.0 optional booster, power/s=360.0 buffer=0.0 required]	[heatRequired=-1.0 rangeTiles=20.625]	{lead=70, silicon=60, titanium=30}

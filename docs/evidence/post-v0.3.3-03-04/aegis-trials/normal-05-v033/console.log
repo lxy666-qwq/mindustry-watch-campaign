@@ -1,0 +1,13 @@
+0.0,1.5516862,1,0,1.0,300,300,0,0,0,0,0,"{}"
+running objectives=[CoreItemObjective:[accent]�ƶ������ģ�
+[][lightgray]0[]/100
+ [lightgray]��:null]
+0.0,1.8371683,1,0,1.0,300,300,0,0,0,0,0,"{}"
+running objectives=[CoreItemObjective:[accent]�ƶ������ģ�
+[][lightgray]0[]/100
+ [lightgray]��:null]
+Exception in thread "main" java.lang.IllegalStateException: Expected planned plain feed at 180,123
+	at Aegis033Trial.splitPlanned(Aegis033Trial.java:397)
+	at Aegis033Trial.plan(Aegis033Trial.java:450)
+	at Aegis033Trial.command(Aegis033Trial.java:160)
+	at Aegis033Trial.main(Aegis033Trial.java:115)

@@ -1,0 +1,11 @@
+0.0,1.7670921,1,0,1.0,0,0,0,0,0,0,0,"{}"
+running objectives=[ItemObjective:[accent]��ã�[][lightgray]0[]/60
+ [lightgray]��:null]
+0.0,2.2355635,1,0,1.0,0,0,0,0,0,0,0,"{}"
+running objectives=[ItemObjective:[accent]��ã�[][lightgray]0[]/60
+ [lightgray]��:null]
+Exception in thread "main" java.lang.IllegalStateException: No duct route BuildPlan{x=269, y=120, rotation=1, block=cliff-crusher, breaking=false, progress=0.0, initialized=false, config=null} -> BuildPlan{x=267, y=118, rotation=3, block=duct, breaking=false, progress=0.0, initialized=false, config=null}
+	at OnsetHeroic033Trial.route(OnsetHeroic033Trial.java:348)
+	at OnsetHeroic033Trial.plan(OnsetHeroic033Trial.java:428)
+	at OnsetHeroic033Trial.command(OnsetHeroic033Trial.java:158)
+	at OnsetHeroic033Trial.main(OnsetHeroic033Trial.java:113)

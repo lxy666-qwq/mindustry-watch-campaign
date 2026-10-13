@@ -1,0 +1,41 @@
+audited=frozenForest mode=NORMAL reward=0 core={copper=200}
+audited=frozenForest mode=HEROIC reward=0 core={copper=200}
+audited=frozenForest mode=TACTICAL reward=0 core={copper=200}
+audited=biomassFacility mode=NORMAL reward=1 core={copper=100}
+audited=biomassFacility mode=HEROIC reward=1 core={copper=100}
+audited=biomassFacility mode=TACTICAL reward=1 core={copper=100}
+audited=ruinousShores mode=NORMAL reward=1 core={copper=100}
+audited=ruinousShores mode=HEROIC reward=1 core={copper=100}
+audited=ruinousShores mode=TACTICAL reward=1 core={copper=100}
+audited=windsweptIslands mode=NORMAL reward=3 core={copper=100}
+audited=windsweptIslands mode=HEROIC reward=3 core={copper=100}
+audited=windsweptIslands mode=TACTICAL reward=3 core={copper=100}
+audited=stainedMountains mode=NORMAL reward=2 core={copper=100}
+audited=stainedMountains mode=HEROIC reward=2 core={copper=100}
+audited=stainedMountains mode=TACTICAL reward=2 core={copper=100}
+audited=navalFortress mode=NORMAL reward=5 core={copper=800, graphite=200, lead=500, metaglass=150, silicon=150}
+audited=navalFortress mode=HEROIC reward=5 core={copper=800, graphite=200, lead=500, metaglass=150, silicon=150}
+audited=navalFortress mode=TACTICAL reward=5 core={copper=800, graphite=200, lead=500, metaglass=150, silicon=150}
+audited=impact0078 mode=NORMAL reward=4 core={copper=200}
+audited=impact0078 mode=HEROIC reward=4 core={copper=200}
+audited=impact0078 mode=TACTICAL reward=4 core={copper=200}
+audited=planetaryTerminal mode=HEROIC reward=9 core={copper=6500, graphite=6500, lead=6500, metaglass=6500, phase-fabric=2000, plastanium=3000, silicon=4500, surge-alloy=2000, thorium=3000, titanium=4000}
+audited=planetaryTerminal mode=TACTICAL reward=9 core={copper=6500, graphite=6500, lead=6500, metaglass=6500, phase-fabric=2000, plastanium=3000, silicon=4500, surge-alloy=2000, thorium=3000, titanium=4000}
+audited=peaks mode=NORMAL reward=6 core={beryllium=100, graphite=100, silicon=100, tungsten=650}
+audited=peaks mode=HEROIC reward=6 core={beryllium=100, graphite=100, silicon=100, tungsten=650}
+audited=peaks mode=TACTICAL reward=6 core={beryllium=100, graphite=100, silicon=100, tungsten=650}
+audited=ravine mode=NORMAL reward=6 core={beryllium=1000, graphite=1000, silicon=600}
+audited=ravine mode=HEROIC reward=6 core={beryllium=1000, graphite=1000, silicon=600}
+audited=ravine mode=TACTICAL reward=6 core={beryllium=1000, graphite=1000, silicon=600}
+audited=stronghold mode=NORMAL reward=7 core={beryllium=1000, graphite=700, oxide=200, silicon=500, tungsten=500}
+audited=stronghold mode=HEROIC reward=7 core={beryllium=1000, graphite=700, oxide=200, silicon=500, tungsten=500}
+audited=stronghold mode=TACTICAL reward=7 core={beryllium=1000, graphite=700, oxide=200, silicon=500, tungsten=500}
+audited=crevice mode=NORMAL reward=8 core={beryllium=500, graphite=500, oxide=200, silicon=800, thorium=100, tungsten=300}
+audited=crevice mode=HEROIC reward=8 core={beryllium=500, graphite=500, oxide=200, silicon=800, thorium=100, tungsten=300}
+audited=crevice mode=TACTICAL reward=8 core={beryllium=500, graphite=500, oxide=200, silicon=800, thorium=100, tungsten=300}
+audited=origin mode=HEROIC reward=9 core={beryllium=4000, carbide=1000, graphite=4000, oxide=2000, silicon=3000, surge-alloy=1000, thorium=2000, tungsten=2000}
+audited=origin mode=TACTICAL reward=9 core={beryllium=4000, carbide=1000, graphite=4000, oxide=2000, silicon=3000, surge-alloy=1000, thorium=2000, tungsten=2000}
+audited=watch-6 mode=NORMAL reward=4 core={coal=200, copper=1000, graphite=200, lead=700, metaglass=150, plastanium=250, silicon=300, titanium=350}
+audited=watch-6 mode=HEROIC reward=4 core={coal=200, copper=1000, graphite=200, lead=700, metaglass=150, plastanium=250, silicon=300, titanium=350}
+audited=watch-6 mode=TACTICAL reward=4 core={coal=200, copper=1000, graphite=200, lead=700, metaglass=150, plastanium=250, silicon=300, titanium=350}
+Audit completed maps=14 modes=40 stars=0; no ticks/combat/builds

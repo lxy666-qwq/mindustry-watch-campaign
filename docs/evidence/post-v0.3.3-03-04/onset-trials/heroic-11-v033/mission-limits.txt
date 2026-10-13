@@ -1,0 +1,3 @@
+limits=MissionLimits[deadline=1860.0, buildBudget=593, lossBudget=16]
+rulesDeadline=1860.0
+rulesLossBudget=16

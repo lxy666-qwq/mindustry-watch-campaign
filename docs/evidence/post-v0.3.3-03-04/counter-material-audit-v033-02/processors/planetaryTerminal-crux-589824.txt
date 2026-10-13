@@ -1,0 +1,20 @@
+ubind @oct
+sensor dead @unit @dead
+jump 0 equal dead true
+setprop @payloadType @unit @arkyid
+setprop @payloadType @unit @arkyid
+setprop @payloadType @unit @toxopid
+ulocate building generator true @copper outx outy found build
+jump 11 equal found true
+ulocate building core true @copper outx outy found build
+ucontrol move outx outy 25 0 0
+sensor health @unit @health
+jump 16 lessThan health 12000
+ucontrol within outx outy 25 within 0
+jump 8 notEqual within true
+ucontrol payDrop outx outy 50 0 0
+sensor paycount @unit @payloadCount
+jump 16 notEqual paycount 0
+ucontrol idle outx outy 50 0 0
+ucontrol unbind outx outy 50 0 0
+stop

@@ -1,0 +1,27 @@
+mission=aegis
+mode=NORMAL
+scope=driver failed: No duct route BuildPlan{x=193, y=111, rotation=2, block=duct-router, breaking=false, progress=0.0, initialized=false, config=null} -> BuildPlan{x=185, y=135, rotation=0, block=tank-fabricator, breaking=false, progress=0.0, initialized=false, config=null}
+gateVerified=true
+finished=false
+winner=null
+simSeconds=0.0
+built=0
+commands=0
+deposits=0
+pendingPlans=166
+next=BuildPlan{x=146, y=114, rotation=0, block=beam-node, breaking=false, progress=0.0, initialized=false, config=null}
+stars=0
+minimumCore=1.0
+losses=0
+elapsed=0.0
+normalBefore=0
+heroBefore=0
+tacticalBefore=0
+normalAfter=0
+tacticalAfter=0
+earned=0
+runtimeWatchVersion=0.3.3
+objectives=0/1
+flags={}
+status=核心最低生命 100% · 核心损失 0
+classLocation=file:/local-work/mindustry-star-work/star033-runtime/Mindustry.jar

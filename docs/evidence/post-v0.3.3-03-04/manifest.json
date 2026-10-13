@@ -1,0 +1,3587 @@
+{
+  "fullScoreModes": 31,
+  "totalModes": 168,
+  "publishedSnapshotModes": 26,
+  "files": [
+    {
+      "path": "SupplementLedger03.md",
+      "rawBytes": 33293,
+      "publicBytes": 33304
+    },
+    {
+      "path": "COUNTER_MATERIAL_AUDIT_v033.md",
+      "rawBytes": 19194,
+      "publicBytes": 19300
+    },
+    {
+      "path": "TIDE_V033_RESULTS.md",
+      "rawBytes": 9565,
+      "publicBytes": 9614
+    },
+    {
+      "path": "CounterMaterialAudit.java",
+      "rawBytes": 15544,
+      "publicBytes": 15746
+    },
+    {
+      "path": "aegis-trials/Aegis-v033-index.md",
+      "rawBytes": 1118,
+      "publicBytes": 1108
+    },
+    {
+      "path": "qa033-tide/TACTICAL-4/core-damage.csv",
+      "rawBytes": 357,
+      "publicBytes": 365
+    },
+    {
+      "path": "qa033-tide/TACTICAL-4/counter-result.txt",
+      "rawBytes": 24533,
+      "publicBytes": 24557
+    },
+    {
+      "path": "qa033-tide/TACTICAL-4/destroyed.csv",
+      "rawBytes": 2022,
+      "publicBytes": 2101
+    },
+    {
+      "path": "qa033-tide/TACTICAL-4/driver-source.java",
+      "rawBytes": 47560,
+      "publicBytes": 47550
+    },
+    {
+      "path": "qa033-tide/TACTICAL-4/end.msav",
+      "rawBytes": 16590,
+      "publicBytes": 16590
+    },
+    {
+      "path": "qa033-tide/TACTICAL-4/native-plan-costs.txt",
+      "rawBytes": 135,
+      "publicBytes": 145
+    },
+    {
+      "path": "qa033-tide/TACTICAL-4/result.txt",
+      "rawBytes": 1182,
+      "publicBytes": 1203
+    },
+    {
+      "path": "qa033-tide/TACTICAL-4/save-readback.txt",
+      "rawBytes": 962,
+      "publicBytes": 957
+    },
+    {
+      "path": "qa033-tide/TACTICAL-4/segment-observations.csv",
+      "rawBytes": 62624,
+      "publicBytes": 63882
+    },
+    {
+      "path": "qa033-tide/TACTICAL-4/tide-source.java",
+      "rawBytes": 16964,
+      "publicBytes": 17261
+    },
+    {
+      "path": "qa033-tide/TACTICAL-4/trial.csv",
+      "rawBytes": 2864,
+      "publicBytes": 2897
+    },
+    {
+      "path": "onset-hero-desktop/desktop.log",
+      "rawBytes": 1025,
+      "publicBytes": 1025
+    },
+    {
+      "path": "onset-hero-desktop/images/00-menu-v0.3.3.png",
+      "rawBytes": 359424,
+      "publicBytes": 359424
+    },
+    {
+      "path": "onset-hero-desktop/images/01-actual-onset-five-stars-no-branch-reward.png",
+      "rawBytes": 217926,
+      "publicBytes": 217926
+    },
+    {
+      "path": "onset-hero-desktop/images/02-actual-onset-heroic-world.png",
+      "rawBytes": 168440,
+      "publicBytes": 168440
+    },
+    {
+      "path": "onset-hero-desktop/images/03-actual-onset-save-slot-restored.png",
+      "rawBytes": 177081,
+      "publicBytes": 177081
+    },
+    {
+      "path": "onset-hero-desktop/StarHeroCapture033.java",
+      "rawBytes": 5926,
+      "publicBytes": 5926
+    },
+    {
+      "path": "counter-material-audit-v033-02/all-team-buildings.tsv",
+      "rawBytes": 43925,
+      "publicBytes": 44508
+    },
+    {
+      "path": "counter-material-audit-v033-02/catalog.tsv",
+      "rawBytes": 29955,
+      "publicBytes": 30202
+    },
+    {
+      "path": "counter-material-audit-v033-02/driver-source.java",
+      "rawBytes": 13698,
+      "publicBytes": 13881
+    },
+    {
+      "path": "counter-material-audit-v033-02/equipment.tsv",
+      "rawBytes": 15012,
+      "publicBytes": 15092
+    },
+    {
+      "path": "counter-material-audit-v033-02/map-modes.tsv",
+      "rawBytes": 14325,
+      "publicBytes": 14366
+    },
+    {
+      "path": "counter-material-audit-v033-02/player-buildings.tsv",
+      "rawBytes": 4742,
+      "publicBytes": 4865
+    },
+    {
+      "path": "counter-material-audit-v033-02/processors/frozenForest-sharded-0.txt",
+      "rawBytes": 211,
+      "publicBytes": 219
+    },
+    {
+      "path": "counter-material-audit-v033-02/processors/frozenForest-sharded-65536.txt",
+      "rawBytes": 69,
+      "publicBytes": 72
+    },
+    {
+      "path": "counter-material-audit-v033-02/processors/origin-sharded-10682797.txt",
+      "rawBytes": 201,
+      "publicBytes": 207
+    },
+    {
+      "path": "counter-material-audit-v033-02/processors/origin-sharded-10682798.txt",
+      "rawBytes": 94,
+      "publicBytes": 97
+    },
+    {
+      "path": "counter-material-audit-v033-02/processors/origin-sharded-10682799.txt",
+      "rawBytes": 94,
+      "publicBytes": 97
+    },
+    {
+      "path": "counter-material-audit-v033-02/processors/origin-sharded-10682800.txt",
+      "rawBytes": 145,
+      "publicBytes": 151
+    },
+    {
+      "path": "counter-material-audit-v033-02/processors/origin-sharded-10682801.txt",
+      "rawBytes": 124,
+      "publicBytes": 128
+    },
+    {
+      "path": "counter-material-audit-v033-02/processors/origin-sharded-10682802.txt",
+      "rawBytes": 88,
+      "publicBytes": 91
+    },
+    {
+      "path": "counter-material-audit-v033-02/processors/origin-sharded-10682803.txt",
+      "rawBytes": 262,
+      "publicBytes": 272
+    },
+    {
+      "path": "counter-material-audit-v033-02/processors/origin-sharded-10682804.txt",
+      "rawBytes": 0,
+      "publicBytes": 2
+    },
+    {
+      "path": "counter-material-audit-v033-02/processors/peaks-sharded-9437258.txt",
+      "rawBytes": 84,
+      "publicBytes": 87
+    },
+    {
+      "path": "counter-material-audit-v033-02/processors/peaks-sharded-9896182.txt",
+      "rawBytes": 110,
+      "publicBytes": 113
+    },
+    {
+      "path": "counter-material-audit-v033-02/processors/peaks-sharded-9961718.txt",
+      "rawBytes": 0,
+      "publicBytes": 2
+    },
+    {
+      "path": "counter-material-audit-v033-02/processors/planetaryTerminal-crux-0.txt",
+      "rawBytes": 209,
+      "publicBytes": 216
+    },
+    {
+      "path": "counter-material-audit-v033-02/processors/planetaryTerminal-crux-11534750.txt",
+      "rawBytes": 201,
+      "publicBytes": 209
+    },
+    {
+      "path": "counter-material-audit-v033-02/processors/planetaryTerminal-crux-12976400.txt",
+      "rawBytes": 130,
+      "publicBytes": 136
+    },
+    {
+      "path": "counter-material-audit-v033-02/processors/planetaryTerminal-crux-131072.txt",
+      "rawBytes": 269,
+      "publicBytes": 278
+    },
+    {
+      "path": "counter-material-audit-v033-02/processors/planetaryTerminal-crux-14024976.txt",
+      "rawBytes": 130,
+      "publicBytes": 136
+    },
+    {
+      "path": "counter-material-audit-v033-02/processors/planetaryTerminal-crux-17826127.txt",
+      "rawBytes": 128,
+      "publicBytes": 134
+    },
+    {
+      "path": "counter-material-audit-v033-02/processors/planetaryTerminal-crux-17826151.txt",
+      "rawBytes": 132,
+      "publicBytes": 138
+    },
+    {
+      "path": "counter-material-audit-v033-02/processors/planetaryTerminal-crux-17826175.txt",
+      "rawBytes": 132,
+      "publicBytes": 138
+    },
+    {
+      "path": "counter-material-audit-v033-02/processors/planetaryTerminal-crux-196608.txt",
+      "rawBytes": 40,
+      "publicBytes": 42
+    },
+    {
+      "path": "counter-material-audit-v033-02/processors/planetaryTerminal-crux-262144.txt",
+      "rawBytes": 266,
+      "publicBytes": 274
+    },
+    {
+      "path": "counter-material-audit-v033-02/processors/planetaryTerminal-crux-327680.txt",
+      "rawBytes": 312,
+      "publicBytes": 321
+    },
+    {
+      "path": "counter-material-audit-v033-02/processors/planetaryTerminal-crux-393216.txt",
+      "rawBytes": 204,
+      "publicBytes": 210
+    },
+    {
+      "path": "counter-material-audit-v033-02/processors/planetaryTerminal-crux-458752.txt",
+      "rawBytes": 189,
+      "publicBytes": 195
+    },
+    {
+      "path": "counter-material-audit-v033-02/processors/planetaryTerminal-crux-5439684.txt",
+      "rawBytes": 133,
+      "publicBytes": 139
+    },
+    {
+      "path": "counter-material-audit-v033-02/processors/planetaryTerminal-crux-589824.txt",
+      "rawBytes": 629,
+      "publicBytes": 650
+    },
+    {
+      "path": "counter-material-audit-v033-02/processors/planetaryTerminal-crux-65536.txt",
+      "rawBytes": 228,
+      "publicBytes": 236
+    },
+    {
+      "path": "counter-material-audit-v033-02/processors/planetaryTerminal-crux-655360.txt",
+      "rawBytes": 148,
+      "publicBytes": 154
+    },
+    {
+      "path": "counter-material-audit-v033-02/processors/planetaryTerminal-crux-7078008.txt",
+      "rawBytes": 133,
+      "publicBytes": 139
+    },
+    {
+      "path": "counter-material-audit-v033-02/processors/stronghold-sharded-23200270.txt",
+      "rawBytes": 67,
+      "publicBytes": 69
+    },
+    {
+      "path": "counter-material-audit-v033-02/processors/stronghold-sharded-23200271.txt",
+      "rawBytes": 67,
+      "publicBytes": 69
+    },
+    {
+      "path": "counter-material-audit-v033-02/processors/stronghold-sharded-23200272.txt",
+      "rawBytes": 73,
+      "publicBytes": 75
+    },
+    {
+      "path": "counter-material-audit-v033-02/processors/stronghold-sharded-23200273.txt",
+      "rawBytes": 65,
+      "publicBytes": 67
+    },
+    {
+      "path": "counter-material-audit-v033-02/processors/stronghold-sharded-23200274.txt",
+      "rawBytes": 106,
+      "publicBytes": 109
+    },
+    {
+      "path": "counter-material-audit-v033-02/processors/stronghold-sharded-23200275.txt",
+      "rawBytes": 90,
+      "publicBytes": 93
+    },
+    {
+      "path": "counter-material-audit-v033-02/processors/stronghold-sharded-23200276.txt",
+      "rawBytes": 65,
+      "publicBytes": 67
+    },
+    {
+      "path": "counter-material-audit-v033-02/resources.tsv",
+      "rawBytes": 5657,
+      "publicBytes": 5779
+    },
+    {
+      "path": "counter-material-audit-v033-02/runtime.txt",
+      "rawBytes": 378,
+      "publicBytes": 382
+    },
+    {
+      "path": "counter-material-sites-biomass-v033-01/all-team-buildings.tsv",
+      "rawBytes": 1071,
+      "publicBytes": 1084
+    },
+    {
+      "path": "counter-material-sites-biomass-v033-01/building-sites.tsv",
+      "rawBytes": 5186,
+      "publicBytes": 5247
+    },
+    {
+      "path": "counter-material-sites-biomass-v033-01/catalog.tsv",
+      "rawBytes": 29955,
+      "publicBytes": 30202
+    },
+    {
+      "path": "counter-material-sites-biomass-v033-01/driver-source.java",
+      "rawBytes": 15544,
+      "publicBytes": 15746
+    },
+    {
+      "path": "counter-material-sites-biomass-v033-01/equipment.tsv",
+      "rawBytes": 1363,
+      "publicBytes": 1370
+    },
+    {
+      "path": "counter-material-sites-biomass-v033-01/map-modes.tsv",
+      "rawBytes": 489,
+      "publicBytes": 493
+    },
+    {
+      "path": "counter-material-sites-biomass-v033-01/ore-sites.tsv",
+      "rawBytes": 4793,
+      "publicBytes": 4894
+    },
+    {
+      "path": "counter-material-sites-biomass-v033-01/player-buildings.tsv",
+      "rawBytes": 75,
+      "publicBytes": 77
+    },
+    {
+      "path": "counter-material-sites-biomass-v033-01/resources.tsv",
+      "rawBytes": 408,
+      "publicBytes": 416
+    },
+    {
+      "path": "counter-material-sites-biomass-v033-01/runtime.txt",
+      "rawBytes": 376,
+      "publicBytes": 380
+    },
+    {
+      "path": "biomass-actual-progress-availability-v033-01/driver-source.java",
+      "rawBytes": 4720,
+      "publicBytes": 4765
+    },
+    {
+      "path": "biomass-actual-progress-availability-v033-01/result.txt",
+      "rawBytes": 2613,
+      "publicBytes": 2643
+    },
+    {
+      "path": "onset-trials/heroic-08-v033/actions.txt",
+      "rawBytes": 6588,
+      "publicBytes": 6863
+    },
+    {
+      "path": "onset-trials/heroic-08-v033/combat.csv",
+      "rawBytes": 378,
+      "publicBytes": 393
+    },
+    {
+      "path": "onset-trials/heroic-08-v033/console.log",
+      "rawBytes": 3228,
+      "publicBytes": 3228
+    },
+    {
+      "path": "onset-trials/heroic-08-v033/diagnostics.txt",
+      "rawBytes": 14534,
+      "publicBytes": 14668
+    },
+    {
+      "path": "onset-trials/heroic-08-v033/driver-source.java",
+      "rawBytes": 32921,
+      "publicBytes": 32894
+    },
+    {
+      "path": "onset-trials/heroic-08-v033/failure-note.txt",
+      "rawBytes": 877,
+      "publicBytes": 880
+    },
+    {
+      "path": "onset-trials/heroic-08-v033/loaded-watch-version.txt",
+      "rawBytes": 7,
+      "publicBytes": 7
+    },
+    {
+      "path": "onset-trials/heroic-08-v033/map.txt",
+      "rawBytes": 388,
+      "publicBytes": 395
+    },
+    {
+      "path": "onset-trials/heroic-08-v033/mission-limits.txt",
+      "rawBytes": 110,
+      "publicBytes": 113
+    },
+    {
+      "path": "onset-trials/heroic-08-v033/objectives.json",
+      "rawBytes": 2837,
+      "publicBytes": 2839
+    },
+    {
+      "path": "onset-trials/heroic-08-v033/processor-280-208.mlog",
+      "rawBytes": 111,
+      "publicBytes": 115
+    },
+    {
+      "path": "onset-trials/heroic-08-v033/processor-281-208.mlog",
+      "rawBytes": 94,
+      "publicBytes": 97
+    },
+    {
+      "path": "onset-trials/heroic-08-v033/processor-299-127.mlog",
+      "rawBytes": 111,
+      "publicBytes": 115
+    },
+    {
+      "path": "onset-trials/heroic-08-v033/processor-300-127.mlog",
+      "rawBytes": 157,
+      "publicBytes": 162
+    },
+    {
+      "path": "onset-trials/heroic-08-v033/processor-301-127.mlog",
+      "rawBytes": 118,
+      "publicBytes": 123
+    },
+    {
+      "path": "onset-trials/heroic-08-v033/runtime.txt",
+      "rawBytes": 248,
+      "publicBytes": 243
+    },
+    {
+      "path": "onset-trials/heroic-08-v033/scores-before.txt",
+      "rawBytes": 96,
+      "publicBytes": 95
+    },
+    {
+      "path": "onset-trials/heroic-08-v033/state-audit-source.java",
+      "rawBytes": 3036,
+      "publicBytes": 3036
+    },
+    {
+      "path": "onset-trials/heroic-08-v033/terrain.txt",
+      "rawBytes": 565,
+      "publicBytes": 592
+    },
+    {
+      "path": "onset-trials/heroic-08-v033/trial.csv",
+      "rawBytes": 921,
+      "publicBytes": 937
+    },
+    {
+      "path": "onset-trials/heroic-09-v033/actions.txt",
+      "rawBytes": 7648,
+      "publicBytes": 7971
+    },
+    {
+      "path": "onset-trials/heroic-09-v033/checkpoint-900-loaded-world.json",
+      "rawBytes": 117201,
+      "publicBytes": 117203
+    },
+    {
+      "path": "onset-trials/heroic-09-v033/checkpoint-900-tags.json",
+      "rawBytes": 31447,
+      "publicBytes": 31449
+    },
+    {
+      "path": "onset-trials/heroic-09-v033/checkpoint-900-world.json",
+      "rawBytes": 116990,
+      "publicBytes": 116992
+    },
+    {
+      "path": "onset-trials/heroic-09-v033/checkpoint-900.msav",
+      "rawBytes": 55052,
+      "publicBytes": 55052
+    },
+    {
+      "path": "onset-trials/heroic-09-v033/combat.csv",
+      "rawBytes": 512,
+      "publicBytes": 530
+    },
+    {
+      "path": "onset-trials/heroic-09-v033/console.log",
+      "rawBytes": 3575,
+      "publicBytes": 3575
+    },
+    {
+      "path": "onset-trials/heroic-09-v033/diagnostics.txt",
+      "rawBytes": 17395,
+      "publicBytes": 17553
+    },
+    {
+      "path": "onset-trials/heroic-09-v033/driver-source.java",
+      "rawBytes": 33400,
+      "publicBytes": 33373
+    },
+    {
+      "path": "onset-trials/heroic-09-v033/enemy-map.txt",
+      "rawBytes": 10343,
+      "publicBytes": 11005
+    },
+    {
+      "path": "onset-trials/heroic-09-v033/failure-note.txt",
+      "rawBytes": 367,
+      "publicBytes": 367
+    },
+    {
+      "path": "onset-trials/heroic-09-v033/loaded-watch-version.txt",
+      "rawBytes": 7,
+      "publicBytes": 7
+    },
+    {
+      "path": "onset-trials/heroic-09-v033/map.txt",
+      "rawBytes": 388,
+      "publicBytes": 395
+    },
+    {
+      "path": "onset-trials/heroic-09-v033/mission-limits.txt",
+      "rawBytes": 110,
+      "publicBytes": 113
+    },
+    {
+      "path": "onset-trials/heroic-09-v033/objectives.json",
+      "rawBytes": 2837,
+      "publicBytes": 2839
+    },
+    {
+      "path": "onset-trials/heroic-09-v033/processor-280-208.mlog",
+      "rawBytes": 111,
+      "publicBytes": 115
+    },
+    {
+      "path": "onset-trials/heroic-09-v033/processor-281-208.mlog",
+      "rawBytes": 94,
+      "publicBytes": 97
+    },
+    {
+      "path": "onset-trials/heroic-09-v033/processor-299-127.mlog",
+      "rawBytes": 111,
+      "publicBytes": 115
+    },
+    {
+      "path": "onset-trials/heroic-09-v033/processor-300-127.mlog",
+      "rawBytes": 157,
+      "publicBytes": 162
+    },
+    {
+      "path": "onset-trials/heroic-09-v033/processor-301-127.mlog",
+      "rawBytes": 118,
+      "publicBytes": 123
+    },
+    {
+      "path": "onset-trials/heroic-09-v033/runtime.txt",
+      "rawBytes": 248,
+      "publicBytes": 243
+    },
+    {
+      "path": "onset-trials/heroic-09-v033/scores-before.txt",
+      "rawBytes": 96,
+      "publicBytes": 95
+    },
+    {
+      "path": "onset-trials/heroic-09-v033/state-audit-source.java",
+      "rawBytes": 3036,
+      "publicBytes": 3036
+    },
+    {
+      "path": "onset-trials/heroic-09-v033/terrain.txt",
+      "rawBytes": 565,
+      "publicBytes": 592
+    },
+    {
+      "path": "onset-trials/heroic-09-v033/trial.csv",
+      "rawBytes": 1172,
+      "publicBytes": 1191
+    },
+    {
+      "path": "onset-trials/heroic-10-v033/actions.txt",
+      "rawBytes": 8573,
+      "publicBytes": 8938
+    },
+    {
+      "path": "onset-trials/heroic-10-v033/checkpoint-2400-loaded-world.json",
+      "rawBytes": 164687,
+      "publicBytes": 164689
+    },
+    {
+      "path": "onset-trials/heroic-10-v033/checkpoint-2400-tags.json",
+      "rawBytes": 43388,
+      "publicBytes": 43390
+    },
+    {
+      "path": "onset-trials/heroic-10-v033/checkpoint-2400-world.json",
+      "rawBytes": 164687,
+      "publicBytes": 164689
+    },
+    {
+      "path": "onset-trials/heroic-10-v033/checkpoint-2400.msav",
+      "rawBytes": 55769,
+      "publicBytes": 55769
+    },
+    {
+      "path": "onset-trials/heroic-10-v033/checkpoint-900-loaded-world.json",
+      "rawBytes": 165875,
+      "publicBytes": 165877
+    },
+    {
+      "path": "onset-trials/heroic-10-v033/checkpoint-900-tags.json",
+      "rawBytes": 43389,
+      "publicBytes": 43391
+    },
+    {
+      "path": "onset-trials/heroic-10-v033/checkpoint-900-world.json",
+      "rawBytes": 165875,
+      "publicBytes": 165877
+    },
+    {
+      "path": "onset-trials/heroic-10-v033/checkpoint-900.msav",
+      "rawBytes": 55821,
+      "publicBytes": 55821
+    },
+    {
+      "path": "onset-trials/heroic-10-v033/checkpoints.txt",
+      "rawBytes": 220,
+      "publicBytes": 222
+    },
+    {
+      "path": "onset-trials/heroic-10-v033/combat.csv",
+      "rawBytes": 1153,
+      "publicBytes": 1197
+    },
+    {
+      "path": "onset-trials/heroic-10-v033/console-launch-failed.log",
+      "rawBytes": 247,
+      "publicBytes": 242
+    },
+    {
+      "path": "onset-trials/heroic-10-v033/console.log",
+      "rawBytes": 7750,
+      "publicBytes": 7750
+    },
+    {
+      "path": "onset-trials/heroic-10-v033/diagnostics.txt",
+      "rawBytes": 59031,
+      "publicBytes": 59594
+    },
+    {
+      "path": "onset-trials/heroic-10-v033/driver-source.java",
+      "rawBytes": 33564,
+      "publicBytes": 33537
+    },
+    {
+      "path": "onset-trials/heroic-10-v033/end.msav",
+      "rawBytes": 55771,
+      "publicBytes": 55771
+    },
+    {
+      "path": "onset-trials/heroic-10-v033/enemy-map.txt",
+      "rawBytes": 10343,
+      "publicBytes": 11005
+    },
+    {
+      "path": "onset-trials/heroic-10-v033/final-tags.json",
+      "rawBytes": 43389,
+      "publicBytes": 43391
+    },
+    {
+      "path": "onset-trials/heroic-10-v033/final-world.json",
+      "rawBytes": 165762,
+      "publicBytes": 165764
+    },
+    {
+      "path": "onset-trials/heroic-10-v033/loaded-watch-version.txt",
+      "rawBytes": 7,
+      "publicBytes": 7
+    },
+    {
+      "path": "onset-trials/heroic-10-v033/map.txt",
+      "rawBytes": 388,
+      "publicBytes": 395
+    },
+    {
+      "path": "onset-trials/heroic-10-v033/mission-limits.txt",
+      "rawBytes": 110,
+      "publicBytes": 113
+    },
+    {
+      "path": "onset-trials/heroic-10-v033/objectives.json",
+      "rawBytes": 2837,
+      "publicBytes": 2839
+    },
+    {
+      "path": "onset-trials/heroic-10-v033/processor-280-208.mlog",
+      "rawBytes": 111,
+      "publicBytes": 115
+    },
+    {
+      "path": "onset-trials/heroic-10-v033/processor-281-208.mlog",
+      "rawBytes": 94,
+      "publicBytes": 97
+    },
+    {
+      "path": "onset-trials/heroic-10-v033/processor-299-127.mlog",
+      "rawBytes": 111,
+      "publicBytes": 115
+    },
+    {
+      "path": "onset-trials/heroic-10-v033/processor-300-127.mlog",
+      "rawBytes": 157,
+      "publicBytes": 162
+    },
+    {
+      "path": "onset-trials/heroic-10-v033/processor-301-127.mlog",
+      "rawBytes": 118,
+      "publicBytes": 123
+    },
+    {
+      "path": "onset-trials/heroic-10-v033/result.txt",
+      "rawBytes": 551,
+      "publicBytes": 574
+    },
+    {
+      "path": "onset-trials/heroic-10-v033/rules-before-save.json",
+      "rawBytes": 51749,
+      "publicBytes": 51751
+    },
+    {
+      "path": "onset-trials/heroic-10-v033/runtime.txt",
+      "rawBytes": 248,
+      "publicBytes": 243
+    },
+    {
+      "path": "onset-trials/heroic-10-v033/save-status.txt",
+      "rawBytes": 64,
+      "publicBytes": 65
+    },
+    {
+      "path": "onset-trials/heroic-10-v033/scores-before.txt",
+      "rawBytes": 96,
+      "publicBytes": 95
+    },
+    {
+      "path": "onset-trials/heroic-10-v033/state-audit-source.java",
+      "rawBytes": 3342,
+      "publicBytes": 3342
+    },
+    {
+      "path": "onset-trials/heroic-10-v033/terrain.txt",
+      "rawBytes": 565,
+      "publicBytes": 592
+    },
+    {
+      "path": "onset-trials/heroic-10-v033/trial.csv",
+      "rawBytes": 2821,
+      "publicBytes": 2866
+    },
+    {
+      "path": "onset-trials/heroic-11-v033/actions.txt",
+      "rawBytes": 6237,
+      "publicBytes": 6500
+    },
+    {
+      "path": "onset-trials/heroic-11-v033/combat.csv",
+      "rawBytes": 36,
+      "publicBytes": 38
+    },
+    {
+      "path": "onset-trials/heroic-11-v033/console.log",
+      "rawBytes": 835,
+      "publicBytes": 835
+    },
+    {
+      "path": "onset-trials/heroic-11-v033/diagnostics.txt",
+      "rawBytes": 272,
+      "publicBytes": 274
+    },
+    {
+      "path": "onset-trials/heroic-11-v033/driver-source.java",
+      "rawBytes": 33889,
+      "publicBytes": 33862
+    },
+    {
+      "path": "onset-trials/heroic-11-v033/enemy-map.txt",
+      "rawBytes": 10343,
+      "publicBytes": 11005
+    },
+    {
+      "path": "onset-trials/heroic-11-v033/failure.txt",
+      "rawBytes": 279,
+      "publicBytes": 280
+    },
+    {
+      "path": "onset-trials/heroic-11-v033/loaded-watch-version.txt",
+      "rawBytes": 7,
+      "publicBytes": 7
+    },
+    {
+      "path": "onset-trials/heroic-11-v033/map.txt",
+      "rawBytes": 388,
+      "publicBytes": 395
+    },
+    {
+      "path": "onset-trials/heroic-11-v033/mission-limits.txt",
+      "rawBytes": 110,
+      "publicBytes": 113
+    },
+    {
+      "path": "onset-trials/heroic-11-v033/objectives.json",
+      "rawBytes": 2837,
+      "publicBytes": 2839
+    },
+    {
+      "path": "onset-trials/heroic-11-v033/partial.msav",
+      "rawBytes": 48812,
+      "publicBytes": 48812
+    },
+    {
+      "path": "onset-trials/heroic-11-v033/processor-280-208.mlog",
+      "rawBytes": 111,
+      "publicBytes": 115
+    },
+    {
+      "path": "onset-trials/heroic-11-v033/processor-281-208.mlog",
+      "rawBytes": 94,
+      "publicBytes": 97
+    },
+    {
+      "path": "onset-trials/heroic-11-v033/processor-299-127.mlog",
+      "rawBytes": 111,
+      "publicBytes": 115
+    },
+    {
+      "path": "onset-trials/heroic-11-v033/processor-300-127.mlog",
+      "rawBytes": 157,
+      "publicBytes": 162
+    },
+    {
+      "path": "onset-trials/heroic-11-v033/processor-301-127.mlog",
+      "rawBytes": 118,
+      "publicBytes": 123
+    },
+    {
+      "path": "onset-trials/heroic-11-v033/result.txt",
+      "rawBytes": 886,
+      "publicBytes": 909
+    },
+    {
+      "path": "onset-trials/heroic-11-v033/runtime.txt",
+      "rawBytes": 248,
+      "publicBytes": 243
+    },
+    {
+      "path": "onset-trials/heroic-11-v033/scores-before.txt",
+      "rawBytes": 96,
+      "publicBytes": 95
+    },
+    {
+      "path": "onset-trials/heroic-11-v033/state-audit-source.java",
+      "rawBytes": 3342,
+      "publicBytes": 3342
+    },
+    {
+      "path": "onset-trials/heroic-11-v033/terrain.txt",
+      "rawBytes": 565,
+      "publicBytes": 592
+    },
+    {
+      "path": "onset-trials/heroic-11-v033/trial.csv",
+      "rawBytes": 202,
+      "publicBytes": 205
+    },
+    {
+      "path": "onset-trials/heroic-12-v033/actions.txt",
+      "rawBytes": 6616,
+      "publicBytes": 6894
+    },
+    {
+      "path": "onset-trials/heroic-12-v033/combat.csv",
+      "rawBytes": 36,
+      "publicBytes": 38
+    },
+    {
+      "path": "onset-trials/heroic-12-v033/console.log",
+      "rawBytes": 835,
+      "publicBytes": 835
+    },
+    {
+      "path": "onset-trials/heroic-12-v033/diagnostics.txt",
+      "rawBytes": 272,
+      "publicBytes": 274
+    },
+    {
+      "path": "onset-trials/heroic-12-v033/driver-source.java",
+      "rawBytes": 33889,
+      "publicBytes": 33862
+    },
+    {
+      "path": "onset-trials/heroic-12-v033/enemy-map.txt",
+      "rawBytes": 10343,
+      "publicBytes": 11005
+    },
+    {
+      "path": "onset-trials/heroic-12-v033/failure.txt",
+      "rawBytes": 279,
+      "publicBytes": 280
+    },
+    {
+      "path": "onset-trials/heroic-12-v033/loaded-watch-version.txt",
+      "rawBytes": 7,
+      "publicBytes": 7
+    },
+    {
+      "path": "onset-trials/heroic-12-v033/map.txt",
+      "rawBytes": 388,
+      "publicBytes": 395
+    },
+    {
+      "path": "onset-trials/heroic-12-v033/mission-limits.txt",
+      "rawBytes": 110,
+      "publicBytes": 113
+    },
+    {
+      "path": "onset-trials/heroic-12-v033/objectives.json",
+      "rawBytes": 2837,
+      "publicBytes": 2839
+    },
+    {
+      "path": "onset-trials/heroic-12-v033/partial.msav",
+      "rawBytes": 48769,
+      "publicBytes": 48769
+    },
+    {
+      "path": "onset-trials/heroic-12-v033/processor-280-208.mlog",
+      "rawBytes": 111,
+      "publicBytes": 115
+    },
+    {
+      "path": "onset-trials/heroic-12-v033/processor-281-208.mlog",
+      "rawBytes": 94,
+      "publicBytes": 97
+    },
+    {
+      "path": "onset-trials/heroic-12-v033/processor-299-127.mlog",
+      "rawBytes": 111,
+      "publicBytes": 115
+    },
+    {
+      "path": "onset-trials/heroic-12-v033/processor-300-127.mlog",
+      "rawBytes": 157,
+      "publicBytes": 162
+    },
+    {
+      "path": "onset-trials/heroic-12-v033/processor-301-127.mlog",
+      "rawBytes": 118,
+      "publicBytes": 123
+    },
+    {
+      "path": "onset-trials/heroic-12-v033/result.txt",
+      "rawBytes": 886,
+      "publicBytes": 909
+    },
+    {
+      "path": "onset-trials/heroic-12-v033/runtime.txt",
+      "rawBytes": 248,
+      "publicBytes": 243
+    },
+    {
+      "path": "onset-trials/heroic-12-v033/scores-before.txt",
+      "rawBytes": 96,
+      "publicBytes": 95
+    },
+    {
+      "path": "onset-trials/heroic-12-v033/state-audit-source.java",
+      "rawBytes": 3342,
+      "publicBytes": 3342
+    },
+    {
+      "path": "onset-trials/heroic-12-v033/terrain.txt",
+      "rawBytes": 565,
+      "publicBytes": 592
+    },
+    {
+      "path": "onset-trials/heroic-12-v033/trial.csv",
+      "rawBytes": 202,
+      "publicBytes": 205
+    },
+    {
+      "path": "onset-trials/heroic-13-v033/actions.txt",
+      "rawBytes": 6585,
+      "publicBytes": 6862
+    },
+    {
+      "path": "onset-trials/heroic-13-v033/combat.csv",
+      "rawBytes": 285,
+      "publicBytes": 296
+    },
+    {
+      "path": "onset-trials/heroic-13-v033/console.log",
+      "rawBytes": 1987,
+      "publicBytes": 1987
+    },
+    {
+      "path": "onset-trials/heroic-13-v033/diagnostics.txt",
+      "rawBytes": 9893,
+      "publicBytes": 9982
+    },
+    {
+      "path": "onset-trials/heroic-13-v033/driver-source.java",
+      "rawBytes": 33889,
+      "publicBytes": 33862
+    },
+    {
+      "path": "onset-trials/heroic-13-v033/end.msav",
+      "rawBytes": 54644,
+      "publicBytes": 54644
+    },
+    {
+      "path": "onset-trials/heroic-13-v033/enemy-map.txt",
+      "rawBytes": 10343,
+      "publicBytes": 11005
+    },
+    {
+      "path": "onset-trials/heroic-13-v033/final-tags.json",
+      "rawBytes": 33250,
+      "publicBytes": 33252
+    },
+    {
+      "path": "onset-trials/heroic-13-v033/final-world.json",
+      "rawBytes": 140850,
+      "publicBytes": 140852
+    },
+    {
+      "path": "onset-trials/heroic-13-v033/loaded-watch-version.txt",
+      "rawBytes": 7,
+      "publicBytes": 7
+    },
+    {
+      "path": "onset-trials/heroic-13-v033/map.txt",
+      "rawBytes": 388,
+      "publicBytes": 395
+    },
+    {
+      "path": "onset-trials/heroic-13-v033/mission-limits.txt",
+      "rawBytes": 110,
+      "publicBytes": 113
+    },
+    {
+      "path": "onset-trials/heroic-13-v033/objectives.json",
+      "rawBytes": 2837,
+      "publicBytes": 2839
+    },
+    {
+      "path": "onset-trials/heroic-13-v033/player-losses.csv",
+      "rawBytes": 98,
+      "publicBytes": 101
+    },
+    {
+      "path": "onset-trials/heroic-13-v033/processor-280-208.mlog",
+      "rawBytes": 111,
+      "publicBytes": 115
+    },
+    {
+      "path": "onset-trials/heroic-13-v033/processor-281-208.mlog",
+      "rawBytes": 94,
+      "publicBytes": 97
+    },
+    {
+      "path": "onset-trials/heroic-13-v033/processor-299-127.mlog",
+      "rawBytes": 111,
+      "publicBytes": 115
+    },
+    {
+      "path": "onset-trials/heroic-13-v033/processor-300-127.mlog",
+      "rawBytes": 157,
+      "publicBytes": 162
+    },
+    {
+      "path": "onset-trials/heroic-13-v033/processor-301-127.mlog",
+      "rawBytes": 118,
+      "publicBytes": 123
+    },
+    {
+      "path": "onset-trials/heroic-13-v033/result.txt",
+      "rawBytes": 536,
+      "publicBytes": 558
+    },
+    {
+      "path": "onset-trials/heroic-13-v033/rules-before-save.json",
+      "rawBytes": 41597,
+      "publicBytes": 41599
+    },
+    {
+      "path": "onset-trials/heroic-13-v033/runtime.txt",
+      "rawBytes": 248,
+      "publicBytes": 243
+    },
+    {
+      "path": "onset-trials/heroic-13-v033/save-status.txt",
+      "rawBytes": 64,
+      "publicBytes": 65
+    },
+    {
+      "path": "onset-trials/heroic-13-v033/scores-before.txt",
+      "rawBytes": 96,
+      "publicBytes": 95
+    },
+    {
+      "path": "onset-trials/heroic-13-v033/state-audit-source.java",
+      "rawBytes": 3342,
+      "publicBytes": 3342
+    },
+    {
+      "path": "onset-trials/heroic-13-v033/terrain.txt",
+      "rawBytes": 565,
+      "publicBytes": 592
+    },
+    {
+      "path": "onset-trials/heroic-13-v033/trial.csv",
+      "rawBytes": 673,
+      "publicBytes": 685
+    },
+    {
+      "path": "onset-trials/heroic-14-v033/actions.txt",
+      "rawBytes": 7628,
+      "publicBytes": 7950
+    },
+    {
+      "path": "onset-trials/heroic-14-v033/checkpoint-900-loaded-world.json",
+      "rawBytes": 140672,
+      "publicBytes": 140674
+    },
+    {
+      "path": "onset-trials/heroic-14-v033/checkpoint-900-tags.json",
+      "rawBytes": 31441,
+      "publicBytes": 31443
+    },
+    {
+      "path": "onset-trials/heroic-14-v033/checkpoint-900-world.json",
+      "rawBytes": 140672,
+      "publicBytes": 140674
+    },
+    {
+      "path": "onset-trials/heroic-14-v033/checkpoint-900.msav",
+      "rawBytes": 54963,
+      "publicBytes": 54963
+    },
+    {
+      "path": "onset-trials/heroic-14-v033/checkpoints.txt",
+      "rawBytes": 110,
+      "publicBytes": 111
+    },
+    {
+      "path": "onset-trials/heroic-14-v033/combat.csv",
+      "rawBytes": 941,
+      "publicBytes": 975
+    },
+    {
+      "path": "onset-trials/heroic-14-v033/console.log",
+      "rawBytes": 5217,
+      "publicBytes": 5217
+    },
+    {
+      "path": "onset-trials/heroic-14-v033/diagnostics.txt",
+      "rawBytes": 38099,
+      "publicBytes": 38443
+    },
+    {
+      "path": "onset-trials/heroic-14-v033/driver-source.java",
+      "rawBytes": 33564,
+      "publicBytes": 33537
+    },
+    {
+      "path": "onset-trials/heroic-14-v033/end.msav",
+      "rawBytes": 55523,
+      "publicBytes": 55523
+    },
+    {
+      "path": "onset-trials/heroic-14-v033/enemy-map.txt",
+      "rawBytes": 10343,
+      "publicBytes": 11005
+    },
+    {
+      "path": "onset-trials/heroic-14-v033/final-tags.json",
+      "rawBytes": 34681,
+      "publicBytes": 34683
+    },
+    {
+      "path": "onset-trials/heroic-14-v033/final-world.json",
+      "rawBytes": 121589,
+      "publicBytes": 121591
+    },
+    {
+      "path": "onset-trials/heroic-14-v033/loaded-watch-version.txt",
+      "rawBytes": 7,
+      "publicBytes": 7
+    },
+    {
+      "path": "onset-trials/heroic-14-v033/map.txt",
+      "rawBytes": 388,
+      "publicBytes": 395
+    },
+    {
+      "path": "onset-trials/heroic-14-v033/mission-limits.txt",
+      "rawBytes": 110,
+      "publicBytes": 113
+    },
+    {
+      "path": "onset-trials/heroic-14-v033/objectives.json",
+      "rawBytes": 2837,
+      "publicBytes": 2839
+    },
+    {
+      "path": "onset-trials/heroic-14-v033/player-losses.csv",
+      "rawBytes": 2942,
+      "publicBytes": 3052
+    },
+    {
+      "path": "onset-trials/heroic-14-v033/processor-280-208.mlog",
+      "rawBytes": 111,
+      "publicBytes": 115
+    },
+    {
+      "path": "onset-trials/heroic-14-v033/processor-281-208.mlog",
+      "rawBytes": 94,
+      "publicBytes": 97
+    },
+    {
+      "path": "onset-trials/heroic-14-v033/processor-299-127.mlog",
+      "rawBytes": 111,
+      "publicBytes": 115
+    },
+    {
+      "path": "onset-trials/heroic-14-v033/processor-300-127.mlog",
+      "rawBytes": 157,
+      "publicBytes": 162
+    },
+    {
+      "path": "onset-trials/heroic-14-v033/processor-301-127.mlog",
+      "rawBytes": 118,
+      "publicBytes": 123
+    },
+    {
+      "path": "onset-trials/heroic-14-v033/result.txt",
+      "rawBytes": 655,
+      "publicBytes": 677
+    },
+    {
+      "path": "onset-trials/heroic-14-v033/rules-before-save.json",
+      "rawBytes": 43103,
+      "publicBytes": 43105
+    },
+    {
+      "path": "onset-trials/heroic-14-v033/runtime.txt",
+      "rawBytes": 248,
+      "publicBytes": 243
+    },
+    {
+      "path": "onset-trials/heroic-14-v033/save-status.txt",
+      "rawBytes": 64,
+      "publicBytes": 65
+    },
+    {
+      "path": "onset-trials/heroic-14-v033/scores-before.txt",
+      "rawBytes": 96,
+      "publicBytes": 95
+    },
+    {
+      "path": "onset-trials/heroic-14-v033/state-audit-source.java",
+      "rawBytes": 3342,
+      "publicBytes": 3342
+    },
+    {
+      "path": "onset-trials/heroic-14-v033/terrain.txt",
+      "rawBytes": 565,
+      "publicBytes": 592
+    },
+    {
+      "path": "onset-trials/heroic-14-v033/trial.csv",
+      "rawBytes": 2144,
+      "publicBytes": 2179
+    },
+    {
+      "path": "onset-trials/heroic-15-v033/actions.txt",
+      "rawBytes": 7563,
+      "publicBytes": 7883
+    },
+    {
+      "path": "onset-trials/heroic-15-v033/checkpoint-2400-loaded-world.json",
+      "rawBytes": 133606,
+      "publicBytes": 133608
+    },
+    {
+      "path": "onset-trials/heroic-15-v033/checkpoint-2400-tags.json",
+      "rawBytes": 43517,
+      "publicBytes": 43519
+    },
+    {
+      "path": "onset-trials/heroic-15-v033/checkpoint-2400-world.json",
+      "rawBytes": 133606,
+      "publicBytes": 133608
+    },
+    {
+      "path": "onset-trials/heroic-15-v033/checkpoint-2400.msav",
+      "rawBytes": 56347,
+      "publicBytes": 56347
+    },
+    {
+      "path": "onset-trials/heroic-15-v033/checkpoint-900-loaded-world.json",
+      "rawBytes": 134582,
+      "publicBytes": 134584
+    },
+    {
+      "path": "onset-trials/heroic-15-v033/checkpoint-900-tags.json",
+      "rawBytes": 31331,
+      "publicBytes": 31333
+    },
+    {
+      "path": "onset-trials/heroic-15-v033/checkpoint-900-world.json",
+      "rawBytes": 134582,
+      "publicBytes": 134584
+    },
+    {
+      "path": "onset-trials/heroic-15-v033/checkpoint-900.msav",
+      "rawBytes": 54958,
+      "publicBytes": 54958
+    },
+    {
+      "path": "onset-trials/heroic-15-v033/checkpoints.txt",
+      "rawBytes": 229,
+      "publicBytes": 231
+    },
+    {
+      "path": "onset-trials/heroic-15-v033/combat.csv",
+      "rawBytes": 1366,
+      "publicBytes": 1410
+    },
+    {
+      "path": "onset-trials/heroic-15-v033/console.log",
+      "rawBytes": 6372,
+      "publicBytes": 6372
+    },
+    {
+      "path": "onset-trials/heroic-15-v033/diagnostics.txt",
+      "rawBytes": 54384,
+      "publicBytes": 54883
+    },
+    {
+      "path": "onset-trials/heroic-15-v033/driver-source.java",
+      "rawBytes": 33605,
+      "publicBytes": 33578
+    },
+    {
+      "path": "onset-trials/heroic-15-v033/end.msav",
+      "rawBytes": 56419,
+      "publicBytes": 56419
+    },
+    {
+      "path": "onset-trials/heroic-15-v033/enemy-map.txt",
+      "rawBytes": 10343,
+      "publicBytes": 11005
+    },
+    {
+      "path": "onset-trials/heroic-15-v033/final-tags.json",
+      "rawBytes": 43518,
+      "publicBytes": 43520
+    },
+    {
+      "path": "onset-trials/heroic-15-v033/final-world.json",
+      "rawBytes": 134535,
+      "publicBytes": 134537
+    },
+    {
+      "path": "onset-trials/heroic-15-v033/loaded-watch-version.txt",
+      "rawBytes": 7,
+      "publicBytes": 7
+    },
+    {
+      "path": "onset-trials/heroic-15-v033/map.txt",
+      "rawBytes": 388,
+      "publicBytes": 395
+    },
+    {
+      "path": "onset-trials/heroic-15-v033/mission-limits.txt",
+      "rawBytes": 110,
+      "publicBytes": 113
+    },
+    {
+      "path": "onset-trials/heroic-15-v033/objectives.json",
+      "rawBytes": 2837,
+      "publicBytes": 2839
+    },
+    {
+      "path": "onset-trials/heroic-15-v033/player-losses.csv",
+      "rawBytes": 3127,
+      "publicBytes": 3240
+    },
+    {
+      "path": "onset-trials/heroic-15-v033/processor-280-208.mlog",
+      "rawBytes": 111,
+      "publicBytes": 115
+    },
+    {
+      "path": "onset-trials/heroic-15-v033/processor-281-208.mlog",
+      "rawBytes": 94,
+      "publicBytes": 97
+    },
+    {
+      "path": "onset-trials/heroic-15-v033/processor-299-127.mlog",
+      "rawBytes": 111,
+      "publicBytes": 115
+    },
+    {
+      "path": "onset-trials/heroic-15-v033/processor-300-127.mlog",
+      "rawBytes": 157,
+      "publicBytes": 162
+    },
+    {
+      "path": "onset-trials/heroic-15-v033/processor-301-127.mlog",
+      "rawBytes": 118,
+      "publicBytes": 123
+    },
+    {
+      "path": "onset-trials/heroic-15-v033/read-only-console.log",
+      "rawBytes": 2090,
+      "publicBytes": 2085
+    },
+    {
+      "path": "onset-trials/heroic-15-v033/result.txt",
+      "rawBytes": 557,
+      "publicBytes": 580
+    },
+    {
+      "path": "onset-trials/heroic-15-v033/rules-before-save.json",
+      "rawBytes": 51936,
+      "publicBytes": 51938
+    },
+    {
+      "path": "onset-trials/heroic-15-v033/runtime.txt",
+      "rawBytes": 248,
+      "publicBytes": 243
+    },
+    {
+      "path": "onset-trials/heroic-15-v033/save-status.txt",
+      "rawBytes": 64,
+      "publicBytes": 65
+    },
+    {
+      "path": "onset-trials/heroic-15-v033/scores-before.txt",
+      "rawBytes": 96,
+      "publicBytes": 95
+    },
+    {
+      "path": "onset-trials/heroic-15-v033/state-audit-source.java",
+      "rawBytes": 3342,
+      "publicBytes": 3342
+    },
+    {
+      "path": "onset-trials/heroic-15-v033/terrain.txt",
+      "rawBytes": 565,
+      "publicBytes": 592
+    },
+    {
+      "path": "onset-trials/heroic-15-v033/trial.csv",
+      "rawBytes": 2985,
+      "publicBytes": 3030
+    },
+    {
+      "path": "onset-trials/heroic-16-v033/actions.txt",
+      "rawBytes": 9946,
+      "publicBytes": 10374
+    },
+    {
+      "path": "onset-trials/heroic-16-v033/combat.csv",
+      "rawBytes": 404,
+      "publicBytes": 420
+    },
+    {
+      "path": "onset-trials/heroic-16-v033/console.log",
+      "rawBytes": 3416,
+      "publicBytes": 3416
+    },
+    {
+      "path": "onset-trials/heroic-16-v033/diagnostics.txt",
+      "rawBytes": 15916,
+      "publicBytes": 16062
+    },
+    {
+      "path": "onset-trials/heroic-16-v033/driver-source.java",
+      "rawBytes": 33479,
+      "publicBytes": 33452
+    },
+    {
+      "path": "onset-trials/heroic-16-v033/enemy-map.txt",
+      "rawBytes": 10343,
+      "publicBytes": 11005
+    },
+    {
+      "path": "onset-trials/heroic-16-v033/failure.txt",
+      "rawBytes": 279,
+      "publicBytes": 280
+    },
+    {
+      "path": "onset-trials/heroic-16-v033/loaded-watch-version.txt",
+      "rawBytes": 7,
+      "publicBytes": 7
+    },
+    {
+      "path": "onset-trials/heroic-16-v033/map.txt",
+      "rawBytes": 388,
+      "publicBytes": 395
+    },
+    {
+      "path": "onset-trials/heroic-16-v033/mission-limits.txt",
+      "rawBytes": 110,
+      "publicBytes": 113
+    },
+    {
+      "path": "onset-trials/heroic-16-v033/objectives.json",
+      "rawBytes": 2837,
+      "publicBytes": 2839
+    },
+    {
+      "path": "onset-trials/heroic-16-v033/partial.msav",
+      "rawBytes": 54804,
+      "publicBytes": 54804
+    },
+    {
+      "path": "onset-trials/heroic-16-v033/processor-280-208.mlog",
+      "rawBytes": 111,
+      "publicBytes": 115
+    },
+    {
+      "path": "onset-trials/heroic-16-v033/processor-281-208.mlog",
+      "rawBytes": 94,
+      "publicBytes": 97
+    },
+    {
+      "path": "onset-trials/heroic-16-v033/processor-299-127.mlog",
+      "rawBytes": 111,
+      "publicBytes": 115
+    },
+    {
+      "path": "onset-trials/heroic-16-v033/processor-300-127.mlog",
+      "rawBytes": 157,
+      "publicBytes": 162
+    },
+    {
+      "path": "onset-trials/heroic-16-v033/processor-301-127.mlog",
+      "rawBytes": 118,
+      "publicBytes": 123
+    },
+    {
+      "path": "onset-trials/heroic-16-v033/result.txt",
+      "rawBytes": 904,
+      "publicBytes": 927
+    },
+    {
+      "path": "onset-trials/heroic-16-v033/runtime.txt",
+      "rawBytes": 248,
+      "publicBytes": 243
+    },
+    {
+      "path": "onset-trials/heroic-16-v033/scores-before.txt",
+      "rawBytes": 96,
+      "publicBytes": 95
+    },
+    {
+      "path": "onset-trials/heroic-16-v033/state-audit-source.java",
+      "rawBytes": 3342,
+      "publicBytes": 3342
+    },
+    {
+      "path": "onset-trials/heroic-16-v033/terrain.txt",
+      "rawBytes": 565,
+      "publicBytes": 592
+    },
+    {
+      "path": "onset-trials/heroic-16-v033/trial.csv",
+      "rawBytes": 989,
+      "publicBytes": 1006
+    },
+    {
+      "path": "onset-trials/heroic-17-v033/actions.txt",
+      "rawBytes": 6295,
+      "publicBytes": 6559
+    },
+    {
+      "path": "onset-trials/heroic-17-v033/combat.csv",
+      "rawBytes": 381,
+      "publicBytes": 396
+    },
+    {
+      "path": "onset-trials/heroic-17-v033/console.log",
+      "rawBytes": 3251,
+      "publicBytes": 3251
+    },
+    {
+      "path": "onset-trials/heroic-17-v033/diagnostics.txt",
+      "rawBytes": 14685,
+      "publicBytes": 14819
+    },
+    {
+      "path": "onset-trials/heroic-17-v033/driver-source.java",
+      "rawBytes": 33552,
+      "publicBytes": 33525
+    },
+    {
+      "path": "onset-trials/heroic-17-v033/enemy-map.txt",
+      "rawBytes": 10343,
+      "publicBytes": 11005
+    },
+    {
+      "path": "onset-trials/heroic-17-v033/failure.txt",
+      "rawBytes": 279,
+      "publicBytes": 280
+    },
+    {
+      "path": "onset-trials/heroic-17-v033/loaded-watch-version.txt",
+      "rawBytes": 7,
+      "publicBytes": 7
+    },
+    {
+      "path": "onset-trials/heroic-17-v033/map.txt",
+      "rawBytes": 388,
+      "publicBytes": 395
+    },
+    {
+      "path": "onset-trials/heroic-17-v033/mission-limits.txt",
+      "rawBytes": 110,
+      "publicBytes": 113
+    },
+    {
+      "path": "onset-trials/heroic-17-v033/objectives.json",
+      "rawBytes": 2837,
+      "publicBytes": 2839
+    },
+    {
+      "path": "onset-trials/heroic-17-v033/partial.msav",
+      "rawBytes": 54800,
+      "publicBytes": 54800
+    },
+    {
+      "path": "onset-trials/heroic-17-v033/processor-280-208.mlog",
+      "rawBytes": 111,
+      "publicBytes": 115
+    },
+    {
+      "path": "onset-trials/heroic-17-v033/processor-281-208.mlog",
+      "rawBytes": 94,
+      "publicBytes": 97
+    },
+    {
+      "path": "onset-trials/heroic-17-v033/processor-299-127.mlog",
+      "rawBytes": 111,
+      "publicBytes": 115
+    },
+    {
+      "path": "onset-trials/heroic-17-v033/processor-300-127.mlog",
+      "rawBytes": 157,
+      "publicBytes": 162
+    },
+    {
+      "path": "onset-trials/heroic-17-v033/processor-301-127.mlog",
+      "rawBytes": 118,
+      "publicBytes": 123
+    },
+    {
+      "path": "onset-trials/heroic-17-v033/result.txt",
+      "rawBytes": 906,
+      "publicBytes": 929
+    },
+    {
+      "path": "onset-trials/heroic-17-v033/runtime.txt",
+      "rawBytes": 248,
+      "publicBytes": 243
+    },
+    {
+      "path": "onset-trials/heroic-17-v033/scores-before.txt",
+      "rawBytes": 96,
+      "publicBytes": 95
+    },
+    {
+      "path": "onset-trials/heroic-17-v033/state-audit-source.java",
+      "rawBytes": 3342,
+      "publicBytes": 3342
+    },
+    {
+      "path": "onset-trials/heroic-17-v033/terrain.txt",
+      "rawBytes": 565,
+      "publicBytes": 592
+    },
+    {
+      "path": "onset-trials/heroic-17-v033/trial.csv",
+      "rawBytes": 929,
+      "publicBytes": 945
+    },
+    {
+      "path": "onset-trials/heroic-18-v033/actions.txt",
+      "rawBytes": 6289,
+      "publicBytes": 6553
+    },
+    {
+      "path": "onset-trials/heroic-18-v033/army.csv",
+      "rawBytes": 27097,
+      "publicBytes": 27546
+    },
+    {
+      "path": "onset-trials/heroic-18-v033/checkpoint-900-loaded-world.json",
+      "rawBytes": 133793,
+      "publicBytes": 133795
+    },
+    {
+      "path": "onset-trials/heroic-18-v033/checkpoint-900-tags.json",
+      "rawBytes": 31325,
+      "publicBytes": 31327
+    },
+    {
+      "path": "onset-trials/heroic-18-v033/checkpoint-900-world.json",
+      "rawBytes": 133793,
+      "publicBytes": 133795
+    },
+    {
+      "path": "onset-trials/heroic-18-v033/checkpoint-900.msav",
+      "rawBytes": 55010,
+      "publicBytes": 55010
+    },
+    {
+      "path": "onset-trials/heroic-18-v033/checkpoints.txt",
+      "rawBytes": 110,
+      "publicBytes": 111
+    },
+    {
+      "path": "onset-trials/heroic-18-v033/combat.csv",
+      "rawBytes": 1149,
+      "publicBytes": 1191
+    },
+    {
+      "path": "onset-trials/heroic-18-v033/console.log",
+      "rawBytes": 5954,
+      "publicBytes": 5954
+    },
+    {
+      "path": "onset-trials/heroic-18-v033/core-health.csv",
+      "rawBytes": 1252,
+      "publicBytes": 1310
+    },
+    {
+      "path": "onset-trials/heroic-18-v033/diagnostics.txt",
+      "rawBytes": 48135,
+      "publicBytes": 48575
+    },
+    {
+      "path": "onset-trials/heroic-18-v033/driver-source.java",
+      "rawBytes": 33891,
+      "publicBytes": 33864
+    },
+    {
+      "path": "onset-trials/heroic-18-v033/end.msav",
+      "rawBytes": 54821,
+      "publicBytes": 54821
+    },
+    {
+      "path": "onset-trials/heroic-18-v033/enemy-map.txt",
+      "rawBytes": 10343,
+      "publicBytes": 11005
+    },
+    {
+      "path": "onset-trials/heroic-18-v033/final-tags.json",
+      "rawBytes": 30449,
+      "publicBytes": 30451
+    },
+    {
+      "path": "onset-trials/heroic-18-v033/final-world.json",
+      "rawBytes": 123472,
+      "publicBytes": 123474
+    },
+    {
+      "path": "onset-trials/heroic-18-v033/loaded-watch-version.txt",
+      "rawBytes": 7,
+      "publicBytes": 7
+    },
+    {
+      "path": "onset-trials/heroic-18-v033/map.txt",
+      "rawBytes": 388,
+      "publicBytes": 395
+    },
+    {
+      "path": "onset-trials/heroic-18-v033/mission-limits.txt",
+      "rawBytes": 110,
+      "publicBytes": 113
+    },
+    {
+      "path": "onset-trials/heroic-18-v033/objectives.json",
+      "rawBytes": 2837,
+      "publicBytes": 2839
+    },
+    {
+      "path": "onset-trials/heroic-18-v033/player-losses.csv",
+      "rawBytes": 1708,
+      "publicBytes": 1770
+    },
+    {
+      "path": "onset-trials/heroic-18-v033/processor-280-208.mlog",
+      "rawBytes": 111,
+      "publicBytes": 115
+    },
+    {
+      "path": "onset-trials/heroic-18-v033/processor-281-208.mlog",
+      "rawBytes": 94,
+      "publicBytes": 97
+    },
+    {
+      "path": "onset-trials/heroic-18-v033/processor-299-127.mlog",
+      "rawBytes": 111,
+      "publicBytes": 115
+    },
+    {
+      "path": "onset-trials/heroic-18-v033/processor-300-127.mlog",
+      "rawBytes": 157,
+      "publicBytes": 162
+    },
+    {
+      "path": "onset-trials/heroic-18-v033/processor-301-127.mlog",
+      "rawBytes": 118,
+      "publicBytes": 123
+    },
+    {
+      "path": "onset-trials/heroic-18-v033/result.txt",
+      "rawBytes": 644,
+      "publicBytes": 666
+    },
+    {
+      "path": "onset-trials/heroic-18-v033/rules-before-save.json",
+      "rawBytes": 38867,
+      "publicBytes": 38869
+    },
+    {
+      "path": "onset-trials/heroic-18-v033/runtime.txt",
+      "rawBytes": 248,
+      "publicBytes": 243
+    },
+    {
+      "path": "onset-trials/heroic-18-v033/save-status.txt",
+      "rawBytes": 64,
+      "publicBytes": 65
+    },
+    {
+      "path": "onset-trials/heroic-18-v033/scores-before.txt",
+      "rawBytes": 96,
+      "publicBytes": 95
+    },
+    {
+      "path": "onset-trials/heroic-18-v033/state-audit-source.java",
+      "rawBytes": 3342,
+      "publicBytes": 3342
+    },
+    {
+      "path": "onset-trials/heroic-18-v033/terrain.txt",
+      "rawBytes": 565,
+      "publicBytes": 592
+    },
+    {
+      "path": "onset-trials/heroic-18-v033/trial.csv",
+      "rawBytes": 2674,
+      "publicBytes": 2717
+    },
+    {
+      "path": "onset-trials/heroic-19-v033/actions.txt",
+      "rawBytes": 6210,
+      "publicBytes": 6472
+    },
+    {
+      "path": "onset-trials/heroic-19-v033/combat.csv",
+      "rawBytes": 36,
+      "publicBytes": 38
+    },
+    {
+      "path": "onset-trials/heroic-19-v033/console.log",
+      "rawBytes": 835,
+      "publicBytes": 835
+    },
+    {
+      "path": "onset-trials/heroic-19-v033/core-health.csv",
+      "rawBytes": 38,
+      "publicBytes": 40
+    },
+    {
+      "path": "onset-trials/heroic-19-v033/diagnostics.txt",
+      "rawBytes": 272,
+      "publicBytes": 274
+    },
+    {
+      "path": "onset-trials/heroic-19-v033/driver-source.java",
+      "rawBytes": 34438,
+      "publicBytes": 34411
+    },
+    {
+      "path": "onset-trials/heroic-19-v033/enemy-map.txt",
+      "rawBytes": 10343,
+      "publicBytes": 11005
+    },
+    {
+      "path": "onset-trials/heroic-19-v033/failure.txt",
+      "rawBytes": 279,
+      "publicBytes": 280
+    },
+    {
+      "path": "onset-trials/heroic-19-v033/loaded-watch-version.txt",
+      "rawBytes": 7,
+      "publicBytes": 7
+    },
+    {
+      "path": "onset-trials/heroic-19-v033/map.txt",
+      "rawBytes": 388,
+      "publicBytes": 395
+    },
+    {
+      "path": "onset-trials/heroic-19-v033/mission-limits.txt",
+      "rawBytes": 110,
+      "publicBytes": 113
+    },
+    {
+      "path": "onset-trials/heroic-19-v033/objectives.json",
+      "rawBytes": 2837,
+      "publicBytes": 2839
+    },
+    {
+      "path": "onset-trials/heroic-19-v033/partial.msav",
+      "rawBytes": 48726,
+      "publicBytes": 48726
+    },
+    {
+      "path": "onset-trials/heroic-19-v033/processor-280-208.mlog",
+      "rawBytes": 111,
+      "publicBytes": 115
+    },
+    {
+      "path": "onset-trials/heroic-19-v033/processor-281-208.mlog",
+      "rawBytes": 94,
+      "publicBytes": 97
+    },
+    {
+      "path": "onset-trials/heroic-19-v033/processor-299-127.mlog",
+      "rawBytes": 111,
+      "publicBytes": 115
+    },
+    {
+      "path": "onset-trials/heroic-19-v033/processor-300-127.mlog",
+      "rawBytes": 157,
+      "publicBytes": 162
+    },
+    {
+      "path": "onset-trials/heroic-19-v033/processor-301-127.mlog",
+      "rawBytes": 118,
+      "publicBytes": 123
+    },
+    {
+      "path": "onset-trials/heroic-19-v033/result.txt",
+      "rawBytes": 886,
+      "publicBytes": 909
+    },
+    {
+      "path": "onset-trials/heroic-19-v033/runtime.txt",
+      "rawBytes": 248,
+      "publicBytes": 243
+    },
+    {
+      "path": "onset-trials/heroic-19-v033/scores-before.txt",
+      "rawBytes": 96,
+      "publicBytes": 95
+    },
+    {
+      "path": "onset-trials/heroic-19-v033/state-audit-source.java",
+      "rawBytes": 3342,
+      "publicBytes": 3342
+    },
+    {
+      "path": "onset-trials/heroic-19-v033/terrain.txt",
+      "rawBytes": 565,
+      "publicBytes": 592
+    },
+    {
+      "path": "onset-trials/heroic-19-v033/trial.csv",
+      "rawBytes": 202,
+      "publicBytes": 205
+    },
+    {
+      "path": "onset-trials/heroic-20-v033/actions.txt",
+      "rawBytes": 6420,
+      "publicBytes": 6689
+    },
+    {
+      "path": "onset-trials/heroic-20-v033/army.csv",
+      "rawBytes": 11510,
+      "publicBytes": 11685
+    },
+    {
+      "path": "onset-trials/heroic-20-v033/checkpoint-900-loaded-world.json",
+      "rawBytes": 124056,
+      "publicBytes": 124058
+    },
+    {
+      "path": "onset-trials/heroic-20-v033/checkpoint-900-tags.json",
+      "rawBytes": 31905,
+      "publicBytes": 31907
+    },
+    {
+      "path": "onset-trials/heroic-20-v033/checkpoint-900-world.json",
+      "rawBytes": 124056,
+      "publicBytes": 124058
+    },
+    {
+      "path": "onset-trials/heroic-20-v033/checkpoint-900.msav",
+      "rawBytes": 55359,
+      "publicBytes": 55359
+    },
+    {
+      "path": "onset-trials/heroic-20-v033/checkpoints.txt",
+      "rawBytes": 110,
+      "publicBytes": 111
+    },
+    {
+      "path": "onset-trials/heroic-20-v033/combat.csv",
+      "rawBytes": 575,
+      "publicBytes": 597
+    },
+    {
+      "path": "onset-trials/heroic-20-v033/console.log",
+      "rawBytes": 3686,
+      "publicBytes": 3686
+    },
+    {
+      "path": "onset-trials/heroic-20-v033/core-health.csv",
+      "rawBytes": 576,
+      "publicBytes": 603
+    },
+    {
+      "path": "onset-trials/heroic-20-v033/diagnostics.txt",
+      "rawBytes": 25596,
+      "publicBytes": 25835
+    },
+    {
+      "path": "onset-trials/heroic-20-v033/driver-source.java",
+      "rawBytes": 34438,
+      "publicBytes": 34411
+    },
+    {
+      "path": "onset-trials/heroic-20-v033/end.msav",
+      "rawBytes": 55404,
+      "publicBytes": 55404
+    },
+    {
+      "path": "onset-trials/heroic-20-v033/enemy-map.txt",
+      "rawBytes": 10343,
+      "publicBytes": 11005
+    },
+    {
+      "path": "onset-trials/heroic-20-v033/final-tags.json",
+      "rawBytes": 32252,
+      "publicBytes": 32254
+    },
+    {
+      "path": "onset-trials/heroic-20-v033/final-world.json",
+      "rawBytes": 127135,
+      "publicBytes": 127137
+    },
+    {
+      "path": "onset-trials/heroic-20-v033/fresh-readback/driver-source.java",
+      "rawBytes": 4029,
+      "publicBytes": 4044
+    },
+    {
+      "path": "onset-trials/heroic-20-v033/fresh-readback/loaded-tags.json",
+      "rawBytes": 32252,
+      "publicBytes": 32254
+    },
+    {
+      "path": "onset-trials/heroic-20-v033/fresh-readback/loaded-world.json",
+      "rawBytes": 127135,
+      "publicBytes": 127137
+    },
+    {
+      "path": "onset-trials/heroic-20-v033/fresh-readback/result.txt",
+      "rawBytes": 546,
+      "publicBytes": 552
+    },
+    {
+      "path": "onset-trials/heroic-20-v033/fresh-readback/state-audit-source.java",
+      "rawBytes": 3342,
+      "publicBytes": 3342
+    },
+    {
+      "path": "onset-trials/heroic-20-v033/fresh-readback-console.log",
+      "rawBytes": 582,
+      "publicBytes": 567
+    },
+    {
+      "path": "onset-trials/heroic-20-v033/loaded-watch-version.txt",
+      "rawBytes": 7,
+      "publicBytes": 7
+    },
+    {
+      "path": "onset-trials/heroic-20-v033/map.txt",
+      "rawBytes": 388,
+      "publicBytes": 395
+    },
+    {
+      "path": "onset-trials/heroic-20-v033/mission-limits.txt",
+      "rawBytes": 110,
+      "publicBytes": 113
+    },
+    {
+      "path": "onset-trials/heroic-20-v033/objectives.json",
+      "rawBytes": 2837,
+      "publicBytes": 2839
+    },
+    {
+      "path": "onset-trials/heroic-20-v033/processor-280-208.mlog",
+      "rawBytes": 111,
+      "publicBytes": 115
+    },
+    {
+      "path": "onset-trials/heroic-20-v033/processor-281-208.mlog",
+      "rawBytes": 94,
+      "publicBytes": 97
+    },
+    {
+      "path": "onset-trials/heroic-20-v033/processor-299-127.mlog",
+      "rawBytes": 111,
+      "publicBytes": 115
+    },
+    {
+      "path": "onset-trials/heroic-20-v033/processor-300-127.mlog",
+      "rawBytes": 157,
+      "publicBytes": 162
+    },
+    {
+      "path": "onset-trials/heroic-20-v033/processor-301-127.mlog",
+      "rawBytes": 118,
+      "publicBytes": 123
+    },
+    {
+      "path": "onset-trials/heroic-20-v033/QA_REPORT.md",
+      "rawBytes": 3585,
+      "publicBytes": 3617
+    },
+    {
+      "path": "onset-trials/heroic-20-v033/read-only-console.log",
+      "rawBytes": 22456,
+      "publicBytes": 22451
+    },
+    {
+      "path": "onset-trials/heroic-20-v033/result.txt",
+      "rawBytes": 512,
+      "publicBytes": 534
+    },
+    {
+      "path": "onset-trials/heroic-20-v033/rules-before-save.json",
+      "rawBytes": 40674,
+      "publicBytes": 40676
+    },
+    {
+      "path": "onset-trials/heroic-20-v033/runtime.txt",
+      "rawBytes": 248,
+      "publicBytes": 243
+    },
+    {
+      "path": "onset-trials/heroic-20-v033/save-status.txt",
+      "rawBytes": 213,
+      "publicBytes": 214
+    },
+    {
+      "path": "onset-trials/heroic-20-v033/scores-before.txt",
+      "rawBytes": 96,
+      "publicBytes": 95
+    },
+    {
+      "path": "onset-trials/heroic-20-v033/state-audit-source.java",
+      "rawBytes": 3342,
+      "publicBytes": 3342
+    },
+    {
+      "path": "onset-trials/heroic-20-v033/terrain.txt",
+      "rawBytes": 565,
+      "publicBytes": 592
+    },
+    {
+      "path": "onset-trials/heroic-20-v033/trial.csv",
+      "rawBytes": 1379,
+      "publicBytes": 1402
+    },
+    {
+      "path": "aegis-trials/normal-03-v033/actions.txt",
+      "rawBytes": 3965,
+      "publicBytes": 4130
+    },
+    {
+      "path": "aegis-trials/normal-03-v033/combat.csv",
+      "rawBytes": 36,
+      "publicBytes": 38
+    },
+    {
+      "path": "aegis-trials/normal-03-v033/console.log",
+      "rawBytes": 852,
+      "publicBytes": 852
+    },
+    {
+      "path": "aegis-trials/normal-03-v033/core-health.csv",
+      "rawBytes": 38,
+      "publicBytes": 40
+    },
+    {
+      "path": "aegis-trials/normal-03-v033/diagnostics.txt",
+      "rawBytes": 2278,
+      "publicBytes": 2302
+    },
+    {
+      "path": "aegis-trials/normal-03-v033/driver-source.java",
+      "rawBytes": 36051,
+      "publicBytes": 36024
+    },
+    {
+      "path": "aegis-trials/normal-03-v033/enemy-map.txt",
+      "rawBytes": 4995,
+      "publicBytes": 5349
+    },
+    {
+      "path": "aegis-trials/normal-03-v033/failure.txt",
+      "rawBytes": 288,
+      "publicBytes": 289
+    },
+    {
+      "path": "aegis-trials/normal-03-v033/inherited-onset.txt",
+      "rawBytes": 29,
+      "publicBytes": 32
+    },
+    {
+      "path": "aegis-trials/normal-03-v033/loaded-watch-version.txt",
+      "rawBytes": 7,
+      "publicBytes": 7
+    },
+    {
+      "path": "aegis-trials/normal-03-v033/map.txt",
+      "rawBytes": 8241,
+      "publicBytes": 8421
+    },
+    {
+      "path": "aegis-trials/normal-03-v033/mission-limits.txt",
+      "rawBytes": 110,
+      "publicBytes": 113
+    },
+    {
+      "path": "aegis-trials/normal-03-v033/objectives.json",
+      "rawBytes": 164,
+      "publicBytes": 166
+    },
+    {
+      "path": "aegis-trials/normal-03-v033/partial.msav",
+      "rawBytes": 46063,
+      "publicBytes": 46063
+    },
+    {
+      "path": "aegis-trials/normal-03-v033/processor-187-77.mlog",
+      "rawBytes": 121,
+      "publicBytes": 126
+    },
+    {
+      "path": "aegis-trials/normal-03-v033/processor-189-77.mlog",
+      "rawBytes": 77,
+      "publicBytes": 79
+    },
+    {
+      "path": "aegis-trials/normal-03-v033/result.txt",
+      "rawBytes": 843,
+      "publicBytes": 865
+    },
+    {
+      "path": "aegis-trials/normal-03-v033/runtime.txt",
+      "rawBytes": 248,
+      "publicBytes": 243
+    },
+    {
+      "path": "aegis-trials/normal-03-v033/scores-before.txt",
+      "rawBytes": 101,
+      "publicBytes": 100
+    },
+    {
+      "path": "aegis-trials/normal-03-v033/state-audit-source.java",
+      "rawBytes": 3342,
+      "publicBytes": 3342
+    },
+    {
+      "path": "aegis-trials/normal-03-v033/terrain.txt",
+      "rawBytes": 4198,
+      "publicBytes": 4396
+    },
+    {
+      "path": "aegis-trials/normal-03-v033/trial.csv",
+      "rawBytes": 210,
+      "publicBytes": 213
+    },
+    {
+      "path": "aegis-trials/normal-04-v033/actions.txt",
+      "rawBytes": 5210,
+      "publicBytes": 5422
+    },
+    {
+      "path": "aegis-trials/normal-04-v033/checkpoint-900-loaded-world.json",
+      "rawBytes": 105670,
+      "publicBytes": 105672
+    },
+    {
+      "path": "aegis-trials/normal-04-v033/checkpoint-900-tags.json",
+      "rawBytes": 35316,
+      "publicBytes": 35318
+    },
+    {
+      "path": "aegis-trials/normal-04-v033/checkpoint-900-world.json",
+      "rawBytes": 105670,
+      "publicBytes": 105672
+    },
+    {
+      "path": "aegis-trials/normal-04-v033/checkpoint-900.msav",
+      "rawBytes": 50800,
+      "publicBytes": 50800
+    },
+    {
+      "path": "aegis-trials/normal-04-v033/checkpoints.txt",
+      "rawBytes": 109,
+      "publicBytes": 110
+    },
+    {
+      "path": "aegis-trials/normal-04-v033/combat.csv",
+      "rawBytes": 864,
+      "publicBytes": 897
+    },
+    {
+      "path": "aegis-trials/normal-04-v033/console.log",
+      "rawBytes": 5716,
+      "publicBytes": 5716
+    },
+    {
+      "path": "aegis-trials/normal-04-v033/core-health.csv",
+      "rawBytes": 681,
+      "publicBytes": 713
+    },
+    {
+      "path": "aegis-trials/normal-04-v033/diagnostics.txt",
+      "rawBytes": 58689,
+      "publicBytes": 59263
+    },
+    {
+      "path": "aegis-trials/normal-04-v033/driver-source.java",
+      "rawBytes": 36534,
+      "publicBytes": 36507
+    },
+    {
+      "path": "aegis-trials/normal-04-v033/end.msav",
+      "rawBytes": 51175,
+      "publicBytes": 51175
+    },
+    {
+      "path": "aegis-trials/normal-04-v033/enemy-map.txt",
+      "rawBytes": 4995,
+      "publicBytes": 5349
+    },
+    {
+      "path": "aegis-trials/normal-04-v033/final-tags.json",
+      "rawBytes": 35068,
+      "publicBytes": 35070
+    },
+    {
+      "path": "aegis-trials/normal-04-v033/final-world.json",
+      "rawBytes": 123616,
+      "publicBytes": 123618
+    },
+    {
+      "path": "aegis-trials/normal-04-v033/inherited-onset.txt",
+      "rawBytes": 29,
+      "publicBytes": 32
+    },
+    {
+      "path": "aegis-trials/normal-04-v033/loaded-watch-version.txt",
+      "rawBytes": 7,
+      "publicBytes": 7
+    },
+    {
+      "path": "aegis-trials/normal-04-v033/map.txt",
+      "rawBytes": 8241,
+      "publicBytes": 8421
+    },
+    {
+      "path": "aegis-trials/normal-04-v033/mission-limits.txt",
+      "rawBytes": 110,
+      "publicBytes": 113
+    },
+    {
+      "path": "aegis-trials/normal-04-v033/objectives.json",
+      "rawBytes": 164,
+      "publicBytes": 166
+    },
+    {
+      "path": "aegis-trials/normal-04-v033/player-losses.csv",
+      "rawBytes": 4025,
+      "publicBytes": 4182
+    },
+    {
+      "path": "aegis-trials/normal-04-v033/processor-187-77.mlog",
+      "rawBytes": 121,
+      "publicBytes": 126
+    },
+    {
+      "path": "aegis-trials/normal-04-v033/processor-189-77.mlog",
+      "rawBytes": 77,
+      "publicBytes": 79
+    },
+    {
+      "path": "aegis-trials/normal-04-v033/result.txt",
+      "rawBytes": 531,
+      "publicBytes": 553
+    },
+    {
+      "path": "aegis-trials/normal-04-v033/rules-before-save.json",
+      "rawBytes": 40612,
+      "publicBytes": 40614
+    },
+    {
+      "path": "aegis-trials/normal-04-v033/runtime.txt",
+      "rawBytes": 248,
+      "publicBytes": 243
+    },
+    {
+      "path": "aegis-trials/normal-04-v033/save-status.txt",
+      "rawBytes": 64,
+      "publicBytes": 65
+    },
+    {
+      "path": "aegis-trials/normal-04-v033/scores-before.txt",
+      "rawBytes": 101,
+      "publicBytes": 100
+    },
+    {
+      "path": "aegis-trials/normal-04-v033/state-audit-source.java",
+      "rawBytes": 3342,
+      "publicBytes": 3342
+    },
+    {
+      "path": "aegis-trials/normal-04-v033/terrain.txt",
+      "rawBytes": 4198,
+      "publicBytes": 4396
+    },
+    {
+      "path": "aegis-trials/normal-04-v033/trial.csv",
+      "rawBytes": 1905,
+      "publicBytes": 1939
+    },
+    {
+      "path": "aegis-trials/normal-05-v033/actions.txt",
+      "rawBytes": 3995,
+      "publicBytes": 4162
+    },
+    {
+      "path": "aegis-trials/normal-05-v033/combat.csv",
+      "rawBytes": 36,
+      "publicBytes": 38
+    },
+    {
+      "path": "aegis-trials/normal-05-v033/console.log",
+      "rawBytes": 643,
+      "publicBytes": 643
+    },
+    {
+      "path": "aegis-trials/normal-05-v033/core-health.csv",
+      "rawBytes": 38,
+      "publicBytes": 40
+    },
+    {
+      "path": "aegis-trials/normal-05-v033/diagnostics.txt",
+      "rawBytes": 2278,
+      "publicBytes": 2302
+    },
+    {
+      "path": "aegis-trials/normal-05-v033/driver-source.java",
+      "rawBytes": 36771,
+      "publicBytes": 36744
+    },
+    {
+      "path": "aegis-trials/normal-05-v033/enemy-map.txt",
+      "rawBytes": 4995,
+      "publicBytes": 5349
+    },
+    {
+      "path": "aegis-trials/normal-05-v033/failure.txt",
+      "rawBytes": 72,
+      "publicBytes": 73
+    },
+    {
+      "path": "aegis-trials/normal-05-v033/inherited-onset.txt",
+      "rawBytes": 29,
+      "publicBytes": 32
+    },
+    {
+      "path": "aegis-trials/normal-05-v033/loaded-watch-version.txt",
+      "rawBytes": 7,
+      "publicBytes": 7
+    },
+    {
+      "path": "aegis-trials/normal-05-v033/map.txt",
+      "rawBytes": 8241,
+      "publicBytes": 8421
+    },
+    {
+      "path": "aegis-trials/normal-05-v033/mission-limits.txt",
+      "rawBytes": 110,
+      "publicBytes": 113
+    },
+    {
+      "path": "aegis-trials/normal-05-v033/objectives.json",
+      "rawBytes": 164,
+      "publicBytes": 166
+    },
+    {
+      "path": "aegis-trials/normal-05-v033/partial.msav",
+      "rawBytes": 46125,
+      "publicBytes": 46125
+    },
+    {
+      "path": "aegis-trials/normal-05-v033/processor-187-77.mlog",
+      "rawBytes": 121,
+      "publicBytes": 126
+    },
+    {
+      "path": "aegis-trials/normal-05-v033/processor-189-77.mlog",
+      "rawBytes": 77,
+      "publicBytes": 79
+    },
+    {
+      "path": "aegis-trials/normal-05-v033/result.txt",
+      "rawBytes": 627,
+      "publicBytes": 649
+    },
+    {
+      "path": "aegis-trials/normal-05-v033/runtime.txt",
+      "rawBytes": 248,
+      "publicBytes": 243
+    },
+    {
+      "path": "aegis-trials/normal-05-v033/scores-before.txt",
+      "rawBytes": 101,
+      "publicBytes": 100
+    },
+    {
+      "path": "aegis-trials/normal-05-v033/state-audit-source.java",
+      "rawBytes": 3342,
+      "publicBytes": 3342
+    },
+    {
+      "path": "aegis-trials/normal-05-v033/terrain.txt",
+      "rawBytes": 4198,
+      "publicBytes": 4396
+    },
+    {
+      "path": "aegis-trials/normal-05-v033/trial.csv",
+      "rawBytes": 210,
+      "publicBytes": 213
+    },
+    {
+      "path": "aegis-trials/normal-06-v033/actions.txt",
+      "rawBytes": 5319,
+      "publicBytes": 5535
+    },
+    {
+      "path": "aegis-trials/normal-06-v033/army.csv",
+      "rawBytes": 3898,
+      "publicBytes": 3977
+    },
+    {
+      "path": "aegis-trials/normal-06-v033/checkpoint-900-loaded-world.json",
+      "rawBytes": 103952,
+      "publicBytes": 103954
+    },
+    {
+      "path": "aegis-trials/normal-06-v033/checkpoint-900-tags.json",
+      "rawBytes": 31271,
+      "publicBytes": 31273
+    },
+    {
+      "path": "aegis-trials/normal-06-v033/checkpoint-900-world.json",
+      "rawBytes": 103952,
+      "publicBytes": 103954
+    },
+    {
+      "path": "aegis-trials/normal-06-v033/checkpoint-900.msav",
+      "rawBytes": 50388,
+      "publicBytes": 50388
+    },
+    {
+      "path": "aegis-trials/normal-06-v033/checkpoints.txt",
+      "rawBytes": 109,
+      "publicBytes": 110
+    },
+    {
+      "path": "aegis-trials/normal-06-v033/combat.csv",
+      "rawBytes": 978,
+      "publicBytes": 1015
+    },
+    {
+      "path": "aegis-trials/normal-06-v033/console.log",
+      "rawBytes": 6254,
+      "publicBytes": 6254
+    },
+    {
+      "path": "aegis-trials/normal-06-v033/core-health.csv",
+      "rawBytes": 768,
+      "publicBytes": 804
+    },
+    {
+      "path": "aegis-trials/normal-06-v033/diagnostics.txt",
+      "rawBytes": 63605,
+      "publicBytes": 64216
+    },
+    {
+      "path": "aegis-trials/normal-06-v033/driver-source.java",
+      "rawBytes": 36771,
+      "publicBytes": 36744
+    },
+    {
+      "path": "aegis-trials/normal-06-v033/end.msav",
+      "rawBytes": 50824,
+      "publicBytes": 50824
+    },
+    {
+      "path": "aegis-trials/normal-06-v033/enemy-map.txt",
+      "rawBytes": 4995,
+      "publicBytes": 5349
+    },
+    {
+      "path": "aegis-trials/normal-06-v033/final-tags.json",
+      "rawBytes": 31793,
+      "publicBytes": 31795
+    },
+    {
+      "path": "aegis-trials/normal-06-v033/final-world.json",
+      "rawBytes": 111117,
+      "publicBytes": 111119
+    },
+    {
+      "path": "aegis-trials/normal-06-v033/inherited-onset.txt",
+      "rawBytes": 29,
+      "publicBytes": 32
+    },
+    {
+      "path": "aegis-trials/normal-06-v033/loaded-watch-version.txt",
+      "rawBytes": 7,
+      "publicBytes": 7
+    },
+    {
+      "path": "aegis-trials/normal-06-v033/map.txt",
+      "rawBytes": 8241,
+      "publicBytes": 8421
+    },
+    {
+      "path": "aegis-trials/normal-06-v033/mission-limits.txt",
+      "rawBytes": 110,
+      "publicBytes": 113
+    },
+    {
+      "path": "aegis-trials/normal-06-v033/objectives.json",
+      "rawBytes": 164,
+      "publicBytes": 166
+    },
+    {
+      "path": "aegis-trials/normal-06-v033/player-losses.csv",
+      "rawBytes": 5071,
+      "publicBytes": 5260
+    },
+    {
+      "path": "aegis-trials/normal-06-v033/processor-187-77.mlog",
+      "rawBytes": 121,
+      "publicBytes": 126
+    },
+    {
+      "path": "aegis-trials/normal-06-v033/processor-189-77.mlog",
+      "rawBytes": 77,
+      "publicBytes": 79
+    },
+    {
+      "path": "aegis-trials/normal-06-v033/result.txt",
+      "rawBytes": 653,
+      "publicBytes": 675
+    },
+    {
+      "path": "aegis-trials/normal-06-v033/rules-before-save.json",
+      "rawBytes": 37337,
+      "publicBytes": 37339
+    },
+    {
+      "path": "aegis-trials/normal-06-v033/runtime.txt",
+      "rawBytes": 248,
+      "publicBytes": 243
+    },
+    {
+      "path": "aegis-trials/normal-06-v033/save-status.txt",
+      "rawBytes": 64,
+      "publicBytes": 65
+    },
+    {
+      "path": "aegis-trials/normal-06-v033/scores-before.txt",
+      "rawBytes": 101,
+      "publicBytes": 100
+    },
+    {
+      "path": "aegis-trials/normal-06-v033/snapshot900-read/driver-source.java",
+      "rawBytes": 3814,
+      "publicBytes": 3804
+    },
+    {
+      "path": "aegis-trials/normal-06-v033/snapshot900-read/result.txt",
+      "rawBytes": 23206,
+      "publicBytes": 23460
+    },
+    {
+      "path": "aegis-trials/normal-06-v033/state-audit-source.java",
+      "rawBytes": 3342,
+      "publicBytes": 3342
+    },
+    {
+      "path": "aegis-trials/normal-06-v033/terrain.txt",
+      "rawBytes": 4198,
+      "publicBytes": 4396
+    },
+    {
+      "path": "aegis-trials/normal-06-v033/trial.csv",
+      "rawBytes": 2145,
+      "publicBytes": 2183
+    },
+    {
+      "path": "aegis-trials/normal-07-v033/actions.txt",
+      "rawBytes": 5319,
+      "publicBytes": 5535
+    },
+    {
+      "path": "aegis-trials/normal-07-v033/army.csv",
+      "rawBytes": 34233,
+      "publicBytes": 34886
+    },
+    {
+      "path": "aegis-trials/normal-07-v033/checkpoint-2400-loaded-world.json",
+      "rawBytes": 128811,
+      "publicBytes": 128813
+    },
+    {
+      "path": "aegis-trials/normal-07-v033/checkpoint-2400-tags.json",
+      "rawBytes": 36011,
+      "publicBytes": 36013
+    },
+    {
+      "path": "aegis-trials/normal-07-v033/checkpoint-2400-world.json",
+      "rawBytes": 128811,
+      "publicBytes": 128813
+    },
+    {
+      "path": "aegis-trials/normal-07-v033/checkpoint-2400.msav",
+      "rawBytes": 51756,
+      "publicBytes": 51756
+    },
+    {
+      "path": "aegis-trials/normal-07-v033/checkpoint-900-loaded-world.json",
+      "rawBytes": 103208,
+      "publicBytes": 103210
+    },
+    {
+      "path": "aegis-trials/normal-07-v033/checkpoint-900-tags.json",
+      "rawBytes": 31271,
+      "publicBytes": 31273
+    },
+    {
+      "path": "aegis-trials/normal-07-v033/checkpoint-900-world.json",
+      "rawBytes": 103208,
+      "publicBytes": 103210
+    },
+    {
+      "path": "aegis-trials/normal-07-v033/checkpoint-900.msav",
+      "rawBytes": 50344,
+      "publicBytes": 50344
+    },
+    {
+      "path": "aegis-trials/normal-07-v033/checkpoints.txt",
+      "rawBytes": 218,
+      "publicBytes": 220
+    },
+    {
+      "path": "aegis-trials/normal-07-v033/combat.csv",
+      "rawBytes": 1675,
+      "publicBytes": 1737
+    },
+    {
+      "path": "aegis-trials/normal-07-v033/core-health.csv",
+      "rawBytes": 1341,
+      "publicBytes": 1403
+    },
+    {
+      "path": "aegis-trials/normal-07-v033/diagnostics.txt",
+      "rawBytes": 122731,
+      "publicBytes": 123868
+    },
+    {
+      "path": "aegis-trials/normal-07-v033/driver-source.java",
+      "rawBytes": 36994,
+      "publicBytes": 36967
+    },
+    {
+      "path": "aegis-trials/normal-07-v033/end.msav",
+      "rawBytes": 51561,
+      "publicBytes": 51561
+    },
+    {
+      "path": "aegis-trials/normal-07-v033/enemy-map.txt",
+      "rawBytes": 4995,
+      "publicBytes": 5349
+    },
+    {
+      "path": "aegis-trials/normal-07-v033/final-tags.json",
+      "rawBytes": 36012,
+      "publicBytes": 36014
+    },
+    {
+      "path": "aegis-trials/normal-07-v033/final-world.json",
+      "rawBytes": 130938,
+      "publicBytes": 130940
+    },
+    {
+      "path": "aegis-trials/normal-07-v033/inherited-onset.txt",
+      "rawBytes": 29,
+      "publicBytes": 32
+    },
+    {
+      "path": "aegis-trials/normal-07-v033/loaded-watch-version.txt",
+      "rawBytes": 7,
+      "publicBytes": 7
+    },
+    {
+      "path": "aegis-trials/normal-07-v033/map.txt",
+      "rawBytes": 8241,
+      "publicBytes": 8421
+    },
+    {
+      "path": "aegis-trials/normal-07-v033/mission-limits.txt",
+      "rawBytes": 110,
+      "publicBytes": 113
+    },
+    {
+      "path": "aegis-trials/normal-07-v033/objectives.json",
+      "rawBytes": 164,
+      "publicBytes": 166
+    },
+    {
+      "path": "aegis-trials/normal-07-v033/processor-187-77.mlog",
+      "rawBytes": 121,
+      "publicBytes": 126
+    },
+    {
+      "path": "aegis-trials/normal-07-v033/processor-189-77.mlog",
+      "rawBytes": 77,
+      "publicBytes": 79
+    },
+    {
+      "path": "aegis-trials/normal-07-v033/result.txt",
+      "rawBytes": 504,
+      "publicBytes": 526
+    },
+    {
+      "path": "aegis-trials/normal-07-v033/rules-before-save.json",
+      "rawBytes": 41556,
+      "publicBytes": 41558
+    },
+    {
+      "path": "aegis-trials/normal-07-v033/runtime.txt",
+      "rawBytes": 248,
+      "publicBytes": 243
+    },
+    {
+      "path": "aegis-trials/normal-07-v033/save-status.txt",
+      "rawBytes": 64,
+      "publicBytes": 65
+    },
+    {
+      "path": "aegis-trials/normal-07-v033/scores-before.txt",
+      "rawBytes": 101,
+      "publicBytes": 100
+    },
+    {
+      "path": "aegis-trials/normal-07-v033/snapshot2400-read/driver-source.java",
+      "rawBytes": 3814,
+      "publicBytes": 3804
+    },
+    {
+      "path": "aegis-trials/normal-07-v033/snapshot2400-read/result.txt",
+      "rawBytes": 26658,
+      "publicBytes": 26953
+    },
+    {
+      "path": "aegis-trials/normal-07-v033/state-audit-source.java",
+      "rawBytes": 3342,
+      "publicBytes": 3342
+    },
+    {
+      "path": "aegis-trials/normal-07-v033/terrain.txt",
+      "rawBytes": 4198,
+      "publicBytes": 4396
+    },
+    {
+      "path": "aegis-trials/normal-07-v033/trial.csv",
+      "rawBytes": 3845,
+      "publicBytes": 3908
+    },
+    {
+      "path": "aegis-trials/normal-08-v033/actions.txt",
+      "rawBytes": 5319,
+      "publicBytes": 5535
+    },
+    {
+      "path": "aegis-trials/normal-08-v033/army.csv",
+      "rawBytes": 12343,
+      "publicBytes": 12561
+    },
+    {
+      "path": "aegis-trials/normal-08-v033/checkpoint-900-loaded-world.json",
+      "rawBytes": 103208,
+      "publicBytes": 103210
+    },
+    {
+      "path": "aegis-trials/normal-08-v033/checkpoint-900-tags.json",
+      "rawBytes": 31271,
+      "publicBytes": 31273
+    },
+    {
+      "path": "aegis-trials/normal-08-v033/checkpoint-900-world.json",
+      "rawBytes": 103208,
+      "publicBytes": 103210
+    },
+    {
+      "path": "aegis-trials/normal-08-v033/checkpoint-900.msav",
+      "rawBytes": 50389,
+      "publicBytes": 50389
+    },
+    {
+      "path": "aegis-trials/normal-08-v033/checkpoints.txt",
+      "rawBytes": 109,
+      "publicBytes": 110
+    },
+    {
+      "path": "aegis-trials/normal-08-v033/combat.csv",
+      "rawBytes": 872,
+      "publicBytes": 905
+    },
+    {
+      "path": "aegis-trials/normal-08-v033/console.txt",
+      "rawBytes": 6004,
+      "publicBytes": 6004
+    },
+    {
+      "path": "aegis-trials/normal-08-v033/core-health.csv",
+      "rawBytes": 706,
+      "publicBytes": 739
+    },
+    {
+      "path": "aegis-trials/normal-08-v033/diagnostics.txt",
+      "rawBytes": 62745,
+      "publicBytes": 63331
+    },
+    {
+      "path": "aegis-trials/normal-08-v033/driver-source.java",
+      "rawBytes": 37052,
+      "publicBytes": 37025
+    },
+    {
+      "path": "aegis-trials/normal-08-v033/end.msav",
+      "rawBytes": 51777,
+      "publicBytes": 51777
+    },
+    {
+      "path": "aegis-trials/normal-08-v033/enemy-map.txt",
+      "rawBytes": 4995,
+      "publicBytes": 5349
+    },
+    {
+      "path": "aegis-trials/normal-08-v033/final-tags.json",
+      "rawBytes": 36011,
+      "publicBytes": 36013
+    },
+    {
+      "path": "aegis-trials/normal-08-v033/final-world.json",
+      "rawBytes": 120103,
+      "publicBytes": 120105
+    },
+    {
+      "path": "aegis-trials/normal-08-v033/fresh-readback/driver-source.java",
+      "rawBytes": 4805,
+      "publicBytes": 4790
+    },
+    {
+      "path": "aegis-trials/normal-08-v033/fresh-readback/loaded-tags.json",
+      "rawBytes": 36011,
+      "publicBytes": 36013
+    },
+    {
+      "path": "aegis-trials/normal-08-v033/fresh-readback/loaded-watch-version.txt",
+      "rawBytes": 7,
+      "publicBytes": 7
+    },
+    {
+      "path": "aegis-trials/normal-08-v033/fresh-readback/loaded-world.json",
+      "rawBytes": 120103,
+      "publicBytes": 120105
+    },
+    {
+      "path": "aegis-trials/normal-08-v033/fresh-readback/result.txt",
+      "rawBytes": 615,
+      "publicBytes": 624
+    },
+    {
+      "path": "aegis-trials/normal-08-v033/fresh-readback/state-audit-source.java",
+      "rawBytes": 3342,
+      "publicBytes": 3342
+    },
+    {
+      "path": "aegis-trials/normal-08-v033/fresh-readback-console.txt",
+      "rawBytes": 654,
+      "publicBytes": 639
+    },
+    {
+      "path": "aegis-trials/normal-08-v033/inherited-onset.txt",
+      "rawBytes": 29,
+      "publicBytes": 32
+    },
+    {
+      "path": "aegis-trials/normal-08-v033/loaded-watch-version.txt",
+      "rawBytes": 7,
+      "publicBytes": 7
+    },
+    {
+      "path": "aegis-trials/normal-08-v033/map.txt",
+      "rawBytes": 8241,
+      "publicBytes": 8421
+    },
+    {
+      "path": "aegis-trials/normal-08-v033/mission-limits.txt",
+      "rawBytes": 110,
+      "publicBytes": 113
+    },
+    {
+      "path": "aegis-trials/normal-08-v033/objectives.json",
+      "rawBytes": 164,
+      "publicBytes": 166
+    },
+    {
+      "path": "aegis-trials/normal-08-v033/processor-187-77.mlog",
+      "rawBytes": 121,
+      "publicBytes": 126
+    },
+    {
+      "path": "aegis-trials/normal-08-v033/processor-189-77.mlog",
+      "rawBytes": 77,
+      "publicBytes": 79
+    },
+    {
+      "path": "aegis-trials/normal-08-v033/QA_REPORT.md",
+      "rawBytes": 3296,
+      "publicBytes": 3291
+    },
+    {
+      "path": "aegis-trials/normal-08-v033/result.txt",
+      "rawBytes": 511,
+      "publicBytes": 533
+    },
+    {
+      "path": "aegis-trials/normal-08-v033/rules-before-save.json",
+      "rawBytes": 41555,
+      "publicBytes": 41557
+    },
+    {
+      "path": "aegis-trials/normal-08-v033/runtime.txt",
+      "rawBytes": 248,
+      "publicBytes": 243
+    },
+    {
+      "path": "aegis-trials/normal-08-v033/save-status.txt",
+      "rawBytes": 64,
+      "publicBytes": 65
+    },
+    {
+      "path": "aegis-trials/normal-08-v033/scores-before.txt",
+      "rawBytes": 101,
+      "publicBytes": 100
+    },
+    {
+      "path": "aegis-trials/normal-08-v033/state-audit-source.java",
+      "rawBytes": 3342,
+      "publicBytes": 3342
+    },
+    {
+      "path": "aegis-trials/normal-08-v033/terrain.txt",
+      "rawBytes": 4198,
+      "publicBytes": 4396
+    },
+    {
+      "path": "aegis-trials/normal-08-v033/trial.csv",
+      "rawBytes": 1890,
+      "publicBytes": 1924
+    },
+    {
+      "path": "aegis-trials/heroic-01-v033/actions.txt",
+      "rawBytes": 5319,
+      "publicBytes": 5535
+    },
+    {
+      "path": "aegis-trials/heroic-01-v033/army.csv",
+      "rawBytes": 12094,
+      "publicBytes": 12307
+    },
+    {
+      "path": "aegis-trials/heroic-01-v033/checkpoint-900-loaded-world.json",
+      "rawBytes": 103206,
+      "publicBytes": 103208
+    },
+    {
+      "path": "aegis-trials/heroic-01-v033/checkpoint-900-tags.json",
+      "rawBytes": 31212,
+      "publicBytes": 31214
+    },
+    {
+      "path": "aegis-trials/heroic-01-v033/checkpoint-900-world.json",
+      "rawBytes": 103206,
+      "publicBytes": 103208
+    },
+    {
+      "path": "aegis-trials/heroic-01-v033/checkpoint-900.msav",
+      "rawBytes": 50433,
+      "publicBytes": 50433
+    },
+    {
+      "path": "aegis-trials/heroic-01-v033/checkpoints.txt",
+      "rawBytes": 109,
+      "publicBytes": 110
+    },
+    {
+      "path": "aegis-trials/heroic-01-v033/combat.csv",
+      "rawBytes": 872,
+      "publicBytes": 905
+    },
+    {
+      "path": "aegis-trials/heroic-01-v033/console.txt",
+      "rawBytes": 6002,
+      "publicBytes": 6002
+    },
+    {
+      "path": "aegis-trials/heroic-01-v033/core-health.csv",
+      "rawBytes": 706,
+      "publicBytes": 739
+    },
+    {
+      "path": "aegis-trials/heroic-01-v033/diagnostics.txt",
+      "rawBytes": 62629,
+      "publicBytes": 63215
+    },
+    {
+      "path": "aegis-trials/heroic-01-v033/driver-source.java",
+      "rawBytes": 37261,
+      "publicBytes": 37234
+    },
+    {
+      "path": "aegis-trials/heroic-01-v033/end.msav",
+      "rawBytes": 51759,
+      "publicBytes": 51759
+    },
+    {
+      "path": "aegis-trials/heroic-01-v033/enemy-map.txt",
+      "rawBytes": 4995,
+      "publicBytes": 5349
+    },
+    {
+      "path": "aegis-trials/heroic-01-v033/final-tags.json",
+      "rawBytes": 35952,
+      "publicBytes": 35954
+    },
+    {
+      "path": "aegis-trials/heroic-01-v033/final-world.json",
+      "rawBytes": 123857,
+      "publicBytes": 123859
+    },
+    {
+      "path": "aegis-trials/heroic-01-v033/fresh-readback/driver-source.java",
+      "rawBytes": 5025,
+      "publicBytes": 5010
+    },
+    {
+      "path": "aegis-trials/heroic-01-v033/fresh-readback/loaded-tags.json",
+      "rawBytes": 35952,
+      "publicBytes": 35954
+    },
+    {
+      "path": "aegis-trials/heroic-01-v033/fresh-readback/loaded-watch-version.txt",
+      "rawBytes": 7,
+      "publicBytes": 7
+    },
+    {
+      "path": "aegis-trials/heroic-01-v033/fresh-readback/loaded-world.json",
+      "rawBytes": 123857,
+      "publicBytes": 123859
+    },
+    {
+      "path": "aegis-trials/heroic-01-v033/fresh-readback/result.txt",
+      "rawBytes": 615,
+      "publicBytes": 624
+    },
+    {
+      "path": "aegis-trials/heroic-01-v033/fresh-readback/state-audit-source.java",
+      "rawBytes": 3342,
+      "publicBytes": 3342
+    },
+    {
+      "path": "aegis-trials/heroic-01-v033/fresh-readback-console.txt",
+      "rawBytes": 654,
+      "publicBytes": 639
+    },
+    {
+      "path": "aegis-trials/heroic-01-v033/inherited-onset.txt",
+      "rawBytes": 29,
+      "publicBytes": 32
+    },
+    {
+      "path": "aegis-trials/heroic-01-v033/loaded-watch-version.txt",
+      "rawBytes": 7,
+      "publicBytes": 7
+    },
+    {
+      "path": "aegis-trials/heroic-01-v033/map.txt",
+      "rawBytes": 8241,
+      "publicBytes": 8421
+    },
+    {
+      "path": "aegis-trials/heroic-01-v033/mission-description.txt",
+      "rawBytes": 231,
+      "publicBytes": 232
+    },
+    {
+      "path": "aegis-trials/heroic-01-v033/mission-limits.txt",
+      "rawBytes": 110,
+      "publicBytes": 113
+    },
+    {
+      "path": "aegis-trials/heroic-01-v033/objectives.json",
+      "rawBytes": 164,
+      "publicBytes": 166
+    },
+    {
+      "path": "aegis-trials/heroic-01-v033/processor-187-77.mlog",
+      "rawBytes": 121,
+      "publicBytes": 126
+    },
+    {
+      "path": "aegis-trials/heroic-01-v033/processor-189-77.mlog",
+      "rawBytes": 77,
+      "publicBytes": 79
+    },
+    {
+      "path": "aegis-trials/heroic-01-v033/QA_REPORT.md",
+      "rawBytes": 2249,
+      "publicBytes": 2244
+    },
+    {
+      "path": "aegis-trials/heroic-01-v033/result.txt",
+      "rawBytes": 511,
+      "publicBytes": 533
+    },
+    {
+      "path": "aegis-trials/heroic-01-v033/rules-before-save.json",
+      "rawBytes": 41618,
+      "publicBytes": 41620
+    },
+    {
+      "path": "aegis-trials/heroic-01-v033/runtime.txt",
+      "rawBytes": 248,
+      "publicBytes": 243
+    },
+    {
+      "path": "aegis-trials/heroic-01-v033/save-status.txt",
+      "rawBytes": 64,
+      "publicBytes": 65
+    },
+    {
+      "path": "aegis-trials/heroic-01-v033/scores-before.txt",
+      "rawBytes": 101,
+      "publicBytes": 100
+    },
+    {
+      "path": "aegis-trials/heroic-01-v033/state-audit-source.java",
+      "rawBytes": 3342,
+      "publicBytes": 3342
+    },
+    {
+      "path": "aegis-trials/heroic-01-v033/terrain.txt",
+      "rawBytes": 4198,
+      "publicBytes": 4396
+    },
+    {
+      "path": "aegis-trials/heroic-01-v033/trial.csv",
+      "rawBytes": 1888,
+      "publicBytes": 1922
+    },
+    {
+      "path": "aegis-trials/tactical-01-v033/actions.txt",
+      "rawBytes": 6139,
+      "publicBytes": 6392
+    },
+    {
+      "path": "aegis-trials/tactical-01-v033/army.csv",
+      "rawBytes": 12553,
+      "publicBytes": 12770
+    },
+    {
+      "path": "aegis-trials/tactical-01-v033/checkpoint-900-loaded-world.json",
+      "rawBytes": 103205,
+      "publicBytes": 103207
+    },
+    {
+      "path": "aegis-trials/tactical-01-v033/checkpoint-900-tags.json",
+      "rawBytes": 79292,
+      "publicBytes": 79294
+    },
+    {
+      "path": "aegis-trials/tactical-01-v033/checkpoint-900-world.json",
+      "rawBytes": 103205,
+      "publicBytes": 103207
+    },
+    {
+      "path": "aegis-trials/tactical-01-v033/checkpoint-900.msav",
+      "rawBytes": 54736,
+      "publicBytes": 54736
+    },
+    {
+      "path": "aegis-trials/tactical-01-v033/checkpoints.txt",
+      "rawBytes": 110,
+      "publicBytes": 111
+    },
+    {
+      "path": "aegis-trials/tactical-01-v033/combat.csv",
+      "rawBytes": 871,
+      "publicBytes": 904
+    },
+    {
+      "path": "aegis-trials/tactical-01-v033/console.txt",
+      "rawBytes": 6004,
+      "publicBytes": 6004
+    },
+    {
+      "path": "aegis-trials/tactical-01-v033/core-health.csv",
+      "rawBytes": 706,
+      "publicBytes": 739
+    },
+    {
+      "path": "aegis-trials/tactical-01-v033/diagnostics.txt",
+      "rawBytes": 64009,
+      "publicBytes": 64611
+    },
+    {
+      "path": "aegis-trials/tactical-01-v033/driver-source.java",
+      "rawBytes": 37451,
+      "publicBytes": 37424
+    },
+    {
+      "path": "aegis-trials/tactical-01-v033/end.msav",
+      "rawBytes": 58128,
+      "publicBytes": 58128
+    },
+    {
+      "path": "aegis-trials/tactical-01-v033/enemy-map.txt",
+      "rawBytes": 4995,
+      "publicBytes": 5349
+    },
+    {
+      "path": "aegis-trials/tactical-01-v033/final-tags.json",
+      "rawBytes": 105943,
+      "publicBytes": 105945
+    },
+    {
+      "path": "aegis-trials/tactical-01-v033/final-world.json",
+      "rawBytes": 125356,
+      "publicBytes": 125358
+    },
+    {
+      "path": "aegis-trials/tactical-01-v033/fresh-readback/driver-source.java",
+      "rawBytes": 5109,
+      "publicBytes": 5094
+    },
+    {
+      "path": "aegis-trials/tactical-01-v033/fresh-readback/loaded-tags.json",
+      "rawBytes": 105943,
+      "publicBytes": 105945
+    },
+    {
+      "path": "aegis-trials/tactical-01-v033/fresh-readback/loaded-watch-version.txt",
+      "rawBytes": 7,
+      "publicBytes": 7
+    },
+    {
+      "path": "aegis-trials/tactical-01-v033/fresh-readback/loaded-world.json",
+      "rawBytes": 125356,
+      "publicBytes": 125358
+    },
+    {
+      "path": "aegis-trials/tactical-01-v033/fresh-readback/result.txt",
+      "rawBytes": 646,
+      "publicBytes": 657
+    },
+    {
+      "path": "aegis-trials/tactical-01-v033/fresh-readback/state-audit-source.java",
+      "rawBytes": 3342,
+      "publicBytes": 3342
+    },
+    {
+      "path": "aegis-trials/tactical-01-v033/fresh-readback-console.txt",
+      "rawBytes": 687,
+      "publicBytes": 672
+    },
+    {
+      "path": "aegis-trials/tactical-01-v033/inherited-onset.txt",
+      "rawBytes": 29,
+      "publicBytes": 32
+    },
+    {
+      "path": "aegis-trials/tactical-01-v033/loaded-watch-version.txt",
+      "rawBytes": 7,
+      "publicBytes": 7
+    },
+    {
+      "path": "aegis-trials/tactical-01-v033/map.txt",
+      "rawBytes": 8241,
+      "publicBytes": 8421
+    },
+    {
+      "path": "aegis-trials/tactical-01-v033/mission-description.txt",
+      "rawBytes": 552,
+      "publicBytes": 553
+    },
+    {
+      "path": "aegis-trials/tactical-01-v033/mission-limits.txt",
+      "rawBytes": 110,
+      "publicBytes": 113
+    },
+    {
+      "path": "aegis-trials/tactical-01-v033/objectives.json",
+      "rawBytes": 164,
+      "publicBytes": 166
+    },
+    {
+      "path": "aegis-trials/tactical-01-v033/processor-187-77.mlog",
+      "rawBytes": 121,
+      "publicBytes": 126
+    },
+    {
+      "path": "aegis-trials/tactical-01-v033/processor-189-77.mlog",
+      "rawBytes": 77,
+      "publicBytes": 79
+    },
+    {
+      "path": "aegis-trials/tactical-01-v033/QA_REPORT.md",
+      "rawBytes": 2794,
+      "publicBytes": 2789
+    },
+    {
+      "path": "aegis-trials/tactical-01-v033/result.txt",
+      "rawBytes": 512,
+      "publicBytes": 534
+    },
+    {
+      "path": "aegis-trials/tactical-01-v033/rules-before-save.json",
+      "rawBytes": 111583,
+      "publicBytes": 111585
+    },
+    {
+      "path": "aegis-trials/tactical-01-v033/runtime.txt",
+      "rawBytes": 250,
+      "publicBytes": 245
+    },
+    {
+      "path": "aegis-trials/tactical-01-v033/save-status.txt",
+      "rawBytes": 64,
+      "publicBytes": 65
+    },
+    {
+      "path": "aegis-trials/tactical-01-v033/scores-before.txt",
+      "rawBytes": 101,
+      "publicBytes": 100
+    },
+    {
+      "path": "aegis-trials/tactical-01-v033/state-audit-source.java",
+      "rawBytes": 3342,
+      "publicBytes": 3342
+    },
+    {
+      "path": "aegis-trials/tactical-01-v033/task-status.csv",
+      "rawBytes": 11530,
+      "publicBytes": 11563
+    },
+    {
+      "path": "aegis-trials/tactical-01-v033/terrain.txt",
+      "rawBytes": 4198,
+      "publicBytes": 4396
+    },
+    {
+      "path": "aegis-trials/tactical-01-v033/trial.csv",
+      "rawBytes": 1889,
+      "publicBytes": 1923
+    },
+    {
+      "path": "counter-material-audit-v033-01-console.txt",
+      "rawBytes": 4017,
+      "publicBytes": 4017
+    },
+    {
+      "path": "counter-material-audit-v033-02-console.txt",
+      "rawBytes": 4017,
+      "publicBytes": 4017
+    },
+    {
+      "path": "counter-material-sites-biomass-v033-01-console.txt",
+      "rawBytes": 258,
+      "publicBytes": 258
+    }
+  ]
+}

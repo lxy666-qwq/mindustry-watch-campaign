@@ -1,0 +1,583 @@
+map	team	block	count	items	liquids	breakableByPlayer	baselineRefundItems	fillItems	infiniteResources
+frozenForest	derelict	duo	6	{}	{}	6	{copper=108}	false	false
+frozenForest	derelict	pneumatic-drill	2	{}	{}	2	{copper=18, graphite=10}	false	false
+frozenForest	derelict	scrap-wall	10	{}	{}	10	{scrap=30}	false	false
+frozenForest	derelict	scrap-wall-large	2	{}	{}	2	{scrap=24}	false	false
+frozenForest	sharded	core-shard	1	{copper=200}	{}	0	{}	false	false
+frozenForest	sharded	world-processor	2	{}	{}	0	{}	false	false
+biomassFacility	derelict	additive-reconstructor	1	{}	{}	1	{copper=100, lead=60, silicon=45}	false	false
+biomassFacility	derelict	air-factory	1	{}	{}	1	{copper=30, lead=35, silicon=30}	false	false
+biomassFacility	derelict	container	3	{}	{}	3	{titanium=150}	false	false
+biomassFacility	derelict	cultivator	4	{}	{}	4	{copper=52, lead=52, silicon=20}	false	false
+biomassFacility	derelict	distributor	1	{}	{}	1	{copper=2, lead=2}	false	false
+biomassFacility	derelict	door-large	3	{}	{}	3	{silicon=24, titanium=36}	false	false
+biomassFacility	derelict	junction	2	{}	{}	2	{copper=4}	false	false
+biomassFacility	derelict	router	1	{}	{}	1	{copper=2}	false	false
+biomassFacility	derelict	scrap-wall	17	{}	{}	17	{scrap=51}	false	false
+biomassFacility	derelict	scrap-wall-large	5	{}	{}	5	{scrap=60}	false	false
+biomassFacility	derelict	titanium-conveyor	21	{}	{}	21	{copper=21, lead=21, titanium=21}	false	false
+biomassFacility	sharded	core-shard	1	{copper=100}	{}	0	{}	false	false
+ruinousShores	derelict	arc	2	{}	{}	2	{copper=50, lead=50}	false	false
+ruinousShores	derelict	battery	15	{}	{}	15	{copper=45, lead=150}	false	false
+ruinousShores	derelict	bridge-conveyor	12	{}	{}	12	{copper=36, lead=36}	false	false
+ruinousShores	derelict	combustion-generator	1	{}	{}	1	{copper=13, lead=8}	false	false
+ruinousShores	derelict	conduit	22	{}	{}	22	{metaglass=22}	false	false
+ruinousShores	derelict	container	2	{}	{}	2	{titanium=100}	false	false
+ruinousShores	derelict	conveyor	268	{}	{}	268	{copper=268}	false	false
+ruinousShores	derelict	hail	12	{}	{}	12	{copper=240, graphite=108}	false	false
+ruinousShores	derelict	junction	3	{}	{}	3	{copper=6}	false	false
+ruinousShores	derelict	kiln	1	{}	{}	1	{copper=30, graphite=15, lead=15}	false	false
+ruinousShores	derelict	liquid-router	2	{}	{}	2	{graphite=4, metaglass=2}	false	false
+ruinousShores	derelict	mender	3	{}	{}	3	{copper=39, lead=45}	false	false
+ruinousShores	derelict	power-node	6	{}	{}	6	{copper=6, lead=18}	false	false
+ruinousShores	derelict	router	11	{}	{}	11	{copper=22}	false	false
+ruinousShores	derelict	scatter	13	{}	{}	13	{copper=559, lead=299}	false	false
+ruinousShores	derelict	scrap-wall	127	{}	{}	127	{scrap=381}	false	false
+ruinousShores	derelict	scrap-wall-large	54	{}	{}	54	{scrap=648}	false	false
+ruinousShores	derelict	silicon-smelter	4	{}	{}	4	{copper=60, lead=52}	false	false
+ruinousShores	derelict	steam-generator	3	{}	{}	3	{copper=54, graphite=39, lead=60, silicon=45}	false	false
+ruinousShores	derelict	underflow-gate	1	{}	{}	1	{copper=2, lead=1}	false	false
+ruinousShores	derelict	wave	1	{}	{}	1	{copper=13, lead=38, metaglass=23}	false	false
+ruinousShores	sharded	core-shard	1	{copper=100}	{}	0	{}	false	false
+windsweptIslands	derelict	container	5	{}	{}	5	{titanium=250}	false	false
+windsweptIslands	derelict	liquid-tank	1	{}	{}	1	{metaglass=20, titanium=15}	false	false
+windsweptIslands	derelict	oil-extractor	1	{}	{}	1	{copper=75, graphite=88, lead=58, silicon=38, thorium=58}	false	false
+windsweptIslands	derelict	plastanium-compressor	1	{}	{}	1	{graphite=30, lead=58, silicon=40, titanium=40}	false	false
+windsweptIslands	derelict	pulse-conduit	4	{}	{}	4	{metaglass=4, titanium=4}	false	false
+windsweptIslands	derelict	scrap-wall	29	{}	{}	29	{scrap=87}	false	false
+windsweptIslands	derelict	scrap-wall-large	11	{}	{}	11	{scrap=132}	false	false
+windsweptIslands	derelict	titanium-conveyor	33	{}	{}	33	{copper=33, lead=33, titanium=33}	false	false
+windsweptIslands	sharded	core-foundation	1	{copper=100}	{}	0	{}	false	false
+stainedMountains	derelict	incinerator	3	{}	{}	3	{graphite=9, lead=24}	false	false
+stainedMountains	derelict	mass-driver	1	{}	{}	1	{lead=63, silicon=38, thorium=25, titanium=63}	false	false
+stainedMountains	derelict	power-node	2	{}	{}	2	{copper=2, lead=6}	false	false
+stainedMountains	derelict	router	2	{}	{}	2	{copper=4}	false	false
+stainedMountains	derelict	salvo	1	{}	{}	1	{copper=50, graphite=40, titanium=25}	false	false
+stainedMountains	derelict	scrap-wall	38	{}	{}	38	{scrap=114}	false	false
+stainedMountains	derelict	scrap-wall-large	17	{}	{}	17	{scrap=204}	false	false
+stainedMountains	derelict	sorter	3	{}	{}	3	{copper=3, lead=3}	false	false
+stainedMountains	derelict	surge-smelter	1	{}	{}	1	{lead=40, silicon=40, thorium=35}	false	false
+stainedMountains	derelict	swarmer	1	{}	{}	1	{graphite=18, plastanium=23, silicon=15, titanium=18}	false	false
+stainedMountains	derelict	titanium-conveyor	113	{}	{}	113	{copper=113, lead=113, titanium=113}	false	false
+stainedMountains	derelict	unloader	2	{}	{}	2	{silicon=30, titanium=26}	false	false
+stainedMountains	derelict	vault	1	{}	{}	1	{thorium=63, titanium=125}	false	false
+stainedMountains	sharded	core-shard	1	{copper=100}	{}	0	{}	false	false
+navalFortress	derelict	additive-reconstructor	1	{}	{}	1	{copper=100, lead=60, silicon=45}	false	false
+navalFortress	derelict	bridge-conduit	2	{}	{}	2	{graphite=4, metaglass=8}	false	false
+navalFortress	derelict	bridge-conveyor	12	{}	{}	12	{copper=36, lead=36}	false	false
+navalFortress	derelict	conduit	24	{}	{}	24	{metaglass=24}	false	false
+navalFortress	derelict	conveyor	200	{}	{}	200	{copper=200}	false	false
+navalFortress	derelict	distributor	1	{}	{}	1	{copper=2, lead=2}	false	false
+navalFortress	derelict	graphite-press	1	{}	{}	1	{copper=38, lead=15}	false	false
+navalFortress	derelict	hail	3	{}	{}	3	{copper=60, graphite=27}	false	false
+navalFortress	derelict	kiln	1	{}	{}	1	{copper=30, graphite=15, lead=15}	false	false
+navalFortress	derelict	laser-drill	3	{}	{}	3	{copper=54, graphite=45, silicon=45, titanium=30}	false	false
+navalFortress	derelict	liquid-container	1	{}	{}	1	{metaglass=8, titanium=5}	false	false
+navalFortress	derelict	liquid-router	1	{}	{}	1	{graphite=2, metaglass=1}	false	false
+navalFortress	derelict	mass-driver	2	{}	{}	2	{lead=126, silicon=76, thorium=50, titanium=126}	false	false
+navalFortress	derelict	mechanical-pump	3	{}	{}	3	{copper=24, metaglass=15}	false	false
+navalFortress	derelict	naval-factory	1	{}	{}	1	{copper=75, lead=65, metaglass=60}	false	false
+navalFortress	derelict	pneumatic-drill	12	{}	{}	12	{copper=108, graphite=60}	false	false
+navalFortress	derelict	power-node	1	{}	{}	1	{copper=1, lead=3}	false	false
+navalFortress	derelict	pyratite-mixer	1	{}	{}	1	{copper=25, lead=13}	false	false
+navalFortress	derelict	ripple	1	{}	{}	1	{copper=75, graphite=68, titanium=30}	false	false
+navalFortress	derelict	router	5	{}	{}	5	{copper=10}	false	false
+navalFortress	derelict	salvo	5	{}	{}	5	{copper=250, graphite=200, titanium=125}	false	false
+navalFortress	derelict	scatter	4	{}	{}	4	{copper=172, lead=92}	false	false
+navalFortress	derelict	scorch	2	{}	{}	2	{copper=26, graphite=22}	false	false
+navalFortress	derelict	scrap-wall	75	{}	{}	75	{scrap=225}	false	false
+navalFortress	derelict	scrap-wall-large	24	{}	{}	24	{scrap=288}	false	false
+navalFortress	derelict	shock-mine	4	{}	{}	4	{lead=52, silicon=24}	false	false
+navalFortress	derelict	silicon-smelter	1	{}	{}	1	{copper=15, lead=13}	false	false
+navalFortress	derelict	steam-generator	1	{}	{}	1	{copper=18, graphite=13, lead=20, silicon=15}	false	false
+navalFortress	derelict	swarmer	1	{}	{}	1	{graphite=18, plastanium=23, silicon=15, titanium=18}	false	false
+navalFortress	derelict	underflow-gate	4	{}	{}	4	{copper=8, lead=4}	false	false
+navalFortress	derelict	wave	2	{}	{}	2	{copper=26, lead=76, metaglass=46}	false	false
+navalFortress	sharded	core-shard	1	{copper=800, graphite=200, lead=500, metaglass=150, silicon=150}	{}	0	{}	false	false
+navalFortress	crux	armored-conveyor	16	{}	{}	0	{}	true	true
+navalFortress	crux	battery	12	{}	{}	0	{}	true	true
+navalFortress	crux	battery-large	8	{}	{}	0	{}	true	true
+navalFortress	crux	bridge-conduit	42	{}	{}	0	{}	true	true
+navalFortress	crux	bridge-conveyor	57	{}	{}	0	{}	true	true
+navalFortress	crux	coal-centrifuge	7	{}	{}	0	{}	true	true
+navalFortress	crux	conduit	331	{}	{}	0	{}	true	true
+navalFortress	crux	container	1	{}	{}	0	{}	true	true
+navalFortress	crux	conveyor	611	{}	{}	0	{}	true	true
+navalFortress	crux	copper-wall	167	{}	{}	0	{}	true	true
+navalFortress	crux	copper-wall-large	4	{}	{}	0	{}	true	true
+navalFortress	crux	core-foundation	2	{copper=1600, graphite=400, lead=1000, metaglass=300, silicon=300}	{}	0	{}	true	true
+navalFortress	crux	core-nucleus	1	{copper=800, graphite=200, lead=500, metaglass=150, silicon=150}	{}	0	{}	true	true
+navalFortress	crux	cryofluid-mixer	3	{}	{}	0	{}	true	true
+navalFortress	crux	differential-generator	2	{}	{}	0	{}	true	true
+navalFortress	crux	distributor	4	{}	{}	0	{}	true	true
+navalFortress	crux	force-projector	4	{}	{}	0	{}	true	true
+navalFortress	crux	hail	2	{}	{}	0	{}	true	true
+navalFortress	crux	inverted-sorter	1	{}	{}	0	{}	true	true
+navalFortress	crux	junction	51	{}	{}	0	{}	true	true
+navalFortress	crux	kiln	5	{}	{}	0	{}	true	true
+navalFortress	crux	laser-drill	38	{}	{}	0	{}	true	true
+navalFortress	crux	liquid-container	11	{}	{}	0	{}	true	true
+navalFortress	crux	liquid-junction	4	{}	{}	0	{}	true	true
+navalFortress	crux	liquid-router	53	{}	{}	0	{}	true	true
+navalFortress	crux	mechanical-pump	125	{}	{}	0	{}	true	true
+navalFortress	crux	mend-projector	7	{}	{}	0	{}	true	true
+navalFortress	crux	mender	13	{}	{}	0	{}	true	true
+navalFortress	crux	multi-press	3	{}	{}	0	{}	true	true
+navalFortress	crux	naval-factory	1	{}	{}	0	{}	true	true
+navalFortress	crux	oil-extractor	1	{}	{}	0	{}	true	true
+navalFortress	crux	overdrive-projector	1	{}	{}	0	{}	true	true
+navalFortress	crux	pneumatic-drill	31	{}	{}	0	{}	true	true
+navalFortress	crux	power-node	23	{}	{}	0	{}	true	true
+navalFortress	crux	power-node-large	32	{}	{}	0	{}	true	true
+navalFortress	crux	pulse-conduit	138	{}	{}	0	{}	true	true
+navalFortress	crux	pyratite-mixer	4	{}	{}	0	{}	true	true
+navalFortress	crux	ripple	29	{}	{}	0	{}	true	true
+navalFortress	crux	rotary-pump	5	{}	{}	0	{}	true	true
+navalFortress	crux	router	141	{}	{}	0	{}	true	true
+navalFortress	crux	salvo	29	{}	{}	0	{}	true	true
+navalFortress	crux	scatter	75	{}	{}	0	{}	true	true
+navalFortress	crux	segment	3	{}	{}	0	{}	true	true
+navalFortress	crux	silicon-smelter	6	{}	{}	0	{}	true	true
+navalFortress	crux	solar-panel-large	4	{}	{}	0	{}	true	true
+navalFortress	crux	sorter	1	{}	{}	0	{}	true	true
+navalFortress	crux	spectre	1	{}	{}	0	{}	true	true
+navalFortress	crux	steam-generator	17	{}	{}	0	{}	true	true
+navalFortress	crux	swarmer	31	{}	{}	0	{}	true	true
+navalFortress	crux	thermal-generator	11	{}	{}	0	{}	true	true
+navalFortress	crux	thorium-wall	170	{}	{}	0	{}	true	true
+navalFortress	crux	thorium-wall-large	21	{}	{}	0	{}	true	true
+navalFortress	crux	titanium-conveyor	916	{}	{}	0	{}	true	true
+navalFortress	crux	titanium-wall	530	{}	{}	0	{}	true	true
+navalFortress	crux	titanium-wall-large	23	{}	{}	0	{}	true	true
+navalFortress	crux	tsunami	5	{}	{}	0	{}	true	true
+navalFortress	crux	underflow-gate	29	{}	{}	0	{}	true	true
+navalFortress	crux	unloader	19	{}	{}	0	{}	true	true
+navalFortress	crux	wave	4	{}	{}	0	{}	true	true
+impact0078	derelict	battery	4	{}	{}	4	{copper=12, lead=40}	false	false
+impact0078	derelict	battery-large	1	{}	{}	1	{lead=25, silicon=15, titanium=10}	false	false
+impact0078	derelict	container	8	{}	{}	8	{titanium=400}	false	false
+impact0078	derelict	force-projector	1	{}	{}	1	{lead=50, silicon=63, titanium=38}	false	false
+impact0078	derelict	overdrive-dome	1	{}	{}	1	{lead=100, plastanium=40, silicon=65, surge-alloy=60, titanium=65}	false	false
+impact0078	derelict	phase-weaver	1	{}	{}	1	{lead=60, silicon=65, thorium=38}	false	false
+impact0078	derelict	scrap-wall	154	{}	{}	154	{scrap=462}	false	false
+impact0078	derelict	scrap-wall-gigantic	1	{}	{}	1	{scrap=48}	false	false
+impact0078	derelict	scrap-wall-huge	3	{}	{}	3	{scrap=81}	false	false
+impact0078	derelict	scrap-wall-large	31	{}	{}	31	{scrap=372}	false	false
+impact0078	derelict	solar-panel	4	{}	{}	4	{lead=20, silicon=16}	false	false
+impact0078	derelict	unloader	1	{}	{}	1	{silicon=15, titanium=13}	false	false
+impact0078	derelict	vault	2	{}	{}	2	{thorium=126, titanium=250}	false	false
+impact0078	sharded	core-nucleus	1	{copper=200}	{}	0	{}	false	false
+planetaryTerminal	derelict	armored-conveyor	10	{}	{}	10	{metaglass=10, plastanium=10, thorium=10}	false	false
+planetaryTerminal	derelict	battery-large	1	{}	{}	1	{lead=25, silicon=15, titanium=10}	false	false
+planetaryTerminal	derelict	blast-drill	2	{}	{}	2	{copper=66, silicon=60, thorium=76, titanium=50}	false	false
+planetaryTerminal	derelict	bridge-conduit	4	{}	{}	4	{graphite=8, metaglass=16}	false	false
+planetaryTerminal	derelict	bridge-conveyor	3	{}	{}	3	{copper=9, lead=9}	false	false
+planetaryTerminal	derelict	impulse-pump	1	{}	{}	1	{copper=40, metaglass=45, silicon=15, thorium=18, titanium=20}	false	false
+planetaryTerminal	derelict	liquid-router	2	{}	{}	2	{graphite=4, metaglass=2}	false	false
+planetaryTerminal	derelict	liquid-tank	1	{}	{}	1	{metaglass=20, titanium=15}	false	false
+planetaryTerminal	derelict	mend-projector	2	{}	{}	2	{copper=50, lead=100, silicon=40, titanium=26}	false	false
+planetaryTerminal	derelict	overdrive-projector	1	{}	{}	1	{lead=50, plastanium=15, silicon=38, titanium=38}	false	false
+planetaryTerminal	derelict	plastanium-compressor	5	{}	{}	5	{graphite=150, lead=290, silicon=200, titanium=200}	false	false
+planetaryTerminal	derelict	plated-conduit	29	{}	{}	29	{metaglass=29, plastanium=29, thorium=29}	false	false
+planetaryTerminal	derelict	pulse-conduit	31	{}	{}	31	{metaglass=31, titanium=31}	false	false
+planetaryTerminal	derelict	rotary-pump	1	{}	{}	1	{copper=35, metaglass=25, silicon=10, titanium=18}	false	false
+planetaryTerminal	derelict	router	4	{}	{}	4	{copper=8}	false	false
+planetaryTerminal	derelict	scrap-wall	23	{}	{}	23	{scrap=69}	false	false
+planetaryTerminal	derelict	scrap-wall-large	13	{}	{}	13	{scrap=156}	false	false
+planetaryTerminal	derelict	spectre	1	{}	{}	1	{copper=450, graphite=150, plastanium=88, surge-alloy=125, thorium=125}	false	false
+planetaryTerminal	derelict	titanium-conveyor	42	{}	{}	42	{copper=42, lead=42, titanium=42}	false	false
+planetaryTerminal	derelict	unloader	2	{}	{}	2	{silicon=30, titanium=26}	false	false
+planetaryTerminal	derelict	vault	3	{}	{}	3	{thorium=189, titanium=375}	false	false
+planetaryTerminal	sharded	armored-conveyor	127	{thorium=359}	{}	127	{metaglass=127, plastanium=127, thorium=127}	false	false
+planetaryTerminal	sharded	battery	16	{}	{}	16	{copper=48, lead=160}	false	false
+planetaryTerminal	sharded	blast-drill	1	{thorium=20}	{water=5.0}	1	{copper=33, silicon=30, thorium=38, titanium=25}	false	false
+planetaryTerminal	sharded	core-nucleus	1	{copper=6500, graphite=6500, lead=6500, metaglass=6500, phase-fabric=2000, plastanium=3000, silicon=4500, surge-alloy=2000, thorium=3000, titanium=4000}	{}	0	{}	false	false
+planetaryTerminal	sharded	mend-projector	4	{}	{}	4	{copper=100, lead=200, silicon=80, titanium=52}	false	false
+planetaryTerminal	sharded	overdrive-projector	1	{}	{}	1	{lead=50, plastanium=15, silicon=38, titanium=38}	false	false
+planetaryTerminal	sharded	power-node-large	2	{}	{}	2	{lead=10, silicon=4, titanium=6}	false	false
+planetaryTerminal	sharded	router	8	{thorium=8}	{}	8	{copper=16}	false	false
+planetaryTerminal	sharded	salvo	9	{}	{}	9	{copper=450, graphite=360, titanium=225}	false	false
+planetaryTerminal	sharded	solar-panel	16	{}	{}	16	{lead=80, silicon=64}	false	false
+planetaryTerminal	sharded	solar-panel-large	8	{}	{}	8	{lead=240, phase-fabric=64, silicon=280}	false	false
+planetaryTerminal	sharded	spectre	1	{}	{}	1	{copper=450, graphite=150, plastanium=88, surge-alloy=125, thorium=125}	false	false
+planetaryTerminal	sharded	surge-tower	4	{}	{}	4	{lead=20, silicon=32, surge-alloy=32, titanium=16}	false	false
+planetaryTerminal	sharded	thermal-generator	3	{}	{}	3	{copper=60, graphite=54, lead=75, metaglass=60, silicon=54}	false	false
+planetaryTerminal	sharded	thorium-wall	88	{}	{}	88	{thorium=264}	false	false
+planetaryTerminal	sharded	thorium-wall-large	25	{}	{}	25	{thorium=300}	false	false
+planetaryTerminal	sharded	unloader	2	{}	{}	2	{silicon=30, titanium=26}	false	false
+planetaryTerminal	sharded	vault	1	{thorium=1000}	{}	1	{thorium=63, titanium=125}	false	false
+planetaryTerminal	sharded	water-extractor	2	{}	{water=59.99615}	2	{copper=30, graphite=30, lead=30, metaglass=30}	false	false
+planetaryTerminal	crux	additive-reconstructor	10	{graphite=800, silicon=800}	{}	0	{}	true	true
+planetaryTerminal	crux	advanced-launch-pad	2	{}	{}	0	{}	true	true
+planetaryTerminal	crux	air-factory	9	{silicon=540}	{}	0	{}	true	true
+planetaryTerminal	crux	armored-conveyor	2148	{coal=362, copper=84, graphite=402, lead=745, metaglass=433, phase-fabric=585, plastanium=290, pyratite=96, sand=132, silicon=653, surge-alloy=164, thorium=854, titanium=550}	{}	0	{}	true	true
+planetaryTerminal	crux	battery	136	{}	{}	0	{}	true	true
+planetaryTerminal	crux	battery-large	28	{}	{}	0	{}	true	true
+planetaryTerminal	crux	blast-drill	97	{coal=319, copper=139, lead=276, sand=298, thorium=285, titanium=61}	{water=473.16052}	0	{}	true	true
+planetaryTerminal	crux	bridge-conduit	110	{}	{cryofluid=99.53225, oil=64.34376, water=756.87775}	0	{}	true	true
+planetaryTerminal	crux	bridge-conveyor	197	{coal=220, graphite=80, lead=120, metaglass=150, phase-fabric=140, plastanium=1, pyratite=60, sand=125, silicon=160, surge-alloy=60, thorium=184, titanium=180}	{}	0	{}	true	true
+planetaryTerminal	crux	coal-centrifuge	21	{coal=197}	{oil=203.83224}	0	{}	true	true
+planetaryTerminal	crux	conduit	4	{}	{}	0	{}	true	true
+planetaryTerminal	crux	container	24	{coal=1200, copper=600, lead=900, metaglass=900, phase-fabric=300, plastanium=600, pyratite=1500, sand=1200, silicon=610, surge-alloy=1200, thorium=1200, titanium=300}	{}	0	{}	true	true
+planetaryTerminal	crux	core-nucleus	2	{copper=13000, graphite=13000, lead=13000, metaglass=13000, phase-fabric=4000, plastanium=6000, silicon=9000, surge-alloy=4000, thorium=6000, titanium=8000}	{}	0	{}	true	true
+planetaryTerminal	crux	cryofluid-mixer	13	{titanium=130}	{cryofluid=311.1465, water=310.60916}	0	{}	true	true
+planetaryTerminal	crux	cyclone	18	{}	{water=39.988174}	0	{}	true	true
+planetaryTerminal	crux	differential-generator	4	{pyratite=40}	{cryofluid=38.91801}	0	{}	true	true
+planetaryTerminal	crux	distributor	21	{coal=2, lead=1, metaglass=1, phase-fabric=1, plastanium=4, silicon=3, thorium=3, titanium=2}	{}	0	{}	true	true
+planetaryTerminal	crux	door	35	{}	{}	0	{}	true	true
+planetaryTerminal	crux	door-large	50	{}	{}	0	{}	true	true
+planetaryTerminal	crux	exponential-reconstructor	1	{plastanium=1300, silicon=1694, titanium=1500}	{cryofluid=59.999817}	0	{}	true	true
+planetaryTerminal	crux	force-projector	29	{phase-fabric=180}	{cryofluid=20.0, water=249.99731}	0	{}	true	true
+planetaryTerminal	crux	foreshadow	10	{}	{water=39.993675}	0	{}	true	true
+planetaryTerminal	crux	fuse	54	{}	{water=20.0}	0	{}	true	true
+planetaryTerminal	crux	ground-factory	10	{coal=40, lead=320, silicon=600}	{}	0	{}	true	true
+planetaryTerminal	crux	impulse-pump	16	{}	{oil=116.39377, water=519.746}	0	{}	true	true
+planetaryTerminal	crux	interplanetary-accelerator	1	{}	{}	0	{}	true	true
+planetaryTerminal	crux	inverted-sorter	3	{}	{}	0	{}	true	true
+planetaryTerminal	crux	junction	60	{}	{}	0	{}	true	true
+planetaryTerminal	crux	kiln	15	{lead=149, metaglass=110, sand=150}	{}	0	{}	true	true
+planetaryTerminal	crux	lancer	6	{}	{}	0	{}	true	true
+planetaryTerminal	crux	laser-drill	28	{coal=60, copper=10, lead=40, sand=92, thorium=10}	{water=134.80695}	0	{}	true	true
+planetaryTerminal	crux	liquid-container	110	{}	{cryofluid=6978.5723, water=58754.414}	0	{}	true	true
+planetaryTerminal	crux	liquid-junction	2	{}	{}	0	{}	true	true
+planetaryTerminal	crux	liquid-router	52	{}	{cryofluid=118.304115, oil=247.21835, water=456.83115}	0	{}	true	true
+planetaryTerminal	crux	liquid-tank	28	{}	{cryofluid=1800.0, oil=1556.803, water=46703.18}	0	{}	true	true
+planetaryTerminal	crux	logic-processor	7	{}	{}	0	{}	true	true
+planetaryTerminal	crux	mass-driver	32	{coal=609, copper=245, graphite=342, lead=528, phase-fabric=288, plastanium=250, surge-alloy=1083, titanium=690}	{}	0	{}	true	true
+planetaryTerminal	crux	mechanical-drill	6	{sand=27}	{water=19.73955}	0	{}	true	true
+planetaryTerminal	crux	mechanical-pump	6	{}	{water=39.965878}	0	{}	true	true
+planetaryTerminal	crux	meltdown	26	{}	{cryofluid=19.999964, water=119.95635}	0	{}	true	true
+planetaryTerminal	crux	mend-projector	124	{phase-fabric=230}	{}	0	{}	true	true
+planetaryTerminal	crux	mender	21	{}	{}	0	{}	true	true
+planetaryTerminal	crux	micro-processor	1	{}	{}	0	{}	true	true
+planetaryTerminal	crux	multi-press	11	{coal=198, graphite=155}	{water=99.566315}	0	{}	true	true
+planetaryTerminal	crux	multiplicative-reconstructor	5	{metaglass=400, silicon=1300, titanium=800}	{}	0	{}	true	true
+planetaryTerminal	crux	naval-factory	25	{metaglass=980, silicon=1000, titanium=440}	{}	0	{}	true	true
+planetaryTerminal	crux	oil-extractor	6	{sand=40}	{oil=119.23914, water=119.15915}	0	{}	true	true
+planetaryTerminal	crux	overdrive-dome	12	{phase-fabric=120, silicon=120}	{}	0	{}	true	true
+planetaryTerminal	crux	overdrive-projector	42	{phase-fabric=40}	{}	0	{}	true	true
+planetaryTerminal	crux	overflow-gate	5	{}	{}	0	{}	true	true
+planetaryTerminal	crux	parallax	60	{}	{}	0	{}	true	true
+planetaryTerminal	crux	payload-conveyor	67	{}	{}	0	{}	true	true
+planetaryTerminal	crux	payload-router	6	{}	{}	0	{}	true	true
+planetaryTerminal	crux	phase-conduit	38	{}	{cryofluid=99.99873, oil=71.01493, water=109.499596}	0	{}	true	true
+planetaryTerminal	crux	phase-conveyor	213	{coal=20, graphite=120, lead=100, metaglass=20, phase-fabric=620, plastanium=60, pyratite=100, sand=20, silicon=210, surge-alloy=90, thorium=100, titanium=113}	{}	0	{}	true	true
+planetaryTerminal	crux	phase-wall	42	{}	{}	0	{}	true	true
+planetaryTerminal	crux	phase-wall-large	17	{}	{}	0	{}	true	true
+planetaryTerminal	crux	phase-weaver	14	{phase-fabric=74, sand=231, thorium=254}	{}	0	{}	true	true
+planetaryTerminal	crux	plastanium-compressor	11	{titanium=105}	{oil=371.8096}	0	{}	true	true
+planetaryTerminal	crux	plastanium-conveyor	2605	{coal=792, copper=621, graphite=1068, lead=2482, phase-fabric=7, plastanium=660, pyratite=260, sand=775, silicon=2149, surge-alloy=926, thorium=8938, titanium=1382}	{}	0	{}	true	true
+planetaryTerminal	crux	plastanium-wall	785	{}	{}	0	{}	true	true
+planetaryTerminal	crux	plastanium-wall-large	63	{}	{}	0	{}	true	true
+planetaryTerminal	crux	plated-conduit	709	{}	{cryofluid=335.43286, oil=1272.6329, water=8710.778}	0	{}	true	true
+planetaryTerminal	crux	pneumatic-drill	28	{coal=10, lead=50, sand=61, titanium=47}	{water=44.93972}	0	{}	true	true
+planetaryTerminal	crux	power-node	74	{}	{}	0	{}	true	true
+planetaryTerminal	crux	power-node-large	130	{}	{}	0	{}	true	true
+planetaryTerminal	crux	pulse-conduit	46	{}	{oil=16.0, water=638.55786}	0	{}	true	true
+planetaryTerminal	crux	pyratite-mixer	27	{coal=269, lead=270, pyratite=257, sand=268}	{}	0	{}	true	true
+planetaryTerminal	crux	ripple	30	{}	{}	0	{}	true	true
+planetaryTerminal	crux	rotary-pump	38	{}	{oil=21.98109, water=899.6017}	0	{}	true	true
+planetaryTerminal	crux	router	233	{coal=5, copper=6, graphite=6, lead=50, metaglass=17, phase-fabric=15, plastanium=3, pyratite=7, sand=1, silicon=24, surge-alloy=2, thorium=70, titanium=12}	{}	0	{}	true	true
+planetaryTerminal	crux	rtg-generator	141	{thorium=1329}	{}	0	{}	true	true
+planetaryTerminal	crux	salvo	95	{}	{water=20.0}	0	{}	true	true
+planetaryTerminal	crux	scatter	96	{}	{}	0	{}	true	true
+planetaryTerminal	crux	scorch	4	{}	{}	0	{}	true	true
+planetaryTerminal	crux	scrap-wall	43	{}	{}	0	{}	true	true
+planetaryTerminal	crux	scrap-wall-large	34	{}	{}	0	{}	true	true
+planetaryTerminal	crux	segment	42	{}	{}	0	{}	true	true
+planetaryTerminal	crux	silicon-crucible	23	{coal=685, pyratite=690, sand=679, silicon=581}	{}	0	{}	true	true
+planetaryTerminal	crux	silicon-smelter	2	{coal=20, sand=20, silicon=20}	{}	0	{}	true	true
+planetaryTerminal	crux	solar-panel	16	{}	{}	0	{}	true	true
+planetaryTerminal	crux	solar-panel-large	62	{}	{}	0	{}	true	true
+planetaryTerminal	crux	sorter	15	{}	{}	0	{}	true	true
+planetaryTerminal	crux	spectre	57	{}	{water=120.0}	0	{}	true	true
+planetaryTerminal	crux	steam-generator	3	{coal=30}	{water=29.974884}	0	{}	true	true
+planetaryTerminal	crux	surge-smelter	6	{copper=120, lead=120, silicon=120, surge-alloy=40, titanium=120}	{}	0	{}	true	true
+planetaryTerminal	crux	surge-tower	52	{}	{}	0	{}	true	true
+planetaryTerminal	crux	surge-wall	1844	{}	{}	0	{}	true	true
+planetaryTerminal	crux	surge-wall-large	663	{}	{}	0	{}	true	true
+planetaryTerminal	crux	swarmer	26	{}	{}	0	{}	true	true
+planetaryTerminal	crux	thermal-generator	151	{}	{}	0	{}	true	true
+planetaryTerminal	crux	thorium-reactor	4	{thorium=120}	{cryofluid=119.318436}	0	{}	true	true
+planetaryTerminal	crux	thorium-wall	491	{}	{}	0	{}	true	true
+planetaryTerminal	crux	thorium-wall-large	76	{}	{}	0	{}	true	true
+planetaryTerminal	crux	titanium-conveyor	67	{coal=45, copper=2, graphite=3, lead=10, metaglass=7, phase-fabric=3, pyratite=2, sand=38, silicon=9, surge-alloy=4, thorium=6, titanium=14}	{}	0	{}	true	true
+planetaryTerminal	crux	titanium-wall	77	{}	{}	0	{}	true	true
+planetaryTerminal	crux	titanium-wall-large	78	{}	{}	0	{}	true	true
+planetaryTerminal	crux	tsunami	87	{}	{water=999.8993}	0	{}	true	true
+planetaryTerminal	crux	underflow-gate	8	{}	{}	0	{}	true	true
+planetaryTerminal	crux	unloader	446	{}	{}	0	{}	true	true
+planetaryTerminal	crux	vault	20	{coal=3000, copper=52000, graphite=55000, lead=56000, metaglass=53000, phase-fabric=16000, plastanium=24000, pyratite=3000, sand=3000, silicon=37000, surge-alloy=17000, thorium=26000, titanium=32000}	{}	0	{}	true	true
+planetaryTerminal	crux	water-extractor	171	{}	{water=4543.492}	0	{}	true	true
+planetaryTerminal	crux	wave	5	{}	{}	0	{}	true	true
+planetaryTerminal	crux	world-processor	10	{}	{}	0	{}	true	true
+peaks	sharded	beam-node	18	{}	{}	18	{beryllium=72}	false	false
+peaks	sharded	breach	2	{}	{}	2	{beryllium=150, graphite=126, silicon=150}	false	false
+peaks	sharded	cliff-crusher	4	{}	{}	4	{beryllium=40, graphite=52}	false	false
+peaks	sharded	core-bastion	1	{beryllium=100, graphite=100, silicon=100, tungsten=650}	{}	0	{}	false	false
+peaks	sharded	duct	119	{}	{}	119	{beryllium=119}	false	false
+peaks	sharded	duct-bridge	2	{}	{}	2	{beryllium=16}	false	false
+peaks	sharded	duct-router	3	{}	{}	3	{beryllium=15}	false	false
+peaks	sharded	impact-drill	1	{}	{}	1	{beryllium=45, graphite=30, silicon=35}	false	false
+peaks	sharded	plasma-bore	4	{}	{}	4	{beryllium=80}	false	false
+peaks	sharded	radar	1	{}	{}	1	{beryllium=5, graphite=25, silicon=30}	false	false
+peaks	sharded	reinforced-conduit	32	{}	{}	32	{beryllium=32}	false	false
+peaks	sharded	silicon-arc-furnace	1	{}	{}	1	{beryllium=35, graphite=40}	false	false
+peaks	sharded	turbine-condenser	4	{}	{}	4	{beryllium=120}	false	false
+peaks	sharded	world-processor	3	{}	{}	0	{}	false	false
+peaks	malis	beam-node	72	{}	{}	0	{}	true	true
+peaks	malis	beryllium-wall	38	{}	{}	0	{}	true	true
+peaks	malis	breach	5	{}	{}	0	{}	true	true
+peaks	malis	chemical-combustion-chamber	2	{}	{}	0	{}	true	true
+peaks	malis	cliff-crusher	6	{}	{}	0	{}	true	true
+peaks	malis	core-bastion	2	{beryllium=200, graphite=200, silicon=200, tungsten=1300}	{}	0	{}	true	true
+peaks	malis	diffuse	1	{}	{}	0	{}	true	true
+peaks	malis	disperse	2	{}	{}	0	{}	true	true
+peaks	malis	duct	518	{}	{}	0	{}	true	true
+peaks	malis	duct-bridge	28	{}	{}	0	{}	true	true
+peaks	malis	duct-router	10	{}	{}	0	{}	true	true
+peaks	malis	electrolyzer	2	{}	{}	0	{}	true	true
+peaks	malis	impact-drill	2	{}	{}	0	{}	true	true
+peaks	malis	overflow-duct	1	{}	{}	0	{}	true	true
+peaks	malis	plasma-bore	36	{}	{}	0	{}	true	true
+peaks	malis	reinforced-bridge-conduit	16	{}	{}	0	{}	true	true
+peaks	malis	reinforced-conduit	250	{}	{}	0	{}	true	true
+peaks	malis	reinforced-liquid-container	3	{}	{}	0	{}	true	true
+peaks	malis	reinforced-liquid-junction	1	{}	{}	0	{}	true	true
+peaks	malis	reinforced-liquid-router	6	{}	{}	0	{}	true	true
+peaks	malis	reinforced-pump	1	{}	{}	0	{}	true	true
+peaks	malis	ship-fabricator	2	{}	{}	0	{}	true	true
+peaks	malis	ship-refabricator	2	{}	{}	0	{}	true	true
+peaks	malis	silicon-arc-furnace	2	{}	{}	0	{}	true	true
+peaks	malis	turbine-condenser	9	{}	{}	0	{}	true	true
+peaks	malis	vent-condenser	1	{}	{}	0	{}	true	true
+ravine	sharded	beam-node	29	{}	{}	29	{beryllium=116}	false	false
+ravine	sharded	beryllium-wall-large	10	{}	{}	10	{beryllium=120}	false	false
+ravine	sharded	breach	2	{}	{}	2	{beryllium=150, graphite=126, silicon=150}	false	false
+ravine	sharded	cliff-crusher	5	{}	{}	5	{beryllium=50, graphite=65}	false	false
+ravine	sharded	core-bastion	1	{beryllium=1000, graphite=1000, silicon=600}	{}	0	{}	false	false
+ravine	sharded	duct	206	{}	{}	206	{beryllium=206}	false	false
+ravine	sharded	duct-router	2	{}	{}	2	{beryllium=10}	false	false
+ravine	sharded	impact-drill	1	{}	{}	1	{beryllium=45, graphite=30, silicon=35}	false	false
+ravine	sharded	plasma-bore	9	{}	{}	9	{beryllium=180}	false	false
+ravine	sharded	reinforced-conduit	9	{}	{}	9	{beryllium=9}	false	false
+ravine	sharded	silicon-arc-furnace	1	{}	{}	1	{beryllium=35, graphite=40}	false	false
+ravine	sharded	turbine-condenser	5	{}	{}	5	{beryllium=150}	false	false
+ravine	sharded	vent-condenser	1	{}	{}	1	{beryllium=30, graphite=10}	false	false
+stronghold	sharded	beam-node	37	{}	{}	37	{beryllium=148}	false	false
+stronghold	sharded	beryllium-wall	9	{}	{}	9	{beryllium=27}	false	false
+stronghold	sharded	breach	1	{}	{}	1	{beryllium=75, graphite=63, silicon=75}	false	false
+stronghold	sharded	cliff-crusher	4	{}	{}	4	{beryllium=40, graphite=52}	false	false
+stronghold	sharded	core-citadel	1	{beryllium=1000, graphite=700, oxide=200, silicon=500, tungsten=500}	{}	0	{}	false	false
+stronghold	sharded	duct	224	{}	{}	224	{beryllium=224}	false	false
+stronghold	sharded	duct-bridge	4	{}	{}	4	{beryllium=32}	false	false
+stronghold	sharded	duct-router	2	{}	{}	2	{beryllium=10}	false	false
+stronghold	sharded	payload-loader	1	{}	{}	1	{graphite=40, silicon=80, tungsten=45}	false	false
+stronghold	sharded	payload-mass-driver	4	{}	{}	4	{graphite=40, silicon=100, tungsten=80}	false	false
+stronghold	sharded	payload-unloader	1	{}	{}	1	{graphite=70, silicon=110, tungsten=90}	false	false
+stronghold	sharded	plasma-bore	14	{}	{}	14	{beryllium=280}	false	false
+stronghold	sharded	silicon-arc-furnace	1	{}	{}	1	{beryllium=35, graphite=40}	false	false
+stronghold	sharded	turbine-condenser	4	{}	{}	4	{beryllium=120}	false	false
+stronghold	sharded	world-processor	7	{}	{}	0	{}	false	false
+stronghold	malis	afflict	2	{}	{}	0	{}	true	true
+stronghold	malis	armored-duct	4	{}	{}	0	{}	true	true
+stronghold	malis	atmospheric-concentrator	4	{}	{}	0	{}	true	true
+stronghold	malis	beam-node	389	{}	{}	0	{}	true	true
+stronghold	malis	beam-tower	2	{}	{}	0	{}	true	true
+stronghold	malis	beryllium-wall	130	{}	{}	0	{}	true	true
+stronghold	malis	beryllium-wall-large	114	{}	{}	0	{}	true	true
+stronghold	malis	blast-door	39	{}	{}	0	{}	true	true
+stronghold	malis	breach	61	{}	{}	0	{}	true	true
+stronghold	malis	chemical-combustion-chamber	12	{}	{}	0	{}	true	true
+stronghold	malis	cliff-crusher	42	{}	{}	0	{}	true	true
+stronghold	malis	core-acropolis	1	{beryllium=1000, graphite=700, oxide=200, silicon=500, tungsten=500}	{}	0	{}	true	true
+stronghold	malis	core-bastion	8	{beryllium=8000, graphite=5600, oxide=1600, silicon=4000, tungsten=4000}	{}	0	{}	true	true
+stronghold	malis	core-citadel	1	{beryllium=1000, graphite=700, oxide=200, silicon=500, tungsten=500}	{}	0	{}	true	true
+stronghold	malis	diffuse	18	{}	{}	0	{}	true	true
+stronghold	malis	disperse	10	{}	{}	0	{}	true	true
+stronghold	malis	duct	3620	{}	{}	0	{}	true	true
+stronghold	malis	duct-bridge	274	{}	{}	0	{}	true	true
+stronghold	malis	duct-router	90	{}	{}	0	{}	true	true
+stronghold	malis	duct-unloader	5	{}	{}	0	{}	true	true
+stronghold	malis	electric-heater	11	{}	{}	0	{}	true	true
+stronghold	malis	electrolyzer	15	{}	{}	0	{}	true	true
+stronghold	malis	eruption-drill	2	{}	{}	0	{}	true	true
+stronghold	malis	heat-redirector	6	{}	{}	0	{}	true	true
+stronghold	malis	impact-drill	9	{}	{}	0	{}	true	true
+stronghold	malis	large-plasma-bore	34	{}	{}	0	{}	true	true
+stronghold	malis	mech-fabricator	3	{}	{}	0	{}	true	true
+stronghold	malis	mech-refabricator	2	{}	{}	0	{}	true	true
+stronghold	malis	overflow-duct	10	{}	{}	0	{}	true	true
+stronghold	malis	oxidation-chamber	4	{}	{}	0	{}	true	true
+stronghold	malis	payload-loader	1	{}	{}	0	{}	true	true
+stronghold	malis	payload-mass-driver	4	{}	{}	0	{}	true	true
+stronghold	malis	payload-unloader	1	{}	{}	0	{}	true	true
+stronghold	malis	plasma-bore	107	{}	{}	0	{}	true	true
+stronghold	malis	prime-refabricator	4	{}	{}	0	{}	true	true
+stronghold	malis	reinforced-bridge-conduit	142	{}	{}	0	{}	true	true
+stronghold	malis	reinforced-conduit	2844	{}	{}	0	{}	true	true
+stronghold	malis	reinforced-container	3	{}	{}	0	{}	true	true
+stronghold	malis	reinforced-liquid-container	9	{}	{}	0	{}	true	true
+stronghold	malis	reinforced-liquid-junction	45	{}	{}	0	{}	true	true
+stronghold	malis	reinforced-liquid-router	109	{}	{}	0	{}	true	true
+stronghold	malis	reinforced-liquid-tank	6	{}	{}	0	{}	true	true
+stronghold	malis	reinforced-pump	6	{}	{}	0	{}	true	true
+stronghold	malis	reinforced-surge-wall	2	{}	{}	0	{}	true	true
+stronghold	malis	reinforced-surge-wall-large	18	{}	{}	0	{}	true	true
+stronghold	malis	reinforced-vault	1	{}	{}	0	{}	true	true
+stronghold	malis	ship-fabricator	5	{}	{}	0	{}	true	true
+stronghold	malis	ship-refabricator	1	{}	{}	0	{}	true	true
+stronghold	malis	silicon-arc-furnace	9	{}	{}	0	{}	true	true
+stronghold	malis	sublimate	8	{}	{}	0	{}	true	true
+stronghold	malis	tank-fabricator	3	{}	{}	0	{}	true	true
+stronghold	malis	tank-refabricator	3	{}	{}	0	{}	true	true
+stronghold	malis	titan	7	{}	{}	0	{}	true	true
+stronghold	malis	tungsten-wall	14	{}	{}	0	{}	true	true
+stronghold	malis	tungsten-wall-large	8	{}	{}	0	{}	true	true
+stronghold	malis	turbine-condenser	51	{}	{}	0	{}	true	true
+stronghold	malis	underflow-duct	1	{}	{}	0	{}	true	true
+stronghold	malis	vent-condenser	12	{}	{}	0	{}	true	true
+crevice	sharded	beam-node	38	{}	{}	38	{beryllium=152}	false	false
+crevice	sharded	cliff-crusher	4	{}	{}	4	{beryllium=40, graphite=52}	false	false
+crevice	sharded	constructor	1	{}	{}	1	{beryllium=38, silicon=25, tungsten=20}	false	false
+crevice	sharded	core-bastion	1	{beryllium=500, graphite=500, oxide=200, silicon=800, thorium=100, tungsten=300}	{}	0	{}	false	false
+crevice	sharded	duct	237	{}	{}	237	{beryllium=237}	false	false
+crevice	sharded	duct-bridge	8	{}	{}	8	{beryllium=64}	false	false
+crevice	sharded	duct-router	2	{}	{}	2	{beryllium=10}	false	false
+crevice	sharded	electrolyzer	1	{}	{}	1	{beryllium=65, graphite=20, silicon=25, tungsten=40}	false	false
+crevice	sharded	large-plasma-bore	1	{}	{}	1	{beryllium=50, oxide=13, silicon=50, tungsten=35}	false	false
+crevice	sharded	oxidation-chamber	1	{}	{}	1	{beryllium=60, graphite=40, silicon=50, tungsten=60}	false	false
+crevice	sharded	payload-mass-driver	2	{}	{}	2	{graphite=20, silicon=50, tungsten=40}	false	false
+crevice	sharded	plasma-bore	11	{}	{}	11	{beryllium=220}	false	false
+crevice	sharded	radar	1	{}	{}	1	{beryllium=5, graphite=25, silicon=30}	false	false
+crevice	sharded	reinforced-conduit	87	{}	{}	87	{beryllium=87}	false	false
+crevice	sharded	reinforced-liquid-container	2	{}	{}	2	{beryllium=16, tungsten=10}	false	false
+crevice	sharded	reinforced-liquid-junction	1	{}	{}	1	{beryllium=4, graphite=2}	false	false
+crevice	sharded	silicon-arc-furnace	1	{}	{}	1	{beryllium=35, graphite=40}	false	false
+crevice	sharded	small-deconstructor	1	{}	{}	1	{beryllium=35, graphite=25, oxide=13, silicon=35}	false	false
+crevice	sharded	turbine-condenser	4	{}	{}	4	{beryllium=120}	false	false
+origin	sharded	atmospheric-concentrator	1	{}	{}	1	{beryllium=90, oxide=30, silicon=75}	false	false
+origin	sharded	beam-node	42	{}	{}	42	{beryllium=168}	false	false
+origin	sharded	breach	4	{}	{}	4	{beryllium=300, graphite=252, silicon=300}	false	false
+origin	sharded	cliff-crusher	5	{}	{}	5	{beryllium=50, graphite=65}	false	false
+origin	sharded	core-acropolis	1	{beryllium=4000, carbide=1000, graphite=4000, oxide=2000, silicon=3000, surge-alloy=1000, thorium=2000, tungsten=2000}	{}	0	{}	false	false
+origin	sharded	diffuse	1	{}	{}	1	{beryllium=75, graphite=100, silicon=100, tungsten=25}	false	false
+origin	sharded	duct	328	{}	{}	328	{beryllium=328}	false	false
+origin	sharded	duct-bridge	14	{}	{}	14	{beryllium=112}	false	false
+origin	sharded	duct-router	8	{}	{}	8	{beryllium=40}	false	false
+origin	sharded	electrolyzer	1	{}	{}	1	{beryllium=65, graphite=20, silicon=25, tungsten=40}	false	false
+origin	sharded	eruption-drill	1	{}	{}	1	{oxide=10, silicon=150, thorium=75, tungsten=125}	false	false
+origin	sharded	heat-redirector	2	{}	{}	2	{graphite=10, tungsten=10}	false	false
+origin	sharded	oxidation-chamber	2	{}	{}	2	{beryllium=120, graphite=80, silicon=100, tungsten=120}	false	false
+origin	sharded	plasma-bore	12	{}	{}	12	{beryllium=240}	false	false
+origin	sharded	radar	1	{}	{}	1	{beryllium=5, graphite=25, silicon=30}	false	false
+origin	sharded	reinforced-bridge-conduit	4	{}	{}	4	{beryllium=40, graphite=16}	false	false
+origin	sharded	reinforced-conduit	97	{}	{}	97	{beryllium=97}	false	false
+origin	sharded	reinforced-liquid-junction	1	{}	{}	1	{beryllium=4, graphite=2}	false	false
+origin	sharded	reinforced-liquid-router	2	{}	{}	2	{beryllium=4, graphite=8}	false	false
+origin	sharded	ship-fabricator	1	{}	{}	1	{beryllium=100, silicon=125}	false	false
+origin	sharded	silicon-arc-furnace	1	{}	{}	1	{beryllium=35, graphite=40}	false	false
+origin	sharded	tungsten-wall-large	38	{}	{}	38	{tungsten=456}	false	false
+origin	sharded	turbine-condenser	8	{}	{}	8	{beryllium=240}	false	false
+origin	sharded	unit-cargo-unload-point	1	{}	{}	1	{silicon=30, tungsten=30}	false	false
+origin	sharded	world-processor	8	{}	{}	0	{}	false	false
+origin	malis	afflict	11	{}	{}	0	{}	true	true
+origin	malis	armored-duct	210	{}	{}	0	{}	true	true
+origin	malis	atmospheric-concentrator	18	{}	{}	0	{}	true	true
+origin	malis	basic-assembler-module	3	{}	{}	0	{}	true	true
+origin	malis	beam-link	6	{}	{}	0	{}	true	true
+origin	malis	beam-node	889	{}	{}	0	{}	true	true
+origin	malis	beam-tower	8	{}	{}	0	{}	true	true
+origin	malis	beryllium-wall	23	{}	{}	0	{}	true	true
+origin	malis	beryllium-wall-large	18	{}	{}	0	{}	true	true
+origin	malis	blast-door	13	{}	{}	0	{}	true	true
+origin	malis	breach	33	{}	{}	0	{}	true	true
+origin	malis	build-tower	15	{}	{}	0	{}	true	true
+origin	malis	carbide-crucible	6	{}	{}	0	{}	true	true
+origin	malis	carbide-wall	398	{}	{}	0	{}	true	true
+origin	malis	carbide-wall-large	551	{}	{}	0	{}	true	true
+origin	malis	chemical-combustion-chamber	15	{}	{}	0	{}	true	true
+origin	malis	cliff-crusher	126	{}	{}	0	{}	true	true
+origin	malis	constructor	7	{}	{}	0	{}	true	true
+origin	malis	core-acropolis	4	{beryllium=20000, carbide=4000, graphite=20000, oxide=8000, silicon=12000, surge-alloy=4000, thorium=8000, tungsten=8000}	{}	0	{}	true	true
+origin	malis	core-bastion	3	{beryllium=15000, carbide=3000, graphite=15000, oxide=6000, silicon=9000, surge-alloy=3000, thorium=6000, tungsten=6000}	{}	0	{}	true	true
+origin	malis	core-citadel	2	{beryllium=10000, carbide=2000, graphite=10000, oxide=4000, silicon=6000, surge-alloy=2000, thorium=4000, tungsten=4000}	{}	0	{}	true	true
+origin	malis	cyanogen-synthesizer	9	{}	{}	0	{}	true	true
+origin	malis	diffuse	3	{}	{}	0	{}	true	true
+origin	malis	disperse	91	{}	{}	0	{}	true	true
+origin	malis	duct	5984	{}	{}	0	{}	true	true
+origin	malis	duct-bridge	747	{}	{}	0	{}	true	true
+origin	malis	duct-router	131	{}	{}	0	{}	true	true
+origin	malis	duct-unloader	44	{}	{}	0	{}	true	true
+origin	malis	electric-heater	144	{}	{}	0	{}	true	true
+origin	malis	electrolyzer	68	{}	{}	0	{}	true	true
+origin	malis	eruption-drill	18	{}	{}	0	{}	true	true
+origin	malis	heat-redirector	68	{}	{}	0	{}	true	true
+origin	malis	heat-router	2	{}	{}	0	{}	true	true
+origin	malis	impact-drill	6	{}	{}	0	{}	true	true
+origin	malis	large-plasma-bore	47	{}	{}	0	{}	true	true
+origin	malis	lustre	3	{}	{}	0	{}	true	true
+origin	malis	malign	2	{}	{}	0	{}	true	true
+origin	malis	mech-assembler	2	{}	{}	0	{}	true	true
+origin	malis	mech-fabricator	3	{}	{}	0	{}	true	true
+origin	malis	mech-refabricator	2	{}	{}	0	{}	true	true
+origin	malis	neoplasia-reactor	5	{}	{}	0	{}	true	true
+origin	malis	overflow-duct	27	{}	{}	0	{}	true	true
+origin	malis	oxidation-chamber	8	{}	{}	0	{}	true	true
+origin	malis	payload-loader	7	{}	{}	0	{}	true	true
+origin	malis	payload-mass-driver	34	{}	{}	0	{}	true	true
+origin	malis	payload-unloader	7	{}	{}	0	{}	true	true
+origin	malis	phase-heater	27	{}	{}	0	{}	true	true
+origin	malis	phase-synthesizer	8	{}	{}	0	{}	true	true
+origin	malis	plasma-bore	121	{}	{}	0	{}	true	true
+origin	malis	prime-refabricator	2	{}	{}	0	{}	true	true
+origin	malis	pyrolysis-generator	7	{}	{}	0	{}	true	true
+origin	malis	regen-projector	36	{}	{}	0	{}	true	true
+origin	malis	reinforced-bridge-conduit	669	{}	{}	0	{}	true	true
+origin	malis	reinforced-conduit	4850	{}	{}	0	{}	true	true
+origin	malis	reinforced-container	5	{}	{}	0	{}	true	true
+origin	malis	reinforced-liquid-container	35	{}	{}	0	{}	true	true
+origin	malis	reinforced-liquid-junction	142	{}	{}	0	{}	true	true
+origin	malis	reinforced-liquid-router	307	{}	{}	0	{}	true	true
+origin	malis	reinforced-liquid-tank	38	{}	{}	0	{}	true	true
+origin	malis	reinforced-payload-conveyor	56	{}	{}	0	{}	true	true
+origin	malis	reinforced-payload-router	2	{}	{}	0	{}	true	true
+origin	malis	reinforced-pump	56	{}	{}	0	{}	true	true
+origin	malis	reinforced-surge-wall	23	{}	{}	0	{}	true	true
+origin	malis	reinforced-surge-wall-large	45	{}	{}	0	{}	true	true
+origin	malis	reinforced-vault	14	{}	{}	0	{}	true	true
+origin	malis	scathe	1	{}	{}	0	{}	true	true
+origin	malis	shielded-wall	412	{}	{}	0	{}	true	true
+origin	malis	ship-assembler	2	{}	{}	0	{}	true	true
+origin	malis	ship-fabricator	6	{}	{}	0	{}	true	true
+origin	malis	ship-refabricator	2	{}	{}	0	{}	true	true
+origin	malis	shockwave-tower	6	{}	{}	0	{}	true	true
+origin	malis	silicon-arc-furnace	13	{}	{}	0	{}	true	true
+origin	malis	small-deconstructor	1	{}	{}	0	{}	true	true
+origin	malis	smite	6	{}	{}	0	{}	true	true
+origin	malis	sublimate	36	{}	{}	0	{}	true	true
+origin	malis	surge-conveyor	168	{}	{}	0	{}	true	true
+origin	malis	surge-crucible	3	{}	{}	0	{}	true	true
+origin	malis	surge-router	3	{}	{}	0	{}	true	true
+origin	malis	tank-assembler	1	{}	{}	0	{}	true	true
+origin	malis	tank-fabricator	4	{}	{}	0	{}	true	true
+origin	malis	tank-refabricator	2	{}	{}	0	{}	true	true
+origin	malis	titan	3	{}	{}	0	{}	true	true
+origin	malis	tungsten-wall	186	{}	{}	0	{}	true	true
+origin	malis	tungsten-wall-large	217	{}	{}	0	{}	true	true
+origin	malis	turbine-condenser	40	{}	{}	0	{}	true	true
+origin	malis	underflow-duct	24	{}	{}	0	{}	true	true
+origin	malis	unit-cargo-loader	2	{}	{}	0	{}	true	true
+origin	malis	unit-cargo-unload-point	4	{}	{}	0	{}	true	true
+origin	malis	unit-repair-tower	1	{}	{}	0	{}	true	true
+origin	malis	vent-condenser	27	{}	{}	0	{}	true	true
+watch-6	derelict	battery	1	{}	{}	1	{copper=3, lead=10}	false	false
+watch-6	sharded	battery	1	{}	{}	1	{copper=3, lead=10}	false	false
+watch-6	sharded	combustion-generator	1	{coal=20}	{}	1	{copper=13, lead=8}	false	false
+watch-6	sharded	conveyor	44	{}	{}	44	{copper=44}	false	false
+watch-6	sharded	copper-wall	20	{}	{}	20	{copper=60}	false	false
+watch-6	sharded	core-shard	1	{coal=200, copper=1000, graphite=200, lead=700, metaglass=150, plastanium=250, silicon=300, titanium=350}	{}	0	{}	false	false
+watch-6	sharded	duo	2	{}	{}	2	{copper=36}	false	false
+watch-6	sharded	mechanical-drill	2	{}	{}	2	{copper=12}	false	false
+watch-6	sharded	message	1	{}	{}	1	{copper=3, graphite=3}	false	false
+watch-6	sharded	power-node	1	{}	{}	1	{copper=1, lead=3}	false	false

@@ -1,0 +1,61 @@
+map	team	block	x	y	breakableByPlayer	cost	darkness	distanceCoreTiles
+biomassFacility	derelict	scrap-wall	80	85	true	{scrap=6}	0.0	64.84597
+biomassFacility	derelict	scrap-wall-large	80	86	true	{scrap=24}	0.0	65.0884
+biomassFacility	derelict	cultivator	77	87	true	{copper=25, lead=25, silicon=10}	0.0	68.209236
+biomassFacility	derelict	door-large	92	87	true	{silicon=16, titanium=24}	0.0	55.33986
+biomassFacility	derelict	titanium-conveyor	73	88	true	{copper=1, lead=1, titanium=1}	0.0	72.44998
+biomassFacility	derelict	titanium-conveyor	75	88	true	{copper=1, lead=1, titanium=1}	0.0	70.66116
+biomassFacility	derelict	titanium-conveyor	76	88	true	{copper=1, lead=1, titanium=1}	0.0	69.77106
+biomassFacility	derelict	titanium-conveyor	73	89	true	{copper=1, lead=1, titanium=1}	0.0	72.89719
+biomassFacility	derelict	scrap-wall-large	91	89	true	{scrap=24}	0.0	57.31056
+biomassFacility	derelict	cultivator	82	90	true	{copper=25, lead=25, silicon=10}	0.0	65.34906
+biomassFacility	derelict	titanium-conveyor	76	91	true	{copper=1, lead=1, titanium=1}	0.0	71.19691
+biomassFacility	derelict	scrap-wall	91	91	true	{scrap=6}	0.0	58.60034
+biomassFacility	derelict	titanium-conveyor	73	92	true	{copper=1, lead=1, titanium=1}	0.0	74.30343
+biomassFacility	derelict	cultivator	78	92	true	{copper=25, lead=25, silicon=10}	0.0	69.80329
+biomassFacility	derelict	cultivator	80	92	true	{copper=25, lead=25, silicon=10}	0.0	68.10654
+biomassFacility	derelict	titanium-conveyor	82	93	true	{copper=1, lead=1, titanium=1}	0.0	67.11929
+biomassFacility	derelict	titanium-conveyor	73	94	true	{copper=1, lead=1, titanium=1}	0.0	75.29276
+biomassFacility	derelict	scrap-wall	76	94	true	{scrap=6}	0.0	72.718636
+biomassFacility	derelict	titanium-conveyor	82	94	true	{copper=1, lead=1, titanium=1}	0.0	67.6757
+biomassFacility	derelict	titanium-conveyor	82	96	true	{copper=1, lead=1, titanium=1}	0.0	68.8186
+biomassFacility	derelict	titanium-conveyor	82	99	true	{copper=1, lead=1, titanium=1}	0.0	70.60453
+biomassFacility	derelict	distributor	73	101	true	{copper=4, lead=4}	0.0	78.93352
+biomassFacility	derelict	titanium-conveyor	82	101	true	{copper=1, lead=1, titanium=1}	0.0	71.8401
+biomassFacility	derelict	scrap-wall	58	102	true	{scrap=6}	0.0	92.28217
+biomassFacility	derelict	titanium-conveyor	82	103	true	{copper=1, lead=1, titanium=1}	0.0	73.109505
+biomassFacility	derelict	scrap-wall	91	108	true	{scrap=6}	0.0	70.0928
+biomassFacility	derelict	scrap-wall	91	109	true	{scrap=6}	0.0	70.837845
+biomassFacility	derelict	scrap-wall	92	109	true	{scrap=6}	0.0	70.178345
+biomassFacility	derelict	scrap-wall	92	110	true	{scrap=6}	0.0	70.93659
+biomassFacility	derelict	scrap-wall-large	52	111	true	{scrap=24}	0.0	101.9338
+biomassFacility	derelict	container	52	115	true	{titanium=100}	0.0	104.16573
+biomassFacility	derelict	scrap-wall	94	121	true	{scrap=6}	0.0	78.492035
+biomassFacility	derelict	scrap-wall	95	121	true	{scrap=6}	0.0	77.93587
+biomassFacility	derelict	scrap-wall	93	122	true	{scrap=6}	0.0	79.881165
+biomassFacility	derelict	container	74	124	true	{titanium=100}	0.0	93.40503
+biomassFacility	derelict	container	74	126	true	{titanium=100}	0.0	94.88151
+biomassFacility	derelict	scrap-wall-large	90	135	true	{scrap=24}	0.0	92.6094
+biomassFacility	derelict	titanium-conveyor	80	139	true	{copper=1, lead=1, titanium=1}	0.0	101.257095
+biomassFacility	derelict	titanium-conveyor	80	140	true	{copper=1, lead=1, titanium=1}	0.0	102.0784
+biomassFacility	derelict	titanium-conveyor	80	141	true	{copper=1, lead=1, titanium=1}	0.0	102.90287
+biomassFacility	derelict	titanium-conveyor	78	142	true	{copper=1, lead=1, titanium=1}	0.0	104.86182
+biomassFacility	derelict	router	80	142	true	{copper=3}	0.0	103.73042
+biomassFacility	derelict	air-factory	76	143	true	{copper=60, lead=70, silicon=60}	0.0	106.83164
+biomassFacility	derelict	titanium-conveyor	78	143	true	{copper=1, lead=1, titanium=1}	0.0	105.68349
+biomassFacility	derelict	junction	80	143	true	{copper=3}	0.0	104.56099
+biomassFacility	derelict	titanium-conveyor	78	145	true	{copper=1, lead=1, titanium=1}	0.0	107.33592
+biomassFacility	derelict	additive-reconstructor	76	146	true	{copper=200, lead=120, silicon=90}	0.0	109.28861
+biomassFacility	derelict	titanium-conveyor	79	146	true	{copper=1, lead=1, titanium=1}	0.0	107.61505
+biomassFacility	derelict	junction	79	147	true	{copper=3}	0.0	108.45275
+biomassFacility	derelict	scrap-wall	93	147	true	{scrap=6}	0.0	101.51847
+biomassFacility	derelict	titanium-conveyor	79	148	true	{copper=1, lead=1, titanium=1}	0.0	109.29318
+biomassFacility	derelict	scrap-wall	73	151	true	{scrap=6}	0.0	115.10864
+biomassFacility	derelict	scrap-wall	74	151	true	{scrap=6}	0.0	114.546936
+biomassFacility	derelict	scrap-wall	73	152	true	{scrap=6}	0.0	115.935326
+biomassFacility	derelict	scrap-wall	74	152	true	{scrap=6}	0.0	115.37764
+biomassFacility	derelict	scrap-wall	73	153	true	{scrap=6}	0.0	116.76472
+biomassFacility	derelict	scrap-wall-large	79	156	true	{scrap=24}	0.0	116.286285
+biomassFacility	derelict	door-large	81	156	true	{silicon=16, titanium=24}	0.0	115.293106
+biomassFacility	derelict	door-large	83	156	true	{silicon=16, titanium=24}	0.0	114.32629
+biomassFacility	sharded	core-shard	138	56	false	{copper=1000, lead=800}	0.0	0.0

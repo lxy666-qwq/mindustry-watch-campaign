@@ -1,0 +1,4 @@
+NORMAL=3
+HEROIC=1
+TACTICAL=0
+source=local-work/aegis-trials/heroic-01-v033/profile/settings.bin

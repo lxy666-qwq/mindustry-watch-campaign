@@ -1,0 +1,4 @@
+audited=biomassFacility mode=NORMAL reward=1 core={copper=100}
+audited=biomassFacility mode=HEROIC reward=1 core={copper=100}
+audited=biomassFacility mode=TACTICAL reward=1 core={copper=100}
+Audit completed maps=1 modes=3 stars=0; no ticks/combat/builds

@@ -1,0 +1,28 @@
+mission=onset
+mode=HEROIC
+scope=driver failed: No duct route BuildPlan{x=269, y=120, rotation=1, block=cliff-crusher, breaking=false, progress=0.0, initialized=false, config=null} -> BuildPlan{x=267, y=118, rotation=3, block=duct, breaking=false, progress=0.0, initialized=false, config=null}
+gateVerified=true
+finished=false
+winner=null
+simSeconds=0.0
+built=0
+commands=0
+deposits=0
+pendingPlans=261
+next=BuildPlan{x=289, y=116, rotation=0, block=turbine-condenser, breaking=false, progress=0.0, initialized=false, config=null}
+stars=0
+minimumCore=1.0
+losses=0
+elapsed=0.0
+normalBefore=3
+heroBefore=0
+tacticalBefore=1
+normalAfter=3
+tacticalAfter=1
+earned=0
+runtimeWatchVersion=0.3.3
+objectives=0/20
+flags={}
+status=核心最低生命 100% · 核心损失 0
+用时 0 / 1860 秒 · 建筑损失 0 / 16
+classLocation=file:/local-work/mindustry-star-work/star033-runtime/Mindustry.jar

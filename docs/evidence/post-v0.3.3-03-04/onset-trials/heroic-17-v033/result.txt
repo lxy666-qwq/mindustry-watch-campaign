@@ -1,0 +1,28 @@
+mission=onset
+mode=HEROIC
+scope=driver failed: No duct route BuildPlan{x=286, y=177, rotation=3, block=plasma-bore, breaking=false, progress=0.0, initialized=false, config=null} -> BuildPlan{x=278, y=197, rotation=0, block=breach, breaking=false, progress=0.0, initialized=false, config=null}
+gateVerified=true
+finished=false
+winner=null
+simSeconds=775.01666
+built=260
+commands=92
+deposits=4
+pendingPlans=3
+next=BuildPlan{x=287, y=197, rotation=0, block=core-bastion, breaking=false, progress=0.0, initialized=false, config=null}
+stars=0
+minimumCore=1.0
+losses=0
+elapsed=774.8716
+normalBefore=3
+heroBefore=0
+tacticalBefore=1
+normalAfter=3
+tacticalAfter=1
+earned=0
+runtimeWatchVersion=0.3.3
+objectives=18/20
+flags={breachAmmo}
+status=核心最低生命 100% · 核心损失 0
+用时 775 / 1860 秒 · 建筑损失 0 / 16
+classLocation=file:/local-work/mindustry-star-work/star033-runtime/Mindustry.jar
