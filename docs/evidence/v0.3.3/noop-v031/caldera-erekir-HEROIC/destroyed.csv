@@ -1,0 +1,17 @@
+simSeconds,block,x,y
+403.91666,turbine-condenser,102,38
+424.81668,electrolyzer,97,62
+434.78333,plasma-bore,69,84
+440.98334,plasma-bore,69,82
+446.41666,oxidation-chamber,94,55
+453.98334,plasma-bore,66,80
+456.48334,duct,72,84
+461.4,turbine-condenser,97,67
+463.31668,cliff-crusher,69,71
+470.35,plasma-bore,87,55
+478.2,silicon-arc-furnace,81,75
+484.4,cliff-crusher,70,69
+491.31668,cliff-crusher,72,67
+496.16666,plasma-bore,87,57
+924.4,ship-fabricator,93,80
+1040.0333,core-bastion,86,68

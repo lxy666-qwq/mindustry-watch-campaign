@@ -1,0 +1,36 @@
+trial=no-operation-control
+selection=direct-map-combat-test; campaign gate not claimed
+profileScope=isolated-combat-qa
+profile=trial-work/control-matrix-v031-final-20261013/fungalPass-TACTICAL/profile
+gateVerified=false
+mission=fungalPass
+mode=TACTICAL
+finished=false
+winner=none
+wave=1
+actualSpawnWaves=0
+simSeconds=1800.0
+wallSeconds=27.324572
+placedBuildings=0
+withdraws=0
+deposits=0
+coreMinimum=1.0
+buildingsDestroyed=0
+pendingPlans=0
+actualVersion=0.3.1
+codeLocation=coursework/%e7%89%88%e6%9c%ac%e5%bd%92%e6%a1%a3/v0.3.1/Mindustry.jar
+CampaignStars.classModifiedAtStart=1791869886931
+WatchMapGenerator.classModifiedAtStart=1791869889046
+waveTimer=false
+objectives=4
+objectiveFlags={}
+starsAfter=0
+mainStarsAfter=0
+branchRewardAfter=false
+frozenForestUnlocked=false
+settingsFile=trial-work/control-matrix-v031-final-20261013/fungalPass-TACTICAL/profile/settings.bin
+settingsExists=true
+status=核心最低生命 100% · 核心损失 0
+16座曾实际供给核心、弹药塔或产出设施的传送带/物流管及2座胜利前60秒内曾实际产出/发电的加工设施
+新增运输设施 0 / 16 · 新增生产设施 0 / 2
+累计建造 0 / 247

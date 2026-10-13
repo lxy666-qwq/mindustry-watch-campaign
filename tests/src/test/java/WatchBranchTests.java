@@ -170,6 +170,13 @@ public class WatchBranchTests{
             assertEquals(threshold, CampaignStars.mainStars());
             assertTrue(CampaignStars.normalComplete(anchor));
             assertTrue(CampaignStars.branchUnlocked(index));
+            int counter = CampaignProgression.requiredReward(WatchCampaign.sectors[index], Mode.NORMAL);
+            if(counter >= 0){
+                assertFalse(CampaignStars.unlocked(WatchCampaign.sectors[index]), "stars and anchor cannot bypass required counter equipment");
+                for(var mode : Mode.values()){
+                    Core.settings.put(CampaignStars.progressKey(WatchCampaign.sectors[counter], mode), mode.maximum);
+                }
+            }
             assertTrue(CampaignStars.unlocked(WatchCampaign.sectors[index]));
 
             seedOtherMainStars(threshold - 2, anchor);

@@ -1,0 +1,16 @@
+simSeconds,block,x,y
+440.28333,pneumatic-drill,118,329
+550.06665,steam-generator,117,322
+702.2833,mechanical-pump,119,314
+816.8333,conduit,118,321
+1085.1,titanium-conveyor,119,328
+1088.2833,titanium-wall,133,332
+1233.7667,conduit,119,316
+1235.0667,power-node,119,322
+1235.7333,pneumatic-drill,120,328
+1235.9,router,119,323
+1348.5834,mechanical-pump,120,315
+1348.8167,conduit,119,315
+1348.8167,conduit,119,317
+1352.85,titanium-wall,130,332
+1358.9333,core-foundation,145,321

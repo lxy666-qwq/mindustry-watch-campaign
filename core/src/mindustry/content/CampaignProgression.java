@@ -11,7 +11,8 @@ import mindustry.world.*;
 /** The optional Watch branches become required preparation at specific counterplay milestones. */
 public class CampaignProgression{
     public static int requiredReward(SectorPreset preset, Mode mode){
-        if(CampaignStars.branchIndex(preset) >= 0) return -1;
+        int branch = CampaignStars.branchIndex(preset);
+        if(branch >= 0) return branch == 5 ? 4 : -1;
         return switch(preset.name){
             case "frozenForest" -> 0;
             case "ruinousShores", "biomassFacility" -> 1;
@@ -107,7 +108,10 @@ public class CampaignProgression{
         if(reward >= 0){
             if(text.length() > 0) text.append("; ");
             text.append(WatchCampaign.sectors[reward].localizedName).append(cn ? "满五星，获得：" : " five stars, grants: ");
-            text.append(rewardEquipment(reward, preset.planet == Planets.erekir));
+            text.append(rewardEquipment(reward, preset.planet == Planets.erekir && branch < 0));
+            if(branch == 5){
+                text.append(cn ? "；本关新任务提供钍80、相织布40，供一台拦截炮；硅、钛与供电需正常准备，读档不补发" : "; this new mission includes 80 thorium and 40 phase fabric for one Segment; silicon, titanium and power must be prepared normally; no refill on reload");
+            }
             if(preset == SectorPresets.stronghold){
                 text.append(cn ? "；本关新任务提供巨浪合金100，供建造一座劫难，读档不补发" : "; this new mission includes 100 surge alloy for one Afflict; no refill on reload");
             }
@@ -126,6 +130,12 @@ public class CampaignProgression{
         if(rules.tags.get(CampaignStars.prefix + "preset").equals("stronghold") && CampaignStars.completedReward(7) &&
             !rules.tags.getBool(CampaignStars.prefix + "counterKit")){
             rules.loadout.add(new ItemStack(Items.surgeAlloy, 100));
+            rules.tags.put(CampaignStars.prefix + "counterKit", "true");
+        }
+        //Watch 6 has no thorium or phase production; the earned Segment still needs finite materials.
+        if(rules.tags.get(CampaignStars.prefix + "preset").equals("watch-6") && CampaignStars.completedReward(4) &&
+            !rules.tags.getBool(CampaignStars.prefix + "counterKit")){
+            rules.loadout.add(new ItemStack(Items.thorium, 80), new ItemStack(Items.phaseFabric, 40));
             rules.tags.put(CampaignStars.prefix + "counterKit", "true");
         }
         boolean erekir = rules.planet == Planets.erekir && CampaignStars.branchIndex(mindustry.Vars.content.sector(rules.tags.get(CampaignStars.prefix + "preset"))) < 0;

@@ -1,0 +1,14 @@
+Native core damage observations, no health writes.
+356.66666 health=0.92734545 nearest=mace at=156.9927,60.730335
+357.0 health=0.85469097 nearest=mace at=156.99838,59.48035
+357.31668 health=0.7820364 nearest=mace at=156.99951,58.29285
+357.33334 health=0.7093819 nearest=mace at=156.99951,58.23035
+357.65 health=0.63672733 nearest=mace at=156.99965,57.95985
+357.68332 health=0.56407285 nearest=mace at=156.99965,57.959675
+358.0 health=0.4914183 nearest=mace at=157.00021,57.383945
+358.05 health=0.41876373 nearest=mace at=157.0003,57.290195
+358.33334 health=0.34610918 nearest=mace at=157.00092,56.9125
+358.4 health=0.2734546 nearest=mace at=157.00125,56.9125
+358.73334 health=0.20080006 nearest=mace at=157.00282,56.9125
+358.78333 health=0.1281455 nearest=mace at=157.00282,56.9125
+359.1 health=0.055490952 nearest=mace at=157.00282,56.9125

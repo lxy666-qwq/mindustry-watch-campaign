@@ -1,0 +1,16 @@
+watch-5.NORMAL=3
+watch-5.HEROIC=1
+watch-5.TACTICAL=1
+actualVersion=0.3.2
+codeLocation=file:/trial-work/branch032-runtime/Mindustry.jar
+mainStars=0
+branch4Reward=true
+W6SegmentResearchAndWhitelist=true
+segment.titanium.cost=40;startingAmount=350
+segment.thorium.cost=80;startingAmount=0
+segment.silicon.cost=130;startingAmount=300
+segment.phase-fabric.cost=40;startingAmount=0
+Bryde.artillery.hittable=true
+Bryde.artillery.despawnHit=true
+Bryde.artillery.splashRadius=40.0
+readOnlyReload=passed; normal campaign gate not claimed

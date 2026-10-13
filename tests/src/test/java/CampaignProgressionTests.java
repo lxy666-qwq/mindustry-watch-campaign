@@ -180,4 +180,61 @@ public class CampaignProgressionTests{
         CampaignProgression.applyRewards(rules);
         assertFalse(rules.loadout.contains(stack -> stack.item == Items.surgeAlloy));
     }
+
+    @ParameterizedTest
+    @EnumSource(Mode.class)
+    void tideRequiresFullSandRewardAndFiniteSegmentMaterialsSurviveSave(Mode mode){
+        var sand = WatchCampaign.sectors[4];
+        var tide = WatchCampaign.sectors[5];
+        Core.settings.put(CampaignStars.progressKey(sand, Mode.NORMAL), 3);
+        Core.settings.put(CampaignStars.progressKey(sand, Mode.HEROIC), 1);
+        assertEquals(4, CampaignProgression.requiredReward(tide, mode));
+        assertFalse(CampaignProgression.allowed(tide, mode));
+        complete(sand);
+        assertTrue(CampaignProgression.allowed(tide, mode));
+        assertTrue(CampaignProgression.requirements(tide, mode).contains(Blocks.segment.localizedName));
+        CampaignStars.loadMission(tide, mode);
+        logic.play();
+        var core = state.rules.defaultTeam.core();
+        assertTrue(CampaignStars.available(Blocks.segment));
+        for(var requirement : Blocks.segment.requirements){
+            assertTrue(core.items.get(requirement.item) >= requirement.amount, "Segment material missing: " + requirement.item.name);
+        }
+        assertEquals(80, core.items.get(Items.thorium));
+        assertEquals(40, core.items.get(Items.phaseFabric));
+        CampaignProgression.applyRewards(state.rules);
+        assertEquals(1, state.rules.loadout.count(stack -> stack.item == Items.thorium));
+        assertEquals(1, state.rules.loadout.count(stack -> stack.item == Items.phaseFabric));
+        core.items.remove(Items.thorium, 40);
+        core.items.remove(Items.phaseFabric, 20);
+        var file = saveDirectory.child("tide-counter-" + mode + ".msav");
+        SaveIO.write(file);
+        logic.reset();
+        SaveIO.load(file);
+        CampaignProgression.applyRewards(state.rules);
+        assertEquals(40, state.rules.defaultTeam.core().items.get(Items.thorium));
+        assertEquals(20, state.rules.defaultTeam.core().items.get(Items.phaseFabric));
+        assertEquals(80, state.rules.loadout.find(stack -> stack.item == Items.thorium).amount);
+        assertEquals(40, state.rules.loadout.find(stack -> stack.item == Items.phaseFabric).amount);
+    }
+
+    @Test
+    void tideKitIsUnavailableAtFourStarsOrOnOtherMissions(){
+        var sand = WatchCampaign.sectors[4];
+        Core.settings.put(CampaignStars.progressKey(sand, Mode.NORMAL), 3);
+        Core.settings.put(CampaignStars.progressKey(sand, Mode.HEROIC), 1);
+        var rules = new Rules();
+        rules.planet = Planets.serpulo;
+        rules.tags.put("stars.preset", "watch-6");
+        CampaignProgression.applyRewards(rules);
+        assertFalse(rules.loadout.contains(stack -> stack.item == Items.thorium || stack.item == Items.phaseFabric));
+        complete(sand);
+        rules.tags.put("stars.preset", "groundZero");
+        CampaignProgression.applyRewards(rules);
+        assertFalse(rules.loadout.contains(stack -> stack.item == Items.thorium || stack.item == Items.phaseFabric));
+        rules.tags.remove("stars.preset");
+        String nativeLoadout = rules.loadout.toString();
+        CampaignProgression.applyRewards(rules);
+        assertEquals(nativeLoadout, rules.loadout.toString());
+    }
 }

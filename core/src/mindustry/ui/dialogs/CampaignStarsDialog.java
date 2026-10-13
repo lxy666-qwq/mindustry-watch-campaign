@@ -159,7 +159,9 @@ public class CampaignStarsDialog extends BaseDialog{
     private String following(int branch){
         Seq<String> missions = new Seq<>();
         for(var planet : new Planet[]{Planets.serpulo, Planets.erekir}){
-            for(var preset : CampaignStars.mainLevels(planet)){
+            Seq<SectorPreset> targets = CampaignStars.mainLevels(planet);
+            for(var preset : WatchCampaign.sectors) if(preset.planet == planet) targets.add(preset);
+            for(var preset : targets){
                 Seq<String> modes = new Seq<>();
                 for(var mode : Mode.values()){
                     if(CampaignProgression.requiredReward(preset, mode) == branch) modes.add(modeName(mode));
@@ -178,9 +180,7 @@ public class CampaignStarsDialog extends BaseDialog{
             card.button(label, unlocked ? Icon.terrain : Icon.lock, Styles.cleart, () -> show(preset)).growX().height(48f).row();
             card.table(thisCard -> addStars(thisCard, preset)).left().pad(6f).row();
             if(!unlocked || CampaignProgression.requiredReward(preset, Mode.NORMAL) >= 0){
-                String requirement = branch >= 0
-                    ? Core.bundle.format("stars.requirement", WatchCampaign.starRequirements[branch], WatchCampaign.anchors[branch].localizedName)
-                    : Core.bundle.format("stars.requirements", CampaignProgression.requirements(preset, Mode.NORMAL));
+                String requirement = Core.bundle.format("stars.requirements", CampaignProgression.requirements(preset, Mode.NORMAL));
                 card.add(requirement).wrap().color(Color.lightGray).growX().left().row();
             }
             if(CampaignProgression.requiredReward(preset, Mode.HEROIC) != CampaignProgression.requiredReward(preset, Mode.NORMAL)){

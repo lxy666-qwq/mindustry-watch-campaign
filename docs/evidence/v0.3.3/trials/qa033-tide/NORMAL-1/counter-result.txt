@@ -1,0 +1,9 @@
+segmentBuiltAtSeconds=9.95
+observedNativeRemovalsLowerBound=116
+observedNativeDamageReductions=0
+minimumActivePowerStatus=0.0
+minimumStoredWhileTargetActive=0.0
+mode=NORMAL
+actualVersion=0.3.3
+profileScope=isolated-combat-qa-existing-actual-scores
+mainStars=0

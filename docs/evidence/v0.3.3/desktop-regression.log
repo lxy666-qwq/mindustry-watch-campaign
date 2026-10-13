@@ -1,0 +1,17 @@
+[I] [Core] Initialized SDL v2.32.8
+[I] [Audio] Initialized SoLoud 20260903 using MiniAudio at 44100hz / 441 samples / 2 channels
+[I] [GL] Version: OpenGL 4.6.0 / NVIDIA Corporation / NVIDIA GeForce RTX 4060 Laptop GPU/PCIe/SSE2 / 4.6.0 NVIDIA 560.94
+[I] [GL] Max texture size: 32768
+[I] [GL] Using OpenGL 3 API.
+[I] [GL] Total available VRAM: 8.4 GB
+[I] [JAVA] Version: 17.0.20.1
+[I] [RAM] Available: 8.5 GB
+[I] [Mindustry] Version: custom
+[I] Total time to load: 3250ms
+[I] Desktop ledger image 00-menu-v0.3.3
+[I] Desktop ledger image 01-tide-counter-prerequisite
+[I] Desktop ledger image 02-actual-onset-tactical-world
+[I] Actual completed world: 1019 tags; normal=3; tactical=1; earned=1; no injected inventory/score
+[I] Fetched 267 community servers.
+[I] Desktop ledger image 03-actual-onset-save-slot-restored
+[I] Desktop v0.3.3 ledger regression complete: native actual Onset tactical world import, SaveSlot save/reload, 1019 identical tags, earned=1. This GUI check does not add a playthrough.

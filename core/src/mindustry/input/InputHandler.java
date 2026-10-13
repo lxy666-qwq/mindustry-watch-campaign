@@ -255,6 +255,7 @@ public abstract class InputHandler implements InputProcessor, GestureListener{
         }
         if(amount > 0){
             build.handleStack(item, amount, unit);
+            CampaignStars.recordManualItemInput(unit, build, item);
         }
     }
 

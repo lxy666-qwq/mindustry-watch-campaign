@@ -1,0 +1,25 @@
+Native core damage observations, no health writes.
+209.41667 health=0.9348099 nearest=none
+299.4 health=0.8696198 nearest=none
+388.9 health=0.8044297 nearest=crawler at=86.99999,56.799507
+389.08334 health=0.73923963 nearest=none
+478.96667 health=0.6740495 nearest=crawler at=87.0,58.75213
+479.41666 health=0.6088594 nearest=none
+505.28333 health=0.6006776 nearest=none
+568.93335 health=0.53548753 nearest=crawler at=87.0,56.77378
+569.11664 health=0.4702974 nearest=crawler at=86.999985,56.774086
+569.3 health=0.40510732 nearest=none
+595.4 health=0.39692548 nearest=dagger at=87.0,66.26882
+595.5833 health=0.38874367 nearest=dagger at=87.0,65.58132
+595.76666 health=0.38056186 nearest=none
+595.95 health=0.37238005 nearest=none
+596.15 health=0.3641982 nearest=none
+658.81665 health=0.29900813 nearest=crawler at=86.999985,56.996933
+659.01666 health=0.23381802 nearest=crawler at=87.0,56.888306
+659.2167 health=0.16862795 nearest=crawler at=86.99999,58.245155
+659.5833 health=0.10343786 nearest=crawler at=86.999985,56.897995
+659.7833 health=0.03824778 nearest=none
+683.4167 health=0.03006596 nearest=dagger at=86.99999,66.235146
+683.5833 health=0.021884141 nearest=dagger at=86.99999,65.610146
+683.7833 health=0.013702324 nearest=dagger at=87.0,71.6224
+683.9667 health=0.005520505 nearest=dagger at=87.0,70.9349

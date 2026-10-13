@@ -1,0 +1,5 @@
+watchVersion=0.3.3
+actualClassLocation=trial-work/star033-runtime/Mindustry.jar
+actualCodeLocationModified=1791877212532
+profile=onset-trials/normal-12/profile
+fixedDelta=1/60 native tick; no wave skip

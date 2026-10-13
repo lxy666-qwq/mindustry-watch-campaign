@@ -1,0 +1,17 @@
+simSeconds,block,x,y
+211.0,copper-wall,91,51
+211.11667,build1,93,48
+283.18332,copper-wall,92,51
+283.56668,copper-wall,93,51
+284.01666,duo,95,46
+286.41666,build1,88,48
+286.65,mender,85,48
+287.15,build1,88,48
+345.95,power-node,93,45
+345.95,build1,93,48
+345.95,power-node,88,47
+346.4,power-node,88,41
+347.95,power-node,88,35
+358.1,copper-wall,94,51
+360.5,duo,81,46
+373.33334,core-shard,88,26

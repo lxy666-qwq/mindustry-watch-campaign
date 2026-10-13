@@ -45,6 +45,8 @@ public class CampaignStars{
     private static Rules flowRules;
     private static final ObjectMap<String, ObjectSet<String>> incomingFlows = new ObjectMap<>();
     private static final IntMap<ObjectSet<String>> receivedInputs = new IntMap<>();
+    private static final ObjectSet<String> itemOrigins = new ObjectSet<>();
+    private static final IntSet coreAssets = new IntSet();
 
     public record MissionLimits(float deadline, int buildBudget, int lossBudget){}
 
@@ -133,7 +135,10 @@ public class CampaignStars{
         });
         Events.on(SaveLoadEvent.class, e -> {
             carriedAssets.clear();
-            if(active() && !net.active()) readCarriedAssets();
+            if(active() && !net.active()){
+                readCarriedAssets();
+                if(currentMode() == Mode.TACTICAL) loadFlows();
+            }
         });
         Events.on(GameOverEvent.class, e -> {
             if(!running()) return;
@@ -239,7 +244,7 @@ public class CampaignStars{
     /** The star board follows original capture dependencies, without requiring global research purchases. */
     public static boolean unlocked(SectorPreset preset){
         int branch = branchIndex(preset);
-        if(branch >= 0) return branchUnlocked(branch);
+        if(branch >= 0) return branchUnlocked(branch) && CampaignProgression.allowed(preset, Mode.NORMAL);
         if(!eligible(preset)) return false;
         if(!CampaignProgression.allowed(preset, Mode.NORMAL)) return false;
         if(preset.alwaysUnlocked || normalComplete(preset)) return true;
@@ -314,7 +319,7 @@ public class CampaignStars{
         tags.put(prefix + "deadline", Float.toString(limits.deadline));
         tags.put(prefix + "assetNext", "0");
         tags.put(prefix + "taskAStart", "0");
-        tags.put(prefix + "flowVersion", "1");
+        tags.put(prefix + "flowVersion", "2");
         for(var building : state.rules.defaultTeam.data().buildings) newAsset(building.pos(), false);
         tags.put(prefix + "taskBStart", "0");
     }
@@ -468,12 +473,16 @@ public class CampaignStars{
         flowRules = state.rules;
         incomingFlows.clear();
         receivedInputs.clear();
-        if(!state.rules.tags.containsKey(prefix + "flowVersion")){
-            //Older runs recorded any output, without evidence of supplying a terminal.
+        itemOrigins.clear();
+        coreAssets.clear();
+        if(state.rules.tags.getInt(prefix + "flowVersion", 0) < 2){
+            //Earlier runs could credit core-return branches without a real resource origin.
             state.rules.tags.keys().toSeq().each(key -> {
-                if(key.startsWith(prefix + "transferred.")) state.rules.tags.remove(key);
+                if(key.startsWith(prefix + "flow.") || key.startsWith(prefix + "received.") ||
+                    key.startsWith(prefix + "transferred.") || key.startsWith(prefix + "origin.") ||
+                    key.startsWith(prefix + "core.")) state.rules.tags.remove(key);
             });
-            state.rules.tags.put(prefix + "flowVersion", "1");
+            state.rules.tags.put(prefix + "flowVersion", "2");
         }
         for(var key : state.rules.tags.keys()){
             if(key.startsWith(prefix + "flow.")){
@@ -484,6 +493,10 @@ public class CampaignStars{
             }else if(key.startsWith(prefix + "received.")){
                 String node = key.substring((prefix + "received.").length());
                 receivedInputs.get(flowAsset(node), ObjectSet::new).add(node);
+            }else if(key.startsWith(prefix + "origin.")){
+                itemOrigins.add(key.substring((prefix + "origin.").length()));
+            }else if(key.startsWith(prefix + "core.")){
+                coreAssets.add(Integer.parseInt(key.substring((prefix + "core.").length())));
             }
         }
     }
@@ -492,6 +505,8 @@ public class CampaignStars{
         //Native hand-stack delivery can have no Building source; it is not a conveyor handoff.
         if(source == null || source.team != state.rules.defaultTeam || recipient.team != source.team) return false;
         loadFlows();
+        if(coreInventory(source)) recordCoreAsset(source);
+        if(coreInventory(recipient)) recordCoreAsset(recipient);
         String from = flowNode(source, recipient, resource, true), to = flowNode(recipient, source, resource, false);
         if(incomingFlows.get(to, ObjectSet::new).add(from)) state.rules.tags.put(prefix + "flow." + from + ">" + to, "true");
         if(input){
@@ -505,7 +520,40 @@ public class CampaignStars{
         if(!tacticalRunning()) return;
         String resource = "i" + item.name;
         if(recordFlow(source, recipient, resource, recipient.block.consumesItem(item)) && recipient instanceof CoreBuild){
-            markSupply(flowNode(recipient, source, resource, false));
+            //Only this actual incoming route is assessed; other historical core inputs do not participate.
+            markSupply(flowNode(source, recipient, resource, true), true);
+        }
+    }
+
+    private static void recordCoreAsset(Building core){
+        loadFlows();
+        int token = identity(core);
+        if(coreAssets.add(token)) state.rules.tags.put(prefix + "core." + token, "true");
+    }
+
+    private static boolean coreInventory(Building building){
+        return building instanceof CoreBuild || building instanceof StorageBlock.StorageBuild storage && storage.linkedCore != null;
+    }
+
+    private static void recordItemOrigin(Building source, Item item){
+        loadFlows();
+        String node = "i" + item.name + ":" + identity(source) + ":4";
+        if(itemOrigins.add(node)) state.rules.tags.put(prefix + "origin." + node, "true");
+    }
+
+    /** Building.produced calls this after positive native production of this particular item. */
+    public static void recordItemProduction(Building source, Item item){
+        if(!tacticalRunning() || source.team != state.rules.defaultTeam) return;
+        recordItemOrigin(source, item);
+        recordProduction(source);
+    }
+
+    /** InputHandler calls this after a positive physical unit-to-inventory stack delivery. */
+    public static void recordManualItemInput(Unit source, Building recipient, Item item){
+        if(tacticalRunning() && source != null && source.team == state.rules.defaultTeam && recipient.team == source.team){
+            //Linked storage shares the core's inventory; its historical token stays a boundary after unlinking.
+            if(coreInventory(recipient)) recordCoreAsset(recipient);
+            else recordItemOrigin(recipient, item);
         }
     }
 
@@ -527,15 +575,35 @@ public class CampaignStars{
     }
 
     private static void markSupply(String terminal){
+        markSupply(terminal, false);
+    }
+
+    private static void markSupply(String terminal, boolean requireOrigin){
         ObjectSet<String> seen = new ObjectSet<>();
+        ObjectMap<String, ObjectSet<String>> downstream = new ObjectMap<>();
         Seq<String> pending = Seq.with(terminal);
         while(!pending.isEmpty()){
             String node = pending.pop();
             if(!seen.add(node)) continue;
-            state.rules.tags.put(prefix + "transferred." + flowAsset(node), "true");
+            //A core is a valid source for real consumption, but not for returning stock to another core.
+            if(coreAssets.contains(flowAsset(node))) continue;
             var sources = incomingFlows.get(node);
-            if(sources != null) for(var source : sources) pending.add(source);
+            if(sources != null) for(var source : sources){
+                if(requireOrigin) downstream.get(source, ObjectSet::new).add(node);
+                pending.add(source);
+            }
         }
+        if(requireOrigin){
+            for(var node : seen) if(itemOrigins.contains(node) && !coreAssets.contains(flowAsset(node))) pending.add(node);
+            seen.clear();
+            while(!pending.isEmpty()){
+                String node = pending.pop();
+                if(!seen.add(node)) continue;
+                var next = downstream.get(node);
+                if(next != null) for(var target : next) pending.add(target);
+            }
+        }
+        for(var node : seen) state.rules.tags.put(prefix + "transferred." + flowAsset(node), "true");
     }
 
     private static void recordSuppliedProduction(Building source){
@@ -826,7 +894,8 @@ public class CampaignStars{
         String transport = terrain(preset) == Terrain.NAVAL || terrain(preset) == Terrain.VOLCANIC ?
             (cn ? "导管" : "conduits") : (cn ? "传送带/物流管" : "conveyors/ducts");
         return taskARequired(preset) + (cn ? "座曾实际供给核心、弹药塔或产出设施的" : " transports that actually supplied a core, ammunition turret or producing facility: ") + transport +
-            (cn ? "及2座胜利前60秒内曾实际产出/发电的" : " and 2 facilities with actual output/power in the final 60 seconds: ") + kind;
+            (cn ? "及2座胜利前60秒内曾实际产出/发电的" : " and 2 facilities with actual output/power in the final 60 seconds: ") + kind +
+            (cn ? "。核心入库只计真实产出或玩家实际投放的来源，核心回流不计。" : ". Core input requires actual production or a physical player delivery as origin; core stock returns do not count.");
     }
 
     public static String status(){

@@ -1045,7 +1045,7 @@ abstract class BuildingComp implements Posc, Teamc, Healthc, Buildingc, Timerc, 
     }
 
     public void produced(Item item, int amount){
-        if(amount > 0) CampaignStars.recordProduction(self());
+        if(amount > 0) CampaignStars.recordItemProduction(self(), item);
         if(Vars.state.rules.sector != null && team == state.rules.defaultTeam){
             Vars.state.rules.sector.info.handleProduction(item, amount);
 

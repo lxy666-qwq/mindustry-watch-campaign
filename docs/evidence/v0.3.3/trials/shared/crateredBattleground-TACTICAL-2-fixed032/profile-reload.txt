@@ -1,0 +1,12 @@
+crateredBattleground.NORMAL=3
+crateredBattleground.HEROIC=0
+crateredBattleground.TACTICAL=1
+mainStars=12
+branch0Stars=5
+branch0Reward=true
+frozenForestOpen=true
+branch1Open=true
+branch1RequiredMainStars=10
+branch1Anchor=crateredBattleground
+branch1AnchorNormal=3
+readOnlyReload=passed

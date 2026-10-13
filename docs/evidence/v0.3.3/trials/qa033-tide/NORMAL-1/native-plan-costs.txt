@@ -1,0 +1,10 @@
+plannedBuildings=124
+copper=1604
+lead=840
+metaglass=133
+graphite=391
+titanium=325
+thorium=80
+silicon=215
+plastanium=80
+phase-fabric=40

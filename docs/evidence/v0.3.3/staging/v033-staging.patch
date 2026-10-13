@@ -1,0 +1,624 @@
+--- a/core/src/mindustry/content/CampaignStars.java
++++ b/core/src/mindustry/content/CampaignStars.java
+@@ -45,6 +45,8 @@
+     private static Rules flowRules;
+     private static final ObjectMap<String, ObjectSet<String>> incomingFlows = new ObjectMap<>();
+     private static final IntMap<ObjectSet<String>> receivedInputs = new IntMap<>();
++    private static final ObjectSet<String> itemOrigins = new ObjectSet<>();
++    private static final IntSet coreAssets = new IntSet();
+ 
+     public record MissionLimits(float deadline, int buildBudget, int lossBudget){}
+ 
+@@ -133,7 +135,10 @@
+         });
+         Events.on(SaveLoadEvent.class, e -> {
+             carriedAssets.clear();
+-            if(active() && !net.active()) readCarriedAssets();
++            if(active() && !net.active()){
++                readCarriedAssets();
++                if(currentMode() == Mode.TACTICAL) loadFlows();
++            }
+         });
+         Events.on(GameOverEvent.class, e -> {
+             if(!running()) return;
+@@ -239,7 +244,7 @@
+     /** The star board follows original capture dependencies, without requiring global research purchases. */
+     public static boolean unlocked(SectorPreset preset){
+         int branch = branchIndex(preset);
+-        if(branch >= 0) return branchUnlocked(branch);
++        if(branch >= 0) return branchUnlocked(branch) && CampaignProgression.allowed(preset, Mode.NORMAL);
+         if(!eligible(preset)) return false;
+         if(!CampaignProgression.allowed(preset, Mode.NORMAL)) return false;
+         if(preset.alwaysUnlocked || normalComplete(preset)) return true;
+@@ -314,7 +319,7 @@
+         tags.put(prefix + "deadline", Float.toString(limits.deadline));
+         tags.put(prefix + "assetNext", "0");
+         tags.put(prefix + "taskAStart", "0");
+-        tags.put(prefix + "flowVersion", "1");
++        tags.put(prefix + "flowVersion", "2");
+         for(var building : state.rules.defaultTeam.data().buildings) newAsset(building.pos(), false);
+         tags.put(prefix + "taskBStart", "0");
+     }
+@@ -468,12 +473,16 @@
+         flowRules = state.rules;
+         incomingFlows.clear();
+         receivedInputs.clear();
+-        if(!state.rules.tags.containsKey(prefix + "flowVersion")){
+-            //Older runs recorded any output, without evidence of supplying a terminal.
++        itemOrigins.clear();
++        coreAssets.clear();
++        if(state.rules.tags.getInt(prefix + "flowVersion", 0) < 2){
++            //Earlier runs could credit core-return branches without a real resource origin.
+             state.rules.tags.keys().toSeq().each(key -> {
+-                if(key.startsWith(prefix + "transferred.")) state.rules.tags.remove(key);
++                if(key.startsWith(prefix + "flow.") || key.startsWith(prefix + "received.") ||
++                    key.startsWith(prefix + "transferred.") || key.startsWith(prefix + "origin.") ||
++                    key.startsWith(prefix + "core.")) state.rules.tags.remove(key);
+             });
+-            state.rules.tags.put(prefix + "flowVersion", "1");
++            state.rules.tags.put(prefix + "flowVersion", "2");
+         }
+         for(var key : state.rules.tags.keys()){
+             if(key.startsWith(prefix + "flow.")){
+@@ -484,6 +493,10 @@
+             }else if(key.startsWith(prefix + "received.")){
+                 String node = key.substring((prefix + "received.").length());
+                 receivedInputs.get(flowAsset(node), ObjectSet::new).add(node);
++            }else if(key.startsWith(prefix + "origin.")){
++                itemOrigins.add(key.substring((prefix + "origin.").length()));
++            }else if(key.startsWith(prefix + "core.")){
++                coreAssets.add(Integer.parseInt(key.substring((prefix + "core.").length())));
+             }
+         }
+     }
+@@ -492,6 +505,8 @@
+         //Native hand-stack delivery can have no Building source; it is not a conveyor handoff.
+         if(source == null || source.team != state.rules.defaultTeam || recipient.team != source.team) return false;
+         loadFlows();
++        if(coreInventory(source)) recordCoreAsset(source);
++        if(coreInventory(recipient)) recordCoreAsset(recipient);
+         String from = flowNode(source, recipient, resource, true), to = flowNode(recipient, source, resource, false);
+         if(incomingFlows.get(to, ObjectSet::new).add(from)) state.rules.tags.put(prefix + "flow." + from + ">" + to, "true");
+         if(input){
+@@ -505,7 +520,40 @@
+         if(!tacticalRunning()) return;
+         String resource = "i" + item.name;
+         if(recordFlow(source, recipient, resource, recipient.block.consumesItem(item)) && recipient instanceof CoreBuild){
+-            markSupply(flowNode(recipient, source, resource, false));
++            //Only this actual incoming route is assessed; other historical core inputs do not participate.
++            markSupply(flowNode(source, recipient, resource, true), true);
++        }
++    }
++
++    private static void recordCoreAsset(Building core){
++        loadFlows();
++        int token = identity(core);
++        if(coreAssets.add(token)) state.rules.tags.put(prefix + "core." + token, "true");
++    }
++
++    private static boolean coreInventory(Building building){
++        return building instanceof CoreBuild || building instanceof StorageBlock.StorageBuild storage && storage.linkedCore != null;
++    }
++
++    private static void recordItemOrigin(Building source, Item item){
++        loadFlows();
++        String node = "i" + item.name + ":" + identity(source) + ":4";
++        if(itemOrigins.add(node)) state.rules.tags.put(prefix + "origin." + node, "true");
++    }
++
++    /** Building.produced calls this after positive native production of this particular item. */
++    public static void recordItemProduction(Building source, Item item){
++        if(!tacticalRunning() || source.team != state.rules.defaultTeam) return;
++        recordItemOrigin(source, item);
++        recordProduction(source);
++    }
++
++    /** InputHandler calls this after a positive physical unit-to-inventory stack delivery. */
++    public static void recordManualItemInput(Unit source, Building recipient, Item item){
++        if(tacticalRunning() && source != null && source.team == state.rules.defaultTeam && recipient.team == source.team){
++            //Linked storage shares the core's inventory; its historical token stays a boundary after unlinking.
++            if(coreInventory(recipient)) recordCoreAsset(recipient);
++            else recordItemOrigin(recipient, item);
+         }
+     }
+ 
+@@ -527,15 +575,35 @@
+     }
+ 
+     private static void markSupply(String terminal){
++        markSupply(terminal, false);
++    }
++
++    private static void markSupply(String terminal, boolean requireOrigin){
+         ObjectSet<String> seen = new ObjectSet<>();
++        ObjectMap<String, ObjectSet<String>> downstream = new ObjectMap<>();
+         Seq<String> pending = Seq.with(terminal);
+         while(!pending.isEmpty()){
+             String node = pending.pop();
+             if(!seen.add(node)) continue;
+-            state.rules.tags.put(prefix + "transferred." + flowAsset(node), "true");
++            //A core is a valid source for real consumption, but not for returning stock to another core.
++            if(coreAssets.contains(flowAsset(node))) continue;
+             var sources = incomingFlows.get(node);
+-            if(sources != null) for(var source : sources) pending.add(source);
+-        }
++            if(sources != null) for(var source : sources){
++                if(requireOrigin) downstream.get(source, ObjectSet::new).add(node);
++                pending.add(source);
++            }
++        }
++        if(requireOrigin){
++            for(var node : seen) if(itemOrigins.contains(node) && !coreAssets.contains(flowAsset(node))) pending.add(node);
++            seen.clear();
++            while(!pending.isEmpty()){
++                String node = pending.pop();
++                if(!seen.add(node)) continue;
++                var next = downstream.get(node);
++                if(next != null) for(var target : next) pending.add(target);
++            }
++        }
++        for(var node : seen) state.rules.tags.put(prefix + "transferred." + flowAsset(node), "true");
+     }
+ 
+     private static void recordSuppliedProduction(Building source){
+@@ -826,7 +894,8 @@
+         String transport = terrain(preset) == Terrain.NAVAL || terrain(preset) == Terrain.VOLCANIC ?
+             (cn ? "导管" : "conduits") : (cn ? "传送带/物流管" : "conveyors/ducts");
+         return taskARequired(preset) + (cn ? "座曾实际供给核心、弹药塔或产出设施的" : " transports that actually supplied a core, ammunition turret or producing facility: ") + transport +
+-            (cn ? "及2座胜利前60秒内曾实际产出/发电的" : " and 2 facilities with actual output/power in the final 60 seconds: ") + kind;
++            (cn ? "及2座胜利前60秒内曾实际产出/发电的" : " and 2 facilities with actual output/power in the final 60 seconds: ") + kind +
++            (cn ? "。核心入库只计真实产出或玩家实际投放的来源，核心回流不计。" : ". Core input requires actual production or a physical player delivery as origin; core stock returns do not count.");
+     }
+ 
+     public static String status(){
+--- a/tests/src/test/java/CampaignStarsTests.java
++++ b/tests/src/test/java/CampaignStarsTests.java
+@@ -9,6 +9,7 @@
+ import mindustry.game.EventType.*;
+ import mindustry.gen.*;
+ import mindustry.io.*;
++import mindustry.input.*;
+ import mindustry.type.*;
+ import mindustry.world.*;
+ import mindustry.world.blocks.production.Drill.*;
+@@ -642,6 +643,255 @@
+         assertFalse(CampaignStars.tacticalTaskComplete(), "two unrelated working drills do not make the closed loop useful");
+     }
+ 
++    @ParameterizedTest
++    @ValueSource(booleans = {false, true})
++    void nativeCoreUnloadReturnsDoNotEarnSupply(boolean otherCore){
++        start(SectorPresets.frozenForest, Mode.TACTICAL);
++        var origin = rectangle(16, 9);
++        int x = origin.x + 2, y = origin.y + 2;
++        var source = at(Blocks.coreShard, x, y, 0);
++        source.items.set(Items.copper, 20);
++        var unloader = at(Blocks.unloader, x + 2, y, 0);
++        ((mindustry.world.blocks.storage.Unloader.UnloaderBuild)unloader).sortItem = Items.copper;
++        Seq<Building> route = new Seq<>();
++        if(otherCore){
++            for(int i = 3; i <= 6; i++) route.add(at(Blocks.conveyor, x + i, y, 0));
++            at(Blocks.coreShard, x + 8, y, 0);
++        }else{
++            route.add(at(Blocks.conveyor, x + 3, y, 0));
++            route.add(at(Blocks.conveyor, x + 4, y, 1));
++            route.add(at(Blocks.conveyor, x + 4, y + 1, 1));
++            route.add(at(Blocks.conveyor, x + 4, y + 2, 2));
++            route.add(at(Blocks.conveyor, x + 3, y + 2, 2));
++            route.add(at(Blocks.conveyor, x + 2, y + 2, 2));
++            route.add(at(Blocks.conveyor, x + 1, y + 2, 2));
++            route.add(at(Blocks.conveyor, x, y + 2, 3));
++        }
++        run(new Seq<Building>().add(unloader).addAll(route), 1800);
++        assertEquals(route.size, route.count(this::transported), "native unloader and conveyors really return core stock");
++        assertEquals(0, suppliedCount(), "neither same-core nor different-core return establishes a new origin");
++        assertTrue(state.rules.tags.getBool("stars.core." + CampaignStars.identity(source)));
++    }
++
++    @Test
++    void coreAmmunitionSupplyStopsAtCoreHistoryBoundary(){
++        start(SectorPresets.frozenForest, Mode.TACTICAL);
++        var origin = rectangle(24, 8);
++        int x = origin.x + 2, y = origin.y + 2;
++        var source = at(Blocks.coreShard, x, y, 0);
++        var firstUnloader = at(Blocks.unloader, x + 2, y, 0);
++        ((mindustry.world.blocks.storage.Unloader.UnloaderBuild)firstUnloader).sortItem = Items.copper;
++        Seq<Building> returned = new Seq<>(), ammunition = new Seq<>();
++        for(int i = 3; i <= 6; i++) returned.add(at(Blocks.conveyor, x + i, y, 0));
++        var middle = at(Blocks.coreShard, x + 8, y, 0);
++        source.items.set(Items.copper, 100);
++        run(new Seq<Building>().add(firstUnloader).addAll(returned), 1000);
++        assertEquals(4, returned.count(this::transported));
++        assertEquals(0, suppliedCount());
++        var secondUnloader = at(Blocks.unloader, x + 10, y, 0);
++        ((mindustry.world.blocks.storage.Unloader.UnloaderBuild)secondUnloader).sortItem = Items.copper;
++        for(int i = 11; i <= 14; i++) ammunition.add(at(Blocks.conveyor, x + i, y, 0));
++        var turret = (mindustry.world.blocks.defense.turrets.ItemTurret.ItemTurretBuild)at(Blocks.duo, x + 15, y, 0);
++        run(new Seq<Building>().add(secondUnloader).addAll(ammunition), 1000);
++        assertTrue(turret.totalAmmo > 0, "finite physical copper becomes valid native turret ammunition");
++        assertEquals(4, ammunition.count(this::supplied));
++        assertEquals(0, returned.count(this::supplied), "ammo supply must not reach through a core to its unrelated historical return inputs");
++        assertTrue(state.rules.tags.getBool("stars.core." + CampaignStars.identity(middle)));
++    }
++
++    @Test
++    void coreProductionSupplyNeedsRealConsumedOutput(){
++        start(SectorPresets.frozenForest, Mode.TACTICAL);
++        var origin = rectangle(16, 8);
++        int x = origin.x + 2, y = origin.y + 2;
++        var core = at(Blocks.coreShard, x, y, 0);
++        core.items.set(Items.coal, 20);
++        var unloader = at(Blocks.unloader, x + 2, y, 0);
++        ((mindustry.world.blocks.storage.Unloader.UnloaderBuild)unloader).sortItem = Items.coal;
++        Seq<Building> line = new Seq<>();
++        for(int i = 3; i <= 6; i++) line.add(at(Blocks.conveyor, x + i, y, 0));
++        var factory = at(Blocks.graphitePress, x + 7, y, 0);
++        run(new Seq<Building>().add(unloader).addAll(line), 1000);
++        assertTrue(factory.items.get(Items.coal) > 0);
++        assertEquals(0, suppliedCount(), "a stockpiled input in an idle factory is not a consumed production endpoint");
++        run(Seq.with(factory), 150);
++        assertTrue(factory.items.get(Items.graphite) > 0, "the native recipe really consumes coal and outputs graphite");
++        assertEquals(4, suppliedCount(), "core stock may legitimately feed a real producing factory");
++    }
++
++    @ParameterizedTest
++    @ValueSource(booleans = {false, true})
++    void realMiningAndCraftingOutputsRemainValidCoreOrigins(boolean crafted){
++        start(SectorPresets.frozenForest, Mode.TACTICAL);
++        var origin = rectangle(16, 8);
++        int x = origin.x + 2, y = origin.y + 2;
++        var producer = at(crafted ? Blocks.graphitePress : Blocks.mechanicalDrill, x, y, 0);
++        Item output = crafted ? Items.graphite : Items.copper;
++        if(crafted){
++            producer.items.add(Items.coal, 5);
++            run(Seq.with(producer), 150);
++            assertTrue(producer.items.get(output) > 0);
++        }else mine(producer);
++        Seq<Building> route = new Seq<>();
++        for(int i = 2; i <= 5; i++) route.add(at(Blocks.conveyor, x + i, y, 0));
++        var core = at(Blocks.coreShard, x + 7, y, 0);
++        int before = core.items.get(output);
++        assertTrue(producer.dump(output), "a physically produced item enters the real conveyor route");
++        run(route, 800);
++        assertEquals(before + 1, core.items.get(output));
++        assertEquals(4, suppliedCount());
++        assertTrue(state.rules.tags.getBool("stars.origin.i" + output.name + ":" + CampaignStars.identity(producer) + ":4"));
++    }
++
++    @Test
++    void aFactoryOriginIsSpecificToItsActualOutputItem(){
++        start(SectorPresets.frozenForest, Mode.TACTICAL);
++        var origin = rectangle(16, 8);
++        int x = origin.x + 2, y = origin.y + 2;
++        var producer = at(Blocks.graphitePress, x, y, 0);
++        producer.items.add(Items.coal, 5);
++        run(Seq.with(producer), 150);
++        assertTrue(producer.items.get(Items.graphite) > 0);
++        Seq<Building> route = new Seq<>();
++        for(int i = 2; i <= 5; i++) route.add(at(Blocks.conveyor, x + i, y, 0));
++        var core = at(Blocks.coreShard, x + 7, y, 0);
++        //Fixture inventory distinguishes old copper stock from the factory's actual graphite output.
++        producer.items.add(Items.copper, 1);
++        int copper = core.items.get(Items.copper);
++        assertTrue(producer.dump(Items.copper));
++        run(route, 800);
++        assertEquals(copper + 1, core.items.get(Items.copper));
++        assertEquals(0, suppliedCount(), "past graphite output is not an origin for the copper it happens to forward");
++        assertTrue(producer.dump(Items.graphite));
++        run(route, 800);
++        assertEquals(4, suppliedCount());
++    }
++
++    @Test
++    void genuineMineBranchDoesNotCreditTheMergedCoreReturnBranch(){
++        start(SectorPresets.frozenForest, Mode.TACTICAL);
++        var origin = rectangle(22, 16);
++        int x = origin.x + 9, y = origin.y + 5;
++        var drill = at(Blocks.mechanicalDrill, x - 6, y, 0);
++        mine(drill);
++        Seq<Building> mined = new Seq<>(), returned = new Seq<>(), common = new Seq<>();
++        for(int i = -4; i <= -1; i++) mined.add(at(Blocks.conveyor, x + i, y, 0));
++        var router = at(Blocks.router, x, y, 0);
++        var source = at(Blocks.coreShard, x, y + 6, 0);
++        var unloader = at(Blocks.unloader, x, y + 4, 0);
++        ((mindustry.world.blocks.storage.Unloader.UnloaderBuild)unloader).sortItem = Items.copper;
++        for(int i = 3; i >= 1; i--) returned.add(at(Blocks.conveyor, x, y + i, 3));
++        for(int i = 1; i <= 4; i++) common.add(at(Blocks.conveyor, x + i, y, 0));
++        var target = at(Blocks.coreShard, x + 6, y, 0);
++        source.items.set(Items.copper, 20);
++        var active = new Seq<Building>().add(unloader).addAll(returned).add(router).addAll(common);
++        run(active, 1000);
++        assertEquals(3, returned.count(this::transported));
++        assertEquals(4, common.count(this::transported));
++        assertEquals(0, suppliedCount());
++        int before = target.items.get(Items.copper);
++        active.remove(unloader);
++        assertTrue(drill.dump(Items.copper));
++        run(new Seq<Building>().addAll(mined).addAll(active), 1000);
++        assertTrue(target.items.get(Items.copper) > before, "finite remaining stock and the actual mine output arrive after native unloading stops");
++        assertEquals(4, mined.count(this::supplied));
++        assertEquals(4, common.count(this::supplied));
++        assertEquals(0, returned.count(this::supplied), "one genuine merged origin cannot grant credit to the pure core-only upstream branch");
++    }
++
++    @ParameterizedTest
++    @ValueSource(booleans = {false, true})
++    void coreLinkedStorageManualInputAndUnloadReturnDoNotCreateOrigins(boolean otherCore){
++        start(SectorPresets.frozenForest, Mode.TACTICAL);
++        var origin = rectangle(18, 9);
++        int x = origin.x + 2, y = origin.y + 2;
++        var core = at(Blocks.coreShard, x, y, 0);
++        var storage = (mindustry.world.blocks.storage.StorageBlock.StorageBuild)at(Blocks.container, x + 2, y, 0);
++        assertSame(core, storage.linkedCore, "native proximity joins the container to the core inventory");
++        assertSame(core.items, storage.items);
++        unitInput(storage, Items.copper, 1);
++        int storageToken = CampaignStars.identity(storage);
++        assertTrue(state.rules.tags.getBool("stars.core." + storageToken));
++        assertFalse(state.rules.tags.containsKey("stars.origin.icopper:" + storageToken + ":4"));
++        var unloader = at(Blocks.unloader, x + 4, y, 0);
++        ((mindustry.world.blocks.storage.Unloader.UnloaderBuild)unloader).sortItem = Items.copper;
++        Seq<Building> route = new Seq<>();
++        if(otherCore){
++            for(int i = 5; i <= 8; i++) route.add(at(Blocks.conveyor, x + i, y, 0));
++            at(Blocks.coreShard, x + 10, y, 0);
++        }else{
++            route.add(at(Blocks.conveyor, x + 5, y, 0));
++            route.add(at(Blocks.conveyor, x + 6, y, 1));
++            route.add(at(Blocks.conveyor, x + 6, y + 1, 1));
++            for(int i = 6; i >= 1; i--) route.add(at(Blocks.conveyor, x + i, y + 2, 2));
++            route.add(at(Blocks.conveyor, x, y + 2, 3));
++        }
++        core.items.set(Items.copper, 20);
++        run(new Seq<Building>().add(unloader).addAll(route), 1500);
++        assertEquals(route.size, route.count(this::transported));
++        assertEquals(0, suppliedCount(), "core stock leaving through its real attached container is still core stock");
++    }
++
++    @Test
++    void aFormerLinkedStorageKeepsItsCoreBoundaryAfterDestructionAndSave(){
++        start(SectorPresets.frozenForest, Mode.TACTICAL);
++        var origin = rectangle(18, 9);
++        int x = origin.x + 2, y = origin.y + 2;
++        var storage = (mindustry.world.blocks.storage.StorageBlock.StorageBuild)at(Blocks.container, x + 2, y, 0);
++        unitInput(storage, Items.copper, 1);
++        int storagePosition = storage.pos(), token = CampaignStars.identity(storage);
++        assertTrue(state.rules.tags.getBool("stars.origin.icopper:" + token + ":4"), "a real standalone manual source predates the core attachment");
++        var sourceCore = at(Blocks.coreShard, x, y, 0);
++        assertSame(sourceCore, storage.linkedCore);
++        var unloader = at(Blocks.unloader, x + 4, y, 0);
++        int unloaderPosition = unloader.pos();
++        ((mindustry.world.blocks.storage.Unloader.UnloaderBuild)unloader).sortItem = Items.copper;
++        Seq<Building> route = new Seq<>();
++        for(int i = 5; i <= 8; i++) route.add(at(Blocks.conveyor, x + i, y, 0));
++        at(Blocks.coreShard, x + 10, y, 0);
++        sourceCore.items.set(Items.copper, 30);
++        run(new Seq<Building>().add(unloader).addAll(route), 1000);
++        assertEquals(0, suppliedCount(), "the new core link takes precedence over the older standalone origin");
++        assertTrue(state.rules.tags.getBool("stars.core." + token));
++        sourceCore.tile.remove();
++        assertNull(storage.linkedCore);
++        assertTrue(storage.items.get(Items.copper) > 0, "native core removal leaves finite redistributed stock in the detached container");
++        var file = saveDirectory.child("stars-historical-linked-storage.msav");
++        SaveIO.write(file);
++        logic.reset();
++        SaveIO.load(file);
++        var restored = (mindustry.world.blocks.storage.StorageBlock.StorageBuild)world.build(storagePosition);
++        assertNull(restored.linkedCore);
++        assertEquals(token, CampaignStars.identity(restored));
++        assertTrue(state.rules.tags.getBool("stars.core." + token));
++        assertTrue(state.rules.tags.getBool("stars.origin.icopper:" + token + ":4"));
++        int stock = restored.items.get(Items.copper);
++        Seq<Building> updates = Seq.with(world.build(unloaderPosition));
++        for(int i = 5; i <= 8; i++) updates.add(world.tile(x + i, y).build);
++        run(updates, 1200);
++        assertTrue(restored.items.get(Items.copper) < stock, "the restored native unloader actually takes remaining detached stock");
++        assertEquals(0, suppliedCount(), "losing the live core object does not reactivate a historical storage origin");
++    }
++
++    @Test
++    void zeroAmountUnitAnimationAndUntypedStoredItemsDoNotCreateOrigins(){
++        start(SectorPresets.frozenForest, Mode.TACTICAL);
++        var origin = rectangle(12, 7);
++        var first = at(Blocks.conveyor, origin.x, origin.y + 2, 0);
++        var second = at(Blocks.conveyor, origin.x + 1, origin.y + 2, 0);
++        var core = at(Blocks.coreShard, origin.x + 3, origin.y + 2, 0);
++        var unit = UnitTypes.alpha.create(state.rules.defaultTeam);
++        InputHandler.transferItemTo(unit, Items.copper, 0, first.x, first.y, first);
++        first.handleItem(first, Items.copper);
++        int before = core.items.get(Items.copper);
++        run(Seq.with(first, second), 600);
++        assertEquals(before + 1, core.items.get(Items.copper));
++        assertEquals(0, suppliedCount(), "neither a zero-amount effect nor unproven stored copper is a real origin");
++        unitInput(first, Items.copper, 1);
++        run(Seq.with(first, second), 600);
++        assertEquals(2, suppliedCount(), "a later positive native manual delivery does establish its own origin");
++    }
++
+     @Test
+     void actualCoreChainSuppliesThroughBridgeAndRouter(){
+         start(SectorPresets.frozenForest, Mode.TACTICAL);
+@@ -654,7 +904,7 @@
+         var last = at(Blocks.conveyor, origin.x + 6, origin.y + 2, 0);
+         var core = at(Blocks.coreShard, origin.x + 8, origin.y + 2, 0);
+         int before = core.items.get(Items.copper);
+-        first.handleItem(first, Items.copper);
++        unitInput(first, Items.copper, 1);
+         run(Seq.with(first, bridge, landing, router, last), 3000);
+         assertEquals(before + 1, core.items.get(Items.copper));
+         assertTrue(supplied(first));
+@@ -676,8 +926,8 @@
+         var core = at(Blocks.coreShard, x + 2, y, 0);
+         var deadEnd = at(Blocks.router, x, y + 1, 0);
+         int before = core.items.get(Items.copper);
+-        west.handleItem(west, Items.copper);
+-        south.handleItem(south, Items.copper);
++        unitInput(west, Items.copper, 1);
++        unitInput(south, Items.copper, 1);
+         //Leave the northern terminal as storage; it never consumes or delivers the item.
+         run(Seq.with(west, westNear, south, southNear, junction), 1500);
+         assertEquals(before + 1, core.items.get(Items.copper));
+@@ -702,7 +952,7 @@
+         var core = at(Blocks.coreShard, origin.x + 16, y, 0);
+         sender.link = receiver.pos();
+         sender.items.add(Items.copper, 9);
+-        first.handleItem(first, Items.copper);
++        unitInput(first, Items.copper, 1);
+         Seq<Building> generators = new Seq<>();
+         for(int i = 0; i < 4; i++){
+             var generator = at(Blocks.combustionGenerator, origin.x + 6 + i, origin.y + 6, 0);
+@@ -801,6 +1051,9 @@
+         var line = transport(Blocks.conveyor, 16, false);
+         var moved = line.get(4);
+         int token = CampaignStars.identity(moved);
++        int inputToken = CampaignStars.identity(line.first());
++        assertTrue(state.rules.tags.getBool("stars.origin.icopper:" + inputToken + ":4"));
++        assertTrue(state.rules.tags.keys().toSeq().contains(key -> key.startsWith("stars.core.")));
+         assertEquals(16, suppliedCount());
+         var carrier = UnitTypes.mega.create(state.rules.defaultTeam);
+         carrier.set(moved);
+@@ -825,6 +1078,66 @@
+         assertTrue(supplied(destination.build));
+         assertEquals(16, suppliedCount());
+         assertEquals(budget + 1, CampaignStars.placed());
++        assertTrue(state.rules.tags.getBool("stars.origin.icopper:" + inputToken + ":4"));
++        assertTrue(state.rules.tags.keys().toSeq().contains(key -> key.startsWith("stars.core.")));
++    }
++
++    @Test
++    void legacyVersionOneChunkReconfirmsAAndPreservesBWorldAndBestScores(){
++        start(SectorPresets.groundZero, Mode.TACTICAL);
++        var line = transport(Blocks.conveyor, 16, false);
++        var firstDrill = place(Blocks.mechanicalDrill);
++        var secondDrill = place(Blocks.mechanicalDrill);
++        mine(firstDrill);
++        mine(secondDrill);
++        assertTrue(CampaignStars.tacticalTaskComplete());
++        int firstPosition = line.first().pos(), firstToken = CampaignStars.identity(line.first());
++        String producedKey = "stars.produced." + CampaignStars.identity(firstDrill);
++        String producedTime = state.rules.tags.get(producedKey);
++        int corePosition = state.rules.defaultTeam.core().pos();
++        int stock = world.build(corePosition).items.get(Items.copper);
++        int buildBudget = CampaignStars.placed();
++        float elapsed = CampaignStars.elapsed();
++        CampaignStars.recordCoreHealth(0.8f);
++        CampaignStars.saveBest(SectorPresets.frozenForest, Mode.TACTICAL, 1);
++        CampaignStars.saveBest(SectorPresets.frozenForest, Mode.NORMAL, 3);
++        state.rules.tags.put("stars.flowVersion", "1");
++        var file = saveDirectory.child("stars-version-one-core-return.msav");
++        SaveIO.write(file);
++        logic.reset();
++        SaveIO.load(file);
++        assertEquals("2", state.rules.tags.get("stars.flowVersion"));
++        assertEquals(0, suppliedCount());
++        assertTrue(transported(world.build(firstPosition)));
++        assertEquals(firstToken, CampaignStars.identity(world.build(firstPosition)));
++        assertEquals(producedTime, state.rules.tags.get(producedKey), "Task B output timestamps are not logistics evidence");
++        assertEquals(buildBudget, CampaignStars.placed());
++        assertEquals(elapsed, CampaignStars.elapsed());
++        assertEquals(0.8f, CampaignStars.minimumCoreHealth());
++        assertEquals(stock, world.build(corePosition).items.get(Items.copper));
++        assertEquals(1, CampaignStars.stars(SectorPresets.frozenForest, Mode.TACTICAL));
++        assertEquals(3, CampaignStars.stars(SectorPresets.frozenForest, Mode.NORMAL));
++        assertFalse(state.rules.tags.keys().toSeq().contains(key -> key.startsWith("stars.origin.") || key.startsWith("stars.core.")));
++        var restoredFirst = world.build(firstPosition);
++        Seq<Building> restored = new Seq<>();
++        for(int i = 0; i < 16; i++) restored.add(world.tile(restoredFirst.tile.x + i, restoredFirst.tile.y).build);
++        unitInput(restoredFirst, Items.copper, 1);
++        run(restored, 1200);
++        assertEquals(16, suppliedCount(), "one actual new supply can reconfirm the surviving transports");
++        assertEquals(producedTime, state.rules.tags.get(producedKey));
++    }
++
++    @Test
++    void branchBoardUnlockAlsoRespectsItsCounterRewardPrerequisite(){
++        for(var preset : CampaignStars.mainLevels(Planets.serpulo)) CampaignStars.saveBest(preset, Mode.NORMAL, 3);
++        for(var preset : CampaignStars.mainLevels(Planets.erekir)) CampaignStars.saveBest(preset, Mode.NORMAL, 3);
++        var branch = WatchCampaign.sectors[5];
++        assertTrue(CampaignStars.branchUnlocked(5), "star total and its normal anchor have been satisfied");
++        assertFalse(CampaignStars.completedReward(4));
++        assertFalse(CampaignStars.unlocked(branch), "the board must expose the same W5 full-star prerequisite as the launcher");
++        for(var mode : Mode.values()) CampaignStars.saveBest(WatchCampaign.sectors[4], mode, mode.maximum);
++        assertTrue(CampaignStars.completedReward(4));
++        assertTrue(CampaignStars.unlocked(branch));
+     }
+ 
+     @Test
+@@ -844,11 +1157,11 @@
+         SaveIO.load(file);
+         assertEquals(0, suppliedCount());
+         assertEquals(1, CampaignStars.stars(SectorPresets.groundZero, Mode.TACTICAL));
+-        assertEquals("1", state.rules.tags.get("stars.flowVersion"));
++        assertEquals("2", state.rules.tags.get("stars.flowVersion"));
+         var firstBuild = world.build(first);
+         Seq<Building> restored = new Seq<>();
+         for(int i = 0; i < 16; i++) restored.add(world.tile(firstBuild.tile.x + i, firstBuild.tile.y).build);
+-        firstBuild.handleItem(firstBuild, Items.copper);
++        unitInput(firstBuild, Items.copper, 1);
+         run(restored, 2000);
+         assertEquals(16, suppliedCount(), "a genuine later core delivery confirms old placed transports under the new rule");
+     }
+@@ -915,12 +1228,15 @@
+         var line = transport(Blocks.conveyor, 16, false);
+         int first = line.first().pos(), identity = CampaignStars.identity(line.first());
+         assertEquals(16, suppliedCount());
++        state.rules.tags.put("stars.flowVersion", "1");
+         var legacy = new SaveReadState(world.context);
+         legacy.ruleString = JsonIO.write(state.rules);
+         SaveIO.getSaveWriter().readRules(legacy);
+         Events.fire(new SaveLoadEvent(false));
+         assertEquals(identity, CampaignStars.identity(world.build(first)));
+-        assertEquals(16, suppliedCount(), "legacy metadata is not stripped when reading old saves");
++        assertTrue(transported(world.build(first)), "native output and asset identity survive the old metadata read");
++        assertEquals(0, suppliedCount(), "old core-return credit needs new version-two supply evidence");
++        assertEquals("2", state.rules.tags.get("stars.flowVersion"));
+     }
+ 
+     @Test
+@@ -978,6 +1294,18 @@
+         }
+     }
+ 
++    void unitInput(Building recipient, Item item, int amount){
++        //Fixture provides finite player inventory; the real InputHandler performs the positive accepted transfer.
++        var unit = UnitTypes.alpha.create(state.rules.defaultTeam);
++        unit.stack.item = item;
++        unit.stack.amount = amount;
++        unit.set(recipient);
++        int accepted = recipient.acceptStack(item, amount, unit);
++        assertEquals(amount, accepted, "the target has native capacity for the test's finite manual delivery");
++        InputHandler.transferItemTo(unit, item, accepted, unit.x, unit.y, recipient);
++        assertEquals(0, unit.stack.amount);
++    }
++
+     Tile rectangle(int width, int height){
+         for(var origin : world.tiles){
+             if(origin.x < 10 || origin.y < 10 || origin.x + width >= world.width() - 10 || origin.y + height >= world.height() - 10) continue;
+@@ -1021,7 +1349,7 @@
+         sinkTile.setBlock(liquid ? Blocks.wave : Blocks.coreShard, state.rules.defaultTeam);
+         int copperBefore = liquid ? 0 : sinkTile.build.items.get(Items.copper);
+         if(liquid) line.first().handleLiquid(line.first(), Liquids.water, 8f);
+-        else line.first().handleItem(line.first(), Items.copper);
++        else unitInput(line.first(), Items.copper, 1);
+         for(int i = 0; i < 2000; i++){
+             Time.update();
+             for(var build : line) build.update();
+--- a/core/src/mindustry/entities/comp/BuildingComp.java
++++ b/core/src/mindustry/entities/comp/BuildingComp.java
+@@ -1045,7 +1045,7 @@
+     }
+ 
+     public void produced(Item item, int amount){
+-        if(amount > 0) CampaignStars.recordProduction(self());
++        if(amount > 0) CampaignStars.recordItemProduction(self(), item);
+         if(Vars.state.rules.sector != null && team == state.rules.defaultTeam){
+             Vars.state.rules.sector.info.handleProduction(item, amount);
+ 
+--- a/core/src/mindustry/input/InputHandler.java
++++ b/core/src/mindustry/input/InputHandler.java
+@@ -255,6 +255,7 @@
+         }
+         if(amount > 0){
+             build.handleStack(item, amount, unit);
++            CampaignStars.recordManualItemInput(unit, build, item);
+         }
+     }

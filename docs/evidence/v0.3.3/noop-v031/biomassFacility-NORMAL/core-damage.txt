@@ -1,0 +1,22 @@
+Native core damage observations, no health writes.
+249.41667 health=0.9348099 nearest=crawler at=137.99983,61.72081
+249.58333 health=0.8696198 nearest=none
+359.18332 health=0.8044297 nearest=crawler at=137.9998,62.332558
+359.43332 health=0.73923963 nearest=none
+469.35 health=0.6740495 nearest=crawler at=137.99986,61.75995
+469.53333 health=0.6088594 nearest=crawler at=137.99985,61.720047
+469.7 health=0.54366934 nearest=none
+579.1667 health=0.47847924 nearest=crawler at=137.99985,63.3974
+579.56665 health=0.41328913 nearest=crawler at=137.99985,61.79747
+579.75 health=0.34809902 nearest=none
+689.0833 health=0.28290895 nearest=crawler at=137.9994,61.772865
+689.26666 health=0.21771884 nearest=crawler at=137.99936,61.677395
+689.43335 health=0.15252876 nearest=crawler at=137.99937,61.851265
+689.61664 health=0.08733867 nearest=none
+708.43335 health=0.07552049 nearest=atrax at=137.99968,67.03589
+708.5333 health=0.06370231 nearest=atrax at=137.99977,66.58595
+708.6667 health=0.051884126 nearest=atrax at=137.99974,65.98604
+708.76666 health=0.040065944 nearest=atrax at=137.99979,65.5361
+708.9 health=0.028247764 nearest=atrax at=137.99971,64.93619
+709.01666 health=0.016429583 nearest=atrax at=137.99979,64.41127
+709.13336 health=0.0046114004 nearest=atrax at=137.99968,63.88639
