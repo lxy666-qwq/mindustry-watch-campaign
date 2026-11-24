@@ -81,6 +81,7 @@ public class CampaignStarsDialog extends BaseDialog{
     }
 
     private void choosePlanet(Planet planet){
+        if(!CampaignProgression.planetUnlocked(planet)) return;
         rememberRoute();
         selectedPlanet = planet;
         rebuild();
@@ -108,9 +109,10 @@ public class CampaignStarsDialog extends BaseDialog{
                     card.add(planet.localizedName).fontScale(1.5f).color(planet.iconColor).pad(10f).row();
                     card.image(map(planet)).size(360f, 120f).row();
                     card.add(Core.bundle.format("stars.route.count", CampaignStars.mainLevels(planet).size, count)).pad(8f).row();
-                    card.add(text("route.open")).color(Pal.accent);
+                    card.add(CampaignProgression.planetUnlocked(planet) ? text("route.open") : Core.bundle.format("stars.planet.lock", CampaignProgression.serpuloStars())).color(Pal.accent);
                 }, () -> choosePlanet(planet)).width(Math.min(420f, contentWidth() - 20f)).height(350f).pad(8f).get();
                 button.name = "route-planet-" + planet.name;
+                button.setDisabled(!CampaignProgression.planetUnlocked(planet));
                 if(contentWidth() < 800f) planets.row();
             }
             cont.pane(planets).width(contentWidth()).growY().scrollX(false);

@@ -23,27 +23,7 @@ public class WatchHeroes{
     public static final String deployedKey = "stars.sentinel.deployed";
 
     public static void load(){
-        sentinel = new UnitType("watch-sentinel"){
-            @Override
-            public void load(){
-                super.load();
-                region = previewRegion = UnitTypes.alpha.region;
-                outlineRegion = UnitTypes.alpha.outlineRegion;
-                cellRegion = UnitTypes.alpha.cellRegion;
-                shadowRegion = UnitTypes.alpha.shadowRegion;
-                wreckRegions = UnitTypes.alpha.wreckRegions;
-                fullIcon = uiIcon = UnitTypes.alpha.fullIcon;
-            }
-
-            @Override
-            public void drawBody(Unit unit){
-                super.drawBody(unit);
-                Draw.color(Color.valueOf("77dbc4"));
-                Drawf.tri(unit.x, unit.y, 5f, 9f, unit.rotation + 135f);
-                Drawf.tri(unit.x, unit.y, 5f, 9f, unit.rotation - 135f);
-                Draw.reset();
-            }
-        };
+        sentinel = new WatchSpriteUnitType("watch-sentinel", "sentinel", 18f);
         sentinel.constructor = UnitEntity::create;
         sentinel.controller = u -> new CommandAI();
         sentinel.flying = sentinel.lowAltitude = true;

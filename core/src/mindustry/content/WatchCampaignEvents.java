@@ -53,7 +53,11 @@ public class WatchCampaignEvents{
             if(state.wave >= event.wave() && !done(event)){
                 apply(level, event.change());
                 state.rules.tags.put(key(event), "true");
-                if(!headless || net.server()) Call.announce(Core.bundle.format("watch.event", event.wave(), text("event." + event.change().name())));
+                state.rules.tags.put("watch.lastChange", event.change().name());
+                state.rules.tags.put("watch.lastAt", Float.toString(CampaignStars.elapsed()));
+                String hint = text("event." + event.change().name());
+                if(event.change() == Change.armor && (level == 1 || level >= 7)) hint += "\n" + Core.bundle.get("watch.enemy.carrier.tip");
+                if(!headless || net.server()) Call.announce(Core.bundle.format("watch.event", event.wave(), hint));
             }
         }
         if(!headless || net.server()) Call.setRules(state.rules);
@@ -171,16 +175,25 @@ public class WatchCampaignEvents{
         var stage = stages[level];
         StringBuilder message = new StringBuilder("[accent]").append(name(level)).append("[]\n")
             .append(Core.bundle.format("watch.goal", stage.waves())).append("\n");
-        for(var event : stage.encounters()){
-            if(!done(event)){
-                message.append("[yellow]").append(Core.bundle.format("watch.next", event.wave(), text("event." + event.change().name())));
-                break;
-            }
-        }
         if(CampaignStars.active()) message.append("\n").append(CampaignStars.status());
+        if(state.rules.tags.containsKey("watch.lastChange") && CampaignStars.elapsed() - state.rules.tags.getFloat("watch.lastAt") < 45f){
+            message.append("\n[accent]").append(text("event." + state.rules.tags.get("watch.lastChange")));
+        }
         if(blackoutActive()) message.append("\n[scarlet]").append(text("power.tip"));
         ui.hudfrag.setHudText(message.toString());
         shownWave = state.wave;
         shownRules = state.rules;
+    }
+
+    /** No labels or countdown: the world only becomes gradually hazier before a transition. */
+    public static float omen(){
+        int level = level();
+        if(level < 0 || state.rules.tags.getBool(CampaignStars.prefix + "finished")) return 0f;
+        for(var event : stages[level].encounters()){
+            if(done(event)) continue;
+            if(state.wave < event.wave()) return 0f;
+            return arc.math.Mathf.clamp(1f - state.wavetime / Math.max(state.rules.waveSpacing, 1f));
+        }
+        return 0f;
     }
 }

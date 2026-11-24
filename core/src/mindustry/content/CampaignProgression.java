@@ -10,6 +10,20 @@ import mindustry.world.*;
 
 /** The optional Watch branches become required preparation at specific counterplay milestones. */
 public class CampaignProgression{
+    public static int serpuloStars(){
+        int stars = 0;
+        for(var preset : CampaignStars.mainLevels(Planets.serpulo)) stars += CampaignStars.stars(preset);
+        return stars;
+    }
+
+    public static boolean planetUnlocked(Planet planet){
+        if(planet != Planets.erekir || serpuloStars() >= 15) return true;
+        //Existing captured sectors and earned scores keep their planet accessible.
+        for(var preset : CampaignStars.mainLevels(Planets.erekir)) if(CampaignStars.stars(preset) > 0) return true;
+        for(var preset : WatchCampaign.sectors) if(preset.planet == planet && CampaignStars.stars(preset) > 0) return true;
+        return false;
+    }
+
     public static int requiredReward(SectorPreset preset, Mode mode){
         int branch = CampaignStars.branchIndex(preset);
         if(branch >= 0) return branch == 5 ? 4 : -1;

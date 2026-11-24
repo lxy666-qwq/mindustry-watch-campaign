@@ -245,6 +245,7 @@ public class CampaignStars{
 
     /** The star board follows original capture dependencies, without requiring global research purchases. */
     public static boolean unlocked(SectorPreset preset){
+        if(!CampaignProgression.planetUnlocked(preset.planet)) return false;
         int branch = branchIndex(preset);
         if(branch >= 0) return branchUnlocked(branch) && CampaignProgression.allowed(preset, Mode.NORMAL);
         if(!eligible(preset)) return false;
@@ -299,6 +300,7 @@ public class CampaignStars{
         }
         applyRewards(state.rules);
         CampaignProgression.applyRewards(state.rules);
+        CampaignIncidents.begin();
     }
 
     private static void beginRun(SectorPreset preset, Mode mode){
@@ -727,6 +729,7 @@ public class CampaignStars{
     public static void update(){
         if(!running() || !state.isPlaying()) return;
         state.rules.tags.put(prefix + "elapsed", Float.toString(elapsed() + Time.delta / 60f));
+        CampaignIncidents.update();
         for(var core : state.rules.defaultTeam.cores()) recordCoreHealth(core.healthf());
         if(currentMode() == Mode.TACTICAL){
             for(var building : state.rules.defaultTeam.data().buildings){
@@ -749,7 +752,7 @@ public class CampaignStars{
                 if(WatchCampaign.level() >= 0){
                     WatchCampaignEvents.refreshHud();
                 }else{
-                    ui.hudfrag.setHudText("[accent]" + currentPreset().localizedName + " · " + modeName(currentMode()) + "[]\n" + status());
+                    ui.hudfrag.setHudText("[accent]" + currentPreset().localizedName + " · " + modeName(currentMode()) + "[]\n" + status() + CampaignIncidents.hud());
                 }
             }
         }

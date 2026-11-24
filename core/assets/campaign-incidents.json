@@ -1,0 +1,416 @@
+{
+  "groundZero": {
+    "kind": "dispatch",
+    "title": "断续的救援信号",
+    "titleEn": "Broken rescue signal",
+    "story": "风沙散去，一架后勤机与基地重新取得联系。你可以调来工兵，也可以留下眼前的物资。",
+    "storyEn": "A logistics craft reconnects through the dust. Call engineers or retain the field supplies.",
+    "duration": 120,
+    "wave": 3
+  },
+  "saltFlats": {
+    "kind": "relay",
+    "title": "盐壳上的旧中继",
+    "titleEn": "Relay beneath the salt crust",
+    "story": "沉积层中露出一处旧中继。让受控单位驻留接通，换取短暂施工窗口。",
+    "storyEn": "An old relay emerges from the salt. Hold the marked ground with your controlled unit to open a construction window.",
+    "duration": 120,
+    "after": 180
+  },
+  "testingGrounds": {
+    "kind": "surge",
+    "title": "试验设施自检",
+    "titleEn": "Test facility self-check",
+    "story": "旧设施完成一轮自动校准，短暂开放施工和制造调度带宽。",
+    "storyEn": "The old facility finishes calibration, briefly opening construction and unit-production bandwidth.",
+    "duration": 55,
+    "wave": 7
+  },
+  "frozenForest": {
+    "kind": "salvage",
+    "title": "雪下的补给箱",
+    "titleEn": "Supplies beneath the snow",
+    "story": "飘雪露出三处散落货物。分批回收，不必为了物资离开防线太久。",
+    "storyEn": "Drifting snow reveals three small supply drops. Recover them in short trips without abandoning the front.",
+    "duration": 150,
+    "wave": 5
+  },
+  "biomassFacility": {
+    "kind": "jam",
+    "title": "孢子附着",
+    "titleEn": "Spore fouling",
+    "story": "孢子遮蔽了施工信标，调度效率短暂下降。可以投入矿物清理，或守住现有防线等待恢复。",
+    "storyEn": "Spores foul construction beacons. Spend basic ore to clear them or hold the current line until they recover.",
+    "duration": 35,
+    "wave": 6
+  },
+  "taintedWoods": {
+    "kind": "relay",
+    "title": "林间巡检点",
+    "titleEn": "Forest service relay",
+    "story": "林间残存的线路亮起。驻留重新接通后，可短暂加快施工；不必拆掉原有产线。",
+    "storyEn": "A surviving forest circuit lights up. Hold its relay to accelerate construction briefly without dismantling production.",
+    "duration": 120,
+    "wave": 6
+  },
+  "crateredBattleground": {
+    "kind": "dispatch",
+    "title": "坠落的工具舱",
+    "titleEn": "Fallen tool capsule",
+    "story": "陨坑边缘落下一只工具舱。有限的物资可以转给工兵，也能留在核心周转。",
+    "storyEn": "A tool capsule lands by the crater. Use its limited supplies for engineers or core stock.",
+    "duration": 120,
+    "wave": 6
+  },
+  "ruinousShores": {
+    "kind": "salvage",
+    "title": "潮线遗物",
+    "titleEn": "Salvage at the tide line",
+    "story": "浪花退去，岸边留下三小批货物。按标记逐处驻留回收，原有水道保持通航。",
+    "storyEn": "Receding spray exposes three small cargo lots. Visit their markers; the original shipping lanes stay open.",
+    "duration": 150,
+    "wave": 7
+  },
+  "perilousHarbor": {
+    "kind": "relay",
+    "title": "港口信号重连",
+    "titleEn": "Harbor signal reconnection",
+    "story": "一座岸上导航中继恢复响应。接通后开启短暂扩建窗口，舰队仍按原指令行动。",
+    "storyEn": "A shore navigation relay responds again. Reconnect it for a short construction window while the fleet keeps its orders.",
+    "duration": 120,
+    "after": 210
+  },
+  "facility32m": {
+    "kind": "jam",
+    "title": "自动设备抢占链路",
+    "titleEn": "Automation link contention",
+    "story": "旧自动设备抢占调度链路。施工与单位制造短暂减速，供电和弹药库存不受影响。",
+    "storyEn": "Old automation competes for the dispatch link. Construction and unit fabrication briefly slow; power and ammunition remain intact.",
+    "duration": 35,
+    "wave": 7
+  },
+  "windsweptIslands": {
+    "kind": "relay",
+    "title": "风中的登陆信标",
+    "titleEn": "Landing beacon in the wind",
+    "story": "一处近岸信标恢复供电。受控单位驻留接通后，可以抓住短暂的施工窗口。",
+    "storyEn": "A nearby landing beacon comes alive. Hold it with your controlled unit to secure a brief building window.",
+    "duration": 120,
+    "wave": 7
+  },
+  "stainedMountains": {
+    "kind": "salvage",
+    "title": "山坡散落的矿袋",
+    "titleEn": "Scattered mountain ore bags",
+    "story": "尘土褪去，山坡上出现三处零散物资。逐次回收，每次只需短暂停留。",
+    "storyEn": "Settling dust reveals three small supply caches. Recover them one at a time with short stops.",
+    "duration": 150,
+    "wave": 7
+  },
+  "extractionOutpost": {
+    "kind": "surge",
+    "title": "采掘调度空档",
+    "titleEn": "Extraction dispatch opening",
+    "story": "旧采掘调度器释放出空余带宽，短时间利于补线和制造援军。",
+    "storyEn": "The extraction scheduler frees bandwidth, briefly helping construction and reinforcement production.",
+    "duration": 55,
+    "after": 210
+  },
+  "coastline": {
+    "kind": "dispatch",
+    "title": "沿岸工兵联络",
+    "titleEn": "Coastal engineer contact",
+    "story": "沿岸维护队接通了通讯。调配少量矿物可借来工兵，也可选择接收现货。",
+    "storyEn": "A coastal maintenance team reconnects. Commit a little ore for engineers or take field stock.",
+    "duration": 120,
+    "wave": 7
+  },
+  "weatheredChannels": {
+    "kind": "relay",
+    "title": "水道测绘中继",
+    "titleEn": "Channel survey relay",
+    "story": "测绘中继重新发出信号。驻留接通可换取一段施工加速，原有水路不被截断。",
+    "storyEn": "A channel-survey relay transmits again. Hold it for a construction boost without closing the waterways.",
+    "duration": 120,
+    "wave": 9
+  },
+  "navalFortress": {
+    "kind": "dispatch",
+    "title": "前线维修调度",
+    "titleEn": "Frontline repair dispatch",
+    "story": "前线工具舱抵达。是在交战中抽调工兵，还是保留库存补充后续防线，由你决定。",
+    "storyEn": "A frontline tool capsule arrives. Choose temporary engineers or retain supplies for the next defensive line.",
+    "duration": 120,
+    "after": 240
+  },
+  "frontier": {
+    "kind": "salvage",
+    "title": "边境旧货标记",
+    "titleEn": "Frontier cargo markers",
+    "story": "风卷开地表浮尘，三处旧货标记显露。短途回收能补充基础物资。",
+    "storyEn": "Wind reveals three old cargo markers. Short recovery trips replenish basic supplies.",
+    "duration": 150,
+    "after": 180
+  },
+  "fungalPass": {
+    "kind": "relay",
+    "title": "菌林中的断线端子",
+    "titleEn": "Disconnected fungal relay",
+    "story": "菌林里一段旧线路亮起。驻留完成重接后，短暂加快施工组织。",
+    "storyEn": "An old circuit lights up in the fungal passage. Hold its terminal to restore a brief construction advantage.",
+    "duration": 120,
+    "after": 180
+  },
+  "infestedCanyons": {
+    "kind": "jam",
+    "title": "峡谷通讯杂波",
+    "titleEn": "Canyon communication noise",
+    "story": "峡谷中的杂波干扰施工和制造调度。可支付少量矿物重校链路，也可等待短时干扰过去。",
+    "storyEn": "Canyon noise disrupts building and fabrication dispatch. Recalibrate with a little ore or wait out the brief interference.",
+    "duration": 35,
+    "after": 240
+  },
+  "atolls": {
+    "kind": "salvage",
+    "title": "礁岛漂流物",
+    "titleEn": "Atoll drift cargo",
+    "story": "海风送来三小批漂流货物。标记落在基地附近可站立的已知地面，不要求派出船只冒险。",
+    "storyEn": "Sea wind brings three small cargo lots onto known ground near the base. No risky naval expedition is required.",
+    "duration": 150,
+    "after": 210
+  },
+  "sunkenPier": {
+    "kind": "surge",
+    "title": "码头装卸窗口",
+    "titleEn": "Pier loading window",
+    "story": "旧码头的调度器完成清理，短暂提高施工及单位制造效率。",
+    "storyEn": "The old pier scheduler clears its queue, briefly speeding construction and unit fabrication.",
+    "duration": 55,
+    "wave": 10
+  },
+  "mycelialBastion": {
+    "kind": "dispatch",
+    "title": "林间补给联络",
+    "titleEn": "Forest logistics contact",
+    "story": "补给队从菌林边缘取得联系。工兵和现货只能择一，物资只在本次任务有效。",
+    "storyEn": "A supply team reconnects at the fungal edge. Choose engineers or stock; neither benefit persists beyond this mission.",
+    "duration": 120,
+    "after": 240
+  },
+  "overgrowth": {
+    "kind": "relay",
+    "title": "被藤蔓包围的端子",
+    "titleEn": "Overgrown service terminal",
+    "story": "藤蔓间一处旧端子开始闪烁。驻留接通线路，换取短暂扩建机会。",
+    "storyEn": "An old terminal flickers among the vines. Hold it to reconnect a short building window.",
+    "duration": 120,
+    "after": 180
+  },
+  "tarFields": {
+    "kind": "jam",
+    "title": "油雾中的信号衰减",
+    "titleEn": "Signal fading in oil haze",
+    "story": "油雾干扰了调度信号，施工与制造短暂减速。现有炮塔、发电机与运输线照常工作。",
+    "storyEn": "Oil haze weakens dispatch signals. Building and fabrication briefly slow while turrets, generators and transport continue.",
+    "duration": 35,
+    "wave": 8
+  },
+  "impact0078": {
+    "kind": "salvage",
+    "title": "雪尘中的工具残箱",
+    "titleEn": "Tools in the snow dust",
+    "story": "雪尘后露出三处工具残箱。趁风雪尚未重新覆盖它们，逐个驻留回收。",
+    "storyEn": "Snow dust reveals three tool caches. Recover them with short holds before drifting snow covers them again.",
+    "duration": 150,
+    "wave": 9
+  },
+  "desolateRift": {
+    "kind": "dispatch",
+    "title": "断层边缘的补给舱",
+    "titleEn": "Capsule at the rift edge",
+    "story": "一只补给舱滑入基地附近。调来工兵能加快临时补墙，留下现货则利于后续周转。",
+    "storyEn": "A supply capsule slides near the base. Engineers help rapid construction; stock supports later logistics.",
+    "duration": 120,
+    "wave": 5
+  },
+  "nuclearComplex": {
+    "kind": "jam",
+    "title": "旧控制网串扰",
+    "titleEn": "Legacy control-network crosstalk",
+    "story": "旧控制网出现短时串扰，只影响施工与单位制造调度。可投入基础矿物提前恢复。",
+    "storyEn": "The legacy control network suffers brief crosstalk affecting building and unit fabrication. Basic ore can restore it early.",
+    "duration": 35,
+    "wave": 10
+  },
+  "littoralShipyard": {
+    "kind": "surge",
+    "title": "船坞调度松绑",
+    "titleEn": "Shipyard scheduling release",
+    "story": "船坞调度器腾出一段带宽。利用短窗口补建前线或加快已有单位制造。",
+    "storyEn": "The shipyard scheduler frees a short window for construction and existing unit fabrication.",
+    "duration": 55,
+    "after": 240
+  },
+  "planetaryTerminal": {
+    "kind": "dispatch",
+    "title": "终端地勤请求",
+    "titleEn": "Terminal ground-service contact",
+    "story": "终端地勤建立临时联络。选择短时工兵支援，或把这一批现货留给前线。",
+    "storyEn": "Terminal ground services make temporary contact. Choose a short engineer deployment or retain their field stock.",
+    "duration": 120,
+    "after": 240
+  },
+  "onset": {
+    "kind": "dispatch",
+    "title": "初次地勤联络",
+    "titleEn": "First ground-service contact",
+    "story": "本地地勤接通通讯。基地刚刚起步，是借来短时工兵，还是先保留现货，由你决定。",
+    "storyEn": "Local ground services establish contact. The base is young: choose temporary engineers or retain their field stock.",
+    "duration": 120,
+    "after": 180
+  },
+  "aegis": {
+    "kind": "salvage",
+    "title": "庇护地的散落货物",
+    "titleEn": "Scattered shelter supplies",
+    "story": "地面浮尘下出现三处散落货物。控制单位逐处驻留回收，注意保持生产运行。",
+    "storyEn": "Settling dust reveals three supply caches. Visit them with your controlled unit while production continues.",
+    "duration": 150,
+    "after": 180
+  },
+  "lake": {
+    "kind": "relay",
+    "title": "湖岸热传感端子",
+    "titleEn": "Lakeside thermal terminal",
+    "story": "湖岸旧端子恢复微光。靠近驻留接通后，可短暂加快施工，不改变原有热源和水路。",
+    "storyEn": "A lakeside terminal glows again. Hold it for a short building window without changing heat sources or waterways.",
+    "duration": 120,
+    "after": 180
+  },
+  "intersect": {
+    "kind": "surge",
+    "title": "交汇处调度空档",
+    "titleEn": "Junction dispatch opening",
+    "story": "交汇处的自动调度器暂时释放带宽。施工和单位制造短暂提速，原有攻防阶段照常推进。",
+    "storyEn": "The junction scheduler briefly frees bandwidth for building and unit fabrication; original battle phases continue.",
+    "duration": 55,
+    "wave": 4
+  },
+  "atlas": {
+    "kind": "relay",
+    "title": "山脉测绘链路",
+    "titleEn": "Mountain survey link",
+    "story": "基地附近一处测绘端子亮起。驻留把链路接回来，就能调来短时施工支援。",
+    "storyEn": "A survey terminal near the base lights up. Hold it to reconnect the link and call temporary construction support.",
+    "duration": 120,
+    "after": 210
+  },
+  "split": {
+    "kind": "dispatch",
+    "title": "岔路地勤选择",
+    "titleEn": "Forked-route logistics choice",
+    "story": "地勤队只够承担一项任务：短时施工支援，或卸下基础物资后离开。",
+    "storyEn": "Ground services can perform one job: temporary construction support or unloading basic supplies.",
+    "duration": 120,
+    "after": 180
+  },
+  "basin": {
+    "kind": "surge",
+    "title": "盆地制造排程窗口",
+    "titleEn": "Basin manufacturing window",
+    "story": "盆地旧排程器清理了拥塞。已有施工和单位制造短暂提速，原材料消耗保持原样。",
+    "storyEn": "The basin scheduler clears its congestion. Building and fabrication briefly speed up with unchanged material costs.",
+    "duration": 55,
+    "after": 240
+  },
+  "marsh": {
+    "kind": "salvage",
+    "title": "湿地边缘的货标",
+    "titleEn": "Cargo markers by the marsh",
+    "story": "浮尘落定，三处货标显露在附近可站立地面。逐次回收即可，不需要踏入危险液体。",
+    "storyEn": "Dust settles to reveal three nearby markers on solid ground. Recover them without entering hazardous liquid.",
+    "duration": 150,
+    "after": 180
+  },
+  "peaks": {
+    "kind": "relay",
+    "title": "峰间旧测站",
+    "titleEn": "Old peak survey station",
+    "story": "峰间旧测站重新响应。让受控单位驻留接通，换取短暂的扩建机会。",
+    "storyEn": "An old peak survey station responds. Hold its marker with your controlled unit for a short construction window.",
+    "duration": 120,
+    "after": 210
+  },
+  "ravine": {
+    "kind": "dispatch",
+    "title": "溪谷维护联络",
+    "titleEn": "Ravine maintenance contact",
+    "story": "维护队抵达谷口联络点。用少量基础矿物调来工兵，或接收一批现货。",
+    "storyEn": "A maintenance team contacts the ravine base. Commit a little basic ore for engineers or accept field stock.",
+    "duration": 120,
+    "wave": 6
+  },
+  "caldera-erekir": {
+    "kind": "jam",
+    "title": "热流引发的通讯漂移",
+    "titleEn": "Thermal communication drift",
+    "story": "热流使调度信号短暂漂移。只有施工和单位制造减速，发电与运输仍正常。",
+    "storyEn": "Thermal currents briefly disrupt dispatch. Construction and fabrication slow while power and transport remain normal.",
+    "duration": 35,
+    "after": 210
+  },
+  "stronghold": {
+    "kind": "surge",
+    "title": "要塞排程间隙",
+    "titleEn": "Stronghold scheduling gap",
+    "story": "要塞旧调度网终于腾出一段空闲。抓住短暂提速的机会，补建阵地或赶制下一批部队。",
+    "storyEn": "A gap opens in the old stronghold dispatch network. Use the brief acceleration to fortify positions or fabricate the next squad.",
+    "duration": 55,
+    "after": 240
+  },
+  "crevice": {
+    "kind": "salvage",
+    "title": "裂隙浮尘下的货箱",
+    "titleEn": "Cargo beneath crevice dust",
+    "story": "裂隙浮尘散去，三处小货箱在基地附近显露。回收时间有限，但放弃不会扣星。",
+    "storyEn": "Crevice dust reveals three small nearby caches. Recovery is time limited, but skipping them never deducts stars.",
+    "duration": 150,
+    "wave": 9
+  },
+  "siege": {
+    "kind": "dispatch",
+    "title": "围攻中的维护抉择",
+    "titleEn": "Maintenance choice during the siege",
+    "story": "维护小组终于接通。是短时加快施工，还是补一点库存，为下一轮推进作准备，由你决定。",
+    "storyEn": "A maintenance crew reconnects. Choose a short construction boost or a little stock for the next advance.",
+    "duration": 120,
+    "after": 240
+  },
+  "crossroads": {
+    "kind": "relay",
+    "title": "路口协调端子",
+    "titleEn": "Crossroads coordination terminal",
+    "story": "路口的旧协调端子重新亮起。派受控单位驻留接通，给各条战线争取一段施工窗口。",
+    "storyEn": "An old crossroads terminal lights up. Hold it with your controlled unit to open a construction window for the different fronts.",
+    "duration": 120,
+    "after": 210
+  },
+  "karst": {
+    "kind": "jam",
+    "title": "岩层电磁杂波",
+    "titleEn": "Karst electromagnetic noise",
+    "story": "岩层反射引发短时调度杂波。可投入基础矿物重校，也可依靠现有阵地等待恢复。",
+    "storyEn": "Reflections from the rock cause brief dispatch interference. Recalibrate with ore or hold the current positions until recovery.",
+    "duration": 35,
+    "wave": 4
+  },
+  "origin": {
+    "kind": "surge",
+    "title": "终局维护窗口",
+    "titleEn": "Final maintenance window",
+    "story": "残存的调度网重新连通。短暂的高效窗口里，可以补建前线，也可以赶制下一支突击队。",
+    "storyEn": "The surviving dispatch network reconnects. Use its brief efficient window to reinforce the front or fabricate another assault squad.",
+    "duration": 55,
+    "after": 300
+  }
+}

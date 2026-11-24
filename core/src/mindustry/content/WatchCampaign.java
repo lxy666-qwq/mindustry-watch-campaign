@@ -133,6 +133,7 @@ public class WatchCampaign{
         }
         WatchCampaignEvents.register();
         CampaignStars.register();
+        CampaignIncidents.register();
         Events.on(ClientLoadEvent.class, e -> {
             starsDialog = new CampaignStarsDialog();
             ui.menufrag.addButton(Core.bundle.format("stars.menu", version), mindustry.gen.Icon.star, starsDialog::show);
@@ -265,7 +266,13 @@ public class WatchCampaign{
         int swarm = stage.waveOf(Change.swarm);
         if(swarm < Integer.MAX_VALUE) group(rules, UnitTypes.crawler, swarm, swarm + 2, 1, 12, 3f, main);
         int armor = stage.waveOf(Change.armor);
-        if(armor < Integer.MAX_VALUE) group(rules, level >= 7 ? UnitTypes.fortress : UnitTypes.mace, armor, Math.min(armor + 2, stage.waves), 2, 1, 8f, main);
+        if(armor < Integer.MAX_VALUE){
+            boolean transport = level == 1 || level >= 7;
+            if(transport){
+                group(rules, WatchEnemies.carrier, armor, armor, 1, 1, Float.MAX_VALUE, main);
+                if(armor + 2 <= stage.waves) group(rules, level >= 7 ? UnitTypes.fortress : UnitTypes.mace, armor + 2, armor + 2, 1, 1, Float.MAX_VALUE, main);
+            }else group(rules, UnitTypes.mace, armor, Math.min(armor + 2, stage.waves), 2, 1, 8f, main);
+        }
         int boss = stage.waveOf(Change.boss);
         if(boss < Integer.MAX_VALUE){
             var guard = group(rules, level >= 7 ? UnitTypes.scepter : level == 5 ? UnitTypes.bryde : UnitTypes.fortress, boss, boss, 1, 1, Float.MAX_VALUE, level == 5 ? sea : main);

@@ -21,6 +21,7 @@ public class WatchRewardBlocks{
     public static void load(){
         fieldBandage = new FieldBandage("field-bandage");
         WatchHeroes.load();
+        WatchEnemies.load();
     }
 
     public static void applyResearch(Rules rules){

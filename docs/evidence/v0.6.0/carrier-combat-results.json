@@ -1,0 +1,38 @@
+[
+  {
+    "mission": "watch-2",
+    "mode": "NORMAL",
+    "finished": "true",
+    "winner": "sharded",
+    "actualSpawnWaves": "16",
+    "earnedThisRun": "3",
+    "coreMinimum": "1.0",
+    "buildingsDestroyed": "3",
+    "gateVerified": "true",
+    "actualVersion": "0.6.0"
+  },
+  {
+    "mission": "watch-2",
+    "mode": "HEROIC",
+    "finished": "true",
+    "winner": "sharded",
+    "actualSpawnWaves": "16",
+    "earnedThisRun": "1",
+    "coreMinimum": "1.0",
+    "buildingsDestroyed": "6",
+    "gateVerified": "true",
+    "actualVersion": "0.6.0"
+  },
+  {
+    "mission": "watch-2",
+    "mode": "TACTICAL",
+    "finished": "true",
+    "winner": "sharded",
+    "actualSpawnWaves": "16",
+    "earnedThisRun": "1",
+    "coreMinimum": "1.0",
+    "buildingsDestroyed": "4",
+    "gateVerified": "true",
+    "actualVersion": "0.6.0"
+  }
+]
