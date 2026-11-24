@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="WatchHeroTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2026-11-24T02:11:55.685Z" hostname="LAPTOP-B3R6MC71" time="1.47">
+  <properties/>
+  <testcase name="deployConsumesMaterialsAndCanBeControlled()" classname="WatchHeroTests" time="0.096"/>
+  <testcase name="anotherPostOrDestroyedHeroCannotGrantAnotherDeployment()" classname="WatchHeroTests" time="0.066"/>
+  <testcase name="insufficientMaterialsAndMissingRewardDoNotConsumeDeployment()" classname="WatchHeroTests" time="0.029"/>
+  <testcase name="saveReloadPreservesHeroAndSpentDeployment()" classname="WatchHeroTests" time="0.092"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

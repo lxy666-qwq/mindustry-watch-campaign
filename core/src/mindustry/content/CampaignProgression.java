@@ -61,7 +61,7 @@ public class CampaignProgression{
         if(erekir){
             return switch(index){
                 case 0 -> Seq.with(Blocks.breach, WatchRewardBlocks.fieldBandage);
-                case 1 -> Seq.with(Blocks.diffuse);
+                case 1 -> Seq.with(Blocks.diffuse, WatchHeroes.post);
                 case 2 -> Seq.with(Blocks.ventCondenser, Blocks.reinforcedConduit);
                 case 3 -> Seq.with(Blocks.diffuse, Blocks.shipFabricator);
                 case 4 -> Seq.with(Blocks.disperse);
@@ -75,7 +75,7 @@ public class CampaignProgression{
         }
         return switch(index){
             case 0 -> Seq.with(Blocks.scatter, WatchRewardBlocks.fieldBandage);
-            case 1 -> Seq.with(Blocks.arc, Blocks.lancer);
+            case 1 -> Seq.with(Blocks.arc, Blocks.lancer, WatchHeroes.post);
             case 2 -> Seq.with(Blocks.wave, Blocks.mechanicalPump, Blocks.conduit);
             case 3 -> Seq.with(Blocks.hail, Blocks.ripple);
             case 4 -> Seq.with(Blocks.swarmer, Blocks.segment);
@@ -139,6 +139,11 @@ public class CampaignProgression{
             rules.tags.put(CampaignStars.prefix + "counterKit", "true");
         }
         boolean erekir = rules.planet == Planets.erekir && CampaignStars.branchIndex(mindustry.Vars.content.sector(rules.tags.get(CampaignStars.prefix + "preset"))) < 0;
+        if(CampaignStars.completedReward(1)){
+            rules.researched.add(WatchHeroes.sentinel);
+            if(rules.unitWhitelist) rules.bannedUnits.add(WatchHeroes.sentinel);
+            else rules.bannedUnits.remove(WatchHeroes.sentinel);
+        }
         for(int index = 0; index < WatchCampaign.sectors.length; index++){
             if(!CampaignStars.completedReward(index)) continue;
             for(var block : rewardSet(index, erekir)){
